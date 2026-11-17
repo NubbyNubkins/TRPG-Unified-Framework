@@ -1,0 +1,13 @@
+check against Buttazzo et al. 2013 (m_t 173.34, m_H 125.15, alpha_s 0.1184): lambda(M_Planck) = -0.0151  (their value -0.0143 at 3 loops)
+  and m_H for lambda(M_Planck)=0 at m_t 173.34: 130.07 (their stability bound 129.6 is a nearby but not identical condition)
+
+today's inputs: m_t 172.57, alpha_s 0.1180, m_W 80.369; lambda today at the grain with the measured m_H:
+  Standard Model only    lambda(grain) = -0.0110
+  with the far side      lambda(grain) = -0.0058
+
+grain Planck/sqrt2 (main)  SM only       : m_H =  128.78 +- 1.47 GeV  (top 0.61, alpha_s -0.75, pole 1.05, loops 0.30)  vs 125.20: +2.4 sigma -> PARTIAL
+grain Planck/sqrt2 (main)  with far side : m_H =  127.21 +- 1.50 GeV  (top 0.63, alpha_s -0.78, pole 1.08, loops 0.30)  vs 125.20: +1.3 sigma -> PASS
+grain Planck               SM only       : m_H =  128.77 +- 1.47 GeV  (top 0.61, alpha_s -0.76, pole 1.06, loops 0.30)  vs 125.20: +2.4 sigma -> PARTIAL
+grain Planck               with far side : m_H =  127.15 +- 1.51 GeV  (top 0.63, alpha_s -0.78, pole 1.08, loops 0.30)  vs 125.20: +1.3 sigma -> PASS
+
+top pole mass the rule would need for m_H = 125.20: SM only 170.85 GeV, with far side 171.63 GeV (measured 172.57 +- 0.29)

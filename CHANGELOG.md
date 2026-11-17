@@ -2,7 +2,7 @@
 
 ## 1.2.0 (17 November 2026)
 
-- Paper brought up to 17 November 2026: 28 measured inputs; the force-groups section rewritten (only the strengths remain); the strong coupling added as a dated prediction; results that wait on a measurement are marked "awaiting measurement" and are not counted as established until it returns.
+- Paper brought up to 17 November 2026: 27 measured inputs; the force-groups section rewritten (only the strengths remain); the strong coupling added as a dated prediction; results that wait on a measurement are marked "awaiting measurement" and are not counted as established until it returns.
 - New folder `analysis/`: every test run from 14 to 17 November with its saved output, including the tests that failed.
 - New folder `figures/`: the geometry figures and the scripts that draw them.
 - New workbooks in `data/`: quark and gluon, energy, size and three-way carrier matrices.
@@ -11,6 +11,10 @@
 - ORCID added for Matthew Gelfman.
 - Corrections: neutrino sum quoted as 0.0592 to 0.0594 eV, depending on which global fit of the splittings is used; Standard Model strength miss quoted as 8.9% at two loops (was 10.6% from a mixed method); the dark matter candidate's mass is not fixed (the earlier 1.4 keV and 3.4 keV values are withdrawn); quark pairing gap 82 to 97 MeV.
 - Melissa Gelfman added as co-author.
+- The Higgs mass follows from a rule at the grain of space (Shaposhnikov and Wetterich, 2010): 127.2 ± 1.5 GeV with the far-side states against 125.20 ± 0.11 measured (128.8 ± 1.5 with the Standard Model's states alone). Awaiting measurement; the measured inputs go from 28 to 27. Script: `analysis/higgs_at_the_grain_2026-11-17.py`.
+- No proton decay is proven for the framework's content from the tables of the 27. Script: `analysis/e6_tables_no_proton_decay_2026-11-17.py`.
+- Dark energy: the main line sets its size by the grain of space and the horizon together, and it need not be constant.
+- Paper title now ends "with testable predictions".
 
 ## 1.1.1 (14 November 2026, night)
 

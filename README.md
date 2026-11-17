@@ -21,7 +21,8 @@ Each of these follows within the framework and is **awaiting measurement**. None
 | Quark triangle angle γ | 64.1–67.6° | LHCb, Belle II |
 | Quark pairing gap in neutron stars | about 82–97 MeV | theory and merger signals |
 | Neutrinoless double beta decay | 1.3–3.9 meV | beyond planned reach |
-| Proton decay | none | Hyper-Kamiokande |
+| Proton decay | none (proven for the framework's content; the grain alone gives about 10⁴⁴ years) | Hyper-Kamiokande |
+| Higgs mass from the grain of space | 127.2 ± 1.5 GeV (measured 125.20 ± 0.11); needs a top mass of 171.6 GeV against 172.57 ± 0.29 | a sharper top-quark mass |
 
 ## Results you can rerun
 
@@ -38,7 +39,7 @@ Each of these follows within the framework and is **awaiting measurement**. None
 | Quark charges, given 3 colours | +2/3, −1/3 | same | `area_law_and_charges` |
 | Black-hole ringdown (GW150914) | 250 Hz, 4.0 ms | matches | `ringdown_check` |
 
-**Status (17 November 2026):** 7 of 9 Theory-of-Everything requirements met and 2 partly met, using 28 measured numbers.
+**Status (17 November 2026):** 7 of 9 Theory-of-Everything requirements met and 2 partly met, using 27 measured numbers. The Higgs mass, formerly the 28th, follows from a rule at the grain of space (Shaposhnikov and Wetterich, 2010) and is awaiting measurement; other extra weak matter at high energy would help in the same way, so it does not single out TRPG.
 
 - **Force groups: partly met, awaiting measurement.** Which forces exist, their charges and one-handed matter follow from the relationship matrix. Only the force strengths remain. They meet if three colourless far-side states of the matrix (named MMG) sit at 2.4 × 10⁸ GeV, which requires the strong coupling above. Not 100% until that measurement returns.
 - **Quark link strengths: partly met, awaiting a rule.** Three numbers (the press on the down quarks and the two ladder openings) have no rule. No experiment closes this; it needs a new idea.
