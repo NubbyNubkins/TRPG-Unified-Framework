@@ -1,0 +1,5 @@
+alpha_s(2 GeV)=0.2966  alpha_s(mt)=0.1086
+at     2.0 GeV: u 0.00216 d 0.00470 s 0.0935 c 1.115 b 4.892 t 288.4 GeV | up-type Q=0.8852 angle 52.15 | down-type Q=0.7461 angle 48.06
+at    91.2 GeV: u 0.00128 d 0.00278 s 0.0552 c 0.658 b 2.889 t 170.3 GeV | up-type Q=0.8852 angle 52.15 | down-type Q=0.7461 angle 48.06
+at   162.5 GeV: u 0.00122 d 0.00265 s 0.0527 c 0.628 b 2.756 t 162.5 GeV | up-type Q=0.8852 angle 52.15 | down-type Q=0.7461 angle 48.06
+at  1000.0 GeV: u 0.00107 d 0.00234 s 0.0465 c 0.554 b 2.432 t 143.4 GeV | up-type Q=0.8852 angle 52.15 | down-type Q=0.7461 angle 48.06

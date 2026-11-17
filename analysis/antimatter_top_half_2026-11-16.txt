@@ -1,0 +1,25 @@
+1) Is antimatter lighter? Lab tests (matter vs antimatter weight)
+   proton vs antiproton, charge-to-mass (BASE 2022)    : equal to 1.6e-11
+   hydrogen vs antihydrogen 1S-2S light (ALPHA 2018)   : equal to 2e-12
+   neutral kaon vs antikaon mass (PDG 2024)            : equal to 6e-19
+   electron vs positron mass (PDG 2024)                : equal to 8e-9
+   antihydrogen falls (ALPHA-g 2023)                   : 0.75 +- 0.21 g, down, not up
+   => antimatter lighter: FAIL (any lightness would have to be below these levels)
+
+2) Equal antimatter hidden nearby? Annihilation glow at matter/antimatter borders not seen;
+   domains must be at least about the size of the visible universe (Cohen, De Rujula & Glashow 1998); no antihelium confirmed (AMS-02)
+
+3) Equal and opposite matter number stored in weakly-linked top-half particles (Dirac leptogenesis, Dick, Lindner, Ratz & Wright 2000)
+   needs neutrinos WITHOUT their own heavy (Majorana) weight; main line has the seesaw planks -> conflicts with main line
+   deciding test: neutrinoless double beta decay. Main line (Majorana): m_bb = 1.2 to 3.9 meV; Dirac picture: exactly 0
+   next experiments reach about 10-20 meV (LEGEND-1000, nEXO): cannot decide before ~2035+
+
+4) Energies made of matter-antimatter pairings (known physics, HOLDS):
+   pion (quark + antiquark)                    : 140 MeV; every meson is a matter-antimatter pair
+   positronium para (e- e+, spins opposite)    : lives 1.25e-10 s
+   positronium ortho (spins same)              : lives 1.42e-7 s: 1,100x longer, a 'stage of stability'
+   neutral kaon                                : switches matter<->antimatter 5.6e9 times a second
+   proton sea                                  : quark-antiquark pairs carry a few % of its momentum
+   force strengths running                     : made entirely of virtual particle-antiparticle pairs; MMG pairs join above 2.4e8 GeV
+
+5) Matter side vs antimatter side differ only by the mixing-triangle area J = 3.08e-05 (Jarlskog 1985); weights identical

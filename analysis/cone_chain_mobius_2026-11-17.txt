@@ -1,0 +1,19 @@
+(1) Sign flips of each ladder's wave in one full turn (Moebius needs an ODD number)
+  neutrinos  wave height/average e=1.071 -> 2 flips (over and back); stretch on the other face = 41.9 deg of the 360
+  leptons    wave height/average e=1.414 -> 2 flips (over and back); stretch on the other face = 90.0 deg of the 360
+  hidden     wave height/average e=1.630 -> 2 flips (over and back); stretch on the other face = 104.3 deg of the 360
+  down       wave height/average e=1.545 -> 2 flips (over and back); stretch on the other face = 99.3 deg of the 360
+  up         wave height/average e=1.759 -> 2 flips (over and back); stretch on the other face = 110.7 deg of the 360
+  spin 1/2: one full turn multiplies the wave by -1 (1 flip per turn = Moebius); two turns restore it. Measured: Rauch 1975, Werner 1975 (neutrons).
+
+(2) The cone repeated: each copy = mirror of the one before through the one between (per rung)
+  copy 0 (inward)  rungs 2.54e-13 7.03e-13 1.41e-12 eV | middle 6.32e-13 eV | steps x2.774 x2.008 | twist  29.29 opening 18.34 gap-to-edge 36.40
+  1 neutrinos      rungs 0.00036 0.00862 0.0501 eV | middle 0.00538 eV | steps x23.95 x5.811 | twist  20.86 opening 37.13 gap-to-edge 17.61
+  2 leptons        rungs 5.11e+05 1.06e+08 1.78e+09 eV | middle 4.58e+07 eV | steps x206.8 x16.82 | twist  12.73 opening 45.00 gap-to-edge  9.74
+  3 hidden         rungs 7.25e+14 1.29e+18 6.3e+19 eV | middle 3.9e+17 eV | steps x1785 x48.67 | twist   7.45 opening 49.05 gap-to-edge  5.68
+  4 next out       rungs 1.03e+24 1.59e+28 2.24e+30 eV | middle 3.32e+27 eV | steps x1.541e+04 x140.9 | twist   4.32 opening 51.38 gap-to-edge  3.36
+  equal jump between copies: x8.51e+09
+  grain = 8.63e+27 eV; copy 4 rungs / grain = [1.19301039e-04 1.83882118e+00 2.59002537e+02]
+  copy 4 for other lightest neutrinos (rung 1 / grain): [(0.1, 0.001546141465475552), (0.36, 0.00011930103900274323), (1.0, 1.546141465475552e-05)]
+  twist shrink per copy: [0.61  0.585 0.58 ]   gap-to-edge shrink: [0.553 0.584 0.591]
+  compare up quarks: twist 4.27 gap 3.54 ; down: twist 6.31 gap 7.20

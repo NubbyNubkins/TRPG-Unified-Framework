@@ -1,0 +1,55 @@
+
+====================================================================================================
+A. The pushes that are already in known physics, and how big each is
+====================================================================================================
+  How to read the sizes: 'per step' = per factor of 2.7 in the energy at which the particle is looked at. There are about 32 such steps between
+  the top's energy and the energy where the forces meet, and about 12 between the electron's mass and the top's.
+  A1. THROUGH THE HIGGS, shared by all. Every Higgs link is pulled by the sum of the squares of ALL the links, quarks counted three times (colour).
+      Quarks on every lepton link: 1.67% per step (almost all of it the top).
+      Leptons on every quark link: 6.4e-05% per step (almost all of it the tau).
+      The SAME for all three rungs of a ladder: it changes a ladder's SIZE and leaves its SHAPE (opening, twist) alone.
+      It is lopsided by a factor of about 26,000: the quarks push the leptons; the leptons barely push back.
+  A2. INSIDE A WEAK PAIR, rung by rung. The two members of a pair push on each other's links with OPPOSITE signs: a true push/pull.
+      top on bottom: -0.83% per step;  bottom on top: -2.6e-04%;  charm on strange: -1.2e-05%;  tau on its neutrino: -9.6e-05%.
+      This one DOES change shapes: it is why the down ladder's shape and the tilt between the ladders drift above the top's energy.
+      It acts only between partners of one pair. Nothing of this kind joins a quark to a lepton.
+  A3. THROUGH THE ELECTRIC FORCE, each on itself. A charged particle's own electric cloud shifts its mass by an amount set by its charge squared
+      and by its own mass, so it changes shapes. Between the lightest and heaviest rung of each ladder (mass as weighed against one common energy):
+         leptons      2.84%
+         down ladder  0.27%
+         up ladder    1.82%
+  A4. THROUGH THE PHOTON, quark on lepton and lepton on quark. Quark pairs flicker inside the photon that makes a lepton's electric cloud, and
+      lepton pairs inside a quark's. Size: about (strength/pi)^2 = 5.4e-06 times a few, so 1e-5 to 1e-4 of the mass, differing rung to rung.
+  -> So YES: quarks and leptons do push on each other's values, and it is small. Directly (A4): about a part in 100,000. Through the Higgs (A1):
+     large but shape-blind. The only strong rung-by-rung push/pull (A2) is between the two members of one pair, quark with quark.
+
+====================================================================================================
+B. Is any push the right size, and the right direction, to close a near miss?
+====================================================================================================
+  B1. The lepton cone, and its size against one third of the proton (313.85 against 312.76 MeV, 0.35% apart):
+         masses as weighed                size 313.85 MeV (+0.35% from proton/3)   opening 45.000 deg   relationship/self 0.99999
+         all at the proton's own energy   size 313.10 MeV (+0.11% from proton/3)   opening 45.050 deg   relationship/self 1.00346
+         all at the Z's energy            size 308.10 MeV (-1.49% from proton/3)   opening 45.050 deg   relationship/self 1.00352
+      The size equals proton/3 exactly at a common energy of about 1285 MeV. But there the opening is 45.050 deg, no longer 45.
+      So the electric push is the RIGHT SIZE to move the 0.35%, but it cannot make both numbers exact at once: the cone is exact only for masses as
+      weighed, the size match only near 1.3 GeV, and nothing in TRPG picks 1.3 GeV. FAIL as a fix. The 0.35% stays a near miss.
+      The real puzzle it exposes (Sumino 2009): the electric push should spoil the balance (relationship/self) by 0.35%, yet for masses as weighed it holds to 0.001%.
+  B2. The quark ladders against 5/4 and 5/3. Put the quarks on the leptons' footing: add each quark's own electric cloud down to its own
+      mass (or, since a light quark is never free, only down to 300 or 1000 MeV):
+         cloud counted down to its own mass : down ladder 1.2460 (was 1.2465; 5/4 = 1.2500)    up ladder 1.6542 (was 1.6556; 5/3 = 1.6667)
+         cloud counted down to 300 MeV      : down ladder 1.2463 (was 1.2465; 5/4 = 1.2500)    up ladder 1.6543 (was 1.6556; 5/3 = 1.6667)
+         cloud counted down to 1000 MeV     : down ladder 1.2464 (was 1.2465; 5/4 = 1.2500)    up ladder 1.6544 (was 1.6556; 5/3 = 1.6667)
+      Both move AWAY from the simple values, and by less than a fifth of the gap. Too small AND the wrong direction. FAIL.
+  B3. The larger misses: charm in the colour rule (+6.8%), one strength for all forces (10.6%), the top against the full link (0.9%).
+      The quark-lepton pushes are at most 2.8% (A3) or shape-blind (A1). They cannot reach the first two.
+      The top: its link is itself pushed about 5% per step by its own size and the strong force; 'equal to 1' would hold at one energy only. Already FAIL (34.4).
+
+====================================================================================================
+C. Summary
+====================================================================================================
+  YES  : quarks and leptons push on each other's values. Three real routes, sizes above. Standard physics; nothing added.
+  SHAPE: the big push (through the Higgs) cannot change a ladder's shape; the pushes that can are small, or act only inside one weak pair.
+  FAIL : as the reason the math is 'close but not precise'. No miss is closed: the quark ladders move the wrong way and too little, and the
+         lepton size can be matched to the proton only by spoiling the 45 degrees.
+  KEPT : where a rule holds exactly matters. The lepton cone is exact for masses as weighed and for no common energy. Any quark rule must say
+         which footing it uses BEFORE it is tested; the electric push alone moves the answer by tenths of a per cent.

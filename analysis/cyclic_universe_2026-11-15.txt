@@ -1,0 +1,23 @@
+1. Where the universe's entropy is (Egan & Lineweaver 2010, in units of k):
+  stars                      1e81
+  cosmic background light    2e89
+  relic neutrinos            2e89
+  stellar black holes        ~1e97
+  supermassive black holes   3e104
+  One Sun-mass black hole: S/k = 1.0e+77; the Sun as a star ~1e58. Gobbling by black holes IS the growth of disorder.
+
+2. Bigger black holes leak less (Hawking): leak temperature and lifetime
+   1.00e+00 Suns: temperature 6.2e-08 K, lifetime 2.1e+67 years
+   4.30e+06 Suns: temperature 1.4e-14 K, lifetime 1.7e+87 years
+   1.00e+11 Suns: temperature 6.2e-19 K, lifetime 2.1e+100 years
+  So taking in more makes a black hole MORE contained, not less; it becomes uncontainable only at the small end (final burst).
+
+3. Universe as a black hole: mass inside the Hubble radius at critical density 9.2e+52 kg has a horizon 14.5 Gly = Hubble radius 14.5 Gly
+  This is an exact identity for a flat universe (r_s = c/H), so it is why the idea recurs, not evidence for it (Pathria 1972; Poplawski 2010).
+
+4. Can everything recombine? With constant dark energy (TRPG an earlier test: a kept amount) the expansion accelerates forever.
+  Galaxies beyond ~16 Gly (today's cosmic event horizon) can never reach us; only the Local Group merges. Black holes then evaporate
+  (lifetimes above). End state: cold, dilute light, not one singularity. A recollapse needs dark energy to change sign; TRPG's own rule says it does not.
+  The closest working cycle is Penrose's conformal cyclic cosmology: after black holes evaporate only massless light is left, nothing
+  measures size, and the cold vast end looks like a new hot beginning. No recollapse needed; its claimed evidence ('Hawking points',
+  An, Meissner & Penrose 2018) is disputed.

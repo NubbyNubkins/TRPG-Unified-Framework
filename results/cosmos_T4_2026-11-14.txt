@@ -1,0 +1,4 @@
+dark energy density = 3.279e-42 MeV/fm^3 ; proton-scale baseline B = 66 MeV/fm^3 ; ratio B/rho_L = 2.0e+43
+baseline energy scale: proton layer 150 MeV ; dark-energy layer 2.24 meV
+compare M2 neutrino masses (meV): 0.36, 8.7, 50.1 ; sqrt(m1*m2) = 1.77 meV ; m2/4 = 2.17
+Hubble sphere: R = 1.37e+26 m, M = 9.24e+52 kg, compactness 2GM/(Rc^2) = 1.0000 (exactly 1 for a flat universe)

@@ -1,0 +1,55 @@
+Candidates fixed before running. Spinning top: tip = light quark corner (1% of press), body = heavy + middle.
+A. Thirds sizes kept exactly; how far the tip turns in place:
+  a quarter turn, 90 deg (rule 4; an earlier test)    : tilts chi2   34.21 | with beta,gamma  145.01 | alpha 83.8 beta 26.79 gamma 69.4 J 3.42e-05
+  one point of a three-point top, 120 deg     : tilts chi2  557.31 | with beta,gamma 2051.05 | alpha 160.3 beta 8.55 gamma 11.2 J 7.84e-06
+  half a point, 60 deg                        : tilts chi2 1065.43 | with beta,gamma 6473.81 | alpha 70.0 beta 52.00 gamma 58.0 J 2.27e-05
+  the 45-degree balance                       : tilts chi2 1037.30 | with beta,gamma 3589.63 | alpha 170.3 beta 3.66 gamma 6.0 J 2.37e-06
+B. Quarter turn kept; the tip's contact patch (extra size f on the light corner):
+  spin averaging, rms/mean of a turning wave = pi/(2 sqrt2)  f=1.1107: tilts chi2   13.08 | with beta,gamma   26.30 | beta 21.18 gamma 63.4
+  tip shares the body's spin: sqrt(1 + 1/9)                  f=1.0541: tilts chi2    3.55 | with beta,gamma   13.33 | beta 23.85 gamma 66.3
+  tip shares with both body corners: sqrt(1 + 2/9)           f=1.1055: tilts chi2   10.81 | with beta,gamma   20.17 | beta 21.40 gamma 63.7
+  1/cos of the axis tilt (20 deg)                            f=1.0642: tilts chi2    2.56 | with beta,gamma    6.04 | beta 23.35 gamma 65.7
+C. Thirds kept, tip turn left free (what the data want):
+  turn  60 deg: tilts  1065.43  with angles  6473.78
+  turn  65 deg: tilts   766.25  with angles  3931.83
+  turn  70 deg: tilts   493.27  with angles  2175.09
+  turn  75 deg: tilts   263.77  with angles  1024.33
+  turn  80 deg: tilts    97.10  with angles   345.71
+  turn  85 deg: tilts    14.05  with angles    43.76
+  turn  90 deg: tilts    34.21  with angles   145.01
+  turn  95 deg: tilts   135.06  with angles   556.41
+  turn 100 deg: tilts   311.70  with angles  1308.98
+  turn 105 deg: tilts   537.58  with angles  2455.39
+  turn 110 deg: tilts   606.84  with angles  1587.27
+  turn 115 deg: tilts   583.56  with angles  1832.12
+  turn 120 deg: tilts   557.31  with angles  2051.05
+  turn 125 deg: tilts   530.71  with angles  2239.81
+  turn 130 deg: tilts   505.40  with angles  2407.42
+  turn 135 deg: tilts   482.14  with angles  2564.56
+  turn 140 deg: tilts   461.29  with angles  2714.67
+  turn 145 deg: tilts   442.99  with angles  2862.91
+  turn 150 deg: tilts   427.27  with angles  3010.43
+  turn 155 deg: tilts   414.11  with angles  3158.89
+  turn 160 deg: tilts   403.45  with angles  3309.94
+  turn 165 deg: tilts   395.23  with angles  3464.06
+  turn 170 deg: tilts   389.41  with angles  3622.01
+  turn 175 deg: tilts   385.93  with angles  3784.48
+  turn 180 deg: tilts   384.78  with angles  3952.70
+  best: (85, np.float64(43.761204537456116), 14.047403507250493, (np.float64(93.42927375699094), np.float64(24.727538386661184), np.float64(61.84318785634789), np.float64(3.220253592490644e-05)))
+
+D. self-consistent lean
+self-consistent lean: cos(lean) = s3 = 0.94281 ; 1/cos = 1.06066 = f = 1.06066
+central: tilts chi2 2.76 beta 23.52 gamma 65.9
+  down mass 0 +1 sigma: beta 23.52 (-0.00)
+  down mass 0 -1 sigma: beta 23.52 (+0.00)
+  up mass 0 +1 sigma: beta 23.43 (-0.09)
+  up mass 0 -1 sigma: beta 23.61 (+0.09)
+  down mass 1 +1 sigma: beta 23.61 (+0.09)
+  down mass 1 -1 sigma: beta 23.43 (-0.09)
+  up mass 1 +1 sigma: beta 23.51 (-0.01)
+  up mass 1 -1 sigma: beta 23.53 (+0.01)
+  down mass 2 +1 sigma: beta 23.49 (-0.03)
+  down mass 2 -1 sigma: beta 23.55 (+0.03)
+  up mass 2 +1 sigma: beta 23.54 (+0.02)
+  up mass 2 -1 sigma: beta 23.50 (-0.02)
+beta theory error from input quark masses ~ +-0.13 deg; total pull = +2.2 sigma

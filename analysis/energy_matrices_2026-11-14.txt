@@ -1,0 +1,82 @@
+
+========================================================================================================
+1. PUSH/PULL #1, ELECTRIC. Energy of each pair bound by its own charges: (alpha q1 q2)^2 x (pair's balance mass) / 2   [Bohr 1913]
+========================================================================================================
+  The pair's balance mass (reduced mass) is EXACTLY sqrt(m1 m2) / (your link value): m1 m2/(m1+m2) = sqrt(m1 m2) x sqrt(m1 m2)/(m1+m2).
+  So the every-particle table's link column already IS the binding matrix, divided into the pair's geometric-mean mass. Check, all pairs:
+     largest difference over 16 pairs: 2.2e-16 (identity)
+  pair                       link value   binding (lowest level)   comparison
+  hydrogen (p, e)               42.8737               13.5983 eV   measured 13.598 eV  (difference -0.001%, the rest is known small corrections)
+  positronium (e+, e)            2.0000                6.8028 eV   measured 6.803 eV  (difference -0.001%, the rest is known small corrections)
+  muonium (mu+, e)              14.4490               13.5402 eV   theory/measured 13.54 eV  (difference +0.009%, the rest is known small corrections)
+  muonic hydrogen (p, mu)        3.3155                2.528 keV   2.53 keV (from measured 2P-1S lines)  (difference +0.008%, the rest is known small corrections)
+  true muonium (mu+, mu)         2.0000                1.407 keV   NEVER OBSERVED (searches planned)
+  tauonium (tau+, tau)           2.0000               23.655 keV   never observed
+  tau-hydrogen (p, tau)          2.1028               16.349 keV   never observed
+
+========================================================================================================
+2. PUSH/PULL #2, STRONG. Quark pairs: energy = masses + colour-magnetic link between every pair   [Sakharov & Zeldovich 1966; DGG 1975]
+========================================================================================================
+  Mesons (quark + antiquark) and baryons (three quarks). Each pair of quarks adds a(s1.s2)/(m1 m2): the spins' relationship divided by the masses.
+
+  mesons: 5 numbers fitted (four quark home masses + one link strength) against 18 particles
+    home masses: up/down 309.6, strange 486.6, charm 1573.9, bottom 4862.7 MeV
+    pi 138/138  K 490/496  rho 779/775  omega 779/783  K* 898/894  phi 1038/1020  D 1789/1867  D* 1915/2009  Ds 2000/1968  Ds* 2081/2112  eta_c 3129/2984  J/psi 3154/3097  B 5142/5280  B* 5183/5325  Bs 5330/5367  Bs* 5356/5415  eta_b 9723/9399  Upsilon 9726/9460
+    typical miss 2.49%, worst 4.9% (eta_c)
+
+  baryons: 5 numbers fitted (four quark home masses + one link strength) against 14 particles
+    home masses: up/down 364.7, strange 534.6, charm 1695.9, bottom 5043.5 MeV
+    N 945/939  Delta 1243/1232  Lambda 1115/1116  Sigma 1178/1193  Sigma* 1381/1385  Xi 1322/1318  Xi* 1524/1533  Omega 1673/1672  Lambda_c 2277/2286  Sigma_c 2432/2454  Sigma_c* 2496/2518  Omega_c 2759/2695  Lambda_b 5624/5620  Sigma_b 5808/5813
+    typical miss 0.87%, worst 2.4% (Omega_c)
+
+  TRPG reading: the up/down home mass from mesons, 309.6 MeV, against one third of the proton, 312.76 MeV (and the lepton cone's size 313.85):
+    difference -1.0%. From baryons it is ~360 MeV, so this is a reading of one fit, not a law.
+  The strong force's own 'hydrogen' (colour charge 4/3 between quark and antiquark), toponium, the heaviest pair:
+    alpha_s = 0.13: binding 1.30 GeV  (top pair threshold excess seen by CMS and ATLAS 2025; theory ~2 GeV, Fadin & Khoze 1987)
+    alpha_s = 0.15: binding 1.73 GeV  (top pair threshold excess seen by CMS and ATLAS 2025; theory ~2 GeV, Fadin & Khoze 1987)
+    alpha_s = 0.17: binding 2.22 GeV  (top pair threshold excess seen by CMS and ATLAS 2025; theory ~2 GeV, Fadin & Khoze 1987)
+
+========================================================================================================
+3. PERSPECTIVE #1, WEAK. The W matrix: each entry turns one particle's perspective into another's; energy = rate of the turn   [Fermi 1934]
+========================================================================================================
+  Rate of a turn from i to j: G_F^2 |V_ij|^2 m_i^5 /(192 pi^3) x (number of open ways). Every entry uses the same G_F (one strength).
+  tau lifetime from the muon's (same strength, same shape; uses the measured share 17.82% for the electron route): 291.1 fs, measured 290.3 fs (+0.3%)
+  top's width (top turns to bottom, |V_tb| = 1): 1.48 GeV, with the strong-force correction 1.35 GeV; measured 1.42 (+0.19 -0.15) GeV
+  These are perspective turns in the plain sense: the particle stops being itself and becomes another. That is what the W entries do.
+
+========================================================================================================
+4. PERSPECTIVE #2, GRAVITY. Energy of each pair held by gravity, against what its charges hold   [Dirac 1937; Stoney 1881]
+========================================================================================================
+  Gravity's entry for a pair is m1 m2 / M_Planck^2 (no charge, only mass). Ratio to the electric entry alpha q1 q2:
+    e, p    gravity / electric = 4.408e-40
+    e, e    gravity / electric = 2.401e-43
+    p, p    gravity / electric = 8.094e-37
+    mu, mu  gravity / electric = 1.026e-38
+  Mass at which gravity equals electric for a charge-1 pair: sqrt(alpha) M_Planck = 1.043e+18 GeV (Stoney's mass, 1881).
+
+========================================================================================================
+5. THE SHAPES. Test of the frame: what kind of matrix is each relationship?
+========================================================================================================
+  electric (q1 q2)          : rank 1 (a product: every pair = my number x your number; nobody changes identity)
+  gravity (m1 m2)           : rank 1 (a product: every pair = my number x your number; nobody changes identity)
+  Higgs link (m1 m2 / v^2)  : rank 1 (a product: every pair = my number x your number; nobody changes identity)
+  W matrix (quarks)          : rank 3, rows each sum (squared) to [1. 1. 1.]: a rotation (it TURNS one into another)
+  gluon (colour)             : rotation in colour (turns red into blue) AND, summed over colours, a product (the colour-blind total that binds)
+  Higgs vs gravity, for elementary particles: same matrix up to one number,
+    Higgs entry / gravity entry = M_Planck^2/(4 pi v^2) = 1.957e+32 for EVERY elementary pair
+    (but the Higgs link reaches only 1.6e-03 fm, a thousandth of a proton; gravity reaches without limit)
+  Results of the shape test:
+   HOLDS  weak = perspective: the W matrix is a rotation, the only family-crossing one; its entries turn identity. Push/pull matrices never do.
+   HOLDS  strong + electric = push/pull: product-shaped (colour-blind part for strong), they hold energy between partners who stay themselves.
+   FAILS  gravity = perspective, in matrix form: gravity's matrix is a product (m1 m2), the push/pull shape, and changes no identity.
+          It has the same shape as the Higgs link, 2e32 times weaker per pair at short range. Its perspective side (entanglement, geometry) is not visible
+          in an energy matrix at all; it would have to show in which pairs are linked, not in how much energy they hold.
+   HOLDS  the Z: its matrix is a product of weak charges, so the weak force has a push/pull half (Z) and a perspective half (W).
+
+========================================================================================================
+6. Summary
+========================================================================================================
+  Energy matrices reproduce known values well (hydrogen, positronium, muonium exact to known corrections; 14 baryons to 0.9% and 18 mesons to 2.5%, 5 numbers each;
+  tau lifetime and top width from one strength). They predict pairs never seen (true muonium 1.41 keV, tauonium 23.7 keV). All of this is
+  known physics. What it says about TRPG: the link value is exactly the binding factor, and the four forces sort into products (push/pull) and rotations
+  (perspective turns), with gravity on the product side. No open item moved: the matrices take the masses and strengths as inputs.

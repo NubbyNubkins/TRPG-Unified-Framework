@@ -1,0 +1,6 @@
+proton (charge radius, muonic H)   radius 0.8407 fm, own wave 0.2103 fm, ratio 3.998 +- 0.003  (-0.8 sigma from 4)
+neutron (magnetic radius)          radius 0.8640 fm, own wave 0.2100 fm, ratio 4.114 +- 0.043  (+2.7 sigma from 4)
+charged pion                       radius 0.6590 fm, own wave 1.4138 fm, ratio 0.466 +- 0.003  (-1249.1 sigma from 4)
+charged kaon                       radius 0.5600 fm, own wave 0.3997 fm, ratio 1.401 +- 0.078  (-33.5 sigma from 4)
+deuteron                           radius 2.1280 fm, own wave 0.1052 fm, ratio 20.227 +- 0.007  (+2307.0 sigma from 4)
+helium-4 nucleus                   radius 1.6755 fm, own wave 0.0529 fm, ratio 31.649 +- 0.053  (+522.8 sigma from 4)

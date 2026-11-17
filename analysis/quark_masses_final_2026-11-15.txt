@@ -1,0 +1,222 @@
+====================================================================================================
+0. FOOTING AND INPUTS
+====================================================================================================
+masses at the top's energy (MeV): up ladder [     1.242    627.8   162500.   ], down ladder [   2.678   53.36  2873.   ]
+relative errors used: up [0.034 0.01  0.006], down [0.018 0.014 0.005]; tilts [0.225  0.0418 0.0037 0.0086] +- [0.0007 0.0007 0.0001 0.0002]
+running integral I = int y_t^2/(16 pi^2) dln(mu) from m_t to 2.1e8 GeV = 0.0484; so m_c/m_t falls by 0.930x, m_s/m_b rises by 1.075x,
+  and the small tilts |Vcb|, |Vub|, |Vtd| fall by 0.930x; ratios inside the light pairs (u/c, d/s) and |Vus| do not move.
+
+====================================================================================================
+1. (a) PAIR versus SINGLE as the cause of the two bubble shapes
+====================================================================================================
+top's energy         signs (1, -1): up split 8.9813e-04 break -0.01728 | down split -2.2229e-02 break -0.07787 | split ratio 24.75, break ratio 4.506
+top's energy         signs (-1, 1): up split 8.8780e-04 break +0.01742 | down split -2.1082e-02 break +0.08099 | split ratio 23.75, break ratio 4.650
+far-side 2.1e8 GeV   signs (1, -1): up split 8.3494e-04 break -0.01608 | down split 2.3954e-02 break -0.08362 | split ratio 28.69, break ratio 5.200
+far-side 2.1e8 GeV   signs (-1, 1): up split 8.2601e-04 break +0.01620 | down split -2.2627e-02 break +0.08722 | split ratio 27.39, break ratio 5.386
+with the mass errors (400 draws), signs (1, -1): split ratio 24.77 +- 0.57, break ratio 4.508 +- 0.084
+with the mass errors (400 draws), signs (-1, 1): split ratio 23.73 +- 0.49, break ratio 4.648 +- 0.094
+
+Same facts in plain mass ratios (top's energy): m_c/m_t 0.00386, m_s/m_b 0.01857 (ratio 4.81); m_u/m_c 0.001978, m_d/m_s 0.05019 (ratio 25.4)
+
+Rule PS1 (Clebsch counting, one Higgs link; Gursey, Ramond & Sikivie 1976; Georgi & Jarlskog 1979):
+  in E6 (27x27x27) and SO(10) (16x16x10) a single link gives up matrix = down matrix times one number. The 1-versus-3 Clebsch factor
+  of Georgi & Jarlskog acts between quarks and leptons, never between up and down. Prediction: split ratio 1, break ratio 1.
+  measured 24.8 and 4.51: FAIL (by 24x and 4.5x).
+Rule PS2 (the pair is counted twice: up mass = pair x pair, down mass = pair x single; Georgi & Glashow 1974; Froggatt & Nielsen 1979;
+  Bando & Kugo 1999). If the family steps live in the pairs, each up step is the SQUARE of the down step.
+  light step: m_u/m_c = 0.001978 against (m_d/m_s)^2 = 0.002519: 1.27x, 4.2 sigma (same on every footing); exponent 2.08 (rule: 2)
+  heavy step: m_c/m_t = 0.003863 against (m_s/m_b)^2 = 0.000345: 11.2x off, 76 sigma; exponent 1.39
+  heavy step at the far-side scale: 9.0x off; exponent 1.44
+  FAIL as a rule (4 sigma and 11x). Holds in kind only: the up ladder is steeper, with exponents 2.1 and 1.4 instead of 2 and 2.
+Rule PS3/PS4 (counting directions: a pair is 2 colour directions, a single is 1; right-side hypercharge 2/3 against 1/3; electric pull 4/9 against 1/9):
+  the only numbers this gives are 2 and 4. Rule PS5 (colour count, Georgi-Jarlskog's 3): 3 and 9.
+  signs (1, -1): break ratio 4.508+-0.084: vs 2: +30 sigma, vs 3: +18, vs 4: +6.0, vs 9: -54 | split ratio 24.77+-0.57: vs 4: +37, vs 9: +28, vs 16: +15, vs 27: -3.9
+  signs (-1, 1): break ratio 4.648+-0.094: vs 2: +28 sigma, vs 3: +18, vs 4: +6.9, vs 9: -46 | split ratio 23.73+-0.49: vs 4: +41, vs 9: +30, vs 16: +16, vs 27: -6.7
+  FAIL: no pre-stated number lands within 2 sigma on either sign choice.
+
+Luck check for matches found AFTER looking (for example 9/2 for the break, 24 for the split). Simple numbers 2^a x 3^b between 1 and 100: 22 of them.
+  top's energy         signs (1, -1) split: 24.751, nearest simple number 24, +1.3 sigma
+  top's energy         signs (1, -1) break: 4.506, nearest simple number 4.5, +0.1 sigma
+  top's energy         signs (-1, 1) split: 23.746, nearest simple number 24, -0.5 sigma
+  top's energy         signs (-1, 1) break: 4.650, nearest simple number 4.5, +1.6 sigma
+  far-side 2.1e8 GeV   signs (1, -1) split: 28.690, nearest simple number 27, +2.6 sigma
+  far-side 2.1e8 GeV   signs (1, -1) break: 5.200, nearest simple number 6, -7.7 sigma
+  far-side 2.1e8 GeV   signs (-1, 1) split: 27.394, nearest simple number 27, +0.7 sigma
+  far-side 2.1e8 GeV   signs (-1, 1) break: 5.386, nearest simple number 6, -5.3 sigma
+  a random number matches some simple number within 2 sigma: split 44%, break 36%; both at once 15.3%;
+  with 4 chances (2 footings x 2 sign choices) at least one double match: 48%. Seen: a double match.
+
+====================================================================================================
+2. (a, c) WHAT E6 ITSELF SAYS ABOUT PAIRS AND SINGLES: the singles have a far-side twin, the pairs do not
+====================================================================================================
+In the 27 the right-side down partner (a single) has a twin of the same charges in the 10 (D's partner); the right-side up partner
+(a pair) has none. With the reverse block empty (Nelson 1984; Barr 1984; Bento, Branco & Parada 1991) the heavy D mixes only the
+right-side singles, and the light down matrix becomes   H_d = m (1 - kappa u u^dagger) m^T,   kappa = |F|^2/(|F|^2 + M_D^2),
+with m the real base, F the far-side link (direction u) and M_D the D's own weight. This is a press from the RIGHT side.
+
+2.1 One 27x27x27 link matrix for the base, the far-side link and D's weight (three D's, one per family): the press is 0.7569 x the unit matrix,
+    largest off-diagonal tilt 4.2e-12. Exactly no tilt and identical ladder shapes: FAIL. A second, independent link matrix is needed,
+    and its entries are new free numbers (this is Bento, Branco & Parada's minimal model). E6 does not supply them.
+
+2.2 Same bubble for both ladders (down base = c x up matrix), one D pressing the singles. In the up ladder's own basis
+    H_d = c^2 D_u (1 - kappa w w^dagger) D_u = c^2 D_u^2 - v v^dagger: a rank-one change. Its eigenvectors are v_i/(lam_i - lam'_j)
+    (Loewner 1934; Golub 1973), so every phase of w drops out: J = 0 EXACTLY, whatever the timing. The masses fix |w| for each c,
+    leaving ONE free number (c) for the four tilts.
+    interlacing (Cauchy) allows c only between m_d/m_u = 2.156 and m_b/m_c = 4.576.
+    best c = 3.139: tilts [0.0532 0.6858 0.     0.0365] (measured [0.225  0.0418 0.0037 0.0086]), worst 192.5x, 1 - kappa = 1.1e-08, J = 0.
+    FAIL: the two bubbles are different shapes before the press (as 81.5 found for the other form of the press).
+    With all three D's pressing, 1 - K is any 3x3 matrix (9 numbers for 7 measured): it fits everything and predicts nothing.
+
+====================================================================================================
+3. (b) THE ONE COMBINED CANDIDATE RULE
+====================================================================================================
+Pieces: (i) democratic base p0 (J + diag(-d, d, e)), REAL, for both ladders (CP exact before the facing is chosen);
+(ii) the fold through D in Nelson-Barr form, reverse block zero: H_d = m (1 - kappa u u^dagger) m, on the down ladder only;
+(iii) rule 4's one i: the far-side link's LIGHT-CORNER part is a quarter turn out of step: u = (i s1, s2, s3) in the hierarchical basis.
+Free numbers: up p0, d, e (3); down p0, d, e (3); press kappa (1); link direction (2 angles). Total 9 for 10 measured (6 masses,
+3 tilts, 1 twist): ONE prediction. The six masses are inputs, so the test is: 3 numbers (kappa, 2 angles) against 4 tilt sizes.
+
+3.1 The candidate, for each sign choice of the up base (the down base's numbers are free, so its sign branch is found by the fit):
+  up (1, -1): best chi2   2.47 (1 degree of freedom) | 1-kappa 8.41e-04 | tilts [0.2249 0.0409 0.0037 0.0084] | worst 1.023x | |J| 3.04e-05 | alpha 90.7 beta 23.2 gamma 66.1
+      other local best points found (chi2): [9.8, 89.9, 97.6, 138.1, 254.9]
+  up (-1, 1): best chi2   9.44 (1 degree of freedom) | 1-kappa 1.01e-03 | tilts [0.2253 0.0437 0.0037 0.0083] | worst 1.044x | |J| 2.89e-05 | alpha 105.0 beta 20.8 gamma 54.1
+      other local best points found (chi2): [15.9, 76.9, 78.5, 150.6, 255.7]
+
+3.2 Best: up signs (1, -1), down branch (-1, 1). The ten numbers:
+  six masses: up [     1.242    627.8   162500.   ] (inputs, exact), down [   2.678   53.366 2872.693] (inputs, exact)
+  |Vus|: 0.22490  measured 0.22500 +- 0.00068  pull -0.15 sigma
+  |Vcb|: 0.04089  measured 0.04183 +- 0.00074  pull -1.26 sigma
+  |Vub|: 0.00372  measured 0.00373 +- 0.00009  pull -0.16 sigma
+  |Vtd|: 0.00841  measured 0.00857 +- 0.00018  pull -0.90 sigma
+  chi2 = 2.47 for 1 degree of freedom: 1.6 sigma, chance 12% -> the single prediction is NOT contradicted
+  twist |J| = 3.043e-05 (measured 3.12e-5 +- 0.13e-5: -0.6 sigma). Its SIGN is not predicted (i or -i).
+  triangle: alpha 90.7 deg (measured 91.6 +- 1.5 fit; 85.2 +- 4.6 direct), beta 23.2 (22.6 +- 0.4 from sin 2beta = 0.709 +- 0.011; model sin 2beta = 0.724, +1.4 sigma),
+            gamma 66.1 (measured 65.9 +- 3.0 direct: +0.1 sigma). |Vtd/Vts| = 0.2092 (measured 0.205 +- 0.006)
+  fitted numbers: down base split -0.02520, break +0.05264 (the unpressed fit had -0.02108, +0.08099);
+    the down base BEFORE the press would weigh [  15.2  111.3 8347.8] MeV (span 548); after the press [   2.678   53.36  2873.   ] (span 1073); up span 130837.
+    So the press lowers the three down masses by 5.7x, 2.1x, 2.9x and makes the ladder steeper, not flatter (answers 79.1's open test).
+    press kappa = 0.99916, so D's own weight is 0.029 of its link (the link is 34x D's own weight);
+    link direction in the hierarchical basis: |s| = [0.1117 0.3163 0.9421], phases [90.  0.  0.] deg;
+    in the placement basis: [1.   +0.117j 1.   -0.117j 0.424+0.j   ]  = (1, 1, 0.424) + 0.117 i (1, -1, 0):
+    the same three-part shape as a bubble (equal + third-placement break + split of the first two), with the split a quarter turn off.
+    angle between the link and the old fold direction (-1,-1,2)/sqrt6: 72 deg; and the all-equal direction: 20 deg.
+
+3.3 Where the one i sits: all six single placements (3 numbers against 4 tilts each, best sign choice)
+  i on part 1 of the hierarchical basis: chi2      2.5, worst 1.023x, tilts [0.2249 0.0409 0.0037 0.0084]
+  i on part 2 of the hierarchical basis: chi2   1208.9, worst 1.987x, tilts [0.2242 0.0211 0.0053 0.0066]
+  i on part 3 of the hierarchical basis: chi2    765.6, worst 1.483x, tilts [0.2245 0.0324 0.0054 0.0058]
+  i on part 1 of the placement basis: chi2   1912.3, worst 2.233x, tilts [0.2236 0.0187 0.0063 0.0102]
+  i on part 2 of the placement basis: chi2   1781.9, worst 2.114x, tilts [0.2234 0.0198 0.0062 0.0104]
+  i on part 3 of the placement basis: chi2     12.3, worst 1.063x, tilts [0.2253 0.0432 0.0038 0.0081]
+  No phase at all (real link): J = 0, FAIL. Only the light-corner placement (hierarchical part 1) passes; the next best is 3.5 sigma off.
+
+====================================================================================================
+4. ATTACKS ON THE COMBINED CANDIDATE
+====================================================================================================
+4.1 Luck: put RANDOM timings on the link's first two parts (instead of a quarter turn and zero) and refit the same 3 numbers.
+  80 random timing pairs: 24% do as well as the quarter turn (chi2 <= 2.47); 28% reach chi2 <= 4; median chi2 47.
+  (the random fits use fewer starts than the candidate's, so these shares are, if anything, too LOW.)
+  The quarter turn on the light corner was named in an earlier test before this test, so the odds for it alone are about 24%. Counting the 6 placements
+  of 3.3 as 6 tries: 80%. A general timing pair (5 numbers for 4 tilts) always fits exactly, so this is the size of the 'good' band.
+
+4.2 Data with the mass errors included (all six masses allowed to move inside their errors): 9 numbers, 10 measured.
+  chi2 = 1.17 for 1 degree of freedom (1.1 sigma, chance 28%). Pulls: masses [-0.07  0.05 -0.02 -0.05  0.74 -0.25], tilts [-0.07 -0.61 -0.08 -0.4 ]
+
+4.3 Footing: the same candidate with masses and tilts carried to the far-side scale (2.1e8 GeV), where the D lives.
+  best chi2 1.20 (up signs (-1, 1)); 1-kappa 7.96e-04; tilts [0.2251 0.0393 0.0035 0.0078] against [0.225  0.0389 0.0035 0.008 ]; alpha 96.3, gamma 61.4.
+  The candidate survives the change of footing.
+
+4.4 The theorem's conditions (Nelson 1984; Barr 1984; Bento, Branco & Parada 1991), checked on the full 4x4 down matrix [[m, h], [F, M]].
+  heavy partner at 2.4e+05 GeV: light masses [   2.678   53.366 2872.693] MeV, tilts [0.2249 0.0409 0.0037 0.0084] (same as the 3x3 formula: True);
+    first-row leak into the heavy partner |V_uD|^2 = 8.7e-14 (the measured first-row shortfall is 1.6e-3: the leak is 2e+10 times too small to be it)
+  heavy partner at 2.1e+08 GeV: light masses [   2.678   53.366 2872.693] MeV, tilts [0.2249 0.0409 0.0037 0.0084] (same as the 3x3 formula: True);
+    first-row leak into the heavy partner |V_uD|^2 = 1.1e-19 (the measured first-row shortfall is 1.6e-3: the leak is 1e+16 times too small to be it)
+  tree-level strong angle: the timing sits only in F, which does not enter det = det(m) x M. sign det(up) = -1, sign det(m) = -1:
+    theta-bar = 0, with J = 3.04e-05 not zero. HOLDS as algebra.
+  reverse block switched on: theta-bar = 2.3e-03 x h/MeV for h along the all-equal direction, 2.4e-01 x h/MeV for the worst direction.
+    For theta-bar < 1e-10 (Abel and others 2020) h must stay below 4e-08 MeV (4e-10 MeV worst case), that is 3e-13 to 2e-15
+    of the Higgs value. So the block must be empty by an exact rule, not by smallness.
+  CP exact in the base: the candidate uses real bases, and the only timing is the link's quarter turn. Consistent.
+  NOT consistent with earlier tests: there the fold was written M_d - k p0 u u^dagger, which needs BOTH blocks (it is h M^-1 F). With the
+    reverse block empty the press acts from the right side only. The old fold numbers (k = 0.11 to 0.28, 'link = 0.34 of the balance point',
+    direction (-1,-1,2)) therefore do not carry over: see 3.2 for the new ones.
+
+4.5 What the candidate says about the triangle (the tilt sizes are refitted with alpha pinned):
+  alpha 84: chi2 9.18, beta 24.20, gamma 71.80
+  alpha 85: chi2 7.19, beta 24.02, gamma 70.98
+  alpha 86: chi2 5.61, beta 23.86, gamma 70.14
+  alpha 87: chi2 4.38, beta 23.70, gamma 69.30
+  alpha 88: chi2 3.47, beta 23.56, gamma 68.44
+  alpha 89: chi2 2.86, beta 23.43, gamma 67.57
+  alpha 90: chi2 2.52, beta 23.30, gamma 66.70
+  alpha 91: chi2 2.46, beta 23.17, gamma 65.83
+  alpha 92: chi2 2.67, beta 23.05, gamma 64.95
+  alpha 93: chi2 3.18, beta 22.93, gamma 64.07
+  alpha 94: chi2 4.04, beta 22.81, gamma 63.19
+  alpha 95: chi2 5.28, beta 22.67, gamma 62.33
+  alpha 96: chi2 6.97, beta 22.53, gamma 61.47
+  alpha 97: chi2 9.19, beta 22.38, gamma 60.62
+  alpha 98: chi2 12.02, beta 22.21, gamma 59.79
+  within 1 unit of the best: alpha 89 to 93 deg, gamma 64.1 to 67.6 deg. The quarter turn in the link gives 'alpha near 90',
+  not exactly 90. The sharp number gamma = 67.4 +- 0.5 belongs to the separate statement 'alpha is exactly 90' (78.3); at alpha = 90 the candidate has chi2 2.52, gamma 66.7.
+
+====================================================================================================
+5. (c) CAN STRUCTURE GIVE THE NUMBERS?
+====================================================================================================
+5.1 The press kappa from the balance rule and other fixed values (2 numbers left for 4 tilts):
+  kappa = 1/2  (link = D's own weight: the balance point) : chi2   1070.9
+  kappa = 1/3  (one placement of three)                   : chi2   1930.2
+  kappa = 2/3                                             : chi2    381.1
+  kappa = 7/9  (1 - the 2/9 twist)                        : chi2    305.3
+  kappa = 8/9                                             : chi2    295.6
+  kappa = 26/27                                           : chi2    364.6
+  kappa = 0.99                                            : chi2    109.0
+  kappa = 0.9985                                          : chi2     24.5
+  kappa = 0.9990                                          : chi2      9.5
+  kappa = 0.9994                                          : chi2     35.6
+  kappa = 0.9997                                          : chi2    933.2
+  FAIL for every structural value. The data want 1 - kappa = 8.4e-04 (D's own weight about 3% of its link). No rule gives this number.
+5.1b Link shapes with one number fewer (2 numbers, kappa and one angle, for 4 tilts):
+  no part along the old fold direction (s2 = 0): all-equal + i x split  : chi2   2016.8
+  no all-equal part (s3 = 0)                                            : chi2   2072.4
+  no link to the third placement (C = 0)                                : chi2    137.8
+  FAIL: the link needs all three parts.
+5.2 The old (two-block) fold with link = balance point, k = 1 (the earlier identity k = (g/sqrt(p0 M_D))^2):
+  k = 1.0: best worst-tilt 2.40x (timing 165 deg), tilts [0.1701 0.1004 0.0036 0.0167]: FAIL
+  k = 0.5: best worst-tilt 1.38x (timing 150 deg), tilts [0.1711 0.05   0.0051 0.0099]: FAIL
+5.3 The four shape numbers against a list of structure numbers fixed beforehand (E6 and TRPG counts):
+  signs (1, -1) up split  : 0.00090 +- 1.9%; nearest 1/248 (-80.3 sigma); a random value within 3x of it matches some list number 0% of the time
+  signs (1, -1) up break  : 0.01728 +- 1.2%; nearest 1/72  (+18.3 sigma); a random value within 3x of it matches some list number 13% of the time
+  signs (1, -1) down split: 0.02221 +- 1.3%; nearest 1/45  (-0.0 sigma); a random value within 3x of it matches some list number 17% of the time
+  signs (1, -1) down break: 0.07787 +- 1.4%; nearest 2/27  (+3.4 sigma); a random value within 3x of it matches some list number 26% of the time
+  signs (-1, 1) up split  : 0.00089 +- 1.7%; nearest 1/248 (-89.0 sigma); a random value within 3x of it matches some list number 0% of the time
+  signs (-1, 1) up break  : 0.01742 +- 1.2%; nearest 1/72  (+19.0 sigma); a random value within 3x of it matches some list number 14% of the time
+  signs (-1, 1) down split: 0.02108 +- 1.3%; nearest 1/45  (-4.2 sigma); a random value within 3x of it matches some list number 14% of the time
+  signs (-1, 1) down break: 0.08098 +- 1.6%; nearest 1/12  (-1.8 sigma); a random value within 3x of it matches some list number 31% of the time
+  matches within 2 sigma: 2 (1/45 on one sign choice, 1/12 on the other: they cannot both hold); expected by luck: 1.1; chance of 2 or more: 32%.
+  Not evidence. And in the combined candidate the down base's own numbers change (3.2), so these two matches do not carry over.
+5.4 A relation between the split and the break: split = 3 x break^2 (found after looking; 'three placements')
+  top's energy, signs (1, -1): up split/break^2 = 3.005 +- 0.072 (+0.1 sigma from 3); down 3.664 +- 0.086 (+7.8 sigma from 3)
+  far-side scale, signs (1, -1): up 3.229, down 3.426
+  top's energy, signs (-1, 1): up split/break^2 = 2.928 +- 0.070 (-1.0 sigma from 3); down 3.216 +- 0.088 (+2.5 sigma from 3)
+  far-side scale, signs (-1, 1): up 3.149, down 2.974
+  in plain masses: m1 m3^2/m2^3 = 132.5 +- 6.2 (up), 145.5 +- 6.8 (down): 1.4 sigma apart at the top's energy;
+    at the far-side scale 153.2 and 125.8 (2.9 sigma apart); as weighed (mixed footing) 31 and 101.
+  luck: two random ladders (each step between 5x and 1000x) agree this well in m1 m3^2/m2^3 1.4% of the time; with the 6 simplest such
+    combinations one could have tried, 8%. As a rule 'split = 3 x break^2' it FAILS on the down ladder (2.5 or 7.8 sigma, by sign choice)
+    and moves with the footing. For the up ladder alone it is a coincidence to note (0.1 and -1.0 sigma), not evidence.
+5.5 The octonion 3x3 (exceptional Jordan algebra; Jordan, von Neumann & Wigner 1934; Freudenthal 1954): its three invariants
+  (trace, pair-sum, determinant) are exactly the three masses' three symmetric sums, so the algebra by itself leaves all three free.
+  up  : pair-sum/trace^2 = -0.00389, determinant/trace^3 = -2.99e-08; the all-equal shape (a primitive idempotent) has 0 and 0. Cone number (Koide 1981) 0.8852 (leptons: 2/3 = 0.6667)
+  down: pair-sum/trace^2 = -0.01830, determinant/trace^3 = -1.83e-05; the all-equal shape (a primitive idempotent) has 0 and 0. Cone number (Koide 1981) 0.7488 (leptons: 2/3 = 0.6667)
+  The natural added conditions fail: determinant = 0 needs a massless up quark (measured 1.242 +- 0.042 MeV, 29 sigma from 0);
+  the 45-degree cone holds for leptons only. FAIL: the octonion 3x3 does not fix the split or the break.
+
+====================================================================================================
+6. SUMMARY NUMBERS
+====================================================================================================
+(a) pair/single: no counting rule gives the split ratio 24.8 / 23.7 or the break ratio 4.51 / 4.65; E6's own pair/single
+    statement (singles have a far-side twin) with one bubble shape gives J = 0 exactly and tilts off by more than 100x. FAIL.
+(b) combined candidate: 9 free numbers for 10 measured; its one test gives chi2 2.47 (1.6 sigma), 1.17 with mass errors, 1.20 at the far-side footing;
+    luck 24% (alone) to 80% (six placements). gamma 64.1 to 67.6 deg (best 66.1); exactly right-angled: 67.4. LEAD, not a derivation.
+(c) no structural value for the press, the link shape, or the four shape numbers survives. The quark numbers stay measured inputs.

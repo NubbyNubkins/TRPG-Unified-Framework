@@ -1,0 +1,7 @@
+family  pull-coefficient  ln(t)  straight-line fit  miss
+up          11.10  -2.455  -2.248 -0.206
+down        10.50  -1.900  -2.158 +0.258
+leptons      4.50  -1.411  -1.254 -0.157
+neutrinos    2.70  -0.878  -0.983 +0.105
+up and down: pull differs by 0.6 of ~11, places differ by factor 1.742
+Exact point: each force pulls all three members of a family equally, so it cancels in link2/link3 at one loop.

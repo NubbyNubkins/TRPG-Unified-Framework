@@ -1,0 +1,26 @@
+1) Top three circles: hidden partners = neutrinos mirrored through the charged leptons (seesaw, diagonal)
+   family 1: neutrino   0.360 meV  <- mirror at    0.511 MeV ->  partner 7.25e+05 GeV ; steps of ten 9.15 each way
+   family 2: neutrino   8.621 meV  <- mirror at  105.658 MeV ->  partner 1.29e+09 GeV ; steps of ten 10.09 each way
+   family 3: neutrino  50.111 meV  <- mirror at 1776.860 MeV ->  partner 6.3e+10 GeV ; steps of ten 10.55 each way
+   neutrinos (bottom)                     opening  37.13 deg  (Q=0.5244)
+   charged leptons (middle, the pivots)   opening  45.00 deg  (Q=0.6667)
+   hidden partners (top)                  opening  49.05 deg  (Q=0.7761)
+   spread of each ladder, heaviest/lightest: bottom 139x, middle 3477x, top 86863x
+   top spread = middle spread^2 / bottom spread: 86863x  (mirror rule)
+
+2) Does the top ladder go back down to the bottom's shape?
+   pure inversion of neutrinos (no pivot): opening 43.39 deg
+   with the lepton pivots the top ladder is much wider than the bottom one: the top is NOT a copy of the bottom
+
+3) MMG: the strengths fix only the average (geometric mean) of the three MMG weights, 2.2e8 GeV (two loop)
+   equal (cube pinches: top goes back together)  : 2.2e+08, 2.2e+08, 2.2e+08 GeV
+   split like the neutrinos                      : 1.5e+07, 3.5e+08, 2e+09 GeV
+   split like the charged leptons                : 2.5e+06, 5.1e+08, 8.5e+09 GeV
+   split like the hidden partners                : 4.1e+05, 7.3e+08, 3.6e+10 GeV
+   all four give the same strengths at one loop: no measurement decides the MMG split (FREE)
+
+4) Neutrino <-> MMG link
+   shared: weak force (W, Z); both are colourless; the MMG neutral member is a heavy both-handed neutrino-like state
+   a direct link y (MMG-neutrino-Higgs) breaks kept matter number; decay before 1 s needs y > 3.7e-16
+   neutrino weights stay below 0.05 eV if y < 6.3e-04  (rough, Majorana-type estimate)
+   charged MMG -> neutral MMG + soft pion (weak-force split ~0.34 GeV, as for Higgsinos; Thomas & Wells 1998)

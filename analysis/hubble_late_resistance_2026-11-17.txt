@@ -1,0 +1,17 @@
+baseline (smooth matter, H0 67.4): light set free at stretch 1080 (accurate codes: 1090); ruler 145.2 Mpc (accurate: 144.4 at this moment); angle 1.0470
+
+(1) Clumpy matter when atoms formed (three equal-volume regions; mean density unchanged)
+  smooth                                                     clumping b=0.00: atoms form earlier by +0.00%; ruler +0.00%; same sky angle needs H0 = 67.4
+  mild: densities 0.6 / 1 / 1.4                              clumping b=0.11: atoms form earlier by +0.19%; ruler -0.12%; same sky angle needs H0 = 67.8
+  medium: 0.3 / 1 / 1.7                                      clumping b=0.33: atoms form earlier by +0.74%; ruler -0.48%; same sky angle needs H0 = 69.1
+  strong: 0.1 / 1 / 1.9 (Jedamzik & Pogosian 2020 model M1)  clumping b=0.54: atoms form earlier by +1.57%; ruler -1.02%; same sky angle needs H0 = 71.1
+  extreme: 0.02 / 1 / 1.98                                   clumping b=0.64: atoms form earlier by +2.08%; ruler -1.34%; same sky angle needs H0 = 72.3
+  voids and walls: half the volume nearly empty (0.05 / 1 / 2.9) clumping b=1.35: atoms form earlier by +3.43%; ruler -2.19%; same sky angle needs H0 = 75.6
+
+(2) A slightly stronger electron grip then (heavier electron at atom formation, normal today)
+  electron heavier by 0.5%                                   clumping b=0.00: atoms form earlier by +0.51%; ruler -0.33%; same sky angle needs H0 = 68.6
+  electron heavier by 1.0%                                   clumping b=0.00: atoms form earlier by +1.02%; ruler -0.66%; same sky angle needs H0 = 69.8
+  electron heavier by 2.0%                                   clumping b=0.00: atoms form earlier by +2.04%; ruler -1.32%; same sky angle needs H0 = 72.2
+  electron heavier by 3.0%                                   clumping b=0.00: atoms form earlier by +3.06%; ruler -1.96%; same sky angle needs H0 = 74.7
+
+needed for H0 = 73.0: ruler about -7.7% if nothing else changes

@@ -1,0 +1,18 @@
+1. Published falsifier: does a one-handed 0.05 nG field make too much matter at the 160 GeV step?
+   Kamada & Long 2016: right matter excess at B0=1e-17 G; excess grows as B0^3 on the endpoint line; 0.05 nG overshoots by 1.2e+20
+   Kamada & Long 2016: right matter excess at B0=1e-16 G; excess grows as B0^3 on the endpoint line; 0.05 nG overshoots by 1.2e+17
+   Boyer & Neronov 2025 (redo, slower field decay): strong fields give excess = 0.6/(grain x T), independent of strength;
+   observed excess needs grain = 9.8e+08/T = 1.8e-07 of the horizon at 130 GeV; relic today 0.2 to 100 pG (needed: 50 pG)
+   So the two published calculations disagree; the idea is not dead in general.
+
+2. Can TRPG's own one-handed leftover twist up the field? (Joyce & Shaposhnikov 1997 mechanism)
+   imbalance 1e-08 of the light: twisting rate / growth of space at 80 TeV = 2.3e-11
+   imbalance 1e-05 of the light: twisting rate / growth of space at 80 TeV = 2.3e-05
+   imbalance 1e-03 of the light: twisting rate / growth of space at 80 TeV = 2.3e-01
+   imbalance 1e-02 of the light: twisting rate / growth of space at 80 TeV = 2.3e+01
+   imbalance needed for the twisting to keep up: 2.1e-03
+
+3. Largest imbalance the hidden partners can make (Davidson & Ibarra 2002 cap, m3 = 0.050 eV):
+   partner weight 1.00e+06 GeV: at most 9.9e-11; short of 2e-03 by 2.1e+07
+   partner weight 2.41e+08 GeV: at most 2.4e-08; short of 2e-03 by 8.7e+04
+   partner weight that could do it: 2.1e+13 GeV (start band tops out at 2.41e8)

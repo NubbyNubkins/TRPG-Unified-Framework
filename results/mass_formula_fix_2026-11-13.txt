@@ -1,0 +1,12 @@
+Knobs of the earlier formula: E0 (fit to proton), P0 (soliton), '/10', anchors 17 & 40, v=174.1 GeV, O(1) coeffs 0.218,0.415,0.439,1.71,2.66,0.9925 -> >=11 choices for 9 masses
+Koide Q leptons = 0.6666645 (2/3 = 0.6666667)
+tau predicted from e,mu: 1776.969 MeV vs 1776.93 measured (0.0022%)
+Brannen scale M^2 = 313.8509 MeV; angle data: [2.31662, 1.87217, 0.22224]
+delta=2/9, one scale -> masses [np.float64(0.511), np.float64(105.6566), np.float64(1776.938)]
+random chance of matching 2/3 this closely: 3.50e-06
+('u', 'c', 't') Q=0.8488
+('d', 's', 'b') Q=0.7313
+('s', 'c', 'b') Q=0.4584
+('c', 'b', 't') Q=0.6692
+from tau alone: e=0.51098 (-0.003%), mu=105.6561 (-0.0021%)
+Brannen scale x3 = 941.55 MeV vs proton 938.27 (0.35%)

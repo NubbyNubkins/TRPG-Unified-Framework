@@ -1,0 +1,21 @@
+1. Weak force against the Higgs field's resistance
+  W mass = g v / 2 = 80.24 GeV (measured 80.369); Z mass = W / cos(theta_W) = 91.51 GeV (measured 91.1876); photon 0 (unresisted mix)
+  Reach of the weak force = hbar c / M_W = 0.00246 fm (a proton is ~0.84 fm across)
+  Fermi strength = sqrt2 g^2 / (8 M_W^2) = 1.1625e-05 GeV^-2 (measured 1.1664e-5): the heavier the resistance, the weaker the force at low energy
+  Beta decay has ~1 MeV to spend but the W needs 80369 MeV: suppression ~ (1 MeV / M_W)^2 = 1.5e-10
+  rho = M_W^2 / (M_Z^2 cos^2) = 1.0104 (tree level; loop effects from the top's mass shift it by ~1%; TRPG main line: rho = 1 at tree level)
+
+2. Motion of the needles (measured)
+  K0 (s-d)   swing between matter and antimatter: 0.0053 per ps (mass split 3.484e-06 eV)
+  B0 (b-d)   swing between matter and antimatter: 0.5065 per ps (mass split 3.334e-04 eV)
+  Bs (b-s)   swing between matter and antimatter: 17.7648 per ps (mass split 1.169e-02 eV)
+  atmospheric nu  full swing length 992 km at 1.0 GeV
+  solar nu        full swing length 168 km at 0.005 GeV
+  Higgs vibration: the Higgs boson (125.2 GeV) is a vibration of the field that sets every axis length; each particle's coupling to it is
+  proportional to its mass (measured from muon to top over a factor 1600: ATLAS & CMS, Nature 2022). All axes vibrate together, in proportion.
+
+3. The twist and polarity
+  Lepton twist 2/9: electron, muon and tau all have charge -1, so a charge-sign reading cannot tell them apart. Positron and electron masses
+  agree to about 8 parts in a billion (PDG 2024), so the twist is the same for antimatter: it is not about polarity.
+  Quark turn's twist (phase ~66 deg, J = 3.0e-5): this IS a matter/antimatter difference (CP violation: Christenson, Cronin, Fitch & Turlay
+  1964; Kobayashi & Maskawa 1973). Known size is ~1e10 too small to make the matter excess by itself (Gavela et al. 1994; Huet & Sather 1995).

@@ -1,0 +1,38 @@
+A. Resting points of generic invariant potentials (two ladders u,d; V = -T + lam T^2 + lam' Tr X^2 + g Tr(Xu Xd))
+   9 x ("lam'_u <0", "lam'_d <0", 'g <0', 'one heavy', 'one heavy', 'aligned (no mixing)')
+   4 x ("lam'_u <0", "lam'_d <0", 'g >0', 'one heavy', 'one heavy', 'fully apart (no mixing)')
+   9 x ("lam'_u <0", "lam'_d >0", 'g <0', 'one heavy', 'one heavy', 'aligned (no mixing)')
+   10 x ("lam'_u <0", "lam'_d >0", 'g >0', 'one heavy', 'two heavy', 'fully apart (no mixing)')
+   4 x ("lam'_u >0", "lam'_d <0", 'g <0', 'one heavy', 'one heavy', 'aligned (no mixing)')
+   13 x ("lam'_u >0", "lam'_d <0", 'g >0', 'two heavy', 'one heavy', 'fully apart (no mixing)')
+   7 x ("lam'_u >0", "lam'_d >0", 'g <0', 'all equal', 'all equal', 'mixing has no meaning (a ladder is all-equal)')
+   4 x ("lam'_u >0", "lam'_d >0", 'g >0', 'all equal', 'all equal', 'mixing has no meaning (a ladder is all-equal)')
+  -> ladders rest only at 'one heavy', 'two heavy' or 'all equal' (other: 0); resting points at an in-between mixing angle: 0 of 60.
+
+B. Geometry (exact): opening = angle between (sqrt m) and the cube's body diagonal
+   one heavy (0,0,1) = cube EDGE: 54.7356 deg
+   two heavy (0,1,1) = FACE diagonal: 35.2644 deg
+   all equal (1,1,1) = BODY diagonal: 0.0000 deg
+   edge + face diagonal = 90.0000 deg, so their exact midpoint is 45.0000: the lepton opening (rule 7) is exactly halfway between 'one heavy' and 'two heavy'.
+
+C. Where the real families sit (edge 54.74 = one heavy; 45 = midpoint; face diagonal 35.26)
+   up, own scale                  opening  51.20  heaviest share  99.3%  from edge  3.54 deg  fraction of the way 45->edge +0.64
+   up, at M_Z                     opening  52.21  heaviest share  99.6%  from edge  2.53 deg  fraction of the way 45->edge +0.74
+   down, own scale                opening  47.53  heaviest share  97.7%  from edge  7.20 deg  fraction of the way 45->edge +0.26
+   down, at M_Z                   opening  48.12  heaviest share  98.1%  from edge  6.61 deg  fraction of the way 45->edge +0.32
+   charged leptons                opening  45.00  heaviest share  94.4%  from edge  9.74 deg  fraction of the way 45->edge -0.00
+   neutrinos (TRPG m1 0.36 meV)   opening  37.14  heaviest share  84.8%  from edge 17.59 deg  fraction of the way 45->edge -0.81
+   neutrinos (m1 = 0)             opening  41.02  heaviest share  85.3%  from edge 13.71 deg  fraction of the way 45->edge -0.41
+   quark mixing angles [13.02, 2.38, 0.2] deg (resting point: 0, 0, 0);  lepton mixing [33.4, 49.0, 8.6] deg (Majorana resting point: one angle 45, with two equal neutrino weights)
+
+D. Chance: random complex matrices (no rule at all), 200,000 pairs
+   random pairs with both ladders >= 97.7% in the heaviest AND all mixing <= 13 deg: 0 of 200000  (0.0000%)
+   typical random ladder: heaviest share 56%, largest mixing angle 39 deg
+
+E. First step away from rest: opening deficit vs the second rung
+   up, own scale      sqrt(m2/m3) = 0.0859, sqrt(m1/m3) = 0.00354 -> deficit from edge 3.54 deg (first-order estimate 5.43)
+   up, at M_Z         sqrt(m2/m3) = 0.0607, sqrt(m1/m3) = 0.00270 -> deficit from edge 2.53 deg (first-order estimate 3.85)
+   down, own scale    sqrt(m2/m3) = 0.1495, sqrt(m1/m3) = 0.03352 -> deficit from edge 7.20 deg (first-order estimate 11.12)
+   down, at M_Z       sqrt(m2/m3) = 0.1369, sqrt(m1/m3) = 0.03067 -> deficit from edge 6.61 deg (first-order estimate 10.18)
+   charged leptons    sqrt(m2/m3) = 0.2438, sqrt(m1/m3) = 0.01696 -> deficit from edge 9.74 deg (first-order estimate 15.85)
+   The deficit is just the size of the lower rungs (about 61 deg x their square-root share). The rule gives WHERE rest is, not how far each family stepped off it.

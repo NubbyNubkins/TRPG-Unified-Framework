@@ -1,0 +1,20 @@
+rule: m2/m3 = 0.17157;  lightest weight from rule 5: m1 = 0.36000000000000004 meV
+
+large gap 2.519 +- 0.019 e-3 eV2 (with SK atmospheric):
+  predicted small gap = 7.403 +- 0.056 e-5 eV2   (with m1 = 0: 7.415)
+  JUNO first 59 days alone (Capozzi et al. 2025 reading): small gap 7.500+-0.118; m2/m3 = 0.1727 +- 0.0015; off by +0.7 sigma
+  global fit with JUNO (Capozzi et al. 2025): small gap 7.480+-0.100; m2/m3 = 0.1725 +- 0.0013; off by +0.7 sigma
+  global fit with JUNO (Esteban et al. 2026): small gap 7.530+-0.097; m2/m3 = 0.1730 +- 0.0013; off by +1.1 sigma
+
+large gap 2.529 +- 0.021 e-3 eV2 (without SK atmospheric):
+  predicted small gap = 7.432 +- 0.062 e-5 eV2   (with m1 = 0: 7.445)
+  JUNO first 59 days alone (Capozzi et al. 2025 reading): small gap 7.500+-0.118; m2/m3 = 0.1724 +- 0.0015; off by +0.5 sigma
+  global fit with JUNO (Capozzi et al. 2025): small gap 7.480+-0.100; m2/m3 = 0.1721 +- 0.0014; off by +0.4 sigma
+  global fit with JUNO (Esteban et al. 2026): small gap 7.530+-0.097; m2/m3 = 0.1727 +- 0.0013; off by +0.8 sigma
+
+JUNO design goal (JUNO 2022): small gap to 0.3%, large gap to 0.2% after 6 years
+  then the test has width 0.027 e-5: PASS band (2 sigma) 7.349 to 7.456; FAIL (3 sigma) outside 7.323 to 7.483
+  if the small gap stays at 7.48: 2.9 sigma away
+  if the small gap stays at 7.50: 3.6 sigma away
+  if the small gap stays at 7.53: 4.8 sigma away
+  the rule in one line: small gap / large gap = 0.02939  (measured now 0.02989 +- 0.00045)

@@ -1,0 +1,9 @@
+Partners M = 7.25e+05, 1.28e+09, 6.30e+10 GeV
+Perfectly aligned (R = 1, exactly the earlier assumption): CP asymmetries = [0. 0. 0.] -> NO matter excess
+  decay parameters K = [ 0.33  8.06 46.39] (K>1 = strong washout)
+  washout of partner 3's excess by partners 1,2: 5.1e-05
+Misalignment allowed up to imaginary part 0.3: max |eta_B| = 4.5e-12; fraction reaching 6.1e-10: 0.0000
+Misalignment allowed up to imaginary part 1.0: max |eta_B| = 1.8e-12; fraction reaching 6.1e-10: 0.0000
+  best case: eta from partners 1,2,3 = [-7.88234834e-14  4.62235460e-12 -9.79497901e-21], K = [ 0.7 12.4 46.2]
+Observed eta_B = 6.1e-10.
+  check: partner-1 asymmetry -1.144e-11 vs Davidson-Ibarra closed form 1.144e-11

@@ -1,0 +1,3 @@
+Q(c,b,t)=0.6692  Q(-s,c,b)=0.6748  Q(d,s,-c)? see chain
+charm from (b,t): [1353.0] measured 1273
+strange from (c,b), negative root: [91.8] measured 93.5

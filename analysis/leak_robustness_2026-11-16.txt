@@ -1,0 +1,9 @@
+baseline                     pairs 1.515e+08  F 4.300e+13  sin2 0.23177  +0.24%  +1.6 sigma
+grain lends half (c=0.5)               pairs 5.578e+07  F 3.691e+13  sin2 0.23319  +0.85%  +5.8 sigma
+grain lends double (c=2)               pairs 4.112e+08  F 5.010e+13  sin2 0.23035  -0.38%  -2.6 sigma
+reduced Planck (grain / sqrt(8 pi))    pairs 1.546e+09  F 6.135e+13  sin2 0.22846  -1.19%  -8.1 sigma
+one-loop running only                  pairs 5.141e+08  F 7.923e+13  sin2 0.22716  -1.76%  -11.9 sigma
+strong strength +1 sigma               pairs 1.694e+08  F 4.548e+13  sin2 0.23142  +0.08%  +0.6 sigma
+strong strength -1 sigma               pairs 1.351e+08  F 4.062e+13  sin2 0.23213  +0.39%  +2.7 sigma
+top mass +0.3 GeV                      pairs 1.514e+08  F 4.300e+13  sin2 0.23177  +0.24%  +1.6 sigma
+top mass -0.3 GeV                      pairs 1.515e+08  F 4.300e+13  sin2 0.23177  +0.24%  +1.6 sigma

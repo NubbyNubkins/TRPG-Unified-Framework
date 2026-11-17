@@ -1,0 +1,17 @@
+Main tilt limits: in step 0.1795, quarter turn 0.2284, opposite 0.2685 (measured 0.2250)
+
+Timing placed in the hierarchical (light-corner) basis:
+  best overall: k +0.28, a 345 deg, b 285 deg, worst 1.272x
+  a = 90 (one i), b free, k free  : k +0.28, b 240, worst 1.285x; share of all (k, a, b) as good 0.2%
+  a = 90, b = 0, k free           : k +0.10, b 0, worst 1.476x; share of all (k, a, b) as good 12.6%
+  a = 90, b = 0, no fold          : k +0.00, b 0, worst 2.698x; share of all (k, a, b) as good 97.2%
+  share of grid within 1.10x: 0.0%, within 1.05x: 0.00%
+
+Timing placed in the democratic (placement) basis:
+  best overall: k -0.28, a 0 deg, b 0 deg, worst 1.382x
+  a = 90 (one i), b free, k free  : k -0.30, b 90, worst 16.406x; share of all (k, a, b) as good 1.9%
+  a = 90, b = 0, k free           : k +0.30, b 0, worst 140.163x; share of all (k, a, b) as good 46.2%
+  a = 90, b = 0, no fold          : k +0.00, b 0, worst 149.083x; share of all (k, a, b) as good 50.0%
+  share of grid within 1.10x: 0.0%, within 1.05x: 0.00%
+
+[exited with code 0]

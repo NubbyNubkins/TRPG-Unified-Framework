@@ -1,0 +1,32 @@
+full Planck            light D's=0: pairs 1.500e+08 GeV, F 4.280e+13, sin2 0.23183  +1.8 sigma (+0.26%)
+full Planck            light D's=1: pairs 8.894e+08 GeV, F 1.042e+14, sin2 0.22379  -21.9 sigma (-3.21%)
+grain 2 (M_Pl/sqrt2)   light D's=0: pairs 2.472e+08 GeV, F 4.619e+13, sin2 0.23112  -0.3 sigma (-0.04%)
+grain 2 (M_Pl/sqrt2)   light D's=1: pairs 1.379e+09 GeV, F 1.091e+14, sin2 0.22335  -23.1 sigma (-3.40%)
+
+Rank-2 case: sin2 vs grain factor c (grain = M_Pl/c)
+  c= 0.250: pairs 1.538e+08 F 8.667e+13 sin2 0.22554 -16.7 sigma
+  c= 0.500: pairs 3.698e+08 F 9.503e+13 sin2 0.22467 -19.3 sigma
+  c= 1.000: pairs 8.894e+08 F 1.042e+14 sin2 0.22379 -21.9 sigma
+  c= 1.414: pairs 1.379e+09 F 1.091e+14 sin2 0.22335 -23.1 sigma
+  c= 2.000: pairs 2.139e+09 F 1.143e+14 sin2 0.22292 -24.4 sigma
+  c= 4.000: pairs 5.147e+09 F 1.253e+14 sin2 0.22204 -27.0 sigma
+  c= 8.000: pairs 1.238e+10 F 1.375e+14 sin2 0.22116 -29.6 sigma
+  c=16.000: pairs 2.980e+10 F 1.508e+14 sin2 0.22029 -32.1 sigma
+
+--- rescue by the press link ---
+1-k=7.8e-04 full Planck : pairs 5.343e+08, press D 1.913e+10, F 8.077e+13, sin2 0.22609 -15.1 sigma
+1-k=7.8e-04 grain 2     : pairs 8.290e+08, press D 2.968e+10, F 8.460e+13, sin2 0.22565 -16.4 sigma
+1-k=8.4e-04 full Planck : pairs 5.371e+08, press D 1.853e+10, F 8.098e+13, sin2 0.22607 -15.2 sigma
+1-k=8.4e-04 grain 2     : pairs 8.333e+08, press D 2.875e+10, F 8.482e+13, sin2 0.22563 -16.4 sigma
+1-k=9.2e-04 full Planck : pairs 5.406e+08, press D 1.782e+10, F 8.124e+13, sin2 0.22604 -15.2 sigma
+1-k=9.2e-04 grain 2     : pairs 8.387e+08, press D 2.765e+10, F 8.509e+13, sin2 0.22560 -16.5 sigma
+
+left-behind D mass needed (grain 2):
+  D 1.0e+10: pairs 9.926e+08 F 9.257e+13 sin2 0.22484 -18.8 sigma
+  D 1.0e+11: pairs 6.781e+08 F 7.651e+13 sin2 0.22656 -13.7 sigma
+  D 1.0e+12: pairs 4.639e+08 F 6.328e+13 sin2 0.22827 -8.7 sigma
+  D 1.0e+13: pairs 3.177e+08 F 5.237e+13 sin2 0.22999 -3.6 sigma
+  D 3.2e+13: pairs 2.630e+08 F 4.765e+13 sin2 0.23084 -1.1 sigma
+  D 1.0e+14: pairs 2.472e+08 F 4.619e+13 sin2 0.23112 -0.3 sigma
+  D 1.0e+15: pairs 2.472e+08 F 4.619e+13 sin2 0.23112 -0.3 sigma
+  D 1.0e+16: pairs 2.472e+08 F 4.619e+13 sin2 0.23112 -0.3 sigma

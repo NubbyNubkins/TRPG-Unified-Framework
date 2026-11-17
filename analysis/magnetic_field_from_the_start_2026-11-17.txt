@@ -1,0 +1,14 @@
+needed today: 0.05 billionths of a gauss (Jedamzik & Pogosian 2020)
+
+the light begins, bottom of the band (1e6 GeV)
+   share of the energy in the field 100%: untwisted ends at 4.5e-06 billionths (short by x11,010); fully twisted ends at 1.3e-02 billionths (short by x4), grain 4,133 light-years
+   share of the energy in the field   1%: untwisted ends at 1.6e-06 billionths (short by x30,636); fully twisted ends at 2.7e-03 billionths (short by x18), grain 890 light-years
+the light begins, top of the band (2.4e8 GeV)
+   share of the energy in the field 100%: untwisted ends at 2.2e-07 billionths (short by x231,274); fully twisted ends at 2.0e-03 billionths (short by x25), grain 665 light-years
+   share of the energy in the field   1%: untwisted ends at 7.8e-08 billionths (short by x643,532); fully twisted ends at 4.4e-04 billionths (short by x114), grain 143 light-years
+the surface's resistance switches on (160 GeV)
+   share of the energy in the field 100%: untwisted ends at 5.8e-04 billionths (short by x86); fully twisted ends at 2.3e-01 billionths (ENOUGH, x4.7 over), grain 76,131 light-years
+   share of the energy in the field   1%: untwisted ends at 2.1e-04 billionths (short by x238); fully twisted ends at 5.0e-02 billionths (ENOUGH, x1.0 over), grain 16,402 light-years
+quarks lock into protons (155 MeV)
+   share of the energy in the field 100%: untwisted ends at 3.7e-02 billionths (short by x1); fully twisted ends at 3.2e+00 billionths (ENOUGH, x63.9 over), grain 1,042,522 light-years
+   share of the energy in the field   1%: untwisted ends at 1.3e-02 billionths (short by x4); fully twisted ends at 6.9e-01 billionths (ENOUGH, x13.8 over), grain 224,605 light-years

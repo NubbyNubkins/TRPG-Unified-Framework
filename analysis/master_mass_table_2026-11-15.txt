@@ -1,0 +1,70 @@
+
+========================================================================================================
+1. Leftover numbers: does the balance point of a pair land on another particle's mass more often than chance?
+========================================================================================================
+  balance(muon, proton) =      94.96 MeV  ~  strange 93.5 MeV (+1.57%)
+  balance(muon, neutron) =      94.98 MeV  ~  strange 93.5 MeV (+1.58%)
+  2 matches within 2% (the trivial 'balance = lighter partner' cases removed). Random mass lists of the same size and range:
+  average 2.7 matches; 69% have at least 2.
+
+========================================================================================================
+2. Each mass against its equilibrium points
+========================================================================================================
+  Higgs balance point v/sqrt2 = 174.10 GeV. Each elementary mass as a fraction of it (the Higgs link):
+   electron   2.935e-06
+   up         1.241e-05
+   down       2.700e-05
+   strange    5.370e-04
+   muon       6.069e-04
+   charm      7.312e-03
+   tau        1.021e-02
+   bottom     2.403e-02
+   top        9.912e-01
+  W, Z, Higgs: g v/2, sqrt(g^2+g'^2) v/2, sqrt(2 lambda) v: their balance comes from the force strengths and the Higgs self-coupling.
+  With the proton (our home), every particle's balance mass is m p/(m + p) = p/(1 + exp(-2S)).
+
+========================================================================================================
+3a. Layer 2, the equilibrium: quark home masses that make the hadrons (strong containment balance + spin interaction)
+========================================================================================================
+   N         measured   938.92  from home masses   941.39  (+0.26%)
+   Delta     measured  1232.00  from home masses  1237.50  (+0.45%)
+   Lambda    measured  1115.68  from home masses  1115.71  (+0.00%)
+   Sigma     measured  1193.15  from home masses  1179.74  (-1.12%)
+   Xi        measured  1318.28  from home masses  1327.24  (+0.68%)
+   Sigma*    measured  1384.60  from home masses  1379.81  (-0.35%)
+   Xi*       measured  1533.40  from home masses  1527.31  (-0.40%)
+   Omega     measured  1672.45  from home masses  1680.00  (+0.45%)
+   Lambda_c  measured  2286.46  from home masses  2286.46  (+0.00%)
+   Lambda_b  measured  5619.60  from home masses  5619.60  (-0.00%)
+  The charm and bottom home masses are each set by one baryon, so the real test is the 8 light baryons from 3 numbers: rms 0.56%.
+  Home mass = Higgs part (current mass) + equilibrium part (what the strong containment adds):
+   up/down  home   363.1 MeV = Higgs     3.4 + equilibrium  359.7 MeV
+   strange  home   537.5 MeV = Higgs    93.5 + equilibrium  444.0 MeV
+   charm    home  1708.2 MeV = Higgs  1273.0 + equilibrium  435.2 MeV
+   bottom   home  5041.4 MeV = Higgs  4183.0 + equilibrium  858.4 MeV
+  The equilibrium part is a few hundred MeV for every quark: the same containment energy, roughly, whatever the quark (charm and bottom
+  depend on which mass definition is used: with the bottom's pole mass, 4.78 GeV, its equilibrium part is about 260 MeV).
+  The proton itself, split by lattice calculations (Yang et al. 2018): quark masses (the Higgs layer) about 9%, quark motion 32%, gluon
+  field 37%, the scale (trace) part 23%. So about 91% of the proton is equilibrium energy, as the record's containment principle says.
+
+========================================================================================================
+3b. Layer 3, the nucleus's interaction energy: binding energy from the balance (liquid drop) formula, against AME2020
+========================================================================================================
+  2899 nuclei with A >= 12. Balance formula: volume 15.40, surface 16.76, electric 0.696, asymmetry 22.52, pairing 11.2 MeV
+  binding energy rms miss 3.31 MeV (binding energies run up to 2085 MeV)
+  Master mass of each atom = Z x hydrogen atom + N x neutron - binding:
+   without the binding layer: worst miss 0.95% of the mass
+   with the binding layer:    rms miss 0.0081% of the mass, worst 0.189%
+   C-12    measured    11177.93 MeV  master table    11179.05 MeV  (  +1.12 MeV)
+   O-16    measured    14899.17 MeV  master table    14899.51 MeV  (  +0.34 MeV)
+   Fe-56   measured    52103.06 MeV  master table    52101.50 MeV  (  -1.56 MeV)
+   Pb-208  measured   193729.02 MeV  master table   193739.68 MeV  ( +10.66 MeV)
+   U-238   measured   221742.90 MeV  master table   221738.46 MeV  (  -4.44 MeV)
+
+========================================================================================================
+3c. The whole chain for one atom (iron-56): every layer from the Higgs field up
+========================================================================================================
+  Higgs layer (quark and electron masses):    594.6 MeV (1.14% of the atom)
+  Equilibrium layer (strong containment making 56 nucleons):  52000.7 MeV
+  Nuclear interaction layer (binding, released when iron formed): -492.3 MeV measured, -493.8 MeV from the balance formula
+  Total: 52103.1 MeV measured. The equilibrium layer carries about 99% of the mass.

@@ -1,0 +1,20 @@
+neutrinos        steps x    23.9 x   5.8  closing /       139  opening 37.13  twist 20.86  twist/(54.74-op) 1.18
+leptons          steps x   206.8 x  16.8  closing /      3477  opening 45.00  twist 12.73  twist/(54.74-op) 1.31
+hidden partners  steps x  1785.2 x  48.7  closing /     86887  opening 49.05  twist  7.45  twist/(54.74-op) 1.31
+hidden partners (GeV): [7.25333130e+05 1.29487296e+09 6.30220559e+10]
+check: hidden step = lepton step^2 / neutrino step: 1785.2113818035873 48.67045485012207
+MMG 2.41e8 GeV vs hidden partners: between N1 and N2; sqrt(N1*N3) = 213803613.39589375 GeV
+
+Dependence on the lightest neutrino (m1, meV): hidden ladder opening, twist, ratio; sqrt(N1 N3) GeV
+  m1 0.10: hidden 48.919  7.306 ratio 1.256 | neutrino ratio 1.431 | sqrt(N1N3) 4.057e+08
+  m1 0.25: hidden 49.022  7.420 ratio 1.299 | neutrino ratio 1.266 | sqrt(N1N3) 2.566e+08
+  m1 0.36: hidden 49.053  7.452 ratio 1.311 | neutrino ratio 1.185 | sqrt(N1N3) 2.138e+08
+  m1 0.50: hidden 49.077  7.473 ratio 1.321 | neutrino ratio 1.103 | sqrt(N1N3) 1.814e+08
+  m1 1.00: hidden 49.126  7.495 ratio 1.336 | neutrino ratio 0.906 | sqrt(N1N3) 1.283e+08
+  m1 2.00: hidden 49.201  7.447 ratio 1.346 | neutrino ratio 0.680 | sqrt(N1N3) 9.067e+07
+lepton ratio 1.3078205432321661
+down, unpressed base   opening  48.42 twist   3.92 ratio 0.620
+down, pressed (M_Z)              opening  48.06 twist   5.84 ratio 0.875
+down own scale                   opening  47.53 twist   6.31 ratio 0.876
+up M_Z                           opening  52.23 twist   2.93 ratio 1.171
+up own                           opening  51.20 twist   4.27 ratio 1.206

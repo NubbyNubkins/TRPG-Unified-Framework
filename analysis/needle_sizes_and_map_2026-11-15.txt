@@ -1,0 +1,31 @@
+1. 'Size' of each needle. The axes are masses (energies), not lengths. Two honest ways to turn them into something visible:
+   (a) a drawing at true proportions with 1 mm = the electron's mass; (b) each mass's reach in space, hbar/(m c) (Compton 1923).
+  Up quarks:
+    up        mass         2.16 MeV   drawn at 1 mm per electron:    4.23 mm   reach hbar/mc: 91.4 fm
+    charm     mass         1273 MeV   drawn at 1 mm per electron:     2.49 m   reach hbar/mc: 0.155 fm
+    top       mass       172570 MeV   drawn at 1 mm per electron:      338 m   reach hbar/mc: 0.00114 fm
+  Down quarks:
+    down      mass          4.7 MeV   drawn at 1 mm per electron:     9.2 mm   reach hbar/mc: 42 fm
+    strange   mass         93.5 MeV   drawn at 1 mm per electron:     183 mm   reach hbar/mc: 2.11 fm
+    bottom    mass         4183 MeV   drawn at 1 mm per electron:     8.19 m   reach hbar/mc: 0.0472 fm
+  Charged leptons:
+    electron  mass        0.511 MeV   drawn at 1 mm per electron:       1 mm   reach hbar/mc: 386 fm
+    muon      mass      105.658 MeV   drawn at 1 mm per electron:     207 mm   reach hbar/mc: 1.87 fm
+    tau       mass      1776.93 MeV   drawn at 1 mm per electron:     3.48 m   reach hbar/mc: 0.111 fm
+  Neutrinos (TRPG):
+    nu1       mass      3.6e-10 MeV   drawn at 1 mm per electron: 0.000705 nm   reach hbar/mc: 548 micrometres
+    nu2       mass     8.66e-09 MeV   drawn at 1 mm per electron:  0.0169 nm   reach hbar/mc: 22.8 micrometres
+    nu3       mass    5.034e-08 MeV   drawn at 1 mm per electron:  0.0985 nm   reach hbar/mc: 3.92 micrometres
+
+2. How the needles touch: the weak-force turn as chances (squared entries). Rows up/charm/top -> columns down/strange/bottom:
+    up      94.9357%    5.0629%    0.0014%
+    charm    5.0569%   94.7682%    0.1749%
+    top      0.0074%    0.1689%   99.8237%
+   Neutrino flavours e/mu/tau (rows) in mass states nu1/nu2/nu3 (columns):
+    e        68.1%    29.7%     2.2%
+    mu        7.4%    36.7%    55.9%
+    tau      24.4%    33.6%    41.9%
+   Gluons and photons touch every family equally (they do not see the needles' shapes). The Higgs link sets each axis length
+   (mass = link x 174 GeV). The far-side press reaches only the down needle (TRPG, an earlier test).
+
+saved TRPG_Needle_Relationship_Map.png

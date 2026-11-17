@@ -1,0 +1,5 @@
+up-type (u,c,t): Q = 0.8852 +/- 0.0005;  r^2 = 0.8279 +/- 0.0007;  simple value 5/6 = 0.8333 is -7.6 sigma away
+down-type (d,s,b): Q = 0.7462 +/- 0.0047;  r^2 = 0.6192 +/- 0.0070;  simple value 2/3 = 0.6667 is -6.8 sigma away
+leptons: r^2 = 1/2 (Koide). Tested idea: r^2 = 3/6, 4/6, 5/6 for leptons, down-type, up-type -> FAILS (both quark sectors are ~7 sigma off).
+twist angles: leptons 2/9 = 0.2222; up-type 0.0531; down-type 0.1011
+look-elsewhere: 11 simple fractions tried; chance both random values land as close: 0.056

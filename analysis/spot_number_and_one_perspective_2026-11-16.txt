@@ -1,0 +1,4 @@
+eigenvalues of 'multiply by the spot' and how many states each: {np.float64(0.0): np.int64(10), np.float64(0.5): np.int64(16), np.float64(1.0): np.int64(1)}
+spot number = 6*(eigenvalue - 1/3): {-2: np.int64(10), 1: np.int64(16), 4: np.int64(1)}
+far side (spot number -2): ['d2', 'd3', 'x23_0', 'x23_1', 'x23_2', 'x23_3', 'x23_4', 'x23_5', 'x23_6', 'x23_7']
+  -> with facing u = e7: colourless = d2, d3, x23_0, x23_7 (4 = the weak pair);  coloured = x23_1..6 (6 = D, Dbar). Same spot number.

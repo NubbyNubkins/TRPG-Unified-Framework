@@ -1,0 +1,21 @@
+
+========================================================================================================
+1. What the fold is, geometrically
+========================================================================================================
+  M -> M - k M0 u u^T shrinks the shape along one direction u by the fraction k (k < 0 stretches it), leaving the two directions
+  across u untouched. So the 'expansion and shrinkage' and the fold are one operation: a squeeze or stretch of the hidden matrix
+  along one direction. A turn cannot change the mass ratios; a squeeze can, and it changes the turn between the ladders too.
+
+========================================================================================================
+2. Squeeze and stretch along u = (-1,-1,2), one number
+========================================================================================================
+  V1 down squeezed only                   : amount -0.1162  1-2 tilt 0.2664 (1.18x)  1-3 tilt 0.00445 (1.19x)  worst 1.19x
+  V2 both squeezed equally                : no amount gives the measured 2-3 tilt
+  V3 down squeezed, up stretched equally  : amount +0.0660  1-2 tilt 0.2400 (1.07x)  1-3 tilt 0.00455 (1.22x)  worst 1.22x
+
+========================================================================================================
+3. V4: each ladder its own amount (fit the 2-3 and 1-2 tilts; the 1-3 tilt is the prediction)
+========================================================================================================
+  No pair of amounts fits both tilts along this direction.
+
+[exited with code 0]

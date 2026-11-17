@@ -1,0 +1,43 @@
+Six faces: each pair of rows or columns closes a triangle in the complex plane; area of each:
+  columns 1-2: sides 2.19e-01, 2.19e-01, 3.53e-04; area 1.558e-05
+  columns 1-3: sides 3.64e-03, 9.40e-03, 8.57e-03; area 1.558e-05
+  columns 2-3: sides 8.40e-04, 4.07e-02, 4.11e-02; area 1.558e-05
+  rows 1-2: sides 2.19e-01, 2.19e-01, 1.56e-04; area 1.558e-05
+  rows 1-3: sides 8.36e-03, 9.25e-03, 3.73e-03; area 1.558e-05
+  rows 2-3: sides 1.93e-03, 4.00e-02, 4.18e-02; area 1.558e-05
+All six areas equal J/2 = 1.558e-05 (Jarlskog 1985). Some faces are long and thin, one is nearly equilateral (the one measured at B factories).
+The joining volume: det[up ladder, down ladder] = -3.313e+39 i (MeV^12); formula 2 J x (mass-squared gaps) = -3.313e+39: equal.
+  So the ladders and the turn form one perspective-free object: a determinant (a volume) whose faces are the six triangles.
+Closure (nothing escapes) holds by construction in the 3-family fit (1.000000). Measured directly (PDG 2024): |Vud|^2+|Vus|^2+|Vub|^2 =
+  0.99836 +- 0.00073: short of 1 by 0.00164 (2.2 sigma), the 'Cabibbo angle anomaly'. A heavy down-type partner mixing with
+  the down quark at an angle of about 0.040 would account for it (Belfatto, Beradze & Berezhiani 2020; Branco et al. 2021).
+
+Can the six triangles close into a solid? (diamond = triangular bipyramid: 6 faces, 9 edges, each edge shared by two faces)
+  18 sides sorted and paired as closely as possible (the best possible pairing for gluing):
+    1.560e-04 (row12) with 3.527e-04 (col12): mismatch x2.26
+    8.395e-04 (col23) with 1.930e-03 (row23): mismatch x2.30
+    3.635e-03 (col13) with 3.728e-03 (row13): mismatch x1.03
+    8.361e-03 (row13) with 8.574e-03 (col13): mismatch x1.03
+    9.248e-03 (row13) with 9.404e-03 (col13): mismatch x1.02
+    4.001e-02 (row23) with 4.071e-02 (col23): mismatch x1.02
+    4.106e-02 (col23) with 4.178e-02 (row23): mismatch x1.02
+    2.189e-01 (col12) with 2.190e-01 (row12): mismatch x1.00
+    2.191e-01 (row12) with 2.192e-01 (col12): mismatch x1.00
+  Worst mismatch x2.30. Gluing needs every pair equal; sides differing up to x2.3 cannot be glued. No closed solid.
+  Also: a bipyramid's faces meet three or four at each corner, so its faces must share edge lengths in a fixed pattern; sizes here span
+  x1405 from shortest to longest side, so even faces scaled freely could not keep equal areas and close.
+
+What the six faces DO show: they come in three near-mirror pairs, row view vs column view (up-type side vs down-type side):
+  col12 3.527e-04, 2.189e-01, 2.192e-01  vs  row12 1.560e-04, 2.190e-01, 2.191e-01
+  col13 3.635e-03, 8.574e-03, 9.404e-03  vs  row13 3.728e-03, 8.361e-03, 9.248e-03
+  col23 8.395e-04, 4.071e-02, 4.106e-02  vs  row23 1.930e-03, 4.001e-02, 4.178e-02
+  Pairs match because |Vus|~|Vcd| (0.2250 vs 0.2249) and |Vcb|~|Vts| (0.0418 vs 0.0411);
+  they differ in the shortest side because |Vub| != |Vtd| (0.00373 vs 0.00858, x2.30). Two copies glued
+  edge to edge would make a flat 'pillow' with no inside (zero volume), not a containing solid.
+
+One partner for both the fold and the leak? (rough estimate, simplest form)
+  A heavy partner D coupled with strength g along u gives a fold k*p0 = g^2/M_D and a mixing angle theta = g/M_D, so M_D = k*p0/theta^2.
+  V3 (down squeezed, up stretched): fold 0.0660, leak 0.00164 -> M_D ~ 6.4 GeV
+  V1 (down only): fold 0.1162, leak 0.00164 -> M_D ~ 11.3 GeV
+  The LHC excludes heavy down-type partners below about 1.5 TeV (ATLAS and CMS searches for vector-like quarks). A partner at 6-11 GeV
+  is ruled out, so the fold amount and the first-row leak cannot both come from one partner in this simplest form.

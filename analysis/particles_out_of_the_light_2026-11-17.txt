@@ -1,0 +1,41 @@
+(1) Stretch check: grain-length wave carried by expansion alone to today
+   stretch factor 1.11e+32 ; 1.436e-34 m -> 0.0159 m ; measured glow: typical wave 0.00195 m
+
+(2) When the falling light passed each level (light's energy = that particle's energy)
+   the grain: start                                        light at 8.63e+27 eV   stretch since then x1.11e+32   age 3.1e-45 s
+   D, coloured far-side parts                              light at 4.62e+22 eV   stretch since then x5.92e+26   age 1.1e-34 s
+   hidden partner 3                                        light at 6.3e+19 eV   stretch since then x8.08e+23   age 5.9e-29 s
+   hidden partner 2                                        light at 1.3e+18 eV   stretch since then x1.66e+22   age 1.4e-25 s
+   MMG                                                     light at 2.41e+17 eV   stretch since then x3.09e+21   age 4.0e-24 s
+   hidden partner 1                                        light at 7.25e+14 eV   stretch since then x9.3e+18   age 4.5e-19 s
+   top                                                     light at 1.73e+11 eV   stretch since then x2.14e+15   age 8.3e-12 s
+   the surface's resistance switches on (Higgs settles)    light at 1.6e+11 eV   stretch since then x1.98e+15   age 9.6e-12 s
+   Higgs                                                   light at 1.25e+11 eV   stretch since then x1.55e+15   age 1.6e-11 s
+   Z                                                       light at 9.12e+10 eV   stretch since then x1.13e+15   age 3.0e-11 s
+   W                                                       light at 8.04e+10 eV   stretch since then x9.95e+14   age 3.8e-11 s
+   bottom                                                  light at 4.18e+09 eV   stretch since then x4.99e+13   age 1.5e-08 s
+   tau                                                     light at 1.78e+09 eV   stretch since then x2.03e+13   age 8.8e-08 s
+   charm                                                   light at 1.27e+09 eV   stretch since then x1.45e+13   age 1.7e-07 s
+   quarks lock into protons and neutrons                   light at 1.55e+08 eV   stretch since then x1.08e+12   age 2.4e-05 s
+   muon                                                    light at 1.06e+08 eV   stretch since then x6.88e+11   age 5.8e-05 s
+   strange                                                 light at 9.35e+07 eV   stretch since then x5.58e+11   age 8.4e-05 s
+   neutrinos stop touching anything                        light at 1e+06 eV   stretch since then x5.96e+09   age 0.74 s
+   electron (pairs go, the leftover stays)                 light at 5.11e+05 eV   stretch since then x3.05e+09   age 2.8 s
+   first nuclei                                            light at 7e+04 eV   stretch since then x2.83e+08   age 4 min
+   majoron (dark matter candidate)                         light at 8.8e+03 eV   stretch since then x3.56e+07   age 0.2 days
+   atoms form; light set free                              light at 0.26 eV   stretch since then x1.05e+03   age 363 thousand years
+   neutrino 3 slows (stops behaving like light)            light at 0.0223 eV   stretch since then x94.9   age 18 million years
+   neutrino 2 slows                                        light at 0.00384 eV   stretch since then x16.3   age 259 million years
+   neutrino 1 slows                                        light at 0.00016 eV   stretch since then x0.682   age 19.7 billion years
+   TODAY                                                   light at 0.000235 eV   stretch since then x0.951   age 13.8 billion years
+
+(3) How much of each relic thing is free movement (stretches) and how much is held (does not), today
+   light        moving part 100%   held part 0%
+   neutrino 1   moving part 43.66%   held part 56.34%
+   neutrino 2   moving part 0.187%   held part 99.81%
+   neutrino 3   moving part 0.005552%   held part 99.99%
+   electron     moving part 6.9e-08%
+   proton       moving part 3.8e-11%
+
+(4) The floor of the stretch: the surface's own glow (Gibbons & Hawking 1977) = surface energy x sqrt(dark share)/2pi = 1.89e-34 eV
+    light today is at 0.000235 eV, 29.2 tens above the surface; the cone is 60.8 tens tall; light has come 51.9% of the way down

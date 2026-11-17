@@ -1,0 +1,116 @@
+
+========================================================================================================
+INPUTS (measured; this is the whole list the main line needs)
+========================================================================================================
+  strengths (3), Higgs value and mass (2), top/bottom/charm/strange (4), quark mixing (4), lepton scale and twist (2),
+  neutrino splittings (2), proton containment (2, from proton and Delta), gravity (1), dark energy (1).
+
+========================================================================================================
+A. LEPTONS: the 45 degree cone (self = relationship), one scale, one twist
+========================================================================================================
+  scale and twist set by electron and muon: scale 313.8564 MeV, twist 0.2222220471 (2/9 = 0.2222222222, -0.79 ppm)
+  electron mass (MeV)                            predicted 0.510999     measured 0.510999     ( -0.000%,   -0.0 sigma)   [DERIVED from scale+twist]
+  muon mass (MeV)                                predicted 105.658      measured 105.658      ( -0.000%,   -0.0 sigma)   [DERIVED from scale+twist]
+  tau mass (MeV)                                 predicted 1776.97      measured 1776.86      ( +0.006%,   +0.9 sigma)   [DERIVED from scale+twist]
+  (the electron and muon are used to set scale and twist, so the tau is the one true prediction)
+
+========================================================================================================
+B. NEUTRINOS: the same 45 degree rule, first root mirrored, two splittings in
+========================================================================================================
+  m1 = 0.00036, m2 = 0.00866, m3 = 0.05034 eV; sum = 0.0594 eV   [PREDICTION: DESI 2025 + CMB limit about 0.064 eV]
+  normal ordering predicted (inverted ordering breaks it).
+
+========================================================================================================
+C. QUARKS: the two links that pass
+========================================================================================================
+  down quark mass (MeV, Cabibbo link)            predicted 4.73386      measured 4.7          ( +0.720%,   +0.5 sigma)   [DERIVED from strange + Cabibbo]
+  up quark mass (MeV, eta -> 3 pi link)          predicted 2.12935      measured 2.16         ( -1.419%,   -0.4 sigma)   [DERIVED (weak test, Q is an input)]
+
+========================================================================================================
+D. FORCES: which, how many, the charges, and the one strength at the meeting
+========================================================================================================
+  12 carriers as 8 | 3 | 1, three colours, 16 states per generation with measured charges, no mirror states: DERIVED.
+  16 + 10 + 1 = 27 states of the three-way relationship matrix: the same count as E6 (Gursey, Ramond & Sikivie 1976).
+  weak angle sin^2 at the Z (one loop)           predicted 0.207559     measured 0.23122      (-10.233%, -591.5 sigma)   [FAIL (two loops: 0.2067, -10.6%)]
+  rho = 1 at tree level (only weak pairs carry the Higgs): DERIVED, measured 1.0003 +/- 0.0005 after known loops (Veltman 1977).
+
+========================================================================================================
+E. SMALL CHECKS THAT FOLLOW FROM THE BALANCE AND THE MATRIX
+========================================================================================================
+  pion decay ratio e/mu (x1e-4)                  predicted 1.23535      measured 1.2327       ( +0.215%,   +1.2 sigma)   [follows (one-handedness + perspective)]
+  fission energy per U-235 (MeV, from the balance) predicted 166          measured 173          ( -4.046%,   -2.3 sigma)   [follows, rough]
+  heaviest neutron star (solar masses, middle of 2.0-2.15) predicted 2.075        measured 2.08         ( -0.240%,   -0.1 sigma)   [PREDICTION (containment)]
+  galaxy-outskirts acceleration cH0/2pi (1e-10 m/s^2) predicted 1.04222      measured 1.2          (-13.149%,   -0.8 sigma)   [holds for galaxies only]
+
+========================================================================================================
+F. COMBINATION 1: the extra Higgs piece and the far-side parts against the strength gap
+========================================================================================================
+  The gap can close only if something between the Z and the meeting touches the weak or strong force. The pieces the theory
+  already has that do that: extra weak pairs of the Higgs kind (the far-side Higgs pair, and the 'one more Higgs piece' of an earlier test) and the
+  six coloured far-side parts. Each extra weak pair of the Higgs kind adds (1/10, 1/6, 0); each coloured far-side triplet adds (1/15, 0, 1/6).
+   0 extra weak pairs at the weak scale: sin^2 = 0.2076 ( -10.2%), meeting 6.79e+14 GeV
+   1 extra weak pairs at the weak scale: sin^2 = 0.2115 (  -8.5%), meeting 4.39e+14 GeV
+   2 extra weak pairs at the weak scale: sin^2 = 0.2154 (  -6.8%), meeting 2.88e+14 GeV
+   3 extra weak pairs at the weak scale: sin^2 = 0.2191 (  -5.2%), meeting 1.91e+14 GeV
+   4 extra weak pairs at the weak scale: sin^2 = 0.2228 (  -3.6%), meeting 1.28e+14 GeV
+   5 extra weak pairs at the weak scale: sin^2 = 0.2263 (  -2.1%), meeting 8.67e+13 GeV
+   6 extra weak pairs at the weak scale: sin^2 = 0.2298 (  -0.6%), meeting 5.95e+13 GeV
+   7 extra weak pairs at the weak scale: sin^2 = 0.2331 (  +0.8%), meeting 4.12e+13 GeV
+   8 extra weak pairs at the weak scale: sin^2 = 0.2364 (  +2.2%), meeting 2.88e+13 GeV
+  (No proton-decay limit applies here: the main line has no carriers that turn quarks into leptons, 43.4.)
+  What the theory itself supplies: one far-side Higgs pair per placement (an earlier test: one weak pair, 4 components). Three placements
+  = the Higgs we know + 2 more. Their coloured far-side partners must stay heavy, which the fold (combination 2) needs anyway.
+   2 extra far-side Higgs pairs at      91 GeV: sin^2 = 0.2154 (-6.8%)
+   2 extra far-side Higgs pairs at     500 GeV: sin^2 = 0.2149 (-7.0%)
+   2 extra far-side Higgs pairs at    1000 GeV: sin^2 = 0.2148 (-7.1%)
+   2 extra far-side Higgs pairs at    3000 GeV: sin^2 = 0.2145 (-7.2%)
+  Reading choice: the 27 is ONE three-way multiplet, and its 16 link states are spin-1/2 matter. Read with the same spin, the far-side
+  weak pair of each placement is a spin-1/2 pair (both charges +-1/2), and the Higgs we see is a separate link (as in E6, where the 27
+  is matter). Each spin-1/2 weak pair adds (2/5, 2/3, 0). Three placements, coloured partners heavy:
+   3 spin-1/2 far-side pairs at      200 GeV: sin^2 = 0.2475 (+7.06%), meeting 8.49e+12 GeV
+   3 spin-1/2 far-side pairs at      500 GeV: sin^2 = 0.2463 (+6.51%), meeting 9.75e+12 GeV
+   3 spin-1/2 far-side pairs at     1000 GeV: sin^2 = 0.2453 (+6.09%), meeting 1.08e+13 GeV
+   3 spin-1/2 far-side pairs at     2000 GeV: sin^2 = 0.2443 (+5.68%), meeting 1.20e+13 GeV
+   3 spin-1/2 far-side pairs at     5000 GeV: sin^2 = 0.2431 (+5.13%), meeting 1.38e+13 GeV
+   3 spin-1/2 far-side pairs at    10000 GeV: sin^2 = 0.2421 (+4.71%), meeting 1.54e+13 GeV
+   3 spin-1/2 far-side pairs at   100000 GeV: sin^2 = 0.2389 (+3.33%), meeting 2.18e+13 GeV
+   exact match needs them at 26059097 GeV (one loop; two-loop terms move this by roughly a factor 2-3).
+   one spin-1/2 pair (a single placement light) and two pairs, at 1 TeV:
+     1 pair(s): sin^2 = 0.2216 (-4.18%), meeting 1.46e+14 GeV
+     2 pair(s): sin^2 = 0.2341 (+1.23%), meeting 3.72e+13 GeV
+
+   far-side Higgs pair + its coloured partner (a complete set) at the weak scale: sin^2 = 0.2076 (-10.2%): a complete set moves nothing.
+
+========================================================================================================
+G. COMBINATION 2: the fold's heavy state is the far-side coloured part
+========================================================================================================
+  The fold that closes the 2-3 quark gap needs one heavy down-type state: charge -1/3, three colours, no weak pair.
+  The far-side coloured parts of the 27 are exactly that (in E6 language the D quark). So the fold adds NOTHING new: rule 6 kept.
+  What this does NOT fix: the fold's direction among the three families and its strength (k = 0.12 set by the 2-3 tilt). Kept as a lead.
+
+========================================================================================================
+H. COMBINATION 3: dark matter's amount (majoron) with the matter-excess start
+========================================================================================================
+  theta ~ 1 (start colder than the hidden partners): full dark matter needs m = 1.42e+03 eV
+  theta^2 = pi^2/3 (hot start: lepton number restored, averaged): full dark matter needs m = 131 eV
+     but a hot start also fills space with thermal majorons: Omega h^2 = 0.087 extra at that mass,
+     i.e. 73% of the dark matter as fast-moving (hot) majorons. Structure-formation data allow at most
+     a few per cent of such hot matter (rough). The hot start and majoron dark matter do not fit together.
+  Majoron lifetime to neutrinos at 0.5 keV: 1.0e+26 s (universe 4.4e17 s): stable enough.
+  Non-thermal start (the end of inflation hands its energy straight to the hidden partners, Lazarides & Shafi 1991): the space never gets
+  hot enough to make majorons thermally, and the partners' decays still make the matter excess. Its size is then set by one new number
+  (the reheating ratio), so the matter excess becomes ALLOWED, not predicted.
+
+========================================================================================================
+SUMMARY TABLE
+========================================================================================================
+  electron mass (MeV)                            0.510999     0.510999        -0.0 sigma  DERIVED from scale+twist
+  muon mass (MeV)                                105.658      105.658         -0.0 sigma  DERIVED from scale+twist
+  tau mass (MeV)                                 1776.97      1776.86         +0.9 sigma  DERIVED from scale+twist
+  down quark mass (MeV, Cabibbo link)            4.73386      4.7             +0.5 sigma  DERIVED from strange + Cabibbo
+  up quark mass (MeV, eta -> 3 pi link)          2.12935      2.16            -0.4 sigma  DERIVED (weak test, Q is an input)
+  weak angle sin^2 at the Z (one loop)           0.207559     0.23122       -591.5 sigma  FAIL (two loops: 0.2067, -10.6%)
+  pion decay ratio e/mu (x1e-4)                  1.23535      1.2327          +1.2 sigma  follows (one-handedness + perspective)
+  fission energy per U-235 (MeV, from the balance) 166          173             -2.3 sigma  follows, rough
+  heaviest neutron star (solar masses, middle of 2.0-2.15) 2.075        2.08            -0.1 sigma  PREDICTION (containment)
+  galaxy-outskirts acceleration cH0/2pi (1e-10 m/s^2) 1.04222      1.2             -0.8 sigma  holds for galaxies only

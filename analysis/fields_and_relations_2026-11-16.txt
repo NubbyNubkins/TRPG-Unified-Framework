@@ -1,0 +1,22 @@
+=== A. Other fields from electron, proton, electric strength, grain ===
+  Rydberg (atom binding)                                      13.61 vs 13.606   eV                           ratio  1.000  [Bohr 1913]
+  Molecular vibration step (H2)                               0.635 vs 0.516    eV                           ratio  1.231  [Born-Oppenheimer 1927 (x2 for H2 reduced-mass/bond)]
+  Molecular rotation step (H2)                              0.01482 vs 0.0151   eV                           ratio  0.981  [Born-Oppenheimer 1927]
+  Chandrasekhar limit (white dwarf, mu_e=2)                   1.435 vs 1.44     Suns                         ratio  0.996  [Chandrasekhar 1931]
+  Largest cold planet ~ alpha^1.5 (M_Pl/m_p)^3 m_p            1.209 vs 1        Jupiters (order)             ratio  1.209  [Press & Lightman 1983]
+  Quark-soup melting ~ pion weight                            139.6 vs 156.5    MeV                          ratio  0.892  [lattice QCD (HotQCD 2019)]
+  Hydrogen ionisation temperature ~ Rydberg/ (k ln(...)) ~ alpha^2 me/40         3947 vs 3740     K (recombination ~3000-4000) ratio  1.055  [Saha]
+=== B. Relations among pairs, triples, quads (log10 GeV), with look-elsewhere control ===
+ tolerance 0.02 decades (~5%):
+  mirrors (k = geometric mean of i,j): 10 found vs 4.4 random (chance >= 0.02)
+    e = sqrt(nu1 x N1)  off +0.3% [built in]
+    mu = sqrt(nu2 x N2)  off +0.1% [built in]
+    tau = sqrt(nu3 x N3)  off -0.1% [built in]
+    mu = sqrt(nu3 x MMG)  off -0.7%
+    b = sqrt(mu x t)  off +2.2%
+    s = sqrt(tau x d)  off -2.3%
+    c = sqrt(tau x p)  off +1.7%
+    s = sqrt(u x b)  off +1.6%
+    H = sqrt(t x Z)  off +0.2%
+    t = sqrt(H x v)  off +1.7% [built in]
+  balanced pairs a x b = c x d: 42 found vs 31.4 random (chance >= 0.05)

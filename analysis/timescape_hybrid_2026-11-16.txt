@@ -1,0 +1,17 @@
+check tiny Lambda, fv0=0.685: chi2 = 15.94 (an earlier test analytic tracker: 15.67)
+
+scan: void fraction today fv0; Lambda share chosen by the fit (bare Omega_L = Lambda/(3 Hbar0^2))
+ fv0=0.020: best chi2=10.83 at bare Omega_L=0.690   (no Lambda: 1462.71)
+ fv0=0.100: best chi2=11.91 at bare Omega_L=0.623   (no Lambda: 1429.26)
+ fv0=0.300: best chi2=13.98 at bare Omega_L=0.444   (no Lambda: 1060.10)
+ fv0=0.500: best chi2=10.71 at bare Omega_L=0.234   (no Lambda: 408.65)
+ fv0=0.560: best chi2=9.07 at bare Omega_L=0.165   (no Lambda: 221.35)
+ fv0=0.600: best chi2=8.81 at bare Omega_L=0.114   (no Lambda: 118.86)
+ fv0=0.620: best chi2=9.18 at bare Omega_L=0.089   (no Lambda: 79.97)
+ fv0=0.640: best chi2=10.04 at bare Omega_L=0.067   (no Lambda: 47.57)
+ fv0=0.660: best chi2=11.77 at bare Omega_L=0.036   (no Lambda: 25.77)
+ fv0=0.685: best chi2=15.23 at bare Omega_L=0.003   (no Lambda: 15.94)
+ fv0=0.737: best chi2=66.68 at bare Omega_L=0.000   (no Lambda: 66.68)
+
+overall best: chi2=8.81 at fv0=0.6, Omega_L=0.11   (flat LCDM 10.54 with 1 shape number; hybrid has 2)
+Seifert SN value fv0=0.737 with Lambda allowed: chi2=66.68 at Omega_L=0.00

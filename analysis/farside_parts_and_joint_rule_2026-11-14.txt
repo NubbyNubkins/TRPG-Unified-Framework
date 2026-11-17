@@ -1,0 +1,55 @@
+
+========================================================================================================
+PART A. The six coloured far-side parts as real particles
+========================================================================================================
+  What they are (44.2): with the colourless weak pair (the Higgs) they fill the far side's 10 parts. Six = a coloured triplet of charge 1/3,
+  spin 0 (three colours x particle/antiparticle). This is exactly the Higgs pair's coloured partner in the 1974 unified models.
+  Its effect on the running: hypercharge +0.0667, weak 0, strong +0.1667
+  without it: sin^2 = 0.2076 (-10.2%), meeting at 6.8e+14 GeV
+  with it from   1e+03 GeV: sin^2 = 0.2038 (-11.9%), meeting at 1.0e+15 GeV
+  with it from   1e+06 GeV: sin^2 = 0.2047 (-11.4%), meeting at 9.2e+14 GeV
+  with it from   1e+10 GeV: sin^2 = 0.2060 (-10.9%), meeting at 8.0e+14 GeV
+  with it from   1e+13 GeV: sin^2 = 0.2070 (-10.5%), meeting at 7.2e+14 GeV
+  It makes the gap WIDER at every mass. Reason: it slows the strong force's weakening (strong +1/6) and touches
+  the weak force not at all, so the weak and strong lines meet later, where hypercharge has already passed. Same for ANY number of copies.
+  ATTACK from the other side (could they be spin 1/2 instead?): a coloured triplet of spin 1/2 adds hypercharge 2/15 and strong 2/3:
+    from 1 TeV: sin^2 = 0.1930 (-16.5%). Also wider.
+  And they cannot be light in any case: a coloured charge-1/3 piece that touches quarks and leptons makes the proton decay. Super-Kamiokande
+  (proton lasts > 2.4e34 years) puts it above ~1e11 GeV even with the smallest (electron-sized) couplings. So as real particles: FAIL twice.
+  What closes the gap instead, for the record: things carrying the WEAK charge between the Z and the meeting. Required change: b_weak - b_strong
+  must grow by about 0.88 from 1 TeV (pure weak-charged additions). The far side has no such part beyond the Higgs pair. FAIL.
+
+========================================================================================================
+PART B. One joint rule for the up and down ladders, tilt = angle between them
+========================================================================================================
+  B1. The shared-state rule. TRPG reads each ladder as a cone around one axis, and the two ladders as hung from one shared state (47.4).
+      Written as matrices: each ladder = (all-ones matrix: the shared state, every family touching every family equally) + a small break.
+      This is the 'democratic' form (Harari, Haut & Weyers 1978; Koide; Fritzsch & Plankl 1990). Both ladders share the SAME all-ones part;
+      they differ only in the break. The tilt then comes out; nothing is fitted to it. Break used: (-d, +d, e) on the diagonal (the simplest that
+      gives three different masses; Fritzsch & Xing 1996). Three masses fix three numbers per ladder.
+      4 sign choices solve. Results (|V_us|, |V_cb|, |V_ub|), measured (0.225, 0.04183, 0.003732):
+        up signs (1, -1), down signs (1, -1):  0.1793  0.0092  0.00632
+        up signs (1, -1), down signs (-1, 1):  0.1711  0.0152  0.00657
+        up signs (-1, 1), down signs (1, -1):  0.2659  0.0151  0.00525
+        up signs (-1, 1), down signs (-1, 1):  0.2579  0.0103  0.00542
+      best: 0.2659 (1.18x), 0.0151 (0.36x), 0.00525 (1.41x)
+  B2. The tilt as the plain angle between the two ladders (each ladder as the arrow (sqrt m1, sqrt m2, sqrt m3)):
+      angle = 4.49 degrees; Cabibbo angle 13.0, V_cb angle 2.40, V_ub angle 0.21. Matches none (and it uses the masses' own sizes).
+  B3. The cone form of the same idea: the two cones' axes tilted by the measured tilt. an earlier test C5 showed the same-axis start gives zero tilt;
+      putting the measured tilt in by hand gives back the measured tilt and no masses: it relates, it does not produce. Not a rule.
+
+========================================================================================================
+Summary
+========================================================================================================
+  A: the six coloured far-side parts as real particles widen the strength gap and would break the proton. FAIL. The strengths need weak-charged
+     states between the Z and the meeting energy, which the main line does not have. Force groups stays PARTIAL.
+  B: the shared-state (democratic) joint rule is the right SHAPE (both ladders from one shared part, the tilt comes out unfitted) but its
+     numbers fail; the plain angle fails. Quark masses stay PARTIAL.
+
+========================================================================================================
+ATTACK on B1: give the shared-state rule its most general diagonal break (one free number per ladder) and let it FIT the tilt
+========================================================================================================
+  best over 2 free numbers (one per ladder) and all signs: |V_us| 0.2164 (0.96x), |V_cb| 0.0162 (0.39x),
+  |V_ub| 0.00359 (0.96x)   (break shifts +0.000, -0.001)
+  Verdict: even with a free number per ladder (break shifts from -0.3 to +0.3) the turn to the third family stays 0.39x too small. The first and
+  outer turns can be fitted, the middle one cannot. The shared-state rule with a diagonal break is RULED OUT, not only unfitted.

@@ -1,0 +1,168 @@
+
+====================================================================================================
+PART 1. FORCE GROUPS: can 'all three forces follow from the bag rules' be shown to fail?
+====================================================================================================
+Needed (measured): 12 carriers in three blocks that do not mix: 8 (2 neutral) | 3 (1 neutral) | 1 (1 neutral). Rank 4 in total.
+The 4x4 (Pati-Salam) version needs rank 5 (15 + 3 + 3 carriers).
+
+1a. Every reading of 'a symmetry of the inner space', applied the SAME way to each number system the bag rules allow
+    reading                                                       complex  quaternions   octonions
+    A. turns that keep the multiplication (automorphisms)       0 (rank 0)  3 (rank 1) 14 (rank 2)
+    B. the same, with one direction picked (the perspective)    0 (rank 0)  1 (rank 1)  8 (rank 2)
+    C. turns that keep sizes (the literal content of rule 2)    1 (rank 1)  6 (rank 2) 28 (rank 4)
+    D. the same, keeping the unit fixed                         0 (rank 0)  3 (rank 1) 21 (rank 3)
+    E. the same, respecting the perspective's complex structure  1 (rank 1)  4 (rank 2) 16 (rank 4)
+    E'. the same as E, also keeping the unit fixed              0 (rank 0)  1 (rank 1)  9 (rank 3)
+    F. multiplying by unit elements, left side only (closure)   1 (rank 1)  3 (rank 1) 28 (rank 4)
+    G. multiplying by unit elements, left and right (closure)   1 (rank 1)  6 (rank 2) 28 (rank 4)
+    Wanted in ONE row: 1 (rank 1) for hypercharge, 3 (rank 1) for the weak force, 8 (rank 2) for colour.
+    -> No row has them. Colour's 8 (rank 2) appears only in row B on the octonions. The weak force's 3 appears in rows A, D, F on the
+       quaternions. an earlier test took colour from row B and 'left and right' from row G: two different readings of rule 3.
+    Row E in detail: the self-interacting parts have 3 and 15 carriers: quaternions give SU(2) x U(1) (4 carriers, 2 neutral: the measured
+    electroweak count) and octonions give SU(4) x U(1) (the 4x4 colour group of an earlier test plus one). Row E is the only single reading that gets the
+    weak block's count right, but it gives 16 colour-side carriers, not 8, one U(1) too many, and still needs two separate inner spaces. A lead, not a result.
+    Also: the 4x4 colour group (15 carriers, rank 3) cannot sit inside the octonion's symmetries of row A (14, rank 2). So 'octonions give colour'
+    (an earlier test, row B) and 'the lepton is the 4th colour' (an earlier test, which is row E) are two different structures, and both have been in use.
+
+1b. Can ONE octonion inner space hold colour and the weak force side by side?
+    Row A: the octonion's symmetries have rank 2; the measured forces need rank 4. Impossible, whatever the details.
+    Row C (most generous, 28 turns, rank 4): turns that commute with colour's 8: 2, and they commute with each other: True.
+    -> next to colour there is room for 2 single (U(1)-type) carriers and no room for the weak force's 3. And rank 4 < 5: the 4x4 group cannot fit at all.
+
+1c. So the weak force needs a second number system (the quaternions) next to the octonions. Does putting them together keep rule 1?
+    complex x quaternions : (1 + i e1) x (1 - i e1) = 0.0   <- two non-zero things multiply to nothing: a hole in the glass
+    complex x octonions   : (1 + i e1) x (1 - i e1) = 0.0   <- two non-zero things multiply to nothing: a hole in the glass
+    quaternions x octonions: (1 + i(x)e1) x (1 - i(x)e1) = 0.0
+    The published octonion routes to the weak force (Dixon; Furey) work inside exactly these products and build particles from
+    projectors P with P x (1 - P) = 0. They need the holes that rule 1 forbids.
+    The only way left: keep three SEPARATE inner spaces at every point (complex, quaternion, octonion), never multiplied together.
+    That keeps rule 1, but it is an added assumption (why three spaces, each once?), and row by row above it still needs a different
+    reading of 'symmetry' for each space: unit multiplication for the first two (row F: 1 and 3) and row B for the octonions (8).
+    Noted, not used: with a perspective picked in the quaternions too, row B leaves 1 carrier there and 8 in the octonions. That is the
+    pattern of the two forces that stay unbroken in nature (electromagnetism and colour). Suggestive; it is not a derivation of the weak force.
+    -> RESULT: 'rules 1-4 give SU(3) x SU(2) x U(1)' is FALSE as stated. Rules 1-2 allow one number system at a time;
+       the octonions give colour and nothing else that commutes with it except single carriers. The weak force and hypercharge are NOT derived.
+
+1d. What survives the attack
+    Colour: any of 5 new random perspectives leaves (carriers, neutral) = [(8, 2)] -> SU(3), three colours. Survives.
+    Uniqueness from counting: 8 carriers with 2 neutral is only SU(3); 4 with 2 neutral is only SU(2) x U(1). That is the
+    Killing-Cartan classification, a theorem. It survives, but its inputs (the counts) are MEASURED, not derived from the bag rules.
+    Consistency (anomalies) of the 16 particles per generation: sum Y = +0.0e+00, sum Y^3 = +2.3e-16, weak-weak-Y = +0.0e+00, colour-colour-Y = +0.0e+00: all zero. Passes.
+
+1e. Left-handedness: does 'nothing extra' (rule 6, the minimal 4x4 content) survive the measured masses?
+    The minimal 4x4 Higgs content (one bidoublet) forces, at the right side's scale: down-type quark mass = charged lepton mass, generation by generation,
+    and up-type quark mass = neutrino Dirac link (Pati & Salam 1974).
+      bottom / tau     : predicted 1, measured 0.73
+      strange / muon   : predicted 1, measured 0.23   (off by 4.4x)
+      down / electron  : predicted 1, measured 2.33   (off by 2.3x)
+    And with rule 5 (neutrino link = electron family's sizes) the same content forces top = tau: measured top/tau at that scale is about 50.
+    -> The minimal content is CONTRADICTED by data and by rule 5. At least one more Higgs piece is required (the (15,2,2); Georgi & Jarlskog 1979).
+
+    Force running redone for each consistent content (one loop). Needs: right side >= heaviest partner (1.0e11-1.3e11 GeV); proton > 2.4e34 yr (Super-K).
+    content                                               right side     unify  proton (yr)   verdict
+    minimal (bidoublet + right triplet)                  10^11.74  10^16.05  10^ 36.0     OK | handedness put in: the content itself is lopsided
+    left-right symmetric (+ left triplet)                10^13.70  10^15.21  10^ 32.5     proton likely 69x too fast | handedness explained (spontaneous)
+    minimal + (15,2,2) light                             10^11.48  10^16.36  10^ 37.0     OK | fixes the mass relations; handedness put in
+    symmetric + (15,2,2) light                           10^13.70  10^15.28  10^ 32.7     proton likely 45x too fast | fixes the mass relations; handedness explained
+    minimal + (15,2,2) at the top scale                  10^11.74  10^16.05  10^ 36.0     OK | fixes the mass relations; handedness put in
+    symmetric start, left triplet lifted to the top scale 10^11.74  10^16.05  10^ 36.0     OK | handedness explained; needs one parity-odd field (Chang, Mohapatra & Parida 1984)
+    -> Every version that passes the proton and partner tests either puts handedness in by hand or adds a field beyond 'nothing extra'.
+       The fully symmetric versions are in tension with the proton limit at this rough one-loop level (a factor of about 3 in the unification
+       scale; heavy-particle thresholds could move it either way, so this is 'likely too fast', not a firm exclusion).
+       'Nothing left to assume beyond rule 6' is FALSE: rule 6 itself, read literally, is contradicted.
+
+1f. The gauge principle 'follows from rule 2': do the theorems' conditions hold inside the bag rules?
+    Counter-example: the octonion algebra at a point satisfies rules 1 and 2 exactly and contains no time, no relativity and no probabilities.
+    So rules 1-2 cannot by themselves force a LOCAL symmetry; a global one satisfies them equally well.
+    The theorems (Weinberg 1964; Llewellyn Smith 1973; Cornwall, Levin & Tiktopoulos 1974) assume special relativity, quantum mechanics
+    (probabilities add to 1 in TIME) and, for heavy carriers, weak coupling. None of these is among rules 1-7.
+    -> RESULT: the gauge principle is a theorem of relativity + quantum mechanics, which TRPG inherits. It is NOT a consequence of rule 2.
+       Honest repair: list relativity and quantum mechanics as inherited starting rules. Then rule 3 can be dropped; the count of rules does not shrink.
+
+1g. A condition the 4x4 picture brings with it (found while attacking it)
+    Breaking the 4x4 group makes magnetic monopoles of mass about 2.8e+13 GeV. If the universe was ever hotter than the break (5.5e+11 GeV)
+    after it happened, the standard estimate (Zeldovich & Khlopov 1978; Preskill 1979) gives a monopole density of about 69x the critical
+    density (allowed: under 0.12). So TRPG needs: never hotter than ~5e11 GeV after the break, yet at least ~1e11 GeV for the matter excess
+    (falsification_matter_excess, E2). A window of about 5x. Rough estimate; it is a condition, not a failure.
+
+====================================================================================================
+PART 2. QUARK MASSES: the colour rule, the bottom mass and charm
+====================================================================================================
+Lepton family (measured): scale 313.851 MeV, lean r = 1.414209 (sqrt2 = 1.414214), twist = 0.2222248 (2/9 = 0.2222222)
+
+2a. The colour rule taken as an exact rule, against each measurement's own error bar
+    strange            predicted     92.28   measured    93.50 +- 0.80   off -1.31%  =  -1.5 sigma
+    charm              predicted   1359.57   measured  1273.00 +- 4.60   off +6.80%  = +18.8 sigma
+    bottom             predicted   4197.47   measured  4183.00 +- 7.00   off +0.35%  =  +2.1 sigma
+    top (direct, GeV)  predicted    173.26   measured   172.57 +- 0.29   off +0.40%  =  +2.4 sigma
+    All four together: chi2 = 366 for 4 numbers: probability 5e-78. Without charm: chi2 = 12.3 for 3: probability 0.006.
+    -> As an exact rule it FAILS: charm alone is 19 sigma out, and even without charm the other three sit 1.5-2.4 sigma on the wrong side.
+       The bottom cannot be kept while charm is dropped: both come out of the same two numbers (3 x scale, 3 x twist).
+
+2b. Is there ANY single, consistent way of defining quark masses in which the rule holds?
+    definition                                                         Q(-s,c,b)  lean r twist/(2/9) scale/lepton  Q(c,b,t)
+    mixed, as used in an earlier test (s at 2 GeV, c and b at own scale, t direct)    0.6748  1.4314       2.925        2.911    0.6692
+    own scale for all (t = 162.5 GeV running)                             0.6748  1.4314       2.925        2.911    0.6626
+    all at 2 GeV (ratios from lattice QCD)                                0.6981  1.4794       2.519        3.159         -
+    all at the bottom's scale                                             0.6981  1.4794       2.519        2.624         -
+    all at M_Z (Huang & Zhou 2021)                                        0.6981  1.4795       2.518        1.781    0.7200
+    pole masses (c 1.67, b 4.78, t 172.57 GeV)                                 -       -           -            -    0.6485
+    THE RULE SAYS                                                         0.6667  1.4142       3.000        3.000    0.6667
+    At ANY one common energy the shape is fixed by two lattice ratios: Q(-s,c,b) = 0.6981 +- 0.0002, against 2/3 = 0.6667: 143 sigma out.
+    In the mixed convention: scale/lepton = 2.9115 +- 0.0060 (-15 sigma from 3); twist/(2/9) = 2.9246 +- 0.0051 (-15 sigma from 3); lean = 1.4314 +- 0.0017 (+10 sigma from sqrt2).
+    -> No consistent definition makes the rule hold. It comes closest only when each quark is quoted in a different convention,
+       and even there every one of its three numbers (3, 3, sqrt2) is many sigma away. RESULT: the colour rule FAILS as a law.
+       It stays what Rivero called it in 2011: a numerical observation, good to a few per cent.
+
+2c. Charm: can any standard definition rescue it?
+    charm wanted from (b, t), 45-degree rule   :  1353.0 MeV
+    charm wanted from the colour rule          :  1359.6 MeV
+    charm wanted from (s, b), 45-degree rule   :  1372.1 MeV
+    charm in standard definitions: 986 (running, at 3 GeV), 1100 (at 2 GeV), 1273 +- 5 (at its own scale), 1548 (half the J/psi), 1670 +- 70 (pole).
+    The wanted 1353-1372 matches none of them. A running mass equals 1360 at an energy of about 1.07 GeV, but nothing in TRPG picks that energy;
+    since some definition can be found for ANY number between 0.99 and 1.67 GeV, 'a different definition' is an escape that cannot fail. Rejected.
+    -> RESULT: charm FAILS (17 to 19 sigma). The heavy-quark 45-degree relation is approximate (6-8%), not a law.
+       The 'one leftover up-side factor' lead of an earlier test is withdrawn: the top value in that comparison is computed FROM charm, so it is not a second witness.
+
+2d. Every link of the quark chain, each against its own error bar
+    top = full Higgs link (y_t = 1)                predicted   174.10 +-  0.00  measured   172.57 +- 0.29 GeV  off   +0.9%   +5.3 sigma   FAILS
+    top from measured (c, b), 45 degrees           predicted   168.60 +-  0.28  measured   172.57 +- 0.29 GeV  off   -2.3%   -9.9 sigma   FAILS
+    charm from measured (b, t), 45 degrees         predicted  1352.96 +-  3.00  measured  1273.00 +- 4.60 MeV  off   +6.3%  +14.6 sigma   FAILS
+    strange from measured (c, b), 45 degrees       predicted    84.49 +-  0.44  measured    93.50 +- 0.80 MeV  off   -9.6%   -9.9 sigma   FAILS
+    strange/down from the Cabibbo cell (1/Vus^2)   predicted    19.88 +-  0.14  measured    20.36 +- 0.27      off   -2.4%   -1.6 sigma   PASSES
+    bottom from the colour rule                    predicted  4197.47 +-  0.00  measured  4183.00 +- 7.00 MeV  off   +0.3%   +2.1 sigma   borderline
+    (Up quark from the eta -> 3 pi cell: 2.03 MeV, range 1.72-2.28, measured 2.16 +- 0.07: passes, but the test is weak.)
+    Why the chain looked better before: it fed its own too-high charm (1353) into the strange link, which then gives 91.8 MeV. With the measured
+    charm the same link gives 84.5. The good strange value rested on the wrong charm.
+    -> Strictly: the Cabibbo link passes. Everything that runs through the 45-degree rule for quarks fails or is borderline. The bottom stays an INPUT.
+
+====================================================================================================
+PART 3. THE 2/9 TWIST
+====================================================================================================
+3a. As a measured rule for the charged leptons (their masses are directly measurable, so there is no definition problem)
+    all three masses measured: Q = 0.6666645 +- 0.0000051 (2/3 = 0.6666667: -0.4 sigma);  twist = 0.2222248 +- 0.0000063 (2/9 = 0.2222222: +0.4 sigma)
+    -> each rule on its own agrees with data inside the tau mass's error bar.
+
+3b. The sharper test: BOTH rules exact at once (45 degrees AND 2/9). Then two mass ratios are predicted with nothing free.
+    electron/muon : predicted 0.0048362841   measured 0.0048363317 +- 1.1e-10   off -9.83 parts per million = -447 sigma
+    tau/muon      : predicted 16.8180467      measured 16.8176918 +- 0.0008518       off +21.1 parts per million = +0.4 sigma
+    twist needed by the electron/muon ratio if 45 degrees is exact: 0.22222204710; 2/9 = 0.22222222222; difference -1.75e-07 (-0.79 ppm)
+    (with that twist the tau comes out at 1776.969 MeV; measured 1776.93 +- 0.09)
+    lean needed instead if 2/9 is exact: r = 1.414213261 (sqrt2 = 1.414213562), i.e. Q = 0.666666525; tau then 1776.967 MeV.
+    Both alternatives fit the tau mass, so the data cannot say WHICH of the two is inexact, only that they are not both exact.
+    -> RESULT: 'exactly 45 degrees and exactly 2/9' is RULED OUT by the electron/muon mass ratio, by about 8-9 parts per million
+       (hundreds of sigma, because that ratio is known to 0.02 ppm). At least one of the two is approximate at the 1e-6 level.
+       So 2/9 is a very good approximation (better than 1 in 100,000), not an exact number of nature in this form.
+
+3c. Does the rule hold at other energies (running masses)?
+    at M_Z: Q = 0.667824, twist = 0.221129 (2/9 = 0.222222; off -0.492%). The rule is a statement about the directly measured masses only.
+
+3d. The ring reading (two paths round a ring of 3 seats: (1/3)(2/3) = 2/9; Shulga 2026). What does it predict that could fail?
+    ring sum = 0.2222222 (2/9 = 0.2222222): the arithmetic is right.
+    (i) Unit. A ring's natural unit is the full turn. 2/9 of a turn = 1.3963 rad; the measured twist is 0.2222 rad = 0.03537 of a turn.
+        The reading only works if 'one ring = one radian', which nothing gives. For leptons it therefore predicts nothing: it was matched to the number.
+    (ii) Its one extension, quarks = 3 x 2/9 = 0.6667: measured 0.6499 +- 0.0011 in the mixed convention (-15 sigma); 0.5597 at any common energy. FAILS.
+    (iii) Neutrinos (TRPG's masses, lightest root sign +1): lean 1.0690, twist 0.3664 = 2/9 +0.1441. Not 2/9, and the ring gives no reason for the difference.
+    (iii) Neutrinos (TRPG's masses, lightest root sign -1): lean 1.4120, twist 0.4801 = 2/9 +0.2579. Not 2/9, and the ring gives no reason for the difference.
+    -> RESULT: the ring reading is a way of writing 2/9, not an explanation. It has a free unit, predicts nothing new for leptons,
+       and its only extension fails. It is WITHDRAWN as an explanation. The twist stays one measured number.

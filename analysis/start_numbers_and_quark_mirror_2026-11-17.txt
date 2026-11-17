@@ -1,0 +1,21 @@
+(A) Handover number X = (share of the start's energy through the partner) x (start level / weight of one piece of the source)
+   needed X = 1.68e-03; source piece must outweigh two partners: > 3.26e+10 GeV; start level < 2.41e+08 GeV (MMG never made)
+   old ceiling on X: 0.05 -> room 30x.  New ceiling: 7.39e-03 -> room 4.4x
+   share of the start's energy that must pass through partner 2: at least 0.23
+   start level: at least 5.48e+07 GeV (share 1) -> band 5.5e+07 to 2.41e+08 GeV (was 1e+06 to 2.41e+08): 4.4x wide instead of 241x
+   weight of one piece of the source: 3.26e+10 to 1.43e+11 GeV
+   ages: 4.0e-24 s to 7.8e-23 s
+   things in the main line inside the source's weight range: settling value 6.3e10, partner 3 at 1.01e11
+   settling piece as the source (weighs 5.15e+10, at most 0.085 to partners): X at most 4.0e-04: short by 4.2x -> FAIL (and 91% hot majorons)
+   D (4.6e13) as the source: X at most 5.2e-06: short by 321x -> FAIL
+   majoron starts to swing at 5.8e+06 GeV (angle 0.5): below the new band's floor -> amount stays as an earlier test (no new tie)
+   majoron starts to swing at 1.4e+06 GeV (angle 1): below the new band's floor -> amount stays as an earlier test (no new tie)
+   majoron starts to swing at 4.4e+05 GeV (angle 1.81): below the new band's floor -> amount stays as an earlier test (no new tie)
+   majoron starts to swing at 1.5e+05 GeV (angle 3.14): below the new band's floor -> amount stays as an earlier test (no new tie)
+   the swing would begin inside the band only for angle < 0.16, i.e. majoron weight > 12555 keV: above the 52 keV ceiling -> excluded
+
+(B) Quark mirror hint: middle-rung fractions, up + down = 1 ?
+   as weighed, top by its pole weight                  up 0.5651 down 0.4403 sum 1.0054
+   each at its own energy (top 162.7 GeV at its own level)        up 0.5681 down 0.4403 sum 1.0084
+   light three at 1 GeV instead of 2 GeV (x1.35), heavy at own    up 0.5562 down 0.4607 sum 1.0169
+   own-energy sum with errors: 1.0085 +- 0.0042: +2.0 sigma from 1

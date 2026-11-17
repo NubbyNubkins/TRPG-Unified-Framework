@@ -1,0 +1,4 @@
+each weighed at its own settling (pole masses)          opening 44.9999 deg, twist +0.222236 rad (+12.7332 deg); 2/9 = 0.222222
+all weighed at one temperature: Z (91 GeV), running     opening 45.0541 deg, twist +0.221042 rad (+12.6648 deg); 2/9 = 0.222222
+all at the top's energy (173 GeV), running              opening 45.0541 deg, twist +0.221042 rad (+12.6648 deg); 2/9 = 0.222222
+all at 1 TeV, running (approx.)                         opening 45.0573 deg, twist +0.220948 rad (+12.6594 deg); 2/9 = 0.222222

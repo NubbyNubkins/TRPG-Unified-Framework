@@ -1,0 +1,161 @@
+
+====================================================================================================
+1. An energy the Higgs does not give: which pairs of states can link with NOTHING else present?
+====================================================================================================
+  A 'Higgs-free' mass is a pairing of two states that every kept turn leaves alone. Count of such pairings (symmetric ones, as a mass needs):
+     all 45 turns (no perspective chosen)                         : 0
+     13 turns (spot and facing both kept only as directions)      : 0
+     12 turns (rule 4: the spot kept EXACTLY, the facing a direction): 1
+     11 turns (both kept exactly)                                 : 3
+  Under the 12, the one pairing is the hidden neutrino partner with itself: True (weight 1.000).
+  And that state IS the state rule 4 keeps exactly, the observer's 'spot' state of an earlier test (overlap of the two: 1.000000).
+     (This had to be so: a state kept exactly is untouched by all 12 turns, so it carries no charge of any kind, and the only such state is the
+     hidden neutrino partner. Georgi 1975; Fritzsch & Minkowski 1975.)
+  The 13 hold the 12 and exactly 1 more turn. It commutes with all 12 (error 7e-15), so it is a single one, like the electric-type one.
+     Its values (scaled so the spot state has 5): {'quark pair': [1.0], 'lepton pair': [-3.0], 'up partner': [1.0], 'down partner': [-3.0], 'electron partner': [1.0], 'hidden neutrino partner': [5.0]}
+     Mixed with the earlier single one, (this + 4 x that)/5: {'quark pair': [0.3333], 'lepton pair': [-1.0], 'up partner': [-0.3333], 'down partner': [-0.3333], 'electron partner': [1.0], 'hidden neutrino partner': [1.0]}
+     Read as particles (partners are written here as their antiparticles): quarks +1/3, leptons -1. That is 'matter number':
+     (number of quark-triples) minus (number of leptons), B-L in the physics literature (Davidson 1979; Marshak & Mohapatra 1980).
+  The spot state carries +1 of it, so the spot's pairing with itself carries +2.
+  -> The hidden partner's own mass is allowed EXACTLY BECAUSE rule 4 keeps the spot exactly: keeping the spot exactly is the same act as giving up
+     the 13th turn. With no perspective (45) or with the spot kept only as a direction (13), no mass of any kind exists without the Higgs.
+     So the matrix holds exactly ONE energy the Higgs does not give, and it belongs to the observer's own spot. the 'different energy'
+     is there. It is the standard heavy-partner mass (Majorana 1937; Minkowski 1977; Yanagida 1979; Gell-Mann, Ramond & Slansky 1979).
+  ATTACK 1: with both states kept exactly (11 turns) more pairings appear: the electron partner would get a Higgs-free mass of its own, and the
+     single carrier is lost altogether. That pairing's electric charge is +2.0, not zero, so the measured world rules it out.
+     'Spot exact, facing a direction' is needed. It is the same reading an earlier test already needed, so no new choice is added.
+  ATTACK 2: the pairing is ALLOWED, not REQUIRED, and its SIZE is not fixed by the 12 (it is unchanged by all of them). Its size is an input.
+
+====================================================================================================
+2. The turn that is given up: is it a force, and which of the two kinds?
+====================================================================================================
+     strong + matter number (9)                             blind to the facing: True
+     strong + electric (9)  [an earlier test]                       blind to the facing: True
+     strong + electric + matter number (10)                 blind to the facing: True
+     strong + the earlier single one + matter number (10)   blind to the facing: False
+     strong + weak + matter number (12)                     blind to the facing: False
+     all 13                                                 blind to the facing: False
+  Scan: strong + ONE mixture (earlier single one + a x weak turn + c x matter number), a from -2 to 2, c = 0, 0.7, -1.3: blind only for a = [-1.0, 1.0], any c.
+  -> Inside the 13, the LARGEST part that is blind to the facing has 10 turns: strong + electric + matter number. (Any 10 or more must hold
+     the whole strong force plus two single mixtures; the scan shows the mixtures must be electric (a = +1 or -1) and matter number.)
+     So the turn given up at the spot is of the FIRST kind, the push/pull kind, the same kind as the strong and electric forces.
+  The settled Higgs side (45.3) keeps 10 of the 13 (blind to the facing: True). Matter number of the Higgs pair: 2.3e-15; of the coloured far-side parts: 0.667.
+  -> The Higgs does NOT give up matter number. Only the spot does. Two separate settlings, each giving up one thing and giving one kind of mass:
+        the far side settles  : gives up the weak turns   -> every mass that links a pair to its partner (the Higgs link)
+        the spot is kept exactly: gives up matter number  -> the one mass that needs no Higgs (the hidden partner's own)
+     Today both have happened: 13 -> 9 turns = strong + electric. That is why matter number is not a force we feel.
+  In ordinary matter the source of this force would be: proton +1, electron -1, neutron +1. Hydrogen: 0. Any neutral atom: its number of neutrons.
+  If it were long-reach it would pull on neutrons only and break 'everything falls alike'. Torsion balances limit such a pull to a strength
+     below about 1e-24 (as a charge; Wagner, Schlamminger, Gundlach & Adelberger 2012); the forces here have about 0.5. So its carrier must be heavy.
+  How heavy: the same settling gives the carrier's mass and the hidden partner's mass, so the carrier weighs about as much as the heaviest hidden
+     partner or more (unless that partner's link to the settling is several times the force's own strength): about 6.3e+10 GeV with rule 5's link. Reach 3.1e-12 fm,
+     which is 5e+08 times shorter than the Higgs link's reach. Its pull at ordinary energies, against the weak force's: 1e-18.
+     Collider limit: carrier mass / strength > about 7,000 GeV (LEP; Carena, Daleo, Dobrescu & Tait 2004). Here: 1e+11. Passed, by a wide margin.
+  ATTACK (the reading): there are two ways to hold rule 4, and no experiment today separates them.
+     (i)  The spot is exact always. Then matter number is never a force: it is a turn the perspective excludes, with no carrier at any energy,
+          and the hidden partner's mass is simply an allowed number.
+     (ii) The spot becomes exact below some energy (as the Higgs side settles below 160 GeV). Then above that energy matter number is a real
+          third push/pull force, and its carrier has the mass worked out above.
+     Both give the same world at every energy reached so far. Reading (ii) is the one in which the 'different energy' is a scale.
+  -> A third push/pull force IS in the matrix, with its own charge (matter number). It binds nothing and cannot be detected directly.
+     ATTACK: 'cannot be detected' means this is not a confirmation. Its footprints are only: neutrino masses; neutrinos being their own
+     antiparticles; and the matter excess. Not new physics: it is the B-L force of Georgi 1975 and Fritzsch & Minkowski 1975,
+     and the 4x4 alternative already had it. What is new here is where it sits in the main line: it is the turn that
+     keeping the spot exactly removes.
+
+====================================================================================================
+3. Can that energy tell the three families apart?
+====================================================================================================
+  (a) Charged particles. Higgs-free pairings that involve any charged state: 0. So this energy cannot enter the electron's, muon's, tau's
+      or any quark's mass directly. Indirectly (through a loop) it changes a charged lepton's mass by a fraction
+         electron  1.1e-12   (link 2.9e-06)
+         muon      4.7e-08   (link 6.1e-04)
+         tau       1.3e-05   (link 1.0e-02)
+      of a mass that is already there. It multiplies; it cannot separate. FAIL for the charged particles.
+  (b) Neutrinos. The light neutrino's mass = (its Higgs link)^2 / (the hidden partner's own mass). With rule 5's link and TRPG's neutrino
+      masses (0.36, 8.6, 50 meV) the three values of the third energy are 7.3e+05, 1.3e+09, 6.3e+10 GeV.
+      TEST 'one value for all three families': the neutrino masses would then go as the lepton masses squared: m2/m3 = 0.0035; measured 0.172.
+      FAIL by a factor 49. So this energy must itself differ between the families.
+      TEST 'its three values follow the 45 degree balance': charged leptons 45.00 deg; the three hidden-partner values 49.1 deg; the neutrinos 37.1 deg. FAIL.
+      Three values, no pattern, fixed only by measured lepton and neutrino masses. It CARRIES the family difference for the neutrinos;
+      it does not EXPLAIN it.
+  (c) States. One matrix has one spot, so one hidden partner and one such energy. Three need three placements, which is the reading TRPG
+      already uses. The energy is a pairing of a state that is already counted; it adds no states. The count 24 against 48 (45.8) is unchanged.
+  -> The 'different energy' exists, but it does not supply the missing families. FAIL as the source of the three generations.
+
+====================================================================================================
+4. What the LHC says: is the Higgs blind to the family, with something else supplying the difference?
+====================================================================================================
+  Measured Higgs link / (mass / 246 GeV), which is 1 if the Higgs gives the whole mass (CMS 2022; ATLAS 2022 agrees):
+     top     1.01 +/- 0.11    largest share of the mass from another source (2 sigma): 21%
+     bottom  0.99 +/- 0.16    largest share of the mass from another source (2 sigma): 33%
+     tau     0.92 +/- 0.08    largest share of the mass from another source (2 sigma): 24%
+     muon    1.12 +/- 0.21    largest share of the mass from another source (2 sigma): 30%
+  TEST 'family-blind Higgs' (same link to the muon and the tau): the muon's number above would be 15.5; measured 1.12 +/- 0.21: FAIL by 68 sigma.
+     In rates: Higgs -> two taus would equal Higgs -> two muons. Measured: 283 x (0.67 +/- 0.28) to one, in line with the standard 283.
+  So the Higgs itself tells the tau from the muon, and it links to the top and the bottom in proportion to their masses. For the second and
+  third families a second source of mass is limited to the shares above. FAIL for 'the Higgs is a family-blind constant'.
+  HONEST GAP: the first family is not measured. Electron: link < 245 x standard (CMS 2023). Charm: < 8.5 x (ATLAS 2022). Up, down, strange: no limit that matters.
+     Experiment alone would still allow a different source for the lightest masses. The matrix does not (test 3a): it predicts 1.00 for every one.
+  WHAT SURVIVES: 'the Higgs sets the scale, the geometry sets the pattern' (mass = one Higgs number x a pattern from the matrix). That is exactly
+     the form rules 5 and 7 already have, and the LHC cannot tell it from the standard picture, because the link then still equals mass / 246 GeV.
+
+====================================================================================================
+5. The Higgs value, dark energy and gravity as 'constants of space'
+====================================================================================================
+  (a) Are they constant? Measured limits on change:
+        electron/proton mass ratio (Higgs value against the strong balance): (-8 +/- 36)e-18 per year (Lange et al. 2021)
+        gravity's strength: (7.1 +/- 7.6)e-14 per year (Hofmann & Mueller 2018)
+        dark energy: pressure/density = -1.03 +/- 0.03 (Planck 2018 with others); DESI 2025 hints at change at 2.8 to 4.2 sigma (live test, 44.5)
+      HOLDS as far as measured: all three are properties of space that do not depend on what matter is present.
+  (b) Are they the same KIND of constant? The Higgs value melts: above a temperature of 159.5 +/- 1.5 GeV it is zero (D'Onofrio & Rummukainen 2016).
+      Gravity's strength and the kept amount of the bag do not melt. The Higgs particle has spin 0 (measured; spin 2 excluded above 99.9%, ATLAS and
+      CMS 2013-2015); gravity's waves have spin 2. And the Higgs does not count all energy (45.7, a factor 130). So the Higgs value is a STATE
+      that space has settled into; gravity's strength and the bag's amount are fixed properties. Same shelf, different kind. FAIL as 'the same thing'.
+  (c) Are they one number? Three scales: Higgs value 246 GeV; gravity's grain 1.22e19 GeV; dark energy 2.25 meV.
+        Higgs^2 / grain            = 4.97e-03 meV  (dark energy scale is 453 times this)   FAIL  (Arkani-Hamed, Hall, Kolda & Murayama 2000)
+        Higgs^2 / reduced grain    = 2.49e-02 meV  (dark energy scale is 90 times this)    FAIL
+        Higgs^2 / meeting energy   = 2.10 meV      (dark energy scale 2.25 meV: -7%)
+        the same with 174 GeV      = 1.05 meV      (-53%)
+      The third line has the same form as the neutrino's mass in test 3 (Higgs^2 over a heavy energy), with the energy where the strong and weak
+      forces meet (10^16.46 GeV, an earlier test) in place of the hidden partner's mass. ATTACK: I tried 3 heavy energies x 2 ways of writing the Higgs
+      value, and one of the six landed; the meeting energy itself is known only to within a factor of about 2, so '7%' is not meaningful;
+      a hit that close among 6 tries spread over a few powers of ten happens by chance roughly 1 time in 6; and there is no mechanism.
+      COINCIDENCE, recorded so it is not rediscovered. Not used. Not a result.
+      (Already recorded: the dark-energy scale lies inside TRPG's neutrino mass range, 0.36 to 50 meV. Same status.)
+  (d) Does the third energy explain where the Higgs's hold fades (10^9.8 to 10^11.5 GeV, an earlier test)? The heaviest hidden partner sits in that window
+      (10^10.8). ATTACK: the window is 1.7 of about 17 powers of ten, and there are three partners: chance 27%. And the partner's
+      link (0.010) is far too weak to cause the fade (it would need about 0.4 or more; Elias-Miro et al. 2012). FAIL as a mechanism; weak coincidence.
+  -> Grouping the Higgs value with gravity and dark energy HOLDS as a classification: they are properties of space, not turns of the matrix
+     (turns give the forces; the far side settling gives the Higgs value; space itself gives gravity and the kept amount).
+     It FAILS as 'one thing' and as 'one number'. It removes no measured number.
+
+====================================================================================================
+6. The unplaced pieces: the six coloured far-side parts, and dark matter
+====================================================================================================
+  Matter number of the far side's 10 parts: [-0.667, 0.0, 0.667]. The coloured ones carry colour, electric charge 1/3 and matter number 2/3:
+     not dark. As particles they would let protons decay, so they must weigh more than about 1e11 GeV (Nath & Fileviez Perez 2007) or be read
+     as entries, not particles (44.2). They are not the third energy and not dark matter. Unchanged.
+  A sign that survives BOTH settlings: (-1)^(3 x matter number). On all 16 states: [-1.0]. On all 10 far-side parts: [1.0]. The spot's pairing carries 2,
+     so the sign is kept exactly (Krauss & Wilczek 1989; Martin 1992). Consequence: the lightest thing with sign -1 can never decay.
+  In the main line every -1 thing is ordinary matter, and the lightest is the lightest neutrino. Neutrinos left from the Big Bang: 59 meV in total
+     gives 6.3e-04 of the critical density (x h^2); dark matter is 0.120. That is 0.5% of it, and it moves too fast to form galaxies
+     (Cowsik & McClelland 1972; Planck 2018). FAIL as dark matter.
+  The lightest hidden partner: decays in 3e-18 s. FAIL.
+  -> The matrix supplies the PROTECTION a dark particle would need (an exact sign) but no particle to protect: that would take a state with
+     sign +1 and spin 1/2, or sign -1 and spin 0 (Kadastik, Kannike & Raidal 2010), and rule 6 ('nothing extra') has none. Dark matter still has NO candidate. The open item is
+     now exact: either rule 6 gives way by one such state, or dark matter is not a particle of the matrix at all.
+  One prediction falls out of test 1: the third energy exists only if neutrinos are their own antiparticles (Majorana 1937). Then a rare decay
+     (double beta decay with no neutrinos; Furry 1939) happens with an effective mass between 1.2 and 3.9 meV. Today's limit: 28 to 122 meV
+     (KamLAND-Zen 2024). Planned experiments reach about 10 to 20 meV. So it is a real prediction that cannot be checked for a long time.
+
+====================================================================================================
+7. Summary
+====================================================================================================
+  HOLDS  : there is exactly one energy in the matrix that the Higgs does not give. It belongs to the observer's own spot and is allowed because
+           rule 4 keeps the spot exactly. A third push/pull force (charge: matter number) goes with it and is given up in the same act.
+  HOLDS  : (classification) the Higgs value, gravity's strength and dark energy are properties of space, not turns of the matrix.
+  FAILS  : that energy as the source of the three families (cannot touch charged masses; three unpatterned values for the neutrinos; adds no states).
+  FAILS  : a family-blind Higgs (LHC, about 70 sigma for muon against tau); the Higgs as the same kind of constant as gravity; any one-number relation.
+  FAILS  : dark matter from any of the unplaced pieces.
+  NOT FIXED: the size of the third energy (input); why three families; everything on the open list of 44.7 / 45.9.

@@ -1,0 +1,121 @@
+
+==============================================================================================================
+A. TARGET A: the force strengths. What the far side must do
+==============================================================================================================
+A.0 D partners at or above the meeting: pairs must sit at 2.226e+08 GeV; meeting 4.561e+13 GeV, 1/strength there 38.97
+    D at 1e+12: pairs at 4.921e+06, ratio D/pair 2.032e+05
+    D at 1e+10: pairs at 4.941e+04, ratio D/pair 2.024e+05
+    D at 1e+08: pairs at 4.898e+02, ratio D/pair 2.041e+05
+    -> ratio D/pair = 2.032e+05; error on log10: about 0.10 decades (an earlier test, 1 sigma)
+
+A.1 CANDIDATES FOR TARGET A, fixed before computing (each with its physical reason):
+  A-i   'like with like': D and the weak pair are the two halves of ONE far-side set (the 10 of SO(10) inside the 27), so they share
+        one own weight; the D is heavier only because it also carries the press link. Then D/pair = link/own = 34.5.
+  A-ii  'gravity leak' (Idea tested: gravity is a byproduct of entanglement, the grain of space): the far side settles at the meeting
+        (value F); the D takes its own weight from F directly; the weak pair cannot, and only gets F^2/M_Planck through the grain.
+  A-iii 'pairs at the hidden neutrino partners' (like with like for the weak-charged far-side singles; an earlier test row, recomputed).
+  A-iv  'one far-side piece does both jobs': the same F sets the D's own weight, the link (press) and the pair mass by leak.
+
+==============================================================================================================
+A-i like with like (D own weight = pair own weight; only the press link splits them)
+==============================================================================================================
+  best over every own weight from 160 GeV to 4e12 GeV: sin^2 = 0.21268 (-8.02%, -55 sigma) at 1.6e+12 GeV
+  The press link gives 1.54 decades of pair-only stretch; 15.9 are needed. Even giving all three families the same link: 4.6 decades.
+  all three families split by 34.5 (pairs at 1e5 GeV): sin^2 = 0.21647 (-6.38%, -43 sigma)
+  RESULT A-i: FAIL. Exact consequence: the D/pair split cannot come from the link. It must sit in the OWN WEIGHTS themselves:
+  the far-side colour half must weigh about 2e5 times more than the weak half before any press. That is the doublet-triplet
+  splitting problem (Dimopoulos & Wilczek 1981; Masiero and others 1982), and it is now the whole of target A.
+
+==============================================================================================================
+A-ii gravity leak: the far side settles at the meeting; pairs weigh F^2/M_Planck
+==============================================================================================================
+  unreduced (the grain, an earlier test): F = meeting = 4.300e+13 GeV, pairs F^2/M_P = 1.515e+08 GeV -> sin^2 0.23177 (+0.24%, +1.6 sigma)
+  reduced                       : F = meeting = 6.135e+13 GeV, pairs F^2/M_P = 1.546e+09 GeV -> sin^2 0.22846 (-1.19%, -8.1 sigma)
+  read backwards: exact closure needs F = sqrt(pairs x M_P) = 5.213e+13 GeV, against the meeting 4.561e+13: ratio 1.14 (+0.058 decades;
+    the closing pair mass has +-0.10 decades, so F has +-0.05: the gap is 1.2 sigma)
+  Physical reading: the meeting is where the weak-blind far-side piece settles (this gives the meeting a resident, which an earlier test X.5
+  said was missing); colour-carrying D's weigh F directly; the weak pairs are barred from a direct weight and leak it through the grain.
+  RESULT A-ii: SURVIVES the data (1.6 sigma, unreduced Planck only). Attacks follow in section C.
+
+==============================================================================================================
+A-iii pairs at the three hidden neutrino partners (7.3e5, 1.3e9, 6.3e10 GeV; an earlier test)
+==============================================================================================================
+  sin^2 = 0.23043 (-0.34%, -2.3 sigma). Their log-average 3.91e+08 GeV sits +0.24 decades above the closing mass.
+  RESULT A-iii: FAIL (near miss, unchanged from an earlier test). Note: A-ii lands 0.16 decades BELOW, A-iii 0.24 decades ABOVE.
+
+==============================================================================================================
+B. TARGET B: the quark press. Profile of the fit against 1 - kappa (2 free link angles against 4 tilts: 2 degrees of freedom)
+==============================================================================================================
+  1-kappa = 2.00e-04: chi2 =  1103.21
+  1-kappa = 2.51e-04: chi2 =  1090.62
+  1-kappa = 3.16e-04: chi2 =   905.24
+  1-kappa = 3.98e-04: chi2 =   309.79
+  1-kappa = 5.01e-04: chi2 =    27.64
+  1-kappa = 6.31e-04: chi2 =    46.01
+  1-kappa = 7.94e-04: chi2 =     3.41
+  1-kappa = 1.00e-03: chi2 =     9.51
+  1-kappa = 1.26e-03: chi2 =    21.00
+  1-kappa = 1.58e-03: chi2 =    34.25
+  1-kappa = 2.00e-03: chi2 =    86.64
+  1-kappa = 2.51e-03: chi2 =   122.92
+  1-kappa = 3.16e-03: chi2 =   128.12
+  1-kappa = 3.98e-03: chi2 =   111.36
+  best near 1-kappa = 7.94e-04 (chi2 3.41); band with chi2 within 4 of the best: 7.82e-04 to 9.22e-04
+
+B.1 CANDIDATES FOR TARGET B, fixed before computing:
+  B-i   like with like + leak: D own weight = pair weight F^2/M_P, link = F (so own/link = F/M_P)
+        1-kappa = 1.396e-11: chi2 = 638137.17 (2 dof)
+  B-ii  like with like: D own weight = pair weight, link = D's physical mass (own/link = pair/D = 1/2.0e5)
+        1-kappa = 2.421e-11: chi2 = 638137.17 (2 dof)
+  B-iii the D's own weight is made at the far side's own strength: own/link = alpha at the meeting (1/39.0)
+        1-kappa = 6.582e-04: chi2 = 31.77 (2 dof)
+  B-iv  self-similar press: kept share = the down ladder's own span, m_d/m_b (top's footing)
+        1-kappa = 9.321e-04: chi2 = 5.16 (2 dof)   <- inside the band
+  B-v   the same at the far-side footing (2.1e8 GeV)
+        1-kappa = 1.002e-03: chi2 = 9.49 (2 dof)
+  B-vi  kept share = the up ladder's span m_u/m_t (the pair's ladder sets the single's press)
+        1-kappa = 7.643e-06: chi2 = 1631.63 (2 dof)
+  B-vii kept share = the lepton span m_e/m_tau (the single's far twin is lepton-like)
+        1-kappa = 2.876e-04: chi2 = 954.36 (2 dof)
+  (B-i and B-ii are evaluated at 1-kappa = 1e-6 when their value is smaller: the press is then total and the fit only gets worse.)
+
+B.2 Luck for target B: how crowded are 'simple numbers' near 8e-4?
+  family: 118 numbers (every ratio of two of the nine charged masses, its square and its square root; five strengths and their squares)
+  inside the band (7.8e-04 to 9.2e-04): 2. A band of the same width placed anywhere from 1e-5 to 1e-1 holds at least one: 73% of the time.
+
+==============================================================================================================
+C. ATTACKS ON THE SURVIVORS
+==============================================================================================================
+C.1 A-ii (gravity leak) against TRPG's own rules
+  - In E6's 27 the weak pair and the D both couple to the settled singlet with the same three-way link (27 x 27 x 27). A rule must bar
+    the pair's direct weight and allow the D's. TRPG has no such rule yet. Candidate wording: 'a weak pair has no weight of its own
+    from a weak-blind piece; it can only borrow through the grain'. Not derived: this IS the doublet-triplet problem restated.
+  - The leak's size has an unknown number in front (c x F^2/M_P). The rule works only with c = 1 AND the unreduced Planck mass.
+    exact closure would need c = 1.47 (unreduced) or c = 0.14 (reduced). The grain (unreduced) was fixed as TRPG's footing in an earlier test,
+    before this test, so choosing it is not after-the-fact; but 'c = 1' is an assumption, and any c from 0.7 to 3 would look 'natural'.
+C.2 A-ii against data
+  - Pairs at 1.5e8 GeV: far beyond any collider. Their neutral member must decay (mixing above 1e-15) or the start was cold: consistent.
+  - Proton: no quark-to-lepton carriers on the main line (43.4); D's carry ordinary quark number: consistent.
+  - The only sharp number is sin^2 itself: predicted 0.23177 +- 0.00034 against 0.23122 +- 0.00004 (+1.6 sigma).
+    The error is dominated by the strong strength (+-0.00026) and the uncomputed three-loop terms (+-0.0002). When both shrink to
+    about +-0.0001 (lattice strong strength; a three-loop calculation), the same central values would sit 4 to 5 sigma apart.
+    So A-ii is falsifiable soon, by a calculation that needs no new experiment.
+C.3 A-ii luck (an earlier test X.6): about 18 fixed rules were tried for the pair mass; a target placed anywhere has a hit as close 15% to 84%
+    of the time depending on the family counted. NOT EVIDENCE on its own.
+C.4 A-iv (one far-side piece does both jobs) with the data: D's own weight F, link y F, pairs F^2/M_P. The press fixes y = 34.5 x (the D's
+    own coupling). With F = 4.56e+13: D at about 1.6e+15 GeV (above the meeting, so it does not disturb A-ii), pairs at 1.7e+08 GeV.
+    A consistent far-side spectrum, but the 34.5 is a ratio of two couplings that nothing fixes: target B is NOT solved by A-iv.
+C.5 Target B survivors: B-iv  self-similar press (chi2 5.16)
+  B-iv  self-similar press: luck above (73%); its value moves with the footing (top 9.32e-04, far side 1.00e-03);
+    and no mechanism in the matrix ties the far side's kept share to the near side's ladder span. NOT EVIDENCE.
+
+==============================================================================================================
+D. SUMMARY
+==============================================================================================================
+A  Force strengths. A-i like with like FAILS by a wide margin, and that failure is exact and useful: the D/pair split must be in the
+   own weights, about 2e5, before any press. A-ii gravity leak (far side settles at the meeting; pairs leak F^2/M_Planck) SURVIVES at
+   1.6 sigma, needs one new rule (pairs barred from a direct weight) and c = 1 on the grain's footing; luck 15-84%: LEAD, the most likely
+   candidate, not a derivation. A-iii FAILS (near). Decisive test: three-loop running plus the lattice strong strength.
+B  Quark press. 'Like with like' and 'leak' FAIL by many orders. The far side's own strength FAILS or survives as printed above; the
+   ladder-span candidates are not evidence (luck as printed). No mechanism found; the press stays a measured number.
+Scorecard: unchanged, 7 PASS, 2 PARTIAL.

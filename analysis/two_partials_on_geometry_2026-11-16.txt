@@ -1,0 +1,27 @@
+A) Strengths: the leak as a reflection on the centre line (log weight)
+   grain 8.63e+18, meeting F 4.56e+13 -> reflection of grain through F = 2.41e+08 GeV (weak pairs 2.2-2.5e8 needed)
+   steps of ten: grain-F = 5.28, F-pair = 5.28 (equal by construction)
+   neutrino seesaw same shape: partner 6.3e+10 GeV reflected through 1.77686 GeV -> 50.2 meV ; steps 10.55 = 10.55
+   neutrino seesaw same shape: partner 1.3e+09 GeV reflected through 0.10566 GeV -> 8.66 meV ; steps 10.09 = 10.09
+   => leak and seesaw are one operation: a colourless thing with no partner on its own half is the mirror image of a heavy partner
+
+B) Quark masses: cube angles vs ladder openings (opening = angle of the ladder's cone)
+   neutrinos (m1 0.36 meV)   37.130  nearest cube angle 35.26 (+1.87 deg)
+   charged leptons           45.000  nearest cube angle 45.00 (+0.00 deg)
+   down                      48.150  nearest cube angle 45.00 (+3.15 deg)
+   up                        52.147  nearest cube angle 54.74 (-2.59 deg)
+   neutrino opening vs lightest mass m1 (normal order):
+     m1  0.00 meV -> 41.02 deg
+     m1  0.10 meV -> 38.96 deg
+     m1  0.36 meV -> 37.13 deg
+     m1  1.00 meV -> 34.60 deg
+     m1  3.00 meV -> 30.03 deg
+     m1 10.00 meV -> 20.94 deg
+   35.26 deg needs m1 = 0.80 meV; rule 5 gives 0.36 meV -> cube angle contradicts rule 5: FAIL in-system
+   up 52.15 vs 54.74: -2.6 deg; up opening uncertainty ~0.3 deg from m_u, m_c -> FAIL
+
+   Press direction on the cube: 89% along the body diagonal (1,1,1) = the line through both overlap points;
+   10% along (1,1,-2) = toward/away from one family corner (octahedron direction); 1% (1,-1,0) quarter turn
+
+C) Rule 7's 45 deg shared between quark and lepton tilts (prior art: quark-lepton complementarity, Raidal 2004; Minakata & Smirnov 2004)
+   Cabibbo 13.04 + solar 33.65+-0.78 = 46.69 deg ; 45 is 2.2 sigma away -> near-miss FAIL

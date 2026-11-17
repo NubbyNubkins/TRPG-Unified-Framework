@@ -1,0 +1,78 @@
+
+========================================================================================================
+1. Smallest to biggest: each particle's size from the proton (S = half log of mass/proton) and the step to the next
+========================================================================================================
+  nu1            3.6e-10 MeV   S from proton  -14.294   step from previous     nan
+  nu2           8.66e-09 MeV   S from proton  -12.704   step from previous   1.590
+  nu3          5.034e-08 MeV   S from proton  -11.824   step from previous   0.880
+  electron         0.511 MeV   S from proton   -3.758   step from previous   8.067
+  up                2.16 MeV   S from proton   -3.037   step from previous   0.721
+  down               4.7 MeV   S from proton   -2.648   step from previous   0.389
+  strange           93.5 MeV   S from proton   -1.153   step from previous   1.495
+  muon             105.7 MeV   S from proton   -1.092   step from previous   0.061
+  proton           938.3 MeV   S from proton   +0.000   step from previous   1.092
+  charm             1273 MeV   S from proton   +0.153   step from previous   0.153
+  tau               1777 MeV   S from proton   +0.319   step from previous   0.167
+  bottom            4183 MeV   S from proton   +0.747   step from previous   0.428
+  W            8.037e+04 MeV   S from proton   +2.225   step from previous   1.478
+  Z            9.119e+04 MeV   S from proton   +2.288   step from previous   0.063
+  Higgs        1.252e+05 MeV   S from proton   +2.447   step from previous   0.159
+  top          1.726e+05 MeV   S from proton   +2.607   step from previous   0.160
+  Biggest steps: nu3->electron 8.07, nu1->nu2 1.59, down->strange 1.50, bottom->W 1.48
+  The one big empty stretch is between the heaviest neutrino and the electron (S = 8.07, a factor 10 million in mass).
+  Close neighbours from different families: muon and strange (0.06), W and Z (0.06; explained by the weak angle), proton, charm and tau
+  (0.15, 0.17), Higgs and top (0.16). With 13 particles spread over S = -3.8 to +2.6 (average gap 0.53), about 1.4 gaps under 0.065
+  are expected by chance; 2 are seen and one of them (W, Z) is already explained. Not a pattern by itself.
+
+========================================================================================================
+2. Lined up by the equilibrium (balance) point with the proton
+========================================================================================================
+  The balance mass of any particle with the proton is m p/(m + p). As a fraction of the proton: phi = 1/(1 + exp(-2S)), with S the size from
+  the proton. That is a logistic (S-shaped) curve: everything far lighter sits at its own mass, everything far heavier is capped at the proton,
+  and the proton paired with itself sits exactly at one half.
+  nu1       S  -14.294   balance with proton      3.6e-10 MeV (3.837e-13 of the proton)   link value  1.614e+06
+  nu2       S  -12.704   balance with proton     8.66e-09 MeV (9.230e-12 of the proton)   link value  3.292e+05
+  nu3       S  -11.824   balance with proton    5.034e-08 MeV (5.365e-11 of the proton)   link value  1.365e+05
+  electron  S   -3.758   balance with proton      0.51072 MeV (5.443e-04 of the proton)   link value      42.87
+  up        S   -3.037   balance with proton        2.155 MeV (2.297e-03 of the proton)   link value      20.89
+  down      S   -2.648   balance with proton       4.6766 MeV (4.984e-03 of the proton)   link value       14.2
+  strange   S   -1.153   balance with proton       85.027 MeV (9.062e-02 of the proton)   link value      3.483
+  muon      S   -1.092   balance with proton       94.964 MeV (1.012e-01 of the proton)   link value      3.316
+  proton    S   +0.000   balance with proton       469.14 MeV (5.000e-01 of the proton)   link value          2
+  charm     S   +0.153   balance with proton       540.15 MeV (5.757e-01 of the proton)   link value      2.023
+  tau       S   +0.319   balance with proton       614.03 MeV (6.544e-01 of the proton)   link value      2.103
+  bottom    S   +0.747   balance with proton       766.37 MeV (8.168e-01 of the proton)   link value      2.585
+  W         S   +2.225   balance with proton       927.44 MeV (9.885e-01 of the proton)   link value      9.363
+  Z         S   +2.288   balance with proton       928.72 MeV (9.898e-01 of the proton)   link value       9.96
+  Higgs     S   +2.447   balance with proton        931.3 MeV (9.926e-01 of the proton)   link value      11.64
+  top       S   +2.607   balance with proton        933.2 MeV (9.946e-01 of the proton)   link value      13.64
+  What it shows: from the proton's home, the W, Z, Higgs and top all look almost the same (balance 0.988 to 0.993 of the proton), and the
+  electron, neutrinos and light quarks are seen at their own masses. The proton's view compresses everything heavy into one cap. That is
+  the scale-view idea of the record (K6) in exact form: each particle sees the others through this curve, centred on itself.
+
+========================================================================================================
+3. The eigen equations applied to the size and link matrices themselves
+========================================================================================================
+  Link matrix, 9 charged matter particles: only 2 non-zero eigenvalues: [-682.247, 700.247]
+     formula n +- sqrt(sum of masses x sum of 1/masses) = 700.247, -682.247
+  Link matrix, all 16: only 2 non-zero eigenvalues: [-37306206.436, 37306238.436]
+     formula n +- sqrt(sum of masses x sum of 1/masses) = 37306238.436, -37306206.436
+  For the charged particles: the top carries 96% of the sum of masses; the electron 74% of the sum of 1/masses
+  (up quark 17%, down 8%). So the big eigenvalue, 700, is mostly the electron-top link value (581)
+  stretched 1.19 times by the light quarks. The matrix's eigen-structure is set mainly by its two ends.
+  Size matrix (all 16): eigenvalues are 0 (14 times) and +-i x 86.11: only the spread of the log masses survives.
+  So the eigen equations confirm last night's muse in exact form: the matrix of relationships is governed by its lightest and heaviest member.
+  They cannot produce the masses: both matrices are built from the masses and have only two directions (rank 2).
+
+========================================================================================================
+4. The cone (circulant eigen) equation applied to the sizes instead of the square-root masses
+========================================================================================================
+  Particles: sqrt(mass) = a (1 + b cos(theta + 2 pi g/3)); for the leptons b = sqrt2 (the 45 degrees). Sizes: S_g = A + B cos(theta + 2 pi g/3), S from the proton.
+  leptons    sizes: centre  -1.510, swing  2.391, angle  160.07 deg  |  sqrt-mass cone: swing/centre 1.4142 (sqrt2 = 1.4142), angle  132.73 deg
+  up type    sizes: centre  -0.092, swing  3.268, angle  154.30 deg  |  sqrt-mass cone: swing/centre 1.7586 (sqrt2 = 1.4142), angle  124.27 deg
+  down type  sizes: centre  -1.018, swing  1.965, angle  146.06 deg  |  sqrt-mass cone: swing/centre 1.5452 (sqrt2 = 1.4142), angle  126.31 deg
+  neutrinos  sizes: centre -12.941, swing  1.446, angle  159.42 deg  |  sqrt-mass cone: swing/centre 1.4137 (sqrt2 = 1.4142), angle  147.38 deg
+  Every family fits (three numbers, three free values), so a fit alone says nothing. The sizes' angles differ family to family,
+  so on sizes there is no shared cone. The square-root form stays the only one where a family (leptons, and neutrinos by construction) is exact.
+
+  saved TRPG_Size_Matrices_by_Size_and_Proton.xlsx

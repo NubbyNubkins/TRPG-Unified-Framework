@@ -1,0 +1,11 @@
+jump per turn: x8.51e+09 = 9.930 decades
+whole chart: surface 1.44e-33 eV to grain 8.63e+27 eV = 60.78 decades = 6.12 turns
+middle of the whole chart sqrt(grain x surface) = 0.00353 eV ; neutrino middle = 0.00538 eV ; ratio 1.53
+turns from neutrino middle: up to grain 3.042, down to surface 3.079
+  m1 0.10 meV: jump 10.12 dec; turns up 3.004, down 3.004
+  m1 0.25 meV: jump 9.98 dec; turns up 3.031, down 3.057
+  m1 0.36 meV: jump 9.93 dec; turns up 3.042, down 3.079
+  m1 1.00 meV: jump 9.78 dec; turns up 3.073, down 3.141
+decades per third of a turn along the one spiral: [('nu1>nu2', 1.38), ('nu2>nu3', 0.76), ('nu3>e', 7.01), ('e>mu', 2.32), ('mu>tau', 1.23), ('tau>N1', 5.61), ('N1>N2', 3.25), ('N2>N3', 1.69), ('N3>grain', 8.14)]  (even spiral would be 3.31 each)
+even spiral with that pitch: misses in decades: [ 2.14  0.21 -2.34  1.36  0.36 -1.72  0.58  0.52 -1.1 ] rms 1.37
+H 2190

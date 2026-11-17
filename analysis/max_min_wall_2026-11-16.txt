@@ -1,0 +1,13 @@
+family                     opening  e     twist   wall    twist/wall  lightest grip / heaviest grip
+up (M_Z)                    52.23  1.825   2.93   3.22  0.911      2.72e-03
+up (own scale)              51.09  1.752   4.41   4.80  0.917      3.65e-03
+down (M_Z)                  48.06  1.574   5.84   9.45  0.618      3.06e-02
+down (own scale)            47.53  1.545   6.31  10.33  0.611      3.35e-02
+leptons                     45.00  1.414  12.73  15.00  0.849      1.70e-02
+neutrinos (m1 0.36 meV)     37.13  1.071  20.86  39.06  0.534      8.48e-02
+neutrinos (m1 = 0)          41.02  1.230  24.37  24.37  1.000      0.00e+00
+
+No wall exists below opening 35.26 deg (face diagonal): there the lightest can never reach zero.
+Maximum opening 54.74 deg (edge): wall at twist 0, both light ones exactly zero.
+lepton wall = 15 deg exactly = pi/12 = 14.999999999999998 ; 2/9 rad = 12.732395447351626 ; ratio 0.8488263631567752
+random log-uniform weights over 6 decades: share with twist/wall >= 0.84: 0.256

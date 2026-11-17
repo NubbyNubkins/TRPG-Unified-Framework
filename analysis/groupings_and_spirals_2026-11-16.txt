@@ -1,0 +1,10 @@
+pairs closer than 0.05 decades: observed 0, random mean 0.6, chance of >= observed 1.0000
+pairs closer than 0.1 decades: observed 2, random mean 1.2, chance of >= observed 0.3392
+pairs closer than 0.2 decades: observed 8, random mean 2.3, chance of >= observed 0.0050
+[Higgs group counted once] < 0.05: observed 0; uniform-random chance 1.000
+[Higgs group counted once] < 0.1: observed 1; uniform-random chance 0.550
+[Higgs group counted once] < 0.2: observed 3; uniform-random chance 0.192
+closest independent pairs: [(np.float64(0.053), 's', 'mu'), (np.float64(0.131), 'p', 'c'), (np.float64(0.146), 'c', 'tau'), (np.float64(0.243), 'nu1', 'CMB today'), (np.float64(0.338), 'u', 'd'), (np.float64(0.372), 'tau', 'b')]
+biggest empty stretches (decades): [(np.float64(1.77), 'b', 'v'), (np.float64(7.01), 'nu3', 'e'), (np.float64(16.7), 'v', 'Planck')]
+
+spiral test (charged fermions + W,Z,H,v; 14 values): best repeat every 0.327 decades (x2.12), power 3.70; chance with random values 0.623

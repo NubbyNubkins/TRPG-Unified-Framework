@@ -1,0 +1,114 @@
+== an earlier test: distances on the geometry (decades of weight) ==
+
+1. The comparisons (ratio, decades):
+      D/N1    = 6.25e+07   (7.80 decades)
+      D/N2    = 3.51e+04   (4.55 decades)
+      D/N3    = 724   (2.86 decades)
+     N1/MMG   = 0.00303   (-2.52 decades)
+     N2/MMG   = 5.39   (0.73 decades)
+     N3/MMG   = 261   (2.42 decades)
+    MMG/nu1   = 6.69e+20   (20.83 decades)
+    MMG/nu2   = 2.8e+19   (19.45 decades)
+    MMG/nu3   = 4.82e+18   (18.68 decades)
+     N2/N1    = 1.78e+03   (3.25 decades)
+     N3/N2    = 48.5   (1.69 decades)
+     N3/N1    = 8.63e+04   (4.94 decades)
+  MMG vs MMG: the three MMGs share one weight in the model (only the mean is fixed, an earlier test), so no gap is measurable yet.
+
+2. Which midpoints sit on another landmark (within 0.30 decade = factor 2):
+  mid(MMG,grain) ~ D  off +0.00 dec  BUILT IN: grain mirror MMG*grain=D^2
+  mid(nu2,N2) ~ muon  off +0.00 dec  BUILT IN: seesaw nu2*N2=mmu^2
+  mid(nu3,N3) ~ tau  off -0.00 dec  BUILT IN: seesaw nu3*N3=mtau^2
+  mid(Z,top) ~ Higgs  off +0.00 dec  
+  mid(nu1,N1) ~ electron  off +0.00 dec  BUILT IN: seesaw nu1*N1=me^2
+  mid(Higgs,v) ~ top  off +0.01 dec  
+  mid(nu3,MMG) ~ muon  off +0.02 dec  
+  mid(W,top) ~ Higgs  off -0.03 dec  
+  mid(W,Higgs) ~ Z  off +0.04 dec  
+  mid(N1,N3) ~ MMG  off -0.05 dec  
+  mid(W,v) ~ Higgs  off +0.05 dec  
+  mid(muon,N1) ~ v  off +0.05 dec  
+  mid(Z,v) ~ top  off -0.06 dec  
+  mid(Z,v) ~ Higgs  off +0.08 dec  
+  mid(W,v) ~ top  off -0.09 dec  
+  mid(DE,nu3) ~ nu2  off +0.09 dec  
+  mid(nu1,nu2) ~ DE  off -0.10 dec  
+  mid(nu2,N3) ~ proton  off -0.11 dec  
+  mid(v,N2) ~ N1  off -0.11 dec  
+  mid(W,top) ~ Z  off +0.11 dec  
+  mid(Z,Higgs) ~ W  off +0.12 dec  
+  mid(muon,grain) ~ N2  off -0.13 dec  
+  mid(v,grain) ~ N3  off -0.14 dec  
+  mid(nu1,N3) ~ muon  off +0.15 dec  
+  mid(electron,MMG) ~ v  off +0.15 dec  
+  mid(W,Z) ~ Higgs  off -0.16 dec  
+  mid(top,N2) ~ N1  off -0.19 dec  
+  mid(W,v) ~ Z  off +0.19 dec  
+  mid(Z,top) ~ W  off +0.19 dec  
+  mid(horizon,grain) ~ DE  off +0.20 dec  BUILT IN: surface DE^2 ~ grain*horizon (middle 3.5 meV)
+  mid(muon,N1) ~ top  off +0.21 dec  
+  mid(Higgs,top) ~ Z  off +0.21 dec  
+  mid(Z,Higgs) ~ top  off -0.21 dec  
+  mid(top,grain) ~ N3  off -0.21 dec  
+  mid(muon,W) ~ tau  off +0.21 dec  
+  mid(v,top) ~ Higgs  off +0.22 dec  
+  mid(MMG,D) ~ N3  off +0.22 dec  
+  mid(Higgs,top) ~ v  off -0.22 dec  
+  mid(nu3,D) ~ W  off -0.23 dec  
+  mid(W,Higgs) ~ top  off -0.24 dec  
+  mid(muon,Z) ~ tau  off +0.24 dec  
+  mid(Higgs,N2) ~ N1  off -0.26 dec  
+  mid(Higgs,top) ~ W  off +0.26 dec  
+  mid(Z,v) ~ W  off +0.27 dec  
+  mid(nu3,N3) ~ proton  off +0.28 dec  
+  mid(nu1,nu3) ~ DE  off +0.28 dec  
+  mid(nu3,D) ~ Z  off -0.28 dec  
+  mid(Higgs,grain) ~ N3  off -0.28 dec  
+  mid(electron,W) ~ muon  off +0.28 dec  
+  mid(Higgs,v) ~ Z  off +0.28 dec  
+  mid(DE,N2) ~ muon  off -0.29 dec  
+  mid(Z,top) ~ v  off -0.29 dec  
+
+   Three readings:
+   neutrinos <-> partners: mid(nu_i,N_i) = me, mmu, mtau exactly (seesaw, built in); overall mid of the two groups = 0.0458 GeV (Higgs 125: no)
+   mid(nu3,D) = 47.7 GeV ; mid(nu2,D) = 19.8 ; mid(nu1,N3) = 0.151
+   Higgs <-> grain: mid = 3.29e+10 GeV (v: 4.61e+10) vs N3 6.3e10 -> off +0.28 / +0.14 dec
+   Higgs <-> D: mid = 7.55e+07 GeV (v: 1.06e+08) vs MMG 2.41e8 -> off +0.50 / +0.36 dec
+   (with MMG*grain=D^2 built in, 'MMG at mid(v,D)' is the same as D^3 = v*grain^2: (v grain^2)^(1/3) = 2.64e+13 vs D 4.56e13)
+
+   chance check: non-built-in midpoint hits = 47; with the 5 far-side landmarks thrown at random: mean 61.8, 98% of random throws give as many or more
+
+3. 'almost 7' x 'almost 5' = 34.5 (band 32.9-35.8) using the neutrino partners
+   numbers near 7: 10; near 5: 3
+     ~7: decades N1/muon = 6.839
+     ~7: cube root MMG/N1 = 6.911
+     ~7: decades N2/W = 7.209
+     ~7: decades N2/Z = 7.154
+     ~7: decades N2/Higgs = 7.017
+     ~7: decades N2/v = 6.723
+     ~7: decades N2/top = 6.877
+     ~7: e-folds N2/N1 = 7.485
+     ~7: sqrt ratio N3/N2 = 6.961
+     ~7: e-folds D/N3 = 6.585
+     ~5: ratio N2/MMG = 5.394
+     ~5: decades N3/N1 = 4.936
+     ~5: decades D/N2 = 4.545
+   products inside the 34.5 band: 10
+     decades N2/Higgs (7.017) x decades N3/N1 (4.936) = 34.63
+     sqrt ratio N3/N2 (6.961) x decades N3/N1 (4.936) = 34.36
+     cube root MMG/N1 (6.911) x decades N3/N1 (4.936) = 34.11
+     e-folds N2/N1 (7.485) x decades D/N2 (4.545) = 34.02
+     decades N2/top (6.877) x decades N3/N1 (4.936) = 33.94
+     decades N1/muon (6.839) x decades N3/N1 (4.936) = 33.76
+     decades N2/Z (7.154) x decades N3/N1 (4.936) = 35.31
+     e-folds D/N3 (6.585) x ratio N2/MMG (5.394) = 35.52
+     decades N2/W (7.209) x decades N3/N1 (4.936) = 35.58
+     decades N2/v (6.723) x decades N3/N1 (4.936) = 33.18
+   chance check: with the three partners thrown at random (1e4-1e12 GeV): mean 15.4 band-products, 57% give as many or more
+
+4. Piano keys: do the landmarks sit on equal steps (a keyboard) better than random?
+   (an octave = 12 equal steps; 7 white + 5 black keys; 7 x 5 = 35)
+   best equal step: 0.765 decades, rms miss 19.7% of a step (random positions give ~29%)
+   random sets of 15 points, best step searched the same way: 98% do as well or better
+   white/black pattern (2,2,1,2,2,2,1 half-steps) on consecutive far-side gaps:
+   gaps (decades): Higgs->N1 3.77, N1->MMG 2.52, MMG->N2 0.73, N2->N3 1.69, N3->D 2.86, D->grain 5.28

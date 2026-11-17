@@ -1,0 +1,5 @@
+scalar resistance (one number, couples to trace of energy; Nordstrom 1913)  0.000 arcsec
+time-only resistance (Newton/Soldner 1801)                                  0.876 arcsec
+time + space resistance, equal shares (tensor; Einstein 1915)               1.752 arcsec
+measured: 1.75 arcsec; Cassini (2003) gamma - 1 = (2.1 +/- 2.3) x 10^-5
+at the Sun's edge: time part 2.12e-06 + space part 2.12e-06 = 4.25e-06 = n - 1

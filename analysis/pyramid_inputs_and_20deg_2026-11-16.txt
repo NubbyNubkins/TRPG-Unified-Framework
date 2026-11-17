@@ -1,0 +1,12 @@
+Pyramid (light step 1/(2 sqrt2)): predicted beta against measured 22.6 +- 0.4 deg, for each choice of tilt inputs
+  global-fit tilt values used so far (CKMfitter-style; these already lean on beta)
+     tilts chi2  2.76 | beta 23.52 (+2.2 sigma) | gamma 65.9 (+0.0 sigma) | J 3.08e-05
+  direct measurements only (PDG 2024: Vus 0.2243(8), Vcb 41.1(12)e-3, Vub 3.82(20)e-3, Vtd 8.6(2)e-3)
+     tilts chi2  1.26 | beta 23.43 (+2.0 sigma) | gamma 65.8 (-0.0 sigma) | J 3.06e-05
+  exclusive B decays (Vcb 39.8(6)e-3, Vub 3.70(16)e-3)
+     tilts chi2  4.85 | beta 23.49 (+2.1 sigma) | gamma 65.9 (-0.0 sigma) | J 3.07e-05
+  inclusive B decays (Vcb 42.2(5)e-3, Vub 4.13(26)e-3)
+     tilts chi2  8.78 | beta 23.33 (+1.7 sigma) | gamma 65.7 (-0.1 sigma) | J 3.05e-05
+Post hoc (3-6-9 angle, found after seeing the band): face lean 20 deg = pi/9, step tan(20) = 0.364
+  global-fit tilt values used so far (CKMf: tilts chi2  6.07 | beta 22.02 (-1.4 sigma) | gamma 64.3 | J 2.90e-05
+  direct measurements only (PDG 2024: Vus : tilts chi2  3.57 | beta 21.88 (-1.7 sigma) | gamma 64.1 | J 2.87e-05

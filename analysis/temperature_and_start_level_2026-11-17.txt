@@ -1,0 +1,35 @@
+(A) What stops each creation: temperature, plus two other things
+  neutrinos let go when their meeting rate falls below the growth rate of space: 1.49 MeV (their own energy is 0.00000036 to 0.00005 MeV: not set by their weight at all)
+  first nuclei: binding 2.22 MeV, but they hold only below 0.066 MeV = binding / 33
+  atoms: binding 13.6 eV, but half the electrons are held only below 0.324 eV = binding / 42 (light finally set free a little later, 0.26 eV)
+  both delays have ONE cause: there are 1.64e+09 bits of light for every bit of matter (1 / the matter excess).
+     if the matter excess were 6.1e-11: nuclei at 0.062 MeV (5.7 min), atoms at 0.307 eV
+     if the matter excess were 6.1e-10: nuclei at 0.066 MeV (5.0 min), atoms at 0.324 eV
+     if the matter excess were 6.1e-09: nuclei at 0.072 MeV (4.3 min), atoms at 0.344 eV
+  quarks lock into protons at 155 MeV and the surface's resistance switches on at 160 GeV: these two ARE set by temperature alone (the balance point melts above it).
+
+(B) The majoron as the early resistance for the Hubble values
+  main line: settling value f = 6.3e+10 GeV -> the majoron's grip on neutrino 3 = weight / f = 7.95e-22
+  majoron of 0.1 eV: meeting rate / growth rate of space at its own temperature = 4.5e-15   (needs about 1)
+  majoron of 1.0 eV: meeting rate / growth rate of space at its own temperature = 4.5e-16   (needs about 1)
+  needed grip about 1e-13 (Escudero & Witte 2020) -> f would have to be 501 GeV, not 6.3e10: off by a factor 1.3e+08
+  and its weight: 8.8 keV / angle^4 with the largest angle pi gives at least 90 eV, not 0.1 to 1 eV.  -> FAIL twice.
+
+(C) Ages against the two Hubble values (flat, matter + constant dark energy, same early universe: matter x h^2 = 0.1430)
+  H0 = 67.4: age today 13.79 billion years
+  H0 = 70.0: age today 13.57 billion years
+  H0 = 73.0: age today 13.31 billion years
+  oldest star clusters: 13.5 +- 0.3 (stat) +- 0.5 (sys) billion years after adding the ~0.2 before stars (Valcin et al. 2021)
+
+(D) The start level: where on the cone the light began
+  starting angle 0.5: majoron 141 keV begins to swing when the light is at 5.78e+06 GeV (age 7.0e-21 s)
+  starting angle 1.0: majoron 8.8 keV begins to swing when the light is at 1.45e+06 GeV (age 1.1e-19 s)
+  starting angle 1.41: majoron 2.23 keV begins to swing when the light is at 7.27e+05 GeV (age 4.4e-19 s)
+  starting angle 2.0: majoron 0.55 keV begins to swing when the light is at 3.61e+05 GeV (age 1.8e-18 s)
+  starting angle 3.0: majoron 0.109 keV begins to swing when the light is at 1.61e+05 GeV (age 9.1e-18 s)
+  window: above the swing level, below the MMG level 2.41e+08 GeV (age 4.0e-24 s) so the MMG are never made
+  hidden partner 1 (7.25e+05 GeV) is inside the window, so it IS made by the light. Erasing strength K = 0.36 meV / 1.07 meV = 0.34: it leaves 67% of an earlier excess
+  could hidden partner 1 make the excess itself? largest lopsidedness 7.2e-11 (Davidson & Ibarra 2002) -> excess at most 6.9e-13 against 6.1e-10 measured: short by x888: NO
+  majorons heated by hidden partner 1? rate/growth at its level = 4.3e-11 (no)
+  majorons heated by hidden partner 2? rate/growth at its level = 2.4e-01 (no)
+  majorons heated by hidden partner 3? rate/growth at its level = 2.8e+04 (would heat them: must stay unmade)

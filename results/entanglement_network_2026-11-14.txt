@@ -1,0 +1,6 @@
+people (8e9, ~150 close contacts; Dunbar)                  ~4.6 steps
+particles in visible universe (~1e80), 10 links each       ~80.0 steps
+same, 1000 links each                                      ~26.7 steps
+K5 table, Higgs links off: max steps 3, average 1.45, pairs never connected 66
+K5 table, Higgs links on: max steps 3, average 1.42, pairs never connected 35
+with force carriers: max steps 3, average 1.33, never connected 0 (of 171)

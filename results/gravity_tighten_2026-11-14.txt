@@ -1,0 +1,6 @@
+A) crossing-wave medium: S = [1.285 2.008 2.763 3.36  4.049 4.816]  boundary-fit error 0.038 vs volume-fit error 0.196 (5x better)
+B) area coefficient (entanglement per boundary unit) for different layer masses:
+   mass 0.01: coefficient 0.0854
+   mass 0.10: coefficient 0.0701
+   mass 0.30: coefficient 0.0558
+   mass 1.00: coefficient 0.0254

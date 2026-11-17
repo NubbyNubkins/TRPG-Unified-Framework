@@ -1,0 +1,8 @@
+Best five (k, phase): worst over Vus, Vcb, Vub, Vtd; J (measured 3.0e-5)
+  k +0.24, phase  60.0 deg: Vus 0.1787 Vcb 0.04286 Vub 0.00442 Vtd 0.00707  worst 1.26x  J 3.0e-05
+  k +0.26, phase  60.0 deg: Vus 0.1787 Vcb 0.04698 Vub 0.00429 Vtd 0.00778  worst 1.26x  J 3.3e-05
+  k +0.28, phase  60.0 deg: Vus 0.1786 Vcb 0.05111 Vub 0.00418 Vtd 0.00853  worst 1.26x  J 3.5e-05
+  k +0.26, phase  45.0 deg: Vus 0.1785 Vcb 0.04844 Vub 0.00377 Vtd 0.00710  worst 1.26x  J 2.6e-05
+  k +0.28, phase  45.0 deg: Vus 0.1785 Vcb 0.05276 Vub 0.00361 Vtd 0.00796  worst 1.26x  J 2.7e-05
+Real fold (phase 0) best: 1.38x
+Share of the (k, phase) grid within 1.3x on all four: 2%  (grid 360 points)

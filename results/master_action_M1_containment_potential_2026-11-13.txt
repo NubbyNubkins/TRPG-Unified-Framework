@@ -1,0 +1,11 @@
+B=57.1 MeV/fm3  glueball=1710 MeV -> lam=   1218  v= 34.6 MeV  wall thickness ~0.115 fm
+B=57.1 MeV/fm3  glueball=1730 MeV -> lam=   1276  v= 34.2 MeV  wall thickness ~0.114 fm
+B=60.1 MeV/fm3  glueball=1710 MeV -> lam=   1157  v= 35.5 MeV  wall thickness ~0.115 fm
+B=60.1 MeV/fm3  glueball=1730 MeV -> lam=   1212  v= 35.1 MeV  wall thickness ~0.114 fm
+B=63.7 MeV/fm3  glueball=1710 MeV -> lam=   1092  v= 36.6 MeV  wall thickness ~0.115 fm
+B=63.7 MeV/fm3  glueball=1730 MeV -> lam=   1144  v= 36.2 MeV  wall thickness ~0.114 fm
+B=62 MeV/fm3  glueball=1710 MeV -> lam=   1122  v= 36.1 MeV  wall thickness ~0.115 fm
+B=62 MeV/fm3  glueball=1730 MeV -> lam=   1175  v= 35.7 MeV  wall thickness ~0.114 fm
+B=70 MeV/fm3  glueball=1710 MeV -> lam=    994  v= 38.4 MeV  wall thickness ~0.115 fm
+B=70 MeV/fm3  glueball=1730 MeV -> lam=   1041  v= 37.9 MeV  wall thickness ~0.114 fm
+SVZ vacuum energy ~ 439 MeV/fm3, about 6.7x the bag B (a known, unresolved gap)

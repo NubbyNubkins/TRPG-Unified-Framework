@@ -1,0 +1,7 @@
+top link at the meeting: 0.480
+up place   t: 0.0600 at M_Z -> 0.0568 at the meeting (-5.4%)
+down place t: 0.1387 at M_Z -> 0.1466 at the meeting (+5.7%)
+down/up step: 2.310 at M_Z -> 2.582 at the meeting; needed to close the gap: 1.000
+Family turn 2-3 (|Vcb| measured 0.0411) vs difference of places:
+  M_Z: 0.0786 to 0.1987;  meeting: 0.0898 to 0.2034  (Vcb at meeting ~ 0.0389)
+Photons per unit of matter today: 1.64e+09 (eta = 6.1e-10)

@@ -1,0 +1,36 @@
+lepton V (charged / neutrino partner) with TRPG m1=0.00036 eV: ratios [1.41944153e+09 1.22552742e+10 3.54668197e+10] rate 0.4929
+quark V rate (top footing) 0.4856
+  lepton V rate = 0.5: m1 = ['4.17e-05', '3.49e-04'] eV, sum = [np.float64(0.0588), np.float64(0.0591)]
+  lepton V rate = 0.4856: m1 = ['4.17e-05', '3.72e-04'] eV, sum = [np.float64(0.0588), np.float64(0.0591)]
+  lepton V rate = 0.5035: m1 = ['4.17e-05', '3.44e-04'] eV, sum = [np.float64(0.0588), np.float64(0.0591)]
+  lepton V rate = 0.5294: m1 = ['4.17e-05', '3.10e-04'] eV, sum = [np.float64(0.0588), np.float64(0.059)]
+lepton V rate at m1=0.00036: 0.4929 +- 0.0102 (splitting errors only)
+   m1=1.0e-05: rate -0.7441
+   m1=1.0e-04: rate 1.2128
+   m1=2.0e-04: rate 0.6771
+   m1=3.6e-04: rate 0.4929
+   m1=5.0e-04: rate 0.4282
+   m1=1.0e-03: rate 0.3368
+   m1=3.0e-03: rate 0.2648
+
+reduced Compton wavelength (the particle's own wave length), metres:
+   neutrino 1 (TRPG)       3.6e-10 MeV  ->  5.481e-04 m
+   neutrino 2           8.6215e-09 MeV  ->  2.289e-05 m
+   neutrino 3           5.0101e-08 MeV  ->  3.939e-06 m
+   electron                  0.511 MeV  ->  3.862e-13 m
+   up                         2.16 MeV  ->  9.136e-14 m
+   down                        4.7 MeV  ->  4.198e-14 m
+   strange                    93.5 MeV  ->  2.110e-15 m
+   muon                     105.66 MeV  ->  1.868e-15 m
+   pion                     139.57 MeV  ->  1.414e-15 m
+   proton                   938.27 MeV  ->  2.103e-16 m
+   charm                      1273 MeV  ->  1.550e-16 m
+   tau                      1776.9 MeV  ->  1.110e-16 m
+   bottom                     4183 MeV  ->  4.717e-17 m
+   W                         80369 MeV  ->  2.455e-18 m
+   Z                         91188 MeV  ->  2.164e-18 m
+   Higgs                 1.252e+05 MeV  ->  1.576e-18 m
+   top                  1.7257e+05 MeV  ->  1.143e-18 m
+grain (Planck length) 1.616e-35 m; grain 2 (M_Pl/sqrt2) wave 2.286e-35 m
+proton bubble radius 0.841e-15 m = 4.00 x its own wave
+proton radius / own wave: 3.9977 +- 0.0030

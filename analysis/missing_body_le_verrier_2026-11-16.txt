@@ -1,0 +1,28 @@
+SM alone: 1&2 meet at 1.03e+13 GeV, strong line off by -13.2% (one loop; two loop gives -8.9%)
+
+One missing particle at mass M: which M closes the meeting?
+  far-side weak pair (vector-like lepton doublet, Dirac) : cannot close  M=1.00e+02 GeV, meeting 2.71e+13 GeV, left -5.49%
+  weak triplet, no colour (Majorana fermion)             : closes  M=8.13e+06 GeV, meeting 2.43e+14 GeV, left -0.01%
+  colour octet, no weak charge (Majorana fermion)        : cannot close  M=1.05e+13 GeV, meeting 1.03e+13 GeV, left -13.16%
+  extra Higgs-like doublet (scalar)                      : cannot close  M=1.00e+02 GeV, meeting 1.30e+13 GeV, left -11.37%
+  coloured far-side part D (vector-like down quark)      : cannot close  M=1.05e+13 GeV, meeting 1.03e+13 GeV, left -13.16%
+  D and weak pair together, same mass (whole 5+5bar)     : cannot close  M=1.05e+13 GeV, meeting 1.03e+13 GeV, left -13.16%
+
+Two-loop shifts these masses upward roughly tenfold (weak pair: 2.6e7 one loop -> 2.2e8 two loop, an earlier test).
+Proton safety for a true meeting of forces needs the meeting above ~1e15.5 GeV (Super-K).
+
+Le Verrier step 2: the far-side weak pairs come in three placements (one per family)
+  2 weak pairs at one mass: M=1.86e+04 GeV, meeting 5.08e+13, left +0.00%
+  3 weak pairs at one mass: M=2.63e+07 GeV, meeting 5.07e+13, left -0.01%
+
+Le Verrier step 3: what the leftover demands of ANY single missing body
+  closing needs the weak line bent more than hypercharge and colour: (dB2 - dB1) large, dB3 small
+  far-side weak pair (vector-like lepton doublet, Dirac) : weak-minus-hypercharge +0.27, colour-minus-weak -0.67
+  weak triplet, no colour (Majorana fermion)             : weak-minus-hypercharge +1.33, colour-minus-weak -1.33
+  colour octet, no weak charge (Majorana fermion)        : weak-minus-hypercharge +0.00, colour-minus-weak +2.00
+  extra Higgs-like doublet (scalar)                      : weak-minus-hypercharge +0.07, colour-minus-weak -0.17
+  coloured far-side part D (vector-like down quark)      : weak-minus-hypercharge -0.27, colour-minus-weak +0.67
+  D and weak pair together, same mass (whole 5+5bar)     : weak-minus-hypercharge -0.00, colour-minus-weak +0.00
+  => the missing body for the strengths carries WEAK charge and NO colour
+  => the press needs COLOUR and a link to the down quarks (the D, already in the matrix)
+  => one body cannot do both jobs: the leftovers point at two different kinds

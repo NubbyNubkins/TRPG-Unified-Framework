@@ -1,0 +1,28 @@
+(1) How rapid is the cooling, compared with the thing that is happening? (process rate / cooling rate; big = slow, gentle cooling)
+   the surface's resistance switches on (160 GeV)   1.3e+14
+   quarks lock into protons (155 MeV)               1.1e+19
+   neutrinos let go (1.5 MeV)                       1 (by definition: this is why they let go)
+   first nuclei (0.066 MeV)                         1.6e+02
+   atoms form (0.26 eV)                             329 before the bottleneck, about 10 with it; falls to 1 as the last electrons are left over
+   -> atom formation is the ONE step where the cooling is rapid compared with the process. That is why its timing depends on how lumpy matter is.
+
+(2) Atoms forming is what lets matter go lumpy (pressure drops): smallest lump that can pull itself together
+   just before (matter tied to the light)     sound speed 135,574 km/s; smallest lump 5.5e+17 suns
+   just after (atoms, light set free)         sound speed 6 km/s; smallest lump 5.9e+04 suns
+   -> true, and large (a factor of 1e13), but these lumps come AFTER atoms form, so they cannot change WHEN atoms form.
+
+(3) When could lumps have been made? Test: lumps already there at 4 minutes would spoil the deuterium (D/H goes as density^-1.6)
+   mild 0.6/1/1.4       deuterium x1.28   (measured to 1%: Cooke, Pettini, Steidel 2018)
+   medium 0.3/1/1.7     deuterium x2.76   (measured to 1%: Cooke, Pettini, Steidel 2018)
+   strong 0.1/1/1.9     deuterium x13.72   (measured to 1%: Cooke, Pettini, Steidel 2018)
+   -> lumps must be made AFTER the first nuclei (4 minutes) and BEFORE atoms (363 thousand years): light between 0.07 MeV and 0.3 eV.
+
+(4) Size of one horizon then, stretched to today (a lump cannot be made bigger than this at that time)
+   the light began (1e6 GeV)      1.90e-07 light-years today
+   the light began (2.4e8 GeV)    7.93e-10 light-years today
+   quarks lock (155 MeV)          1.66e+00 light-years today
+   first nuclei (0.066 MeV)       5.13e+03 light-years today
+   majoron level (8.8 keV)        3.85e+04 light-years today
+   light at 1 keV                 3.39e+05 light-years today
+   light at 10 eV                 3.39e+07 light-years today
+   needed size of the lumps (Jedamzik & Pogosian): roughly 3 to 3,000 light-years today

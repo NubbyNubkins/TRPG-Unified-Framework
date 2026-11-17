@@ -1,0 +1,8 @@
+sin^2 th23 = 0.47, misalignment |Im| <= 0.3: max eta_B = 2.06e-10, median 4.9e-13, fraction >= 6.1e-10: 0.0000
+sin^2 th23 = 0.47, misalignment |Im| <= 1.0: max eta_B = 1.32e-10, median 5.9e-14, fraction >= 6.1e-10: 0.0000
+sin^2 th23 = 0.561, misalignment |Im| <= 0.3: max eta_B = 2.70e-10, median 4.8e-13, fraction >= 6.1e-10: 0.0000
+sin^2 th23 = 0.561, misalignment |Im| <= 1.0: max eta_B = 8.61e-11, median 5.6e-14, fraction >= 6.1e-10: 0.0000
+Best flavoured result 2.70e-10 vs observed 6.1e-10 (ratio 2x short)
+Unflavoured best: 4.6e-12.
+local search, sin^2 th23 = 0.47: max eta_B = 4.42e-10 (observed 6.1e-10); misalignment imaginary parts [ 0.06 -0.3  -0.01], delta = 181 deg
+local search, sin^2 th23 = 0.561: max eta_B = 3.93e-10 (observed 6.1e-10); misalignment imaginary parts [0.1  0.01 0.02], delta = 202 deg

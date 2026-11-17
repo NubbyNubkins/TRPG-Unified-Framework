@@ -1,0 +1,97 @@
+
+====================================================================================================
+0. The two pictures as exact statements, written before any number is looked at
+====================================================================================================
+  CONE.    sqrt(mass of rung k) = size x (1 + opening x cos(twist + k x 120 degrees)).  Three rungs, three numbers: size, opening, twist.
+           C1  each ladder is a cone                       (any three masses are: no content by itself)
+           C2  all ladders share the leptons' opening, 45 degrees
+           C3  the two quark ladders share ONE opening (whatever it is)
+           C4  all six quarks sit on one 45-degree cone   (Kartavtsev 2011)
+           C5  both quark ladders are cones about the SAME axis -> then the weak force's tilt between them is exactly zero
+  SPIRAL.  each turn climbs: rung k+1 = rung k x one set factor.
+           S1  each ladder climbs by equal steps           (middle^2 = bottom x top)
+           S2  the up ladder is the down ladder with every step squared (one spiral, two pitches)
+           S3  the step is set by the tilt: down ladder steps = leak^2, up ladder steps = leak^4   (Froggatt & Nielsen 1979; Wolfenstein 1983)
+           S4  the two ladders are ONE spiral seen from its two ends: same opening, twist mirrored (the spiral of an earlier test)
+           S5  the leptons' exact cone, wound into a spiral: same opening and twist, plus one climb factor per rung
+  9 statements. A pass needs the measured value inside its own error bar, at one energy, for BOTH ladders.
+
+====================================================================================================
+1. The masses at one energy (the top's own, 162.5 GeV), with errors
+====================================================================================================
+  down, strange, bottom : 2.678 +/- 0.058, 53.36 +/- 0.71, 2873 +/- 38 MeV
+  up, charm, top        : 1.242 +/- 0.045, 627.8 +/- 8.2, 1.625e+05 +/- 8.3e+02 MeV
+  electron, muon, tau   : 0.5110, 105.66, 1776.93 +/- 0.09 MeV (their own masses; these barely move with energy)
+  Steps up each ladder (second rung / first, third / second):
+     leptons         206.8 +/- 0.0        16.8 +/- 0.0
+     down ladder      19.9 +/- 0.3        53.9 +/- 0.2
+     up ladder       506.3 +/- 17.7       258.9 +/- 3.6
+
+====================================================================================================
+2. The cone: where each ladder sits (size, opening, twist)
+====================================================================================================
+  leptons      size    313.85 +/- 0.01 MeV   opening 45.000 +/- 0.000 deg   twist 12.733 +/- 0.000 deg   relationship/self 1.0000 +/- 0.0000
+  down ladder  size    434.65 +/- 5.76 MeV   opening 48.150 +/- 0.015 deg   twist 5.705 +/- 0.016 deg   relationship/self 1.2465 +/- 0.0013
+  up ladder    size  20479.14 +/- 99.87 MeV   opening 52.147 +/- 0.018 deg   twist 3.043 +/- 0.022 deg   relationship/self 1.6556 +/- 0.0021
+  C1  each ladder is a cone: TRUE for any three masses, so it says nothing by itself. The content is in the three numbers above.
+  C2  all share the leptons' 45 degrees: leptons 44.9999 +/- 0.0002 (holds). Down 48.15 (+213 sigma). Up 52.15 (+405 sigma). FAIL.
+  C3  the two quark ladders share one opening: 48.15 against 52.15: apart by 174 sigma. FAIL.
+  C4  all six quarks on one 45-degree cone: sum of masses / (sum of square roots)^2 = 0.6865 +/- 0.0015; a 45-degree cone needs 0.6667: +13 sigma. FAIL.
+  C5  both ladders are cones about the SAME axis: then one turn of 120 degrees maps each ladder to itself, the two mass patterns can be
+      sorted by the same three directions, and the weak force changes up-type into down-type with NO leak between families.
+      (an earlier test found the same.) Measured leaks: 0.2243, 0.041, 0.0037. Zero is the right first guess (the leaks are small) and FAILS strictly
+      (the first by more than 100 sigma).
+      So the tilt between the ladders IS the amount by which the two cones do not share an axis. A cone alone cannot give it.
+  Seen in the numbers, going leptons -> down -> up: the opening widens (45.0, 48.2, 52.1 deg) and the twist unwinds
+      (12.73, 5.71, 3.04 deg). Two orderings of three things line up like this by chance about 1 time in 3. A trend, not a law.
+  -> The cone is exact for the leptons and for nothing else. For quarks it is a way of writing three masses, with openings that match no simple value
+     (an earlier test: 5/4 and 5/3 fail) and that differ between the ladders.
+
+====================================================================================================
+3. The spiral: does each turn climb by a set factor?
+====================================================================================================
+  S1  leptons      middle^2 / (bottom x top) =   12.295 +/- 0.001  (equal steps need 1)     second step / first step, in powers: 0.529 +/- 0.000  (need 1)
+  S1  down ladder  middle^2 / (bottom x top) =    0.370 +/- 0.006  (equal steps need 1)     second step / first step, in powers: 1.332 +/- 0.007  (need 1)
+  S1  up ladder    middle^2 / (bottom x top) =    1.956 +/- 0.075  (equal steps need 1)     second step / first step, in powers: 0.892 +/- 0.006  (need 1)
+      FAIL for all three as an exact rule. But look at the last column: the quark ladders are 1.3 and 0.9, the leptons 0.5.
+      The quarks are much NEARER a spiral of equal steps than the leptons are. The leptons are the cone; the quarks lean toward the spiral.
+  S2  up ladder = down ladder with every step squared: power needed on the first step 2.081 +/- 0.023, on the second 1.394 +/- 0.004; need 2 and 2.
+      One power for both steps would also do: they differ by 30 sigma. FAIL.
+  S3  the step is set by the tilt (leak = 0.2243). Steps DOWN each ladder, measured against the rule:
+         down / strange    0.05020 +/- 0.00083    leak^2 = 0.05031    measured / rule = 1.00    power of the leak that fits: 2.00
+         strange / bottom  0.01857 +/- 0.00006    leak^2 = 0.05031    measured / rule = 0.37    power of the leak that fits: 2.67
+         up / charm        0.00198 +/- 0.00007    leak^4 = 0.00253    measured / rule = 0.78    power of the leak that fits: 4.17
+         charm / top       0.00386 +/- 0.00005    leak^4 = 0.00253    measured / rule = 1.53    power of the leak that fits: 3.72
+      One of four lands (down / strange, the Cabibbo link that already passes: Gatto, Sartori & Tonin 1968). The other three are off by
+      factors of 0.4 to 1.5. The fitted powers (2.0, 2.7, 4.2, 3.7) are near whole numbers and not on them. An old, real, rough pattern. As a law it FAILS.
+  S4  one spiral seen from its two ends: needs the same opening (C3: FAIL) and a mirrored twist. Twists: down 5.71 +/- 0.02, up 3.04 +/- 0.02 deg.
+      Mirror through the axis would need them to add to 60: they add to 8.7. Mirror in the turning sense leaves a cone's three masses
+      unchanged, so the two ladders would be EQUAL (up = down, charm = strange, top = bottom). FAIL both ways.
+      What survives of the earlier spiral here: the two ladders ARE the two ends of one state (the quark pair joins the up partner one way and
+      the down partner the other way, 45.3). That fixes which links exist. It does not fix their sizes.
+  S5  leptons' cone wound into a spiral, down ladder: climb factor needed on the first step 0.310 +/- 0.003, on the second 1.789 +/- 0.003; must be equal. FAIL.
+  S5  leptons' cone wound into a spiral, up ladder: climb factor needed on the first step 1.564 +/- 0.027, on the second 3.924 +/- 0.027; must be equal. FAIL.
+
+====================================================================================================
+4. Attacks on my own tests
+====================================================================================================
+  (a) Did the choice of energy decide the outcome? The down ladder's cone and its steps do not change with energy under the strong force (all
+      three masses run alike), so C2, C3, S1 and S3 for the down ladder are the same at every energy below the top. The up ladder was taken
+      at the top's own energy; an earlier test followed both to 10^16 GeV and they drift in opposite directions. No energy rescues C2, C3 or C4.
+  (b) Was a signed root missed? With the lightest root taken negative the opening only widens, so C2 to C4 still fail:
+      leptons: with a negative lightest root, opening 46.52 deg.
+      down ladder: with a negative lightest root, opening 50.78 deg.
+      up ladder: with a negative lightest root, opening 52.38 deg.
+  (c) Nine statements were tested. One sub-test of S3 landed, and it was already known (the Cabibbo link). Nothing new passed, so there is
+      no question of a lucky hit to discount.
+
+====================================================================================================
+5. Summary
+====================================================================================================
+  CONE   : exact for the leptons (45.000 degrees, a part in a million). For quarks it is only a way of writing three masses. FAIL as a rule.
+  SPIRAL : the right rough shape for quarks (each rung climbs by a large factor; quarks are nearer equal steps than leptons; the steps are
+           roughly whole powers of the leak). FAILS as an exact rule in every form tested.
+  LEARNED: (1) leptons are the cone, quarks lean to the spiral: the two are different shapes, which is why the lepton rule never carried over.
+           (2) The tilt between the ladders is exactly the failure of the two cones to share an axis. (3) The down ladder's shape does not
+           depend on the energy at which it is looked at, so it is a definite object to explain: opening 48.15 degrees.
+  NOT MOVED: bottom, charm, strange and top stay measured. Scorecard unchanged.

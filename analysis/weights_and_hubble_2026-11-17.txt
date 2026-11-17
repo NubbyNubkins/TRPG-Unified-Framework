@@ -1,0 +1,25 @@
+(1) Change one weight by 1% and keep the sky the same: how far does the Hubble value move? (baseline 67.4)
+   electron heavier by 1% (atoms form earlier)                                    +2.39
+   proton and neutron heavier by 1% (ordinary matter weighs 1% more, same count)  +0.26
+   dark matter 1% more (weight x count; the theory cannot yet say which)          -0.44
+   all three neutrinos heavier by 1%                                              -0.01
+
+(2) The neutrinos' weights (the only weights still unmeasured)
+   weightless                                           H0 = 67.9
+   the theory: 0.36, 8.6, 50.1 meV (sum 0.059 eV)       H0 = 67.4
+   sum 0.12 eV (survey upper limit)                     H0 = 66.8
+   sum 0.30 eV                                          H0 = 65.2
+
+(3) Speeds at one temperature: v = share of light speed, for movement energy 3/2 kT (slow things) or momentum 3.15 kT (neutrinos)
+   when atoms formed (0.26 eV): electron 370 km/s; proton 8.64 km/s; light 299,792 km/s
+   today's glow (0.000235 eV): electron 11.1 km/s; proton 0.26 km/s; light 299,792 km/s
+   relic neutrino 1 today: 247,688 km/s (82.6% of light speed)
+   relic neutrino 2 today: 18,327 km/s (6.1% of light speed)
+   relic neutrino 3 today: 3,159 km/s (1.1% of light speed)
+
+(4) When each kind stopped behaving like light (weight = 3 x temperature) and began to slow the stretch as held matter
+   proton      light at 3.13e+08 eV
+   electron    light at 1.7e+05 eV
+   neutrino 3  light at 0.0167 eV
+   neutrino 2  light at 0.00287 eV
+   neutrino 1  light at 0.00012 eV

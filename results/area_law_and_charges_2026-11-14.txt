@@ -1,0 +1,20 @@
+block  2x2  boundary   8 volume    4  entanglement 0.478  per boundary 0.0597
+block  4x4  boundary  16 volume   16  entanglement 1.044  per boundary 0.0652
+block  6x6  boundary  24 volume   36  entanglement 1.620  per boundary 0.0675
+block  8x8  boundary  32 volume   64  entanglement 2.200  per boundary 0.0687
+block 10x10 boundary  40 volume  100  entanglement 2.779  per boundary 0.0695
+block 12x12 boundary  48 volume  144  entanglement 3.355  per boundary 0.0699
+block 14x14 boundary  56 volume  196  entanglement 3.926  per boundary 0.0701
+fit to boundary: error 0.003 ; fit to volume: error 0.243 -> AREA (boundary) law
+entanglement per unit boundary ~ 0.072 -> Jacobson/Bekenstein: G = a^2/(4 x that) in medium units: G ~ 3.47 a^2 (gravity strength set by the medium's spacing a)
+
+B) Charges from consistency (anomaly cancellation; Geng & Marshak 1989; Minahan, Ramond & Warner 1990; Bar & Wiese 2001).
+   One generation with N colours: quark doublet Q(N,2), u(N), d(N), lepton doublet L(2), e(1); fix the scale with Y_L = -1/2.
+   N = 1: up-quark charge 1, down-quark charge 0, electron -1, neutrino 0
+   N = 2: up-quark charge 3/4, down-quark charge -1/4, electron -1, neutrino 0
+   N = 3: up-quark charge 2/3, down-quark charge -1/3, electron -1, neutrino 0
+   N = 4: up-quark charge 5/8, down-quark charge -3/8, electron -1, neutrino 0
+   N = 5: up-quark charge 3/5, down-quark charge -2/5, electron -1, neutrino 0
+   Result: for ANY number of colours N the anomalies cancel, with up = 1/2 + 1/(2N) and down = -1/2 + 1/(2N).
+   So the charges are forced ONCE N is known, and N = 3 gives exactly +2/3 and -1/3. N itself is not forced by
+   anomalies; it is measured (e.g. the neutral pion decay rate and the e+e- -> hadrons ratio both need N = 3).

@@ -1,0 +1,94 @@
+
+====================================================================================================
+1. The three-way product on the link states
+====================================================================================================
+  The link states seen from the observer's spot: two octonions (16 numbers). Written with an outside i they are 16 complex states.
+  Two-way product: x times y. Three-way product: {x, y, z} = (x.y*).z + (z.y*).x - (x.z).y*, where y* is y's mirror image (Jordan 1933; Loos 1977).
+  It never leaves the link states (leak 0e+00) and obeys the standard consistency law for three-way products (error 5e-13).
+  Two-way: the entry a = e1 + i e2 squares to nothing (size 0e+00). That is the hole that ruled out joined number systems in earlier tests
+  Three-way: the same entry gives {a, a, a} = 4 a. Not nothing.
+  For every state: the weight of 'x with its own mirror' is positive (all 16 weights = 12); smallest |{x,x,x}| / |x|^3 in 20,000 random states: 1.03.
+  -> With a three-way product NOTHING combines with itself into nothing. The doubled link space has no three-way holes (Loos 1977: it is 'positive').
+
+====================================================================================================
+2. The turns of the three-way product
+====================================================================================================
+  Turns that keep the three-way product: 46 (45 self-interacting + 1 single: the overall phase of every state at once), 6 neutral.
+  The matrix's own 36 turns that keep the observer's spot are among them: True. So the three-way product has MORE symmetry (46) than the matrix seen from the spot (36).
+
+====================================================================================================
+3. The observer's spot and facing direction pick two states
+====================================================================================================
+  The colourless link states are built from 1 and u (the facing direction): link 1 x (1 +/- i u) and link 2 x (1 +/- i u). Each is a simplest possible state:
+    link 1 (1 + i u): {e,e,e} = e (error 0e+00); how the other states relate to it: {0.0: 5, 0.5: 10, 1.0: 1}
+    link 1 (1 - i u): {e,e,e} = e (error 0e+00); how the other states relate to it: {0.0: 5, 0.5: 10, 1.0: 1}
+    link 2 (1 + i u): {e,e,e} = e (error 0e+00); how the other states relate to it: {0.0: 5, 0.5: 10, 1.0: 1}
+    link 2 (1 - i u): {e,e,e} = e (error 0e+00); how the other states relate to it: {0.0: 5, 0.5: 10, 1.0: 1}
+  Two such states are either 'unrelated' (0) or 'half-related' (1/2):
+    link 1 (+) with link 1 (-): 0.0   turns of the 45 keeping the first exactly and the second's direction: 16 turns = 15 self-interacting + 1 single; 4 neutral
+    link 1 (+) with link 2 (+): 0.0   turns of the 45 keeping the first exactly and the second's direction: 16 turns = 15 self-interacting + 1 single; 4 neutral
+    link 1 (+) with link 2 (-): 0.5   turns of the 45 keeping the first exactly and the second's direction: 12 turns = 11 self-interacting + 1 single; 4 neutral
+    link 1 (-) with link 2 (+): 0.5   turns of the 45 keeping the first exactly and the second's direction: 12 turns = 11 self-interacting + 1 single; 4 neutral
+    link 1 (-) with link 2 (-): 0.0   turns of the 45 keeping the first exactly and the second's direction: 16 turns = 15 self-interacting + 1 single; 4 neutral
+    link 2 (+) with link 2 (-): 0.0   turns of the 45 keeping the first exactly and the second's direction: 16 turns = 15 self-interacting + 1 single; 4 neutral
+
+====================================================================================================
+4. Which turns keep the two chosen states? Every reading
+====================================================================================================
+    all 46 turns                   state 1 exactly         state 2 exactly        : 12 turns = 11 self-interacting + 1 single; 4 neutral
+    all 46 turns                   state 1 exactly         state 2 as a direction : 13 turns = 11 self-interacting + 2 single; 5 neutral
+    all 46 turns                   state 1 as a direction  state 2 exactly        : 13 turns = 11 self-interacting + 2 single; 5 neutral
+    all 46 turns                   state 1 as a direction  state 2 as a direction : 14 turns = 11 self-interacting + 3 single; 6 neutral
+    the 45 self-interacting turns  state 1 exactly         state 2 exactly        : 11 turns = 11 self-interacting + 0 single; 3 neutral
+    the 45 self-interacting turns  state 1 exactly         state 2 as a direction : 12 turns = 11 self-interacting + 1 single; 4 neutral
+    the 45 self-interacting turns  state 1 as a direction  state 2 exactly        : 12 turns = 11 self-interacting + 1 single; 4 neutral
+    the 45 self-interacting turns  state 1 as a direction  state 2 as a direction : 13 turns = 11 self-interacting + 2 single; 5 neutral
+  TRPG's rule 4 says 'stand at one spot and face one way'. A spot is kept exactly; a facing is a direction. Leaving out the overall phase (which no
+  measurement can see), that reading gives 12 turns with 4 neutral: 11 self-interacting and 1 single.
+  The self-interacting 11 split into blocks of [8, 3]: so the 12 are 8 | 3 | 1.
+
+====================================================================================================
+5. What the 16 link states are under these 12
+====================================================================================================
+     colours     weak   charge  states   particle
+           3     pair  +0.1667       6   quark pair
+           3   single  +0.3333       3   down partner
+           3   single  -0.6667       3   UP PARTNER
+           1     pair  -0.5000       2   lepton pair
+           1   single  +1.0000       1   ELECTRON PARTNER
+           1   single  +0.0000       1   hidden neutrino partner
+  Consistency sums (must all vanish): charges -6.7e-16; cubes -1.0e-15; on coloured states +3.3e-16; on weak pairs -7.8e-16.
+  The two chosen states themselves: state 1 has charge +0.000 (the hidden neutrino partner); state 2 has charge +1.000 (the electron partner).
+  -> A WHOLE generation: both weak pairs and all four partners, with the measured charges. The up partner and the electron partner are there.
+  Strengths from this geometry (one strength for all 12): sin^2 = 0.375; strong/weak = 1.000. That is the whole-generation count of an earlier test:
+     the near miss (10.6% off at the Z). Still a strict FAIL; nothing changes there.
+
+====================================================================================================
+6. Attacks
+====================================================================================================
+6a. Is this the weak force of an earlier test? No. These 12 share 9 turns with the earlier 12 (the 8 colour turns and 1 more), and only 9 of them keep the
+    matrix's own two-way product. The weak force here is a symmetry of the three-way product, not of the matrix. the earlier weak force made every link
+    state a pair; this one makes half of them pairs and half singles, as measured.
+6b. Other readings. Keeping BOTH states exactly, with the overall phase allowed, also gives 12 turns, but the single carrier's charges are then {0.0: 2, 1.0: 6, 2.0: 6, 3.0: 2}:
+    it counts how many colour switches are on (0, 1, 2 or 3). That is the 'sets of three' and it is a real pattern (Georgi & Glashow 1974; Furey 2015),
+    but as a force it is inconsistent: its charges do not sum to zero (24). Keeping both only as directions gives 13 or 14 turns: an extra carrier that
+    is not seen. Only 'one exactly, one as a direction' gives the measured 12. It is the natural reading of rule 4, and it is still a choice.
+6c. Facing the other way (u -> -u) picks the other half-related pair of states. Its 12 turns share 9 with the first 12, and its charges have the same sizes: True.
+6d. Two UNRELATED states instead of half-related ones: 16 turns = 15 self-interacting + 1 single; 4 neutral. That is a four-colour force (lepton as fourth colour), not the measured forces.
+    So the two states must be 'half-related'. Half-related means: each is a relationship partner of the other, neither is the other's mirror.
+6e. The two-way hole is still there in the entries (e1 + i e2 squares to nothing). This route needs rule 1 to be read for three-way combinations.
+    Whether the joined number systems rejected in an earlier test would also pass a three-way reading has NOT been tested.
+6f. Nothing extra: exactly 16 states and 12 carriers. No mirror states: the 16 are not their own mirror image, so matter is one-handed here without
+    the hole argument of an earlier test (provided spin uses this same i, as in an earlier test).
+6g. Not new mathematics: the 16 are the 'spinor' of Georgi 1975 and Fritzsch & Minkowski 1975, without their extra force carriers; the three-way
+    form is Loos 1977 and Baez 2026. What is TRPG's is the reading: spot exactly, facing as a direction, and no three-way holes.
+
+====================================================================================================
+7. The same reading on the three number systems (one meaning throughout)
+====================================================================================================
+  Same construction every time: link states seen from the spot, three-way product, keep one colourless state exactly and the half-related one as a direction.
+    complex numbers :  4 link states; no three-way holes: True; turns of the three-way product  8; kept by the perspective:  3 = blocks [3] + 0 single; 1 neutral
+    quaternions     :  8 link states; no three-way holes: True; turns of the three-way product 19; kept by the perspective:  5 = blocks [3] + 2 single; 3 neutral
+    octonions       : 16 link states; no three-way holes: True; turns of the three-way product 46; kept by the perspective: 12 = blocks [8, 3] + 1 single; 4 neutral
+  -> One meaning for all three. Only the octonions give 8 | 3 | 1, and the octonions are what the two-way bag rules force for the entries.
+     So the three-way reading does not replace the two-way rule. The two-way rule fixes the numbers in the matrix; the three-way rule is for the states.

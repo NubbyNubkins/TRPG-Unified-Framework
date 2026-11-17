@@ -1,0 +1,28 @@
+1. NEEDED? (numbers from earlier tests, two loops)
+   strengths without it: miss -8.9% +- 0.1% (60 sigma). With three far-side weak pairs at 2.23e8 GeV (1.8e8 to 2.7e8): meet at 4.6e13 GeV.
+   nothing else in the record uses the MMG: not the weights, the tilt, the twist, the matter excess or the dark matter.
+   it adds no state: it is the colourless part of the far side already in the matrix; without the split it would sit at the meeting with D.
+   MMG = F^2/grain with F = 4.56e+13 GeV: the same statement as the gravity leak, not a second assumption.
+
+2. A PROBLEM? If the MMG has no link at all it is stable, and any made in the heat are still here.
+   made while the light was building up (Chung, Kolb & Riotto 1998; Giudice, Kolb & Riotto 2001): amount/dark matter ~ (M^2 sigma v / 0.12) x (2000 T_start / M)^7
+   start level 1.7e+05 GeV: 9.3e-01 times the dark matter
+   start level 1.0e+06 GeV: 2.3e+05 times the dark matter
+   start level 5.5e+07 GeV: 3.4e+17 times the dark matter
+   start level 2.4e+08 GeV: 1.0e+22 times the dark matter
+   a stable MMG needs the start level below 1.7e+05 GeV
+   but then the handover number is at most 5.3e-06 against 1.68e-03 needed: short by 319x
+   => a stable MMG and the matter-excess lead cannot both stand. The MMG must have a link that lets it decay.
+   link window: above 2.6e-16 (decays within a second); above 8.8e-12 (decays before it would dominate at 23 GeV and thin out the matter excess);
+                below 9.2e-05 (does not erase the matter excess); below 6e-4 (neutrino weights, an earlier test)
+   natural size MMG weight / grain   = 2.8e-11: inside the window; lifetime 8.8e-11 s; neutrino weight it adds 9.8e-17 eV
+   natural size F / grain            = 5.3e-06: inside the window; lifetime 2.5e-21 s; neutrino weight it adds 3.5e-06 eV
+   natural size Higgs value / grain  = 2.0e-17: OUTSIDE (too small); lifetime 1.7e+02 s; neutrino weight it adds 5.1e-29 eV
+
+3. MEASURABLE?
+   direct: no (about 15,000 times beyond the LHC). Indirect: the strong coupling, three-loop running done: 0.1178 (grain = Planck/root 2) or 0.1196 (grain = Planck)
+   ALPHA 2025: 0.11873 +- 0.00056: +1.5 sigma from 0.1178, -1.4 sigma from 0.1196
+   PDG average: 0.118 +- 0.0009: +0.2 sigma from 0.1178, -1.7 sigma from 0.1196
+   grain factor that would fit ALPHA exactly: about 1.20 (no reason behind it)
+   at 0.3% (+-0.00035): the two grain choices are 3.9 sigma apart
+   also: no proton decay at any rate (Hyper-Kamiokande seeing one would break it); no primordial gravity waves.

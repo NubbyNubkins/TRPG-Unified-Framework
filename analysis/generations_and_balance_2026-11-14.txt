@@ -1,0 +1,71 @@
+
+====================================================================================================
+B1. Three placements of the same relationship matrix (three seats), instead of three slots of one matrix
+====================================================================================================
+  Three copies of the 3x3 octonion matrix, one per seat. No number systems are joined, and nothing squares to nothing (a sum of three such matrices).
+  All turns: 156. Turns that cannot tell the seats apart (commute with moving every seat one place round): 52 (rank 4).
+  With the observer's spot and facing direction: 36 carriers if each seat had its own forces; 12 (rank 4) if the forces are blind to the seat.
+  Link states: 3 x 16 = 48 components = three generations of weak pairs. One weak force, the same for all three.
+  -> A hole-free arrangement EXISTS: the same shape in three placements (the earlier own wording), with forces that are blind to the placement.
+     The seat space carries the 3x3 mass matrices of rule 5; the octonion matrix carries the forces. They are two different matrices.
+  Measured: the weak force is the same for all three generations to 0.1-0.2% (tau, muon and pion decays); no force that tells generations apart is seen.
+
+====================================================================================================
+B2. What that costs, and what can replace it
+====================================================================================================
+  'At most 3 generations because octonion matrices stop at 3x3' used the octonion matrix's slots as the generations. With seats
+  instead of slots, that argument no longer applies: nothing limits the number of seats.
+  What still fixes 3:
+   - at least 3: an irremovable twist (matter-antimatter difference) needs 3 (Kobayashi & Maskawa 1973; an earlier test). A theorem.
+   - at most 3: only rule 6 ('nothing extra'), which holds again in the earlier picture: the minimum the twist needs, and no more. A rule, not a theorem.
+  Data: a fourth generation of the same kind is excluded (Higgs production would be about 9 times larger; Z width gives 2.9963 +/- 0.0074 light neutrinos).
+  Other published routes to 3 inside one structure, checked against rule 1:
+   - doubling the octonion matrix with complex numbers (Boyle 2020): complex x octonions has holes.
+   - the next number system, 16 parts (sedenions; Gillard & Gresnigt 2019): has holes (it fails rule 1 by Hurwitz's theorem).
+   - the three four-part systems containing the facing direction (Manogue & Dray 1999): that '3' is already the three colours in TRPG.
+  -> None passes rule 1. FAIL for 'one structure gives both the forces and exactly three generations'.
+
+====================================================================================================
+C1. The lepton 45 degree rule as a balance of two pushes
+====================================================================================================
+  relationship weight / self weight = 0.999993. In the tractor picture: at balance the two pushes are EQUAL (Newton's third law). That is the 45 degree rule.
+  A published energy function gives it (Koide 1990): energy = (terms in the total) - k x (self weight) x (relationship weight). With the total kept
+  (rule 2), the product is largest when the two weights are equal. It works BECAUSE the function treats self and relationship alike. That is put in.
+  Wave test: three seats on a ring joined only by their links (no outside anchor: the full glass), with a twist phi through the ring:
+   each seat's energy IS half own motion, half links (the virial theorem), but the three frequencies give a ratio of at most Q = 0.500; leptons have 0.667.
+  -> The balance reading restates the rule; the simplest wave model with that balance FAILS to give the lepton masses. The 45 degree rule stays measured.
+
+====================================================================================================
+C2. The twist and the electron's mass are the same number
+====================================================================================================
+  With exact 45 degree balance, the lightest member is massless when the twist is exactly pi/12 = 15 degrees = 0.261799.
+  Measured twist: 0.222225 (12.733 degrees). The gap, 2.267 degrees, IS the electron's mass: sqrt(m_e)/average = 0.04035; gap in radians = 0.03957.
+  -> 'Why is the twist 2/9?' and 'why is the electron so light but not massless?' are one question, not two. It does not answer either.
+
+====================================================================================================
+C3. Do the quark families have a balance of their own? Tested at one common energy, with errors
+====================================================================================================
+  FLAG 2024, four sea quarks:
+    down family (d, s, b): Q = 0.74887 +/- 0.00041  -> relationship/self = 1.2466 +/- 0.0012;  against 3/4: -2.7 sigma
+    up family   (u, c, t): Q = 0.88521 +/- 0.00072  -> relationship/self = 1.6556 +/- 0.0022;  against 8/9: -5.1 sigma
+  FLAG 2024, three sea quarks:
+    down family (d, s, b): Q = 0.74925 +/- 0.00038  -> relationship/self = 1.2478 +/- 0.0011;  against 3/4: -2.0 sigma
+    up family   (u, c, t): Q = 0.88509 +/- 0.00076  -> relationship/self = 1.6553 +/- 0.0023;  against 8/9: -5.0 sigma
+  For comparison, leptons: Q = 0.666665 +/- 0.000005 -> relationship/self = 0.999994 +/- 0.000015; against 2/3: -0.4 sigma.
+  The down family's ratio does not change with energy under the strong force (all three masses run alike); the up family's is taken at the top's own scale.
+  Up family again with the wider top-mass error (162.5 +/- 1.8): Q = 0.88519 +/- 0.00092; against 8/9: -4.0 sigma
+  Attack: is there another energy at which both hold? Above the top's scale the top's own link pulls the ratios (one-loop running, Standard Model):
+    at 10^2.21  GeV: up family Q = 0.8852 (-0.42% from 8/9), down family Q = 0.7489 (-0.15% from 3/4)
+    at 10^4     GeV: up family Q = 0.8866 (-0.26% from 8/9), down family Q = 0.7462 (-0.51% from 3/4)
+    at 10^6     GeV: up family Q = 0.8878 (-0.12% from 8/9), down family Q = 0.7440 (-0.80% from 3/4)
+    at 10^8     GeV: up family Q = 0.8887 (-0.02% from 8/9), down family Q = 0.7423 (-1.03% from 3/4)
+    at 10^10    GeV: up family Q = 0.8894 (+0.06% from 8/9), down family Q = 0.7409 (-1.22% from 3/4)
+    at 10^12    GeV: up family Q = 0.8900 (+0.13% from 8/9), down family Q = 0.7397 (-1.38% from 3/4)
+    at 10^14    GeV: up family Q = 0.8906 (+0.19% from 8/9), down family Q = 0.7387 (-1.51% from 3/4)
+    at 10^16    GeV: up family Q = 0.8910 (+0.24% from 8/9), down family Q = 0.7378 (-1.63% from 3/4)
+    The up family reaches 8/9 near 10^8.5 GeV, where the down family is -1.08% from 3/4. The two move in OPPOSITE directions.
+    -> No single energy gives both. Choosing a different energy for each family would be a free choice, which is fitting, not deriving.
+  -> At one common energy the families sit NEAR relationship/self = 1 (leptons), 5/4 (down) and 5/3 (up); self shares near 1/2, 4/9, 3/8.
+     Strictly: the down family is 0.1-0.2% from 3/4 but 2 to 3 sigma low. The up family is 0.4% from 8/9 and 4 to 5 sigma low.
+     Both FAIL as exact rules. There is also no derivation of 3/4 or 8/9, and simple fractions are easy to find near any number.
+     NOT adopted. Only the leptons have a balance rule that survives its own error bar.

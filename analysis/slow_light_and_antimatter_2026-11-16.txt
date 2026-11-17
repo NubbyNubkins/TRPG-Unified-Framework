@@ -1,0 +1,18 @@
+middle height (tip 1e-5 eV, top Planck): 349 GeV
+   Higgs value: -0.15 steps from the middle
+   Higgs mass: -0.45 steps from the middle
+   top: -0.31 steps from the middle
+middle height (tip 1e-5 eV, top grain): 294 GeV
+   Higgs value: -0.08 steps from the middle
+   Higgs mass: -0.37 steps from the middle
+   top: -0.23 steps from the middle
+middle if tip pinned at nu1 0.36 meV: 1.76 TeV
+majoron 1.4 keV at 200 km/s: wavelength 1.33 micrometres
+mass needed for 1 kpc waves: 6.0e-23 eV
+stretch since annihilation (T~40 MeV): 1.7e+11
+typical photon then: ~108 MeV gamma; now 0.63 meV (microwave, peak 160 GHz)
+energy in background light today / ordinary matter: 1.1e-03
+B = 0.3544 (B-L) = 28/79; L = -0.6456 (B-L) = -51/79; L/B = -1.821
+neutrino lepton number L_nu = L - n_e = -2.70 per baryon (a surplus of about 2.7 antineutrinos per proton)
+background neutrinos per baryon: 1.3e+09; surplus fraction 2.0e-09
+1 joule of trapped light adds 1.11e-17 kg

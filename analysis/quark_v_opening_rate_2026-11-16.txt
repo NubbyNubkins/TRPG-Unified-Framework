@@ -1,0 +1,19 @@
+lepton ladder step ratio (2nd/1st, as powers): 0.5294
+top's energy (162.5 GeV): V widths (partner ratios) [ 0.4636 11.7661 56.5608], opening steps x25.4 then x4.81; r = 0.4856 +- 0.0101
+     halving, r = 1/2: -1.4 sigma
+     same as the lepton ladder, r = 0.5294: -4.3 sigma
+     sides cross 0.238 of the way from family 1 to family 2
+Z (91 GeV): V widths (partner ratios) [ 0.4605 11.655  59.2814], opening steps x25.3 then x5.09; r = 0.5035 +- 0.0103
+     halving, r = 1/2: +0.3 sigma
+     same as the lepton ladder, r = 0.5294: -2.5 sigma
+     sides cross 0.240 of the way from family 1 to family 2
+far side (2.1e8 GeV): V widths (partner ratios) [ 0.4636 11.7668 65.3913], opening steps x25.4 then x5.56; r = 0.5304 +- 0.0106
+     halving, r = 1/2: +2.9 sigma
+     same as the lepton ladder, r = 0.5294: +0.1 sigma
+     sides cross 0.238 of the way from family 1 to family 2
+1.00e+03 GeV: r = 0.4941
+1.00e+05 GeV: r = 0.5109
+1.00e+07 GeV: r = 0.5236
+2.47e+08 GeV: r = 0.5308
+1.00e+10 GeV: r = 0.5380
+4.62e+13 GeV: r = 0.5512

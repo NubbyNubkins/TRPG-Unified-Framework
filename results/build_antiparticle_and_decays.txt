@@ -1,0 +1,36 @@
+fate
+no annihilation; scatter only (colour cannot cancel)                   168
+no annihilation; scatter only                                          130
+can annihilate -> neutral carriers (photons, gluons, Z, Higgs)          25
+can fuse -> W boson (weak charged current)                              24
+flavour-changing: no direct annihilation (only rare loop processes)     12
+can annihilate -> pions (strong force; hadronic)                         2
+direct opposites: 19
+                                                          quantity        value     measured
+                                   muon lifetime from Fermi theory 2.187347e-06 2.196981e-06
+tau lifetime = muon lifetime x BR(tau->e nu nu) x e^(-10 S_tau,mu) 2.897300e-13 2.903000e-13
+       i             j
+electron     anti-nu_e
+    muon    anti-nu_mu
+     tau   anti-nu_tau
+    nu_e anti-electron
+   nu_mu     anti-muon
+  nu_tau      anti-tau
+      up     anti-down
+      up  anti-strange
+      up   anti-bottom
+    down       anti-up
+    down    anti-charm
+    down      anti-top
+ strange       anti-up
+ strange    anti-charm
+ strange      anti-top
+   charm     anti-down
+   charm  anti-strange
+   charm   anti-bottom
+  bottom       anti-up
+  bottom    anti-charm
+  bottom      anti-top
+     top     anti-down
+     top  anti-strange
+     top   anti-bottom

@@ -1,0 +1,27 @@
+signed distance from the 45 deg equilibrium (+ = toward the edge 'one heavy' at +9.74; - = toward the face diagonal 'two heavy' at -9.74; body diagonal 'all equal' at -45)
+  up quarks (at M_Z)               opening  52.21  distance  +7.21 deg  (  +74% of the way to the extreme)  coloured, upper of weak pair
+  up quarks (own scale)            opening  51.20  distance  +6.20 deg  (  +64% of the way to the extreme)  
+  down quarks (at M_Z)             opening  48.12  distance  +3.12 deg  (  +32% of the way to the extreme)  coloured, lower of weak pair
+  down quarks (own scale)          opening  47.53  distance  +2.53 deg  (  +26% of the way to the extreme)  
+  charged leptons                  opening  45.00  distance  -0.00 deg  (   -0% of the way to the extreme)  colourless, lower of weak pair
+  neutrinos (TRPG m1 = 0.36 meV)   opening  37.13  distance  -7.87 deg  (  -81% of the way to the extreme)  colourless, upper of weak pair
+  neutrinos (m1 = 0)               opening  41.02  distance  -3.98 deg  (  -41% of the way to the extreme)  
+  hidden partners N1-N3            opening  49.04  distance  +4.04 deg  (  +42% of the way to the extreme)  far side
+  MMG x3 (one shared weight)       opening   0.00  distance -45.00 deg  ( -462% of the way to the extreme)  far side
+  D partners x3 (at the meeting)   opening   0.00  distance -45.00 deg  ( -462% of the way to the extreme)  far side
+
+mirror test across 45: is the upper partner of each weak pair equally far out on opposite sides?
+  up at M_Z: +7.21; mirror opening 37.79; neutrino mirror needs m1 = 0.25 meV  (TRPG's own m1 = 0.36 meV gives 37.13)
+  up own scale: +6.20; mirror opening 38.80; neutrino mirror needs m1 = 0.12 meV  (TRPG's own m1 = 0.36 meV gives 37.13)
+  neutrino opening error from the measured splittings alone: +-0.08 deg; from m1 (0 to 1 meV): 41.02 to 34.60
+
+classification: both coloured families above 45, the colourless ones at or below.
+  chance that the two quark families are the top two of four by luck: 1 in 6 (17%). Suggestive, not evidence.
+  within each weak pair the UPPER partner sits farther from equilibrium: up +7.2 vs down +3.1; neutrino -7.9 vs charged lepton 0. Chance of that in both pairs: 1 in 4.
+
+'distance = energy away from equilibrium' against the heaviest member's Higgs link (weight / 174 GeV):
+  up              link 9.66e-01  distance +7.21
+  down            link 1.63e-02  distance +3.12
+  charged lepton  link 1.02e-02  distance +0.00
+  neutrino        link 2.87e-13  distance -7.86
+  order is kept (stronger link = higher), but down and the tau have almost the same link (0.016 vs 0.010) and sit 3.1 deg apart: the link's size alone does not set the distance.

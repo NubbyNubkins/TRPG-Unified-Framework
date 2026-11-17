@@ -1,0 +1,65 @@
+
+========================================================================================================
+1. The three scales, each with a push/pull and a perspective (energy-matrix shapes from an earlier test)
+========================================================================================================
+  scale                      push/pull (product-shaped, holds partners)          perspective (rotation, turns identity)
+  1 quarks with gluons       colour-blind total: makes the proton (938 MeV from    colour turn: a gluon turns red to blue
+                             ~9 MeV of quark mass)
+  2 protons with electrons   electric: makes the atom (13.6 eV)                    W turn: neutron to proton, muon to electron
+  3 the top                  THIRD STATE: the Higgs link, charge = mass  THIRD PERSPECTIVE: the family turn, the tilt
+                                                                                   (the W's family-crossing entries, an earlier test)
+  The pattern says: at each scale the push/pull should make something. Scale 1 makes the proton, scale 2 the atom. What does scale 3 make?
+
+========================================================================================================
+2. THIRD STATE, value A: what the Higgs link adds between a top and an antitop (toponium, seen as a threshold excess in 2025)
+========================================================================================================
+  alpha_s 0.13: colour binding  1296 MeV; the Higgs link adds   22 MeV (1.7%)   [first order; Strassler & Peskin 1991]
+  alpha_s 0.15: colour binding  1726 MeV; the Higgs link adds   32 MeV (1.8%)   [first order; Strassler & Peskin 1991]
+  alpha_s 0.17: colour binding  2217 MeV; the Higgs link adds   43 MeV (2.0%)   [first order; Strassler & Peskin 1991]
+  Higgs-link strength between tops: 0.0391 (electric 0.0073, strong ~0.15). Can it bind tops alone? needs strength x (top/2) / Higgs mass > 0.84:
+    0.027. NO. The third state binds nothing on its own (as an earlier test found), but it is real and measurable at the top: ~2% of toponium.
+
+========================================================================================================
+3. THIRD STATE, value B: suppose scale 3 MAKES something, like scales 1 and 2: the Higgs itself as a bound top pair
+========================================================================================================
+  This is a known idea (Nambu; Miransky, Tanabashi & Yamawaki 1989; Bardeen, Hill & Lindner 1990): top pairs bind into the Higgs above some energy L.
+  Condition: the top's Higgs link and the Higgs's own strength both become unlimited at L. Running down gives the top and Higgs masses.
+     L (GeV)   top (running mass)  measured    Higgs  measured
+       1e+04          394 (408)       163      494 (512)     125.2
+       1e+06          310 (314)       163      373 (379)     125.2
+       1e+10          256 (257)       163      294 (296)     125.2
+       1e+15          231 (232)       163      257 (258)     125.2
+       1e+19          221 (222)       163      241 (242)     125.2
+  (two starting values shown; the answer forgets them, which is the point of the condition)
+  FAIL: even with L at gravity's grain the top comes out ~35% heavy and the Higgs nearly twice its mass. With L near the top scale itself it is far worse.
+  The scaled-up-strong-force version (Weinberg 1979, Susskind 1979) also fails: it predicts no light Higgs and new heavy mesons near 1-3 TeV; none
+  are seen, and the Higgs found in 2012 behaves like a single elementary state (LHC couplings within ~10%). So scale 3 does NOT make the Higgs.
+  What survives: the Higgs value IS the third scale's 'made thing' in a weaker sense: the push/pull of scale 3 sets every mass, as the colour
+  push/pull sets the proton and the electric push/pull sets the atom. Its size (246 GeV) stays a measured property of space.
+
+========================================================================================================
+4. THIRD PERSPECTIVE: the family turn. A potential value from the masses?
+========================================================================================================
+  family 1 <-> 2: sqrt(down/strange) = 0.2240; measured turn 0.2250 (-0.4%)   HOLDS (Gatto, Sartori & Tonin 1968)
+  family 2 <-> 3: sqrt(strange/bottom) = 0.1363; measured 0.0418 (3.3x)   FAIL
+                  strange/bottom = 0.0186 (0.44x)   FAIL;  sqrt(charm/top) = 0.0622 (1.5x)   FAIL
+  So the turn between the first two families follows from the masses; the turn to the third (the top's family) does not, by any single-ladder
+  rule. That is the same finding as an earlier test: the third perspective needs the up and down ladders together. It is the joint rule (next test).
+
+========================================================================================================
+5. Connecting the three scales (the tertiary results): is there a pattern in the scales themselves?
+========================================================================================================
+  electron 0.511 MeV, one third of the proton 312.76 MeV, top 172.57 GeV
+  steps: proton/3 / electron = 612; top / (proton/3) = 552. Equal steps would need middle^2 = electron x top:
+    (proton/3)^2 / (electron x top) = 1.109  (with the meson home mass 309.6 MeV: 1.087)
+    geometric middle sqrt(electron x top) = 297.0 MeV vs 312.8 (-5%)
+  NEAR MISS, FAIL as a law (11% on the square). Honest count: this was 1 of about 4 scale patterns I looked at (also proton/electron vs top/proton,
+  1836 vs 184, a factor 10 to 0.2%, but 10 is only special in base ten, so no meaning; and Higgs value / proton/3 = 787, matching nothing). Recorded, not used.
+
+========================================================================================================
+6. Summary
+========================================================================================================
+  HOLDS as a classification: three scales, each with a push/pull and a perspective; the third state is the Higgs link, the third perspective is the family turn.
+  Third state's value at the top: adds ~30 MeV (~2%) to toponium's binding. It cannot bind anything alone.
+  FAILS: scale 3 making the Higgs out of top pairs (top ~35% heavy, Higgs nearly double, at best); the family turn to the third family from one ladder;
+  equal steps between the three scales (11% off). The third perspective needs the joint rule. Scorecard unchanged.

@@ -1,0 +1,122 @@
+
+====================================================================================================
+1. Entanglement already lives on the bag's number systems
+====================================================================================================
+  Two two-state systems (qubits) = 4 complex amplitudes = a PAIR of quaternions; all states of size 1 form the 7-sphere.
+  The quaternion map (a, b) -> 2 a b* has two 'extra' components. For 2,000 random states they equal the entanglement (Wootters' concurrence)
+  to within 0.0e+00; for 500 unentangled states they are zero to within 1.8e-16.
+  -> The quaternion structure of a pair IS its entanglement (Mosseri & Dandoloff 2001). Three qubits do the same with a pair of octonions
+     (Bernevig & Chen 2003), and the ladder stops at the octonions for the bag's own reason: the next system has holes.
+
+====================================================================================================
+2. Gravity's input holds in the full space: the area law with an inner ring added
+====================================================================================================
+   inner ring size  block side L  entropy S   S / (boundary 4L x ring)
+                 1             4      1.340                     0.0838
+                 1             6      2.066                     0.0861
+                 1             8      2.839                     0.0887
+                 3             4      1.690                     0.0352
+                 3             6      2.600                     0.0361
+                 3             8      3.556                     0.0370
+                 5             4      2.266                     0.0283
+                 5             6      3.481                     0.0290
+                 5             8      4.743                     0.0296
+  -> With an inner ring at every point the entanglement of a region still grows with its BOUNDARY (last column steady in L for each ring),
+     and each wave that runs round the ring adds its own boundary term (smaller for tighter rings). So the input Jacobson's argument needs
+     survives when the space has inner directions; his argument then applies to the whole space, inner directions included.
+
+====================================================================================================
+3. 'Inner gravity': a particle moving in an inner direction behaves exactly as a charged particle (Kaluza 1921; Klein 1926)
+====================================================================================================
+  Energy function of a free particle in the 5-dimensional shape = that of a charge q in a field A, where q = momentum round the inner ring.
+  Checked for 200 random fields: largest difference 9.2e-14. Charge conservation = the ring's symmetry; the gauge freedom = relabelling the ring.
+  What this gives for free: the gauge principle (a force for each direction the inner space can be turned without changing sizes).
+  Where the PURE version fails (two published results):
+    a) a particle whose charge is inner motion must weigh about e/sqrt(16 pi G) = 5.2e+17 GeV; the electron weighs 5.1e-4 GeV. Off by 1e+21.
+    b) handed (left-only) matter cannot come out of pure geometry on a smooth inner space (Witten 1983).
+  -> 'Everything, matter included, is gravity of the inner space' FAILS. What survives is the force side: inner turns that keep sizes are forces.
+     The same conclusion comes from emergent gravity directly: where gravity comes from entanglement, an exact symmetry cannot stay 'global';
+     it must come with a force field (Harlow & Ooguri 2019; proven in the anti-de Sitter setting, expected in general).
+
+====================================================================================================
+4. The turns of the 3x3 relationship matrix, for each number system the bag allows
+====================================================================================================
+  number system      all turns   + face one way  + stand at one spot    both (rule 4)
+  complex           8 (rank 2)       8 (rank 2)           4 (rank 2)       4 (rank 2)
+  quaternions      21 (rank 3)       9 (rank 3)          13 (rank 3)       5 (rank 3)
+  octonions        52 (rank 4)      16 (rank 4)          36 (rank 4)      12 (rank 4)
+  Measured: 12 carriers, 4 of them neutral, in blocks 8 | 3 | 1.
+
+  Octonion case in detail: 12 carriers, 4 neutral. Self-interacting part 11, plus 1 that commutes with everything.
+    turns that leave the colourless entries alone : 8 carriers, 2 neutral   -> SU(3), colour
+    turns that commute with colour               : 4 carriers, 2 neutral   -> 3 self-interacting (SU(2), the weak force) + 1 single (U(1), hypercharge)
+    the two blocks do not mix (largest cross-commutator 9.3e-16); together 12 = all 12.
+  -> ONE meaning of symmetry (turns that keep how relationship matrices combine: the same meaning an earlier test used for colour), on ONE object
+     (the 3x3 octonion relationship matrix of an earlier test), with rule 4 read as 'stand at one spot AND face one way', gives exactly 8 | 3 | 1.
+     This is the published result of Dubois-Violette & Todorov (2018) and Krasnov (2019), reproduced here from scratch.
+  Note the complex row: the weak block (4 carriers, 2 neutral) is already there for an ordinary complex 3x3 relationship matrix, the kind
+  rule 5 gives the leptons. The weak force comes from the MATRIX (the relationships); colour comes from the octonion's extra directions.
+
+====================================================================================================
+5. What the weak force acts on, and with what charges
+====================================================================================================
+  The 16 link components (8 complex states) carry the single carrier's charge in the ratio [1.0, 3.0] with multiplicities [12, 4] (real components).
+  Weak 'spin' of every link state: j(j+1) = [0.75] -> all are doublets (j = 1/2). Colour: 12 components feel it (3 colours x 2 x 2), 4 do not.
+  The colourless doublet's charge is 3.000 times the coloured doublet's in size.
+  -> One colourless weak doublet and one coloured weak doublet, with charges 3 : 1 in size. That is the LEFT-HANDED lepton pair (neutrino,
+     electron; hypercharge 1/2 in size) and quark pair (up, down; 1/6). The relative sign is only a naming (a weak pair and its antiparticle pair
+     are the same object here); with the usual naming it is -1/2 and +1/6, and 3 x (1/6) = 1/2 is exactly what step 6 needs.
+     Only doublets appear: the weak force acts on every state in this space.
+
+====================================================================================================
+6. Quantum consistency: what must the partners of those doublets be?
+====================================================================================================
+  Doublets alone: weak-weak-charge = 0 (fine); colour-colour-charge = 1/3; charge cubed = -2/9; so the doublets alone are NOT consistent.
+  Adding weak-singlet partners (two coloured, one colourless) with unknown charges, the three consistency conditions have the solutions: [{y_d: -1/3, y_e: -1, y_u: 2/3}, {y_d: 2/3, y_e: -1, y_u: -1/3}]
+  -> Unique (up to which coloured one is called 'up'): +2/3, -1/3 and -1. Those are the measured right-handed up, down and electron.
+     A neutral partner for the neutrino (TRPG's hidden partner) is allowed and, with its own mass, fixes the charges completely (Babu & Mohapatra 1989).
+  Emergent gravity forbids exactly conserved 'global' numbers. Baryon-minus-lepton number: sum over 15 states = -1 (cannot be a force); with the
+  hidden partner (16 states) = 0 (can), and its own mass then breaks it. Either way the hidden partner is the consistent choice. TRPG has it.
+
+====================================================================================================
+7. Attacks
+====================================================================================================
+7a. Does the 3x3 octonion matrix obey rule 1 (no holes)?
+    Nothing squares to nothing: trace of X o X is at least 1.47 x |X|^2 over 2,000 random matrices (it is the sum of squares of all entries).
+    By contrast complex x octonions has (e1 + i e2)^2 = 0.0: something that squares to nothing.
+    Two DIFFERENT slots do multiply to zero (they do not overlap), as in every matrix TRPG already uses. Rule 1, as 'no relationship squares to
+    nothing and squares never cancel', holds (Jordan, von Neumann & Wigner 1934). The entries are single octonions: no joined number systems.
+7b. The right-handed force of the 4x4 picture
+    All turns of the 3x3 octonion matrix: 52 carriers, only 4 neutral. The 4x4 picture with a right-handed force needs 5 neutral.
+    -> It cannot fit. This route and the right-handed force (W_R, the 'right side's scale') exclude each other. TRPG has to choose.
+       Choosing this route removes the earlier break 2 entirely: no 4x4 symmetry means no forced 'down = electron' mass relations, no lopsided
+       content, no proton-decay tension, no monopoles. It also removes the right side's carriers that made the hidden partners (see the matter-excess note).
+7c. Still assumed, stated plainly
+    i)   'Stand at one spot' is an added reading of rule 4. Without it the count is 16 (rank 4), not 12.
+    ii)  The three slots here are 'the spot + the two members of a weak pair'. In an earlier test the three placements are the three generations.
+         Whether they can be both is NOT shown (Boyle 2020 proposes that the three choices of spot are the three generations).
+    iii) Why the right-handed partners are weak singlets, and not mirror doublets, is argued (paired states freeze out heavy; Georgi 1979), not derived.
+    iv)  That a symmetry must be a force: a theorem of relativity + quantum mechanics, and of emergent gravity where that is under control.
+    v)   The remaining 40 turns: no carriers if the spot and facing are facts of observation (as in an earlier test); 40 heavy carriers if they are dynamical.
+7d. Does it matter which spot and which facing direction?
+    4 other spots inside the plane being faced: carriers [12, 12, 12, 12] (same forces every time, as with colour in an earlier test).
+    4 spots outside that plane: carriers [2, 2, 2, 2]. The spot must lie in the view: 'you stand inside what you are looking at'.
+7e. What else is in the matrix besides the weak pairs? (the entries not linked to the spot)
+    10 components: charge sizes [0.0, 0.3333] with multiplicities [4, 6]; weak spin j(j+1) = [0.0, 2.0] with multiplicities [7, 3].
+    -> a neutral weak triplet (3), a coloured weak singlet of charge 1/3 in size (6: the size of the right-handed DOWN quark's charge), and 1 neutral singlet.
+       Suggestive only; not used for anything here.
+7f. A sharper version that could fail: if the whole matrix had ONE strength, the three forces would be tied together.
+    One strength for all 12 carriers predicts the weak mixing number sin^2(theta_W) = 0.750 at the energy where the strong and weak strengths meet.
+    Running the measured strengths up (one loop), they meet at 9.8e+16 GeV, where the measured-and-run value is 0.437.
+    -> FAILS: the route gives the KINDS of force and their charges, not their strengths. The three strengths stay measured inputs.
+7g. Can the three slots ALSO be the three generations, with each generation 'standing at' its own slot? (Boyle 2020's proposal, plain form)
+    standing at slot 1: 12 carriers, of which colour 8 (the same 8 every time) and weak block 3 + 1
+    standing at slot 2: 12 carriers, of which colour 8 (the same 8 every time) and weak block 3 + 1
+    standing at slot 3: 12 carriers, of which colour 8 (the same 8 every time) and weak block 3 + 1
+    The weak blocks of slot 1 and slot 2 together span 6 directions (3 would mean 'the same weak force'); they do not commute (size 0.08).
+    All three together close into 8 carriers (rank 2): a force that turns the generations into each other.
+    Counting: the matrix has 24 link components in all; three generations of weak pairs need 3 x 16 = 48.
+    Measured: ONE weak force, the same for all three generations (tested to about 0.1-0.2% in tau, muon and pion decays), and 3 weak carriers, not 8.
+    -> FAILS in the plain form: the same 3x3 matrix cannot give both the weak force (slots = spot + pair) and the three generations (slots = generations).
+       The published way round this doubles the matrix with complex numbers (Boyle 2020), and complex x octonions has holes (7a): not allowed by rule 1.
+       So if the matrix gives the forces, the earlier 'at most 3 generations because octonion matrices stop at 3x3' is no longer available; and the reverse.

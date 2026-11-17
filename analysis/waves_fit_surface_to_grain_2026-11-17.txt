@@ -1,0 +1,44 @@
+(1) Stretched and squished, literally: wavelength = hc/E
+   surface    1.44e-33 eV  wavelength 8.61e+26 m
+   neutrino 1 0.00036 eV  wavelength 0.00344 m
+   electron   5.11e+05 eV  wavelength 2.43e-12 m
+   top        1.73e+11 eV  wavelength 7.18e-18 m
+   hidden 3   6.3e+19 eV  wavelength 1.97e-26 m
+   grain      8.63e+27 eV  wavelength 1.44e-34 m
+
+(2) Whole turns between the ends: surface to grain = 60.78 decades
+   3 turns: one turn = x1.82e+20; where the ladder middles fall, in turns from the surface: {'nu': np.float64(1.509), 'lep': np.float64(1.999), 'down': np.float64(2.02), 'up': np.float64(2.06), 'hidden': np.float64(2.489)}
+   4 turns: one turn = x1.56e+15; where the ladder middles fall, in turns from the surface: {'nu': np.float64(2.012), 'lep': np.float64(2.666), 'down': np.float64(2.694), 'up': np.float64(2.747), 'hidden': np.float64(3.319)}
+   5 turns: one turn = x1.43e+12; where the ladder middles fall, in turns from the surface: {'nu': np.float64(2.515), 'lep': np.float64(3.332), 'down': np.float64(3.367), 'up': np.float64(3.433), 'hidden': np.float64(4.149)}
+   6 turns: one turn = x1.35e+10; where the ladder middles fall, in turns from the surface: {'nu': np.float64(3.018), 'lep': np.float64(3.998), 'down': np.float64(4.041), 'up': np.float64(4.12), 'hidden': np.float64(4.979)}
+   7 turns: one turn = x4.81e+08; where the ladder middles fall, in turns from the surface: {'nu': np.float64(3.521), 'lep': np.float64(4.665), 'down': np.float64(4.714), 'up': np.float64(4.807), 'hidden': np.float64(5.808)}
+   8 turns: one turn = x3.96e+07; where the ladder middles fall, in turns from the surface: {'nu': np.float64(4.024), 'lep': np.float64(5.331), 'down': np.float64(5.387), 'up': np.float64(5.493), 'hidden': np.float64(6.638)}
+
+(3) Six turns: the levels that come out, against what sits there
+   level 0: 1.44e-33 eV   the surface: 1.44e-33
+   level 1: 1.94e-23 eV   nothing known: None
+   level 2: 2.62e-13 eV   nothing known: None
+   level 3: 0.00353 eV   neutrino middle (m1 0.36) / dark energy: (np.float64(0.005377459609347704), 0.00224)
+   level 4: 4.75e+07 eV   lepton middle: 45778840.2044344
+   level 5: 6.4e+17 eV   hidden middle (m1 0.36) / MMG: (np.float64(3.897197492325499e+17), 2.41e+17)
+   level 6: 8.63e+27 eV   the grain: 8.63e+27
+   lepton middle / level 4 = 0.964 ; in turns from the surface: 3.9984
+   = grain^(2/3) x surface^(1/3)  (Weinberg 1972 form (H0 Mpl^2)^(1/3): with full Planck energy 5.99e+07 eV)
+   sensitivity: H0 67-73 km/s/Mpc -> [np.float64(3.9985), np.float64(3.9973)] ; grain x2 / x0.5 -> [np.float64(3.9787), np.float64(4.0183)]
+   neutrino middle on level 3 needs m1 = 0.102 meV (an earlier test landings need 0.36)
+   the lepton triple predicted from level 4 with the 45 deg rule and the twist: scale only; e,mu,tau all x1.038
+   lepton middle is 0.0016 turn from a whole turn; chance for one fixed count 0.3%; allowing 3 to 8 turns to be tried ~2%
+
+(4) Each ladder's own spiral: does it meet an end in a whole number of steps?
+   neutrinos  meets the surface at step -3.98
+   leptons    meets the surface at step -3.43
+   hidden     meets the surface at step -3.18
+   up         meets the surface at step -5.53
+   down       meets the grain   at step +7.06
+
+(5) If every wave had to squish AT THE GRAIN (distance to the grain shrinking by a fixed factor): middle rung predicted from the two ends
+   neutrinos  predicted middle 0.00444 eV, actual 0.00862 eV (x1.94)
+   leptons    predicted middle 3.6e+07 eV, actual 1.06e+08 eV (x2.94)
+   hidden     predicted middle 4.18e+17 eV, actual 1.29e+18 eV (x3.10)
+   up         predicted middle 8.77e+08 eV, actual 1.27e+09 eV (x1.45)
+   down       predicted middle 1.59e+08 eV, actual 9.35e+07 eV (x0.59)

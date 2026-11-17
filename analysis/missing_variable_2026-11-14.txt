@@ -1,0 +1,49 @@
+
+========================================================================================================
+0. the equilibrium picture inside the shared-state rule
+========================================================================================================
+  The shared all-ones part alone (exact equilibrium) has sizes [-0. -0.  3.]: one family takes everything, two are exactly zero.
+  Masses of the lighter two families exist ONLY because the matrix sits slightly off that equilibrium (the break). So 'the equilibrium point is
+  rarely zero, so there is always a small mass' is exactly this rule's structure. HOLDS as a reading (it is why the hierarchy is steep).
+  Size of the offset needed: down ladder ~0.019, up ladder ~0.0039 of the shared part (strange/bottom, charm/top).
+
+========================================================================================================
+Extra variable: a shared PERSPECTIVE ANGLE (one phase, the same i of rule 4) on the heaviest entry
+========================================================================================================
+  best value +0.0000 (signs up (1, 1), down (1, 1))
+  turns: 0.2582 (1.15x)  0.0158 (0.38x)  0.00469 (1.26x);  CP size 0.00e+00 (measured 3.08e-05)
+  FAIL: one number cannot bring all three turns in (within 10%).
+
+========================================================================================================
+Extra variable: a shared perspective angle between the first two families
+========================================================================================================
+  best value +0.0000 (signs up (1, 1), down (1, 1))
+  turns: 0.2582 (1.15x)  0.0158 (0.38x)  0.00469 (1.26x);  CP size 0.00e+00 (measured 3.08e-05)
+  FAIL: one number cannot bring all three turns in (within 10%).
+
+========================================================================================================
+Extra variable: a shared extra link between families 2 and 3 (a 'third field' acting only there)
+========================================================================================================
+  best value +0.0000 (signs up (1, 1), down (1, 1))
+  turns: 0.2582 (1.15x)  0.0158 (0.38x)  0.00469 (1.26x);  CP size 0.00e+00 (measured 3.08e-05)
+  FAIL: one number cannot bring all three turns in (within 10%).
+
+========================================================================================================
+Is 'about 2.5' a fixed number?
+========================================================================================================
+  The shortfall of the turn between families 2 and 3 in this rule: 0.0151 to 0.0162 against 0.0418, i.e. 2.6x to 2.8x depending on sign choices,
+  break form and energy. It is the CEILING of the shared-state rule, not a constant of nature. No clean number (2.5, e, 8/3) is singled out.
+
+========================================================================================================
+Do the three tiers give the three generations?
+========================================================================================================
+  Tier 1 (quarks with gluons) is built from family 1 (up, down); tier 2 (protons with electrons) is family 1 again; tier 3 is the top (family 3).
+  Family 2 has no tier. So tiers and families are not the same three. FAIL as a derivation. The three still comes from the 3x3 matrix itself
+  (an earlier test: the matrix has exactly three sizes; and here: its shared part leaves exactly one heavy and two light). Hint, not derivation.
+
+========================================================================================================
+Summary
+========================================================================================================
+  HOLDS: the equilibrium picture is exactly the shared-state rule's structure (equilibrium gives one heavy and two exactly zero; the small
+  offset from equilibrium gives the small masses). FAILS: one shared extra variable (a perspective angle, either placement, or an extra 2-3 link)
+  does not raise the 2-3 turn (stays ~0.016); the shortfall is not a fixed number; three tiers are not three generations. Scorecard unchanged.

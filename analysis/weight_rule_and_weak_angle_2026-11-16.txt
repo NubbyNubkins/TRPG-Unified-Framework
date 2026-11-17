@@ -1,0 +1,40 @@
+SM sin2 (MS-bar) at footings:
+  top                    0.23450
+  1 TeV                  0.24328
+  far side 2.1e8         0.30921
+  meeting-ish 4.6e13     0.38427
+  grain 1.22e19          0.47136
+  SM sin2 = 0.2500 at: ['3.75e+03 GeV']
+  SM sin2 = 0.2222 at: []
+  SM sin2 = 0.3750 at: ['1.10e+13 GeV']
+  3/8 at 1.22e+19 [SM only]: predicted sin2(MZ) = 0.15271 (-33.96%, -1963 sigma exp)
+  3/8 at 2.44e+18 [SM only]: predicted sin2(MZ) = 0.16179 (-30.03%, -1736 sigma exp)
+  3/8 at 1.22e+19 [SM + far-side pairs at 1.52e8 (A-ii), D above]: predicted sin2(MZ) = 0.16942 (-26.73%, -1545 sigma exp)
+  3/8 at 2.44e+18 [SM + far-side pairs at 1.52e8 (A-ii), D above]: predicted sin2(MZ) = 0.17741 (-23.27%, -1345 sigma exp)
+  3/8 at 1.22e+19 [SM + pairs 1.52e8 + D at 1.6e15]: predicted sin2(MZ) = 0.16386 (-29.13%, -1684 sigma exp)
+  3/8 at 2.44e+18 [SM + pairs 1.52e8 + D at 1.6e15]: predicted sin2(MZ) = 0.17284 (-25.25%, -1459 sigma exp)
+on-shell sin2 = 0.22320 +- 0.00026; 2/9 = 0.22222: -3.8 sigma; 1/4: +104 sigma
+Angle = geometric 3/8 at a TRPG scale fixed beforehand (alpha_em only, strong not used):
+  Higgs hold fades 10^10.5                       [SM      ]: sin2(MZ) = 0.26420 (+14.26%)
+  Higgs hold fades 10^10.5                       [SM+pairs]: sin2(MZ) = 0.26770 (+15.78%)
+  sqrt(v x grain)                                [SM      ]: sin2(MZ) = 0.26110 (+12.92%)
+  sqrt(v x grain)                                [SM+pairs]: sin2(MZ) = 0.26495 (+14.59%)
+  heaviest hidden partner = majoron scale 6.3e10 [SM      ]: sin2(MZ) = 0.26031 (+12.58%)
+  heaviest hidden partner = majoron scale 6.3e10 [SM+pairs]: sin2(MZ) = 0.26426 (+14.29%)
+  right side breaks 10^11.7                      [SM      ]: sin2(MZ) = 0.24862 (+7.52%)
+  right side breaks 10^11.7                      [SM+pairs]: sin2(MZ) = 0.25393 (+9.82%)
+  F of an earlier test (4.30e13)                         [SM      ]: sin2(MZ) = 0.22351 (-3.34%)
+  F of an earlier test (4.30e13)                         [SM+pairs]: sin2(MZ) = 0.23177 (+0.24%)
+partners [7.25333130e+05 1.28911056e+09 6.27181458e+10]
+leak F^2/M_P = 1.514e+08; geometric mean of partners 3.885e+08; ratio 2.57
+family-blind leak would need m_nu ratios = (lepton mass ratios)^2: 282.8123444109579 vs TRPG/measured m3/m2 5.812933025404158
+leak sets the overall scale -> lightest neutrino 5.19 meV, masses [ 5.19 10.09 50.61] meV, sum 0.0659 eV (TRPG rule 5: 0.36 meV, sum 0.0594; DESI 2025: sum < 0.064 at 95%)
+  with exact-closure F 5.21e+13: lightest 1.88 meV, sum 0.0611 eV
+mixing angle light-heavy per family: [7.04502426e-10 8.19622482e-11 2.83308758e-11]
+
+Reasoning results (no numbers run; see an earlier test):
+  two overlapping waves = seesaw (light weight = link^2 / heavy weight): HOLDS (known physics)
+  hidden colour: red+red adds colour (FAIL); white mix of far-side coloured parts weighs 4-10 decades too much (FAIL; subtraction = hand-tuning);
+                 lepton as 4th colour needs a matter-number force, ruled out on the main line (FAIL on main line)
+  only colour weighs by itself: fits all observed particles; exceptions = Higgs mass term (grain near miss), hidden partners (88.4 FAIL)
+Status: exploratory, not adopted. The earlier leak test is unchanged.

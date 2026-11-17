@@ -1,0 +1,8 @@
+critical points per cell: (0,0) peak z=2, (pi,pi) trough z=-2, (pi,0) & (0,pi) saddles z=0 -> 1 peak, 1 trough, 2 saddles
+Morse check (peaks - saddles + troughs) = 1 - 2 + 1 = 0 = Euler number of a repeating grid
+area fraction curved like a sphere (K>0): 0.500 ; like a saddle (K<0): 0.500
+total curvature over one cell (Gauss-Bonnet says 0): 3.01e-18 ; peak |K| = 1.000
+wt=0.00  height at (0,0)=+2.00  curvature at (0,0)=+1.000  at saddle (pi,0)=-1.000
+wt=0.79  height at (0,0)=+1.41  curvature at (0,0)=+0.500  at saddle (pi,0)=-0.500
+wt=1.57  height at (0,0)=+0.00  curvature at (0,0)=+0.000  at saddle (pi,0)=-0.000
+wt=3.14  height at (0,0)=-2.00  curvature at (0,0)=+1.000  at saddle (pi,0)=-1.000

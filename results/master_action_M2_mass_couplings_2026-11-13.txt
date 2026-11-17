@@ -1,0 +1,8 @@
+matrix -> masses [5.110000e-01 1.056566e+02 1.776938e+03] measured [0.51099895, 105.6583755, 1776.93]
+self (common) part^2 = 941.553, relational part^2 = 941.547  (Koide = equal)
+signs (1, 1, 1) -> no solution
+signs (-1, 1, 1) -> m1,m2,m3 = 0.00036 0.00866 0.05013 eV, sum = 0.0592 eV
+inverted signs (1, 1, 1) roots (m3 eV): []
+inverted signs (1, 1, -1) roots (m3 eV): [0.00292]
+inverted signs (1, -1, 1) roots (m3 eV): []
+inverted signs (-1, 1, 1) roots (m3 eV): []

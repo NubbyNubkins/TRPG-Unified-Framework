@@ -1,0 +1,33 @@
+
+========================================================================================================
+1. In and out: the near side squeezed, the back side pushed out by the same amount
+========================================================================================================
+  Near side (3 light down states) total shift: -108.20 MeV;  back side (heavy D) shift: +108.20 MeV
+  Sum of the two: +0.00e+00 MeV (the trace is kept exactly). Whatever the near side gives up along u, the back side takes.
+
+========================================================================================================
+2. Does the strength change with energy? (best fold, masses at the top vs at the Z)
+========================================================================================================
+  at the top                : best k +0.135, worst 1.15x, link/balance 0.367
+  at the Z (Xing, Zhang & Zhou 2008)  : best k +0.105, worst 1.17x, link/balance 0.324
+  Ladder openings barely run and the tilts barely run, so the needed squeeze is the same within the grid step: no breathing with energy.
+
+========================================================================================================
+3. A real breathing in time: the B-meson matter/antimatter swing
+========================================================================================================
+  Bd and Bs mesons swing between matter and antimatter (rates 0.5065 and 17.765 per picosecond). Their ratio fixes |Vtd/Vts| = 0.205 +- 0.006.
+  fold k -0.116: |Vtd| 0.01542, |Vts| 0.03908, ratio 0.394 (+31.6 sigma)  [worst tilt 1.19x]
+  fold k -0.108: |Vtd| 0.01498, |Vts| 0.03730, ratio 0.402 (+32.8 sigma)  [worst tilt 1.21x]
+  fold k +0.108: |Vtd| 0.01325, |Vts| 0.03418, ratio 0.388 (+30.4 sigma)  [worst tilt 1.15x]
+  fold k +0.113: |Vtd| 0.01419, |Vts| 0.04080, ratio 0.348 (+23.8 sigma)  [worst tilt 1.18x]
+  no fold: ratio 0.614
+  Among folds with worst tilt under 1.25x, the swing ratio ranges 0.339 to 0.426.
+  Share of all folds in the range that land within 1 sigma of 0.205: 0%
+
+========================================================================================================
+4. Does the geometry itself breathe in time?
+========================================================================================================
+  If the squeeze cycled or drifted, quark masses relative to the strong scale would move. Oklo (2 billion years ago) limits that to
+  about 1 part in 10^8 to 10^9 (Flambaum & Shuryak 2002; Damour & Dyson 1996); clocks limit today's drift to ~1e-16 per year or less.
+  So the back side does not breathe in time to that precision: the squeeze is fixed. The breathing that does happen is particles
+  swinging between views (meson oscillation, neutrino oscillation) at rates the fixed squeeze helps set.

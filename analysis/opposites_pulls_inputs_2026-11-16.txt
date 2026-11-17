@@ -1,0 +1,38 @@
+1) Grain squish passes energy to the MMG (counter relation): MMG = F^2/grain
+   grain 4.32e+18 -> MMG 4.82e+08 GeV  (heavier grain, lighter MMG)
+   grain 8.63e+18 -> MMG 2.41e+08 GeV  (heavier grain, lighter MMG)
+   grain 1.73e+19 -> MMG 1.20e+08 GeV  (heavier grain, lighter MMG)
+
+2) Opposite press on the leptons? Lepton opening = 45 deg to within the twist's 7.9e-7;
+   D's press changes the down ladder at the 1e-3 level and more (1-kappa = 8.4e-4): an equal opposite press on leptons is ruled out by ~1000x
+
+3) Up and down on opposite sides of 45?
+   neutrinos (rule 5)    37.131  (-7.869 from 45)
+   charged leptons       45.000  (+0.000 from 45)
+   down                  48.150  (+3.150 from 45)
+   up                    52.147  (+7.147 from 45)
+   up and down are on the SAME side (+7.15, +3.15): FAIL for up/down as opposites
+   up (+7.147) and neutrinos (-7.869) ARE on opposite sides; exact mirror (37.853) needs m1 = 0.237 meV vs rule 5 0.36: HINT, conflicts with rule 5 by 0.72 deg
+
+4) Gravity's pull at each rung: (weight / Planck)^2  (the other forces are ~1/137 to ~1)
+   electron    0.000511 GeV  gravity strength 1.75e-45
+   proton         0.938 GeV  gravity strength 5.91e-39
+   top              173 GeV  gravity strength 2.00e-34
+   MMG         2.41e+08 GeV  gravity strength 3.90e-22
+   D           4.56e+13 GeV  gravity strength 1.40e-11
+   grain 2     8.63e+18 GeV  gravity strength 5.00e-01
+
+5) Force strengths along the height (one loop, with three MMGs at 2.6e7 GeV, the one-loop closing weight)
+        91.2 GeV: 1/strength  hypercharge  59.02  weak  29.58  strong   8.47
+       1e+03 GeV: 1/strength  hypercharge  57.46  weak  30.79  strong  11.14
+       1e+06 GeV: 1/strength  hypercharge  52.95  weak  34.27  strong  18.84
+    2.63e+07 GeV: 1/strength  hypercharge  50.82  weak  35.92  strong  22.48
+       1e+10 GeV: 1/strength  hypercharge  45.80  weak  37.02  strong  29.10
+       1e+12 GeV: 1/strength  hypercharge  41.92  weak  37.88  strong  34.23
+    5.07e+13 GeV: 1/strength  hypercharge  38.61  weak  38.61  strong  38.60
+
+6) Where the antimatter went: eta = 6.1e-10 baryons per photon -> 1.64e+09 photons per surviving baryon (Planck 2018; BBN)
+   early bag: about 1,640,000,001 quarks for every 1,640,000,000 antiquarks; the pairs became light (today's 411 photons per cm^3)
+
+7) If all matter met equal antimatter today: ordinary matter 4.9% of the bag -> light + neutrinos;
+   dark matter 26.5% (majoron: its own antiparticle) and dark energy 68.6% untouched (Planck 2018). Total energy unchanged.

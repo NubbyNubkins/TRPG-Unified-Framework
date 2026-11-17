@@ -1,0 +1,20 @@
+Check: Standard Model alone, one loop and two loops
+  one loop(s): sin^2 = 0.2076 (-10.2%)
+  two loop(s): sin^2 = 0.2107 (-8.9%)
+
+Three spin-1/2 far-side weak pairs at mass M (coloured far-side parts at the meeting):
+  M =  1.0e+03 GeV: sin^2 = 0.24872 (+7.57%), meeting 6.97e+12 GeV, 1/strength there 36.8
+  M =  1.0e+05 GeV: sin^2 = 0.24214 (+4.72%), meeting 1.41e+13 GeV, 1/strength there 37.6
+  M =  1.0e+06 GeV: sin^2 = 0.23886 (+3.30%), meeting 2.01e+13 GeV, 1/strength there 38.0
+  M =  1.0e+07 GeV: sin^2 = 0.23557 (+1.88%), meeting 2.86e+13 GeV, 1/strength there 38.4
+  M =  3.0e+07 GeV: sin^2 = 0.23401 (+1.21%), meeting 3.38e+13 GeV, 1/strength there 38.6
+  M =  1.0e+08 GeV: sin^2 = 0.23229 (+0.46%), meeting 4.06e+13 GeV, 1/strength there 38.8
+  M =  1.0e+09 GeV: sin^2 = 0.22902 (-0.95%), meeting 5.78e+13 GeV, 1/strength there 39.2
+
+Mass that closes the gap exactly: one loop 2.606e+07 GeV; two loops 2.127e+08 GeV
+  sqrt(electron x Planck mass)           = 7.899e+07 GeV -> sin^2 = 0.23263 (+0.61%, +35 sigma of the measurement)
+  sqrt(electron x reduced Planck mass)   = 3.527e+07 GeV -> sin^2 = 0.23378 (+1.11%, +64 sigma of the measurement)
+  top^2/electron                         = 5.828e+07 GeV -> sin^2 = 0.23306 (+0.80%, +46 sigma of the measurement)
+  Higgs mass^2/electron                  = 3.070e+07 GeV -> sin^2 = 0.23398 (+1.19%, +69 sigma of the measurement)
+  Z^2/electron                           = 1.627e+07 GeV -> sin^2 = 0.23488 (+1.58%, +91 sigma of the measurement)
+  Remaining unknowns that move these numbers: threshold details at the meeting (coloured far-side parts, carriers), roughly +-0.3% in sin^2.

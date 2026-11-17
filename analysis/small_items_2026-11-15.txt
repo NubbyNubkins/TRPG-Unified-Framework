@@ -1,0 +1,86 @@
+==============================================================================
+1. HUBBLE TENSION FROM A LOCAL UNDER-DENSE REGION ('thinner space')
+==============================================================================
+needed local expansion excess dH/H = 0.0837; growth rate f = Om^0.55 = 0.530
+linear theory dH/H = -f*delta/3  ->  needed density contrast delta = -0.474
+observed: KBC void (Keenan, Barger & Cowie 2013) delta = -0.46 +/- 0.06 out to ~300 Mpc
+R = 300 Mpc: LCDM rms delta = 0.0178; a void of -0.47 is 27 sigma (Gaussian chance 3e-157)
+R = 640 Mpc: LCDM rms delta = 0.0049; a void of -0.47 is 96 sigma (Gaussian chance 0e+00)
+with the survey's own error (-0.46 +/- 0.06) the gap to anything LCDM makes is (0.46-0.05)/0.06 ~ 7 sigma;
+Haslbauer, Banik & Kroupa (2020) find 6.0 sigma. Other surveys find a shallower void (delta ~ -0.1 to -0.2).
+SN Hubble-diagram check: a void this deep and this large leaves a step in the SN
+distances near its edge; none is seen (Kenworthy, Scolnic & Riess 2019; Camarena et al. 2022).
+Verdict: the void he describes EXISTS (KBC, delta ~ -0.46, matching the needed -0.47),
+but ordinary growth cannot make it (>~10 sigma), and the SN data show no edge. It works only
+if large-scale structure grows much faster than in LCDM (Haslbauer, Banik & Kroupa 2020, MOND),
+which an earlier test found fails for the CMB and clusters. Main line: FAIL as the cause of the tension.
+
+==============================================================================
+2. LIKE WITH LIKE
+==============================================================================
+like colour-colour    : 3 states, Y = [Fraction(-2, 3)], charge Q=T3+Y -> up partner (anti-colour, weak single)
+unlike colour-weak    : 6 states, Y = [Fraction(1, 6)], charge Q=T3+Y -> quark pair (colour x weak pair)
+like weak-weak        : 1 states, Y = [Fraction(1, 1)], charge Q=T3+Y -> electron partner (colourless, weak single)
+singles (one direction, conjugated): down partner Y=+1/3 (3 states), lepton pair Y=-1/2 (2 states)
+measured (left-handed conjugate fields): u^c Y=-2/3 (3), e^c Y=+1 (1), Q Y=+1/6 (6), d^c Y=+1/3 (3), L Y=-1/2 (2)
+Result: like-with-like antisymmetric pairs give EXACTLY the two partners the two-way reading lacked;
+unlike pairs give the quark pair; singles give the down partner and lepton pair. Total 10+5+1 = 16.
+This is the Georgi-Glashow (1974) grouping 16 = 10 + 5bar + 1. Exact identity, no fitted number.
+Antisymmetric = Pauli's rule for identical matter states. Does NOT bring SU(5) carriers back
+(main line has no quark-lepton carriers); it is a second reading of the same 16 states.
+anomaly sums over the 16: sum Y = 0  sum Y^3 = 0
+
+==============================================================================
+3. RIGHT-ANGLED UNITARITY TRIANGLE (alpha = 90 deg)
+==============================================================================
+alpha fit 91.6 +/- 1.5: +1.1 sigma from 90;  direct 85.2 +/- 4.6: -1.0 sigma
+beta from sin2beta = 22.58 +/- 0.45 deg -> right angle predicts gamma = 67.42 +/- 0.45
+measured gamma 65.9 +/- 3.0: -0.5 sigma. LHCb+Belle II aim for ~1 deg by ~2030: decisive.
+luck: a 2-sigma window (6 deg) over a 0-180 range is 3.3%; with 5 'special' angles to choose from ~17%
+Link to TRPG: in the Fritzsch-Xing quark parametrisation the one phase phi ~ alpha; phi = 90 deg is
+the 'maximal' phase, a quarter turn: the same quarter turn (rule 4's one i) that an earlier test
+found gives the main tilt 0.228 vs 0.2250 (Fritzsch & Xing 1999). So 'right-angled triangle' and
+'light corners a quarter turn apart' are one statement. Reading only.
+Verdict: ALLOWED (inside 1.1 sigma), not derived; LEAD with a sharp test: gamma = 67.4 deg.
+
+==============================================================================
+4. MIDDLE FRACTIONS SHRINKING BY sqrt(3/2) (61.2 P3)
+==============================================================================
+footing A (usual masses): lepton 0.6539 | up 0.5651+/-0.0013 (pred 0.5339, +24.2 sigma) | down 0.4403+/-0.0018 (pred 0.4359, +2.5 sigma)
+footing B (all at the Z): lepton 0.6539 | up 0.5261+/-0.0072 (pred 0.5339, -1.1 sigma) | down 0.4292+/-0.0137 (pred 0.4359, -0.5 sigma)
+simple factors that pass footing B within 2 sigma: ['sqrt(3/2)', '5/4', 'golden^(1/2)', 'cbrt(2)']
+Verdict: footing A FAILS (up quark 24 sigma, down 2.5 sigma). Footing B passes within ~1 sigma but the quark
+masses at the Z are loose, so several factors pass: not evidence. A rule must name its footing
+; with the common-energy footing it stays ALLOWED / LEAD at most.
+
+==============================================================================
+5. CONE SLICES: both quark ladders on ONE 45-degree cone with a tilted axis
+==============================================================================
+footing A: up opening 51.20, down 47.53 deg
+   common axis [-0.6259  0.3837  0.679 ]: tilt from (1,1,1) 75.39 deg, nearest cube direction 12.86 deg
+   common axis [ 0.6519 -0.2185  0.7262]: tilt from (1,1,1) 47.97 deg, nearest cube direction 12.99 deg
+footing B: up opening 52.21, down 48.12 deg
+   common axis [-0.6514  0.313   0.6912]: tilt from (1,1,1) 78.25 deg, nearest cube direction 17.09 deg
+   common axis [ 0.6748 -0.1741  0.7172]: tilt from (1,1,1) 45.32 deg, nearest cube direction 10.18 deg
+control (random ladders, footing B): a common 45-deg axis exists 100% of the time;
+one as close to a cube direction as the real one (10.18 deg) 51% of the time
+footing B: the common axis sits 45.32 deg from the lepton axis (45 would be 'a cone on a cone');
+random ladders do as well 2.0% of the time; footing A gives 47.97 deg instead
+Verdict: a slice rule CAN be stated (one cone, one tilted axis), but it always has solutions
+and the axis is not special (cube direction 51% chance; 45-deg tilt a few % and footing-dependent).
+FAIL as a rule; the 45-deg tilt in footing B is recorded as a coincidence to watch.
+
+==============================================================================
+6. STRONG-CP ANGLE: phased fold in Nelson-Barr form (demo)
+==============================================================================
+arg det(full down mass matrix) = 1.3e-16 rad  (tree-level theta-bar)
+light down masses [   1.95    42.741 2136.417] MeV; |V12| 0.016 |V23| 0.0073 |V13| 0.0005; J = 2.4e-08
+(illustration: link values not fitted; the point is J != 0 while arg det = 0)
+one heavy D on a base already diagonal in the up basis: J = -2.1e-17 (no phase). With a non-diagonal
+real base (Bento, Branco & Parada 1991; the earlier base) one D is enough.
+with the other block switched on: arg det = -2.760 rad -> theta-bar not protected
+Verdict: a phased fold through a heavy down partner (E6's D) gives a CKM phase with theta-bar = 0
+at tree level IF one of its two link blocks vanishes
+(Nelson 1984; Barr 1984; Bento, Branco & Parada 1991). That is the
+standard Nelson-Barr solution of the strong-CP problem, and it uses the same part as item 2.
+No TRPG rule yet sets the zero block: LEAD. Otherwise theta-bar stays a measured input (<~1e-10).

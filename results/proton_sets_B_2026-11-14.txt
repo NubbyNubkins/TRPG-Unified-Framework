@@ -1,0 +1,9 @@
+1) Check against the 1975 fit (Z0 = 1.84, no CM correction, no cloud): expect B^1/4 near 145 MeV, B near 57
+   B = 58.4 MeV/fm^3 (B^1/4 = 146 MeV), alpha_c = 2.18, R_N = 0.99 fm
+2) TRPG run: Z0 = 0 (no free zero-point term), CM correction on, pion cloud (leakage) on
+   B = 60.1 MeV/fm^3 (B^1/4 = 147 MeV), alpha_c = 1.55
+   proton bag radius R = 0.995 fm, quark-core rms = 0.725 fm, cloud energy = -220 MeV
+   check: M_N = 938.9, M_Delta = 1232.0
+3) Sensitivity: pion-nucleon coupling +/- 5%
+   coupling x0.95: B = 57.1 MeV/fm^3
+   coupling x1.05: B = 63.7 MeV/fm^3

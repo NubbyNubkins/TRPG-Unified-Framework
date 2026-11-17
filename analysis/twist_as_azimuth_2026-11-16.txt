@@ -1,0 +1,31 @@
+family: distance from 45 (opening - 45), twist around the diagonal (deg; 0 = at an edge line, 60 = at a face-diagonal line)
+  up quarks, M_Z             distance  +7.21   twist   2.97 deg = 0.0518 rad
+  up quarks, own scale       distance  +6.20   twist   4.27 deg = 0.0745 rad
+  down quarks, M_Z           distance  +3.12   twist   5.73 deg = 0.1001 rad
+  down quarks, own scale     distance  +2.53   twist   6.31 deg = 0.1101 rad
+  charged leptons            distance  -0.00   twist  12.73 deg = 0.2222 rad
+  neutrinos, m1 0.36 meV     distance  -7.87   twist  20.86 deg = 0.3640 rad
+  neutrinos, m1 0            distance  -3.98   twist  24.37 deg = 0.4254 rad
+  hidden partners N          distance  +4.04   twist   7.47 deg = 0.1304 rad
+
+  lepton twist check: 0.22222 rad vs 2/9 = 0.22222
+
+sideways offset (how far each family sits off the straight line from the diagonal to the edge), deg of arc = sin(opening) x twist:
+  up quarks, M_Z               2.35
+  up quarks, own scale         3.33
+  down quarks, M_Z             4.27
+  down quarks, own scale       4.65
+  charged leptons              9.00
+  neutrinos, m1 0.36 meV      12.59
+  neutrinos, m1 0             16.00
+  hidden partners N            5.64
+
+ratio twist / |distance| (0 when the two pulls are exactly opposite, i.e. on one line):
+  up quarks, M_Z             0.41
+  up quarks, own scale       0.69
+  down quarks, M_Z           1.84
+  down quarks, own scale     2.49
+  charged leptons            on the equilibrium (distance 0): pure twist
+  neutrinos, m1 0.36 meV     2.65
+  neutrinos, m1 0            6.13
+  hidden partners N          1.85

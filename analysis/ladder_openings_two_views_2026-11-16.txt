@@ -1,0 +1,16 @@
+openings (top footing): up 52.146  down 48.150  lepton 45.000
+rotation check: masses before [   2.678   53.36  2873.   ]  after [   2.678   53.36  2873.   ]
+free     up-signs (1, -1): total chi2      2.45 (tilts     2.45, masses     0.00, opening dev -3.727 deg), 1-kappa 8.41e-04, tilts [0.2249 0.0409 0.0037 0.0084], unpressed down base [  15.2279  111.3361 8347.6772]
+free     up-signs (-1, 1): total chi2      9.43 (tilts     9.43, masses     0.00, opening dev -3.185 deg), 1-kappa 1.01e-03, tilts [0.2253 0.0437 0.0037 0.0083], unpressed down base [  11.3697  117.6681 9642.9444]
+opening  up-signs (1, -1): total chi2   1127.28 (tilts  1127.28, masses     0.00, opening dev -0.000 deg), 1-kappa 2.77e-04, tilts [0.2246 0.029  0.005  0.0041], unpressed down base [    7.474     90.7566 36357.0016]
+opening  up-signs (-1, 1): total chi2   1067.68 (tilts  1067.68, masses     0.00, opening dev -0.000 deg), 1-kappa 2.69e-04, tilts [0.2246 0.0299 0.005  0.0042], unpressed down base [    7.3112    92.8878 36829.1077]
+shape    up-signs (1, -1): total chi2  80825.93 (tilts 46398.37, masses 34427.55, opening dev -0.000 deg), 1-kappa 5.98e-02, tilts [0.0892 0.0007 0.0004 0.0005], unpressed down base [    0.096     48.4002 12528.8248]
+shape    up-signs (-1, 1): total chi2  80190.79 (tilts 46275.20, masses 33915.58, opening dev -0.000 deg), 1-kappa 4.16e-02, tilts [0.0889 0.0052 0.0002 0.0002], unpressed down base [    0.0989    49.8401 12900.8923]
+top footing up 52.146+-0.014  down 48.150+-0.040
+   R1 Q_down x Q_up = 2/3 (two views multiply to the lepton view): 0.66288 +- 0.00113 vs 0.66667  -> -3.4 sigma
+   R2 tan(down) x tan(up) = sqrt2 (two views multiply to the cube edge): 1.43658 +- 0.00217 vs 1.41421  -> +10.3 sigma
+   R3 mean opening = midpoint of 45 and 54.74 (49.87): 50.14817 +- 0.02147 vs 49.86781  -> +13.1 sigma
+Z footing (top 168.3 GeV) up 52.206+-0.014  down 48.122+-0.041
+   R1 Q_down x Q_up = 2/3 (two views multiply to the lepton view): 0.66392 +- 0.00113 vs 0.66667  -> -2.4 sigma
+   R2 tan(down) x tan(up) = sqrt2 (two views multiply to the cube edge): 1.43824 +- 0.00218 vs 1.41421  -> +11.0 sigma
+   R3 mean opening = midpoint of 45 and 54.74 (49.87): 50.16386 +- 0.02149 vs 49.86781  -> +13.8 sigma

@@ -1,0 +1,3 @@
+Compton u 91.4 fm, d 42.0 fm; Higgs link u 1.24e-05, d 2.70e-05; c 7.31e-03 s 5.37e-04 t 0.991 b 0.0240
+Z vector coupling u +0.1917, d -0.3459; ladders top/up 79,894 bottom/down 890
+saved TRPG_Up_vs_Down.png

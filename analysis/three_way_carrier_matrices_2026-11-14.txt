@@ -1,0 +1,79 @@
+
+====================================================================================================
+A. What the three-way relations already give
+====================================================================================================
+  A1. The Higgs-W-W and Higgs-Z-Z meetings tie the W and Z masses to one Higgs value: W/Z = cos(weak angle) at first look.
+      From the Z mass and the weak angle: W = 79.95 GeV; measured 80.37 (-0.52%). Adding the known loop corrections gives 80.357 (PDG 2024).
+  A2. That tie (rho = W^2 / (Z^2 cos^2) = 1) holds only if the Higgs piece is a weak PAIR of charge 1/2. A weak triple would give rho = 1/2, or no
+      Z mass at all (Ross & Veltman 1975). The main line's far side holds exactly such a pair and no other colourless piece.
+      So the main line PREDICTS rho = 1 at first look. Measured, with known loops removed: 1.00031 +/- 0.00019 (PDG 2024). HOLDS
+      (known physics, now coming from the matrix's own far side; the 0.0003 is allowed for any tiny extra piece, not required).
+  A3. Every carrier meeting cancels its own 'leak' only if each family's charges sum correctly (Adler 1969; Bell & Jackiw 1969; Georgi & Glashow 1972).
+      The main line's 16 states pass every such sum. HOLDS. This is what fixes the up partner at -2/3 and the electron partner at +1.
+  A4. The W's matrix is the only one that crosses families; photon, Z, gluon and Higgs never do (at first look). That is why mixing shows only in
+      W meetings and why no Z ever turns a strange quark into a down quark directly (measured: K-long to two muons is 7 in a billion of its decays, the size loops alone give). HOLDS (known).
+
+====================================================================================================
+B. Values in these matrices that nobody has measured yet
+====================================================================================================
+  Entries: 80 measured, 4 with a limit only, 8 never measured.
+  The values not yet seen, and what fixes them:
+     Higgs with itself (three-way)    191.0 GeV                              fixed by: Higgs mass and v (Standard Model); the main line keeps the same Higgs test: High-Luminosity LHC (2030s), to about 50%
+     Higgs with itself (four-way)     0.776                                  fixed by: the same two numbers                                           test: a 100 TeV collider; not before 2050
+     Higgs-Higgs-W-W                  0.213                                  fixed by: W mass and v                                                   test: LHC now: 0.57 to 1.48 x; High-Luminosity LHC
+     Higgs with charm                 5.17e-03                               fixed by: the charm mass: main line says exactly mass/v        test: LHC: below 8.5 x now
+     Higgs with electron              2.08e-06                               fixed by: the electron mass                                              test: FCC-ee running at the Higgs mass (2040s)
+     Higgs with up, down, strange     mass / v each                          fixed by: their masses                                                   test: no planned test reaches them
+     neutrino masses themselves       sum 0.0592 eV (TRPG, record M2)        fixed by: TRPG's lepton relational rule                                  test: DESI and Euclid now: sum below about 0.064 eV
+     neutrinos' CP angle              about 270 degrees (TRPG, TM1, an earlier test) fixed by: the perspective reading                                        test: DUNE and Hyper-Kamiokande, 2030s
+     neutrino as its own antiparticle 1.2 to 3.9 meV effective mass fixed by: the Higgs-free energy                                          test: beyond planned experiments
+  -> The matrices do hold real values not seen yet. But every one is FIXED by numbers already measured (or by a TRPG rule).
+     They are predictions that can confirm or break the theory. None of them is an open number of ours.
+
+====================================================================================================
+C. Does any three-way relation fix the open numbers?
+====================================================================================================
+  The open numbers are entries of two of these matrices: the Higgs matrix (the masses: bottom, charm, strange, top) and the W matrix (the tilt).
+  Three kinds of three-way relation are known that could fix them. Each tested:
+  C1. BALANCE. The Higgs is pushed by every meeting it is part of: by the W, Z and itself one way, by the top (and the other matter) the other way.
+      If the pushes balance exactly, the Higgs's own mass is protected (Veltman 1981). That is a push/pull condition across ALL the Higgs triples:
+         Higgs^2 + 2 W^2 + Z^2 = 36,909 GeV^2      4 x (sum of matter masses^2, colours counted) = 119,202 GeV^2      ratio 0.310
+      Read as a prediction: Higgs = 313 GeV (measured 125.2), or top = 96.0 GeV (measured 172.6).
+      FAIL at our energy. Does it balance at some higher energy? Follow every strength up (one loop, Standard Model):
+         at    1e+03 GeV: balance = -0.962   (0 = balanced; at the top's own energy -1.157)
+         at    1e+08 GeV: balance = -0.459   (0 = balanced; at the top's own energy -1.157)
+         at    1e+12 GeV: balance = -0.309   (0 = balanced; at the top's own energy -1.157)
+         at    1e+16 GeV: balance = -0.210   (0 = balanced; at the top's own energy -1.157)
+         at    1e+19 GeV: balance = -0.148   (0 = balanced; at the top's own energy -1.157)
+      Never balances below gravity's grain at one loop; it is closest at the grain (-0.148). With two loops published work puts the balance
+      point at or somewhat above the grain (reported by Hamada, Kawai & Oda 2013; Masina & Quiros 2013). So 'the Higgs is balanced where gravity takes over' is
+      a live reading. ATTACK: it is ONE condition, so at most it fixes ONE number (it ties the Higgs mass to the top's, the same tie as 44.4's
+      'gravity's grain sets the Higgs', which missed at 2.6 sigma). It says nothing about bottom, charm, strange or the tilt. NOT a fix for our items.
+  C2. ZEROS. Suppose some entries of the Higgs matrix are exactly zero before the W picks its directions (Fritzsch 1977, 1978). Then the W's mixing
+      follows from the masses. The simplest pattern ('six zeros') predicts, at one energy (the top's):
+         |V_us| between 0.1795 and 0.2685      measured 0.2250   -> inside: HOLDS (Gatto, Sartori & Tonin 1968; already in an earlier test)
+         |V_cb| between 0.0741 and 0.1984      measured 0.0418   -> below the lowest value by a factor 1.8: FAIL (known since the top was found)
+         |V_ub/V_cb| = sqrt(up/charm) = 0.0445         measured 0.0892  -> 0.50 x: FAIL
+      Richer patterns ('four zeros', Fritzsch & Xing 2000) still fit, but each adds as many free numbers as it explains. They relate mixing to masses;
+      they never produce a mass. FAIL as a fix.
+  C3. EQUALITY. Suppose all Higgs entries are equal at one energy (the matrix's own reading, an earlier test). Follow top, bottom and tau up (one loop):
+         at  1.7e+02 GeV: top 0.937   bottom 0.0158   tau 0.0101   bottom/tau 1.57   top/bottom 59
+         at  1.0e+08 GeV: top 0.614   bottom 0.0091   tau 0.0103   bottom/tau 0.88   top/bottom 67
+         at  2.9e+16 GeV: top 0.439   bottom 0.0060   tau 0.0097   bottom/tau 0.62   top/bottom 73
+         at  1.2e+19 GeV: top 0.405   bottom 0.0055   tau 0.0093   bottom/tau 0.59   top/bottom 74
+      Bottom equals tau at one energy, about 2e+06 GeV (a known near-coincidence; it does not hold at the meeting energy: 0.62).
+      But the top stays 59 to 74 times the bottom at every energy. 'All Higgs entries equal' never happens. FAIL.
+  C4. STRENGTHS. The carrier strengths (e, g, g', g_s) are the photon, W, Z and gluon matrices' overall sizes. Only the meeting-point relation ties
+      them: 10.6% off. The three-way matrices add no new relation among them. FAIL as a fix.
+
+====================================================================================================
+D. Summary
+====================================================================================================
+  BUILT  : the five carrier matrices, carrier-carrier triples and four-way meetings (TRPG_Three_Way_Carrier_Matrices.xlsx).
+  HOLDS  : three-way relations give real values: the W/Z mass tie, rho = 1 from the main line's own Higgs pair, and every charge (cancellation sums).
+  HOLDS  : the matrices hold values never measured (8 entries, plus 4 with limits only). All are fixed by measured numbers: predictions, not answers.
+  FAILS  : as a fix for the open numbers. The open masses ARE the Higgs matrix's entries and the tilt IS the W matrix; none of the three known kinds of
+           three-way relation (balance, zeros, equality) fixes them. Balance can fix at most one number and points to gravity's grain.
+  So the three-way matrices are the right PLACE (they say exactly where every open number sits) but they do not yet give the RULE.
+
+  Saved TRPG_Three_Way_Carrier_Matrices.xlsx

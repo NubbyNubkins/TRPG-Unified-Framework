@@ -1,0 +1,68 @@
+
+========================================================================================================
+1. The fold strength in matrix terms
+========================================================================================================
+  Level repulsion: k p0 = g^2 / M_D  ->  k = (g / sqrt(p0 M_D))^2. The ladder scale p0 ~ m_b/3 = 958 MeV at the top's energy.
+  sqrt(p0 M_D) is TRPG's balance point between the ladder and the heavy part, so k is the squared link measured against that balance.
+  The best folds (earlier tests, down only) have |k| about 0.11-0.12, so g = 0.34 x balance (sign = the heavy part's mass sign).
+
+========================================================================================================
+2. Which ladder: down only (E6 27 has a heavy D and no heavy U)
+========================================================================================================
+  27 = 16 + 10 + 1 under SO(10); the 10 holds one down-type colour triplet pair (D, Dbar) and a Higgs-like doublet pair; no up-type partner.
+  So level repulsion from the far-side coloured part can only reach the down ladder: V1 (down only) is the variant the matrix allows.
+
+========================================================================================================
+3. The worst tilt across the whole range of fold strengths (down only)
+========================================================================================================
+  k -0.500: worst 2.63x
+  k -0.450: worst 2.35x
+  k -0.400: worst 2.07x
+  k -0.350: worst 1.78x
+  k -0.300: worst 1.50x
+  k -0.250: worst 1.32x
+  k -0.200: worst 1.34x
+  k -0.150: worst 1.19x
+  k -0.100: worst 1.22x
+  k -0.050: worst 1.57x
+  k +0.000: worst 2.66x
+  k +0.050: worst 1.87x
+  k +0.100: worst 1.21x
+  k +0.150: worst 1.40x
+  k +0.200: worst 1.26x
+  k +0.250: worst 1.26x
+  k +0.300: worst 1.55x
+  k +0.350: worst 2.09x
+  k +0.400: worst 2.20x
+  k +0.450: worst 2.30x
+  k +0.500: worst 2.61x
+  Best on the grid: k +0.113, worst 1.15x. No fold: worst 2.66x.
+  Share of the range [-0.5, 0.5] with worst <= 1.15x: 3%
+  Share of the range [-0.5, 0.5] with worst <= 1.20x: 7%
+  Share of the range [-0.5, 0.5] with worst <= 1.25x: 9%
+
+========================================================================================================
+4. Candidate rules for the amount (no fitting), with chance control
+========================================================================================================
+  1/9 (half the 2/9 twist)               k -0.1111: tilts 0.2664 0.04065 0.00448  worst 1.20x  chance 7%
+  1/9 (half the 2/9 twist)               k +0.1111: tilts 0.2585 0.04262 0.00319  worst 1.17x  chance 3%
+  alpha_s at the top's energy            k -0.1083: tilts 0.2664 0.04001 0.00450  worst 1.21x  chance 7%
+  alpha_s at the top's energy            k +0.1083: tilts 0.2582 0.03652 0.00397  worst 1.15x  chance 3%
+  1/8 (one gluon of eight)               k -0.1250: tilts 0.2665 0.04384 0.00439  worst 1.18x  chance 6%
+  1/8 (one gluon of eight)               k +0.1250: tilts 0.2586 0.04598 0.00301  worst 1.24x  chance 9%
+  1/6 (u's weight on one light family)   k -0.1667: tilts 0.2667 0.05340 0.00411  worst 1.28x  chance 19%
+  1/6 (u's weight on one light family)   k +0.1667: tilts 0.1786 0.02901 0.00412  worst 1.44x  chance 41%
+  twist 2/9                              k -0.2222: tilts 0.1701 0.03844 0.00483  worst 1.32x  chance 31%
+  twist 2/9                              k +0.2222: tilts 0.1785 0.04169 0.00341  worst 1.26x  chance 17%
+  Rule A: the fold replaces the ladder's own third-placement break (e = 0): one break, not two.
+  Rule A: k +0.0528: tilts 0.2657 0.00302 0.00562  worst 13.86x  chance 100%
+  Look-elsewhere: 11 tries; chance at least one lands at <= 1.15x by luck = 26%
+  Look-elsewhere: 11 tries; chance at least one lands at <= 1.20x by luck = 56%
+
+========================================================================================================
+5. The far-side scale and the first-row leak
+========================================================================================================
+  far-side pairs: M_D = 2.60e+07 GeV -> mixing^2 = k p0 / M_D = 4.3e-09; first-row leak = mixing^2/6 = 7.1e-10
+  an earlier test exact far-side mass: M_D = 2.13e+08 GeV -> mixing^2 = k p0 / M_D = 5.2e-10; first-row leak = mixing^2/6 = 8.7e-11
+  Measured shortfall 1.6e-3. If the fold's heavy part sits at the far-side scale, it leaks only about 1e-10 to 1e-9: the first row must close.
+  Prediction: the 2.2 sigma 'Cabibbo angle anomaly' is not a leak into TRPG's heavy D; it must shrink as the data improve.

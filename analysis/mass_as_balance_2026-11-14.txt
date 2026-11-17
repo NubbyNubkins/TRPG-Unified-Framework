@@ -1,0 +1,175 @@
+
+====================================================================================================
+A1. The proton: mass as the balance between containment (B) and the quarks' outward push
+====================================================================================================
+  Energy of three quarks held in a region of radius R:  E(R) = (outward push) 3 x0 hc / R  +  (containment) (4 pi/3) B R^3
+    B (MeV/fm^3)  balance R (fm)  E at balance  containment share  push share
+            30.0           1.338        1204.8             0.2500      0.7500
+            57.1           1.139        1415.1             0.2500      0.7500
+            60.1           1.125        1433.4             0.2500      0.7500
+            63.7           1.109        1454.4             0.2500      0.7500
+           120.0           0.946        1703.9             0.2500      0.7500
+  -> At the balance point the split is ALWAYS 1/4 containment and 3/4 outward push, whatever the strength B: mass = 4 x containment energy.
+     The split is set by how each side changes with size (R^3 against 1/R), not by how strong each side is. The mass grows only as B^(1/4).
+  TRPG's record already does this in full (proton_sets_B: the containment balance), with the pion cloud as the leakage:
+     B = 60.1 MeV/fm^3 (57.1-63.7), balance radius 0.995 fm, leakage (cloud) energy -220 MeV, proton 938.9 and Delta 1232.0 MeV reproduced.
+     Skin: record step M1 gives a wall about 0.11 fm thick at a radius near 1 fm.
+  Measured (Burkert, Elouadrhiri & Girod 2018): pressure inside the proton pushes OUT near the centre and IN beyond about 0.6 fm,
+     and the two cancel exactly over the whole proton (von Laue's stability condition, 1911). First measurement; model-dependent.
+
+====================================================================================================
+A2. 'When the outside stops pushing in, the centre bursts out': the temperature at which containment fails
+====================================================================================================
+  Balance of pressures: hot quark-gluon gas pressure (g pi^2/90) T^4 = B. Above that temperature nothing holds the skin.
+  B =  57.1: T =  102.0 MeV (2 quark kinds),  104.2 (pion gas subtracted),   95.8 (3 quark kinds)
+  B =  60.1: T =  103.3 MeV (2 quark kinds),  105.5 (pion gas subtracted),   97.0 (3 quark kinds)
+  B =  63.7: T =  104.8 MeV (2 quark kinds),  107.0 (pion gas subtracted),   98.5 (3 quark kinds)
+  Measured (lattice QCD, HotQCD 2019; seen at RHIC and the LHC): 156.5 +/- 1.5 MeV, about 1.8e12 kelvin.
+  -> The simple balance gets the right kind of answer (a trillion degrees) but is 33% low. As a strict prediction it FAILS.
+     Known reason: the real change is gradual, not a wall giving way all at once.
+
+====================================================================================================
+A3. The nucleus: fission as a shift in the balance, not a breaking of what is inside
+====================================================================================================
+  U-235 + neutron -> Ba-141 + Kr-92 + 3 neutrons. Binding energy by part (liquid-drop formula), MeV:
+    volume (bulk holding)              before    3701.2   after    3669.8   change    -31.5
+    surface (the skin: containment)    before    -677.8   after    -845.0   change   -167.1
+    electric push (outward)            before    -964.6   after    -619.2   change   +345.4
+    neutron-proton balance             before    -262.3   after    -244.4   change    +17.9
+    pairing                            before       0.0   after       1.2   change     +1.2
+    total released: 166 MeV by the formula; measured 173.3 MeV (from the measured masses). -4%.
+  Protons before and after: 92 and 92. Neutrons: 144 and 144. Nothing inside is destroyed.
+  The skin gets BIGGER (costs 167 MeV) and the outward electric push drops by much more (345 MeV released).
+  Energy released / total mass = 0.079%.  -> The energy is the change in the balance. The nucleus does end up as two pieces.
+  How close uranium sits to the tipping point: electric push / (2 x skin energy) = 0.72 (1.00 = no skin can hold it; Bohr & Wheeler 1939).
+
+====================================================================================================
+A4. A star: the same balance at the largest scale
+====================================================================================================
+  Gravity pulls in, heat pushes out. Balance requires the Sun's average temperature to be about 7.0 million K (centre: 15.7 million; surface: 5,800).
+  Take away the outward push and it collapses; take away the containment and it flies apart (a supernova is the rebound).
+  TRPG's neutron-star result (2.0-2.15 solar masses) is this same balance with the SAME B as the proton.
+
+====================================================================================================
+A5. The Higgs field: the balance point that sets every elementary mass
+====================================================================================================
+  Energy of the Higgs field: -(mu^2) h^2 pushes it AWAY from zero; +lambda h^4 holds it IN. Balance point v = mu/sqrt(lambda) = 246.22 GeV.
+  From the measured Higgs mass: lambda = 0.1293, mu = 88.5 GeV, energy stored at the balance = (104 GeV)^4.
+  Every elementary particle's mass = (its link strength) x v / sqrt(2). ONE balance point serves all of them; only the link strengths differ.
+    electron  link strength = 2.935e-06
+    muon      link strength = 6.069e-04
+    tau       link strength = 1.021e-02
+    charm     link strength = 7.312e-03
+    bottom    link strength = 2.403e-02
+    top       link strength = 9.912e-01
+  -> 'Mass is a balance point' is TRUE here too. But the balance fixes v, not the link strengths. The open problems are the link strengths.
+
+====================================================================================================
+B1. Does an elementary particle make its own skin? The same balance, applied to the Higgs field
+====================================================================================================
+  A particle could push the Higgs field out of a small region and sit inside it (a bag in the Higgs field). Cost at the balance point: at least 448 GeV
+  (radius 1.2e-03 fm), before counting the wall. A particle forms such a skin only if it is HEAVIER than that.
+  top: 39% of the threshold. bottom: 0.9%. electron: 1.1e-04%.
+  -> FAILS for every known elementary particle: none is heavy enough to make a skin of its own. They are points riding on the common balance v.
+     Consistent with the old bound that no elementary particle can be much heavier than about 500 GeV (Chanowitz, Furman & Hinchliffe 1978).
+
+====================================================================================================
+B2. The electron as a balance of its own electric push against a containing skin (Poincare 1906)
+====================================================================================================
+  Electric push energy e^2/r equals the electron's mass at r = 2.82 fm. Measured: no structure down to about 2e-5 fm (LEP).
+  -> A skin that small would store about 1e+05 times the electron's mass in electric push. FAILS by that factor.
+  In quantum theory the electric push adds only 18% to the electron's mass even counted down to the Planck length, and it is
+  proportional to the mass already there (Weisskopf 1939). It cannot create the mass.
+
+====================================================================================================
+B3. Is the top quark's link strength a balance point between its own push and the strong force's pull?
+====================================================================================================
+  Exact balance (Pendleton & Ross 1981): link^2 = (2/9) x strong strength^2 -> link = 0.550; measured 0.937. Off by -41%.
+  Approached balance (Hill 1981), starting from a strong link at 1e+16 GeV: link at the top's scale = 1.285 to 1.310; measured 0.937. Off by +40%.
+  Approached balance (Hill 1981), starting from a strong link at 1e+19 GeV: link at the top's scale = 1.251 to 1.269; measured 0.937. Off by +35%.
+  -> FAILS both ways. The measured top sits between the two balance points, on neither.
+
+====================================================================================================
+B4. Is the Higgs itself sitting exactly at the edge of balance?
+====================================================================================================
+  The Higgs's containment (lambda) weakens at higher energy. Published fit (Buttazzo et al. 2013), with today's top mass 172.57 and Higgs mass 125.2:
+    Higgs mass for containment to last exactly to the Planck scale: 128.3 +/- 1.2 GeV. Measured 125.2. Gap 3.1 GeV = 2.6 sigma.
+    Published energy where the Higgs field becomes unstable: about 10^11.2 GeV (uncertain by about a factor of 10 either way).
+    My own two-loop check: the containment lambda reaches zero at 10^10.5 GeV (10^9.8 to 10^11.5 for the top mass within 2 sigma),
+    and at the Planck scale it is -0.011 (zero would be exact balance; today's value is 0.129).
+  -> 'Exactly at the edge' is disfavoured, not excluded. The universe sits within about 2.5% of the edge in the Higgs mass: near balance, not on it.
+     Lead, not a result: the containment fades out near 10^10-10^11 GeV, the same region as TRPG's hidden partners (10^10.2 and 10^11.0 GeV)
+     and close to the right side's scale (10^11.7). That the Higgs's containment runs out near the scale of heavy neutrino partners is noted in
+     published work (Elias-Miro et al. 2012). It is a coincidence within about a factor of ten, not a derivation.
+
+====================================================================================================
+B5. The lepton 45 degree rule IS a balance. Does the idea explain why the balance is 1 to 1?
+====================================================================================================
+  Leptons: (relationship part) / (self part) of the root-mass vector = 0.999993 +/- 0.000015. One to one, to 2 parts in 100,000.
+  For a two-sided balance  E = a x^p + b / x^q  the split at the balance point is q/p, whatever the strengths a and b (as in A1: 1/3).
+  So a 1 to 1 split says the two sides change with size in equal and opposite ways (p = q). That is a restatement, not a derivation:
+  nothing in the balance idea says what 'size' is here or why p = q. Quarks: 1.19 (down family) and 1.55 (up family), with wide errors.
+  -> The 45 degree rule is the balance idea already in TRPG (rule 7). It stays a measured rule. The twist (2/9) is untouched.
+
+====================================================================================================
+C1. Where the forces' SHAPES come from: the same kind of field, three different responses of space
+====================================================================================================
+  A charge sends out a fixed amount of field (flux). What happens to that flux decides the force law.
+   (i)  Space lets the flux spread freely      -> it thins out over a sphere -> force falls as 1/r^2, unlimited reach (electric force, gravity).
+   (ii) Space pushes the flux out (containment) -> it is squeezed into a tube -> force stays CONSTANT with distance (strong force between quarks).
+   (iii) Space is filled with something the flux must push through -> it dies away -> short reach (weak force; the Higgs field does this).
+  Case (ii) is exactly a balance: per unit length, energy = (flux^2)/(2 x tube area) [wants to spread] + B x (tube area) [containment squeezes].
+   B = 57.1: balance tube radius 1.46 fm; field share 0.50, containment share 0.50; pull = 0.151 GeV^2 = 0.77 GeV per fm = 12.5 tonnes
+   B = 60.1: balance tube radius 1.44 fm; field share 0.50, containment share 0.50; pull = 0.155 GeV^2 = 0.78 GeV per fm = 12.8 tonnes
+   B = 63.7: balance tube radius 1.42 fm; field share 0.50, containment share 0.50; pull = 0.159 GeV^2 = 0.81 GeV per fm = 13.2 tonnes
+  Closed form sqrt(32 pi alpha B / 3) = 0.155 GeV^2 (Johnson & Thorn 1976). With the 1975 bag numbers (B = 57.5, alpha = 2.2) it gives 0.180.
+  Measured pull between quarks: 0.18-0.19 GeV^2 (about 0.9-1.0 GeV per fm, 15-16 tonnes), from heavy-quark pairs, lattice QCD and the spin ladder of mesons.
+  -> The balance gives a constant pull of the right size from the proton's own two numbers, with nothing new put in: -16% against 0.185.
+     Right kind of force, right size; as a strict prediction it is low and FAILS. (The strength alpha here is the bag model's own, and is known to be rough.)
+     The tube also comes out too wide (1.4 fm in radius; lattice QCD sees roughly 0.5 fm). Note the split: exactly half field, half containment.
+
+====================================================================================================
+C2. The weak force's short reach comes from the Higgs balance point
+====================================================================================================
+  The W's mass = (weak strength) x (Higgs balance point) / 2 = 0.6517 x 246.22 / 2 = 80.2 GeV. Measured 80.37 GeV. Reach = 2.5e-03 fm.
+  This was predicted before the W was found (Weinberg 1967; Salam 1968; found at CERN 1983). Honest note: the balance point v is itself
+  read off the weak force at low energy, so this is a consistency check that passes, not an independent derivation.
+
+====================================================================================================
+C3. The force between protons and neutrons IS shared leakage
+====================================================================================================
+  The proton's pion cloud (the 'leakage' of the record's proton step) reaches a neighbour and binds it (Yukawa 1935). Reach = hbar/(m_pi c) = 1.43 fm.
+   strength from the bag balance alone : g_A = 1.088 -> f^2/4pi = 0.0527 (measured 0.0778: -32%)
+   strength from the measured g_A      : g_A = 1.275 -> f^2/4pi = 0.0724 (measured 0.0778: -7%)
+  -> Right kind of force and right reach. The simple balance gives the strength about a third low; the record uses the measured value.
+
+====================================================================================================
+C4. Do the forces' basic STRENGTHS come from a balance? (strength made entirely by the matter around it: Sakharov 1967 for gravity; Zel'dovich 1967)
+====================================================================================================
+  If a force's strength were made entirely by the particles it acts on, its inverse strength would run to zero at some high energy.
+   hypercharge: inverse strength 59.0 today, falling: reaches zero at 10^41 GeV (far beyond the Planck energy, 10^19)
+   weak       : inverse strength 29.6 today, RISING with energy: never reaches zero
+   strong     : inverse strength 8.5 today, RISING with energy: never reaches zero
+  -> FAILS for the weak and strong forces with the known particles. Their strengths are not made by this kind of balance.
+     One true thing nearby: the strong force's strength is not a free number. It is fixed by ONE scale, the scale of the proton's balance.
+
+====================================================================================================
+C5. What the balance cannot say
+====================================================================================================
+  A balance needs two things to balance. It explains the shape, reach and (roughly) the size of each force once the force exists.
+  It does not say WHICH forces exist (8 | 3 | 1), why the weak force is left-handed, or what the three basic strengths are.
+  It does set the sizes of things from the strengths: e.g. a star's mass scale, where gravity balances quantum push, is (hbar c / G m_p^2)^(3/2) protons = 1.85 solar masses.
+
+====================================================================================================
+B6. Summary: does the balance idea make the open problems easier?
+====================================================================================================
+  bottom, charm, strange masses        no: they are link strengths; the balance point v is common to all (A5)
+  the top's link                       no: both balance points fail (B3)
+  the 2/9 twist                        no: untouched (B5)
+  lepton 45 degrees                    already this idea (rule 7); not derived by it (B5)
+  why the forces look so different     YES: shape and reach of each force follow from how space treats its flux (C1-C3)
+  pull between quarks                  roughly: 0.155 against 0.18-0.19 GeV^2 from the proton's own numbers (C1); strict FAIL
+  which forces, handedness, strengths  no (C4, C5)
+  matter excess                        no numbers; only the picture (the burst outward)
+  where does mass come from at all     YES: 99% is the proton's balance (A1), the rest the Higgs balance (A5). No magic.
+  one law at every scale               YES: proton, nucleus, star, vacuum (A1-A5), with TRPG's one B for proton and neutron star

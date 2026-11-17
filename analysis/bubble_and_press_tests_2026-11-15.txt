@@ -1,0 +1,32 @@
+=== (A) bubbles: MIT bag (Chodos, Jaffe, Johnson, Thorn & Weisskopf 1974) with TRPG's B ===
+B = 57 MeV/fm^3 (B^1/4 = 144.7 MeV): proton-like (3 quarks): edge radius 1.139 fm, energy 1413 MeV
+B = 57 MeV/fm^3 (B^1/4 = 144.7 MeV): meson-like (2): edge radius 1.030 fm, energy 1043 MeV
+B = 60 MeV/fm^3 (B^1/4 = 146.5 MeV): proton-like (3 quarks): edge radius 1.125 fm, energy 1431 MeV
+B = 60 MeV/fm^3 (B^1/4 = 146.5 MeV): meson-like (2): edge radius 1.017 fm, energy 1056 MeV
+B = 64 MeV/fm^3 (B^1/4 = 148.9 MeV): proton-like (3 quarks): edge radius 1.107 fm, energy 1455 MeV
+B = 64 MeV/fm^3 (B^1/4 = 148.9 MeV): meson-like (2): edge radius 1.000 fm, energy 1073 MeV
+edge moves with outside pressure P (R ~ (B+P)^-1/4):
+  extra outside pressure    0 MeV/fm^3: radius 1.125 fm (+0.0%)
+  extra outside pressure    6 MeV/fm^3: radius 1.098 fm (-2.4%)
+  extra outside pressure   30 MeV/fm^3: radius 1.017 fm (-9.6%)
+  extra outside pressure   60 MeV/fm^3: radius 0.946 fm (-15.9%)
+  extra outside pressure  180 MeV/fm^3: radius 0.795 fm (-29.3%)
+liquid-drop surface energy a_s ~ 17.8 MeV * A^(2/3) (Weizsacker 1935): surface tension 0.98 MeV/fm^2 (r0 = 1.2 fm)
+
+=== (B) same bubble shape, press on down only ===
+up fits found for 2 sign choices
+B1: no press along the fold direction turns the up shape into the down masses
+B2 any press direction (6 free numbers for 7 measured): worst miss over masses + tilts 2.800x (signs (1, -1))
+  best direction |u| components: [0.353 0.55  0.757]  strength -0.446
+
+=== (C) the two base shapes: split d and break e for each ladder (no press) ===
+signs (1, 1): no fit (up False, down False)
+signs (1, -1): up split 8.981e-04 break -0.0173 | down split -2.223e-02 break -0.0779 | ratio split d/u -24.75, break d/u 4.51
+signs (-1, 1): up split 8.878e-04 break +0.0174 | down split -2.108e-02 break +0.0810 | ratio split d/u -23.75, break d/u 4.65
+signs (-1, -1): no fit (up False, down False)
+
+=== (D) do the 24 and 4.5 depend on the footing? (an earlier test: a quark rule must name its footing) ===
+  at the top's energy (used above), signs (1, -1): split ratio d/u -24.75, break ratio d/u 4.51
+  at the top's energy (used above), signs (-1, 1): split ratio d/u -23.75, break ratio d/u 4.65
+  as weighed (2 GeV / own mass, PDG 2024), signs (1, -1): split ratio d/u 16.87, break ratio d/u 2.84
+  as weighed (2 GeV / own mass, PDG 2024), signs (-1, 1): split ratio d/u -16.18, break ratio d/u 2.93

@@ -1,0 +1,9 @@
+full glass: matter 0.315 + dark energy 0.685 + radiation 0.00009 = 1.0000 (Planck: curvature 0.001 +/- 0.002)
+age from the expansion equation: 13.79 billion years (Planck 2018: 13.787 +/- 0.020)
+size 1e-09 of today: matter share 0.000, radiation 1.000, dark energy 0.000
+size 1e-04 of today: matter share 0.257, radiation 0.743, dark energy 0.000
+size 5e-01 of today: matter share 0.786, radiation 0.000, dark energy 0.214
+size 1e+00 of today: matter share 0.315, radiation 0.000, dark energy 0.685
+size 2e+00 of today: matter share 0.054, radiation 0.000, dark energy 0.946
+matter amount in a stretching region (rho*a^3): constant -> same water; dark energy per volume constant -> its total grows: global total not conserved, only local (as in Einstein's theory)
+wave pulse: spread in place x spread in wavenumber = 0.5000 (Heisenberg minimum 0.5)

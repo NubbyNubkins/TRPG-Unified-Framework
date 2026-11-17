@@ -1,0 +1,7 @@
+GR (Kerr) ringdown: f = 250 Hz, tau = 4.0 ms   | measured 251 +/- 8 Hz, 4.0 +/- 0.3 ms
+If a reflecting central-particle surface sat a Planck length above the horizon: echoes every 0.286 s
+Sun                                      C = 4.24e-06
+white dwarf (Sirius B)                   C = 0.000519
+neutron star 1.4 Msun, R 11.4 km (K1)    C = 0.363
+Buchdahl limit, any static star          C = 0.889
+black hole horizon                       C = 1

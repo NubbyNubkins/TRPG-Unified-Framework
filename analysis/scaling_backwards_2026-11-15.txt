@@ -1,0 +1,34 @@
+
+========================================================================================================
+1. The three ladders' cone openings from the top's energy to the Planck energy (45 degrees = the lepton rule, Q = 2/3)
+========================================================================================================
+    energy (GeV)   leptons      down        up   strengths 1/a1 1/a2 1/a3
+       1.725e+02    45.054    48.150    52.151     58.7   29.9    9.2
+       1.000e+03    45.054    48.107    52.168     57.6   30.8   11.2
+       1.000e+05    45.054    48.018    52.203     54.5   33.1   16.5
+       2.100e+08    45.054    47.913    52.243     49.5   36.9   25.1
+       6.300e+10    45.054    47.854    52.264     45.7   39.7   31.5
+       3.015e+16    45.054    47.754    52.300     37.1   46.2   46.2
+       1.000e+16    45.054    47.762    52.298     37.8   45.7   45.0
+       1.200e+19    45.054    47.720    52.313     33.2   49.2   52.9
+  Range over the whole climb: leptons 45.054 to 45.054; down 47.721 to 48.150; up 52.151 to 52.312 degrees.
+  down ladder reaches 45 degrees: never, between the top's energy and the Planck energy
+  up ladder reaches 45 degrees: never, between the top's energy and the Planck energy
+  Why: the strong force pulls all quark masses down by almost the same factor as the energy rises, so ratios inside a ladder barely move.
+  The opening of a ladder depends only on its mass ratios, so it hardly changes with energy. Scaling up does not turn quarks into cones.
+  At the far-side scale: b/tau = 0.909, s/mu = 0.309, d/e = 3.273; top link 0.607
+  At the Planck energy:  b/tau = 0.619, s/mu = 0.223, d/e = 2.363; top link 0.410
+
+========================================================================================================
+2. The top's link run DOWN from many starting values (the fixed-point pull)
+========================================================================================================
+  start at strong = weak : 0.3 -> 0.746, 0.5 -> 0.989, 1 -> 1.199, 2 -> 1.278, 3 -> 1.295, 5 -> 1.305, 10 -> 1.310
+      a large start lands at about 1.310 (top mass 228 GeV in this scheme); measured 0.937 (163 GeV)
+  start at 1e16 GeV      : 0.3 -> 0.737, 0.5 -> 0.983, 1 -> 1.201, 2 -> 1.284, 3 -> 1.302, 5 -> 1.312, 10 -> 1.318
+      a large start lands at about 1.318 (top mass 229 GeV in this scheme); measured 0.937 (163 GeV)
+  start at Planck        : 0.3 -> 0.793, 0.5 -> 1.016, 1 -> 1.190, 2 -> 1.250, 3 -> 1.263, 5 -> 1.271, 10 -> 1.276
+      a large start lands at about 1.276 (top mass 222 GeV in this scheme); measured 0.937 (163 GeV)
+  Reading: any large top link at high energy is pulled down toward one value, so the top's link near 1 needs no fine choice. But the pull
+  lands 36-41% above the measured top's link in the Standard Model alone (222-229 GeV against 163 GeV in this scheme; the known result of
+  Hill 1981). The measured top needs a start of only about 0.41-0.5 at high energy, which is not on the pull. A 'full glass' link of 1
+  at high energy lands at about 1.19-1.20 (about 207 GeV): also too heavy.

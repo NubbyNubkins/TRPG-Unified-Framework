@@ -1,0 +1,211 @@
+
+==============================================================================================================
+SECTION 1. THE NUMBER ITSELF (pole masses; tau error propagated)
+==============================================================================================================
+1a. All three masses measured, nothing assumed:
+    Q = 0.666664463 +- 5.1e-6   (2/3: -0.43 sigma)
+    lean r = 1.41420889 +- 1.1e-5  (sqrt2 = 1.41421356: -0.43 sigma);  self/relationship weight = 1.0000066
+    twist delta = 0.222224762 +- 6.3e-6 rad  (2/9 = 0.222222222: 0.41 sigma);  scale M0 = 313.85093 MeV
+
+1b. If the 45-degree rule (rule 7) is exact, the electron/muon ratio (known to 22 parts per billion) fixes the twist:
+    delta = 0.2222220470731 +- 4.0e-10 rad  = 12.7323854 degrees
+    2/9 - delta = 1.751e-7 = 0.78817 ppm of 2/9  (442.0 sigma).   Call this shortfall eps = 7.8817e-7 +- 1.8e-9
+    tau mass then = 1776.96903 +- 3.9e-5 MeV (Koide 1981);  measured 1776.93 +- 0.09: 0.434 sigma
+    massless electron at pi/12 = 0.2617993878; gap = 0.039577341 rad = 2.26761 degrees; delta/(pi/12) = 0.848825694
+    electron's root-mass share x_e = sqrt(m_e/M0) = 0.0403500902;  m_e/M0 = 0.00162812978;  m_e/m_tau = 0.000287567731
+
+1c. Both exact (45 degrees AND 2/9):  e/mu predicted 0.00483628414115 vs measured 0.00483633169915 +- 1.1e-10:
+    off -9.833 ppm = -442.0 sigma.  FAIL (as in an earlier test, which quoted 447 sigma with a slightly different error on the ratio).   tau would be 1776.9675 MeV.
+
+1d. If instead 2/9 is exact and the lean gives way: r = 1.41421326084 (sqrt2 -0.213 ppm), Q = 0.66666652452, self/relationship = 1.000000426
+    tau mass then = 1776.96651 MeV (0.406 sigma).
+1e. Variant 'three times the twist equals the Koide value' (3 delta = Q, one free number): r = 1.41421332504, delta = 0.222222184929, tau = 1776.96705 MeV.
+
+1f. What the tau mass can and cannot decide:
+    45 exact:        1776.96903 MeV
+    2/9 exact:       1776.96651 MeV   (differs by -2.52 keV)
+    3 delta = Q:     1776.96705 MeV   (differs by -1.98 keV)
+    measured error today: 90 keV. So the tau mass tests the 45-degree rule, and CANNOT tell which of these is right until it is known to about 1 keV.
+    sensitivity: d(delta)/d ln(m_e) = -0.0178114 rad  (1 ppm in the electron mass moves the twist by 0.08015 ppm)
+
+==============================================================================================================
+SECTION 2. ROUTE 1: 2/9 PLUS A RADIATIVE (QED) CORRECTION
+==============================================================================================================
+2a. Footing A: running masses at ONE common energy mu. One-loop QED (Tarrach 1981): m(mu) = M [1 - (alpha/pi)(1 + (3/2) ln(mu/M))].
+    mu = m_tau    : Q = 0.66782364 (2/3 0.174%), lean off sqrt2 by 0.173%, twist = 0.22113532 (2/9 -0.489%)
+    mu = M_Z      : Q = 0.6678399 (2/3 0.176%), lean off sqrt2 by 0.176%, twist = 0.22112012 (2/9 -0.496%)
+    mu = 1e16 GeV : Q = 0.66799288 (2/3 0.199%), lean off sqrt2 by 0.199%, twist = 0.22097715 (2/9 -0.56%)
+    full Standard Model running to M_Z (Huang & Zhou 2021): Q = 0.66782399, twist = 0.22112939 (2/9 -0.492%)
+    The mass-dependent part is mu-independent at this order: e/mu shifts by (3 alpha/2 pi) ln(m_mu/m_e) = 1.858% = 18576.5 ppm.
+    Needed to turn exact (45, 2/9) into the data: +9.834 ppm.  The one-loop shift is 1889.1 times too big.  FAIL on any common-energy footing.
+    (This is Sumino's 2009 point: the rules hold for the directly weighed masses, where QED says they should not, unless something cancels the log.)
+
+2b. Footing B: each mass at its OWN scale, m_i(m_i), to two loops (Gray, Broadhurst, Grafe & Schilcher 1990, turned into QED: C_F = 1, C_A = 0, T = 1).
+    two-loop numbers: d1 = -0.510562, per massless lighter lepton d3 = -1.56205, own loop d4 = 0.155351
+    e  : alpha(M)/pi = 0.00232281946 (1/alpha = 137.036), K = -0.35521, m(M)/M = 0.997684471194
+    mu : alpha(M)/pi = 0.00234215684 (1/alpha = 135.9046), K = -1.9054, m(M)/M = 0.997673719567
+    tau: alpha(M)/pi = 0.00236298443 (1/alpha = 134.7067), K = -3.336, m(M)/M = 0.997661126005
+    If exact (45, 2/9) held for m_i(m_i), the pole ratio e/mu would be the family ratio times R_mu/R_e = 1 -10.78 ppm.
+    Needed: +9.834 ppm.  Got: -10.78 ppm.  Same size (alpha^2 x log), OPPOSITE sign. Miss = -20.61 ppm = -926.4 sigma. FAIL.
+    The two pieces: alpha grows between the two scales: -19.34 ppm (certain); the electron loop inside the muon: +8.56 ppm (two-loop number).
+    Robustness: even if the two-loop number were dropped or doubled the shift stays negative (-19.34 to -2.22 ppm). The sign cannot come out right.
+    (own-scale masses: twist = 0.2222262469 with tau measured; and with 45 exact the e/mu ratio needs twist = 0.2222218551: further from 2/9, not closer.)
+    Not included: hadron loops in alpha at the tau (they touch only the tau, which is not the sharp test), three-loop terms (below 1 ppm).
+
+2c. Reverse question: what correction WOULD do it?  Suppose exact (45, 2/9) holds for m~_i = M_i (1 + c ln M_i).
+    needed c = 1.8444e-6 per unit of log  = 0.34184 x (alpha/pi)^2  = 0.034636 x alpha^2  = 0.0005294 x the one-loop QED log.
+    tau mass in that case: 1776.95825 MeV (differs from the 45-exact value by -10.8 keV).
+    The size is that of a two-loop QED log, so a correction of this kind is not absurd. But c is one free number fitted to one datum:
+    it predicts nothing until some rule gives 0.34 (alpha/pi)^2, and it also needs something to cancel the 1900-times-larger one-loop log.
+    Sumino's 2009 cancellation uses a family gauge force with strength alpha/4. TRPG has no family force: the three generations are placements,
+    the carriers are exactly 8|3|1, and rule 6 is 'nothing extra'. So that mechanism is not available on the main line.
+
+==============================================================================================================
+SECTION 3. ROUTES 2 AND 3: OCTONION / G2 / F4 / E6 PHASES, AND THREE-PLACEMENT (CIRCULANT) PHASES
+==============================================================================================================
+3a. A theorem first (Lindemann 1882; Weierstrass 1885). If an angle in radians is a non-zero ALGEBRAIC number (any fraction is one),
+    its cosine, sine and e^(i angle) are TRANSCENDENTAL. And any structure built from finite algebra (octonion structure constants,
+    group characters, Clebsch-Gordan numbers, a circulant with algebraic entries) has algebraic entries and algebraic phases e^(i delta).
+    So: NO finite algebraic structure can have a phase of exactly 2/9 radian. Group theory hands out rational fractions of a TURN, not of a radian.
+    A rational radian can only come from a length-over-length or an integral (an area, a Berry-type phase, a loop correction).
+    Check by computer: is cos(2/3) (the quantity the masses use, cos 3 delta) a root of a small polynomial?
+      cos(2/3)                          : degree <= 6, coefficients <= 2000 -> None
+      cos(2 pi/9) [control: algebraic]  : degree <= 6, coefficients <= 2000 -> [-8, 0, 6, -1]
+
+3b. Does the measured twist sit at a rational fraction of a turn (what group theory could give)?
+      11/311 of a turn = 0.2222348501 rad: off by 0.00576%  = 2.045 sigma (nothing assumed) / 3.23e+4 sigma (45 exact)
+      7/198 of a turn = 0.2221328139 rad: off by 0.0402%  = 14.25 sigma (nothing assumed) / 2.25e+5 sigma (45 exact)
+      4/113 of a turn = 0.2224136392 rad: off by 0.0862%  = 30.6 sigma (nothing assumed) / 4.84e+5 sigma (45 exact)
+      10/283 of a turn = 0.2220206822 rad: off by 0.0906%  = 32.16 sigma (nothing assumed) / 5.08e+5 sigma (45 exact)
+    1640 fractions of a turn with denominator <= 360 lie below pi/12; their mean spacing is 1.60e-04 rad, the tau-error window (+-3 sigma) is 3.8e-05 rad.
+    Expected hits by luck: 0.24. Found within 3 sigma: 1 (11/311, a denominator no structure offers; it fails by 32,000 sigma if 45 is exact).
+    Smallest denominators: 1/28 of a turn is 0.98% off, 1/29 is -2.50% off. FAIL.
+
+3c. Group-theory numbers of the 3x3 octonion matrix that EQUAL 2/9 (as pure numbers):
+      ratios a/b of these 19 integers equal to 2/9: [(2, 9), (6, 27), (10, 45)]   e.g. 2/(dual Coxeter number of F4) and 6/27.
+      but the same integers make 100 different ratios below 1, 45 of them below pi/12: 0.0128, 0.0192, 0.0222, 0.0256, 0.0357, 0.0370, 0.0385, 0.0417, 0.0444, 0.0513, 0.0577, 0.0625, 0.0667, 0.0714, 0.0741, 0.0769, 0.0833, 0.0889, 0.0897, 0.1000, 0.1026, 0.1071, 0.1111, 0.1154, 0.1250, 0.1282, 0.1333, 0.1346, 0.1429, 0.1481, 0.1538, 0.1556, 0.1667, 0.1731, 0.1778, 0.1795, 0.1875, 0.1923, 0.2000, 0.2051, 0.2143, 0.2222, 0.2308, 0.2500, 0.2593
+      So some structural ratio lands on any simple fraction. And by 3a such a ratio is a number, not an angle: it needs the extra rule
+      'this number is an angle in radians', which is the same missing unit that sank the ring reading (34.5). FAIL as a derivation.
+
+3d. Is ANY simple algebraic value hit by the invariants the three placements actually use? (twist with 45 exact, +-3 sigma of each tier)
+      family: p/q and sqrt(p/q) with p, q <= 60, and (a + b sqrt c)/d with |a|,|b| <= 9, c in 2,3,5,6,7, d <= 12: 13162 distinct values
+      invariant                                               value  hits 45-exact     luck  hits tau-error     luck  nearest simple value (off)
+      cos(3 delta)                                     0.7858875857              0    0.000               1     0.40  7/9 (1.03e+04 ppm)
+      sin(3 delta)                                     0.6183693901              0    0.000               1     0.49  5/8 (1.07e+04 ppm)
+      tan(3 delta)                                     0.7868420387              0    0.000               1     1.03  7/9 (1.15e+04 ppm)
+      cos(delta)                                       0.9754101240              0    0.000               0     0.05  1/1 (2.52e+04 ppm)
+      sin(delta)                                       0.2203975726              0    0.000               0     0.17  2/9 (8.28e+03 ppm)
+      tan(delta)                                       0.2259537472              0    0.000               1     0.17  2/9 (1.65e+04 ppm)
+      det of root-matrix e3 = cos(3d)/sqrt2 - 1/2      0.0557064411              0    0.000               1     0.22  1/12 (4.96e+05 ppm)
+      x_e = sqrt(m_e/M0)                               0.0403500902              0    0.000               0     0.17  1/12 (1.07e+06 ppm)
+      m_e/M0                                           0.0016281298              0    0.000               0     0.00  1/12 (5.02e+07 ppm)
+      m_e/m_tau                                        0.0002875677              0    0.000               0     0.00  1/12 (2.89e+08 ppm)
+      m_e/m_mu                                         0.0048363317              0    0.000               0     0.04  1/12 (1.62e+07 ppm)
+      m_mu/m_tau                                       0.0594598858              0    0.000               0     0.04  1/12 (4.02e+05 ppm)
+      delta/(pi/12)                                    0.8488256941              0    0.000               0     0.80  6/7 (9.8e+03 ppm)
+      delta (radians)                                  0.2222220471              0    0.000               1     0.18  2/9 (0.788 ppm)
+      delta/pi                                         0.0707354745              0    0.000               0     0.05  1/12 (1.78e+05 ppm)
+      totals: 45-exact tier 0 hits against 0.00 expected by luck; tau-error tier 6 hits against 3.8 expected by luck.
+      Reading: the only small-number hit anywhere is delta = 2/9 itself (off 0.79 ppm). No algebraic invariant of the three placements is simple.
+
+3e. Is the nearness to 2/9 itself luck?
+      45 exact: |delta - 2/9| = 1.75e-07: 11 fractions with denominator <= 12 lie below pi/12; chance a random twist is this close to one: 1.5e-05
+         allowing 10 ways of writing the angle (delta, 3 delta, per pi, per turn, tan, ...): 1.5e-04
+      nothing assumed: tau error 6.3e-06: 11 fractions with denominator <= 12 lie below pi/12; chance a random twist is this close to one: 5.3e-04
+         allowing 10 ways of writing the angle (delta, 3 delta, per pi, per turn, tan, ...): 5.3e-03
+      So the nearness to 2/9 is NOT luck (about 1 in 10,000 even after generous trials). And yet exact 2/9 with exact 45 fails by 442.0 sigma.
+      Both statements are true together: the twist is 2/9 less a small, real, unexplained shortfall of 0.79 ppm.
+
+==============================================================================================================
+SECTION 4. '2/9 TIMES (1 - small correction)': IS ANY SIMPLE CORRECTION PICKED OUT?
+==============================================================================================================
+    shortfall eps = 7.88171e-07 +- 1.8e-09 (45 exact).  Family: eps = k alpha^n pi^m, k = p/q with p, q <= 12, n = 1..4, m = -4..4.
+    within 1 sigma: 0 member(s) [];  expected by luck for a random eps of this size: 0.76
+    within 3 sigma: 1 member(s) ['(9/1) alpha^4 pi^3 = 7.9132e-07'];  expected by luck for a random eps of this size: 2.28
+      named near-misses: 2 alpha^3          = 7.7719e-07: off -1.39% = -6.2 sigma
+      named near-misses: (alpha/pi)^2 / 7   = 7.7078e-07: off -2.21% = -9.8 sigma
+      named near-misses: alpha^2/(8 pi^2)   = 6.7444e-07: off -14.43% = -63.8 sigma
+      named near-misses: alpha^2/(22 pi)    = 7.7047e-07: off -2.25% = -9.9 sigma
+    The family has 3276 members; any eps of this size meets some member by luck. A hit here would not be evidence, and the simplest-looking
+    one (2 alpha^3) misses by 6 sigma. FAIL: no correction is picked out.
+
+==============================================================================================================
+SECTION 5. ROUTE 4: A SECOND BALANCE ('the link sits at a balance point')
+==============================================================================================================
+    Rule 7 is one balance (self weight = relationship weight in the ROOT-mass matrix a I + b P + b* P^2, |b| = a/sqrt2). The twist is the link's angle.
+    A second balance would be one more equation, fixing that angle. Every natural one is tried:
+      B1 mass matrix itself balanced (its links weigh as much as its diagonal)           twist  0.5828356  (  162.0% off)  -> m_e/m_mu x 1e3 = 59.55 (measured 4.8363)
+      B2 link half real, half imaginary (push = pull in the link)                        twist  0.7853982  (  253.0% off)  -> m_e/m_mu x 1e3 = 71.797 (measured 4.8363)
+      B3 lightest member's self exactly cancelled by its links                           twist  0.2617994  (   17.8% off)  -> m_e/m_mu x 1e3 = 0.0 (measured 4.8363)
+      B4 link purely real (no twist; two members equal)                                  twist        0.0  ( -100.0% off)  -> m_e/m_mu x 1e3 = 1000.0 (measured 4.8363)
+      B7 middle member sits at the family average (x_mu = 1)                             twist  0.5235988  (  136.0% off)  -> m_e/m_mu x 1e3 = 50.51 (measured 4.8363)
+      B8 geometric balance: muon is the mean of electron and tau (x_mu^2 = x_e x_tau)    twist  0.1622317  (  -27.0% off)  -> m_e/m_mu x 1e3 = 43.561 (measured 4.8363)
+      B9 three-way product equals the two-way sum (det = e2 share): e3 = 1/18            twist   0.222337  ( 0.0518% off)  -> m_e/m_mu x 1e3 = 4.8052 (measured 4.8363)
+    measured value of B1's ratio (mass-matrix relationship/self): 1.6807064;  the tau's share of the total mass = 0.94362105
+    The closest (B9) is off by 0.0518% in the twist: 17.9 sigma with nothing assumed, 2.9e+5 sigma with 45 exact, and it was picked after looking.
+    A balance with virial splitting was already ruled out (39.3: Q <= 0.5).
+    FAIL: no second balance of the three placements gives the twist. 'The electron stops short of massless' (B3) is the right picture and gives no number.
+
+    A curiosity, recorded so it is not rediscovered: m_e/M0 = 1.628130e-03 = 0.22311 x alpha, and 2/9 = 0.22222 (off +0.40%).
+    With M0 from mu and tau that would 'predict' m_e = 0.50895 MeV against 0.51100: off -0.40%, i.e. millions of sigma. FAIL.
+
+==============================================================================================================
+SECTION 6. ROUTE 5: A GRAVITY TIE (the electron mass from the Planck mass)
+==============================================================================================================
+6a. m_e/M_Planck = 4.18546e-23;  ln(M_Planck/m_e) = 51.5278399 +- 1.1e-5;  with the reduced Planck mass: 49.9157542
+    As m_e = M_Planck exp(-c/alpha): c = 0.37601681 (reduced: 0.36425286).   3/8 = 0.375 gives m_e = 0.5874 MeV (15.0% off).
+    family: M x alpha^n x exp(-k f/alpha), M in (Planck, reduced), alpha at 0 or at the Z, k = p/q <= 16/16, f in ['1', 'pi', '1/pi', '2pi', 'pi/2', '4pi', 'pi^2', 'sqrt2', 'sqrt3'], n = -2..2: 22020 formulas
+      within the Planck mass's own error (11 ppm)  :   0 formula(s); expected by luck   0.002.  
+      within 1 per cent                            :   1 formula(s); expected by luck   1.243.  reduced M_Pl x alpha(M_Z)^2 x exp(-(2/9) sqrt2/alpha(M_Z)) (+0.134%)
+      within 10 per cent                           :  14 formula(s); expected by luck  12.490.  reduced M_Pl x alpha(M_Z)^-2 x exp(-(7/15) 1/alpha(M_Z)) (-8.736%); reduced M_Pl x alpha(M_Z)^2 x exp(-(2/11) sqrt3/alpha(M_Z)) (-7.841%); reduced M_Pl x alpha(M_Z)^-1 x exp(-(3/7) 1/alpha(M_Z)) (-6.643%)
+    Reading: formulas of this kind land within 1% about as often as luck says, and NONE lands within the Planck mass's error. FAIL / not evidence.
+
+6b. The best any gravity formula could ever do.  The Planck mass is known to 11 ppm (G to 22 ppm, CODATA 2022).
+    An exact formula m_e = (number) x M_Planck would fix the electron mass to 11 ppm, hence the twist to +-1.96e-7 rad = +-0.882 ppm.
+    The twist is MEASURED to +-1.78 parts per billion (45 exact). So measurement is 494.4 times sharper than any gravity tie can be tested.
+    (The 2/9 shortfall, 0.79 ppm, is 0.894 of that gravity error bar: a gravity tie could not even see it.)
+    Also: the twist is m_e relative to the LEPTON SCALE M0 (313.86 MeV), not m_e alone. A gravity tie for m_e fixes the twist only if a second rule
+    gives M0 (equivalently m_tau). So the gravity route needs TWO rules, not one.
+
+6c. The electron-gravity balance of an earlier test read backwards (far-side mass M_far = sqrt(m_e M_Planck), so m_e = M_far^2/M_Planck).
+    The far-side mass that closes the strengths exactly (two loops): 2.127e8 GeV  ->  m_e = 3.706 MeV: 7.3 times the real electron mass.
+    d sin^2/d ln(M_far) = -0.00142. The +-0.3% left in the meeting itself is +-0.49 in ln M_far, i.e. a factor 2.7 either way in m_e.
+    To give the twist to 1 ppm the electron mass is needed to about 12 ppm, so sin^2 would have to be CALCULATED to 3.8e-08 relative;
+    it is measured to 1.7e-4 and calculated to about 3e-3. Short by a factor of 8e+04.
+    FAIL as a derivation of the twist. If item 1 adopts the balance, it would explain why the electron is light to within a factor of a few, no better.
+    In twist language: a factor 7.3 in m_e is a twist of 0.17024 instead of 0.22222.
+
+==============================================================================================================
+SECTION 7. ROUTE 6: EARLIER IDEAS, RE-CHECKED AT TODAY'S PRECISION
+==============================================================================================================
+    M1 ring of three seats, two paths: (1/3)(2/3) = 2/9; wave sum (200,000 terms) = 0.2222217. As a fraction of a turn it is 1.39626 rad, not 0.2222.
+       Needs 'one ring = one radian' (no rule gives it) and then still misses by 442.0 sigma with 45 exact. WITHDRAWN (34.5); unchanged.
+    M2 twist = Koide value / 3: with 45 exact this is 2/9 again (442.0 sigma). As a free-lean rule it is variant 1e: one free number, tau 1776.967 MeV, no test.
+    M3 twist ladder 2/9 x (1, 1/2, 1/3) for leptons, down, up: dropped in an earlier test (predicts m_u 2.83 vs 2.13). Unchanged.
+    M4 twist as polarity: electron and positron masses agree to 8 parts per billion, so the twist is the same for both. FAIL (72.5). Unchanged.
+    M5 'a limit approached and never reached': with 45 exact the electron is massless at pi/12 = 15 degrees and sits at 12.7324 degrees.
+       HOLDS as the picture (Landau, Abrikosov & Khalatnikov 1954: a charged particle cannot be massless). It gives the reason, not the number.
+    M6 the two ends (top link about 1, electron link about 3e-6) under one rule: tested as 6c above. FAIL as a rule; hint only.
+    M7 mass as the balance point: tested as Section 5. FAIL for the twist; rule 7 is still the balance and still holds:
+       self/relationship = 1.0000066 +- 1.5e-5.
+
+==============================================================================================================
+SECTION 8. SUMMARY TABLE AND THE SHARP PREDICTION
+==============================================================================================================
+    route                                                      result                                                       label
+    1 QED correction, masses at one common energy              shift 18577.0 ppm vs +9.83 needed (x1889.0)                  FAIL
+    1 QED correction, each mass at its own scale (2 loops)     -10.78 ppm vs +9.83 needed: wrong sign                       FAIL
+    1 a two-loop-size log with a free coefficient              needs c = 0.342 (alpha/pi)^2; one number for one datum       not a prediction
+    2 octonion / G2 / F4 / E6 phases                           Lindemann: no algebraic phase is a rational radian; no turn-fraction fits FAIL
+    3 three-placement circulant invariants                     0 simple values hit in 13162 tried x 15 invariants           FAIL
+    4 a second balance                                         nearest natural balance 0.05% off (18 sigma), others far     FAIL
+    5 gravity formulas M_Pl exp(-k/alpha)                      hits no better than luck; none within G's error              FAIL
+    5 electron-gravity balance backwards                       m_e within a factor 7; can never reach ppm                   FAIL (hint only)
+    6 The ring, Q/3, ladder, polarity                    as recorded in earlier tests                           FAIL / withdrawn
+    6 'approached, never reached'                              right picture, no number                                     HOLDS as picture
+    - nearness to 2/9                                          luck about 1 in 10,000; shortfall 0.79 ppm is real (442.0 sigma) real, unexplained
+
+    THE TWIST, as a measured input (pole masses, 45 exact):  delta = 0.222222047073 +- 4.0e-10 rad  = 2/9 x (1 - 7.8817e-7)
+    SHARP PREDICTION (from rule 7 alone, twist read from e/mu):  m_tau = 1776.969 +- 4.0e-5 MeV.   PDG 2024: 1776.93 +- 0.09 (0.434 sigma).
+    Rule 7 is broken if the tau mass settles outside 1776.969 by more than its error; e.g. a final 1776.93 +- 0.01 would be 3.9 sigma.
+    The twist itself has no tau test: 45-exact, 2/9-exact and the log-corrected version differ by 2.5 to 11.0 keV.

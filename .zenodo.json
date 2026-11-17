@@ -1,0 +1,31 @@
+{
+  "title": "Dynamic Relational Transitioning Geometry (TRPG): code, data and documents",
+  "upload_type": "software",
+  "description": "A relational, entanglement-based framework that reproduces known physics and predicts normal-ordered neutrino masses of 0.36, 8.7 and 50.1 to 50.3 meV (sum 0.0592 to 0.0594 eV), and a strong coupling of 0.1178 at the Z, awaiting measurement. This release contains every calculation script (all run with one command), the every-particle-to-every-particle workbook, the paper and the later test scripts. Website: https://trpgphysics.org",
+  "creators": [
+    {
+      "name": "Gelfman, Matthew",
+      "orcid": "0009-0000-6402-2258"
+    },
+    {
+      "name": "Gelfman, Melissa"
+    }
+  ],
+  "license": "MIT",
+  "keywords": [
+    "theory of everything",
+    "quantum gravity",
+    "entanglement",
+    "neutrino masses",
+    "Koide relation",
+    "neutron stars"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://trpgphysics.org",
+      "relation": "isDocumentedBy",
+      "resource_type": "other"
+    }
+  ],
+  "version": "1.2.0"
+}

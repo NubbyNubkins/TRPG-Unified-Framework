@@ -1,0 +1,14 @@
+K = [13.5  0.9 46.5]
+s23=0.47: approximate formula 4.08e-10 -> full equations 2.22e-10 (thermal start), 0.00e+00 (zero start)
+      after refining on the full equations: 2.30e-10  (delta = 226 deg, Im parts [-0.08 -0.2  -0.02])
+K = [14.   1.2 41.5]
+s23=0.561: approximate formula 3.41e-10 -> full equations 2.09e-10 (thermal start), 4.15e-11 (zero start)
+      after refining on the full equations: 2.09e-10  (delta = 253 deg, Im parts [-0.11 -0.09 -0.01])
+K = [13.9  1.6 52.4]
+s23=0.47: approximate formula 3.36e-10 -> full equations 1.77e-10 (thermal start), 5.33e-11 (zero start)
+      after refining on the full equations: 2.20e-10  (delta = 59 deg, Im parts [ 0.08 -0.35  0.04])
+K = [11.1  1.1 43.3]
+s23=0.561: approximate formula 3.25e-10 -> full equations 1.86e-09 (thermal start), 5.99e-11 (zero start)
+      after refining on the full equations: 1.28e-08  (delta = 14 deg, Im parts [ 0.03  0.05 -0.18])
+
+Best full-equation result: eta_B = 1.28e-08; observed 6.1e-10 -> REACHED

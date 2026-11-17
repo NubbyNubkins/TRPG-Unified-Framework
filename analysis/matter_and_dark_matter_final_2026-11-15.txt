@@ -1,0 +1,224 @@
+
+==============================================================================================================
+1. Dark matter as the majoron's slow settling wave (misalignment). The exact oscillator, not a rule of thumb
+==============================================================================================================
+  late density = (1/2) m^2 phi0^2 x K x (H/m)^(3/2):  K numeric 2.0921, exact (Bessel) 2.0921
+  -> the swing effectively starts when H = m/1.636.  The rule of thumb '3H = m' (used in an earlier test) overstates the amount by 2.48x,
+     so every mass quoted from it must go up by 6.17x.
+  f = 6.3e10 GeV, starting angle 1: all of the dark matter needs m_J = 8.77 keV (an earlier test said 1.4 keV; with 1.4 keV the wave is only 40% of it).
+  The swing starts at T = 1.95e+06 GeV. Scaling: m_J = 8.8 keV x (6.3e10/f)^4 / angle^4 (one relation among three numbers).
+   f (GeV)     m_J for angle 0.3      angle 1        angle 1.81 (random average)   angle 2.5
+    2.5e+10      4.368e+07 eV      3.538e+05 eV      3.296e+04 eV      9.056e+03 eV
+    6.3e+10      1.083e+06 eV      8.772e+03 eV      8.173e+02 eV      2.246e+02 eV
+    1.0e+11      1.706e+05 eV      1.382e+03 eV      1.288e+02 eV      3.538e+01 eV
+    1.4e+11      4.441e+04 eV      3.597e+02 eV      3.352e+01 eV      9.209e+00 eV
+    1.0e+12      1.706e+01 eV      1.382e-01 eV      1.288e-02 eV      3.538e-03 eV
+    1.4e+12      4.441e+00 eV      3.597e-02 eV      3.352e-03 eV      9.209e-04 eV
+    3.0e+13      2.048e-05 eV      1.556e-07 eV      1.383e-08 eV      3.675e-09 eV
+    1.0e+15      6.768e-12 eV      4.920e-14 eV      4.302e-15 eV      1.138e-15 eV
+
+==============================================================================================================
+2. Hot majorons: when the heat itself makes them (this is what kills the hot start)
+==============================================================================================================
+  A majoron once in contact with the heat keeps 2.60e-03 per unit entropy. All of the dark matter then needs m_J = 168 eV,
+  and it is a thermal relic of that mass. Lyman-alpha needs a thermal relic above 5.3 keV (Irsic et al. 2017, 95%) or 5.7 keV (Irsic et al. 2024):
+  168 eV is 32x too light. FAIL. At m_J = 8.6 keV thermal majorons would be 51x too much dark matter. FAIL either way.
+  With the earlier numbers (130 eV): hot share 77% (an earlier test quoted 73%; same statement).
+  How large must f be so that a heat of temperature T_max makes under 1% hot majorons (the wave still being all of the dark matter, angle 1)?
+   T_max = 1e+09 GeV (partners 1.6e+10, 1.0e+11): f > 1.7e+10 GeV, where m_J = 1.8e+06 eV and the heaviest partner's link y_3 = 8.5e+00
+   T_max = 1e+10 GeV (partners 1.6e+10, 1.0e+11): f > 3.6e+11 GeV, where m_J = 8.2e+00 eV and the heaviest partner's link y_3 = 3.9e-01
+   T_max = 1e+11 GeV (partners 1.6e+10, 1.0e+11): f > 5.4e+11 GeV, where m_J = 1.7e+00 eV and the heaviest partner's link y_3 = 2.6e-01
+   T_max = 3e+11 GeV (partners 1.6e+10, 1.0e+11): f > 5.4e+11 GeV, where m_J = 1.7e+00 eV and the heaviest partner's link y_3 = 2.6e-01
+  -> A hot start (T_max ~ 1e11 GeV, what thermal leptogenesis needs) is compatible with majoron dark matter only if f is above about 5e+11 GeV,
+     where the majoron is a light wave (m_J about 1.7 eV or less). At f = 6.3e10 to 1e11 GeV it is not: hot share at f = 6.3e10, T_max = 1e11: 52x the whole dark matter (must be under a few % of it).
+     (Cross-section known to a factor of a few; f_min moves as its 1/7 power along the dark-matter line.)
+
+  2b. Freeze-in instead of the wave (majorons leaking slowly out of the heat; Hall et al. 2010; Frigerio, Hambye & Masso 2011):
+   They are born with momentum about 2.5 to 3.2 x temperature, so Lyman-alpha (thermal relic > 5.3 keV) needs m_J > 12 to 16 keV
+   (same range as Heeck & Teresi 2017: 12 to 16 keV).
+   Through the Higgs (h -> J J by mixing with the settling piece): needs an effective link 3.3e-09, i.e. (Higgs-to-settling link)/(settling self-link) = 2e+09 at f = 6.3e10.
+   That takes two more numbers, both extremely small, and drags the Higgs mass up unless tuned. Not in the main line: NOT PURSUED (allowed only by adding numbers).
+   Through the partners (N N -> J J in a heat at T ~ M_2 = 1.6e10): right amount for f about 1e+12 GeV. But there the wave overfills unless the starting angle is under 0.041, and the matter excess is the thermal one (2.6 to 3x short). FAIL as a joint solution.
+
+==============================================================================================================
+3. Limits on the majoron itself, each with its own error bar
+==============================================================================================================
+  J -> two neutrinos (Garcia-Cely & Heeck 2017): rate = m_J x sum(m_nu^2) / (16 pi f^2), sum(m_nu^2) = 2.609e-03 eV^2.
+  Limit on dark matter decaying to invisible radiation: lifetime > about 250 Gyr = 7.9e+18 s at 95%
+  (Audren et al. 2014: 160 Gyr; Poulin, Serpico & Lesgourgues 2016: 170 Gyr; Nygaard, Tram & Hannestad 2021 and Simon et al. 2022: about 250 Gyr).
+  J -> two photons (two loops; Garcia-Cely & Heeck 2017, Heeck & Patel 2019), with rule 5's links: tr(m_D m_D^+) = 3.169 GeV^2.
+  X-ray line limits for 1 to 20 keV: lifetime to two photons above about 1e27 to 1e29 s (XMM-Newton, Chandra, NuSTAR).
+   f (GeV)    angle   m_J (eV)     lifetime to neutrinos   over limit    lifetime to photons   over X-ray limit(1e28 s)
+    6.3e+10   1.00    8.772e+03     5.74e+24 s           7.3e+05        5.46e+41 s        5.5e+13
+    6.3e+10   1.81    8.173e+02     6.16e+25 s           7.8e+06        8.95e+48 s        9.0e+20
+    1.0e+11   1.00    1.382e+03     9.18e+25 s           1.2e+07        5.71e+47 s        5.7e+19
+    1.4e+12   1.00    3.597e-02     6.91e+32 s           8.8e+13        1.38e+82 s        1.4e+54
+    1.4e+12   0.10    3.597e+02     6.91e+28 s           8.8e+09        1.38e+54 s        1.4e+26
+    3.0e+13   1.00    1.556e-07     7.34e+40 s           9.3e+21       2.24e+122 s        2.2e+94
+  Along the dark-matter line the neutrino lifetime grows as f^6: the shortest lifetime is at the smallest f.
+  Lifetime limit alone (angle up to 2.5): f > 3.6e+09 GeV. The seesaw's own floor (link y_3 below sqrt(4 pi)) is higher, so the lifetime limit never bites.
+  -> No X-ray line is expected: the photon lifetime is more than 13 powers of ten beyond today's reach. the earlier 'faint X-ray line' is withdrawn.
+  -> The neutrino line sits at E = m_J/2 (keV or below), far under any neutrino detector's threshold (Borexino, KamLAND, Super-K reach MeV). Not testable.
+  Isocurvature (Planck 2018: share below 0.038 at 95%): if the spot is settled before inflation, inflation's own jitter H_I/(2 pi) shakes the majoron wave.
+   f = 6.3e+10, angle 1.0: inflation's expansion rate H_I < 1.8e+06 GeV, i.e. primordial gravity waves r < 5e-17 (LiteBIRD and CMB-S4 reach 1e-3)
+   f = 1.0e+11, angle 1.0: inflation's expansion rate H_I < 2.9e+06 GeV, i.e. primordial gravity waves r < 1e-16 (LiteBIRD and CMB-S4 reach 1e-3)
+   f = 1.4e+12, angle 0.1: inflation's expansion rate H_I < 4.0e+06 GeV, i.e. primordial gravity waves r < 3e-16 (LiteBIRD and CMB-S4 reach 1e-3)
+   f = 3.0e+13, angle 1.0: inflation's expansion rate H_I < 8.6e+08 GeV, i.e. primordial gravity waves r < 1e-11 (LiteBIRD and CMB-S4 reach 1e-3)
+  -> Prediction of the cold (pre-inflation) start: NO primordial gravity waves will be found. A detection of r above about 1e-3 would break it.
+
+==============================================================================================================
+4. The matter excess from a cold start: the hidden partners are handed over directly, then decay (Lazarides & Shafi 1991; Asaka et al. 1999)
+==============================================================================================================
+  Needed: baryons per entropy 8.693e-11 (eta_B = 6.12e-10 +- 4e-12). Handover formula: n_B/s = (28/79) x (3/2) x eps x X,
+  where X = (branching to that partner) x (the source's share of the energy) x T_reheat / m_source.  X can never exceed 1/20 x M_2/M_i
+  (the source must outweigh two partners, and the heat must stay 10x below the middle partner so nothing is made or erased by heat).
+
+  (a) Rule 5 read literally (same perspective), 400 random settings of the unmeasured phases, theta23 over its 3-sigma range:
+   literal rule 5, phases free        source = middle partner  : |eps| median 2.4e-14, largest 7.7e-10; best X needed 2.1e-01 against ceiling 5.0e-02 (short by 4x); settings that reach it: 0%
+   literal rule 5, phases free        source = heaviest partner: |eps| median 1.5e-15, largest 7.2e-11; best X needed 3.2e+00 against ceiling 9.5e-05 (short by 33184x); settings that reach it: 0%
+     partners (first setting): 6.90e+04, 9.38e+08, 9.06e+11 GeV; lightest partner's washout K(e, mu, tau) = [3.54, 12.15, 3.64]
+   literal rule 5, TM1 delta (~270)   source = middle partner  : |eps| median 6.4e-14, largest 3.4e-10; best X needed 4.9e-01 against ceiling 5.0e-02 (short by 10x); settings that reach it: 0%
+   literal rule 5, TM1 delta (~270)   source = heaviest partner: |eps| median 4.6e-15, largest 2.3e-11; best X needed 7.1e+00 against ceiling 2.0e-05 (short by 355222x); settings that reach it: 0%
+     partners (first setting): 1.61e+05, 2.32e+08, 1.57e+12 GeV; lightest partner's washout K(e, mu, tau) = [1.51, 24.91, 19.13]
+
+  (b) The six ways of pairing families (parameter-free), phases free:
+   nu_e~m_e, nu_mu~m_mu, nu_tau~m_tau: partners 2e+05, 2e+08, 2e+12 GeV; best X/ceiling = 5.58e+00; reach it: 0%
+   nu_e~m_e, nu_mu~m_tau, nu_tau~m_mu: partners 1e+05, 6e+08, 8e+11 GeV; best X/ceiling = 3.97e+00; reach it: 0%
+   nu_e~m_mu, nu_mu~m_e, nu_tau~m_tau: partners 1e+04, 3e+09, 1e+12 GeV; best X/ceiling = 3.33e+01; reach it: 0%
+   nu_e~m_mu, nu_mu~m_tau, nu_tau~m_e: partners 1e+04, 2e+09, 2e+12 GeV; best X/ceiling = 3.46e+01; reach it: 0%
+   nu_e~m_tau, nu_mu~m_e, nu_tau~m_mu: partners 9e+03, 1e+09, 6e+12 GeV; best X/ceiling = 1.56e+01; reach it: 0%
+   nu_e~m_tau, nu_mu~m_mu, nu_tau~m_e: partners 1e+04, 8e+08, 6e+12 GeV; best X/ceiling = 1.67e+01; reach it: 0%
+
+  (c) Random perspectives (uniform over all rotations), random phases, 1500 tries: how common is a cold-start success?
+   reach the observed excess with an allowed handover: 6.3%  (thermal hot start, an earlier test: 0.0% reach it, 0.6% within 10x). Heaviest partner: median 2.7e+12 GeV.
+
+  (d) the earlier small-tilt corner (the one thermal survivor), now with a cold start:
+   partners 3.57e+04, 1.63e+10, 1.01e+11 GeV; lightest partner's washout K(e, mu, tau) = [0.02, 23.3, 31.18]
+   source = partner 2: eps = -5.67e-07 (after the lightest partner's washout -9.71e-08); X needed = 1.68e-03; ceiling 5.00e-02: REACHED with room 30x
+   source = partner 3: eps = +5.86e-09 (after the lightest partner's washout +2.40e-09); X needed = 6.82e-02; ceiling 8.06e-03: short by 8.5x
+
+  Literal rule 5, directed search over the three phases and theta23 (differential evolution): best X needed / ceiling = 1.94 (still short by 1.9x: FAIL) at delta, a21, a31 = [355, 124, 119] deg, sin^2(th23) = 0.585; partners 7.3e+04, 8.3e+08, 9.6e+11 GeV
+
+  Literal rule 5, best setting: source partner 2, eps = 7.69e-10, X needed 2.13e-01, ceiling 5.00e-02; phases delta, a21, a31 = [20, 177, 194] deg, sin^2(th23) = 0.553; partners 7.7e+04, 9.4e+08, 8.1e+11 GeV
+  Davidson-Ibarra ceiling on eps for a partner of mass M: 3 M m_3/(16 pi v^2) = 9.91e-17 x M/GeV.
+  Share of partner decays that go to a majoron instead (N -> nu J): about v^2/(2 f^2) = 4e-18 at f = 6.3e10. Negligible.
+
+==============================================================================================================
+5. ONE settling event for both numbers: three versions, each pushed until it works or fails
+==============================================================================================================
+  Version A. Hot start + majoron wave.  Matter excess by heat, dark matter by the wave.
+    f near the heaviest partner: hot majorons (section 2). FAIL.   f above about 5e+11 GeV: no hot majorons, but the matter excess is then
+    only 0.32 to 0.39 of observed (cold thermal start, since reading (i) has no right-side force to pre-fill the partners; earlier tests): FAIL by 2.6 to 3x.
+    (eta_B is measured to 0.7%; the rate equations are good to tens of per cent; a 2.6x gap is outside both.)
+
+  Version B. The settling piece itself (rho) decays and makes BOTH: partners (-> matter excess) and majorons (-> dark matter).
+    Rates: rho -> J J = m_rho^3/(32 pi f^2);  rho -> N_i N_i = M_i^2 m_rho (1 - 4M_i^2/m_rho^2)^(3/2)/(16 pi f^2).
+    The ratio (partners)/(majorons) is at most 0.0930 (at m_rho = 3.16 M_i): the settling piece makes at least 91% majorons.
+    Then the ratio of the two cosmic amounts is fixed, with the handover number cancelling out:
+      m_J = (Omega_DM/Omega_B) x m_proton x (28/79) x eps x (partners/majorons) = 1.784 GeV x eps x ratio  <=  166 eV x (eps/1e-6)
+    Those majorons are born fast (momentum m_rho/2). Lyman-alpha (thermal relic > 5.3 keV) maps to m_J > 4.9 keV x (momentum/temperature at reheating).
+     case                         eps       m_J (all DM)   momentum/T allowed   needs expansion between decay and reheating   wave must not overfill: angle <
+     small-tilt corner, partner 2  9.7e-08        16.1 eV      3.30e-03        stretch 4e+03 (8 e-folds)                  2.13 (at f = sqrt2 M_3 = 1.4e+11)
+     literal rule 5, best          7.7e-10         0.1 eV      2.61e-05        IMPOSSIBLE (T_R/m_rho = 5.0 > 1/20)        0.89 (at f = sqrt2 M_3 = 1.1e+12)
+     Davidson-Ibarra ceiling at 1.6e10  1.6e-06       267.9 eV      5.49e-02        stretch 4e+03 (8 e-folds)                  1.07 (at f = sqrt2 M_3 = 1.4e+11)
+    -> It can be made to work only with a tilted perspective (eps near 1e-7 or more), a long cold stretch (about 8 e-folds) between the settling piece's decay
+       and reheating, and a settling piece holding about half of the energy. Then m_J is PREDICTED: 16 eV in the small-tilt corner, at most 268 eV.
+       Numbers used: eps (from the phases and perspective), m_rho/M_i, the share, the stretch, the angle: 5 for 2 data. LEAD at best, not a derivation.
+       Without the long stretch the same majorons are hot: FAIL (this is the earlier failure, now with its exact reason).
+
+  Version C. Cold start, spot settled before inflation (reading (i): 'the spot is exact always'). Partners handed over by the start; majoron wave = dark matter.
+   f (GeV)    y_3 (M_3=1.0e11)   m_J (angle 1)   lifetime/limit   H_I below     T_reheat window (GeV)            hot-majoron share at the top of the window
+    4.0e+10     3.57 (too big)    5.398e+04 eV    4.8e+04       1.1e+06     4.8e+06 (wave starts) to 1.6e+09   8.6e-01
+    6.3e+10     2.27              8.772e+03 eV    7.3e+05       1.8e+06     2.0e+06 (wave starts) to 1.6e+09   2.3e-02
+    1.0e+11     1.43              1.382e+03 eV    1.2e+07       2.9e+06     7.8e+05 (wave starts) to 1.6e+09   5.7e-04
+    2.0e+11     0.71              8.637e+01 eV    7.4e+08       5.7e+06     1.9e+05 (wave starts) to 1.6e+09   2.2e-06
+    5.0e+11     0.29              2.211e+00 eV    1.8e+11       1.4e+07     3.1e+04 (wave starts) to 1.6e+09   1.5e-09
+    1.4e+12     0.10              3.597e-02 eV    8.8e+13       4.0e+07     4.0e+03 (wave starts) to 1.6e+09   3.8e-13
+   Matter excess in every row: handover X = 1.68e-03 (small-tilt corner), e.g. T_reheat/m_source = 1.7e-02 if (branching x share) = 0.1. Ceiling 0.05.
+   Every row passes every limit. The region is a 2-surface: one relation fixes m_J x angle^4 x f^4, one fixes X x eps. Nothing else is fixed.
+
+==============================================================================================================
+6. Does TRPG fix any of these numbers by its own rules? With luck checks
+==============================================================================================================
+  6a. f tied to the heaviest partner (link y_3 = 1 in M = y f, or sqrt2 in M = y f/sqrt2):
+    an earlier test, generation by generation          M_3 = 6.30e+10: f = M_3 gives m_J =      8.77 keV / angle^4;  smallest allowed f = 2.5e+10 gives       346 keV
+    small-tilt corner                M_3 = 1.01e+11: f = M_3 gives m_J =      1.33 keV / angle^4;  smallest allowed f = 4.0e+10 gives      52.5 keV
+    literal rule 5 with the measured mixing    M_3 = 1.44e+12: f = M_3 gives m_J =  3.19e-05 keV / angle^4;  smallest allowed f = 5.8e+11 gives   0.00126 keV
+    The three readings of 'the heaviest partner' differ by 16x in f, i.e. 65,000x in m_J. And nothing in the rules sets y_3 = 1. NOT FIXED.
+    Robust statement that does follow: f cannot be below M_3/2.5, so m_J x angle^4 has a CEILING: 346 keV for the earlier M_3, 52 keV for the corner, 1.3 eV for the literal 1.4e12.
+
+  6b. Gravity's leak redone with two corrections: the exact oscillator, and the fact that a power-n leak has n valleys,
+      so the wave's swing is n times smaller (period 2 pi f/n). V = c (f/sqrt2)^n/M^(n-4) cos(n J/f), c = 1.
+      scale         n    m_J at f=6.3e10    wave's share of dark matter at f=6.3e10 (angle 1; 2.5)     f where it is ALL the dark matter (angle 1; 2.5)   m_J there      lifetime there
+      Planck          5     9.51e+15 eV       4.17e+04;  2.60e+05                                1.32e+09; 6.76e+08                         2.87e+13 eV    7.6e+11 s (too short)
+      Planck          6     6.90e+11 eV       2.46e+02;  1.54e+03                                1.01e+10; 5.46e+09                         1.76e+10 eV    7.3e+16 s (too short)
+      Planck          7     4.86e+07 eV       1.52e+00;  9.49e+00                                5.54e+10; 3.15e+10                         3.52e+07 eV    1.1e+21 s
+      Planck          8     3.36e+03 eV       9.66e-03;  6.04e-02                                2.37e+11; 1.40e+11                         1.79e+05 eV    4.0e+24 s
+      Planck          9     2.28e-01 eV       6.29e-05;  3.93e-04                                8.31e+11; 5.10e+11                         1.90e+03 eV    4.6e+27 s
+      Planck         10     1.53e-05 eV       4.24e-07;  2.65e-06                                2.48e+12; 1.57e+12                         3.66e+01 eV    2.1e+30 s
+      Planck         11     1.02e-09 eV       3.14e-09;  1.96e-08                                6.48e+12; 4.21e+12                         1.15e+00 eV    4.6e+32 s
+      Planck         12     6.70e-14 eV       3.20e-11;  2.00e-10                                1.52e+13; 1.01e+13                         5.42e-02 eV    5.4e+34 s
+      reduced Planck  5     2.13e+16 eV       6.23e+04;  3.90e+05                                1.14e+09; 5.84e+08                         5.17e+13 eV    3.2e+11 s (too short)
+      reduced Planck  6     3.46e+12 eV       5.51e+02;  3.45e+03                                7.68e+09; 4.17e+09                         5.14e+10 eV    1.5e+16 s (too short)
+      reduced Planck  7     5.46e+08 eV       5.09e+00;  3.18e+01                                3.82e+10; 2.17e+10                         1.56e+08 eV    1.2e+20 s
+      reduced Planck  8     8.43e+04 eV       4.84e-02;  3.03e-01                                1.50e+11; 8.86e+10                         1.13e+06 eV    2.5e+23 s
+      reduced Planck  9     1.28e+01 eV       4.72e-04;  2.95e-03                                4.86e+11; 2.98e+11                         1.63e+04 eV    1.8e+26 s
+      reduced Planck 10     1.93e-03 eV       4.69e-06;  2.93e-05                                1.35e+12; 8.56e+11                         4.11e+02 eV    5.7e+28 s
+      reduced Planck 11     2.87e-07 eV       4.93e-08;  3.08e-07                                3.33e+12; 2.17e+12                         1.64e+01 eV    8.6e+30 s
+      reduced Planck 12     4.23e-11 eV       6.69e-10;  4.18e-09                                7.41e+12; 4.93e+12                         9.51e-01 eV    7.3e+32 s
+      -> At f = 6.3e10 GeV the n = 8 leak (3.4 keV) gives a wave that is only 1.0% of the dark matter (angle 1): the earlier 'lands' does NOT survive.
+      Each power picks its own f. Does any land on a partner scale the theory has? Luck check: draw f at random (log-uniform, 1e9 to 1e13 GeV);
+      some power and some gravity scale reproduces all of the dark matter (angle 1 to 2.5, f within 1.4x) for 94% of random f. A landing is not evidence.
+      f = M_3 or sqrt2 M_3 with M_3 = 6.3e10: powers that land: [('Planck', 7), ('reduced Planck', 8)]
+      f = M_3 or sqrt2 M_3 with M_3 = 1.0e11: powers that land: [('Planck', 8), ('reduced Planck', 8)]
+      f = M_3 or sqrt2 M_3 with M_3 = 1.0e12: powers that land: [('Planck', 9), ('Planck', 10), ('reduced Planck', 10)]
+      (Planck n = 7: a 35 MeV majoron living 1e21 s; neutrino-line searches at Super-K and KamLAND reach lifetimes of that order there (Garcia-Cely & Heeck 2017): borderline.)
+      And the lower powers must be switched off by hand, and post-inflation settling with n > 1 leaves domain walls (Sikivie 1982). NOT A RULE. FAIL as a derivation.
+
+  6c. Mass-as-balance candidates for m_J (an earlier test style), with nothing fitted:
+      f^2/M_Planck                       =  3.251e+11 eV   outside the window 2.2e+02 to 1.4e+05 eV (angle 0.5 to 2.5 at f = 6.3e10)
+      M_3 x m_nu3 / f (seesaw mirror)    =  5.034e-02 eV   outside the window 2.2e+02 to 1.4e+05 eV (angle 0.5 to 2.5 at f = 6.3e10)
+      sqrt(m_nu3 x m_e)                  =  1.604e+02 eV   outside the window 2.2e+02 to 1.4e+05 eV (angle 0.5 to 2.5 at f = 6.3e10)
+      m_e^2/v                            =  1.061e+00 eV   outside the window 2.2e+02 to 1.4e+05 eV (angle 0.5 to 2.5 at f = 6.3e10)
+      v^2/f                              =  9.623e+02 eV   inside the window 2.2e+02 to 1.4e+05 eV (angle 0.5 to 2.5 at f = 6.3e10)
+      m_nu3 x f/M_Planck                 =  2.598e-10 eV   outside the window 2.2e+02 to 1.4e+05 eV (angle 0.5 to 2.5 at f = 6.3e10)
+      (v/f) x m_e                        =  1.997e-03 eV   outside the window 2.2e+02 to 1.4e+05 eV (angle 0.5 to 2.5 at f = 6.3e10)
+      sqrt(m_nu3 x v)                    =  1.113e+05 eV   inside the window 2.2e+02 to 1.4e+05 eV (angle 0.5 to 2.5 at f = 6.3e10)
+      2 of 8 land; the window is 2.8 decades wide and the candidates span 21 decades, so about 1.1 are expected by luck. NOT EVIDENCE.
+
+  6d. The matter excess: does a rule fix eps x X?  eps follows from the phases and the perspective (not fixed: an earlier test). X is a start condition
+      (how the universe's start handed over its energy). Scope: the theory does not have to solve for the bang. X is therefore outside it.
+
+==============================================================================================================
+7. Consistency of the neutrino numbers the picture leans on
+==============================================================================================================
+  Sum of masses 0.0594 eV. Smallest possible for normal ordering (NuFIT 6.0 splittings): 0.0588 eV.
+  DESI DR1 + CMB (2024): below 0.072 eV (95%). DESI DR2 + CMB (2025): below 0.064 eV (95%). TRPG sits at 93% of the tighter limit: inside, close.
+  (Those fits peak at or below zero, so ANY normal-ordering theory is in about 2 to 3 sigma tension with them; TRPG is as low as normal ordering allows. Inverted ordering, 0.10 eV, is out.)
+  delta_CP from TM1 depends on theta23 (Albright & Rodejohann 2009): cos(delta) = -cot(2 theta23)(1 - 5 s13^2)/(2 sqrt2 s13 sqrt(1 - 3 s13^2))
+    sin^2(theta23) = 0.435: delta = 253.3 deg
+    sin^2(theta23) = 0.470: delta = 262.4 deg
+    sin^2(theta23) = 0.500: delta = 270.0 deg
+    sin^2(theta23) = 0.561: delta = 285.7 deg
+    sin^2(theta23) = 0.585: delta = 292.3 deg
+  NuFIT 6.0 (normal ordering): best fit 177 (+19, -20) deg without Super-K atmospheric data, 212 (+26, -41) deg with it; 3-sigma ranges 96 to 422 and 124 to 364 deg.
+  TM1's band 253 to 292 deg is inside both 3-sigma ranges; about 1.9 error bars above the with-Super-K best fit,
+  and more than 3 naive error bars above the without-Super-K best fit (the likelihood is far from Gaussian; the 3-sigma range still contains it). Allowed, not favoured.
+  TM1 sin^2(theta12) = 0.318 against NuFIT 6.0 0.308 +- 0.012: +0.8 sigma. JUNO's first 59 days (2025) gave 0.3092 +- 0.0087: TM1 at +1.0 sigma.
+  JUNO's full data set reaches about 0.5%: 0.318 +- 0.002 would confirm TM1, 0.308 +- 0.002 would break it at 5 sigma.
+  Neutrinoless double-beta decay: effective mass 1.3 to 3.9 meV (limit 28 to 122 meV, KamLAND-Zen 2024; nEXO and LEGEND-1000 reach about 5 to 20 meV).
+  A signal above about 5 meV would break the picture; a null result at 10 meV leaves it standing. In a majoron picture a second mode exists (decay WITH a majoron),
+  with coupling m_ee/f = 6e-23: 20 powers of ten under today's limit of about 1e-5. Not testable.
+
+==============================================================================================================
+8. Honest count and verdict
+==============================================================================================================
+  Data: 2 numbers (eta_B, Omega_DM h^2).
+  Free numbers in the working version (C): f, m_J, the starting angle (dark matter: 3 numbers, 1 relation);
+     the handover X and the CP asymmetry eps (matter excess: eps needs the perspective and the 3 unmeasured phases; 1 relation). At least 5 for 2 data.
+  So neither number is derived. Both are ALLOWED, in one consistent cold-start picture that passes every limit checked.
+  What changed against earlier tests:  (1) the 1.4 keV is 8.7 keV with the exact oscillator (and it is a relation, not a mass);
+     (2) gravity's leak at n = 8 does not give the dark matter at f = 6.3e10 once its 8 valleys are counted;
+     (3) no X-ray line; (4) with a cold start 6% of random perspectives reach the matter excess (0% with a hot start); rule 5 read literally still fails, by 1.9x;
+     (5) the hot start is not excluded at f > 5e+11 GeV, but then the matter excess is 2.6 to 3x short;
+     (6) the settling piece decays at least 91% to majorons: as the single source it works only with a long cold stretch, and then m_J = 16 eV (corner).

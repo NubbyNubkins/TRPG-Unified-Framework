@@ -1,0 +1,7 @@
+1) light bending at Sun's edge from resistance n(r): 1.752 arcsec (measured 1.75; Einstein 1.75; Newton-only 0.87)
+   extra delay radar Earth-Mars grazing Sun (one way, Shapiro): 124 microseconds (measured ~ 100-250 us round trip range)
+2) periodic resistance -> forbidden frequency gaps (bands between them): [(np.float64(2.2), np.float64(2.81)), (np.float64(4.84), np.float64(5.22)), (np.float64(7.34), np.float64(7.72)), (np.float64(9.75), np.float64(10.36))]
+3)   10 random layers: transmitted fraction 8.92e-01
+3)  100 random layers: transmitted fraction 5.84e-01
+3) 1000 random layers: transmitted fraction 2.59e-02
+3) 3000 random layers: transmitted fraction 8.92e-05

@@ -1,0 +1,31 @@
+==============================================================================
+1. Does every choice of direction leave the same strong force?
+==============================================================================
+  random direction 0: symmetries left 8, rank 2, acts on 3 complex directions (err 5e-15) -> SU(3)
+  random direction 1: symmetries left 8, rank 2, acts on 3 complex directions (err 3e-15) -> SU(3)
+  random direction 2: symmetries left 8, rank 2, acts on 3 complex directions (err 3e-15) -> SU(3)
+  random direction 3: symmetries left 8, rank 2, acts on 3 complex directions (err 4e-15) -> SU(3)
+  random direction 4: symmetries left 8, rank 2, acts on 3 complex directions (err 3e-15) -> SU(3)
+  random direction 5: symmetries left 8, rank 2, acts on 3 complex directions (err 3e-15) -> SU(3)
+  directions reachable by turning: 14 - 8 = 6 = every direction on the 6-sphere (G2/SU(3) = S^6).
+  -> Which direction is picked makes no difference; only THAT one is picked matters (like the Higgs).
+
+==============================================================================
+2. Why is the right side heavy? Left-right breaking scale vs neutrino masses
+==============================================================================
+  minimal: bidoublet + right triplet (10,1,3)  M_I = 10^11.74 GeV, M_U = 10^16.05 GeV, 1/a_U = 45.7, proton ~10^36.0 yr
+  left-right symmetric: + left triplet (10,3,1) M_I = 10^13.70 GeV, M_U = 10^15.21 GeV, 1/a_U = 41.2, proton ~10^32.5 yr
+  Seesaw: heaviest right-handed neutrino for our m3 = 0.0501 eV with a top-like link: M_R = 5.9e+14 GeV = 10^14.77
+  In left-right models M_R = f x v_R with f <~ 1, so v_R >~ M_R.
+  Minimal case: breaking scale 10^11.7 vs needed 10^14.8: too low; symmetric case 10^13.7: too low (needs f ~ 12)
+  LHC: W_R > ~6 TeV; Super-K: proton > 2.4e34 yr (e+ pi0).
+
+==============================================================================
+3. Quark masses: charm at one common energy
+==============================================================================
+  own-scale (chain used before)   : Q(c,b,t) = 0.6692  charm from 45-deg rule = 1.353 GeV vs 1.273  (+6.3%)
+  all at M_Z (Huang & Zhou 2021)  : Q(c,b,t) = 0.7200  charm from 45-deg rule = 2.143 GeV vs 0.620  (+245.6%)
+  Top at M_Z from 'full Higgs link' y_t = 1: v/sqrt2 = 174.1 GeV vs running 168.3 (+3.5%); pole 172.6 (+0.9%).
+
+Bottom input: the 4x4 route (m_b = m_tau at the breaking scale) gives m_b/m_tau = 0.63-0.76 there: fails.
+  No relation in the matrices fixes the overall down-family scale; it stays the one quark input.

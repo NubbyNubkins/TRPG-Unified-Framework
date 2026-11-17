@@ -1,0 +1,23 @@
+1) Ladder openings vs heaviest member (is the neutrino the closest ladder to the centre line?)
+   neutrinos        opening  37.13 deg   heaviest 0.0502 eV
+   charged leptons  opening  45.00 deg   heaviest 1.78e+09 eV
+   down quarks      opening  48.15 deg   heaviest 4.18e+09 eV
+   up quarks        opening  52.15 deg   heaviest 1.73e+11 eV
+   order of openings = order of heaviest masses: 4 of 4; chance of this by luck = 1/24 = 4.2% (hint, no law)
+
+2) If the neutrinos' smallness were a cancellation (pushes adding to almost zero), how fine must it be?
+   cancel a tau-size push down to 0.050 eV: precision 1 part in 3.5e+10
+   cancel a muon-size push down to 0.050 eV: precision 1 part in 2.1e+09
+   cancel a top-size push down to 0.050 eV: precision 1 part in 3.4e+12
+   three separate cancellations at 1e-10..1e-12 with no reason: FAIL as the mechanism
+
+3) Dilution instead of cancellation (seesaw: Minkowski 1977, Gell-Mann-Ramond-Slansky 1979, Yanagida 1979, Mohapatra-Senjanovic 1980)
+   light weight = (Higgs link)^2 / (hidden partner far up the centre line). Partner weight needed per family:
+   charged-lepton-size links : 7.3e+05, 1.3e+09, 6.3e+10 GeV
+   up-quark-size links       : 1.3e+07, 1.9e+11, 5.9e+14 GeV
+   (diagonal estimate, mixing ignored; the hidden-partner window 1e9..1e11 GeV was itself set this way, so landing in it is not new evidence)
+
+4) Time: the one part that does not reverse by itself
+   J (area of the quark mixing triangle) = 3.08e-05; BaBar 2012 saw time-reversal broken directly at 14 sigma
+   T alone: FAIL (J != 0).  C, P, T all together (exact opposite side + antimatter): HOLDS to every test so far
+   K0 vs anti-K0 mass difference / mass < 6e-19 (PDG 2024): the reversed film weighs the same

@@ -1,0 +1,30 @@
+1. The fold's timing: best squeeze at each phase (worst of the four tilts)
+  phase   0 deg: best k 0.2699999999999999, worst 1.34x
+  phase  15 deg: best k 0.2699999999999999, worst 1.28x
+  phase  30 deg: best k 0.2699999999999999, worst 1.26x
+  phase  45 deg: best k 0.2599999999999999, worst 1.26x
+  phase  60 deg: best k 0.23999999999999994, worst 1.26x
+  phase  75 deg: best k 0.2899999999999999, worst 1.27x
+  phase  90 deg: best k 0.13, worst 1.37x
+  phase 105 deg: best k 0.14999999999999997, worst 1.30x
+  phase 120 deg: best k 0.23999999999999994, worst 1.34x
+  phase 135 deg: best k 0.19999999999999996, worst 1.38x
+  phase 150 deg: best k 0.3899999999999999, worst 1.40x
+  phase 165 deg: best k 0.17999999999999997, worst 1.44x
+  phase 180 deg: best k 0.16999999999999998, worst 1.46x
+  Best phase on the 5-degree grid: 70 deg, worst 1.26x
+  60 deg (sixth of a turn)                    : k 0.24, worst 1.26x, share of phases as good 30%
+  90 deg (quarter turn)                       : k 0.13, worst 1.37x, share of phases as good 76%
+  120 deg (third of a turn, three placements) : k 0.24, worst 1.34x, share of phases as good 68%
+  2/9 rad = 12.7 deg (the lepton twist)       : k 0.27, worst 1.30x, share of phases as good 43%
+
+2. One heavy part for both jobs: D quarks and the three strengths (one loop from the top's energy)
+  Standard Model alone: 1/alpha3 - 1/alpha12 = -5.53 at 1.1e+13 GeV (zero means the three meet)
+  1 D quark(s): no mass makes them meet
+  2 D quark(s): no mass makes them meet
+  3 D quark(s): no mass makes them meet
+  Fold with link = Higgs value v: M_D = v^2/(k p0) = 5.28e+05 GeV (real fold k = 0.12)
+  Fold with link = Higgs value v: M_D = v^2/(k p0) = 2.43e+05 GeV (phased fold k = 0.26)
+  Proton decay needs the meeting point above about 5e15 GeV (Super-Kamiokande); LHC needs D above about 1.5 TeV.
+
+[exited with code 0]

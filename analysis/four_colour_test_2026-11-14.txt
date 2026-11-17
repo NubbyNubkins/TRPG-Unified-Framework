@@ -1,0 +1,33 @@
+A. Plain 4 colours for QUARKS (N = 4) against data
+   N=3: pi0 width  7.78 eV (meas 7.80+/-0.12), R 3.81 (meas ~3.85), gluons 8, C_A/C_F 2.250 (meas ~2.2)
+   N=4: pi0 width 13.84 eV (meas 7.80+/-0.12), R 5.08 (meas ~3.85), gluons 15, C_A/C_F 2.133 (meas ~2.2)
+   -> 4 quark colours FAILS. The working 4x4 is 3 quark colours + the lepton as the 4th.
+
+B. The Pati-Salam 4x4: SU(4) x SU(2)_L x SU(2)_R
+   B-L inside the 4x4 = diag('1/3', '1/3', '1/3', '-1'), trace = 0  (traceless => charges locked together)
+   SU(4) carriers: 15 = 8 gluons + 1 (B-L boson Z') + 3 + 3bar (6 leptoquark bosons, charge +-2/3)
+   u_L   Q = +0.667
+   d_L   Q = -0.333
+   nu_L  Q = +0.000
+   e_L   Q = -1.000
+   u_R   Q = +0.667
+   d_R   Q = -0.333
+   nu_R  Q = +0.000
+   e_R   Q = -1.000
+   proton charge + electron charge = (2/3+2/3-1/3) + (-1) = 0 -> atoms are exactly neutral by the group itself (the 3x3 version needs the anomaly argument for this)
+   SU(4)^3 anomaly: 2 x A(4) + 2 x A(4bar) = 2 - 2 = 0 -> consistent with no extra conditions
+
+C. Quark masses: what the 4x4 links (mass relations at the Pati-Salam scale)
+   m_b/m_tau at 1e+11 GeV = 0.756   (minimal 4x4 says 1.000)
+   m_b/m_tau at 1e+13 GeV = 0.697   (minimal 4x4 says 1.000)
+   m_b/m_tau at 1e+14 GeV = 0.673   (minimal 4x4 says 1.000)
+   m_b/m_tau at 1e+16 GeV = 0.634   (minimal 4x4 says 1.000)
+   Georgi-Jarlskog (the 4x4's own -3 entry): m_s/m_d = m_mu/(9 m_e) = 23.0; lattice ~ 20.0 -> +15%
+   up and charm are tied to the (unknown) Dirac neutrino masses -> the 4x4 gives NO new handle on the up quark or charm
+
+D. Predictions
+   right-handed neutrino (seesaw) scale ~ m_t^2/m_3 = 5.9e+14 GeV
+   leptoquark gauge bosons: K_L -> mu e < 4.7e-12 requires M > roughly 1000 TeV (out of LHC reach)
+   proton decay: Pati-Salam gauge bosons do NOT decay the proton (consistent with Super-K > 2.4e34 yr)
+   neutron <-> antineutron oscillation possible if B-L breaks by 2 (Mohapatra & Marshak 1980): ESS/NNBAR, DUNE
+   neutrinoless double-beta decay (Majorana neutrinos): LEGEND, nEXO, KamLAND-Zen

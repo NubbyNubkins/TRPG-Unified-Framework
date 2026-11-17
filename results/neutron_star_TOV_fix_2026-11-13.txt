@@ -1,0 +1,37 @@
+The earlier version's EOS, solved properly:
+eps_c=  280  M=2.501 Msun  R=27.97 km  cs2=0.384
+eps_c=  350  M=2.445 Msun  R=24.80 km  cs2=0.433
+eps_c=  430  M=2.465 Msun  R=21.92 km  cs2=0.483
+eps_c=  520  M=2.525 Msun  R=19.93 km  cs2=0.532
+eps_c=  650  M=2.580 Msun  R=18.23 km  cs2=0.591
+eps_c=  780  M=2.597 Msun  R=17.15 km  cs2=0.641
+eps_c=  920  M=2.593 Msun  R=16.34 km  cs2=0.685
+eps_c= 1080  M=2.572 Msun  R=15.66 km  cs2=0.727
+eps_c= 1240  M=2.545 Msun  R=15.14 km  cs2=0.761
+eps_c= 1380  M=2.518 Msun  R=14.78 km  cs2=0.787
+eps_c= 1500  M=2.495 Msun  R=14.51 km  cs2=0.806
+eps_c= 1650  M=2.467 Msun  R=14.23 km  cs2=0.826
+eps_c= 2000  M=2.404 Msun  R=13.73 km  cs2=0.865
+eps_c= 2500  M=2.328 Msun  R=13.24 km  cs2=0.902
+eps_c= 3000  M=2.265 Msun  R=12.91 km  cs2=0.928
+p at nuclear density e=150: 14.184518785809425  (real nuclear matter ~ 0-3 MeV/fm3)
+Earlier EOS, low central densities:
+  eps_c=20 M=1.378 R=47.5
+  eps_c=40 M=1.745 R=41.3
+  eps_c=80 M=2.117 R=35.3
+  eps_c=120 M=2.311 R=32.0
+  eps_c=160 M=2.427 R=29.7
+  eps_c=200 M=2.501 R=28.0
+  eps_c=240 M=2.258 R=32.9
+
+Real nuclear EOS (SLy):  p at e=150: 2.1219928817208555
+SLy max mass 2.049 Msun at R=9.98 km (eps_c=1600)
+SLy 1.4 Msun star: R=11.71 km (M=1.392)
+B= 54.1 (B^1/4=142.8 MeV) wall=0.0: Mmax=2.07 R_Mmax=11.27  R1.4=11.37
+B= 54.1 (B^1/4=142.8 MeV) wall=0.00042: Mmax=2.45 R_Mmax=11.55  R1.4=11.14
+B= 57.0 (B^1/4=144.7 MeV) wall=0.0: Mmax=2.01 R_Mmax=10.97  R1.4=11.01
+B= 57.0 (B^1/4=144.7 MeV) wall=0.00042: Mmax=2.40 R_Mmax=11.34  R1.4=10.76
+B= 60.0 (B^1/4=146.5 MeV) wall=0.0: Mmax=1.96 R_Mmax=10.69  R1.4=10.67
+B= 60.0 (B^1/4=146.5 MeV) wall=0.00042: Mmax=2.35 R_Mmax=11.05  R1.4=11.11
+B= 70.0 (B^1/4=152.3 MeV) wall=0.0: Mmax=1.82 R_Mmax=9.90  R1.4=10.19
+B= 70.0 (B^1/4=152.3 MeV) wall=0.00042: Mmax=2.21 R_Mmax=10.27  R1.4=10.10

@@ -1,0 +1,25 @@
+=== 1. MMG partner ===
+Minimal matrix (determinant cubic, Jordan/Albert): 10 parts all weigh <a>; MMG and D tied -> missing partner FAILS (= an earlier test A-i).
+  D (colour triplet, charge -1/3)  matter number -0.667 -> direct weight F x 0.667
+  D-bar                            matter number +0.667 -> direct weight F x 0.667
+  MMG doublet                      matter number +0.000 -> direct weight ZERO: only through the grain, F^2/grain
+  MMG doublet-bar                  matter number +0.000 -> direct weight ZERO: only through the grain, F^2/grain
+  MMG = F^2/grain = 2.409e+08 GeV (needed 2.2e8 two-loop strengths) -> automatic, no tuning
+  Label: LEAD. Structure follows exactly (MMG has matter number 0); assumption = the far side's weight points along matter number.
+
+=== 2. D link at a fixed point ===
+  self-coefficient 3.0: fixed-point link coupling 0.932; own coupling needed for 34.5: 0.0270 (alpha at meeting 0.0259, ratio 1.04)
+  self-coefficient 4.5: fixed-point link coupling 0.761; own coupling needed for 34.5: 0.0221 (alpha at meeting 0.0259, ratio 0.85)
+  self-coefficient 6.0: fixed-point link coupling 0.659; own coupling needed for 34.5: 0.0191 (alpha at meeting 0.0259, ratio 0.74)
+  A fixed point sets ONE coupling (the link, ~0.6-0.9), not the ratio. Own ~ alpha_meeting is an earlier test B-iii: chi2 31.8 FAIL.
+
+=== 3. Angles = 45 + push of each family's strongest link ===
+  top-link running MZ->grain (avg yt^2=0.3): light/top ratio x1.118; up opening 52.21 -> 52.06 at the grain
+  top-link running MZ->grain (avg yt^2=0.4): light/top ratio x1.160; up opening 52.21 -> 52.01 at the grain
+  top-link running MZ->grain (avg yt^2=0.5): light/top ratio x1.204; up opening 52.21 -> 51.96 at the grain
+   ratio x2: up opening 51.19
+   ratio x5: up opening 49.22
+   ratio x10: up opening 47.11
+   ratio x20: up opening 44.35
+   ratio x50: up opening 39.80
+  Running from the top's link moves the up angle by ~0.3 deg, not 7: FAIL as the cause. Ordering of the four families by strongest link: pattern only (post hoc, ~4% by chance).

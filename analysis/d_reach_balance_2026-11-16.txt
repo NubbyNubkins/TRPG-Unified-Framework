@@ -1,0 +1,24 @@
+band for y (chi2 within 4 of best): [np.float64(32.92), np.float64(35.75)]
+
+1. Even balances (no scales)
+  link = own (even 1:1)                                   y=   1.000 1-k=5.000e-01 chi2=      inf FAIL
+  rule-7 balance link/own = 1/sqrt2                       y=   0.707 1-k=6.667e-01 chi2=      inf FAIL
+  rule-7 inverted sqrt2                                   y=   1.414 1-k=3.333e-01 chi2=      inf FAIL
+
+2. Power-law valley (push r^a vs pull r^-b, a,b=1..4) with each pair of far-side scales
+  in band: grain/MMG, a=3, b=4: y=33.98, chi2=5.69
+  1 of 48 simple valleys land in band
+  exponent needed for F/MMG: 0.2893
+  exponent needed for grain/F: 0.2914
+  exponent needed for grain/MMG: 0.1452
+
+3. One-loop (Coleman-Weinberg) valley: heavy D mass = sqrt(e)*mu
+  mu = F (own=F)       
+  mu = F (own=F)                                          y=   1.311 1-k=3.679e-01 chi2=      inf FAIL
+  mu = grain           
+  mu = grain                                              y=312027.732 1-k=1.027e-11 chi2=      inf FAIL
+  mu = MMG             no valley (y^2<0)
+  the valley exists for any y; mu needed for y=34.5: 9.54e+14 GeV (no scale of the shape sits there)
+
+4. Band width: a random log-uniform y in 1..1000 lands in band 1.2% of the time
+   simple constants inside band (NOT evidence): {'4*pi*e': 34.16, '11*pi': 34.56}

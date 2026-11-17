@@ -1,0 +1,65 @@
+======================================================================================
+1. The lepton family (inputs: electron and muon; everything else below follows)
+======================================================================================
+  scale M_l = 313.8509 MeV; link strength r = 1.414209 (sqrt2 = 1.414214); twist = 0.2222248 +- 0.0000063  (2/9 = 0.2222222)
+  3 x M_l = 941.553 MeV  (the record's M2 step already noted this is 0.35% from the proton, 938.272)
+
+======================================================================================
+2. The colour rule: scale x3, twist x3  ->  (s, c, b), then top, down, up.  NO quark mass is put in.
+======================================================================================
+  signed roots of the tripled family: [64.788, -9.606, 36.872]
+  quark  how                                      predicted            measured     off  sigma
+  t      45-degree balance of (c, b, t)           173260.97   172570.00 +- 290.00  +0.40%   +2.4
+  b      colour rule                                4197.50     4183.00 +- 7.00   +0.35%   +2.1
+  c      colour rule                                1359.54     1273.00 +- 4.60   +6.80%  +18.8
+  s      colour rule (its root is negative)           92.27       93.50 +- 0.80   -1.31%   -1.5
+  d      Cabibbo cell: m_d = m_s |V_us|^2              4.64        4.70 +- 0.07   -1.22%   -0.8
+  u      eta -> 3 pi cell (Q = 22.1 +- 0.7)            2.03        2.16 +- 0.07   -6.00%   -1.9
+  up-quark range from the eta data alone: 1.72 to 2.28 MeV
+  cross-check on the top from a different rule (full Higgs link, y_t = 1): 174.10 GeV vs 173.26 GeV here: +0.49% apart
+
+======================================================================================
+3. What the measured (s, c, b) say on their own, with errors
+======================================================================================
+  scale  M_q =  913.77 +- 1.87 MeV   -> M_q / M_l = 2.911   (rule: 3)
+  twist      =  0.6499 +- 0.0011       -> twist / (2/9) = 2.925  (rule: 3)
+  strength r =  1.4314 +- 0.0017       (45-degree value: 1.4142)
+  All three are 1-3% from the rule, and the whole offset is one number, the charm mass:
+  charm wanted by three separate relations: from (b, t) 1353 MeV; from (s, b) 1372 MeV; from leptons x3 1360 MeV
+  They agree with each other within 1.5%, and all sit 6-8% above the measured m_c(m_c) = 1273.0 +- 4.6 MeV.
+  Charm's mass depends strongly on its definition: 0.99 GeV (at 3 GeV), 1.27 (own scale), 1.55 (half the J/psi), 1.67 (pole).
+
+======================================================================================
+4. Independent support that the bottom is tied to the lighter quarks (Rivero 2026)
+======================================================================================
+  sqrt(m_b) = 3 sqrt(m_s) + sqrt(m_c)  ->  m_b = 4184.5 +- 18 MeV vs measured 4183 +- 7   (+0.04%)
+  This uses the measured strange and charm, so it does not remove an input, but it shows the bottom is not a free number.
+
+======================================================================================
+5. Odds that the colour rule's match is luck (look-elsewhere included)
+======================================================================================
+  rules tried: scale x k, twist x j, for k, j = 1..9 (81 rules). Real (s, c, b) matched by 1 of them (the k = j = 3 one).
+  over all 20 quark triples, triples matched by any rule: ['scb']
+  random triples (log-uniform, 1 MeV to 200 GeV) matched this well by ANY of the 81 rules: 387 in 200000 = 1.9e-03
+  times 20 triples to choose from: about 3.9e-02, i.e. roughly 1 chance in 26.
+  stricter counting: same multiplier for scale and twist (9 rules): 1 chance in 272; only 'x3 = colours' counted: 1 chance in 2439.
+  So between about 1 in 25 and 1 in 2,000 depending on how many rules one says would have counted. Suggestive, not proof.
+
+======================================================================================
+6. The twist 2/9 as a ring number (three placements a third of a turn apart)
+======================================================================================
+  response of a ring between two seats a third of a turn apart: (1/pi^2) sum (1 - cos(2 pi n/3))/n^2 = 0.2222222  (2/9 = 0.2222222)
+  same thing in plain terms: two seats split the ring into arcs of 1/3 and 2/3; the two paths in parallel give
+  (1/3 x 2/3)/(1/3 + 2/3) = 0.2222222 = 2/9.  For N seats: (1/N)(1 - 1/N).
+  measured lepton twist / (2/9) = 1.0000114 +- 0.0000282; so the unit ('one full ring = one radian') holds to about 1 part in 10^5,
+  but that unit is NOT derived (Shulga 2026 calls the same normalization an undetermined matching coefficient).
+  quark triple: three colour links in a row add: 3 x 2/9 = 0.6667; measured 0.6499 +- 0.0011 (the charm offset again).
+
+======================================================================================
+7. Why 3 generations makes the two lepton rules agree
+======================================================================================
+  N = 2: 'self = cross' gives Q = 2/N = 1.0000;  ring fraction left over 1 - 1/N = 0.5000  
+  N = 3: 'self = cross' gives Q = 2/N = 0.6667;  ring fraction left over 1 - 1/N = 0.6667  <- equal only here
+  N = 4: 'self = cross' gives Q = 2/N = 0.5000;  ring fraction left over 1 - 1/N = 0.7500  
+  N = 5: 'self = cross' gives Q = 2/N = 0.4000;  ring fraction left over 1 - 1/N = 0.8000  
+  With 3 generations the balance number (2/3) and the ring's remaining fraction (2/3) coincide, so twist = Q/3 = 2/9 is one statement, not two.

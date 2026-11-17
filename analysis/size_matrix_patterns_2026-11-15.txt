@@ -1,0 +1,60 @@
+
+========================================================================================================
+1. The size matrix (footing A). S = half log of mass ratio; link value M = 2 cosh S = (m1 + m2)/sqrt(m1 m2)
+========================================================================================================
+  Key fact: every size value is a DIFFERENCE of two log masses, S_ij = (L_i - L_j)/2. So the whole matrix holds exactly as many
+  independent numbers as the particle list (one per particle, less one for the unit). Any pattern in it is a pattern in the log masses.
+            electro    muon     tau      up   charm     top    down strange  bottom     nu1     nu2     nu3
+  electron     0.00   -2.67   -4.08   -0.72   -3.91   -6.36   -1.11   -2.60   -4.51   10.54    8.95    8.07
+  muon         2.67    0.00   -1.41    1.95   -1.24   -3.70    1.56    0.06   -1.84   13.20   11.61   10.73
+  tau          4.08    1.41    0.00    3.36    0.17   -2.29    2.97    1.47   -0.43   14.61   13.02   12.14
+  up           0.72   -1.95   -3.36    0.00   -3.19   -5.64   -0.39   -1.88   -3.78   11.26    9.67    8.79
+  charm        3.91    1.24   -0.17    3.19    0.00   -2.45    2.80    1.31   -0.59   14.45   12.86   11.98
+  top          6.36    3.70    2.29    5.64    2.45    0.00    5.26    3.76    1.86   16.90   15.31   14.43
+  down         1.11   -1.56   -2.97    0.39   -2.80   -5.26    0.00   -1.50   -3.40   11.65   10.06    9.18
+  strange      2.60   -0.06   -1.47    1.88   -1.31   -3.76    1.50    0.00   -1.90   13.14   11.55   10.67
+  bottom       4.51    1.84    0.43    3.78    0.59   -1.86    3.40    1.90    0.00   15.04   13.45   12.57
+  nu1        -10.54  -13.20  -14.61  -11.26  -14.45  -16.90  -11.65  -13.14  -15.04    0.00   -1.59   -2.47
+  nu2         -8.95  -11.61  -13.02   -9.67  -12.86  -15.31  -10.06  -11.55  -13.45    1.59    0.00   -0.88
+  nu3         -8.07  -10.73  -12.14   -8.79  -11.98  -14.43   -9.18  -10.67  -12.57    2.47    0.88    0.00
+
+========================================================================================================
+2. Patterns, footing A (usual quoted masses)
+========================================================================================================
+  log-mass span first->third: leptons 8.154, up 11.288, down 6.791
+  P1 'same ratios in every family' (m = A_type x B_generation): rms miss in log 1.253 (a factor 3.50 in mass). FAIL if >> 0.
+  P2 'same shape, stretched' (middle sits at the same fraction of the span): fractions [0.654 0.565 0.44 ] (leptons, up, down)
+      spread 0.214; random tables with a spread this small: 12%
+  P3 'fractions shrink by a fixed factor' (leptons -> up -> down): ratios 1.157, 1.283
+      mismatch 0.104; random tables matching this well (fractions put in size order, the fair way): 13%
+      one reading of the factor (found after looking, so a guess): sqrt(3/2) = 1.2247 gives up 0.534, down 0.436
+  P4 'second step / first step' (spiral vs cone): leptons 0.529, up 0.770, down 1.271
+  P5 'every mass = heaviest x (one number)^integer': best number 0.3662, powers [[8, 3], [11, 5], [7, 4]], worst off-integer 0.240
+      random tables doing at least this well (coarser search): 58%
+  P6 partners in one generation (up vs down, log ratio): [-0.777  2.611  3.72 ]; leptons vs down: [-2.219  0.122 -0.856]
+
+========================================================================================================
+2. Patterns, footing B (all at the Z's energy)
+========================================================================================================
+  log-mass span first->third: leptons 8.186, up 11.734, down 6.922
+  P1 'same ratios in every family' (m = A_type x B_generation): rms miss in log 1.343 (a factor 3.83 in mass). FAIL if >> 0.
+  P2 'same shape, stretched' (middle sits at the same fraction of the span): fractions [0.654 0.523 0.434] (leptons, up, down)
+      spread 0.220; random tables with a spread this small: 12%
+  P3 'fractions shrink by a fixed factor' (leptons -> up -> down): ratios 1.250, 1.204
+      mismatch 0.038; random tables matching this well (fractions put in size order, the fair way): 5%
+      one reading of the factor (found after looking, so a guess): sqrt(3/2) = 1.2247 gives up 0.534, down 0.436
+  P4 'second step / first step' (spiral vs cone): leptons 0.529, up 0.912, down 1.302
+  P5 'every mass = heaviest x (one number)^integer': best number 0.2637, powers [[6, 2], [9, 4], [5, 3]], worst off-integer 0.199
+      random tables doing at least this well (coarser search): 32%
+  P6 partners in one generation (up vs down, log ratio): [-0.715  2.415  4.097]; leptons vs down: [-1.757  0.589 -0.493]
+
+========================================================================================================
+3. The neutrinos as a fourth family (TRPG's predicted masses)
+========================================================================================================
+  middle fraction 0.644 vs charged leptons 0.654: the same because both follow the 45-degree rule
+  (the neutrino masses were derived with it), so this is not an independent pattern.
+
+========================================================================================================
+4. Write the size workbook
+========================================================================================================
+  saved TRPG_Size_Matrices.xlsx

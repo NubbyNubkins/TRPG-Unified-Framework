@@ -1,0 +1,22 @@
+HDE today w and CPL fit (a 0.5-1):
+  c=0.8: w(today)=-1.023  w0=-1.040 wa=+0.541
+  c=0.9: w(today)=-0.946  w0=-0.961 wa=+0.448
+  c=1.0: w(today)=-0.885  w0=-0.898 wa=+0.379
+  c=1.1: w(today)=-0.835  w0=-0.846 wa=+0.325
+  c=1.2: w(today)=-0.793  w0=-0.803 wa=+0.284
+  c=1.5: w(today)=-0.701  w0=-0.708 wa=+0.201
+
+Direction: in HDE w falls with time (wa>0); DESI prefers w rising with time (wa<0).
+
+PantheonPlus: correlation (calibrated) -0.69; LCDM 2.8 sigma
+  HDE c=1: 5.4 sigma
+  HDE best c=0.88: 5.2 sigma
+
+Union3: correlation (calibrated) -0.61; LCDM 3.8 sigma
+  HDE c=1: 4.7 sigma
+  HDE best c=1.12: 4.6 sigma
+  (DESY5: quoted tension not reproducible with these rounded errors; using correlation -0.65)
+
+DESY5: correlation (calibrated) -0.65; LCDM 4.2 sigma
+  HDE c=1: 5.6 sigma
+  HDE best c=1.00: 5.6 sigma

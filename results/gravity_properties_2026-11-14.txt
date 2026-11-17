@@ -1,0 +1,5 @@
+containment field ripple P (M1, glueball)               mass 1.72e+09 eV -> reach ~ 7.21e-16 m
+graviton upper limit (LIGO-Virgo-KAGRA GWTC-3, 2021)    mass 1.27e-23 eV -> reach ~ 9.76e+16 m
+reach of P = 0.72 fm  -> P cannot be gravity (too short by > 10^30)
+GW speed vs light (GW170817): equal to within ~3e-15 -> consistent with massless
+MICROSCOPE (2022): different materials fall alike to 1.5e-15 -> every TRPG layer must feel the same resistance to that level

@@ -1,0 +1,48 @@
+
+========================================================================================================
+1. One shape seen from rotated viewpoints
+========================================================================================================
+  Turning a matrix to face another way never changes its eigenvalues, so every view of one shape would show the SAME mass ratios.
+   charged leptons   lightest/heaviest 2.876e-04   middle/heaviest 5.946e-02
+   down type         lightest/heaviest 1.124e-03   middle/heaviest 2.235e-02
+   up type           lightest/heaviest 1.252e-05   middle/heaviest 7.377e-03
+   neutrinos (TRPG)  lightest/heaviest 7.151e-03   middle/heaviest 1.720e-01
+  The ratios differ by factors of 10 to 100 between families. FAIL: the ladders are not one shape merely seen from different directions.
+
+========================================================================================================
+2. One shape seen at different scales: masses = (one shape's values)^power, plus a turn
+========================================================================================================
+  Then every family's log masses are the same pattern stretched: the middle family sits at the same fraction of each span.
+   charged leptons   middle at 0.654 of the span; span 8.15
+   down type         middle at 0.440 of the span; span 6.79
+   up type           middle at 0.565 of the span; span 11.29
+   neutrinos (TRPG)  middle at 0.644 of the span; span 4.94
+  Charged leptons and neutrinos: 0.654 and 0.644. One shape at two scales HOLDS for the lepton side (expected: TRPG derived the neutrino
+  masses from the same 45-degree rule, with the lightest root mirrored, so this is a consistency check, not independent evidence).
+  Quarks: 0.565 and 0.440. Random middles give a spread this small 12% of the time. FAIL for the quark side.
+
+========================================================================================================
+3. The perspective-free geometry: what stays the same from every viewpoint
+========================================================================================================
+  For the quarks, the quantities no change of viewpoint can alter are the six masses and one triangle: the unitarity triangle, built from
+  the turn between the two ladders. Its shape is measured directly (B-factories, LHCb):
+   angles alpha 91.6 deg, beta 22.7 deg, gamma 65.7 deg; twice its area (the Jarlskog invariant) J = 3.04e-05
+  This IS a measurable geometry assembled from perspectives: each experiment sees one side or one angle, and together they close one
+  triangle. It is established physics (Kobayashi & Maskawa 1973; Jarlskog 1985; Bjorken; Dunietz).
+  A one-shape guess for it, 'the triangle is right-angled' (alpha = 90 deg): fit 91.6 deg, direct measurement about 85 +5 -4 deg (PDG):
+  allowed, not established. If TRPG's geometry made the turn exactly a quarter, that would be a derived angle; it does not yet.
+
+========================================================================================================
+4. 'Transitioning is constant': the geometry in motion
+========================================================================================================
+  Measured cases of constant transition between perspectives of one fixed geometry:
+   - neutrino flavour oscillation: a neutrino moves between its three flavour views without stopping; the geometry behind it (three mass
+     states and one fixed turn, the mixing) does not change (Pontecorvo 1957; Maki, Nakagawa & Sakata 1962; Super-Kamiokande 1998, SNO 2001).
+   - neutral meson mixing (K, D, B mesons): quarks pass back and forth between two views at a fixed rate set by the quark turn (Gell-Mann & Pais 1955).
+  Across scales: the strengths and masses change with energy, but the shape of the turn barely does. The unitarity triangle's
+  angles stay very nearly the same from the Z to unification energies (Babu 1987; Naculich 1993); only its size changes slowly.
+  Across cosmic time: the measured shape has not moved: the electric strength changes by less than about 1e-18 per year (atomic clocks:
+  Rosenband et al. 2008; Lange et al. 2021); less than about 1e-7 over 2 billion years (Oklo: Shlyakhter 1976; Damour & Dyson 1996);
+  the proton/electron ratio by less than about 1e-7 since 7 billion years ago (Bagdonaite et al. 2013).
+  So constant transition HOLDS as physics, in a precise form: things move between perspectives all the time, while the geometry they move
+  through stays fixed to better than one part in ten million. A geometry whose own shape drifted would already have been seen.

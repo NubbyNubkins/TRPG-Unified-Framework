@@ -1,0 +1,37 @@
+==============================================================================
+C. One misalignment for both? (|angle| = 0.26 rad, the TM1 value)
+==============================================================================
+  plane (1, 2): best approximate eta_B = 8.19e-11 (phase 95 deg, delta 144 deg)
+  plane (0, 2): best approximate eta_B = 1.49e-17 (phase 359 deg, delta 199 deg)
+  plane (0, 1): best approximate eta_B = 2.19e-16 (phase 42 deg, delta 182 deg)
+
+==============================================================================
+F. Which delta_CP allows the observed excess?
+==============================================================================
+  delta   0- 30 deg: best approximate 3.2e-10, full equations 0.0e+00 -> too small
+  delta  30- 60 deg: best approximate 1.5e-10, full equations 3.8e-10 -> within 2x
+  delta  60- 90 deg: best approximate 3.5e-10, full equations 2.0e-10 -> too small
+  delta  90-120 deg: best approximate 3.1e-10, full equations 1.8e-10 -> too small
+  delta 120-150 deg: best approximate 3.8e-10, full equations 2.2e-10 -> too small
+  delta 150-180 deg: best approximate 3.2e-10, full equations 1.9e-10 -> too small
+  delta 180-210 deg: best approximate 3.4e-10, full equations 2.0e-10 -> too small
+  delta 210-240 deg: best approximate 4.2e-10, full equations 2.4e-10 -> too small
+  delta 240-270 deg: best approximate 3.8e-10, full equations 2.6e-10 -> too small
+  delta 270-300 deg: best approximate 3.5e-10, full equations 2.1e-10 -> too small
+  delta 300-330 deg: best approximate 3.7e-10, full equations 2.3e-10 -> too small
+  delta 330-360 deg: best approximate 3.9e-10, full equations 2.6e-10 -> too small
+
+==============================================================================
+B. 45 deg as 'equal chance of self vs relationship'
+==============================================================================
+  leptons                          chance of the 'fully related' (democratic) view = 0.50000; uncertainty = 1.00000 bits (max 1)
+  down quarks (own scale)          chance of the 'fully related' (democratic) view = 0.45581; uncertainty = 0.99436 bits (max 1)
+  up quarks (own scale)            chance of the 'fully related' (democratic) view = 0.39272; uncertainty = 0.96653 bits (max 1)
+  down quarks (common scale, P2)   chance of the 'fully related' (democratic) view = 0.44669; uncertainty = 0.99179 bits (max 1)
+  up quarks (common scale, P2)     chance of the 'fully related' (democratic) view = 0.37650; uncertainty = 0.95553 bits (max 1)
+  Leptons sit at the maximum (1.00000 bits). Quarks are below it; colour (the strong force's extra relationships)
+  would be the thing pulling them off. Principle, not derivation.
+0 0.47 approx 4.08e-10 | Radau 1e-06: 2.22e-10 ; Radau 1e-08: 2.22e-10 ; BDF 1e-08: 2.22e-10 ; LSODA 1e-09: 2.22e-10
+1 0.561 approx 3.41e-10 | Radau 1e-06: 2.09e-10 ; Radau 1e-08: 2.09e-10 ; BDF 1e-08: 2.09e-10 ; LSODA 1e-09: 2.09e-10
+2 0.47 approx 3.36e-10 | Radau 1e-06: 1.77e-10 ; Radau 1e-08: 1.77e-10 ; BDF 1e-08: 1.79e-10 ; LSODA 1e-09: 1.77e-10
+3 0.561 approx 3.25e-10 | Radau 1e-06: 1.86e-09 ; Radau 1e-08: 1.27e-09 ; BDF 1e-08: 9.97e-10 ; LSODA 1e-09: 3.15e-09

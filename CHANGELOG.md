@@ -1,0 +1,42 @@
+# Changelog
+
+## 1.2.0 (17 November 2026)
+
+- Paper brought up to 17 November 2026: 28 measured inputs; the force-groups section rewritten (only the strengths remain); the strong coupling added as a dated prediction; results that wait on a measurement are marked "awaiting measurement" and are not counted as established until it returns.
+- New folder `analysis/`: every test run from 14 to 17 November with its saved output, including the tests that failed.
+- New folder `figures/`: the geometry figures and the scripts that draw them.
+- New workbooks in `data/`: quark and gluon, energy, size and three-way carrier matrices.
+- The website is no longer copied into this repository; it is live at https://trpgphysics.org.
+- Working notes and conversation text removed from every script, output and workbook; the tests themselves are unchanged.
+- ORCID added for Matthew Gelfman.
+- Corrections: neutrino sum quoted as 0.0592 to 0.0594 eV, depending on which global fit of the splittings is used; Standard Model strength miss quoted as 8.9% at two loops (was 10.6% from a mixed method); the dark matter candidate's mass is not fixed (the earlier 1.4 keV and 3.4 keV values are withdrawn); quark pairing gap 82 to 97 MeV.
+- Melissa Gelfman added as co-author.
+
+## 1.1.1 (14 November 2026, night)
+
+- Wording corrections in the documents and website so they say only what the theory says. Removed "the proton is the same object as a star". The website's theory page explains each idea four ways (simply, the picture, the math, for physicists).
+
+## 1.1.0 (14 November 2026, evening)
+
+Line-by-line check of all the math.
+
+- Fixed: the tidal number Λ was read off a coarse grid by straight-line interpolation, which overstated it. It is now interpolated in log form on a finer grid. B = 54.1 gives Λ = 550 and passes. The 1.0.0 note saying it fails was itself wrong and is withdrawn.
+- New: `proton_sets_B_2026-11-14.py` sets B = 60.1 (57.1 to 63.7) MeV/fm³ from the proton and Delta masses (cloudy bag model).
+- New: `neutron_stars_no_knobs_2026-11-14.py`. With B from the proton and the measured strong force, the heaviest star is 1.54 to 1.80 solar masses (fails). With a quark pairing gap of 70 to 90 MeV it is 2.00 to 2.18, with Λ₁.₄ = 440 to 570 (passes). The gap is a prediction.
+- New: `quark_link_pattern_2026-11-14.py` tests the 3/6, 4/6, 5/6 link-strength idea for quarks. It fails by about 7σ and is dropped.
+- Fixed: the input count is about 25 against about 28 (the neutrino mixing and strong CP angle had been left out).
+- Fixed: anomaly cancellation fixes the charges for any number of colours; 3 colours is measured, not forced.
+- Fixed: antiparticle rules (colour cannot cancel against a colourless particle; different-flavour neutral quark pairs do not annihilate directly; nucleon-antinucleon pairs annihilate into pions).
+- Relabelled as already known: the tau lifetime (lepton universality) and the Cabibbo relation (Gatto, Sartori and Tonin, 1968).
+- Scorecard tally corrected and explained: 7 PASS, 2 PARTIAL.
+- 24 scripts; `python run_all.py` gives 24 of 24 ok.
+
+## 1.0.0 (14 November 2026)
+
+First public release.
+
+- 21 calculation scripts, all run by `python run_all.py` (21 of 21 pass).
+- Every-particle-to-every-particle workbook, with antiparticle matrices and decays.
+- Paper draft (PDF, Word and Markdown).
+- Website source for trpgphysics.org.
+- `neutron_star_tidal_fix_2026-11-13.py` now prints its results (its main loop had been left commented out).

@@ -1,0 +1,38 @@
+==============================================================================
+1. Which number systems obey the bag's two rules?
+==============================================================================
+  dim  1 real numbers R   Rule A (no holes): PASS (no zero divisors found)                 Rule B (size kept): PASS
+  dim  2 complex C        Rule A (no holes): PASS (no zero divisors found)                 Rule B (size kept): PASS
+  dim  4 quaternions H    Rule A (no holes): PASS (no zero divisors found)                 Rule B (size kept): PASS
+  dim  8 octonions O      Rule A (no holes): PASS (no zero divisors found)                 Rule B (size kept): PASS
+  dim 16 sedenions S      Rule A (no holes): FAILS: (e1+e10)(e4-e15) = 0                   Rule B (size kept): FAILS (error 7.45)
+  Hurwitz's theorem: exactly R, C, H, O pass, and nothing bigger can. The sedenions break both rules.
+
+==============================================================================
+2. What forces can each one carry? (size of its symmetry algebra = number of carriers)
+==============================================================================
+  complex C        symmetry carriers: 0
+  quaternions H    symmetry carriers: 3
+  octonions O      symmetry carriers: 14
+  sedenions S      symmetry carriers: 14
+  C: 0 continuous (only a flip). H: 3 = SO(3), the weak force's size. O: 14 = G2. S: still 14 (nothing new).
+  The strong force has 8 carriers that pull on each other: too big for H (3). Only O's symmetry can hold it.
+
+==============================================================================
+3. Pick one direction in O (one 'perspective'): what is left?
+==============================================================================
+  fix e1: symmetries left = 8
+  fix e2: symmetries left = 8
+  fix e3: symmetries left = 8
+  fix e4: symmetries left = 8
+  fix e5: symmetries left = 8
+  fix e6: symmetries left = 8
+  fix e7: symmetries left = 8  (rank 2; commutes with 'multiply by e7' to 6.1e-16 -> acts on 3 complex directions) = SU(3)
+  Fixed direction + the real axis = 1 colourless complex slot; the other 6 = 3 colours.
+
+==============================================================================
+4. Handedness inside H: left and right actions
+==============================================================================
+  left- and right-multiplication by the same unit quaternion differ: |L - R| = 1.185
+  they commute with each other: |LR - RL| = 2.8e-17 -> two independent SU(2)s (left and right)
+  So H naturally carries SU(2)_L x SU(2)_R (Pati-Salam's two sides). WHICH side is light is not decided by H.

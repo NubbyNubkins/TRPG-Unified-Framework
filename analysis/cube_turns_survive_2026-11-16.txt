@@ -1,0 +1,23 @@
+cube rotations: 24; kept sets with a definite set of directions: 26
+distinct mixing patterns (angles 12, 23, 13 in degrees) the cube allows: 72
+
+closest to the quark mixing (13.00, 2.38, 0.21):
+   (0.0, 0.0, 0.0)  from ('Z2xZ2', 'Z2xZ2')   misses: -325σ, -59σ, -35σ
+   (45.0, 0.0, 0.0)  from ('Z2xZ2', 'Z2xZ2')   misses: +800σ, -59σ, -35σ
+   (0.0, 45.0, 0.0)  from ('Z2xZ2', 'Z2xZ2')   misses: -325σ, +1066σ, -35σ
+closest to the lepton mixing (33.4, 49.0, 8.6):
+   (36.2, 53.8, 12.2)  from ('Z3', 'Z4')   misses: +4σ, +4σ, +30σ
+   (36.2, 36.2, 12.2)  from ('Z3', 'Z4')   misses: +4σ, -11σ, +30σ
+   (53.8, 53.8, 12.2)  from ('Z3', 'Z4')   misses: +27σ, +4σ, +30σ
+
+every angle that ever appears: [0.0, 12.2, 15.0, 19.5, 20.1, 24.1, 26.6, 30.0, 35.3, 36.2, 39.2, 41.8, 45.0, 50.8, 52.1, 53.8, 54.7, 60.0, 63.4, 69.9, 75.0, 90.0]
+   (0, 35.3, 45, 54.7, 90 = the cube's own angles again: body/face/edge directions.)
+
+one kept half-turn on the neutrino side (one free angle), charged leptons keep a 3-turn (Z3):
+   TM1 best: angles (34.33, 49.11, 8.59), chi2 1.56 for 3 angles with 2 free numbers (an earlier test: TM1 works)
+
+Can a kept turn fix a ladder's STEP (its weight ratios)?
+   A kept turn g means g M g^-1 = M (M = the ladder's weight matrix, Hermitian). Check on all 24 rotations:
+   rotations that fix all three directions and leave all three weights free: 14; rotations that leave directions partly free too: 10; rotations that fix an unequal weight ratio: 0
+   (general fact: a symmetry fixes directions; on weights it can only allow 'free' or force 'equal'. Schur's lemma.)
+   -> no turn of the cube can fix a ratio like 0.086 or 0.15. Symmetry gives directions; the steps need a different kind of rule.

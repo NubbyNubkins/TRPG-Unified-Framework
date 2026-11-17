@@ -1,0 +1,23 @@
+== an earlier test: timescape vs DESI DR2 BAO (13 numbers, shape test, amplitude free) ==
+flat LCDM: Om=0.297 chi2=10.54 (13-2 dof)  c/(H0 rd)=29.52
+flat CPL (BAO only, poorly bounded): Om=0.386 w0=-0.18 wa=-2.71 chi2=5.81 (13-4 dof)
+timescape: fv0=0.685 (1-sigma 0.680-0.690) chi2=15.67 (13-2 dof)  c/(H0 rd)=31.51
+timescape at Seifert+2025 SN value fv0=0.737: chi2=67.72 (13-1 dof)
+Delta chi2 (timescape - LCDM), same parameter count: +5.13
+
+per-point pulls (data - model)/sigma, LCDM | timescape:
+ z=0.51: DM +1.99 | +0.91   DH -1.42 | -0.49
+ z=0.706: DM -0.35 | -0.90   DH -1.65 | -0.35
+ z=0.934: DM -0.67 | -0.73   DH +0.85 | +2.54
+ z=1.321: DM -0.45 | -0.22   DH +0.61 | +1.07
+ z=1.484: DM +0.76 | +0.87   DH -0.11 | -0.05
+ z=2.33: DM +0.26 | +0.27   DH -0.05 | -1.54
+ z=0.295: DV +0.53 | -1.46
+
+If the universe were timescape, a CPL fit (Om fixed) to its distance shape reads:
+ Om=0.3: fv0 best -> w0=-0.67, wa=-0.19;  fv0=0.737 -> w0=-0.56, wa=-1.05
+ Om=0.31: fv0 best -> w0=-0.67, wa=-0.31;  fv0=0.737 -> w0=-0.53, wa=-1.27
+ Om=0.32: fv0 best -> w0=-0.65, wa=-0.44;  fv0=0.737 -> w0=-0.49, wa=-1.52
+ DESI DR2 combined fits: w0 -0.84..-0.67, wa -0.62..-1.09 (wa<0).
+
+dressed q0 at fv0=0.685: -0.034; at 0.737: -0.042 (apparent acceleration begins at fv=0.587)

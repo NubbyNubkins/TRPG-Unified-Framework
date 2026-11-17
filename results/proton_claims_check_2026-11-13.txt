@@ -1,0 +1,5 @@
+Delta width with the earlier version f=2.18: 58.4 MeV (the earlier version claimed 114.2; measured 117). f needed for 117: 3.08
+gA from stated formula: 1.2265 (the earlier version then adds +0.0517 by hand -> 1.2781)
+mu_p, mu_n from Z2*bare: 2.094, -1.396 (the earlier version typed 2.368, -1.518, then +/-0.412)
+Delta m_np: uses PDG m_d-m_u as input and multiplies EM energy by a chosen 2.85
+von Laue: wall tension rescaled by scale_b=-int_q/int_b, so residual = 0 by construction

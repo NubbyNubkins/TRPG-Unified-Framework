@@ -1,0 +1,138 @@
+
+====================================================================================================
+A1. How many 'i' does the three-way matrix have? (An 'i' = a way to turn every state a quarter turn that all the turns respect)
+====================================================================================================
+  Matrices that commute with all 46 turns of the three-way product: 2 (the number 1 and one 'i'). With the 45: 2.
+  That one 'i' squared = -1 (error 3e-12). So the whole three-way structure has exactly ONE i, up to its sign.
+  Matrices that commute with only the 12 force carriers: 14. With the 12 alone, each of the six kinds of state could be given its own
+     i, with its own sign: each kind could be made left or right separately. The whole structure does not allow that: one sign for all.
+  -> There are two choices and only two: i or -i. That is the observer's facing direction, forward or backward.
+
+====================================================================================================
+A2. Is the world its own mirror image? And which pairs of states can link with nothing else present?
+====================================================================================================
+  Charges of the 16 states: [-0.6667, -0.5, 0.0, 0.1667, 0.3333, 1.0]. Their mirror would need: [-1.0, -0.3333, -0.1667, 0.0, 0.5, 0.6667]. Same list: False.
+  Pairings of two states allowed with nothing else present: under all 45 turns: 0; under the 12 carriers: 1.
+     That one pairing joins a state of charge +0.000 (colours 1, single) with itself: weight on it 1.000.
+  -> The list of states is not its own mirror image, and no state can pair off with another by itself, except the hidden neutrino partner
+     with itself. That one exception is the standard reason the hidden partners are very heavy (Minkowski 1977; Yanagida 1979).
+
+====================================================================================================
+A3. Mass without the words 'left' and 'right': the link through the far side of the matrix
+====================================================================================================
+  Checks: (1,1,1) is the unit (error 0e+00); the link states sit half-way from the spot (error 0e+00); the far side has 10 parts.
+  Two link states combine (two-way) into the far side only (leak 0e+00); the far side is reached in all 10 of its parts.
+  The 45 turns act consistently on the far side (error 6e-15).
+  What the far side is, under the 12 carriers:
+     colours 1, pair, charge -0.5000: 2 parts
+     colours 1, pair, charge +0.5000: 2 parts
+     colours 3, single, charge -0.3333: 3 parts
+     colours 3, single, charge +0.3333: 3 parts
+  Strength of the link between two kinds of state through the COLOURLESS weak pair of the far side (0 = no link):
+                                     quark pair     lepton pair      up partner    down partner  electron partn  hidden neutrin
+     quark pair                           0.000           0.000           4.500           4.500           0.000           0.000
+     lepton pair                          0.000           0.000           0.000           0.000           1.500           1.500
+     up partner                           4.500           0.000           0.000           0.000           0.000           0.000
+     down partner                         4.500           0.000           0.000           0.000           0.000           0.000
+     electron partner                     0.000           1.500           0.000           0.000           0.000           0.000
+     hidden neutrino partner              0.000           1.500           0.000           0.000           0.000           0.000
+  Per single state: up partner 1.500; down partner 1.500; electron partner 1.500; hidden neutrino partner 1.500
+  -> Every state has exactly one mass partner: a member of a weak pair links to a single state, through the colourless weak pair of charge 1/2
+     that sits on the far side of the matrix (the Higgs field's numbers: 4 parts). No 'left' or 'right' was used. Mass = the link between a
+     paired state and a single state, made through the part of the matrix away from the observer.
+     ATTACK 1: the four links come out EQUAL in strength. Taken alone that says top = bottom = tau. Measured: top is 60 to 80 times bottom
+     at every energy from the Z upward. So this gives WHICH links exist, not their sizes. Sizes stay where earlier tests left them.
+     ATTACK 2: the far side also has 6 coloured parts (charge 1/3). If they existed as light particles the proton would decay. Known problem
+     (Dimopoulos & Georgi 1981). In TRPG they are entries of the matrix, not particles, but that has to be said, not assumed.
+
+====================================================================================================
+A4. So can 'handedness' be removed and replaced by the perspective? The reasoning, step by step
+====================================================================================================
+  1. Each of the 16 states is a spinning wave. Relativity's simplest spinning wave has ONE screw sense and is written with an i (Weyl 1929).
+  2. Quantum mechanics uses one i for everything (Stueckelberg 1960; tested by Renou et al. 2021). An inherited rule, like relativity.
+  3. The three-way matrix has exactly one i for all its states together, the observer's facing direction (A1).
+  4. Same i for the wave and for the states: then all 16 states get the same screw sense relative to their charges. No state can be
+     flipped separately (A1: one sign for all), and nothing is doubled.
+  5. Facing the other way (i -> -i) then changes three names at once: matter <-> antimatter, left <-> right, i <-> -i. These are not three
+     facts. And which sense is called 'left' is only a name: a world with every sense reversed is ours seen in a mirror.
+  6. What is physical, and measured (Lee & Yang 1956; Wu 1957): the world is not its own mirror image. That follows from A2.
+  7. ATTACK: give the wave its own separate i. Then every state comes in both screw senses: mirror states. A state and its mirror can
+     always pair off with no Higgs, so the measured masses would have no reason; and rule 6 (nothing extra) forbids the doubling.
+     ATTACK: use the 12 carriers alone, without the whole three-way structure. Then each kind of state could be flipped separately (A1: 14
+     commuting matrices); most such choices fail the consistency sums. The whole structure allows no such choice.
+  -> HOLDS. Nothing the main line has uses 'left' or 'right' as a separate idea: the 12 carriers, the charges, the consistency sums, the
+     mass links, pion decay (37.6), neutrino masses and the matter excess all go through unchanged. The earlier added reading 'spin uses
+     the same i as the states' is not removed: it becomes part of rule 4, 'one perspective, one i'. One reading fewer, same content.
+     What stays inherited, not derived: that matter is made of spinning waves at all (step 1) and that there is one i (step 2).
+
+====================================================================================================
+B1. Gravity's strength as a number
+====================================================================================================
+  Gravity has no strength 'by itself': G carries units. As a pure number it is a ratio. With the proton as the unit (the 'proton = 1'):
+     grain energy (Planck) = 1.2209e+19 GeV = 1.301e+19 protons;  gravity between two protons, as a pure number: 5.906e-39 (the electric force: 1/137).
+     The honest size of the question is the logarithm: ln(grain / proton) = 44.01.
+  In TRPG : entanglement across a surface grows with its area (Bombelli et al. 1986; Srednicki 1993), and that gives
+     Einstein's equations with G = 1/(4 x entanglement per area) (Jacobson 1995). So gravity's strength IS the fineness of the links of space.
+
+====================================================================================================
+B2. Is gravity's strength a separate number from the force strengths? (Two-loop running, as in an earlier test)
+====================================================================================================
+  Strong = weak at 10^16.46 GeV, where 1/strength = 46.1 (hypercharge there: 37.0).
+  At the grain energy: 1/strength = 33.0 (hypercharge), 49.1 (weak), 52.9 (strong).
+  The strong force grows slowly from there down to the proton: one-loop count of the logarithm = 2 pi/(7 x strength) = 47.5,
+     against ln(grain/proton) = 44.0 (the difference is the heavy-quark steps and the proton's size in units of the strong scale).
+  -> Known physics (Gross & Wilczek 1973; Politzer 1973; Wilczek 2001): the proton is light against the grain BECAUSE the strong force is
+     weak at the grain (about 1/53) and strengthens only logarithmically. So gravity's strength and the force strengths are TIED: gravity's
+     weakness is the same fact as the strong force's weakness at the grain of space. This is the proposed tie. It trades one number
+     for another; the count of measured numbers does not drop, and nothing is derived yet.
+  TEST: 'gravity is as strong as the other forces where they meet each other'. Gravity's number at energy E is (E/grain)^2. At the meeting
+     energy it is 5.7e-06, against 0.0217 for the others: 3,806 times too weak. Put the other way: this predicts a grain
+     energy of 10^17.30 GeV against the measured 10^19.09. FAIL as a number (62x in energy), though on the
+     logarithmic scale it lands at 91% of the way from the proton to the grain. (Same known gap as Kaplunovsky 1988.)
+     Gravity actually reaches the others' strength at about 10^18.24 GeV, 60 times above the meeting energy.
+  TEST: 'gravity's strength from counting TRPG's own states' (Sakharov 1967; Dvali 2007). States: 3 x 16 matter x 2 + 12 carriers x 2 + 4 Higgs = 124.
+     Grain = Planck/sqrt(N) = 10^18.04 GeV to Planck x sqrt(12 pi/N) = 10^18.83 GeV, depending on how the cut is made.
+     The count turns a grain SIZE into a strength; it does not give the size. No TRPG scale sits there. FAIL as a derivation.
+
+====================================================================================================
+B3. Gravity and the Higgs field, in both directions
+====================================================================================================
+  Direction 1, 'the Higgs field sets gravity's strength' (Zee 1979): needs a Higgs-to-curvature link of 9.8e+31.
+     Measured limit from Higgs rates at the LHC: below 2.6e15 (Atkins & Calmet 2013). FAIL by a factor 4e+16.
+     With an ordinary link (1/6), the Higgs field changes gravity's strength by 2e-33 of itself. Nothing.
+  Direction 2, 'gravity's grain sets the Higgs' (Shaposhnikov & Wetterich 2010, who predicted 126 GeV two years before the discovery):
+     the Higgs's hold must fade to zero exactly at the grain. With today's top mass that needs a Higgs of 128.3 +/- 1.2 GeV (Buttazzo et al. 2013);
+     measured 125.2. Off by 2.5%, 2.6 sigma (the same test as an earlier test, B4). A near miss, strict FAIL. The hold fades near
+     10^10.5 GeV, the region of TRPG's hidden neutrino partners (about 10^9 to 10^11 GeV), not the grain. That stays a lead.
+  The Higgs and dark energy: the Higgs balance stores (104 GeV)^4. Dark energy is (2.25 meV)^4. Ratio 4.6e+54.
+     If stored balance energy acted as dark energy the universe would not exist as it is (Weinberg 1989). In gravity-from-entanglement it does
+     not: there the dark energy is a constant fixed once, not the energy of any field (Jacobson 1995; Einstein 1919). In TRPG words: it is a
+     kept amount of the bag (rule 2), set at the pop. HOLDS as the form (and it is required, or the Higgs would wreck gravity). No value.
+     Prediction of this form: dark energy never changes (w = -1 exactly). DESI 2025 hints at a change (2.8 to 4.2 sigma). Live test.
+
+====================================================================================================
+B4. TRPG's dark matter: 'the gravity-only class'. Does the main line have a member?
+====================================================================================================
+  The only state with no force charge at all is the hidden neutrino partner (A2), the very state the observer keeps exactly.
+     lightest (matter-excess fit)  3.6e+04 GeV: it decays through the same link that gives the neutrino its mass; lifetime about 1e-15 s or less
+     lightest            7.0e+05 GeV: it decays through the same link that gives the neutrino its mass; lifetime about 3e-18 s or less
+     middle                        1.3e+09 GeV: it decays through the same link that gives the neutrino its mass; lifetime about 3e-26 s or less
+     heaviest                      6.3e+10 GeV: it decays through the same link that gives the neutrino its mass; lifetime about 3e-30 s or less
+     Age of the universe: 4.4e+17 s. FAIL by more than 30 powers of ten: they are gone in the first instant. A partner made stable would
+     leave its neutrino massless, against TRPG's own lightest neutrino (0.36 meV).
+  The other reading, 'dark matter is entanglement's response, not particles' (Verlinde 2017): predicts an acceleration scale c H0/6 = 1.09e-10 m/s^2;
+     galaxies show 1.20e-10 +/- 0.24e-10 (McGaugh, Lelli & Schombert 2016). Right size. But published tests of the detailed galaxy pattern, the
+     Solar System and galaxy clusters go against it (Lelli, McGaugh & Schombert 2017; Hees, Famaey & Bertone 2017; Halenka & Miller 2020),
+     and it has no account of the pattern in the cosmic background. Not carried forward.
+  -> The main line has no dark matter candidate among its states. That is an open item the list did not show. So is dark energy's amount:
+     one measured number that the input table (40.5) left out. Honest count.
+
+====================================================================================================
+B5. Quark mixing: what the main line already gives, strictly
+====================================================================================================
+     |V_us| = sqrt(m_d/m_s)  (Gatto, Sartori & Tonin 1968) predicted 0.2231, measured 0.2243 +/- 0.0008: -0.6 sigma
+     |V_td/V_ts| = sqrt(m_d/m_s)  (Fritzsch 1977)         predicted 0.2231, measured 0.2070 +/- 0.0030: +4.6 sigma
+     |V_ub/V_cb| = sqrt(m_u/m_c)  (Fritzsch 1977)         predicted 0.0443, measured 0.0929 +/- 0.0056: -8.5 sigma
+  The Cabibbo number and the down mass are already tied in TRPG (one follows from the other, an earlier test). The same rule on the other two fails.
+  A3 says the simplest mass link gives NO mixing at all; measured mixing is small (13.0, 2.4 and 0.2 degrees), so that is the right starting
+  point, and what is open is the small tilt between the up and down placements. It did not come out of gravity or the Higgs here.

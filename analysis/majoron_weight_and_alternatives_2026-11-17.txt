@@ -1,0 +1,29 @@
+(A) Black holes made at the start as the dark matter (Hawking 1971; Carr & Hawking 1974): needs no particle
+   start level 1e+06 GeV: hole mass 2e+20 g; ripple needed 1.7e-03 (held-energy era) or 0.05 (light era); measured on large sizes 4.6e-5: short by 37x
+   start level 1e+07 GeV: hole mass 2e+18 g; ripple needed 1.1e-03 (held-energy era) or 0.05 (light era); measured on large sizes 4.6e-5: short by 23x
+   start level 1e+08 GeV: hole mass 2e+16 g; ripple needed 6.8e-04 (held-energy era) or 0.05 (light era); measured on large sizes 4.6e-5: short by 15x
+   start level 1e+09 GeV: hole mass 2e+14 g; ripple needed 4.3e-04 (held-energy era) or 0.05 (light era); measured on large sizes 4.6e-5: short by 9x
+   open window for such holes as all the dark matter: 1e17 to 1e22 g (Carr, Kohri, Sendouda & Yokoyama 2021)
+
+(B) One setting for both far-side jobs (D's weight F and the hidden partners' weights)
+   F = 4.56e+13 GeV; a link cannot exceed about 3.5 -> settling value f >= 1.84e+13 GeV (the examples in an earlier test used 6.3e10)
+   largest link 3.5    : f = 1.84e+13; majoron weight x angle^4 = 1.2e-06 eV; heaviest partner's link 4.8e-03; jitter limit on the start's stretching 5.3e+08 GeV x angle
+   link root 2 (f = F) : f = 4.56e+13; majoron weight x angle^4 = 3.2e-08 eV; heaviest partner's link 2.0e-03; jitter limit on the start's stretching 1.3e+09 GeV x angle
+   link 1              : f = 6.45e+13; majoron weight x angle^4 = 8.0e-09 eV; heaviest partner's link 1.4e-03; jitter limit on the start's stretching 1.8e+09 GeV x angle
+   with angles 0.3 to 3: weight between about 4e-10 and 2e-4 eV (was: far below 1 eV up to 350 keV)
+
+(C) Weight rule tried: the tilt comes through the grain like the MMG's weight: majoron weight = (Higgs value)^2 / grain
+   Higgs value 174 GeV: weight 3.5e-06 eV; largest link: starting angle needed 0.77 (random average 1.81; largest 3.14)
+   Higgs value 174 GeV: weight 3.5e-06 eV; f = F: starting angle needed 0.31 (random average 1.81; largest 3.14)
+   Higgs value 246 GeV: weight 7.0e-06 eV; largest link: starting angle needed 0.64 (random average 1.81; largest 3.14)
+   Higgs value 246 GeV: weight 7.0e-06 eV; f = F: starting angle needed 0.26 (random average 1.81; largest 3.14)
+   luck: the allowed weights span about 5 tens, and 8 simple balance points were already tried in an earlier test: a landing here is expected by chance. HINT only.
+
+(D) CORRECTION to (B): the settling piece carries matter number 2 and a D pair carries none, so 'link x f' is not allowed for D.
+    The allowed form is F = f^2 / (a larger energy). Largest energy available: the grain. Smallest: f itself.
+   f = F (smallest)                                : f = 4.56e+13 GeV; majoron weight x angle^4 = 3.2e-08 eV
+   f = root(F x grain): everything through the grain: f = 1.98e+16 GeV; majoron weight x angle^4 = 8.9e-19 eV
+   chain through the grain: f = 1.98e+16 -> F = f^2/grain = 4.56e+13 -> MMG = F^2/grain = 2.41e+08 GeV
+   wave-too-light limit 2e-20 eV (Rogers & Peiris 2021): starting angle must be below 2.59
+   wave-too-light limit 3e-19 eV (Dalal & Kravtsov 2022, as recalled): starting angle must be below 1.31
+   heaviest hidden partner's link: 4.5e-06; jitter limit on the start's stretching: 5.7e+11 GeV x angle

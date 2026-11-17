@@ -1,0 +1,35 @@
+(a) Each ladder as ONE triangle turned by the rotation formula and scaled
+  neutrinos  size e=1.0707  turn= 20.86 deg  rebuilt/actual = [1. 1. 1.]
+  leptons    size e=1.4142  turn= 12.73 deg  rebuilt/actual = [1. 1. 1.]
+  hidden     size e=1.6299  turn=  7.45 deg  rebuilt/actual = [1. 1. 1.]
+  down       size e=1.5452  turn=  6.31 deg  rebuilt/actual = [1. 1. 1.]
+  up         size e=1.7586  turn=  4.27 deg  rebuilt/actual = [1. 1. 1.]
+
+(b) Is one ladder a pure spiral (same turn, same factor each step)?  shrink k = ln(step2)/ln(step1); pure log spiral needs k=1
+  neutrinos  steps x     23.9 then x   5.8   k = 0.554
+  leptons    steps x    206.8 then x  16.8   k = 0.529
+  hidden     steps x   1785.2 then x  48.7   k = 0.519
+  down       steps x     19.9 then x  44.7   k = 1.271
+  up         steps x    589.4 then x 135.6   k = 0.770
+  at the Z footing: up k = 0.909, down k = 1.346
+
+(c) lightest neutrino for which the neutrino spiral shrinks exactly like the lepton spiral
+  m1 0.00 meV: neutrino k nan  hidden k -0.732   (lepton 0.529)
+  m1 0.10 meV: neutrino k 0.395  hidden k 0.626   (lepton 0.529)
+  m1 0.25 meV: neutrino k 0.497  hidden k 0.545   (lepton 0.529)
+  m1 0.36 meV: neutrino k 0.554  hidden k 0.519   (lepton 0.529)
+  m1 0.50 meV: neutrino k 0.618  hidden k 0.497   (lepton 0.529)
+  m1 0.75 meV: neutrino k 0.719  hidden k 0.473   (lepton 0.529)
+  m1 1.00 meV: neutrino k 0.812  hidden k 0.458   (lepton 0.529)
+  m1 2.00 meV: neutrino k 1.167  hidden k 0.426   (lepton 0.529)
+  m1 5.00 meV: neutrino k 2.351  hidden k 0.403   (lepton 0.529)
+  equal at m1 = 0.310 meV
+  chance a random m1 (0.01-30 meV) lands this close: 4%
+
+(d) Across ladders: one spiral through all of them? (turn angle vs size, view from above)
+  up         turn   4.27  size e 1.759  opening 51.20  Archimedean: turn/(54.74-opening) = 1.21   log: ln(2/e)/turn = 0.0301
+  down       turn   6.31  size e 1.545  opening 47.53  Archimedean: turn/(54.74-opening) = 0.88   log: ln(2/e)/turn = 0.0409
+  hidden     turn   7.45  size e 1.630  opening 49.05  Archimedean: turn/(54.74-opening) = 1.31   log: ln(2/e)/turn = 0.0275
+  leptons    turn  12.73  size e 1.414  opening 45.00  Archimedean: turn/(54.74-opening) = 1.31   log: ln(2/e)/turn = 0.0272
+  neutrinos  turn  20.86  size e 1.071  opening 37.13  Archimedean: turn/(54.74-opening) = 1.18   log: ln(2/e)/turn = 0.0300
+  turn ratios ladder to ladder: [1.48 1.18 1.71 1.64]

@@ -1,0 +1,207 @@
+
+==============================================================================================================
+1. The Standard Model alone: one number for the miss, and the three older numbers reconciled
+==============================================================================================================
+Method A (the standard one): inputs = electric strength and strong strength at the Z; demand that all three lines meet at one energy;
+that fixes the weak mixing number sin^2 at the Z. Compare with the measured 0.23122 +- 0.00004.
+  one loop , top kept from the Z   : sin^2 = 0.20756  (-10.23%)
+  one loop , top decoupled below m_t: sin^2 = 0.20765  (-10.20%)
+  two loops, top kept from the Z   : sin^2 = 0.21065  (-8.89%)
+  two loops, top decoupled below m_t: sin^2 = 0.21073  (-8.86%)
+
+Error budget on the predicted sin^2 (two loops):
+  alpha_s +-0.0009            : -0.00026
+  1/alpha +-0.009             : -0.00000
+  top link +-0.005            : +0.00000
+  top threshold treatment     : +0.00008  (full difference between the two treatments)
+  three loops, not computed   : +-0.00020  (estimate: (two-loop step +0.0031)^2 / one-loop total, x3, floor 0.0002)
+  total theory                : +-0.00034;  measurement +-0.00004;  combined +-0.00034
+
+  ONE NUMBER: Standard Model alone predicts sin^2 = 0.2107 +- 0.0003; measured 0.23122. Miss = -8.9% +- 0.1%
+              = -60 combined sigma. FAIL.
+
+The same miss seen three other ways (same running, two loops, top decoupled):
+  Method C (an earlier test's): use the MEASURED sin^2, find where strong = weak (2.82e+16 GeV, 1/alpha = 46.2); there hypercharge is off by -9.07 in 1/alpha.
+     one loop: -10.54 at 9.44e+16 GeV. an earlier test turned this into a sin^2 at the Z of 0.2067 (-10.6%): a mixed method, retired.
+  Triangle: where weak = hypercharge (1.10e+13 GeV, 1/alpha = 42.3) the strong line is off by -4.89 in 1/alpha (two loops)
+     one loop, top kept from the Z (the earlier number): -5.58 at 1.03e+13 GeV
+  Method B: inputs alpha and sin^2; predict the strong strength at the Z: 0.0740 against 0.1180 +- 0.0009 (-37%)
+  Reconciled: -10.2% = Method A at one loop; -8.9% = Method A at two loops (top kept from the Z; -8.9% also with the top decoupled);
+              -10.6% = the earlier mixed method. The number to quote is Method A at two loops.
+
+==============================================================================================================
+2. Far-side spin-1/2 weak pairs (three, one per placement): the mass that closes the triangle, with its error
+==============================================================================================================
+D partners at (or above) the meeting. Two loops, top decoupled: M_L = 2.226e+08 GeV; meeting at 4.561e+13 GeV; 1/alpha there = 38.97
+  one loop, top from the Z  : M_L = 2.606e+07 GeV
+  two loops, top from the Z : M_L = 2.127e+08 GeV
+  one loop, top decoupled             : M_L = 2.748e+07 GeV
+Slope: the predicted sin^2 changes by -0.00328 for each factor 10 in M_L.
+  alpha_s +-0.0009    : -0.059 decades in M_L
+  sin^2 +-0.00004     : -0.012 decades in M_L
+  1/alpha +-0.009     : -0.000 decades in M_L
+  top link +-0.005    : +0.000 decades in M_L
+  top threshold       : +0.020 decades
+  three loops (est.)  : +-0.061 decades
+  TOTAL: log10(M_L) = 8.35 +- 0.09  ->  M_L = 2.23e+08 GeV, range 1.82e+08 to 2.73e+08 GeV (1 sigma)
+         2 sigma: 1.48e+08 to 3.34e+08 GeV
+
+Fewer light pairs (the other placements' pairs at the meeting):
+  1 light pair(s): no mass above 3 GeV closes it
+  2 light pair(s): M_L = 5.05e+05 GeV
+
+THE HIDDEN SECOND NUMBER: where the D partners sit. If they are lighter than the meeting, the weak pairs must be lighter too:
+   M_D (GeV)  M_L needed  M_D / M_L  meeting (GeV) 1/alpha there
+    3.00e+13   1.466e+08  2.047e+05      4.573e+13         38.83
+    1.00e+13   4.898e+07  2.042e+05      4.604e+13         38.47
+    1.00e+12   4.921e+06  2.032e+05      4.674e+13         37.72
+    1.00e+11   4.936e+05  2.026e+05      4.749e+13         36.96
+    1.00e+10   4.941e+04  2.024e+05      4.831e+13         36.21
+    1.00e+09   4.930e+03  2.028e+05      4.921e+13         35.45
+    1.00e+08   4.898e+02  2.041e+05      5.020e+13         34.68
+    4.20e+07   2.049e+02  2.049e+05      5.060e+13         34.39
+    2.10e+07   1.021e+02  2.057e+05      5.093e+13         34.16
+    1.00e+07   none above 3 GeV
+    1.00e+06   none above 3 GeV
+    5.28e+05   none above 3 GeV
+    2.50e+05   none above 3 GeV
+  The strengths fix only the RATIO: M_D / M_L = 2.04e+05 (5.3 decades), anywhere from M_L = about 100 GeV to 2.2e+08 GeV.
+  (If the D partners are at or above the meeting, M_L = 2.23e+08 GeV and the 'ratio' is meeting/M_L = 2.05e+05.)
+  Bounds: charged weak-pair partners above 103.5 GeV (LEP), roughly 200 GeV for pure pairs (LHC disappearing tracks);
+  so M_D must be above about 2.1e+07 to 4.1e+07 GeV for the triangle to close.
+  The fold's D with link = Higgs value (k = 0.25, link = balance): M_D = 2.53e+05 GeV -> weak pairs would need M_L = 1.24 GeV: EXCLUDED (LEP). 'Both jobs' FAILS for every M_L.
+  The fold's D with link = Higgs value (phased fold k = 0.26): M_D = 2.43e+05 GeV -> weak pairs would need M_L = 1.19 GeV: EXCLUDED (LEP). 'Both jobs' FAILS for every M_L.
+  The fold's D with link = Higgs value (real fold k = 0.12): M_D = 5.28e+05 GeV -> weak pairs would need M_L = 2.59 GeV: EXCLUDED (LEP). 'Both jobs' FAILS for every M_L.
+
+==============================================================================================================
+3. Checks at the meeting point and on the pairs themselves
+==============================================================================================================
+Meeting: 4.56e+13 GeV, 1/alpha = 39.0. Above it the three lines part again unless the theory changes there (no merged force in the main line).
+  Carried on to the grain (unreduced Planck mass) with the whole far side counted: 1/alpha = 26.7 (hypercharge), 41.1 (weak), 48.8 (strong)
+If carriers that turn quarks into leptons sat at the meeting (as in Georgi-Glashow): proton lifetime about M^4/(alpha^2 m_p^5) = 1.9e+26 years
+  (rough to a factor 10). Super-Kamiokande 2020: p -> e+ pi0 longer than 2.4e34 years. FAIL by a factor 1e+08.
+  A meeting with such carriers must sit above about 4.8e+15 GeV. So the main line survives ONLY because it has no such carriers (43.4).
+  Gravity alone (Planck-suppressed): about 6e+44 years. No signal expected at Hyper-Kamiokande.
+
+The pairs: a charged member and a neutral member. Loops make the charged one heavier by about 0.34 GeV (Thomas & Wells 1998;
+  Cirelli, Fornengo & Strumia 2006), so it decays to the neutral one and a pion in about 1e-11 s. Does the neutral one decay?
+  It has the same charges as the ordinary lepton pair, so it can mix with it, exactly as the D mixes with the down quarks (the fold).
+    mixing link 1e-06: lifetime 1.5e-19 s
+    mixing link 1e-10: lifetime 1.5e-11 s
+    mixing link 1e-14: lifetime 1.5e-03 s
+  To be gone before the light elements form (0.1 s) the link need only exceed 1e-15. Any fold-like mixing does it.
+  If the neutral one were exactly stable and the early universe was ever hotter than M_L: leftover = 0.12 x (M_L / 1.1 TeV)^2 = 5e+09
+    against the measured dark matter 0.120: too much by 4e+10. (Any stable thermal relic above about 1e5 GeV overcloses: Griest & Kamionkowski 1990.)
+    And a Z-coupled relic scatters on nuclei at about 1e-39 cm^2; LZ 2024 allows about 2e-41 cm^2 at this mass (scaled linearly). Excluded as the dark matter.
+  So: either the neutral member decays (fold-like mixing), or the start was colder than about M_L/20 = 1e+07 GeV.
+  The cold, non-thermal start of an earlier test (combination 3) already satisfies the second; the fold-like mixing satisfies the first. No conflict.
+  Light-element formation (BBN) and the microwave background: no effect; the pairs are gone or were never made. Colliders: out of reach by 4 decades.
+
+==============================================================================================================
+4. Every fixed rule for the far-side pair mass (D partners at the meeting, the most favourable case)
+==============================================================================================================
+Combined error on sin^2: +-0.00034 (0.15%). 'sigma' below uses it. Exact closure needs 2.23e+08 GeV.
+
+(i) Electron-gravity balance and its relatives
+  sqrt(m_e x M_Planck)  [unreduced]                           7.899e+07 GeV   sin^2 = 0.23269 (+0.64%, +4.3 sigma)  FAIL
+  sqrt(m_e x M_Planck)  [reduced]                             3.527e+07 GeV   sin^2 = 0.23384 (+1.13%, +7.7 sigma)  FAIL
+  v^2/m_e (v = 246.22)                                        1.186e+08 GeV   sin^2 = 0.23212 (+0.39%, +2.6 sigma)  FAIL
+  (v/sqrt2)^2/m_e                                             5.932e+07 GeV   sin^2 = 0.23310 (+0.81%, +5.5 sigma)  FAIL
+  top^2/m_e                                                   5.828e+07 GeV   sin^2 = 0.23313 (+0.82%, +5.6 sigma)  FAIL
+  Higgs^2/m_e                                                 3.068e+07 GeV   sin^2 = 0.23404 (+1.22%, +8.3 sigma)  FAIL
+  Z^2/m_e                                                     1.627e+07 GeV   sin^2 = 0.23494 (+1.61%, +11.0 sigma)  FAIL
+(ii) Other balance points with gravity
+  sqrt(m_mu x M_Planck)                                       1.136e+09 GeV   sin^2 = 0.22890 (-1.00%, -6.8 sigma)  FAIL
+  sqrt(proton x M_Planck)                                     3.385e+09 GeV   sin^2 = 0.22735 (-1.67%, -11.4 sigma)  FAIL
+  sqrt(v x M_Planck)                                          5.483e+10 GeV   sin^2 = 0.22339 (-3.39%, -23.1 sigma)  FAIL
+  sqrt(m_nu3 x M_Planck)                                      2.479e+04 GeV   sin^2 = 0.24420 (+5.61%, +38.2 sigma)  FAIL
+  v^(2/3) x M_Planck^(1/3)                                    9.046e+07 GeV   sin^2 = 0.23250 (+0.55%, +3.8 sigma)  FAIL
+  v^2/M_Planck                                                4.966e-15 GeV   outside the usable range: FAIL
+(iii) The hidden neutrino partners (earlier tests: 7.2e5, 1.3e9, 6.3e10 GeV)
+  all three pairs at hidden partner 1                         7.253e+05 GeV   sin^2 = 0.23938 (+3.53%, +24.0 sigma)  FAIL
+  all three pairs at hidden partner 2                         1.289e+09 GeV   sin^2 = 0.22872 (-1.08%, -7.4 sigma)  FAIL
+  all three pairs at hidden partner 3                         6.272e+10 GeV   sin^2 = 0.22320 (-3.47%, -23.6 sigma)  FAIL
+  geometric mean of the three hidden partners                 3.885e+08 GeV   sin^2 = 0.23043 (-0.34%, -2.3 sigma)  FAIL
+  each pair at its own placement's hidden partner               (three masses)   sin^2 = 0.23044 (-0.34%, -2.3 sigma)  FAIL
+     the same with the lightest neutrino x0.5 (it is TRPG's prediction, not measured): sin^2 = 0.23011 (-0.48%, -3.3 sigma)
+     the same with the lightest neutrino x2.0 (it is TRPG's prediction, not measured): sin^2 = 0.23076 (-0.20%, -1.3 sigma)
+(iv) Seesaw with the D partner, and the D's own mass from the fold
+  v^2/M_D with the fold's D (k = 0.25)                        2.394e-01 GeV   outside the usable range: FAIL
+  pairs AT the fold's D mass 2.53e+05 GeV (whole set together, k = 0.25):            sin^2 = 0.21040 (-9.01%): no better than the Standard Model. FAIL
+  pairs at the fold's D mass (k = 0.25), D's moved to the meeting  2.532e+05 GeV   sin^2 = 0.24088 (+4.18%, +28.4 sigma)  FAIL
+  v^2/M_D with the fold's D (k = 0.12)                        1.149e-01 GeV   outside the usable range: FAIL
+  pairs AT the fold's D mass 5.28e+05 GeV (whole set together, k = 0.12):            sin^2 = 0.21043 (-8.99%): no better than the Standard Model. FAIL
+  pairs at the fold's D mass (k = 0.12), D's moved to the meeting  5.275e+05 GeV   sin^2 = 0.23983 (+3.72%, +25.4 sigma)  FAIL
+  v^2/M_D together with the ratio rule M_D = 2.0e+05 M_L: M_L = v/sqrt(ratio) = 0.55 GeV: EXCLUDED (LEP). FAIL
+(v) Gravity seesaw of the meeting itself: M_L = (meeting)^2 / M_Planck, solved together with the running (no input mass at all)
+  M_L = M_meet^2/M_Planck [unreduced], self-consistent        1.515e+08 GeV   sin^2 = 0.23177 (+0.24%, +1.6 sigma)  within 2 sigma
+  M_L = M_meet^2/M_Planck [reduced], self-consistent          1.546e+09 GeV   sin^2 = 0.22846 (-1.19%, -8.1 sigma)  FAIL
+  The same thing read the other way: at exact closure, meeting = 4.561e+13; sqrt(M_L x M_Planck) = 5.213e+13 (unreduced), 2.328e+13 (reduced)
+  Position of the meeting between M_L and the grain, on a log scale: 0.495 +- 0.003 (unreduced), 0.529 (reduced). One half would be exact.
+
+(v-b) Rules that land BELOW the closing mass can be made exact by moving the D partners below the meeting (M_D = ratio x M_L):
+    sqrt(m_e x M_Planck) [unreduced]  : exact if M_D = 1.61e+13 GeV (the meeting is then at 4.59e+13)
+    v^2/m_e                           : exact if M_D = 2.43e+13 GeV (the meeting is then at 4.58e+13)
+    M_meet^2/M_Planck [unreduced]     : exact if M_D = 3.10e+13 GeV (the meeting is then at 4.57e+13)
+    top^2/m_e                         : exact if M_D = 1.19e+13 GeV (the meeting is then at 4.60e+13)
+  Rules that land ABOVE it (the hidden partners) cannot be rescued this way. So no rule for M_L alone is a test until M_D has a rule too.
+
+(v-c) Unequal pair masses: only the product matters (one loop exactly, two loops nearly)
+    pairs at 1.00e+06, 1.00e+08 -> third at 1.12e+11 GeV; sum of log10(meeting/M) = 15.93 (equal masses: 15.93)
+    pairs at 7.25e+05, 1.29e+09 -> third at 1.19e+10 GeV; sum of log10(meeting/M) = 15.93 (equal masses: 15.93)
+    pairs at 1.00e+03, 1.00e+09 -> third at 1.18e+13 GeV; sum of log10(meeting/M) = 15.91 (equal masses: 15.93)
+  General statement: the triangle closes when the pair-only stretches add up to 15.9 decades:
+     sum over the three placements of log10( min(M_D, meeting) / M_L ) = 15.9.  One condition on up to six far-side masses.
+
+(v-d) Rules for the RATIO M_D/M_L = 2.04e+05 (x/÷ 1.23): ratios of the theory's scales
+    105 ratios; within 1 sigma: Z/m_e = 1.78e+05; Higgs/m_e = 2.45e+05
+    luck: a target ratio placed anywhere from 1e1 to 1e12 has at least one such hit 65% of the time. NOT EVIDENCE.
+
+(vi) LUCK CHECK over a defined family
+  UNREDUCED Planck mass (main footing): 15 scales, 315 balance points (geometric means and seesaws), 116 of them between 1e2 and 1e16 GeV
+    within 1 sigma of the closing mass (x/÷ 1.23): 2 hit(s): m_mu^2/nu3 = 2.22e+08; sqrt(N1 x N3) = 2.13e+08
+      luck: a target placed anywhere from 1e3 to 1e15 GeV has at least one such hit 67% of the time
+    within 2 sigma of the closing mass (x/÷ 1.50): 3 hit(s): m_mu^2/nu3 = 2.22e+08; sqrt(N1 x N3) = 2.13e+08; meeting^2/Planck = 1.70e+08
+      luck: a target placed anywhere from 1e3 to 1e15 GeV has at least one such hit 84% of the time
+    six nearest: m_mu^2/nu3 = 2.22e+08 (-0.00 dec); sqrt(N1 x N3) = 2.13e+08 (-0.02 dec); meeting^2/Planck = 1.70e+08 (-0.12 dec); v^2/m_e = 1.19e+08 (-0.27 dec); sqrt(v x meeting) = 1.06e+08 (-0.32 dec); sqrt(top x meeting) = 8.87e+07 (-0.40 dec)
+  reduced Planck mass: 15 scales, 315 balance points (geometric means and seesaws), 116 of them between 1e2 and 1e16 GeV
+    within 1 sigma of the closing mass (x/÷ 1.23): 2 hit(s): m_mu^2/nu3 = 2.22e+08; sqrt(N1 x N3) = 2.13e+08
+      luck: a target placed anywhere from 1e3 to 1e15 GeV has at least one such hit 71% of the time
+    within 2 sigma of the closing mass (x/÷ 1.50): 2 hit(s): m_mu^2/nu3 = 2.22e+08; sqrt(N1 x N3) = 2.13e+08
+      luck: a target placed anywhere from 1e3 to 1e15 GeV has at least one such hit 90% of the time
+    six nearest: m_mu^2/nu3 = 2.22e+08 (-0.00 dec); sqrt(N1 x N3) = 2.13e+08 (-0.02 dec); v^2/m_e = 1.19e+08 (-0.27 dec); sqrt(v x meeting) = 1.06e+08 (-0.32 dec); sqrt(m_mu x Planck) = 5.07e+08 (+0.36 dec); sqrt(top x meeting) = 8.87e+07 (-0.40 dec)
+  Note: 'meeting' in the family is itself an output of the fit, so hits that use it are relations to test, not free predictions.
+
+==============================================================================================================
+5. Gravity: does the meeting know about G?
+==============================================================================================================
+Meeting: M = 4.561e+13 GeV, alpha = 1/38.97 = 0.02566.
+ [unreduced Planck mass 1.221e+19 GeV]
+  (a) gravity's strength at the meeting, (M/M_Pl)^2 = 1.40e-11; the forces' strength there = 2.57e-02: gravity is 1.8e+09 times weaker. FAIL
+  (b) 'gravity equals the others at the meeting' would put the grain at M/sqrt(alpha) = 2.85e+14 GeV: 4.3e+04 times too low. FAIL
+  (c) energy where gravity would equal 1/39: 1.96e+18 GeV, 4.6 decades above the meeting. FAIL
+  (d) ln(grain/meeting) = 12.50. As exp(-2 pi/(b alpha)) this needs b = 19.59. As (M_Pl/M)=alpha^-n: n = 3.41.
+  (e) state counting (Sakharov 1967; Dvali 2007): grain^2 = N x meeting^2 needs N = 7.2e+10 states; TRPG has 124 (plus 30 far-side). FAIL
+ [reduced Planck mass 2.435e+18 GeV]
+  (a) gravity's strength at the meeting, (M/M_Pl)^2 = 3.51e-10; the forces' strength there = 2.57e-02: gravity is 7.3e+07 times weaker. FAIL
+  (b) 'gravity equals the others at the meeting' would put the grain at M/sqrt(alpha) = 2.85e+14 GeV: 8.6e+03 times too low. FAIL
+  (c) energy where gravity would equal 1/39: 3.90e+17 GeV, 3.9 decades above the meeting. FAIL
+  (d) ln(grain/meeting) = 10.89. As exp(-2 pi/(b alpha)) this needs b = 22.49. As (M_Pl/M)=alpha^-n: n = 2.97.
+  (e) state counting (Sakharov 1967; Dvali 2007): grain^2 = N x meeting^2 needs N = 2.9e+09 states; TRPG has 124 (plus 30 far-side). FAIL
+  (f) string-type tie (Kaplunovsky 1988): meeting = 5.27e17 x g = 2.99e+17 GeV against 4.56e+13: 3.8 decades off. FAIL
+  (g) proton from the grain (the earlier tie): ln(grain/proton) = 44.0; 1/alpha at the meeting = 39.0; ratio 1.129. No simple rule.
+  (h) simple counts for 1/alpha at the meeting (38.97 if D at the meeting; 34.7 to 38.5 if D is lighter, see section 2):
+      12 pi          =  37.70  (-3.3%)
+      27 + 12        =  39.00  (+0.1%)
+      124/pi         =  39.47  (+1.3%)
+      4 pi^2         =  39.48  (+1.3%)
+      36             =  36.00  (-7.6%)
+      40             =  40.00  (+2.7%)
+      27 sqrt2       =  38.18  (-2.0%)
+      Error on 1/alpha at the meeting: about +-0.4 (inputs, M_L range, three loops), and the D's position moves it by up to 4.8.
+      Whole numbers alone are spaced 1 apart, so some 'simple count' always lands inside the band. NOT EVIDENCE.
+  (i) the one pattern that lands: meeting = sqrt(M_L x M_Planck): off by +14% (unreduced), -49% (reduced). Tested in 4(v).
+      luck: position 0.495 +- 0.003; a random position between 0.15 and 0.85 lies within 0.005 of one of 1/4, 1/3, 1/2, 2/3, 3/4
+      8% of the time for one Planck convention, about 15% allowing either convention; and it needs the D partners exactly at the meeting.
+
+End.

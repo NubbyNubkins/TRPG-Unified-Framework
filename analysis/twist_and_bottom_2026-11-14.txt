@@ -1,0 +1,16 @@
+1. Twist rules
+  leptons        twist 0.2222 | Q/3 = 0.2222 | (2/9)(2p) = 0.2222 | (2/9)(1-Q)*3 = 0.2222
+  down (d,s,b)   twist 0.1101 | Q/3 = 0.2438 | (2/9)(2p) = 0.2026 | (2/9)(1-Q)*3 = 0.1791
+  up (u,c,t)     twist 0.0745 | Q/3 = 0.2829 | (2/9)(2p) = 0.1745 | (2/9)(1-Q)*3 = 0.1008
+  Q/3 matches leptons only (it IS 2/9 there by construction of Q = 2/3); no tested rule fits the quarks.
+
+2. Rule 5 on quark pairs: does the up member equal the down member (same Dirac matrix, no seesaw)?
+  u/d: ratio     0.46 (rule 5 needs 1)
+  c/s: ratio    13.61 (rule 5 needs 1)
+  t/b: ratio    41.26 (rule 5 needs 1)
+  Ratios 0.46, 13.6, 41: not constant, so not even 'shared up to one factor'. Rule 5 FAILS for quarks.
+  For leptons it can't be seen directly, because the seesaw hides the neutrino's Dirac link. So rule 5 must be
+  restricted to leptons (colourless pairs), the same split as rule 7 (45 deg holds only without colour).
+
+3. Bottom = tau at the right-side scale (4x4 relation), 10^11.7 GeV
+  m_b/m_tau at 10^11.7 GeV ~ 0.74 (interpolated from the earlier 0.76 at 10^11 and 0.63 at 10^16): 26% off -> fails

@@ -1,0 +1,72 @@
+
+====================================================================================================
+A. The literal rule 5 (the neutrino's link is the electron family's, same perspective, nothing free but the unmeasured phases)
+====================================================================================================
+  200 random settings of the unmeasured phases: largest matter excess 1.5e-13; observed 6.1e-10: short by 4,183x
+  -> As a PREDICTION of the rules as written, the matter excess FAILS. Nothing below changes that; it only asks whether the excess is still ALLOWED.
+
+====================================================================================================
+B. How rare is a perspective that works? (saved scan of an earlier test: 3,000 random perspectives, each with random phases)
+====================================================================================================
+  3000 random perspectives: median 2.0e-13; largest 3.9e-10; reach the observed value: 0.00%; within 10x: 0.63%
+
+====================================================================================================
+C. The two working corners against neutrino data
+====================================================================================================
+  corner 1 (largest found; perspective tilted 64 deg): excess 2.07e-09; partners 1.45e+04, 3.09e+10, 1.31e+11 GeV; washout strengths K = 34.8, 0.6, 24.1
+     delta_CP = 1 deg (allowed 124-364 at 3 sigma: inside, at the very edge); sin^2(theta23) = 0.435 (allowed 0.435-0.585: inside, at the very edge)
+     double-beta mass m_ee = 3.8 meV (limit 28-122 meV: fine)
+  corner 2 (small tilt, 25 deg): excess 6.07e-10; partners 3.59e+04, 1.63e+10, 1.00e+11 GeV; washout strengths K = 58.1, 1.8, 31.3
+     delta_CP = 274 deg (allowed 124-364 at 3 sigma: inside); sin^2(theta23) = 0.482 (allowed 0.435-0.585: inside)
+     double-beta mass m_ee = 2.9 meV (limit 28-122 meV: fine)
+  sum of neutrino masses = 0.0592 eV (cosmology: under about 0.064-0.072 eV: fine, but close)
+  -> Corner 2 passes every neutrino test. Corner 1 sits on two 3-sigma edges at once: counted as failing. Only corner 2 is carried forward.
+
+====================================================================================================
+D. Start: were the heavy partners already there?
+====================================================================================================
+  corner 1 (largest found; perspective tilted 64 deg): thermal start 2.07e-09 (3.40 of observed) | cold start 6.31e-10 (1.03) | thermal, with Higgs/top scatterings (3DMEsct) 2.06e-09 (3.37)
+  corner 2 (small tilt, 25 deg): thermal start 6.07e-10 (1.00 of observed) | cold start 1.93e-10 (0.32) | thermal, with Higgs/top scatterings (3DMEsct) 6.02e-10 (0.99)
+  The thermal start is what the 4x4 picture gives, IF the universe was hot enough for the right side's carriers to make the partners.
+
+====================================================================================================
+E. The right side's own carriers (not in the standard code). They keep heavy partners closer to equilibrium, which lowers the excess.
+====================================================================================================
+  Rough rate over expansion rate at T = M:  middle partner (1.6e+10 GeV): 0.06 x c;   heaviest (1.0e+11 GeV): 14.7 x c
+  c is an unknown number of order 1-10 (channel count); the carriers' mass is uncertain by about 3x, which moves the rate by about 80x. So a wide band is scanned.
+    strength c  corner 2 excess  of observed
+             0         6.07e-10         1.00
+           0.1         6.03e-10         0.99
+             1         5.89e-10         0.97
+             3         5.72e-10         0.94
+            10         5.36e-10         0.88
+           100         3.80e-10         0.62
+
+====================================================================================================
+E2. How hot must the universe have been? Cold start (no partners at first), right-side carriers switched on, corner 2
+====================================================================================================
+  The partners are then made only by the right side's carriers and their own links. Monopoles (falsification_pass 1g) cap the temperature near 5e11 GeV.
+     hottest temperature        c = 1       c = 10   (fraction of the observed excess)
+                   3e+12         0.97         0.88
+                   5e+11         0.97         0.88
+                   2e+11         0.97         0.88
+                   1e+11         0.96         0.96
+                   5e+10         0.60         0.88
+                   2e+10         0.27         0.42
+
+====================================================================================================
+F. Which partner makes the excess at corner 2?
+====================================================================================================
+  source from the lightest only : -1.89e-16 (-0.00 of observed)
+  source from the middle only   : +6.07e-10 (+0.99 of observed)
+  source from the heaviest only : +5.88e-13 (+0.00 of observed)
+
+====================================================================================================
+G. What corner 2 demands of the partners
+====================================================================================================
+  partner masses / right side's scale (5.5e+11 GeV): 6.5e-08, 0.03, 0.18  (the lightest needs a coupling 3e+06 times smaller than the heaviest)
+  lightest partner's link shares (e, mu, tau): 4.4e-04, 0.427, 0.573  (the corner works only because the electron share is almost zero)
+
+real	1m8.762s
+user	1m16.003s
+sys	0m0.235s

@@ -1,0 +1,8 @@
+Kept-charge counting: pair weight = F^k / grain^(k-1), F self-consistently at the meeting (3-loop)
+  k=1 full Planck               : no self-consistent solution (k=1 means no split: pair = D = F)
+  k=1 containment=leakage grain : no self-consistent solution (k=1 means no split: pair = D = F)
+  k=2 full Planck               : pairs 1.500e+08 F 4.280e+13 sin2 0.23183 +1.8 sigma
+  k=2 containment=leakage grain : pairs 2.472e+08 F 4.619e+13 sin2 0.23112 -0.3 sigma
+  k=3 full Planck               : no self-consistent solution (k=1 means no split: pair = D = F)
+  k=3 containment=leakage grain : no self-consistent solution (k=1 means no split: pair = D = F)
+grain M_Pl/sqrt2 = 8.6330e+18 GeV

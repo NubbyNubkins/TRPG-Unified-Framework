@@ -1,0 +1,8 @@
+ladder                   step1    step2    closing step      opening twist  twist/(54.74-opening)  steps if twist were 0
+up                       x  589.4 x  135.6  divide by     79894   51.20   4.27  1.206              x1.00 then x522.5
+down                     x   19.9 x   44.7  divide by       890   47.53   6.31  0.876              x1.00 then x125.3
+leptons                  x  206.8 x   16.8  divide by      3477   45.00  12.73  1.308              x1.00 then x67.9
+neutrinos (m1 .36 meV)   x   23.9 x    5.8  divide by       139   37.13  20.86  1.185              x1.00 then x19.9
+
+log steps add to zero round the triangle: e.g. up +2.770 +2.132 -4.902 = 0
+successive twists (nu, lepton, down, up): [np.float64(20.86), np.float64(12.73), np.float64(6.31), np.float64(4.27)]

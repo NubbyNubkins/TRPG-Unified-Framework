@@ -1,0 +1,17 @@
+ULYSSES version 3.0.2; observed eta_B = 6.1e-10. |eta_B| is quoted (the sign flips if every phase is mirrored).
+
+case  ours  ULYSSES 3DME  with scatterings  zero start  ULYSSES/observed
+   1           2.22e-10      3.58e-10          3.52e-10    6.55e-11              0.59
+   2           2.09e-10      3.00e-10          2.97e-10    4.64e-11              0.49
+   3           1.77e-10      2.90e-10          2.84e-10    6.41e-11              0.48
+   4           1.86e-09      3.18e-10          3.11e-10    7.55e-11              0.52
+
+Numerical stability (case 1): zmin 1e-07/steps 3000: 3.5810e-10, zmin 1e-08/steps 3000: 3.5810e-10, zmin 1e-07/steps 10000: 3.5810e-10, zmin 1e-06/steps 1000: 3.5810e-10
+
+Rule 5 check: sizes of the neutrino's Dirac links in each case (should be the lepton masses 0.000511, 0.10566, 1.77693 GeV)
+  case 1: 0.00250, 0.02160, 1.77995 GeV   (first two are off by x4.9 and x0.20)
+  case 2: 0.00249, 0.02290, 1.68112 GeV   (first two are off by x4.9 and x0.22)
+  case 3: 0.00217, 0.02336, 1.88935 GeV   (first two are off by x4.3 and x0.22)
+  case 4: 0.00218, 0.02564, 1.71689 GeV   (first two are off by x4.3 and x0.24)
+  -> the earlier 'best' cases used a quarter-turn (x3 near 90 degrees) that swaps which neutrino pairs with which partner;
+     that changes the first two links, so those cases did not hold rule 5. See matter_excess_rule5_exact_2026-11-14.py.
