@@ -26,6 +26,11 @@
       "identifier": "https://trpgphysics.org",
       "relation": "isDocumentedBy",
       "resource_type": "other"
+    },
+    {
+      "identifier": "10.5281/zenodo.24330764",
+      "relation": "isSupplementTo",
+      "resource_type": "publication-preprint"
     }
   ],
   "version": "1.2.1"

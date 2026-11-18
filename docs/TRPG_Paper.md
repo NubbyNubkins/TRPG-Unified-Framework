@@ -5,7 +5,7 @@
 
 Version of 18 November 2026. Built on the work of the physicists credited at the end; this framework is a perspective that aims to show they were each right.
 
-trpgphysics.org · November 2026
+trpgphysics.org · November 2026 · DOI [10.5281/zenodo.24330764](https://doi.org/10.5281/zenodo.24330764)
 
 > **Status note, 18 November 2026.** This draft is current to 18 November 2026. The framework is stated as three ideas, one rule and one bet (Section 2), and takes about 28 measured numbers, against about 34 for the Standard Model with gravity and cosmology counted the same way; the Higgs mass follows from a rule at the grain of space that awaits measurement (Section 9). Seven of its nine criteria are met and two are partly met: the quark link strengths, which await a rule, and the force groups, where only the force strengths remain and await a measurement of the strong coupling. Results that follow within the framework but rest on a measurement not yet returned are marked *awaiting measurement* and are not counted as established until that measurement returns. Dated predictions: the strong coupling 0.1178, with the grain of space fixed in advance as the Planck energy divided by √2; the quark triangle angle γ = 64.1–67.6°; the first-row quark-mixing shortfall shrinking to nothing; the neutrino timing angle δ = 253–292°; a neutrinoless double-beta mass of 1.3–3.9 meV; no primordial gravitational waves; the tau mass 1776.969 MeV; the neutrino mass sum 0.0594 eV with normal ordering, given today's limit from cosmology; and a quark pairing gap of about 82–97 MeV in neutron-star cores, which keeps the heaviest stars inside the observed window of 2.0–2.15 solar masses. If dark matter is the cold majoron wave there is no X-ray line; that is a lead and not part of the core. The heavy quark link strengths and mixing, the matter excess and dark matter are leads, each with one named missing rule; the twist is a measured input. The majoron's mass is not fixed; it follows m_J = 8.8 keV × (6.3 × 10¹⁰ GeV ÷ f)⁴ ÷ angle⁴. Where older passages below differ, this note and the Results page at trpgphysics.org are current.
 
@@ -195,7 +195,7 @@ A single relational picture, in which space is a full medium, structures are set
 
 ## Data and code availability
 
-Every number in this paper is produced by a script published with it at trpgphysics.org under the MIT License, together with the particle-to-particle data. Particle properties are from the Particle Data Group (2024), constants from CODATA 2018, cosmological parameters from Planck 2018, neutrino parameters from NuFIT 6.0, and the cosmological neutrino bound from DESI DR2.
+Every number in this paper is produced by a script published with it under the MIT License, together with the particle-to-particle data. The scripts, their saved outputs and the data are archived at [https://doi.org/10.5281/zenodo.24329240](https://doi.org/10.5281/zenodo.24329240) and kept at github.com/NubbyNubkins/TRPG-Unified-Framework and trpgphysics.org. This paper is archived at [https://doi.org/10.5281/zenodo.24330764](https://doi.org/10.5281/zenodo.24330764). Particle properties are from the Particle Data Group (2024), constants from CODATA 2018, cosmological parameters from Planck 2018, neutrino parameters from NuFIT 6.0, and the cosmological neutrino bound from DESI DR2.
 
 ## Acknowledgements
 

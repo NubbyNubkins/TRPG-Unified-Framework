@@ -13,6 +13,14 @@ version: 1.2.1
 date-released: "2026-11-18"
 license: MIT
 url: "https://trpgphysics.org"
+repository-code: "https://github.com/NubbyNubkins/TRPG-Unified-Framework"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.24329240"
+    description: "Code, data and documents, archived on Zenodo"
+  - type: doi
+    value: "10.5281/zenodo.24330764"
+    description: "The paper, archived on Zenodo"
 keywords:
   - "theory of everything"
   - "quantum gravity"

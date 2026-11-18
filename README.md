@@ -85,7 +85,10 @@ AI tools were used to write down the authors' ideas, to do and check the calcula
 
 ## Cite and license
 
-Please cite with the details in [`CITATION.cff`](CITATION.cff), or the Zenodo DOI once it exists.
+Please cite with the details in [`CITATION.cff`](CITATION.cff).
+
+- **Code, data and documents (this repository):** https://doi.org/10.5281/zenodo.24329240
+- **The paper:** https://doi.org/10.5281/zenodo.24330764
 
 - **Code and data:** MIT License ([`LICENSE`](LICENSE)).
 - **Documents and website text:** © 2026 Matthew Gelfman, all rights reserved, quotation with credit welcome ([`LICENSE-DOCS.md`](LICENSE-DOCS.md)).
