@@ -39,8 +39,8 @@ Each of these follows within the framework and is **awaiting measurement**. None
 | Light bending at the Sun | 1.752″ | 1.75″ | `factor_two_gravity` |
 | Age of the universe | 13.79 Gyr | 13.79 ± 0.02 | `expansion_and_entanglement` |
 | Bag constant B from the proton and Delta masses | 60 (57–64) MeV/fm³ | 1975 bag fit ≈ 57 | `proton_sets_B` |
-| Heaviest neutron star (B from proton, pairing gap 82–97 MeV; the gap is the prediction) | 2.0–2.15 M☉ | ≥ 2.0 | `neutron_stars_no_knobs` |
-| Tidal Λ of a 1.4 M☉ star | 440–580 | < ~580 (GW170817) | `neutron_stars_no_knobs` |
+| Heaviest neutron star (B from proton, pairing gap 82–97 MeV; the gap is the prediction) | 2.0–2.15 M☉ | ≥ 2.0 | `neutron_stars_no_knobs`, `analysis/pairing_gap_scan` |
+| Tidal Λ of a 1.4 M☉ star | 440–580 | < ~580 (GW170817) | `analysis/pairing_gap_scan` |
 | Electron, muon, tau masses | 3 from 1 scale | 0.003% | `master_action_M2_mass_couplings` |
 | Cabibbo angle from masses (already known, GST 1968) | 0.2242 | 0.2243 | `build_relational_matrix` |
 | Tau lifetime from the muon (already known, lepton universality) | 289.7 fs | 290.3 fs | `build_antiparticle_and_decays` |

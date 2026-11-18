@@ -23,6 +23,9 @@
 - New tests: `analysis/independent_checks_2026-11-17.py` (the lepton and neutrino numbers recomputed from scratch) and `analysis/further_open_question_tests_2026-11-18.py` (five further tests, four of which fail).
 - New: `docs/story/The_Full_Glass.md`, the framework told as a book, and `docs/theories/`, nine other theories of everything told the same way, with a comparison.
 - ORCID added for Melissa Gelfman.
+- The matter sign (−1)^3(B−L) is stated as approximate for the far-side parts: an exact sign would leave a stable neutral far-side state, which dark-matter searches exclude (`analysis/further_open_question_tests_2026-11-18.py`, test 4).
+- `analysis/leptogenesis_boltzmann_2026-11-14.py`: the closing line now carries the solver caution (results above about 1e-9 differ between solvers; settings that agree give about 2e-10, not reached). `solver_check_part30` renamed `leptogenesis_solver_check`.
+- Wording leftovers removed from four scripts and one figure; no number changed.
 
 ## 1.1.1 (14 November 2026, night)
 

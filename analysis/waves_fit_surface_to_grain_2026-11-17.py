@@ -21,7 +21,7 @@ print("   = grain^(2/3) x surface^(1/3)  (Weinberg 1972 form (H0 Mpl^2)^(1/3): w
 print("   sensitivity: H0 67-73 km/s/Mpc ->",[round((lg(gm(le))-lg(h))/((LG-lg(h))/6),4) for h in (1.43e-33,1.56e-33)],"; grain x2 / x0.5 ->",[round((lg(gm(le))-LS)/((lg(g)-LS)/6),4) for g in (GRAIN*2,GRAIN/2)])
 print("   neutrino middle on level 3 needs m1 = ",end="")
 from scipy.optimize import brentq
-print("%.3f meV (an earlier test landings need 0.36)"%brentq(lambda m: lg(gm(nus(m)))-lg(lev[3]),0.01,1))
+print("%.3f meV (the spiral landings need 0.36)"%brentq(lambda m: lg(gm(nus(m)))-lg(lev[3]),0.01,1))
 print("   the lepton triple predicted from level 4 with the 45 deg rule and the twist: scale only; e,mu,tau all x%.3f"%(lev[4]/gm(le)))
 # chance: a middle within this distance of some level, for 3..8 turns tried
 x=(lg(gm(le))-LS)/J; d=abs(x-round(x)); print("   lepton middle is %.4f turn from a whole turn; chance for one fixed count %.1f%%; allowing 3 to 8 turns to be tried ~%.0f%%"%(d,2*d*100,min(100,2*d*100*6)))

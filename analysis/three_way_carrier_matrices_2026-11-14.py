@@ -52,7 +52,7 @@ sheet("Read_Me", [["TRPG three-way carrier matrices (14 Nov 2026)"],
     ["Status column: MEASURED (with the measured value as a multiple of the expected one), NOT YET MEASURED (a value nobody has seen yet), or LIMIT ONLY."],
     ["Strengths at the Z's energy: electric e = %.4f, weak g = %.4f, hypercharge g' = %.4f, strong g_s = %.4f. Higgs value v = %.3f GeV." % (e, g, gp, gs, v)],
     ["Matrix ideas: Matthew Gelfman (every particle to every particle; relationships of more than two). Physics of each meeting: Fermi; Yang & Mills; Glashow; Weinberg; Salam; Higgs; Englert & Brout; Cabibbo; Kobayashi & Maskawa; Pontecorvo; Maki, Nakagawa & Sakata; Gell-Mann; Fritzsch, Gell-Mann & Leutwyler. Data: PDG 2024; NuFIT 6.0; ATLAS and CMS."],
-    ["Built by math_fixes/three_way_carrier_matrices_2026-11-14.py. an earlier test explains what was found."]], [150])
+    ["Built by three_way_carrier_matrices_2026-11-14.py. The paper and the Results page explain what was found."]], [150])
 rows = [["particle", "with", "carrier", "coupling (charge x e)", "status"]]
 for n, k, q, t3, nc, m, gen in F:
     if q != 0: rows.append([n, "anti-" + n, "photon", round(q*e, 5), "MEASURED (charges exact)"])

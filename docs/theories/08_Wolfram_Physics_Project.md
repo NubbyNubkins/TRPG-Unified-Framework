@@ -6,7 +6,7 @@
 
 ## Chapter 1. Simple rules, complicated results
 
-In the 1980s **Stephen Wolfram**, a physicist who had built a famous piece of mathematical software, became fascinated by a simple game. Take a row of black and white squares. Make a new row underneath using a rule that looks only at each square and its two neighbours. Repeat.
+In the 1980s **Stephen Wolfram**, a physicist who went on to build a famous piece of mathematical software, became fascinated by a simple game. Take a row of black and white squares. Make a new row underneath using a rule that looks only at each square and its two neighbours. Repeat.
 
 Some rules make dull stripes. Some make the same pattern forever. But one rule, which he called **Rule 30**, makes something that looks random, like the pattern on a seashell, from the simplest possible start. His conclusion, in his 2002 book *A New Kind of Science*: very simple rules can produce endless complexity. Perhaps the universe is one of them.
 

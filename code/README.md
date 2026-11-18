@@ -18,7 +18,7 @@ Each script reproduces one result. Run them all from the top folder with `python
 | [`master_action_M2_mass_couplings_2026-11-13.py`](master_action_M2_mass_couplings_2026-11-13.py) | Lepton matrix; neutrino prediction 0.36, 8.7, 50.1 meV (sum 0.0592 eV) |
 | [`neutron_star_TOV_fix_2026-11-13.py`](neutron_star_TOV_fix_2026-11-13.py) | Neutron-star structure (TOV) solved, not typed in |
 | [`neutron_star_tidal_fix_2026-11-13.py`](neutron_star_tidal_fix_2026-11-13.py) | Tidal test, bag-only form: B = 54.1 passes (2.07, Λ 550); B = 62–70 with weak wall passes (2.06–2.17, Λ 288–400) |
-| [`neutron_stars_no_knobs_2026-11-14.py`](neutron_stars_no_knobs_2026-11-14.py) | B from the proton + measured strong force: fails alone (1.54–1.80); with pairing gap 70–90 MeV passes (2.00–2.18, Λ 440–570) |
+| [`neutron_stars_no_knobs_2026-11-14.py`](neutron_stars_no_knobs_2026-11-14.py) | B from the proton + measured strong force: fails alone (1.54–1.80); quark pairing closes it. The finer scan, `analysis/pairing_gap_scan_2026-11-14.py`, gives the window: a gap of about 82–97 MeV (2.0–2.15, Λ 440–580) |
 | [`proton_sets_B_2026-11-14.py`](proton_sets_B_2026-11-14.py) | Cloudy bag fit to proton and Delta: B = 60.1 (57.1–63.7), core rms 0.725 fm |
 | [`proton_claims_check_2026-11-13.py`](proton_claims_check_2026-11-13.py) | Rechecks the old proton claims with their own formulas |
 | [`quark_common_scale_2026-11-14.py`](quark_common_scale_2026-11-14.py) | Quark balance angles 52.15° / 48.06° at every energy (leptons 45°) |

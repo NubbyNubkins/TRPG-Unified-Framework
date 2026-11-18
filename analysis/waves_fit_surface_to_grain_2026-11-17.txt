@@ -25,7 +25,7 @@
    lepton middle / level 4 = 0.964 ; in turns from the surface: 3.9984
    = grain^(2/3) x surface^(1/3)  (Weinberg 1972 form (H0 Mpl^2)^(1/3): with full Planck energy 5.99e+07 eV)
    sensitivity: H0 67-73 km/s/Mpc -> [np.float64(3.9985), np.float64(3.9973)] ; grain x2 / x0.5 -> [np.float64(3.9787), np.float64(4.0183)]
-   neutrino middle on level 3 needs m1 = 0.102 meV (an earlier test landings need 0.36)
+   neutrino middle on level 3 needs m1 = 0.102 meV (the spiral landings need 0.36)
    the lepton triple predicted from level 4 with the 45 deg rule and the twist: scale only; e,mu,tau all x1.038
    lepton middle is 0.0016 turn from a whole turn; chance for one fixed count 0.3%; allowing 3 to 8 turns to be tried ~2%
 

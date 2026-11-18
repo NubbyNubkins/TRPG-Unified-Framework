@@ -11,4 +11,7 @@ K = [11.1  1.1 43.3]
 s23=0.561: approximate formula 3.25e-10 -> full equations 1.86e-09 (thermal start), 5.99e-11 (zero start)
       after refining on the full equations: 1.28e-08  (delta = 14 deg, Im parts [ 0.03  0.05 -0.18])
 
-Best full-equation result: eta_B = 1.28e-08; observed 6.1e-10 -> REACHED
+Largest full-equation result found: eta_B = 1.28e-08 (observed 6.1e-10).
+Caution: results above about 1e-9 change by a factor of 1-3 between ODE solvers (a separate solver check),
+so they are not relied on. Settings that agree across solvers give about 2e-10, i.e. within about 3x of
+the observed value: not reached.

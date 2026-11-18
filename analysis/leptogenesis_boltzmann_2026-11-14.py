@@ -117,4 +117,7 @@ for val, pv, s23 in cands[:4]:
         if tv > cur: cur, cpv = tv, trial
     print(f"      after refining on the full equations: {cur:.2e}  (delta = {math.degrees(cpv[6])%360:.0f} deg, Im parts {np.round(cpv[3:6],2)})")
     if cur > best[0]: best = (cur, (cpv, s23))
-print(f"\nBest full-equation result: eta_B = {best[0]:.2e}; observed 6.1e-10 -> {'REACHED' if best[0] >= 6.1e-10 else f'{6.1e-10/best[0]:.2f}x short'}")
+print(f"\nLargest full-equation result found: eta_B = {best[0]:.2e} (observed 6.1e-10).")
+print("Caution: results above about 1e-9 change by a factor of 1-3 between ODE solvers (a separate solver check),")
+print("so they are not relied on. Settings that agree across solvers give about 2e-10, i.e. within about 3x of")
+print("the observed value: not reached.")

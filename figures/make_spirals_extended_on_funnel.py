@@ -86,7 +86,7 @@ txt(40,ty+36,"What it looks like",21,w=700,halo=False)
 Ls=["No single spiral runs all the way from top to bottom. Carried on by its own rule, each one reaches one end and stops short of the other.",
 "Four come off the surface: neutrinos, leptons, up quarks and hidden partners. Each climbs through its three particles, tightens, and winds up into a ring, its ceiling. None reaches the grain.",
 "One comes down from the grain: the down quarks. It tightens the other way and winds down into a ring at 76 eV. It never reaches the surface.",
-"So the picture is waves coming off the surface and a wave coming to it from the grain, as you said: both. They pass through each other above 76 eV. All the charged particles sit there; the neutrinos sit below it.",
+"So the picture is waves coming off the surface and a wave coming to it from the grain: both. They pass through each other above 76 eV. All the charged particles sit there; the neutrinos sit below it.",
 "Near the surface the spirals are wide and loose (stretched). At each ceiling they pile up into a tight ring (squished). The squish happens at each spiral's own ceiling, not at the grain.",
 "Antimatter is each spiral's mirror twin, wound the other way, crossing its partner twice every turn."]
 for i,l in enumerate(Ls): txt(40,ty+70+i*27,l,15.5,halo=False)

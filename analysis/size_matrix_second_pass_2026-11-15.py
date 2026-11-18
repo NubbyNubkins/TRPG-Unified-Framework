@@ -66,7 +66,7 @@ pr("  Every family fits (three numbers, three free values), so a fit alone says 
 pr("  so on sizes there is no shared cone. The square-root form stays the only one where a family (leptons, and neutrinos by construction) is exact.")
 
 wb = openpyxl.Workbook(); ws = wb.active; ws.title = "Read_Me"
-for r in ["Second pass on the size matrices (an earlier test, 15 Nov 2026).", "Size_S_by_size: S = half log of mass ratio (row over column), particles smallest to biggest.",
+for r in ["Second pass on the size matrices (15 Nov 2026).", "Size_S_by_size: S = half log of mass ratio (row over column), particles smallest to biggest.",
           "Proton_Home: size from the proton, balance (equilibrium) mass with the proton, link value with the proton.",
           "The family-order sheets are in TRPG_Size_Matrices.xlsx."]: ws.append([r])
 w = wb.create_sheet("Size_S_by_size"); w.append([""] + order)

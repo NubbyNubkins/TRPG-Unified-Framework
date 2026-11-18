@@ -71,11 +71,11 @@ head("4. Write the size workbook")
 import openpyxl
 from openpyxl.styles import Font
 wb = openpyxl.Workbook(); ws = wb.active; ws.title = "Read_Me"
-for r in ["TRPG size matrices (an earlier test, 15 Nov 2026). the reverse-engineering of the sizes.",
+for r in ["TRPG size matrices (15 Nov 2026). The reverse-engineering of the sizes.",
           "S = half the natural log of the mass ratio (row over column). Link value M = 2 cosh S = (m1+m2)/sqrt(m1 m2).",
           "Every S is a difference of two log masses, so the matrix holds one number per particle (less the unit). Patterns in it are patterns in the log masses.",
           "Footing A: usual quoted masses (PDG 2024). Footing B: all at the Z's energy (Xing, Zhang & Zhou 2008). Neutrinos: TRPG's predicted masses.",
-          "Pattern tests and their chance controls: an earlier test and math_fixes/size_matrix_patterns_2026-11-15.txt."]: ws.append([r])
+          "Pattern tests and their chance controls: the output of size_matrix_patterns_2026-11-15.py."]: ws.append([r])
 def sheet(title, mat, nm, fmt):
     w = wb.create_sheet(title); w.append([""] + nm)
     for i, n in enumerate(nm): w.append([n] + [round(float(x), 4) for x in mat[i]])
