@@ -44,10 +44,24 @@ def a3D(c,MD): return brentq(lambda a3: solveD(c,MD,a3=a3)[2]-S2,0.105,0.130,xto
 for MD in (4.5e10,):
     ML=10**ns['brentq'](lambda x: ns['mismatch'](thr=ns['thrLD'](10**x,MD))[0],4,6,xtol=1e-6); Fm=ns['mismatch'](thr=ns['thrLD'](ML,MD))[1]
     print(f"  B1: D at {MD:.1e} GeV: strengths close with the MMG at {ML:.2e} GeV (meeting {Fm:.2e}), but the gravity leak needs sqrt2 F^2/M_Planck = {math.sqrt(2)*Fm**2/ns['MPL']:.2e}:")
-    print("      off by a factor ~1000, and no strong strength between 0.105 and 0.130 rescues it -> FAIL (it would undo the MMG = gravity-leak lead).")
+    print("      off by a factor ~1000. Scan of the strong strength: impose the gravity leak and solve, for each alpha_s:")
+    for a3s in (0.105, 0.110, 0.115, 0.118, 0.120, 0.125, 0.130):
+        try:
+            Mx, Fx, s2x = ns['solveD'](math.sqrt(2), MD, a3=a3s)
+            print(f"        alpha_s {a3s:.3f}: MMG {Mx:.2e}, meeting {Fx:.2e}, weak angle {s2x:.5f} vs measured {ns['S2']:.5f}")
+        except ValueError:
+            print(f"        alpha_s {a3s:.3f}: no solution with the gravity leak")
+    print("      no strong strength between 0.105 and 0.130 rescues it -> FAIL (it would undo the MMG = gravity-leak lead).")
 chi=0.0755**4; mmaj=1.4e-6
 dth=mmaj**2*f**2/chi
 print(f"  B2: keV majoron mass as explicit breaking shifts theta_bar by ~{dth:.0e} (limit 1e-10) -> the keV majoron and the axion cannot both stand.")
 fa=f/3; ma=5.7e-6*(1e12/fa); om=0.12*(fa/9e11)**1.165*math.pi**2
-print(f"  B3: f/N = {fa:.1e} GeV -> axion mass {ma*1e6:.0f} micro-eV; misalignment even at the largest start angle (pi): Omega h^2 ~ {om:.3f} = {om/0.12:.0%} of dark matter -> FAIL as all of it.")
+print(f"  B3: f/N = {fa:.1e} GeV -> axion mass {ma*1e6:.0f} micro-eV; misalignment with the harmonic estimate at start angle pi: Omega h^2 ~ {om:.3f} = {om/0.12:.0%} of dark matter.")
+# near the hilltop the cosine potential adds an anharmonic factor (Lyth 1992; Visinelli & Gondolo 2009; Kobayashi et al. 2013):
+# Omega ~ theta^2 F(theta), F = [ln(e / (1 - theta^4/pi^4))]^(7/6)
+Fan=lambda th: math.log(math.e/(1-(th/math.pi)**4))**(7/6)
+need=0.12/(om/math.pi**2)
+thn=__import__('scipy.optimize',fromlist=['brentq']).brentq(lambda th: th*th*Fan(th)-need, 1.0, math.pi*(1-1e-15))
+print(f"      with the anharmonic factor the axion is all of the dark matter only for a start angle within {math.pi-thn:.1e} of pi "
+      f"(theta = {thn:.6f}): not excluded, but it needs the start angle tuned to about {(math.pi-thn)/math.pi:.0e} of its range -> PARTIAL (tuned).")
 print("      (N = 3 also leaves domain walls if the symmetry breaks after inflation.)")

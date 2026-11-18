@@ -34,12 +34,13 @@ def start(mt,a3=0.1180,mw=80.3692,mh=125.20):
     return np.array([0.35830+0.00011*(mt-173.34)-0.00020*(mw-80.384)/0.014, 0.64779+0.00004*(mt-173.34)+0.00011*(mw-80.384)/0.014,
                      1.1666+0.00314*(a3-0.1184)/0.0007-0.00046*(mt-173.34), 0.93690+0.00556*(mt-173.34)-0.00042*(a3-0.1184)/0.0007,
                      math.sqrt(2)*2.75/v, 0.12604+0.00206*(mh-125.15)-0.00004*(mt-173.34)])
-def up(y,far,two,mu=GRAIN):
-    edges=sorted([0.0,math.log(mu/MT0)]+([math.log(MMG/MT0),math.log(F/MT0)] if far else []))
+def up(y,far,two,mu=GRAIN,mt=MT0):
+    # the matching values from start(mt) hold at the scale mu = mt, so the running starts there (t0 = ln(mt/MT0))
+    edges=sorted([math.log(mt/MT0),math.log(mu/MT0)]+([math.log(MMG/MT0),math.log(F/MT0)] if far else []))
     for a,b in zip(edges[:-1],edges[1:]): y=solve_ivp(beta,[a,b],y,args=(far,two),rtol=1e-10,atol=1e-13).y[:,-1]
     return y
 def mismatch(mt,far,two):
-    y=up(start(mt),far,two); return y[3]**2-y[4]**2-y[0]**2/3
+    y=up(start(mt),far,two,mt=mt); return y[3]**2-y[4]**2-y[0]**2/3
 def predict(far,two=True):
     return brentq(lambda m: mismatch(m,far,two),120,200,xtol=1e-4)
 for far in (False,True):
