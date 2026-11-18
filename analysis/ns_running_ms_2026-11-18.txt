@@ -1,0 +1,13 @@
+stars fix 4*Delta^2 - m_s^2 = 16896 to 27636 MeV^2 (at B = 60.1)
+  m_s = 100 MeV -> gap window 82.0 to 97.0 MeV
+  m_s = 120 MeV -> gap window 88.5 to 102.5 MeV
+  m_s = 130 MeV -> gap window 91.9 to 105.5 MeV
+  m_s = 140 MeV -> gap window 95.5 to 108.7 MeV
+
+Bodmer-Witten at the m_s = 130 window (gap 92-106 MeV):
+  B = 57.1: gap 92.0: strange 852.6 MeV (stable), up-down 946.5 MeV (nuclei safe)
+  B = 57.1: gap 106.0: strange 819.2 MeV (stable), up-down 931.1 MeV (NUCLEI UNSAFE)
+  B = 60.1: gap 92.0: strange 863.9 MeV (stable), up-down 959.0 MeV (nuclei safe)
+  B = 60.1: gap 106.0: strange 830.9 MeV (stable), up-down 943.9 MeV (nuclei safe)
+  B = 63.7: gap 92.0: strange 877.0 MeV (stable), up-down 973.4 MeV (nuclei safe)
+  B = 63.7: gap 106.0: strange 844.4 MeV (stable), up-down 958.5 MeV (nuclei safe)

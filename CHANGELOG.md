@@ -1,5 +1,22 @@
 # Changelog
 
+## 1.3.2 (18 November 2026)
+
+The paper was revised after three rounds of outside review (versions 1.3.0, 1.3.1 and 1.3.2 of the paper, all dated 18 November 2026). This release brings the repository to paper version 1.3.2.
+
+- Paper (`docs/TRPG_Paper.*`) is now version 1.3.2. It cites the "all versions" DOIs, which always resolve to the latest version: code 10.5281/zenodo.24329239, paper 10.5281/zenodo.24330763.
+- New checks in `analysis/`, each with its saved output:
+  - `seesaw_full_matrix_2026-11-18.py`: the heavy neutrino partners from the full 3x3 seesaw with TM1 mixing (0.6–1.9 × 10⁵, 2.2–6.2 × 10⁸, 1.3–1.65 × 10¹² GeV). The earlier values (7.3 × 10⁵, 1.3 × 10⁹, 6.3 × 10¹⁰ GeV) used a shortcut that is exact only without mixing.
+  - `ns_ground_state_2026-11-18.py`: the compact stars are self-bound strange quark stars; the Bodmer–Witten check passes (strange matter 820–880 MeV per baryon, below 930; up–down matter 941–1021, above 934, so ordinary nuclei are safe). Without pairing, strange matter is not the ground state.
+  - `ns_running_ms_2026-11-18.py`: what the stars fix is 4Δ² − m_s² = 1.7–2.8 × 10⁴ MeV²; with a running strange mass of 120–140 MeV the gap is 88–109 MeV.
+  - `crossing_vs_grain_2026-11-18.py`: the force strengths cross at 4.6 × 10¹³ GeV and separate again above it; no placement of the far-side states makes them equal at the grain (best spread 17). Equality where they cross is a stated boundary condition.
+- Fitted choices: six (was five). The sixth is the coloured far-side states placed where the strengths cross, with the strengths taken as equal there. The input count is unchanged: 32 today, 28 if every pending measurement agrees.
+- JUNO 2026 (arXiv:2609.37895): sin²θ₁₂ = 0.3036 ± 0.0064 puts the TM1 value 0.318 2.3σ high (3σ would fail it); the small splitting 7.388 ± 0.078 × 10⁻⁵ eV² is within 0.2σ of the lead; normal ordering is favoured at 2.1σ. `analysis/input_ledger_2026-11-18.py` now checks both.
+- Neutrinoless double beta decay: 1.4–4.1 meV (was 1.3–3.9).
+- No primordial gravitational waves now belongs to the majoron dark-matter lead (r below about 10⁻¹¹), not to the core.
+- First-row quark-mixing unitarity is derived (the D states keep it to about 10⁻²³); a confirmed shortfall would falsify the far-side reading. A coloured spin-0 particle is added to the "nothing extra" falsifiers.
+- The ledger, README and citation files are updated to match. The scorecard is unchanged: 7 met, 2 partly met.
+
 ## 1.2.2 (18 November 2026)
 
 Bookkeeping only. No result, rule or prediction changed.
