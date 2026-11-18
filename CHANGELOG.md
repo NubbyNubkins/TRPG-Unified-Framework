@@ -58,3 +58,9 @@ First public release.
 - Purpose and method stated in the paper, the README and the book: the framework starts from what has been measured, discards any idea that disagreed with measurement, and labels choices made with today's data in view as fitted, not predicted.
 - Every script was rerun (24 in `code/`, 128 in `analysis/`) and each saved output now matches its script. Fixes: leftover run markers and timing lines removed from six outputs; `ideas_for_last_four` and the leptogenesis solver check each given their own output file; the four `.json` data files that the leptogenesis scripts read are now included; `pairing_gap_scan` runs without arguments and covers every row of its saved output; one output brought up to date where a search moved in its last digits. No result changed.
 - `requirements.txt` now lists Matplotlib, which the picture scripts need.
+
+## 1.2.1 (18 November 2026)
+
+- The lepton 45° balance is now derived for leptons: three placements of one shape make the family matrix circulant, and maximum uncertainty between self and relationship sets the self share to exactly one half, which is Koide's 2/3 and the 45° angle. It does not hold for quarks. Script: `analysis/derive_45_and_sqrt2_2026-11-18.py`.
+- Which forces exist now follows from the perspective principle by a theorem: the part of Spin(9) that respects one chosen direction is exactly 8 + 3 + 1, whichever direction is chosen (Günaydin and Gürsey, 1973; Todorov and Dubois-Violette, 2018; Krasnov, 2019). The whole generation still uses one further stated reading. Script: `analysis/matrix_reading_from_rule4_2026-11-18.py`.
+- Not derived, and said so: the grain factor √2 (five equally natural readings give five factors), and the rule for the far-side weak pairs' weight, which is now stated as one assumption (no direct link to the background value; Dimopoulos and Wilczek, 1981; Masiero and others, 1982).

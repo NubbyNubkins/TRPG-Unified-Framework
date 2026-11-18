@@ -1,0 +1,14 @@
+Clifford relations hold; so(9) generators: 36
+u = e1: commutant dimension 12; derived (non-abelian) part 11; centre 1
+u = e2: commutant dimension 12
+u = e3: commutant dimension 12
+u = e4: commutant dimension 12
+u = e5: commutant dimension 12
+u = e6: commutant dimension 12
+u = e7: commutant dimension 12; derived (non-abelian) part 11; centre 1
+random u: commutant dimension 12
+
+Identify the pieces (u = e7):
+  11 = the only compact split of dimension 11 into simple parts is 8 + 3 (strong + weak); the 12th is the centre (hypercharge)
+  hypercharge-like eigenvalues on the 8 complex states (scaled): {np.float64(1.0): np.int64(6), np.float64(3.0): np.int64(2)}
+  expected one generation's doublets: Q (3 colours x 2) with Y = 1/6 and L (2) with Y = -1/2, ratio -3, multiplicities 6 and 2

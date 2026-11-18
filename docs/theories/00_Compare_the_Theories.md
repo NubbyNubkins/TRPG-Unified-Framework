@@ -72,7 +72,7 @@ The established theories have already been reviewed for years, so review changes
 
 **What a reviewer would likely challenge:**
 - **The grain of space.** It was set at the Planck energy divided by √2, chosen from several options when the strong coupling was already known. The Planck energy alone would give 0.1196 instead of 0.1178. Until a new measurement arrives, the 0.1178 counts as a fit, not a prediction.
-- **The tau mass** comes from **Koide's formula (1982)**. The 45° balance is a measured rule for leptons only.
+- **The tau mass** comes from **Koide's formula (1982)**. For leptons the 45° balance follows from the family symmetry and maximum uncertainty between self and relationship; it does not hold for quarks.
 - **The Higgs rule** is borrowed from Shaposhnikov and Wetterich. It fits overall but is 3.2 standard deviations off on the top mass alone.
 - **Neutron stars.** The quark pairing gap of 82 to 97 MeV is needed to fit the observed heaviest stars. A reviewer would call it chosen, not predicted.
 - **The forces and charges** come from a stated reading of the octonion table, on top of other people's work.

@@ -180,7 +180,7 @@ Matthew's answer was simple. *It is the side you observe.* If every observer sta
 
 > ### How sure are we?
 >
-> - **One spot, one facing gives forces of sizes 8, 3 and 1.** This follows from the theory, with one reading of the table that is stated rather than derived. The mathematics was worked out by Ivan Todorov and Michel Dubois-Violette (2018), and TRPG reproduces it.
+> - **One spot, one facing gives forces of sizes 8, 3 and 1.** This follows from the theory by a theorem: keep one spot and one facing, and the symmetry that is left has exactly these three sizes, whichever facing is chosen. The mathematics was worked out by Murat Günaydin and Feza Gürsey (1973), Ivan Todorov and Michel Dubois-Violette (2018) and Kirill Krasnov (2019), and TRPG reproduces it. The full list of a family's particles needs one further reading of the table, which is stated, not derived.
 > - **Reading relationships three at a time gives a whole family of particles, with their measured charges.** This follows from the theory, with the same stated reading. The three-way idea is Matthew's.
 > - **The weak force's one-sidedness is the side you observe.** This follows from the theory. The idea is Matthew's.
 > - **How strong each force is.** Measured. The theory gives which forces exist and how they are shaped, but not their strengths. Three numbers come from experiment. (The next chapter tells of a bet that may save one of them.)
@@ -315,11 +315,11 @@ Put the three bells on that cone, turn the cone by a small, fixed twist, and the
 
 And that means you can predict one bell from the other two. Give the theory the electron and the muon, and it tells you the tau must weigh **1776.969** units (in the units physicists use, millions of electron-volts). Experiments today say the tau weighs very close to that. A new experiment in Japan, called Belle II, will soon measure it more precisely than ever before.
 
-But here the honesty box has real work to do. The 45-degree balance works beautifully for the electron's family. It does **not** work for quarks. The theory tested it on quarks, hard, and it failed. So TRPG does not claim it as a law of all matter. It is a rule that the electron's family obeys, and why it obeys it is not yet known.
+But here the honesty box has real work to do. The 45-degree balance works beautifully for the electron's family. It does **not** work for quarks. The theory tested it on quarks, hard, and it failed. So TRPG does not claim it as a law of all matter. For the electron's family the theory can now say why. The three members are one shape in three placements, and the most even split there can be between a bell's own ring and its ringing with the others, exactly half and half, is the 45-degree cone. Why quarks do not follow the same even split is not yet known.
 
 > ### How sure are we?
 >
-> - **The electron, muon and tau sit on a 45-degree balance.** This is a measured rule, for the electron's family only. It is not derived, and it fails for quarks. The relation was found by Yoshio Koide (published 1983). Its geometric form is due to Robert Foot (1994) and Carl Brannen (2006).
+> - **The electron, muon and tau sit on a 45-degree balance.** For the electron's family this follows from the theory: the three family members are one shape in three placements, and a perfectly even split between a particle's tie to itself and its ties to the others gives exactly 45 degrees. It fails for quarks, and the theory cannot yet say why. The relation was found by Yoshio Koide (published 1983). Its geometric form is due to Robert Foot (1994) and Carl Brannen (2006).
 > - **The tau weighs 1776.969 MeV.** Prediction. It sits within one standard deviation of today's measurement. Belle II will decide. *Not 100% until the measurement returns.*
 > - **The small twist and the overall scale.** Measured: two numbers.
 

@@ -7,7 +7,7 @@ TRPG is three ideas, one rule and one bet.
 
 - **Idea 1.** Space is one full medium of relationships, seen one perspective at a time, with entanglement first.
 - **Idea 2.** Every structure is a balance of outward push and inward pull (containment).
-- **Idea 3.** Within the lepton families, a particle's tie to itself balances its ties to the others (45°). This is a measured rule, not derived, and it does not hold for quarks.
+- **Idea 3.** Within the lepton families, a particle's tie to itself balances its ties to the others (45°). For leptons it follows from the family symmetry and maximum uncertainty between self and relationship; it does not hold for quarks.
 - **The rule.** Nothing extra: no proton decay, no fourth generation, no new forces, no mirror particles, one Higgs pair.
 - **The bet.** The far side of the relationship matrix is real. It gives the strong coupling and the Higgs-mass rule below. If the bet fails, the ideas and the rule still stand.
 
