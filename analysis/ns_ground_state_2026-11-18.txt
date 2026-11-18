@@ -1,0 +1,13 @@
+ B (MeV/fm3)  gap (MeV)  E/A strange matter  E/A u,d matter   strange matter stable?  ud matter unstable?
+   57.1        0.0        939.5 MeV            994.9 MeV        NO                    yes
+   57.1       82.0        852.8 MeV            956.3 MeV        yes                    yes
+   57.1       90.0        836.0 MeV            948.5 MeV        yes                    yes
+   57.1       97.0        820.4 MeV            941.2 MeV        yes                    yes
+   60.1        0.0        949.7 MeV           1006.8 MeV        NO                    yes
+   60.1       82.0        864.1 MeV            968.6 MeV        yes                    yes
+   60.1       90.0        847.5 MeV            961.0 MeV        yes                    yes
+   60.1       97.0        832.1 MeV            953.8 MeV        yes                    yes
+   63.7        0.0        961.5 MeV           1020.5 MeV        NO                    yes
+   63.7       82.0        877.1 MeV            982.9 MeV        yes                    yes
+   63.7       90.0        860.8 MeV            975.4 MeV        yes                    yes
+   63.7       97.0        845.6 MeV            968.3 MeV        yes                    yes

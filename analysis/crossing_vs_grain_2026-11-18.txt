@@ -1,0 +1,19 @@
+(a) 1/alpha1, 1/alpha2, 1/alpha3 (GUT-normalised), alpha_s(MZ) = 0.1178, M_L = 2.4e8, M_D = 4.6e13 GeV
+   mu =  1.00e+03 GeV :  57.49  30.80  11.30   spread 46.18
+   mu =  2.40e+08 GeV :  49.31  36.92  25.33   spread 23.98
+   mu =  1.00e+12 GeV :  42.23  38.34  34.70   spread  7.53
+   mu =  4.60e+13 GeV :  38.97  38.99  38.99   spread  0.02
+   mu =  1.00e+15 GeV :  35.96  39.52  41.42   spread  5.46
+   mu =  1.00e+17 GeV :  31.46  40.31  45.07   spread 13.60
+   mu =  8.63e+18 GeV :  27.10  41.08  48.59   spread 21.49
+   -> they cross near 4.6e13 GeV and separate again above it; at the grain they are unequal.
+
+(b) equality at the grain: minimise the spread at E_grain over log10 M_L, log10 M_D (both between 1e3 and 1e18 GeV)
+   smallest spread at the grain: 16.80 (in 1/alpha) at M_L = 10^7.27, M_D = 10^3.00 GeV -> FAILS
+   there: 23.40 40.20 40.20
+
+(c) states for a Sakharov-style count: SM with 3 hidden partners = 96 fermion + 24 carrier + 4 Higgs = 124;
+   far side adds 3 x (10 + 1) Weyl = 33 Weyl = 66 -> 190; with the majoron 191.
+
+(d) ln(E_grain/m_p) with E_grain = E_Pl/sqrt2: 43.67  (44.0 is the unreduced Planck energy, 44.01)
+   simple count 2 pi/(7 alpha_s) at the grain, with the far side: 43.6  (SM states alone, earlier: 47.5)

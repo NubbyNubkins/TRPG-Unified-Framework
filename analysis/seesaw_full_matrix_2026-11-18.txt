@@ -1,0 +1,25 @@
+diagonal (earlier) formula m_l^2/m_nu: 7.25e+05, 1.28e+09, 6.30e+10 GeV
+
+Full matrix, TM1, Majorana phases 0, delta in the upper half (~270) and lower half:
+  s23=0.47 s12=0.318 delta=262.4: heavy = 1.37e+05, 2.70e+08, 1.59e+12 GeV
+  s23=0.47 s12=0.318 delta= 97.6: heavy = 1.37e+05, 2.70e+08, 1.59e+12 GeV
+  s23=0.50 s12=0.318 delta=270.0: heavy = 1.41e+05, 2.60e+08, 1.60e+12 GeV
+  s23=0.50 s12=0.318 delta= 90.0: heavy = 1.41e+05, 2.60e+08, 1.60e+12 GeV
+  s23=0.52 s12=0.318 delta=275.0: heavy = 1.39e+05, 2.63e+08, 1.60e+12 GeV
+  s23=0.52 s12=0.318 delta= 85.0: heavy = 1.39e+05, 2.63e+08, 1.60e+12 GeV
+  s23=0.55 s12=0.318 delta=282.8: heavy = 1.30e+05, 2.80e+08, 1.62e+12 GeV
+  s23=0.55 s12=0.318 delta= 77.2: heavy = 1.30e+05, 2.80e+08, 1.62e+12 GeV
+  s23=0.57 s12=0.318 delta=288.1: heavy = 1.21e+05, 2.99e+08, 1.62e+12 GeV
+  s23=0.57 s12=0.318 delta= 71.9: heavy = 1.21e+05, 2.99e+08, 1.62e+12 GeV
+
+Range over theta23 (3 sigma) and all Majorana phases, TM1 delta near 270:
+  partner 1: 6.45e+04 to 1.91e+05 GeV
+  partner 2: 2.20e+08 to 6.23e+08 GeV
+  partner 3: 1.29e+12 to 1.65e+12 GeV
+
+m_bb, natural reading (Majorana phases zero), TM1:
+  s23=0.45 delta=257: m_bb = 2.01 meV
+  s23=0.50 delta=270: m_bb = 1.85 meV
+  s23=0.55 delta=283: m_bb = 2.01 meV
+  s23=0.58 delta=291: m_bb = 2.25 meV
+  all phases free: 1.37 to 4.05 meV

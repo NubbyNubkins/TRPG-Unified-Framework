@@ -20,9 +20,10 @@
       [pending  ] lightest neutrino mass: 45 deg rule with one negative root (as Brannen 2006 proposed for neutrinos); decided by JUNO ordering; cosmological mass sum
       [pending  ] neutrino mixing number 1 (theta_12 given theta_13): TM1 pattern (Xing and Zhou 2007; Albright and Rodejohann 2009); decided by JUNO precision theta_12
       [pending  ] neutrino mixing number 2 (Dirac phase): TM1 pattern read as perspectives; decided by DUNE, Hyper-Kamiokande
-   Choices made with today's data in view (FITTED, listed, not counted as numbers): 5
+   Choices made with today's data in view (FITTED, listed, not counted as numbers): 6
       grain of space = Planck energy / sqrt2: one of five equally natural readings (see derive_45_and_sqrt2); feeds alpha_s and the Higgs mass
       weight rule of the far-side weak pairs: meeting energy squared / grain; one stated assumption (no direct link to the background value)
+      coloured far-side (D) states where the strengths cross: placed at 4.6e13 GeV with the three strengths taken as equal there (a boundary condition, not derived)
       TM1 rather than another trimaximal pattern: exact tribimaximal and TM2 are disfavoured by data
       sign pattern of the neutrino roots (-,+,+): the all-positive pattern gives no solution with the measured splittings
       maximum uncertainty as the reason for the 45 deg rule: a starting principle chosen knowing Koide holds for the charged leptons; it fails for quarks
@@ -31,7 +32,7 @@
       stiffness of the containment field: from the lattice glueball mass 1.71-1.73 GeV
    Note: the grain choice feeds both alpha_s and the Higgs mass. If alpha_s lands at 0.1178 one force strength
    is saved too, but the grain was chosen with data in view, so that saving only counts once both land.
-   Honest summary: 32 today, 28 if every pending measurement agrees, plus 5 stated choices.
+   Honest summary: 32 today, 28 if every pending measurement agrees, plus 6 stated choices.
 
 2. BREAK TESTS ON THE DERIVED LABELS
    tau mass from the 45 deg rule: 1776.969 MeV vs PDG 2022 1776.86 +- 0.12: +0.9 sigma
@@ -48,8 +49,11 @@
    -> PREDICTED, under strain. Not unique: any extra weak matter at high energy moves it the same way.
    alpha_s 0.1178 vs most precise lattice 0.11873 +- 0.00056: +1.7 sigma; vs world average 0.118 +- 0.0009: +0.2 sigma
    -> PREDICTED, rests on a FITTED grain choice; a 0.3% lattice result decides it.
-   lead: small gap from m2/m3 = 3-2sqrt2: 7.403e-5 eV^2 vs global fit with JUNO 7.48-7.53e-5 (+0.7 to +1.1 sigma today)
-   -> LEAD, under strain: at JUNO's design precision today's central value would be about 3 to 5 sigma away.
+   lead: small gap from m2/m3 = 3-2sqrt2: 7.403e-5 eV^2 (7.37 +- 0.08 with JUNO's own large splitting)
+   vs global fits with JUNO's first data 7.48-7.53e-5 (+0.7 to +1.1 sigma); vs JUNO 2026 7.388 +- 0.078e-5 (within 0.2 sigma)
+   -> LEAD, holds against JUNO 2026; JUNO's full precision decides it.
+   TM1 sin^2 theta12 = 0.318 vs JUNO 2026 0.3036 +- 0.0064: +2.3 sigma
+   -> PREDICTED, under pressure: 3 sigma would fail TM1 and with it the theta12 and CP-phase savings.
 
 3. LABELS THAT DID NOT SURVIVE AS 'DERIVED' (kept, relabelled in the ledger)
    Cabibbo angle from the masses: same relation as the down-quark check; counted once.

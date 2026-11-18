@@ -1,4 +1,4 @@
-"""Inputs-versus-predictions ledger for TRPG, version 1.2.2 (18 November 2026).
+"""Inputs-versus-predictions ledger for TRPG, version 1.3.2 (18 November 2026).
 
 Every quantity the framework uses or produces is listed once, with one label:
   INPUT     taken from measurement
@@ -8,7 +8,7 @@ Every quantity the framework uses or produces is listed once, with one label:
   EFFECTIVE an effective number of known physics (like the constants of the nuclear-mass formula), counted on neither side
 
 The script recounts the inputs three ways, and re-runs the break tests for the results that move the count
-(tau mass, down quark, lightest neutrino mass, Higgs mass) plus the strong-force strength and the JUNO lead,
+(tau mass, down quark, lightest neutrino mass, Higgs mass) plus the strong-force strength, the JUNO lead and TM1 against JUNO 2026,
 so that a reader can try to break them. It does not re-check the other DERIVED rows of the ledger (for example
 the up quark or rho = 1): those are standard results or come from the scripts named in the paper and README. Nothing here is new physics; it is bookkeeping that anyone can rerun.
 """
@@ -42,6 +42,7 @@ n_all = len(SAVINGS)
 FITTED = [
     ("grain of space = Planck energy / sqrt2", "one of five equally natural readings (see derive_45_and_sqrt2); feeds alpha_s and the Higgs mass"),
     ("weight rule of the far-side weak pairs", "meeting energy squared / grain; one stated assumption (no direct link to the background value)"),
+    ("coloured far-side (D) states where the strengths cross", "placed at 4.6e13 GeV with the three strengths taken as equal there (a boundary condition, not derived)"),
     ("TM1 rather than another trimaximal pattern", "exact tribimaximal and TM2 are disfavoured by data"),
     ("sign pattern of the neutrino roots (-,+,+)", "the all-positive pattern gives no solution with the measured splittings"),
     ("maximum uncertainty as the reason for the 45 deg rule", "a starting principle chosen knowing Koide holds for the charged leptons; it fails for quarks"),
@@ -64,7 +65,7 @@ print("   Effective numbers of the strong force, counted on neither side:")
 for q, why in EFFECTIVE: print(f"      {q}: {why}")
 print("   Note: the grain choice feeds both alpha_s and the Higgs mass. If alpha_s lands at 0.1178 one force strength")
 print("   is saved too, but the grain was chosen with data in view, so that saving only counts once both land.")
-print("   Honest summary: 32 today, 28 if every pending measurement agrees, plus 5 stated choices.")
+print("   Honest summary: 32 today, 28 if every pending measurement agrees, plus 6 stated choices.")
 assert n_sm == 34 and n_sm - n_conf == 32 and n_sm - n_all == 28
 
 # ---------------------------------------------------------------------------
@@ -117,8 +118,15 @@ print("   -> PREDICTED, rests on a FITTED grain choice; a 0.3% lattice result de
 # Small neutrino gap (a lead, not core)
 r = 3 - 2 * math.sqrt(2)
 p21 = r * r * (0.36e-3 ** 2 + 2.519e-3) - 0.36e-3 ** 2
-print(f"   lead: small gap from m2/m3 = 3-2sqrt2: {p21*1e5:.3f}e-5 eV^2 vs global fit with JUNO 7.48-7.53e-5 (+0.7 to +1.1 sigma today)")
-print("   -> LEAD, under strain: at JUNO's design precision today's central value would be about 3 to 5 sigma away.")
+print(f"   lead: small gap from m2/m3 = 3-2sqrt2: {p21*1e5:.3f}e-5 eV^2 (7.37 +- 0.08 with JUNO's own large splitting)")
+print("   vs global fits with JUNO's first data 7.48-7.53e-5 (+0.7 to +1.1 sigma); vs JUNO 2026 7.388 +- 0.078e-5 (within 0.2 sigma)")
+print("   -> LEAD, holds against JUNO 2026; JUNO's full precision decides it.")
+
+# theta_12 from TM1 against JUNO 2026 (arXiv:2609.37895)
+s13 = 0.0220
+t12 = 1 - 2 / (3 * (1 - s13))
+print(f"   TM1 sin^2 theta12 = {t12:.3f} vs JUNO 2026 0.3036 +- 0.0064: {(t12 - 0.3036) / 0.0064:+.1f} sigma")
+print("   -> PREDICTED, under pressure: 3 sigma would fail TM1 and with it the theta12 and CP-phase savings.")
 
 print("\n3. LABELS THAT DID NOT SURVIVE AS 'DERIVED' (kept, relabelled in the ledger)")
 print("   Cabibbo angle from the masses: same relation as the down-quark check; counted once.")

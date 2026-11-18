@@ -346,7 +346,7 @@ These numbers are bold. They are being tested right now. A giant detector called
 > - **Neutrino flavours are perspectives on one particle.** This follows from the theory. The idea is Matthew's. It gives a known mixing pattern called TM1.
 > - **Neutrino weights of 0.36, 8.7 and about 50 thousandths of an electron-volt, in "normal" order, with a total of about 0.059.** Prediction. It will be decided by JUNO, DESI and Euclid. The normal order holds given today's limits from cosmology; the rule also allows a reversed order, but cosmology already rules that one out. *Not 100% until the measurement returns.*
 > - **A mixing angle (sin²θ₁₂) of 0.318 and a timing angle of 253° to 292°.** Prediction. It will be decided by JUNO, DUNE and Hyper-Kamiokande. *Not 100% until the measurement returns.*
-> - **A very rare decay (neutrinoless double beta decay) at a strength of 1.3 to 3.9 thousandths of an electron-volt.** Prediction, but beyond the reach of any experiment now planned.
+> - **A very rare decay (neutrinoless double beta decay) at a strength of 1.4 to 4.1 thousandths of an electron-volt.** Prediction, but beyond the reach of any experiment now planned.
 > - **The seesaw.** Borrowed: proposed by Peter Minkowski (1977), and by Murray Gell-Mann, Pierre Ramond, Richard Slansky and Tsutomu Yanagida. In TRPG the heavy partners sit on the far side of the table.
 
 ---

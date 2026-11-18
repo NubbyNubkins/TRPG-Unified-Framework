@@ -1,6 +1,6 @@
 # TRPG ledger: what goes in, what comes out, and how it could fail
 
-*Version 1.2.2, 18 November 2026. `python analysis/input_ledger_2026-11-18.py` reruns the count and the break tests for the results that move it (tau mass, down quark, lightest neutrino mass, Higgs mass), plus the strong-force strength and the JUNO lead. It does not re-check the other derived rows. Those are standard results or come from the scripts named in the paper and the README (for example `analysis/pairing_gap_scan_2026-11-14.py` for the pairing gap and `analysis/neutrino_perspectives_2026-11-14.py` for θ₁₂ and the CP phase).*
+*Version 1.3.2, 18 November 2026. `python analysis/input_ledger_2026-11-18.py` reruns the count and the break tests for the results that move it (tau mass, down quark, lightest neutrino mass, Higgs mass), plus the strong-force strength and the JUNO lead. It does not re-check the other derived rows. Those are standard results or come from the scripts named in the paper and the README (for example `analysis/pairing_gap_scan_2026-11-14.py` for the pairing gap and `analysis/neutrino_perspectives_2026-11-14.py` for θ₁₂ and the CP phase).*
 
 This page answers the first three questions a careful reader asks of any unified theory. What was taken from measurement? What was chosen with today's data in view? And what does the framework say that has not been measured yet? Every quantity appears once, with one label. Nothing is counted as established until its measurement returns.
 
@@ -32,7 +32,7 @@ If one number decides TRPG first, it is this one.
 
 **TRPG is false if** neutrinos turn out to have inverted ordering, or the mass sum is measured clearly different from 0.059 eV (any value the measurement excludes 0.0592–0.0594 eV at 3σ).
 
-**A companion test (a lead, under strain).** If the middle-to-heaviest mass ratio is exactly 3 − 2√2, the small splitting must be 7.40 ± 0.06 × 10⁻⁵ eV². Today's global fits with JUNO's first data give 7.48 to 7.53, which is +0.7 to +1.1σ away. At JUNO's design precision, today's central value would be about 3 to 5σ away. This relation is not part of the core, and it is listed here because it will be decided first.
+**A companion test (a lead, under strain).** If the middle-to-heaviest mass ratio is exactly 3 − 2√2, the small splitting must be 7.40 ± 0.06 × 10⁻⁵ eV². Global fits with JUNO's first data gave 7.48 to 7.53 (+0.7 to +1.1σ away). JUNO's larger 2026 result gives 7.388 ± 0.078, within 0.2σ of the 7.37 ± 0.08 this relation gives with JUNO's own large splitting. This relation is not part of the core, and it is listed here because it will be decided first.
 
 ---
 
@@ -48,7 +48,7 @@ TRPG removes six of these, two already confirmed and four waiting for a measurem
 | Down-quark mass | Cabibbo relation (Gatto, Sartori and Tonin, 1968): strange-to-down mass ratio 19.9 vs 20.4 ± 0.3 | **confirmed** (−1.7σ) |
 | Higgs mass | Self-coupling zero at the grain of space (Shaposhnikov and Wetterich, 2010), with the far-side states | **pending**, and under strain: it needs a top mass 3.2σ below today's |
 | Lightest neutrino mass | 45° rule with one negative root (Brannen, 2006) | **pending** (Section 1) |
-| θ₁₂ given θ₁₃ | TM1 mixing pattern (Xing and Zhou, 2007; Albright and Rodejohann, 2009) | **pending**; within 1σ today |
+| θ₁₂ given θ₁₃ | TM1 mixing pattern (Xing and Zhou, 2007; Albright and Rodejohann, 2009) | **pending**; 2.3σ from JUNO 2026 (fails at 3σ) |
 | Neutrino CP phase | TM1 read as perspectives | **pending**; today's fits lean to 180–215°, against TRPG's 253–292° |
 
 **The honest count:**
@@ -57,13 +57,14 @@ TRPG removes six of these, two already confirmed and four waiting for a measurem
 - **28 if every pending measurement agrees.** This is the figure quoted elsewhere as "about 28". It is a ceiling on the saving, not a result.
 - **27** if, in addition, the strong coupling lands at 0.1178. That saving counts only once the Higgs mass also lands, because both rest on the same fitted choice of grain.
 
-**Plus five stated choices, made with today's data in view (fitted):**
+**Plus six stated choices, made with today's data in view (fitted):**
 
 1. The grain of space is the Planck energy ÷ √2. Five equally natural readings give five factors (`analysis/derive_45_and_sqrt2_2026-11-18.py`). This choice feeds both the strong coupling and the Higgs mass.
 2. The weight rule of the far-side weak pairs (meeting energy squared ÷ grain). This is one assumption: the pairs have no direct link to the background value that weighs their coloured partners.
-3. TM1 rather than another mixing pattern. Exact tribimaximal and TM2 are disfavoured by data.
-4. The sign pattern of the neutrino roots (−, +, +). The all-positive pattern has no solution with the measured splittings.
-5. Maximum uncertainty between self and relationship as the reason for the 45° rule. It is a starting principle, chosen knowing that Koide's relation holds for the charged leptons, and it fails for quarks. The tau mass is therefore "derived" from a principle that was itself chosen with data in view.
+3. The coloured far-side (D) states placed where the strengths cross (4.6 × 10¹³ GeV), with the three strengths taken as equal there. Above that energy they separate again; no placement makes them equal at the grain, so this is a boundary condition inside the bet, not a derivation (`analysis/crossing_vs_grain_2026-11-18.py`).
+4. TM1 rather than another mixing pattern. Exact tribimaximal and TM2 are disfavoured by data.
+5. The sign pattern of the neutrino roots (−, +, +). The all-positive pattern has no solution with the measured splittings.
+6. Maximum uncertainty between self and relationship as the reason for the 45° rule. It is a starting principle, chosen knowing that Koide's relation holds for the charged leptons, and it fails for quarks. The tau mass is therefore "derived" from a principle that was itself chosen with data in view.
 
 **Counted on neither side (effective numbers of the strong force):** the containment pressure B = 60 (57–64) MeV/fm³, set from the proton and Delta masses, and the stiffness of the containment field, set from the lattice glueball mass of 1.71–1.73 GeV.
 
@@ -115,17 +116,17 @@ TRPG removes six of these, two already confirmed and four waiting for a measurem
 
 | Prediction | TRPG | Today | Decided by | Unique to TRPG? |
 |---|---|---|---|---|
-| **Neutrino ordering, masses, sum** | normal; 0.36, 8.7, 50.1–50.3 meV; 0.0592–0.0594 eV | consistent | JUNO; DESI, Euclid | Shared with Brannen (2006) |
+| **Neutrino ordering, masses, sum** | normal; 0.36, 8.7, 50.1–50.3 meV; 0.0592–0.0594 eV | consistent; JUNO 2026 favours normal ordering at 2.1σ | JUNO; DESI, Euclid | Shared with Brannen (2006) |
 | Strong coupling at the Z | 0.1178 | 0.1180 ± 0.0009 world average; 0.11873 ± 0.00056 most precise lattice (+1.7σ) | lattice at about 0.3% | The number depends on TRPG's far-side states (2.4 × 10⁸ GeV); rests on the fitted grain |
 | Higgs mass from the grain | 127.2 ± 1.5 GeV | 125.20 ± 0.11 (1.3σ); needs top 171.6 vs 172.57 ± 0.29 (3.2σ) | a sharper top mass | No: any extra weak matter at high energy helps the same way |
-| θ₁₂ | sin²θ₁₂ = 0.318 | within 1σ | JUNO | Shared: TM1 models |
+| θ₁₂ | sin²θ₁₂ = 0.318 | JUNO 2026: 0.3036 ± 0.0064, so TM1 is 2.3σ high (3σ would fail it) | JUNO | Shared: TM1 models |
 | Neutrino CP phase | 253–292° | fits lean to 180–215° (weak) | DUNE, Hyper-Kamiokande | Shared in part: TM1 models with this reading |
 | Quark triangle angle γ | 64.1–67.6° | about 65° ± 3° (consistent) | LHCb, Belle II | From the lead α = 90°. Shared with the right-unitarity-triangle idea (Antusch, King, Malinsky and Spinrath, 2010) |
 | First-row quark-mixing shortfall | shrinks to zero | about 2σ today | neutron and nuclear beta decay, pion beta decay | TRPG's (no fourth generation, no extra states) |
-| Quark pairing gap in neutron stars | about 82–97 MeV | not measured (theory spans 50–150) | lattice and effective theory; neutron-star cooling and mergers | TRPG's, given B from the proton |
-| Neutrinoless double beta decay | 1.3–3.9 meV | below the limit (28–122 meV) | beyond planned reach (10–20 meV) | Follows from the neutrino masses above |
+| Quark pairing gap in compact (self-bound strange) stars | 4Δ² − m_s² = 1.7–2.8 × 10⁴ MeV²: about 82–97 MeV at m_s = 100 MeV, 88–109 MeV for a running m_s of 120–140 MeV | not measured (theory spans 50–150) | lattice and effective theory; neutron-star cooling and mergers | TRPG's, given B from the proton |
+| Neutrinoless double beta decay | 1.4–4.1 meV (1.8–2.3 if the Majorana phases are zero) | below the limit (28–122 meV) | beyond planned reach (10–20 meV) | Follows from the neutrino masses above |
 | Proton decay | none | none seen (> 2.4 × 10³⁴ yr) | Hyper-Kamiokande | Shared with any model without coloured Higgs partners |
-| Primordial gravitational waves | none | none seen | Simons Observatory, LiteBIRD | Shared with many non-inflationary models |
+| Primordial gravitational waves (majoron lead, not core) | r below about 10⁻¹¹ | none seen | Simons Observatory, LiteBIRD | Follows from the majoron lead's slow, cold start |
 | Tau mass, sharper | 1776.969 MeV | 1776.93 ± 0.09 | Belle II, BESIII | Shared: Koide |
 | Unmeasured Higgs couplings (self-couplings 191 GeV and 0.776; HHWW 0.213) | as listed | not measured | HL-LHC, future colliders | No: Standard Model values in TRPG's form. They test bookkeeping |
 
@@ -133,7 +134,7 @@ TRPG removes six of these, two already confirmed and four waiting for a measurem
 
 | Lead | What it gives | What is missing |
 |---|---|---|
-| Small neutrino splitting (m₂/m₃ = 3 − 2√2) | 7.40 ± 0.06 × 10⁻⁵ eV² | a reason for the ratio; under strain (+0.7 to +1.1σ) |
+| Small neutrino splitting (m₂/m₃ = 3 − 2√2) | 7.40 ± 0.06 × 10⁻⁵ eV² | a reason for the ratio; JUNO 2026 (7.388 ± 0.078) within 0.2σ |
 | Majoron as dark matter | a cold, chargeless wave; no X-ray line | its mass and amount |
 | Matter excess | allowed, through non-thermal leptogenesis | one start number |
 | Heavy quark masses and mixing (the fold) | all three mixing angles within 19% | a rule for the fold's strength |
@@ -153,11 +154,13 @@ Each of these would break the named part. None has returned yet. Dates are the e
 | α_s(M_Z) more than 3σ from 0.1178 with a 0.3% lattice result | the far-side weak pairs and the grain choice, and with them the closing of the force strengths | lattice QCD, next few years |
 | A top pole mass that puts the Higgs rule more than 3σ off | the Higgs mass from the grain | LHC and HL-LHC top-mass work |
 | The neutrino CP phase firmly outside 253–292° | the TM1 perspective reading | DUNE, Hyper-Kamiokande, 2030s |
+| sin²θ₁₂ more than 3σ from 0.318 (today 2.3σ) | TM1, and with it the θ₁₂ and CP-phase savings | JUNO, next few years |
+| A confirmed shortfall in the first row of the quark-mixing matrix | the far-side reading (D states at 4.6 × 10¹³ GeV keep the row unitary to about 10⁻²³) | beta-decay and pion experiments |
 | γ firmly outside 64.1–67.6° | the α = 90° lead | LHCb Upgrade, Belle II |
-| A quark pairing gap firmly outside 82–97 MeV, or a neutron star clearly above about 2.15 solar masses | containment with B from the proton | theory, timing and merger data (PSR J0952−0607 at 2.35 ± 0.17 is the case to watch) |
+| A quark pairing gap firmly outside the band 4Δ² − m_s² = 1.7–2.8 × 10⁴ MeV² (82–97 MeV at m_s = 100 MeV), or a compact star clearly above about 2.15 solar masses | containment with B from the proton | theory, timing and merger data (PSR J0952−0607 at 2.35 ± 0.17 is the case to watch) |
 | Proton decay of any kind | the nothing-extra rule and the far side | Hyper-Kamiokande, from about 2028 |
-| A fourth generation, a new force carrier, mirror particles, or a second Higgs pair | the nothing-extra rule | any collider |
-| Primordial gravitational waves | the no-inflation-signal prediction | Simons Observatory, LiteBIRD |
+| A fourth generation, a new force carrier, mirror families, a second Higgs pair or a coloured spin-0 particle | the nothing-extra rule | any collider |
+| Primordial gravitational waves | the majoron dark-matter lead (not the core) | Simons Observatory, LiteBIRD |
 | Dark matter that feels the weak force | the majoron lead | direct-detection experiments |
 | Neutrinos proven to be Dirac particles | the Higgs-free neutrino mass and 0νββ | neutrinoless double beta decay searches |
 | The tau mass measured firmly away from 1776.969 MeV | the 45° rule for leptons | Belle II, BESIII |
@@ -184,7 +187,7 @@ flowchart TD
   R1 --> GEN["Generation charges,<br/>one-handed matter (stated readings)"]
   R1 --> GRAV["Form of gravity<br/>(G is an input)"]
   R2 --> BAG["B from proton + Delta<br/>(effective)"]
-  BAG --> GAP["PREDICTED: pairing gap 82–97 MeV"]
+  BAG --> GAP["PREDICTED: pairing gap band (82–97 MeV at m_s = 100)"]
   R3 --> K45["45° rule for leptons"]
   K45 --> TAU["DERIVED: tau mass (Koide)"]
   K45 --> NU["PREDICTED: neutrino masses,<br/>normal ordering, sum 0.059 eV"]
