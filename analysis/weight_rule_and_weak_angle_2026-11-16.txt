@@ -23,8 +23,8 @@ Angle = geometric 3/8 at a TRPG scale fixed beforehand (alpha_em only, strong no
   heaviest hidden partner = majoron scale 6.3e10 [SM+pairs]: sin2(MZ) = 0.26426 (+14.29%)
   right side breaks 10^11.7                      [SM      ]: sin2(MZ) = 0.24862 (+7.52%)
   right side breaks 10^11.7                      [SM+pairs]: sin2(MZ) = 0.25393 (+9.82%)
-  F of an earlier test (4.30e13)                         [SM      ]: sin2(MZ) = 0.22351 (-3.34%)
-  F of an earlier test (4.30e13)                         [SM+pairs]: sin2(MZ) = 0.23177 (+0.24%)
+  F of an earlier test (4.30e13)                 [SM      ]: sin2(MZ) = 0.22351 (-3.34%)
+  F of an earlier test (4.30e13)                 [SM+pairs]: sin2(MZ) = 0.23177 (+0.24%)
 partners [7.25333130e+05 1.28911056e+09 6.27181458e+10]
 leak F^2/M_P = 1.514e+08; geometric mean of partners 3.885e+08; ratio 2.57
 family-blind leak would need m_nu ratios = (lepton mass ratios)^2: 282.8123444109579 vs TRPG/measured m3/m2 5.812933025404158
@@ -32,7 +32,7 @@ leak sets the overall scale -> lightest neutrino 5.19 meV, masses [ 5.19 10.09 5
   with exact-closure F 5.21e+13: lightest 1.88 meV, sum 0.0611 eV
 mixing angle light-heavy per family: [7.04502426e-10 8.19622482e-11 2.83308758e-11]
 
-Reasoning results (no numbers run; see an earlier test):
+Reasoning results (no numbers run):
   two overlapping waves = seesaw (light weight = link^2 / heavy weight): HOLDS (known physics)
   hidden colour: red+red adds colour (FAIL); white mix of far-side coloured parts weighs 4-10 decades too much (FAIL; subtraction = hand-tuning);
                  lepton as 4th colour needs a matter-number force, ruled out on the main line (FAIL on main line)

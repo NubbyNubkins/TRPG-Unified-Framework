@@ -31,5 +31,3 @@
   a = 90, b = 0                 : k -0.28, a 90, b 0: tilts 0.2226 0.05748 0.00257 0.01236, worst 1.454x; share of grid as good 4.34%
   a = 90, no fold, b free       : k +0.00, a 90, b 210: tilts 0.2430 0.01524 0.00070 0.00328, worst 5.321x; share of grid as good 98.80%
   share of grid within 1.10x: 0.00%; within 1.05x: 0.00%
-
-[exited with code 0]

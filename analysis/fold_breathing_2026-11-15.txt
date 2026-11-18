@@ -8,7 +8,7 @@
 ========================================================================================================
 2. Does the strength change with energy? (best fold, masses at the top vs at the Z)
 ========================================================================================================
-  at the top                : best k +0.135, worst 1.15x, link/balance 0.367
+  at the top                          : best k +0.135, worst 1.15x, link/balance 0.367
   at the Z (Xing, Zhang & Zhou 2008)  : best k +0.105, worst 1.17x, link/balance 0.324
   Ladder openings barely run and the tilts barely run, so the needed squeeze is the same within the grid step: no breathing with energy.
 

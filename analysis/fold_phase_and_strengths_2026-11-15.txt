@@ -26,5 +26,3 @@
   Fold with link = Higgs value v: M_D = v^2/(k p0) = 5.28e+05 GeV (real fold k = 0.12)
   Fold with link = Higgs value v: M_D = v^2/(k p0) = 2.43e+05 GeV (phased fold k = 0.26)
   Proton decay needs the meeting point above about 5e15 GeV (Super-Kamiokande); LHC needs D above about 1.5 TeV.
-
-[exited with code 0]

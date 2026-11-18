@@ -8,4 +8,6 @@ These are not run by `run_all.py`: a few take several minutes, and some need Sci
 python analysis/<name>.py
 ```
 
+The leptogenesis scripts (`leptogenesis_*`, `final_pass_*`, `ulysses_check_*`, `matter_excess_*`, `falsification_matter_excess_*`, `matter_and_dark_matter_final_*`) read one another and the saved `.json` files beside them, so run those from inside this folder; four of them also need the ULYSSES package (Granelli et al., 2021; `pip install ulysses`). The picture scripts need Matplotlib. `ideas_for_last_four` is in two parts, each with its own output. Two outputs, `force_pull_on_side_2026-11-16.txt` and `one_continuous_spiral_2026-11-17.txt`, are short calculations kept as tables without a separate script. Searches that start from random points can move in the last digit or two between library versions.
+
 Scripts whose names start with `build_` or `add_` rebuild the workbooks in `data/` and expect to be run from that folder.

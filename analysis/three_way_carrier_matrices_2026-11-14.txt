@@ -21,12 +21,12 @@ B. Values in these matrices that nobody has measured yet
      Higgs with itself (three-way)    191.0 GeV                              fixed by: Higgs mass and v (Standard Model); the main line keeps the same Higgs test: High-Luminosity LHC (2030s), to about 50%
      Higgs with itself (four-way)     0.776                                  fixed by: the same two numbers                                           test: a 100 TeV collider; not before 2050
      Higgs-Higgs-W-W                  0.213                                  fixed by: W mass and v                                                   test: LHC now: 0.57 to 1.48 x; High-Luminosity LHC
-     Higgs with charm                 5.17e-03                               fixed by: the charm mass: main line says exactly mass/v        test: LHC: below 8.5 x now
+     Higgs with charm                 5.17e-03                               fixed by: the charm mass: main line says exactly mass/v                  test: LHC: below 8.5 x now
      Higgs with electron              2.08e-06                               fixed by: the electron mass                                              test: FCC-ee running at the Higgs mass (2040s)
      Higgs with up, down, strange     mass / v each                          fixed by: their masses                                                   test: no planned test reaches them
      neutrino masses themselves       sum 0.0592 eV (TRPG, record M2)        fixed by: TRPG's lepton relational rule                                  test: DESI and Euclid now: sum below about 0.064 eV
      neutrinos' CP angle              about 270 degrees (TRPG, TM1, an earlier test) fixed by: the perspective reading                                        test: DUNE and Hyper-Kamiokande, 2030s
-     neutrino as its own antiparticle 1.2 to 3.9 meV effective mass fixed by: the Higgs-free energy                                          test: beyond planned experiments
+     neutrino as its own antiparticle 1.2 to 3.9 meV effective mass          fixed by: the Higgs-free energy                                          test: beyond planned experiments
   -> The matrices do hold real values not seen yet. But every one is FIXED by numbers already measured (or by a TRPG rule).
      They are predictions that can confirm or break the theory. None of them is an open number of ours.
 

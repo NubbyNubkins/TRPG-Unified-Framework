@@ -13,8 +13,3 @@ Dependence on the lightest neutrino (m1, meV): hidden ladder opening, twist, rat
   m1 1.00: hidden 49.126  7.495 ratio 1.336 | neutrino ratio 0.906 | sqrt(N1N3) 1.283e+08
   m1 2.00: hidden 49.201  7.447 ratio 1.346 | neutrino ratio 0.680 | sqrt(N1N3) 9.067e+07
 lepton ratio 1.3078205432321661
-down, unpressed base   opening  48.42 twist   3.92 ratio 0.620
-down, pressed (M_Z)              opening  48.06 twist   5.84 ratio 0.875
-down own scale                   opening  47.53 twist   6.31 ratio 0.876
-up M_Z                           opening  52.23 twist   2.93 ratio 1.171
-up own                           opening  51.20 twist   4.27 ratio 1.206

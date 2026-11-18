@@ -13,5 +13,3 @@ Timing placed in the democratic (placement) basis:
   a = 90, b = 0, k free           : k +0.30, b 0, worst 140.163x; share of all (k, a, b) as good 46.2%
   a = 90, b = 0, no fold          : k +0.00, b 0, worst 149.083x; share of all (k, a, b) as good 50.0%
   share of grid within 1.10x: 0.0%, within 1.05x: 0.00%
-
-[exited with code 0]

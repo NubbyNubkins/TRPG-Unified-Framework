@@ -1,4 +1,4 @@
-baseline                     pairs 1.515e+08  F 4.300e+13  sin2 0.23177  +0.24%  +1.6 sigma
+baseline                               pairs 1.515e+08  F 4.300e+13  sin2 0.23177  +0.24%  +1.6 sigma
 grain lends half (c=0.5)               pairs 5.578e+07  F 3.691e+13  sin2 0.23319  +0.85%  +5.8 sigma
 grain lends double (c=2)               pairs 4.112e+08  F 5.010e+13  sin2 0.23035  -0.38%  -2.6 sigma
 reduced Planck (grain / sqrt(8 pi))    pairs 1.546e+09  F 6.135e+13  sin2 0.22846  -1.19%  -8.1 sigma

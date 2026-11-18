@@ -1,6 +1,6 @@
 Candidates fixed before running. Spinning top: tip = light quark corner (1% of press), body = heavy + middle.
 A. Thirds sizes kept exactly; how far the tip turns in place:
-  a quarter turn, 90 deg (rule 4; an earlier test)    : tilts chi2   34.21 | with beta,gamma  145.01 | alpha 83.8 beta 26.79 gamma 69.4 J 3.42e-05
+  a quarter turn, 90 deg (rule 4; an earlier test): tilts chi2   34.21 | with beta,gamma  145.01 | alpha 83.8 beta 26.79 gamma 69.4 J 3.42e-05
   one point of a three-point top, 120 deg     : tilts chi2  557.31 | with beta,gamma 2051.05 | alpha 160.3 beta 8.55 gamma 11.2 J 7.84e-06
   half a point, 60 deg                        : tilts chi2 1065.43 | with beta,gamma 6473.81 | alpha 70.0 beta 52.00 gamma 58.0 J 2.27e-05
   the 45-degree balance                       : tilts chi2 1037.30 | with beta,gamma 3589.63 | alpha 170.3 beta 3.66 gamma 6.0 J 2.37e-06

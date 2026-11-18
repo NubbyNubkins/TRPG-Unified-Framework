@@ -15,6 +15,8 @@ Combined with established physics, these reproduce known results and make dated 
 
 TRPG does not try to replace anyone. Its aim is to show that the great physicists were each correct, seeing the same thing from different perspectives. Every physicist whose work it uses is credited in the documents.
 
+**Purpose and method.** TRPG starts from what has already been measured. Any idea that disagreed with measurement was discarded, and the record of each one is kept. Its purpose is to show that the Standard Model, gravity and quantum mechanics already fit together, building on the work of those who found them. Where a choice was made with today's data in view, as with the factor that fixes the grain of space, it is labelled as fitted, not predicted. Its predictions are only for measurements that have not yet been made.
+
 ## The predictions
 
 Each of these follows within the framework and is **awaiting measurement**. None is counted as established until its measurement returns.
@@ -22,7 +24,7 @@ Each of these follows within the framework and is **awaiting measurement**. None
 | Prediction | Value | Decided by |
 |---|---|---|
 | Neutrino ordering and masses | normal (given today's limit from cosmology); 0.36, 8.7, 50.1 to 50.3 meV; sum **0.0592 to 0.0594 eV** | JUNO; DESI and Euclid |
-| Strong coupling at the Z | **0.1178**, with the grain of space fixed as the Planck energy ÷ √2 (chosen with today's data in view; the unreduced Planck energy would give 0.1196, which is not the framework's value) | lattice results at about 0.3% (today: 0.11873 ± 0.00056) |
+| Strong coupling at the Z | **0.1178**, with the grain of space fixed as the Planck energy ÷ √2 (fitted, not predicted: chosen with today's data in view; the unreduced Planck energy would give 0.1196, which is not the framework's value) | lattice results at about 0.3% (today: 0.11873 ± 0.00056) |
 | Small neutrino gap (a lead: the neutrino midpoint) | 7.40 ± 0.06 × 10⁻⁵ eV² | JUNO at full precision |
 | Neutrino mixing | sin²θ₁₂ = 0.318 | JUNO |
 | Neutrino timing angle | 253–292° | DUNE, Hyper-Kamiokande |

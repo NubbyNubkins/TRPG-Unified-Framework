@@ -31,7 +31,3 @@ B. 45 deg as 'equal chance of self vs relationship'
   up quarks (common scale, P2)     chance of the 'fully related' (democratic) view = 0.37650; uncertainty = 0.95553 bits (max 1)
   Leptons sit at the maximum (1.00000 bits). Quarks are below it; colour (the strong force's extra relationships)
   would be the thing pulling them off. Principle, not derivation.
-0 0.47 approx 4.08e-10 | Radau 1e-06: 2.22e-10 ; Radau 1e-08: 2.22e-10 ; BDF 1e-08: 2.22e-10 ; LSODA 1e-09: 2.22e-10
-1 0.561 approx 3.41e-10 | Radau 1e-06: 2.09e-10 ; Radau 1e-08: 2.09e-10 ; BDF 1e-08: 2.09e-10 ; LSODA 1e-09: 2.09e-10
-2 0.47 approx 3.36e-10 | Radau 1e-06: 1.77e-10 ; Radau 1e-08: 1.77e-10 ; BDF 1e-08: 1.79e-10 ; LSODA 1e-09: 1.77e-10
-3 0.561 approx 3.25e-10 | Radau 1e-06: 1.86e-09 ; Radau 1e-08: 1.27e-09 ; BDF 1e-08: 9.97e-10 ; LSODA 1e-09: 3.15e-09

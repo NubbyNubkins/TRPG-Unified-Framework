@@ -15,7 +15,7 @@
    the swing would begin inside the band only for angle < 0.16, i.e. majoron weight > 12555 keV: above the 52 keV ceiling -> excluded
 
 (B) Quark mirror hint: middle-rung fractions, up + down = 1 ?
-   as weighed, top by its pole weight                  up 0.5651 down 0.4403 sum 1.0054
+   as weighed, top by its pole weight                             up 0.5651 down 0.4403 sum 1.0054
    each at its own energy (top 162.7 GeV at its own level)        up 0.5681 down 0.4403 sum 1.0084
    light three at 1 GeV instead of 2 GeV (x1.35), heavy at own    up 0.5562 down 0.4607 sum 1.0169
    own-energy sum with errors: 1.0085 +- 0.0042: +2.0 sigma from 1

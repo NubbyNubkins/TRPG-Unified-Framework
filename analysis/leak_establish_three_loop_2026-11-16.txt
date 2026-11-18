@@ -1,5 +1,5 @@
 A. grain lending factor c (m_pair = c F^2 / M_Planck), candidates fixed before running
-  c=1: grain = Planck energy from G alone                        c=1.0000 pairs 1.515e+08 sin2 0.23177 +1.6 sigma
+  c=1: grain = Planck energy from G alone                                  c=1.0000 pairs 1.515e+08 sin2 0.23177 +1.6 sigma
   c=sqrt2: grain where own-gravity radius 2GM = reduced wavelength hbar/M  c=1.4142 pairs 2.495e+08 sin2 0.23106 -0.5 sigma
   c=1/sqrt(pi): grain where 2GM = full wavelength h/M                      c=0.5642 pairs 6.639e+07 sin2 0.23294 +5.1 sigma
   c=sqrt(8pi): reduced Planck (Einstein-equation coupling 8piG)            c=5.0133 pairs 1.545e+09 sin2 0.22846 -8.1 sigma
@@ -19,7 +19,7 @@ D. THREE-LOOP RUNNING
 SM at 1e+13: 1/alpha 2-loop [np.float64(42.3133), np.float64(42.2078), np.float64(37.2655)]  3-loop [np.float64(42.3088), np.float64(42.1965), np.float64(37.2636)]
 SM at 1e+16: 1/alpha 2-loop [np.float64(37.7756), np.float64(45.6524), np.float64(45.0086)]  3-loop [np.float64(37.7709), np.float64(45.6401), np.float64(45.0065)]
   SM 3-loop predicted sin2 0.21079 (-8.83%)
-  3-loop leak c=1 (the earlier grain)   : pairs 1.500e+08 F 4.280e+13 sin2 0.23183 +1.8 sigma
+  3-loop leak c=1 (the earlier grain): pairs 1.500e+08 F 4.280e+13 sin2 0.23183 +1.8 sigma
   3-loop leak c=sqrt2               : pairs 2.472e+08 F 4.619e+13 sin2 0.23112 -0.3 sigma
   3-loop leak c=1/sqrt(pi)          : pairs 6.576e+07 F 3.772e+13 sin2 0.23301 +5.3 sigma
   3-loop leak c=sqrt(8pi) reduced   : pairs 1.531e+09 F 6.105e+13 sin2 0.22853 -7.9 sigma

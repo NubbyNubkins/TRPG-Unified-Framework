@@ -30,7 +30,7 @@
 2. The turn that is given up: is it a force, and which of the two kinds?
 ====================================================================================================
      strong + matter number (9)                             blind to the facing: True
-     strong + electric (9)  [an earlier test]                       blind to the facing: True
+     strong + electric (9)  [an earlier test]               blind to the facing: True
      strong + electric + matter number (10)                 blind to the facing: True
      strong + the earlier single one + matter number (10)   blind to the facing: False
      strong + weak + matter number (12)                     blind to the facing: False
