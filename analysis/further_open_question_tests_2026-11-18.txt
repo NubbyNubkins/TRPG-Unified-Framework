@@ -1,0 +1,36 @@
+1. PROTON HOME = REDUCED MASS
+   electron: logistic home 0.510721 MeV, reduced mass 0.510721 MeV (identical by algebra)
+   link value (m1+m2)/sqrt(m1 m2) = 2cosh S: a function of the mass ratio only;
+   the 171-pair matrix of 19 particles holds exactly 18 independent numbers (the mass ratios).
+
+2. WHAT PUSHES QUARKS OFF THE 45 DEG LEPTON CONE?
+   shift down 3.150 deg, up 7.147 deg, ratio 2.269 +- 0.012
+   shift proportional to |charge| (1/3 : 2/3): needs 2.0, measured 2.269 -> +22 sigma -> FAIL
+   shift proportional to charge^2: needs 4.0, measured 2.269 -> -142 sigma -> FAIL
+   in Koide-Q terms: excess down 0.0822, up 0.2186, ratio 2.66 (neither 2 nor 4)
+   The D fold presses DOWN quarks only, yet UP quarks sit farther from 45 deg:
+   so the fold is not what moves quarks off the lepton cone. FAIL for that reading.
+
+3. DOES THE FAR-SIDE CHAIN CONTINUE DOWN TO THE HIGGS VALUE?
+   grain 8.633e+18, F 4.620e+13, MMG = F^2/grain 2.472e+08 GeV, step 1.869e+05
+   next rung MMG/step = 1323 GeV vs Higgs value 246.2 (5.4x), top 172.6 (7.7x) -> FAIL
+
+4. MATTER PARITY (-1)^{3(B-L)} vs MMG DECAY
+   16 quarks (B-L=1/3)            parity odd
+   16 leptons (B-L=-1)            parity odd
+   10 weak pairs, MMG (B-L=0)     parity even
+   10 coloured D (B-L=+-2/3)      parity even
+   1 singlet (B-L=0)              parity even
+   A fermion that is EVEN cannot decay to an odd number of SM fermions (all odd) plus bosons:
+   with the parity exact, the lightest even fermion (neutral MMG) is STABLE, and MMG-lepton or D-down
+   mixing (needed for MMG decay and for the D fold) is FORBIDDEN. The exact parity and those two pieces contradict.
+   stable neutral MMG as dark matter: sigma_n ~ 2.3e-39 cm^2 vs direct-detection limit ~ 2e-41 at 2.5e+08 GeV
+   -> excluded by ~93x (order of magnitude). Mass splitting from v^2/F = 1.3 eV, far below ~100 keV: stays Dirac.
+
+5. MATTER EXCESS WITHOUT RULE 5 (heavy-partner masses free)
+   M1 1e+09 GeV: max asymmetry eps 9.9e-08; eta 9.5e-12 (kappa 0.01) to 9.5e-11 (kappa 0.1); need 6.1e-10
+   M1 3e+09 GeV: max asymmetry eps 3.0e-07; eta 2.9e-11 (kappa 0.01) to 2.9e-10 (kappa 0.1); need 6.1e-10
+   M1 1e+10 GeV: max asymmetry eps 9.9e-07; eta 9.5e-11 (kappa 0.01) to 9.5e-10 (kappa 0.1); need 6.1e-10
+   M1 3e+10 GeV: max asymmetry eps 3.0e-06; eta 2.9e-10 (kappa 0.01) to 2.9e-09 (kappa 0.1); need 6.1e-10
+   M1 1e+11 GeV: max asymmetry eps 9.9e-06; eta 9.5e-10 (kappa 0.01) to 9.5e-09 (kappa 0.1); need 6.1e-10
+   -> allowed for M1 above ~1e9-1e10 GeV with a start hotter than that (Davidson & Ibarra 2002). Allowed, not predicted.

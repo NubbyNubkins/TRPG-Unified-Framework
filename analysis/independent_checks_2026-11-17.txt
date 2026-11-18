@@ -1,0 +1,10 @@
+tau from Koide: 1776.969 MeV  (+0.91 sigma)
+  all +      NO: no solution
+  all +      IO: no solution
+  lightest - NO: masses ['0.36', '8.66', '50.13'] meV sum 0.0592 eV
+  lightest - IO: masses ['2.93', '49.46', '50.22'] meV sum 0.1026 eV
+0vbb m_bb range: 1.25 to 3.95 meV (m1=0.364 meV)
+TM1 sin2th12 = 0.3184 (NuFIT 0.307 +0.012-0.011 -> +0.9 sigma)
+  s23=0.47: delta = 97.6 or 262.4 deg
+  s23=0.561: delta = 74.3 or 285.7 deg
+  s23=0.5: delta = 90.0 or 270.0 deg

@@ -15,6 +15,14 @@
 - No proton decay is proven for the framework's content from the tables of the 27. Script: `analysis/e6_tables_no_proton_decay_2026-11-17.py`.
 - Dark energy: the main line sets its size by the grain of space and the horizon together, and it need not be constant.
 - Paper title now ends "with testable predictions".
+- 18 November 2026: the framework is now stated as three ideas, one rule (nothing extra) and one bet (the far side is real). The paper keeps the seven working principles under that statement.
+- Inputs counted like for like: about 28, against about 34 for the Standard Model with gravity and cosmology. The earlier figure of 27 left out the neutrino mixing numbers and the two numbers for the seeds of galaxies.
+- The strong coupling has one value, 0.1178: the grain of space is fixed as the Planck energy divided by √2. The choice was made with today's data in view, and the paper says so.
+- Corrections: the 45° balance is stated for leptons only; flatness is consistent with the full medium, not derived from it; the Higgs rule is 3.2 standard deviations off on the top mass alone; the neutron-star prediction is the pairing gap (82 to 97 MeV), not the mass window; normal neutrino ordering holds given today's limit from cosmology (the rule's inverted solution sums to 0.103 eV); the majoron is a lead, outside the core.
+- New open items: the origin of the seeds of galaxies, and where quantum probabilities come from.
+- New tests: `analysis/independent_checks_2026-11-17.py` (the lepton and neutrino numbers recomputed from scratch) and `analysis/further_open_question_tests_2026-11-18.py` (five further tests, four of which fail).
+- New: `docs/story/The_Full_Glass.md`, the framework told as a book, and `docs/theories/`, nine other theories of everything told the same way, with a comparison.
+- ORCID added for Melissa Gelfman.
 
 ## 1.1.1 (14 November 2026, night)
 

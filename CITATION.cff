@@ -8,8 +8,9 @@ authors:
     orcid: "https://orcid.org/0009-0000-6402-2258"
   - family-names: "Gelfman"
     given-names: "Melissa"
+    orcid: "https://orcid.org/0009-0001-6281-1947"
 version: "1.2.0"
-date-released: "2026-11-17"
+date-released: "2026-11-18"
 license: MIT
 url: "https://trpgphysics.org"
 keywords:
