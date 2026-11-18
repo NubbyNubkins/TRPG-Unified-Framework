@@ -1,6 +1,6 @@
 # Dynamic Relational Transitioning Geometry (TRPG)
 
-**A relational, entanglement-based Theory of Everything by Matthew Gelfman and Melissa Gelfman.**
+**A relational, entanglement-based Theory of Everything by Matthew Gelfman and Melissa Behrends-Gelfman.**
 Website: https://trpgphysics.org
 
 TRPG is three ideas, one rule and one bet.
