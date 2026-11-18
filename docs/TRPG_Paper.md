@@ -16,8 +16,6 @@ We present Dynamic Relational Transitioning Geometry (TRPG), a framework in whic
 Combined with established physics, these principles reproduce the following.
 
 -   Einstein's gravity, through the entanglement area law and Jacobson's thermodynamic argument. This includes the full deflection of starlight (1.75″) and the Shapiro delay.
--   Cohen, A. G., Kaplan, D. B. and Nelson, A. E. (1999). Effective field theory, black holes, and the cosmological constant. *Phys. Rev. Lett.* 82, 4971.
--   Li, M. (2004). A model of holographic dark energy. *Phys. Lett. B* 603, 1.
 -   The expansion of a flat universe, with an age of 13.79 billion years.
 -   A containment pressure B = 60 (57 to 64) MeV/fm³, obtained from the proton and Δ masses alone.
 -   Carried to neutron stars, that same pressure gives maximum masses of 2.0 to 2.15 solar masses and a tidal deformability Λ₁.₄ = 440 to 580, consistent with observation, provided quarks in the core pair with a gap of about 82 to 97 MeV. That gap is the prediction.
@@ -207,8 +205,8 @@ This framework is a perspective built on the work of the physicists cited below.
 
 -   Abbott, B. P. et al. (LIGO and Virgo) (2016). Observation of gravitational waves from a binary black hole merger. *Phys. Rev. Lett.* 116, 061102.
 -   Abbott, B. P. et al. (LIGO and Virgo) (2018). GW170817: measurements of neutron star radii and equation of state. *Phys. Rev. Lett.* 121, 161101.
--   Abbott, R. et al. (LIGO and Virgo) (2020). GW190814: gravitational waves from the coalescence of a 23 solar mass black hole with a 2.6 solar mass compact object. *Astrophys. J. Lett.* 896, L44.
 -   Abbott, L. F. and Sikivie, P. (1983). A cosmological bound on the invisible axion. *Phys. Lett. B* 120, 133.
+-   Abbott, R. et al. (LIGO and Virgo) (2020). GW190814: gravitational waves from the coalescence of a 23 solar mass black hole with a 2.6 solar mass compact object. *Astrophys. J. Lett.* 896, L44.
 -   Albert, A. A. (1934). On a certain algebra of quantum mechanics. *Ann. Math.* 35, 65.
 -   Albright, C. H. and Rodejohann, W. (2009). Comparing trimaximal mixing and its variants with deviations from tri-bimaximal mixing. *Eur. Phys. J. C* 62, 599.
 -   Alford, M., Braby, M., Paris, M. and Reddy, S. (2005). Hybrid stars that masquerade as neutron stars. *Astrophys. J.* 629, 969.
@@ -245,6 +243,7 @@ This framework is a perspective built on the work of the physicists cited below.
 -   Chung, D. J. H., Kolb, E. W. and Riotto, A. (1999). Production of massive particles during reheating. *Phys. Rev. D* 60, 063504.
 -   Clauser, J. F. and Freedman, S. J. (1972). Experimental test of local hidden-variable theories. *Phys. Rev. Lett.* 28, 938.
 -   Clowe, D., Bradač, M., Gonzalez, A. H., Markevitch, M., Randall, S. W., Jones, C. and Zaritsky, D. (2006). A direct empirical proof of the existence of dark matter. *Astrophys. J.* 648, L109.
+-   Cohen, A. G., Kaplan, D. B. and Nelson, A. E. (1999). Effective field theory, black holes, and the cosmological constant. *Phys. Rev. Lett.* 82, 4971.
 -   Colangelo, G., Lanz, S., Leutwyler, H. and Passemar, E. (2018). Dispersive analysis of η → 3π. *Eur. Phys. J. C* 78, 947.
 -   D'Onofrio, M. and Rummukainen, K. (2016). Standard model cross-over on the lattice. *Phys. Rev. D* 93, 025003.
 -   Dalla Brida, M., Höllwieser, R., Knechtli, F., Korzec, T., Ramos, A., Sint, S. and Sommer, R. (ALPHA) (2025). The strength of the interaction between quarks and gluons. arXiv:2501.06633.
@@ -254,9 +253,9 @@ This framework is a perspective built on the work of the physicists cited below.
 -   Deser, S. (1970). Self-interaction and gauge invariance. *Gen. Rel. Grav.* 1, 9.
 -   DESI Collaboration (2025). DESI DR2 results II: measurements of baryon acoustic oscillations and cosmological constraints. arXiv:2503.14738.
 -   Dimopoulos, S. and Georgi, H. (1981). Softly broken supersymmetry and SU(5). *Nucl. Phys. B* 193, 150.
+-   Dimopoulos, S. and Wilczek, F. (1981). Incomplete multiplets in supersymmetric unified models. NSF-ITP-82-07 (unpublished).
 -   Dine, M. and Fischler, W. (1983). The not-so-harmless axion. *Phys. Lett. B* 120, 137.
 -   Dirac, P. A. M. (1937). The cosmological constants. *Nature* 139, 323.
--   Dimopoulos, S. and Wilczek, F. (1981). Incomplete multiplets in supersymmetric unified models. NSF-ITP-82-07 (unpublished).
 -   Dixon, G. M. (1994). *Division Algebras: Octonions, Quaternions, Complex Numbers and the Algebraic Design of Physics.* Kluwer.
 -   Donoghue, J. F. and Johnson, K. (1980). Pion and nucleon form factors in the bag model. *Phys. Rev. D* 21, 1975.
 -   Dubois-Violette, M. and Todorov, I. (2019). Exceptional quantum geometry and particle physics II. *Nucl. Phys. B* 938, 751.
@@ -326,6 +325,7 @@ This framework is a perspective built on the work of the physicists cited below.
 -   Lee, T. D. and Yang, C. N. (1956). Question of parity conservation in weak interactions. *Phys. Rev.* 104, 254.
 -   Lemaître, G. (1927). Un univers homogène de masse constante et de rayon croissant. *Ann. Soc. Sci. Bruxelles* A47, 49.
 -   Leutwyler, H. (1996). The ratios of the light quark masses. *Phys. Lett. B* 378, 313.
+-   Li, M. (2004). A model of holographic dark energy. *Phys. Lett. B* 603, 1.
 -   Loos, O. (1977). *Bounded Symmetric Domains and Jordan Pairs.* University of California, Irvine.
 -   Luo, M., Wang, H. and Xiao, Y. (2003). Two-loop renormalization group equations in general gauge field theories. *Phys. Rev. D* 67, 065019.
 -   Machacek, M. E. and Vaughn, M. T. (1984). Two-loop renormalization group equations in a general quantum field theory. II. Yukawa couplings. *Nucl. Phys. B* 236, 221.
@@ -356,8 +356,8 @@ This framework is a perspective built on the work of the physicists cited below.
 -   Rapp, R., Schäfer, T., Shuryak, E. and Velkovsky, M. (1998). Diquark Bose condensates in high density matter and instantons. *Phys. Rev. Lett.* 81, 53.
 -   Reuter, M. (1998). Nonperturbative evolution equation for quantum gravity. *Phys. Rev. D* 57, 971.
 -   Rivero, A. (2011). A new Koide tuple: strange--charm--bottom. arXiv:1111.7232.
--   Romani, R. W., Kandel, D., Filippenko, A. V., Brink, T. G. and Zheng, W. (2022). PSR J0952−0607: the fastest and heaviest known Galactic neutron star. *Astrophys. J. Lett.* 934, L17.
 -   Rogers, K. K. and Peiris, H. V. (2021). Strong bound on canonical ultralight axion dark matter from the Lyman-alpha forest. *Phys. Rev. Lett.* 126, 071302.
+-   Romani, R. W., Kandel, D., Filippenko, A. V., Brink, T. G. and Zheng, W. (2022). PSR J0952−0607: the fastest and heaviest known Galactic neutron star. *Astrophys. J. Lett.* 934, L17.
 -   Ryu, S. and Takayanagi, T. (2006). Holographic derivation of entanglement entropy from AdS/CFT. *Phys. Rev. Lett.* 96, 181602.
 -   Sakharov, A. D. (1967). Vacuum quantum fluctuations in curved space and the theory of gravitation. *Dokl. Akad. Nauk SSSR* 177, 70.
 -   Sakharov, A. D. and Zeldovich, Ya. B. (1966). Quark structure and masses of strongly interacting particles. *Yad. Fiz.* 4, 395 (*Sov. J. Nucl. Phys.* 4, 283, 1967).
@@ -374,8 +374,8 @@ This framework is a perspective built on the work of the physicists cited below.
 -   Stueckelberg, E. C. G. (1960). Quantum theory in real Hilbert space. *Helv. Phys. Acta* 33, 727.
 -   Sumino, Y. (2009). Family gauge symmetry as an origin of Koide's mass formula and charged lepton spectrum. *Phys. Lett. B* 671, 477.
 -   Sutherland, D. G. (1966). Current algebra and the decay η → 3π. *Phys. Lett.* 23, 384.
--   Théberge, S., Thomas, A. W. and Miller, G. A. (1980). Pionic corrections to the MIT bag model: the (3,3) resonance. *Phys. Rev. D* 22, 2838.
 -   Takenaka, A. et al. (Super-Kamiokande Collaboration) (2020). Search for proton decay via p → e⁺π⁰ and p → μ⁺π⁰ with an enlarged fiducial volume in Super-Kamiokande I–IV. *Phys. Rev. D* 102, 112011.
+-   Théberge, S., Thomas, A. W. and Miller, G. A. (1980). Pionic corrections to the MIT bag model: the (3,3) resonance. *Phys. Rev. D* 22, 2838.
 -   Tiesinga, E., Mohr, P. J., Newell, D. B. and Taylor, B. N. (2021). CODATA recommended values of the fundamental physical constants: 2018. *Rev. Mod. Phys.* 93, 025010.
 -   Todorov, I. and Dubois-Violette, M. (2018). Deducing the symmetry of the Standard Model from the automorphism and structure groups of the exceptional Jordan algebra. *Int. J. Mod. Phys. A* 33, 1850118.
 -   Tolman, R. C. (1939). Static solutions of Einstein's field equations for spheres of fluid. *Phys. Rev.* 55, 364.
