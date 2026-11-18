@@ -45,7 +45,7 @@ TRPG removes six of these, two already confirmed and four waiting for a measurem
 | Removed | How | Status |
 |---|---|---|
 | Tau mass | 45° rule for leptons (Koide, 1983) | **confirmed**: 1776.969 MeV vs 1776.93 ± 0.09 (+0.4σ) |
-| Down-quark mass | Cabibbo relation (Gatto, Sartori and Tonin, 1968): m_s/m_d = 19.9 vs 20.4 ± 0.3 | **confirmed** (−1.7σ) |
+| Down-quark mass | Cabibbo relation (Gatto, Sartori and Tonin, 1968): strange-to-down mass ratio 19.9 vs 20.4 ± 0.3 | **confirmed** (−1.7σ) |
 | Higgs mass | Self-coupling zero at the grain of space (Shaposhnikov and Wetterich, 2010), with the far-side states | **pending**, and under strain: it needs a top mass 3.2σ below today's |
 | Lightest neutrino mass | 45° rule with one negative root (Brannen, 2006) | **pending** (Section 1) |
 | θ₁₂ given θ₁₃ | TM1 mixing pattern (Xing and Zhou, 2007; Albright and Rodejohann, 2009) | **pending**; within 1σ today |
@@ -95,7 +95,7 @@ TRPG removes six of these, two already confirmed and four waiting for a measurem
 |---|---|---|---|---|
 | Tau mass | 1776.969 MeV | 1776.93 ± 0.09 | e and μ masses, 45° rule | Shared: Koide (1983). TRPG adds the reason |
 | Electron, muon, tau together | 3 masses | 0.003% | **two** numbers (scale and twist) plus the 45° rule | Shared (Koide; Foot; Brannen) |
-| Down quark (m_s/m_d) | 19.9 | 20.4 ± 0.3 | Cabibbo angle, strange mass | Shared: Gatto, Sartori and Tonin (1968). One relation, counted once: it is the same relation as "Cabibbo angle from the masses" |
+| Down quark (strange-to-down mass ratio) | 19.9 | 20.4 ± 0.3 | Cabibbo angle, strange mass | Shared: Gatto, Sartori and Tonin (1968). One relation, counted once: it is the same relation as "Cabibbo angle from the masses" |
 | Up quark | 2.03 MeV | 2.16 ± 0.07 | Cabibbo relation and the measured Q from η → 3π | Shared: Leutwyler (1996). A check, not a saving |
 | Which forces exist (12 carriers, 8 + 3 + 1) | theorem | as observed | the perspective principle | Shared mathematics: Günaydin and Gürsey (1973); Todorov and Dubois-Violette (2018); Krasnov (2019). TRPG's reading of the matrix as one perspective is its own |
 | Charges of a whole generation | exact | as observed | the three-way reading of the matrix (stated, not derived) | Partly: anomaly cancellation is standard |
