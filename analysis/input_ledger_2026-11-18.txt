@@ -1,0 +1,57 @@
+1. THE COUNT
+   Standard Model + gravity + cosmology, counted like for like: 34
+       3  force strengths (3)
+       2  Higgs value and Higgs mass
+       9  charged-fermion masses (9)
+       4  quark mixing (3 angles + 1 phase)
+       1  strong-CP angle
+       3  neutrino masses (3)
+       6  neutrino mixing (3 angles, 1 Dirac phase, 2 Majorana phases)
+       1  gravity's strength
+       1  dark energy
+       1  dark matter amount
+       1  matter excess
+       2  seeds of galaxies (size, tilt)
+   Savings already confirmed by measurement: 2  -> TRPG takes 32 measured numbers today
+   Savings waiting for a measurement:        4  -> 28 if every one of them lands
+      [confirmed] tau mass: 45 deg rule for leptons (Koide 1983; reason: family symmetry + maximum uncertainty); decided by already measured
+      [confirmed] down-quark mass: Cabibbo relation m_s/m_d from the mixing angle (Gatto, Sartori, Tonin 1968); decided by already measured
+      [pending  ] Higgs mass: self-coupling zero at the grain (Shaposhnikov and Wetterich 2010) with the far-side states; decided by sharper top mass and alpha_s
+      [pending  ] lightest neutrino mass: 45 deg rule with one negative root (as Brannen 2006 proposed for neutrinos); decided by JUNO ordering; cosmological mass sum
+      [pending  ] neutrino mixing number 1 (theta_12 given theta_13): TM1 pattern (Xing and Zhou 2007; Albright and Rodejohann 2009); decided by JUNO precision theta_12
+      [pending  ] neutrino mixing number 2 (Dirac phase): TM1 pattern read as perspectives; decided by DUNE, Hyper-Kamiokande
+   Choices made with today's data in view (FITTED, listed, not counted as numbers): 4
+      grain of space = Planck energy / sqrt2: one of five equally natural readings (see derive_45_and_sqrt2); feeds alpha_s and the Higgs mass
+      weight rule of the far-side weak pairs: meeting energy squared / grain; one stated assumption (no direct link to the background value)
+      TM1 rather than another trimaximal pattern: exact tribimaximal and TM2 are disfavoured by data
+      sign pattern of the neutrino roots (-,+,+): the all-positive pattern gives no solution with the measured splittings
+   Effective numbers of the strong force, counted on neither side:
+      containment pressure B = 60 (57-64) MeV/fm^3: from the proton and Delta masses; an effective number of the strong force
+      stiffness of the containment field: from the lattice glueball mass 1.71-1.73 GeV
+   Note: the grain choice feeds both alpha_s and the Higgs mass. If alpha_s lands at 0.1178 one force strength
+   is saved too, but the grain was chosen with data in view, so that saving only counts once both land.
+   Honest summary: 32 today, 28 if every pending measurement agrees, plus 4 stated choices.
+
+2. BREAK TESTS ON THE DERIVED LABELS
+   tau mass from the 45 deg rule: 1776.969 MeV vs PDG 2022 1776.86 +- 0.12: +0.9 sigma
+   tau mass from the 45 deg rule: 1776.969 MeV vs PDG 2024 1776.93 +- 0.09: +0.4 sigma
+   -> DERIVED holds. Not unique to TRPG: it is Koide's relation (1983). TRPG adds a reason for it.
+   Lepton masses: three masses from TWO numbers (scale and twist) plus the rule, not from one.
+   m_s/m_d from the Cabibbo angle: 19.9 vs lattice 20.4 +- 0.3 -> -1.7 sigma; m_d = 4.70 MeV (lattice 4.70 +- 0.07)
+   (the tangent form, tan(theta_C) = sqrt(m_d/m_s), would give 18.9, about -5 sigma; the sine form is the one used)
+   -> DERIVED holds as a check. The same relation cannot also be counted as 'Cabibbo angle from the masses';
+      it is one relation, used once.
+   neutrinos, 45 deg rule with roots (-,+,+): m1 0.36, m2 8.66, m3 50.13 meV, sum 59.2 meV
+   -> PREDICTED (not measured). Brannen (2006) proposed the same relation for neutrinos; the numbers are shared.
+   Higgs rule needs top pole mass 171.63 vs 172.57 +- 0.29: 3.2 sigma on the top mass alone
+   -> PREDICTED, under strain. Not unique: any extra weak matter at high energy moves it the same way.
+   alpha_s 0.1178 vs most precise lattice 0.11873 +- 0.00056: +1.7 sigma; vs world average 0.118 +- 0.0009: +0.2 sigma
+   -> PREDICTED, rests on a FITTED grain choice; a 0.3% lattice result decides it.
+   lead: small gap from m2/m3 = 3-2sqrt2: 7.403e-5 eV^2 vs global fit with JUNO 7.48-7.53e-5 (+0.7 to +1.1 sigma today)
+   -> LEAD, under strain: at JUNO's design precision today's central value would be about 3 to 5 sigma away.
+
+3. LABELS THAT DID NOT SURVIVE AS 'DERIVED' (kept, relabelled in the ledger)
+   Cabibbo angle from the masses: same relation as the down-quark check; counted once.
+   Age of the universe, light bending, ringdown: standard results reproduced from measured inputs (H0, G); not TRPG predictions.
+   Heaviest neutron star 2.0-2.15 Msun: the observed window the pairing gap must respect, not a separate prediction.
+   The 45 deg rule for leptons: derived from a starting principle (maximum uncertainty) that was chosen knowing Koide holds.

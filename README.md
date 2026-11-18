@@ -17,6 +17,12 @@ TRPG does not try to replace anyone. Its aim is to show that the great physicist
 
 **Purpose and method.** This work starts from existing conclusions. Any idea that disagreed with determined measurements was discarded, and the record of each one is kept. Its purpose is to show that the Standard Model, gravity and quantum mechanics already fit together, building on the work of those who found them. Where a choice was made with today's data in view it is labelled as fitted, not predicted. Its predictions are only for measurements that have not yet been made.
 
+## Start here: the ledger
+
+[`docs/ledger/TRPG_Ledger.md`](docs/ledger/TRPG_Ledger.md) lists every quantity once, as input, fitted, derived or predicted, with what each one used and whether another published idea gives the same number. It also gives the input count as a range, a "TRPG is false if…" list with the deciding experiments, and the derivation tree ([`figures/derivation_tree.png`](figures/derivation_tree.png)). Every number in it is rerun by `analysis/input_ledger_2026-11-18.py`.
+
+**The headline prediction is the neutrino one.** Normal ordering, masses 0.36, 8.7 and 50.1 to 50.3 meV, sum 0.0592 to 0.0594 eV. It comes from the 45° rule that gives the tau mass, applied with one negative root, which is the relation Brannen proposed for neutrinos in 2006. JUNO, DESI and Euclid will decide it. Inverted ordering, or a sum clearly outside 0.058 to 0.07 eV, would falsify it. It is not 100% until those measurements return.
+
 ## The predictions
 
 Each of these follows within the framework and is **awaiting measurement**. None is counted as established until its measurement returns.
@@ -43,13 +49,13 @@ Each of these follows within the framework and is **awaiting measurement**. None
 | Bag constant B from the proton and Delta masses | 60 (57–64) MeV/fm³ | 1975 bag fit ≈ 57 | `proton_sets_B` |
 | Heaviest neutron star (B from proton, pairing gap 82–97 MeV; the gap is the prediction) | 2.0–2.15 M☉ | ≥ 2.0 | `neutron_stars_no_knobs`, `analysis/pairing_gap_scan` |
 | Tidal Λ of a 1.4 M☉ star | 440–580 | < ~580 (GW170817) | `analysis/pairing_gap_scan` |
-| Electron, muon, tau masses | 3 from 1 scale | 0.003% | `master_action_M2_mass_couplings` |
-| Cabibbo angle from masses (already known, GST 1968) | 0.2242 | 0.2243 | `build_relational_matrix` |
+| Electron, muon, tau masses | 3 from 2 numbers (scale and twist) with the 45° rule | 0.003% | `master_action_M2_mass_couplings` |
+| Cabibbo angle from masses (already known, GST 1968; the same relation gives the down quark, so it is counted once) | 0.2242 | 0.2243 | `build_relational_matrix` |
 | Tau lifetime from the muon (already known, lepton universality) | 289.7 fs | 290.3 fs | `build_antiparticle_and_decays` |
 | Quark charges, given 3 colours | +2/3, −1/3 | same | `area_law_and_charges` |
 | Black-hole ringdown (GW150914) | 250 Hz, 4.0 ms | matches | `ringdown_check` |
 
-**Status (18 November 2026):** 7 of 9 Theory-of-Everything requirements met and 2 partly met. Counted like for like, the framework takes about 28 measured numbers, against about 34 for the Standard Model with gravity and cosmology. Saved outright: the tau mass, the down quark mass and the lightest neutrino mass. Saved only if pending measurements agree: the Higgs mass and two neutrino mixing numbers. The Higgs mass follows from a rule at the grain of space (Shaposhnikov and Wetterich, 2010) and is awaiting measurement; other extra weak matter at high energy would help in the same way, so it does not single out TRPG.
+**Status (18 November 2026):** 7 of 9 Theory-of-Everything requirements met and 2 partly met. Counted like for like, the framework takes about 28 measured numbers, against about 34 for the Standard Model with gravity and cosmology. That is the figure if every pending measurement agrees; counting only savings already confirmed it is 32, plus four choices made with today's data in view (see the ledger). Saved outright: the tau mass, the down quark mass and the lightest neutrino mass. Saved only if pending measurements agree: the Higgs mass and two neutrino mixing numbers. The Higgs mass follows from a rule at the grain of space (Shaposhnikov and Wetterich, 2010) and is awaiting measurement; other extra weak matter at high energy would help in the same way, so it does not single out TRPG.
 
 - **Force groups: partly met, awaiting measurement.** Which forces exist, their charges and one-handed matter follow from the relationship matrix. Only the force strengths remain. They meet if three colourless far-side states of the matrix (named MMG) sit at 2.4 × 10⁸ GeV, which requires the strong coupling above. Not 100% until that measurement returns.
 - **Quark link strengths: partly met, awaiting a rule.** Three numbers (the press on the down quarks and the two ladder openings) have no rule. No experiment closes this; it needs a new idea.
