@@ -1,12 +1,12 @@
 # The Full Glass
 
-*The story of the universe according to TRPG, by Matthew Gelfman and Melissa Gelfman. No mathematics is needed, and every chapter ends by saying how sure anyone can be.*
+*The story of the universe according to TRPG, by Matthew Gelfman and Melissa Behrends-Gelfman. No mathematics is needed, and every chapter ends by saying how sure anyone can be.*
 
 ## A Note Before We Begin
 
 This is a story about everything: where the universe came from, what it is made of, why things weigh what they weigh, why the stars shine, and why you, reading this, can only ever see the world from one place at a time.
 
-It is told the way one particular theory tells it. The theory is called **Dynamic Relational Transitioning Geometry**, or TRPG for short. Matthew Gelfman began working on it in 1998. Melissa Gelfman joined him in 2010, and since then it has been their joint work, with equal credit. It grew out of thought experiments and long, quiet thinking, and out of one stubborn question: *what if the great physicists were each right, but were looking at the same thing from different sides?*
+It is told the way one particular theory tells it. The theory is called **Dynamic Relational Transitioning Geometry**, or TRPG for short. Matthew Gelfman began working on it in 1998. Melissa Behrends-Gelfman joined him in 2010, and since then it has been their joint work, with equal credit. It grew out of thought experiments and long, quiet thinking, and out of one stubborn question: *what if the great physicists were each right, but were looking at the same thing from different sides?*
 
 You do not need any mathematics to read this book. Every idea comes with a picture you can hold in your head with your eyes closed. If you want the numbers, they are there, tucked into short boxes at the end of each chapter.
 
@@ -765,4 +765,4 @@ Most of that story follows from three ideas, one rule and one bet. The rest is b
 
 ---
 
-*© 2026 Matthew Gelfman and Melissa Gelfman. Every number in this book comes from the framework's published checks. The methods, data and sources are at trpgphysics.org, on the Framework, Results and Credits pages.*
+*© 2026 Matthew Gelfman and Melissa Behrends-Gelfman. Every number in this book comes from the framework's published checks. The methods, data and sources are at trpgphysics.org, on the Framework, Results and Credits pages.*

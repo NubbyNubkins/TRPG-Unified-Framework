@@ -1,7 +1,7 @@
 # Dynamic Relational Transitioning Geometry: a relational, entanglement-based account of known physics, with testable predictions
 
 **Matthew Gelfman** (ORCID 0009-0000-6402-2258)\
-**Melissa Gelfman** (ORCID 0009-0001-6281-1947)
+**Melissa Behrends-Gelfman** (ORCID 0009-0001-6281-1947)
 
 Version of 18 November 2026. Built on the work of the physicists credited at the end; this framework is a perspective that aims to show they were each right.
 
@@ -199,7 +199,7 @@ Every number in this paper is produced by a script published with it under the M
 
 ## Acknowledgements
 
-This framework is a perspective built on the work of the physicists cited below. Calculations were carried out in Python with NumPy, SciPy and SymPy. AI assistants were used, under the authors' direction, for transcription, computation and literature search; every result was checked by rerunning the published code. Matthew Gelfman and Melissa Gelfman contributed equally to this work.
+This framework is a perspective built on the work of the physicists cited below. Calculations were carried out in Python with NumPy, SciPy and SymPy. AI assistants were used, under the authors' direction, for transcription, computation and literature search; every result was checked by rerunning the published code. Matthew Gelfman and Melissa Behrends-Gelfman contributed equally to this work.
 
 ## References
 

@@ -10,7 +10,7 @@
 - Working notes and conversation text removed from every script, output and workbook; the tests themselves are unchanged.
 - ORCID added for Matthew Gelfman.
 - Corrections: neutrino sum quoted as 0.0592 to 0.0594 eV, depending on which global fit of the splittings is used; Standard Model strength miss quoted as 8.9% at two loops (was 10.6% from a mixed method); the dark matter candidate's mass is not fixed (the earlier 1.4 keV and 3.4 keV values are withdrawn); quark pairing gap 82 to 97 MeV.
-- Melissa Gelfman added as co-author.
+- Melissa Behrends-Gelfman added as co-author.
 - The Higgs mass follows from a rule at the grain of space (Shaposhnikov and Wetterich, 2010): 127.2 ± 1.5 GeV with the far-side states against 125.20 ± 0.11 measured (128.8 ± 1.5 with the Standard Model's states alone). Awaiting measurement; the measured inputs go from 28 to 27. Script: `analysis/higgs_at_the_grain_2026-11-17.py`.
 - No proton decay is proven for the framework's content from the tables of the 27. Script: `analysis/e6_tables_no_proton_decay_2026-11-17.py`.
 - Dark energy: the main line sets its size by the grain of space and the horizon together, and it need not be constant.
@@ -22,7 +22,7 @@
 - New open items: the origin of the seeds of galaxies, and where quantum probabilities come from.
 - New tests: `analysis/independent_checks_2026-11-17.py` (the lepton and neutrino numbers recomputed from scratch) and `analysis/further_open_question_tests_2026-11-18.py` (five further tests, four of which fail).
 - New: `docs/story/The_Full_Glass.md`, the framework told as a book, and `docs/theories/`, nine other theories of everything told the same way, with a comparison.
-- ORCID added for Melissa Gelfman.
+- ORCID added for Melissa Behrends-Gelfman.
 - The matter sign (−1)^3(B−L) is stated as approximate for the far-side parts: an exact sign would leave a stable neutral far-side state, which dark-matter searches exclude (`analysis/further_open_question_tests_2026-11-18.py`, test 4).
 - `analysis/leptogenesis_boltzmann_2026-11-14.py`: the closing line now carries the solver caution (results above about 1e-9 differ between solvers; settings that agree give about 2e-10, not reached). `solver_check_part30` renamed `leptogenesis_solver_check`.
 - Wording leftovers removed from four scripts and one figure; no number changed.
