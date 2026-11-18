@@ -5,7 +5,7 @@
 2. Standard Model only, lambda = 0 at the Planck mass, PDG 2026 inputs:
    two-loop code 128.83 GeV; three-loop fit 128.75 GeV; three minus two = -0.08 GeV
 
-3. With the far side, at the framework's grain (Planck/sqrt2), the three-loop step added:
+3. With the far side, at the framework's grain (Planck/sqrt2), the Standard Model's three-loop shift added (an estimate):
    two-loop 127.27 GeV -> three-loop 127.19 +- 1.46 GeV (pole allowance included) vs 125.13 +- 0.11: +1.4 sigma; without the allowance +- 0.98: +2.1 sigma
    top pole mass the rule needs: 171.64 GeV vs 172.60 +- 0.27: 3.6 sigma on the top mass alone
 

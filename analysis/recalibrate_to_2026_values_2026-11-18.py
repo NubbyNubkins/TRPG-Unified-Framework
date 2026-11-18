@@ -53,8 +53,14 @@ r_ud = math.sqrt(1 - (ratio / Q_ETA[0]) ** 2)
 mu_pred = r_ud * md_pred
 lo = math.sqrt(1 - (ratio / (Q_ETA[0] - Q_ETA[1])) ** 2) * md_pred
 hi = math.sqrt(1 - (ratio / (Q_ETA[0] + Q_ETA[1])) ** 2) * md_pred
-line(f"3. up quark: m_u/m_d = {r_ud:.3f} (PDG 2026 0.462 +- 0.020: {z(r_ud, *PDG26['mu_md']):+.1f} sigma); "
-     f"m_u = {mu_pred:.2f} MeV (range {lo:.2f}-{hi:.2f} from Q) vs 2.16 +- 0.07: {z(mu_pred, *PDG26['mu']):+.1f} sigma")
+s_mu = (hi - lo) / 2; s_r = s_mu / md_pred
+line(f"3. up quark: m_u/m_d = {r_ud:.3f} +- {s_r:.3f} (from Q) vs PDG 2026 0.462 +- 0.020: {(r_ud - PDG26['mu_md'][0]) / math.hypot(s_r, PDG26['mu_md'][1]):+.1f} sigma; "
+     f"m_u = {mu_pred:.2f} +- {s_mu:.2f} MeV vs 2.16 +- 0.07: {(mu_pred - PDG26['mu'][0]) / math.hypot(s_mu, PDG26['mu'][1]):+.1f} sigma (errors combined)")
+QL = (23.4, 0.5)
+muL = math.sqrt(1 - (ratio / QL[0]) ** 2) * md_pred
+sL = (math.sqrt(1 - (ratio / (QL[0] + QL[1])) ** 2) - math.sqrt(1 - (ratio / (QL[0] - QL[1])) ** 2)) * md_pred / 2
+line(f"   with the lattice Q = 23.4 +- 0.5: m_u/m_d = {muL / md_pred:.3f}, m_u = {muL:.2f} +- {sL:.2f} MeV: {(muL - PDG26['mu'][0]) / math.hypot(sL, PDG26['mu'][1]):+.1f} sigma."
+     " Q is known to 3%, so the test is loose either way.")
 
 # 4. neutrino masses from the 45 degree rule with roots (-,+,+)
 def nu_masses(d21, d31):
@@ -87,8 +93,12 @@ p0 = hint(JUNO26["dm31"], m1=0.0); pJ = hint(JUNO26["dm31"], m1=mJ[0])
 line(f"   dependence on m1 (which the 45 deg rule took from the measured small splitting): m1 = 0 gives {p0*1e5:.3f}, "
      f"m1 = {mJ[0]*1e3:.3f} meV gives {pJ*1e5:.3f}; so the reuse moves the hint by {abs(pJ-p0)*1e5:.3f}e-5, 0.3% (not circular in practice)")
 derr = r * r * 0.027e-3
-line(f"   error from the large splitting alone (+-0.026e-3): +-{derr*1e5:.3f}e-5; fail band at JUNO's present error: "
-     f"{(hint(JUNO26['dm31'])-0.078e-5)*1e5:.2f} to {(hint(JUNO26['dm31'])+0.078e-5)*1e5:.2f}e-5 (v1.3.2 printed 7.32 to 7.48)")
+pH = hint(JUNO26['dm31'])
+line(f"   prediction error from the large splitting (+-0.027e-3): +-{derr*1e5:.3f}e-5. Fail line: more than 3 sigma with both errors combined.")
+for lab, sj in (("JUNO's present error 0.078", 0.078e-5), ("JUNO's full precision, about 0.02", 0.02e-5)):
+    s = math.hypot(derr, sj)
+    line(f"   {lab}: combined +-{s*1e5:.3f}e-5, so the lead fails outside {(pH-3*s)*1e5:.2f} to {(pH+3*s)*1e5:.2f}e-5")
+line("   (v1.3.2 printed 7.32 to 7.48: a one-standard-deviation band, too narrow to count as a failure)")
 line("   how the ratio was found: 3 - 2 sqrt2 = 0.1716 (the midpoint of a side of the mass triangle) was proposed when the")
 line("   measured m2/m3 (0.172-0.173) was already known, so it is a hint found after the fact, not a prediction made in advance.")
 

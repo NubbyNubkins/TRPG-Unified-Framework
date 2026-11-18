@@ -150,7 +150,7 @@ Each of these would break the named part. None has returned yet. Dates are the e
 |---|---|---|
 | Inverted neutrino ordering | the neutrino masses and the 45° rule for neutrinos | JUNO, early 2030s; DUNE, Hyper-Kamiokande, 2030s |
 | A neutrino mass sum that excludes 0.0591–0.0594 eV at 3σ | the neutrino masses | DESI final data, Euclid, late 2020s to early 2030s |
-| The small splitting outside 7.29–7.45 × 10⁻⁵ eV² at JUNO's full precision | the 3 − 2√2 lead | JUNO, within about 6 years |
+| The small splitting more than 3σ from 7.37 ± 0.08 × 10⁻⁵ eV², JUNO's error combined (outside about 7.13–7.62 at JUNO's full precision) | the 3 − 2√2 lead | JUNO, within about 6 years |
 | α_s(M_Z) more than 3σ from 0.1178 with a 0.3% lattice result | the far-side weak pairs and the grain choice, and with them the closing of the force strengths | lattice QCD, next few years |
 | A top pole mass that puts the Higgs rule more than 3σ off | the Higgs mass from the grain | LHC and HL-LHC top-mass work |
 | The neutrino CP phase firmly outside 253–292° | the TM1 perspective reading | DUNE, Hyper-Kamiokande, 2030s |
@@ -226,11 +226,11 @@ An audit on 18 November 2026 asked of every test: was a number, a form or a mode
 | 45° rule for leptons | the principle, adopted knowing Koide's relation | fitted choice 6 |
 | Small neutrino splitting | the ratio 3 − 2√2, proposed when the measured mass ratio was already known | a hint |
 | Down quark | the sine form of the Cabibbo relation (the tangent form fails at −2.7σ) | a choice of form |
-| Up quark | the decay value of Q (the lattice value fails by more than 3σ) | the check stands or falls with Q |
+| Up quark | the decay value of Q (0.4σ with Q's error included; the lattice value gives 2.0σ) | the check stands or falls with Q |
 
 ## 7. What changed in this version
 
-**Version 1.3.3 (18 November 2026).** Values recalibrated to PDG 2026 and JUNO 2026 (`analysis/recalibrate_to_2026_values_2026-11-18.py`). The Higgs rule now needs a top mass 3.7σ below today's (was 3.2σ), and its pass rests on the top-mass allowance. With JUNO's splittings m₂ is 8.6 meV and the sum 0.0591 eV, so both are now given as ranges. The small splitting's move from 7.40 to 7.37 is explained, and its fail band corrected to 7.29–7.45. The down quark is compared with the measured masses (19.8 ± 0.3) instead of an unsourced 20.4. Section 6 above is new.
+**Version 1.3.3 (18 November 2026).** Values recalibrated to PDG 2026 and JUNO 2026 (`analysis/recalibrate_to_2026_values_2026-11-18.py`). The Higgs rule now needs a top mass 3.7σ below today's (was 3.2σ), and its pass rests on the top-mass allowance. With JUNO's splittings m₂ is 8.6 meV and the sum 0.0591 eV, so both are now given as ranges. The small splitting's move from 7.40 to 7.37 is explained, and its fail band is now a 3σ test with both errors combined (about 7.13–7.62 at JUNO's full precision; the older bands were one standard deviation wide). The down quark is compared with the measured masses (19.8 ± 0.3) instead of an unsourced 20.4. Section 6 above is new.
 
 **Version 1.2.2.**
 

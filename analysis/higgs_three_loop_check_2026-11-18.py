@@ -6,6 +6,9 @@ Planck mass at three loops (NNLO matching) as a linear fit:
     lambda(M_Pl) = -0.0143 - 0.0066 (M_t - 173.34) + 0.0018 (alpha_s - 0.1184)/0.0007 + 0.0029 (M_h - 125.15).
 First the two-loop code of higgs_at_the_grain_2026-11-17.py is checked against the same fit (value and slopes), then the
 difference between three and two loops at the Planck mass is added to the far-side result at the framework's grain.
+This is an estimate: the shift is the Standard Model's own. The far-side states enter only above 2.4e8 GeV, while the
+two-to-three-loop shift comes mostly from the top-quark and strong-force matching near the weak scale; a full three-loop
+run that includes the far-side thresholds has not been done.
 Inputs: PDG 2026 (M_t 172.60 +- 0.27, M_h 125.13 +- 0.11, M_W 80.3625, alpha_s 0.1180 +- 0.0009).
 """
 import os, io, contextlib, importlib.util
@@ -40,7 +43,7 @@ dpole = abs(dt) / 0.27 * 0.5
 loops = 0.1   # what remains after the three-loop step (Buttazzo et al. quote about 0.1 GeV from the four-loop QCD term)
 s = (dt**2 + da**2 + dpole**2 + loops**2 + 0.11**2) ** 0.5
 s0 = (dt**2 + da**2 + loops**2 + 0.11**2) ** 0.5
-print("\n3. With the far side, at the framework's grain (Planck/sqrt2), the three-loop step added:")
+print("\n3. With the far side, at the framework's grain (Planck/sqrt2), the Standard Model's three-loop shift added (an estimate):")
 print(f"   two-loop {far2:.2f} GeV -> three-loop {far3:.2f} +- {s:.2f} GeV (pole allowance included) vs 125.13 +- 0.11: {(far3-mh)/s:+.1f} sigma;"
       f" without the allowance +- {s0:.2f}: {(far3-mh)/s0:+.1f} sigma")
 need_t = brentq(lambda m: hg.mh_needed(hg.GRAIN, True, mt=m, mw=mw) + shift - mh, 165, 180, xtol=1e-4)

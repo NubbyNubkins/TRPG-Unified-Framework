@@ -5,7 +5,8 @@ RECALIBRATION OF THE HEADLINE NUMBERS TO PDG 2026 AND JUNO 2026
    v1.3.2 compared with '20.4 +- 0.3' (-1.7 sigma). That number has no source in PDG 2024 or 2026, and the PDG masses the
    same script used (93.5 / 4.70 = 19.9) disagree with it. The check passes either way; the comparison value is corrected.
    The sine form was chosen over the tangent form (18.9, -2.7 sigma here) after both were tried: a fitted choice of form.
-3. up quark: m_u/m_d = 0.437 (PDG 2026 0.462 +- 0.020: -1.2 sigma); m_u = 2.04 MeV (range 1.73-2.29 from Q) vs 2.16 +- 0.07: -1.7 sigma
+3. up quark: m_u/m_d = 0.437 +- 0.060 (from Q) vs PDG 2026 0.462 +- 0.020: -0.4 sigma; m_u = 2.04 +- 0.28 MeV vs 2.16 +- 0.07: -0.4 sigma (errors combined)
+   with the lattice Q = 23.4 +- 0.5: m_u/m_d = 0.528, m_u = 2.47 +- 0.14 MeV: +2.0 sigma. Q is known to 3%, so the test is loose either way.
 4. neutrino masses (45 deg rule, roots -,+,+):
    JUNO 2026             : m1 0.359, m2 8.60, m3 50.09 meV, sum 59.05 meV
    NuFIT 6.0 without SK  : m1 0.364, m2 8.66, m3 50.13 meV, sum 59.16 meV
@@ -14,7 +15,10 @@ RECALIBRATION OF THE HEADLINE NUMBERS TO PDG 2026 AND JUNO 2026
    NuFIT 6.0-era 2.519e-3 (v1.2.2) : 7.403e-5 eV^2 vs JUNO 7.388 +- 0.078: +0.19 sigma
    JUNO 2026 2.509e-3 (v1.3.2)     : 7.373e-5 eV^2 vs JUNO 7.388 +- 0.078: -0.19 sigma
    dependence on m1 (which the 45 deg rule took from the measured small splitting): m1 = 0 gives 7.386, m1 = 0.359 meV gives 7.373; so the reuse moves the hint by 0.012e-5, 0.3% (not circular in practice)
-   error from the large splitting alone (+-0.026e-3): +-0.079e-5; fail band at JUNO's present error: 7.30 to 7.45e-5 (v1.3.2 printed 7.32 to 7.48)
+   prediction error from the large splitting (+-0.027e-3): +-0.079e-5. Fail line: more than 3 sigma with both errors combined.
+   JUNO's present error 0.078: combined +-0.111e-5, so the lead fails outside 7.04 to 7.71e-5
+   JUNO's full precision, about 0.02: combined +-0.082e-5, so the lead fails outside 7.13 to 7.62e-5
+   (v1.3.2 printed 7.32 to 7.48: a one-standard-deviation band, too narrow to count as a failure)
    how the ratio was found: 3 - 2 sqrt2 = 0.1716 (the midpoint of a side of the mass triangle) was proposed when the
    measured m2/m3 (0.172-0.173) was already known, so it is a hint found after the fact, not a prediction made in advance.
 6. TM1 sin^2 theta12 (NuFIT 6.0 s13^2 0.02195): 0.3184 vs JUNO 2026 0.3036 +- 0.0064: +2.31 sigma

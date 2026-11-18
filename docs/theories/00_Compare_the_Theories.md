@@ -93,7 +93,7 @@ The established theories have already been reviewed for years, so review changes
 |---|---|---|
 | Strong coupling to 0.3% (lattice QCD, around 2030) | the grain becomes confirmed, not chosen | TRPG's bet (the far side) breaks; the rest can stand |
 | Neutrino ordering (JUNO) | normal ordering: TRPG's neutrino rule survives | inverted ordering breaks TRPG's neutrino rule |
-| JUNO's small neutrino gap | 7.37 (7.40 with the older global fit's large splitting): TRPG's neutrino midpoint, a lead proposed when the measured mass ratio was already known | JUNO 2026 gives 7.388 ± 0.078, within 0.2σ; a value outside 7.29 to 7.45 at full precision fails the lead; the neutrino rule itself is not affected |
+| JUNO's small neutrino gap | 7.37 (7.40 with the older global fit's large splitting): TRPG's neutrino midpoint, a lead proposed when the measured mass ratio was already known | JUNO 2026 gives 7.388 ± 0.078, within 0.2σ; a value more than 3σ away at full precision (outside about 7.13 to 7.62) fails the lead; the neutrino rule itself is not affected |
 | Neutrino mass sum (DESI, Euclid) | 0.059 eV confirmed | a sum clearly below 0.059 breaks TRPG |
 | Proton decay (Hyper-Kamiokande) | no decay: consistent with TRPG | one decay breaks TRPG and favours grand unification |
 | Top-quark mass, more precise | the Higgs rule survives | the Higgs rule fails |
