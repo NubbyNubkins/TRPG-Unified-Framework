@@ -10,7 +10,7 @@ TEST FIXED BEFORE RUNNING:
   are shown for completeness only. Picking whichever fits after the fact is not evidence.
 """
 import math, io, contextlib
-src=open('/mnt/project-files/trpg/github/TRPG-Unified-Framework/analysis/leak_establish_three_loop_2026-11-16.py').read()
+src=open(__import__('os').path.join(__import__('os').path.dirname(__import__('os').path.abspath(__file__)), 'leak_establish_three_loop_2026-11-16.py')).read()
 p1=src.split('print("A. grain')[0]
 p2=src[src.index('nG=3; nt=1'):src.index('# sanity')]
 ns={}; exec(p1,ns); exec(p2,ns)

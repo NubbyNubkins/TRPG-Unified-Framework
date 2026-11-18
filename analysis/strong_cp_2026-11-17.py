@@ -31,7 +31,7 @@ eps=v/math.sqrt(2)*s/MG; th=r/2*eps/md
 print(f"  A3: corner from the grain = {eps:.1e} GeV -> theta_bar ~ {th:.0e} (limit 1e-10) -> FAIL unless the Z2 and CP are exact against gravity (a further assumption).")
 print()
 print("B. MAJORON = AXION (break check)")
-src=open('/mnt/project-files/trpg/github/TRPG-Unified-Framework/analysis/leak_establish_three_loop_2026-11-16.py').read()
+src=open(__import__('os').path.join(__import__('os').path.dirname(__import__('os').path.abspath(__file__)), 'leak_establish_three_loop_2026-11-16.py')).read()
 ns={}; exec(src.split('print("A. grain')[0],ns); exec(src[src.index('nG=3; nt=1'):src.index('# sanity')],ns)
 exec('''
 def solveD(c, MD, **kw):
