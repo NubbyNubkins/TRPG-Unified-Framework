@@ -21,7 +21,7 @@ There is one promise this book makes, and it matters more than any other. **It w
 - **Still a mystery.** A question the theory has not answered.
 - **Not our question.** Something the theory deliberately does not try to explain.
 
-One more thing about how this theory was built. It starts from what has already been measured. Any idea that disagreed with a measurement was thrown out, and the record of each test was kept. Its purpose is to show that the three great successes of physics, the Standard Model of particles, Einstein's gravity and quantum mechanics, already fit together, building on the work of the people who found them. Wherever a choice was made while looking at today's measurements, the box says so and calls it fitted, not predicted. The theory's predictions are only for measurements nobody has made yet.
+One more thing about how this theory was built. It starts from existing conclusions. Any idea that disagreed with determined measurements was discarded, and the record of each one is kept. Its purpose is to show that the three great successes of physics, the Standard Model of particles, Einstein's gravity and quantum mechanics, already fit together, building on the work of the people who found them. Wherever a choice was made with today's measurements in view, it is labelled as fitted, not predicted. The theory's predictions are only for measurements that have not yet been made.
 
 TRPG might turn out to be wrong. Every good theory must be able to be wrong, or it is not saying anything. If it does fail, the hope is that this book still does its job: it lets anyone, of any age and any background, understand what a theory of everything is trying to do, and see clearly where the hard questions are.
 

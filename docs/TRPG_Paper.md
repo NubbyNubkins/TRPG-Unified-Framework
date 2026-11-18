@@ -35,7 +35,7 @@ This work starts from a different question. What if the great physicists were ea
 
 The picture proposed here is relational. A particle is real on its own, but what it does, and what the universe does, comes from how particles relate to one another. Write down how every particle relates to every other and you obtain a matrix. The structure of physics is the structure of such matrices.
 
-**Purpose and method.** This work starts from what has already been measured. Any idea that disagreed with measurement was discarded, and the record of each one is kept. Its purpose is to show that the Standard Model, gravity and quantum mechanics already fit together, building on the work of those who found them. Where a choice was made with today's data in view, as with the factor that fixes the grain of space (Section 9), it is labelled as fitted, not predicted. Its predictions are only for measurements that have not yet been made.
+**Purpose and method.** This work starts from existing conclusions. Any idea that disagreed with determined measurements was discarded, and the record of each one is kept. Its purpose is to show that the Standard Model, gravity and quantum mechanics already fit together, building on the work of those who found them. Where a choice was made with today's data in view it is labelled as fitted, not predicted. Its predictions are only for measurements that have not yet been made.
 
 Section 2 states the principles. Section 3 writes them as a single action. Sections 4 to 8 show what follows, each compared with measurement. Section 9 gives the predictions, Section 10 the open questions, and Section 11 concludes.
 

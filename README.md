@@ -15,7 +15,7 @@ Combined with established physics, these reproduce known results and make dated 
 
 TRPG does not try to replace anyone. Its aim is to show that the great physicists were each correct, seeing the same thing from different perspectives. Every physicist whose work it uses is credited in the documents.
 
-**Purpose and method.** TRPG starts from what has already been measured. Any idea that disagreed with measurement was discarded, and the record of each one is kept. Its purpose is to show that the Standard Model, gravity and quantum mechanics already fit together, building on the work of those who found them. Where a choice was made with today's data in view, as with the factor that fixes the grain of space, it is labelled as fitted, not predicted. Its predictions are only for measurements that have not yet been made.
+**Purpose and method.** This work starts from existing conclusions. Any idea that disagreed with determined measurements was discarded, and the record of each one is kept. Its purpose is to show that the Standard Model, gravity and quantum mechanics already fit together, building on the work of those who found them. Where a choice was made with today's data in view it is labelled as fitted, not predicted. Its predictions are only for measurements that have not yet been made.
 
 ## The predictions
 

@@ -55,7 +55,7 @@ First public release.
 - Paper draft (PDF, Word and Markdown).
 - Website source for trpgphysics.org.
 - `neutron_star_tidal_fix_2026-11-13.py` now prints its results (its main loop had been left commented out).
-- Purpose and method stated in the paper, the README and the book: the framework starts from what has been measured, discards any idea that disagreed with measurement, and labels choices made with today's data in view as fitted, not predicted.
+- Purpose and method stated in the paper, the README and the book: the work starts from existing conclusions, discards any idea that disagreed with determined measurements, and labels choices made with today's data in view as fitted, not predicted.
 - Every script was rerun (24 in `code/`, 128 in `analysis/`) and each saved output now matches its script. Fixes: leftover run markers and timing lines removed from six outputs; `ideas_for_last_four` and the leptogenesis solver check each given their own output file; the four `.json` data files that the leptogenesis scripts read are now included; `pairing_gap_scan` runs without arguments and covers every row of its saved output; one output brought up to date where a search moved in its last digits. No result changed.
 - `requirements.txt` now lists Matplotlib, which the picture scripts need.
 
