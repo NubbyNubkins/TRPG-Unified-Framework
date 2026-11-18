@@ -42,6 +42,7 @@ FITTED = [
     ("weight rule of the far-side weak pairs", "meeting energy squared / grain; one stated assumption (no direct link to the background value)"),
     ("TM1 rather than another trimaximal pattern", "exact tribimaximal and TM2 are disfavoured by data"),
     ("sign pattern of the neutrino roots (-,+,+)", "the all-positive pattern gives no solution with the measured splittings"),
+    ("maximum uncertainty as the reason for the 45 deg rule", "a starting principle chosen knowing Koide holds for the charged leptons; it fails for quarks"),
 ]
 
 EFFECTIVE = [
@@ -61,7 +62,7 @@ print("   Effective numbers of the strong force, counted on neither side:")
 for q, why in EFFECTIVE: print(f"      {q}: {why}")
 print("   Note: the grain choice feeds both alpha_s and the Higgs mass. If alpha_s lands at 0.1178 one force strength")
 print("   is saved too, but the grain was chosen with data in view, so that saving only counts once both land.")
-print("   Honest summary: 32 today, 28 if every pending measurement agrees, plus 4 stated choices.")
+print("   Honest summary: 32 today, 28 if every pending measurement agrees, plus 5 stated choices.")
 assert n_sm == 34 and n_sm - n_conf == 32 and n_sm - n_all == 28
 
 # ---------------------------------------------------------------------------
@@ -76,7 +77,7 @@ x = (-B + math.sqrt(B * B - 4 * A * C)) / (2 * A)
 mtau = x * x
 for lab, val, err in (("PDG 2022", 1776.86, 0.12), ("PDG 2024", 1776.93, 0.09)):
     print(f"   tau mass from the 45 deg rule: {mtau:.3f} MeV vs {lab} {val} +- {err}: {(mtau - val) / err:+.1f} sigma")
-print("   -> DERIVED holds. Not unique to TRPG: it is Koide's relation (1983). TRPG adds a reason for it.")
+print("   -> DERIVED holds (from a principle counted among the fitted choices). Not unique to TRPG: it is Koide's relation (1983). TRPG adds a reason for it.")
 print("   Lepton masses: three masses from TWO numbers (scale and twist) plus the rule, not from one.")
 
 # Down quark from the Cabibbo relation: sin(theta_C) = sqrt(m_d/m_s)  (Gatto, Sartori, Tonin 1968)

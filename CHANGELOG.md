@@ -7,7 +7,7 @@ Bookkeeping only. No result, rule or prediction changed.
 - New: `docs/ledger/TRPG_Ledger.md`, one ledger of every quantity (input, fitted, derived, predicted, lead or effective), with what each used and whether another published idea gives the same number; a "TRPG is false if…" list with the deciding experiments; and the neutrino masses as the headline prediction.
 - New: `analysis/input_ledger_2026-11-18.py` (with its output), which recounts the inputs and reruns the checks behind each "derived" label.
 - New: `figures/derivation_tree.png` and `figures/make_derivation_tree.py`, the chain from the rules to the outputs.
-- The input count is now given as a range: 32 counting only savings already confirmed (tau and down quark), 28 if every pending measurement agrees (Higgs mass, lightest neutrino mass, two neutrino mixing numbers), plus four stated choices made with today's data in view.
+- The input count is now given as a range: 32 counting only savings already confirmed (tau and down quark), 28 if every pending measurement agrees (Higgs mass, lightest neutrino mass, two neutrino mixing numbers), plus five stated choices made with today's data in view.
 - Accuracy: the lepton masses come from two numbers (scale and twist) with the 45° rule, not one; "Cabibbo angle from masses" and "down quark from the Cabibbo angle" are one relation, counted once; the neutrino masses are credited to the relation Brannen proposed in 2006.
 
 ## 1.2.0 (17 November 2026)

@@ -1,6 +1,6 @@
 # TRPG ledger: what goes in, what comes out, and how it could fail
 
-*Version 1.2.2, 18 November 2026. Rerun every number here with `python analysis/input_ledger_2026-11-18.py`.*
+*Version 1.2.2, 18 November 2026. `python analysis/input_ledger_2026-11-18.py` reruns the count and the checks behind the derived labels. The other numbers come from the scripts named in the paper and the README (for example `analysis/pairing_gap_scan_2026-11-14.py` for the pairing gap and `analysis/neutrino_perspectives_2026-11-14.py` for θ₁₂ and the CP phase).*
 
 This page answers the first three questions a careful reader asks of any unified theory. What was taken from measurement? What was chosen with today's data in view? And what does the framework say that has not been measured yet? Every quantity appears once, with one label. Nothing is counted as established until its measurement returns.
 
@@ -30,7 +30,7 @@ If one number decides TRPG first, it is this one.
 
 **Credit and uniqueness.** The same relation for neutrinos was proposed by Brannen (2006), building on Koide (1983). TRPG supplies a reason for it, the family symmetry together with maximum uncertainty between self and relationship, but not a different number. So this test cannot single out TRPG from Brannen's proposal. It can falsify both.
 
-**TRPG is false if** neutrinos turn out to have inverted ordering, or the mass sum is measured clearly outside 0.058 to 0.07 eV.
+**TRPG is false if** neutrinos turn out to have inverted ordering, or the mass sum is measured clearly different from 0.059 eV (any value the measurement excludes 0.0592–0.0594 eV at 3σ).
 
 **A companion test (a lead, under strain).** If the middle-to-heaviest mass ratio is exactly 3 − 2√2, the small splitting must be 7.40 ± 0.06 × 10⁻⁵ eV². Today's global fits with JUNO's first data give 7.48 to 7.53, which is +0.7 to +1.1σ away. At JUNO's design precision, today's central value would be about 3 to 5σ away. This relation is not part of the core, and it is listed here because it will be decided first.
 
@@ -57,12 +57,13 @@ TRPG removes six of these, two already confirmed and four waiting for a measurem
 - **28 if every pending measurement agrees.** This is the figure quoted elsewhere as "about 28". It is a ceiling on the saving, not a result.
 - **27** if, in addition, the strong coupling lands at 0.1178. That saving counts only once the Higgs mass also lands, because both rest on the same fitted choice of grain.
 
-**Plus four stated choices, made with today's data in view (fitted):**
+**Plus five stated choices, made with today's data in view (fitted):**
 
 1. The grain of space is the Planck energy ÷ √2. Five equally natural readings give five factors (`analysis/derive_45_and_sqrt2_2026-11-18.py`). This choice feeds both the strong coupling and the Higgs mass.
 2. The weight rule of the far-side weak pairs (meeting energy squared ÷ grain). This is one assumption: the pairs have no direct link to the background value that weighs their coloured partners.
 3. TM1 rather than another mixing pattern. Exact tribimaximal and TM2 are disfavoured by data.
 4. The sign pattern of the neutrino roots (−, +, +). The all-positive pattern has no solution with the measured splittings.
+5. Maximum uncertainty between self and relationship as the reason for the 45° rule. It is a starting principle, chosen knowing that Koide's relation holds for the charged leptons, and it fails for quarks. The tau mass is therefore "derived" from a principle that was itself chosen with data in view.
 
 **Counted on neither side (effective numbers of the strong force):** the containment pressure B = 60 (57–64) MeV/fm³, set from the proton and Delta masses, and the stiffness of the containment field, set from the lattice glueball mass of 1.71–1.73 GeV.
 
@@ -93,7 +94,7 @@ TRPG removes six of these, two already confirmed and four waiting for a measurem
 
 | Result | TRPG | Measured | What it used | Unique to TRPG? |
 |---|---|---|---|---|
-| Tau mass | 1776.969 MeV | 1776.93 ± 0.09 | e and μ masses, 45° rule | Shared: Koide (1983). TRPG adds the reason |
+| Tau mass | 1776.969 MeV | 1776.93 ± 0.09 | e and μ masses, 45° rule (whose principle is fitted choice 5) | Shared: Koide (1983). TRPG adds the reason |
 | Electron, muon, tau together | 3 masses | 0.003% | **two** numbers (scale and twist) plus the 45° rule | Shared (Koide; Foot; Brannen) |
 | Down quark (strange-to-down mass ratio) | 19.9 | 20.4 ± 0.3 | Cabibbo angle, strange mass | Shared: Gatto, Sartori and Tonin (1968). One relation, counted once: it is the same relation as "Cabibbo angle from the masses" |
 | Up quark | 2.03 MeV | 2.16 ± 0.07 | Cabibbo relation and the measured Q from η → 3π | Shared: Leutwyler (1996). A check, not a saving |
@@ -147,7 +148,7 @@ Each of these would break the named part. None has returned yet. Dates are the e
 | If this is measured | It breaks | Expected |
 |---|---|---|
 | Inverted neutrino ordering | the neutrino masses and the 45° rule for neutrinos | JUNO, early 2030s; DUNE, Hyper-Kamiokande, 2030s |
-| A neutrino mass sum clearly outside 0.058–0.07 eV | the neutrino masses | DESI final data, Euclid, late 2020s to early 2030s |
+| A neutrino mass sum that excludes 0.0592–0.0594 eV at 3σ | the neutrino masses | DESI final data, Euclid, late 2020s to early 2030s |
 | The small splitting outside 7.32–7.48 × 10⁻⁵ eV² at JUNO's full precision | the 3 − 2√2 lead | JUNO, within about 6 years |
 | α_s(M_Z) more than 3σ from 0.1178 with a 0.3% lattice result | the far-side weak pairs and the grain choice, and with them the closing of the force strengths | lattice QCD, next few years |
 | A top pole mass that puts the Higgs rule more than 3σ off | the Higgs mass from the grain | LHC and HL-LHC top-mass work |
@@ -175,7 +176,7 @@ flowchart TD
   R4["Rule: nothing extra"]
   BET["Bet: the far side of the<br/>relationship matrix is real"]
   IN["28 measured inputs<br/>(+4 pending)"]
-  FIT["4 fitted choices<br/>(grain = Planck/√2, ...)"]
+  FIT["5 fitted choices<br/>(grain = Planck/√2, ...)"]
 
   R1 --> OCT["Octonions: 3 colours,<br/>strong force"]
   R1 --> FORCES["Which forces exist:<br/>8 + 3 + 1 (theorem)"]
@@ -198,6 +199,7 @@ flowchart TD
   IN --> AS
   IN --> MH
   IN --> GAP
+  IN --> DCP
 ```
 
 ---

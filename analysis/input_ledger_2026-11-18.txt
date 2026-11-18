@@ -20,22 +20,23 @@
       [pending  ] lightest neutrino mass: 45 deg rule with one negative root (as Brannen 2006 proposed for neutrinos); decided by JUNO ordering; cosmological mass sum
       [pending  ] neutrino mixing number 1 (theta_12 given theta_13): TM1 pattern (Xing and Zhou 2007; Albright and Rodejohann 2009); decided by JUNO precision theta_12
       [pending  ] neutrino mixing number 2 (Dirac phase): TM1 pattern read as perspectives; decided by DUNE, Hyper-Kamiokande
-   Choices made with today's data in view (FITTED, listed, not counted as numbers): 4
+   Choices made with today's data in view (FITTED, listed, not counted as numbers): 5
       grain of space = Planck energy / sqrt2: one of five equally natural readings (see derive_45_and_sqrt2); feeds alpha_s and the Higgs mass
       weight rule of the far-side weak pairs: meeting energy squared / grain; one stated assumption (no direct link to the background value)
       TM1 rather than another trimaximal pattern: exact tribimaximal and TM2 are disfavoured by data
       sign pattern of the neutrino roots (-,+,+): the all-positive pattern gives no solution with the measured splittings
+      maximum uncertainty as the reason for the 45 deg rule: a starting principle chosen knowing Koide holds for the charged leptons; it fails for quarks
    Effective numbers of the strong force, counted on neither side:
       containment pressure B = 60 (57-64) MeV/fm^3: from the proton and Delta masses; an effective number of the strong force
       stiffness of the containment field: from the lattice glueball mass 1.71-1.73 GeV
    Note: the grain choice feeds both alpha_s and the Higgs mass. If alpha_s lands at 0.1178 one force strength
    is saved too, but the grain was chosen with data in view, so that saving only counts once both land.
-   Honest summary: 32 today, 28 if every pending measurement agrees, plus 4 stated choices.
+   Honest summary: 32 today, 28 if every pending measurement agrees, plus 5 stated choices.
 
 2. BREAK TESTS ON THE DERIVED LABELS
    tau mass from the 45 deg rule: 1776.969 MeV vs PDG 2022 1776.86 +- 0.12: +0.9 sigma
    tau mass from the 45 deg rule: 1776.969 MeV vs PDG 2024 1776.93 +- 0.09: +0.4 sigma
-   -> DERIVED holds. Not unique to TRPG: it is Koide's relation (1983). TRPG adds a reason for it.
+   -> DERIVED holds (from a principle counted among the fitted choices). Not unique to TRPG: it is Koide's relation (1983). TRPG adds a reason for it.
    Lepton masses: three masses from TWO numbers (scale and twist) plus the rule, not from one.
    m_s/m_d from the Cabibbo angle: 19.9 vs lattice 20.4 +- 0.3 -> -1.7 sigma; m_d = 4.70 MeV (lattice 4.70 +- 0.07)
    (the tangent form, tan(theta_C) = sqrt(m_d/m_s), would give 18.9, about -5 sigma; the sine form is the one used)
