@@ -7,8 +7,10 @@ Every quantity the framework uses or produces is listed once, with one label:
   PREDICTED follows from the framework's rules plus inputs, and its deciding measurement has not returned
   EFFECTIVE an effective number of known physics (like the constants of the nuclear-mass formula), counted on neither side
 
-The script recounts the inputs three ways, and re-runs the checks behind each DERIVED label so that a reader
-can try to break them. Nothing here is new physics; it is bookkeeping that anyone can rerun.
+The script recounts the inputs three ways, and re-runs the break tests for the results that move the count
+(tau mass, down quark, lightest neutrino mass, Higgs mass) plus the strong-force strength and the JUNO lead,
+so that a reader can try to break them. It does not re-check the other DERIVED rows of the ledger (for example
+the up quark or rho = 1): those are standard results or come from the scripts named in the paper and README. Nothing here is new physics; it is bookkeeping that anyone can rerun.
 """
 import math
 

@@ -195,7 +195,7 @@ A single relational picture, in which space is a full medium, structures are set
 
 ## Appendix A. Ledger of inputs and predictions
 
-This appendix adds no new result. It gathers in one place what the sections above take from measurement, what they choose with today's data in view, and what they predict, so that a reader can see at once which agreements were possible only after the fact. The count and the checks behind the derived labels are rerun by `analysis/input_ledger_2026-11-18.py`, and the full table, with a column saying whether another published idea gives the same number, is `docs/ledger/TRPG_Ledger.md` in the code archive.
+This appendix adds no new result. It gathers in one place what the sections above take from measurement, what they choose with today's data in view, and what they predict, so that a reader can see at once which agreements were possible only after the fact. The count, and the break tests for the results that move it, are rerun by `analysis/input_ledger_2026-11-18.py`, and the full table, with a column saying whether another published idea gives the same number, is `docs/ledger/TRPG_Ledger.md` in the code archive.
 
 **Labels.** *Input*: taken from measurement. *Fitted*: a choice made with today's data in view. *Derived*: follows from the rules and inputs and agrees with a measurement already made. *Predicted*: follows from the rules and inputs, but the deciding measurement has not returned; it is not 100% until it does. *Lead*: a relation with one named missing rule, outside the core. *Effective*: an effective number of the strong force, counted on neither side.
 
