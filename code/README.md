@@ -15,7 +15,7 @@ Each script reproduces one result. Run them all from the top folder with `python
 | [`gravity_tighten_2026-11-14.py`](gravity_tighten_2026-11-14.py) | Area law holds in the crossing-wave medium (5× better than volume) |
 | [`mass_formula_fix_2026-11-13.py`](mass_formula_fix_2026-11-13.py) | Counts the old fitted knobs; Koide/Brannen: 3 lepton masses from 1 scale |
 | [`master_action_M1_containment_potential_2026-11-13.py`](master_action_M1_containment_potential_2026-11-13.py) | Containment potential fixed by B and the glueball: at B = 60.1, λ ≈ 1160–1210, v ≈ 35 MeV |
-| [`master_action_M2_mass_couplings_2026-11-13.py`](master_action_M2_mass_couplings_2026-11-13.py) | Lepton matrix; neutrino prediction 0.36, 8.7, 50.1 meV (sum 0.0592 eV) |
+| [`master_action_M2_mass_couplings_2026-11-13.py`](master_action_M2_mass_couplings_2026-11-13.py) | Lepton matrix; neutrino prediction 0.36, 8.7, 50.1 meV (sum 0.0592 eV with the NuFIT 6.0 splittings it uses; 8.6 meV and 0.0591 eV with JUNO 2026) |
 | [`neutron_star_TOV_fix_2026-11-13.py`](neutron_star_TOV_fix_2026-11-13.py) | Neutron-star structure (TOV) solved, not typed in |
 | [`neutron_star_tidal_fix_2026-11-13.py`](neutron_star_tidal_fix_2026-11-13.py) | Tidal test, bag-only form: B = 54.1 passes (2.07, Λ 550); B = 62–70 with weak wall passes (2.06–2.17, Λ 288–400) |
 | [`neutron_stars_no_knobs_2026-11-14.py`](neutron_stars_no_knobs_2026-11-14.py) | B from the proton + measured strong force: fails alone (1.54–1.80); quark pairing closes it. The finer scan, `analysis/pairing_gap_scan_2026-11-14.py`, gives the window: a gap of about 82–97 MeV (2.0–2.15, Λ 440–580) |

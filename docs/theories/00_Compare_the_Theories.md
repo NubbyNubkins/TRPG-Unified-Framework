@@ -68,7 +68,7 @@ The established theories have already been reviewed for years, so review changes
 - TRPG's statement is clear and can fail: three ideas, one rule ("nothing extra") and one bet (a hidden far side is real).
 - It keeps a long, public list of its own failed ideas.
 - Counting measured numbers the same way for every theory is fair.
-- Its neutrino predictions are clean tests: the lightest mass (0.36 meV), a sum of 0.0592 to 0.0594 eV, and normal ordering.
+- Its neutrino predictions are clean tests: the lightest mass (0.36 meV), a sum of 0.0591 to 0.0594 eV, and normal ordering.
 
 **What a reviewer would likely challenge:**
 - **The grain of space.** It was set at the Planck energy divided by √2, chosen from several options when the strong coupling was already known. The Planck energy alone would give 0.1196 instead of 0.1178. Until a new measurement arrives, the 0.1178 counts as a fit, not a prediction.
@@ -93,7 +93,7 @@ The established theories have already been reviewed for years, so review changes
 |---|---|---|
 | Strong coupling to 0.3% (lattice QCD, around 2030) | the grain becomes confirmed, not chosen | TRPG's bet (the far side) breaks; the rest can stand |
 | Neutrino ordering (JUNO) | normal ordering: TRPG's neutrino rule survives | inverted ordering breaks TRPG's neutrino rule |
-| JUNO's small neutrino gap | 7.40: TRPG's neutrino midpoint, today a lead, would become a result | if today's 7.48 to 7.53 holds at full precision, that lead fails; the neutrino rule itself is not affected |
+| JUNO's small neutrino gap | 7.37 (7.40 with the older global fit's large splitting): TRPG's neutrino midpoint, a lead proposed when the measured mass ratio was already known | JUNO 2026 gives 7.388 ± 0.078, within 0.2σ; a value outside 7.29 to 7.45 at full precision fails the lead; the neutrino rule itself is not affected |
 | Neutrino mass sum (DESI, Euclid) | 0.059 eV confirmed | a sum clearly below 0.059 breaks TRPG |
 | Proton decay (Hyper-Kamiokande) | no decay: consistent with TRPG | one decay breaks TRPG and favours grand unification |
 | Top-quark mass, more precise | the Higgs rule survives | the Higgs rule fails |

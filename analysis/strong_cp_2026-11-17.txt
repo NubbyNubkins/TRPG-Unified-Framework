@@ -1,0 +1,12 @@
+A. NELSON-BARR
+  A1: Higgs phase = gauge direction (removable); majoron-field phase = the majoron (removable by the lepton-number turn).
+      -> no physical CP-breaking scalar in TRPG: Nelson-Barr needs a NEW complex scalar. FAIL under rule 6.
+  A2: largest |B/mu| = 6.9e-03; largest imaginary part of the correction over 20,000 random choices: 2.4e-04 (needs ~1). FAIL by 4 powers of ten.
+  A3: corner from the grain = 9.0e-07 GeV -> theta_bar ~ 7e-07 (limit 1e-10) -> FAIL unless the Z2 and CP are exact against gravity (a further assumption).
+
+B. MAJORON = AXION (break check)
+  B1: D at 4.5e+10 GeV: strengths close with the MMG at 2.30e+05 GeV (meeting 4.79e+13), but the gravity leak needs sqrt2 F^2/M_Planck = 2.66e+08:
+      off by a factor ~1000, and no strong strength between 0.105 and 0.130 rescues it -> FAIL (it would undo the MMG = gravity-leak lead).
+  B2: keV majoron mass as explicit breaking shifts theta_bar by ~2e+14 (limit 1e-10) -> the keV majoron and the axion cannot both stand.
+  B3: f/N = 2.1e+10 GeV -> axion mass 271 micro-eV; misalignment even at the largest start angle (pi): Omega h^2 ~ 0.015 = 12% of dark matter -> FAIL as all of it.
+      (N = 3 also leaves domain walls if the symmetry breaks after inflation.)

@@ -211,7 +211,7 @@ The far side changes that. If the MMG and D are real, they lean on the three roa
 
 That is a number an experiment can check. And it is checking it now.
 
-There is one more thing the far side may do. The Higgs particle, discovered at CERN in 2012, has a weight that physicists have never been able to explain. In 2010, two physicists, Mikhail Shaposhnikov and Christof Wetterich, suggested a rule that might fix the Higgs weight at the grain of space. On its own, the rule gives a Higgs a little too heavy. With TRPG's far side included, it comes much closer: **127.2 GeV**, give or take 1.5, against a measured 125.2.
+There is one more thing the far side may do. The Higgs particle, discovered at CERN in 2012, has a weight that physicists have never been able to explain. In 2010, two physicists, Mikhail Shaposhnikov and Christof Wetterich, suggested a rule that might fix the Higgs weight at the grain of space. On its own, the rule gives a Higgs a little too heavy. With TRPG's far side included, it comes much closer: **127.3 GeV**, give or take 1.5, against a measured 125.1.
 
 Notice something important about the bet. If it fails, if the strong force turns out not to be 0.1178 and the far side has to go, everything in the earlier chapters still stands. The three colours, the forces of 8, 3 and 1, the families and their charges: none of them depend on the bet. That is deliberate. A good theory does not hang everything on one hook.
 
@@ -221,7 +221,7 @@ And one more thing. The three forces *meet* near the grain, but they do not *mer
 >
 > - **The far side is real.** This is the theory's one bet. Matthew's decision is to keep it "until proof says to remove it".
 > - **The strong force strength is 0.1178.** Prediction. It will be decided by computer calculations of the strong force (called lattice calculations) at a precision of about 0.3%. One honest warning: the exact size of the grain of space was chosen with today's measurements in view, so this is not yet a clean, blind prediction. The best measurement today is 0.11873, give or take 0.00056, which sits slightly above the prediction (1.7 standard deviations). *Not 100% until the measurement returns.*
-> - **The Higgs weight is 127.2 ± 1.5 GeV.** Prediction, a narrow pass. It needs the top quark to weigh 171.6 GeV, and the top quark's measured weight (172.57 ± 0.29) is a little off from that. A sharper measurement of the top quark will decide it. *Not 100% until the measurement returns.*
+> - **The Higgs weight is 127.3 ± 1.5 GeV.** Prediction, a narrow pass that leans on an allowance for what the top quark's measured weight means. It needs the top quark to weigh 171.6 GeV, and the top quark's measured weight (172.60 ± 0.27) is clearly off from that. A sharper measurement of the top quark will decide it. *Not 100% until the measurement returns.*
 > - **The forces meet but do not merge, so protons do not decay.** This follows from the theory's rule, *nothing extra*.
 > - **Whether the early universe was ever hot enough to make the MMG and D.** Still a mystery.
 
@@ -337,16 +337,16 @@ Neutrinos are the ghosts of the particle world. Trillions of them pass through y
 
 Now another picture. Imagine each neutrino sitting on one end of a seesaw. On the other end, out of sight on the far side of the great table, sits a very heavy hidden partner. The heavier the partner on the far end, the higher and lighter the neutrino sits on its own end. That is why neutrinos weigh so astonishingly little, millions of times less than even the electron.
 
-Put the neutrinos on the same 45-degree cone as the electron's family, add the two spacings between their weights that experiments have already measured, and the theory gives every neutrino's weight. The lightest weighs **0.36** of a thousandth of an electron-volt. The next weighs **8.7**. The heaviest weighs about **50**. Their total is about **0.059** electron-volts.
+Put the neutrinos on the same 45-degree cone as the electron's family, add the two spacings between their weights that experiments have already measured, and the theory gives every neutrino's weight. The lightest weighs **0.36** of a thousandth of an electron-volt. The next weighs **8.6** to **8.7**, depending on which measurement of the spacings is used. The heaviest weighs about **50**. Their total is about **0.059** electron-volts.
 
 These numbers are bold. They are being tested right now. A giant detector called JUNO, buried under a mountain in southern China, is measuring the neutrinos streaming from nearby nuclear power stations. Telescopes mapping the whole sky, such as DESI and Euclid, are weighing all the neutrinos in the universe at once, by watching how they smooth out the cosmic web. And two great experiments still being built, DUNE in America and Hyper-Kamiokande in Japan, will measure the timing angle at which neutrinos turn from one flavour to another. TRPG says that angle lies between 253 and 292 degrees.
 
 > ### How sure are we?
 >
 > - **Neutrino flavours are perspectives on one particle.** This follows from the theory. The idea is Matthew's. It gives a known mixing pattern called TM1.
-> - **Neutrino weights of 0.36, 8.7 and about 50 thousandths of an electron-volt, in "normal" order, with a total of about 0.059.** Prediction. It will be decided by JUNO, DESI and Euclid. The normal order holds given today's limits from cosmology; the rule also allows a reversed order, but cosmology already rules that one out. *Not 100% until the measurement returns.*
+> - **Neutrino weights of 0.36, about 8.6 and about 50 thousandths of an electron-volt, in "normal" order, with a total of about 0.059.** Prediction. It will be decided by JUNO, DESI and Euclid. The normal order holds given today's limits from cosmology; the rule also allows a reversed order, but cosmology already rules that one out. *Not 100% until the measurement returns.*
 > - **A mixing angle (sin²θ₁₂) of 0.318 and a timing angle of 253° to 292°.** Prediction. It will be decided by JUNO, DUNE and Hyper-Kamiokande. *Not 100% until the measurement returns.*
-> - **A very rare decay (neutrinoless double beta decay) at a strength of 1.4 to 4.1 thousandths of an electron-volt.** Prediction, but beyond the reach of any experiment now planned.
+> - **A very rare decay (neutrinoless double beta decay) at a strength of 1.3 to 4.1 thousandths of an electron-volt.** Prediction, but beyond the reach of any experiment now planned.
 > - **The seesaw.** Borrowed: proposed by Peter Minkowski (1977), and by Murray Gell-Mann, Pierre Ramond, Richard Slansky and Tsutomu Yanagida. In TRPG the heavy partners sit on the far side of the table.
 
 ---
@@ -670,12 +670,12 @@ Here are the places where nature will soon answer back. Each of these follows fr
 
 | The theory says | Who will check |
 |---|---|
-| Neutrinos weigh 0.36, 8.7 and about 50 thousandths of an electron-volt, in normal order, totalling about 0.059 | JUNO; the DESI and Euclid sky surveys |
+| Neutrinos weigh 0.36, about 8.6 and about 50 thousandths of an electron-volt, in normal order, totalling about 0.059 | JUNO; the DESI and Euclid sky surveys |
 | The neutrino mixing number sin²θ₁₂ is 0.318, and the timing angle is 253° to 292° | JUNO; DUNE; Hyper-Kamiokande |
 | The tau weighs 1776.969 MeV | Belle II |
 | Quarks in neutron-star cores pair with a gap of about 82 to 97 MeV | Pulsars, neutron-star mergers, and theory |
 | The strong force's strength is 0.1178 | Lattice calculations at about 0.3% |
-| The Higgs weighs 127.2 ± 1.5 GeV, if the top quark weighs 171.6 GeV | A sharper measurement of the top quark |
+| The Higgs weighs 127.3 ± 1.5 GeV, if the top quark weighs 171.6 GeV | A sharper measurement of the top quark |
 | A triangle of quark angles has γ between 64.1° and 67.6°, and a small shortfall in quark mixing shrinks to nothing | LHCb; Belle II |
 | There are no ripples of gravity from the first instant | LiteBIRD; CMB-S4 |
 | Protons never decay | Hyper-Kamiokande |

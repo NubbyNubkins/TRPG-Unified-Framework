@@ -1,5 +1,22 @@
 # Changelog
 
+## 1.3.3 (18 November 2026)
+
+An audit of the whole framework against the newest measurements, and of every test for whether it was set after an earlier attempt failed. No rule or reading changed.
+
+- New: `analysis/recalibrate_to_2026_values_2026-11-18.py` (with its output) recomputes every headline number from the Particle Data Group's 2026 values and JUNO 2026.
+  - Higgs mass from the grain: 127.3 ± 1.5 GeV against 125.13 ± 0.11 (1.4σ; 2.1σ without the 0.5 GeV allowance for what the measured top mass means, so the pass rests on that allowance). It needs a top mass of 171.6 GeV against 172.60 ± 0.27, 3.7σ on the top mass alone (was 3.2σ).
+  - Neutrino masses with JUNO's splittings: m₂ = 8.6 meV and sum 0.0591 eV; with the NuFIT 6.0 global fit 8.7 meV and 0.0594 eV. Both are now given as ranges (8.6–8.7 meV; 0.0591–0.0594 eV). Neutrinoless double beta decay: 1.3–4.1 meV.
+  - Down quark: the Cabibbo relation gives m_s/m_d = 19.9 against 19.8 ± 0.3 from the measured masses (+0.3σ). Earlier versions compared it with an unsourced 20.4 ± 0.3 (−1.7σ).
+  - Up quark: the check passes with the decay value Q = 22.1 and fails by more than 3σ with the lattice value Q = 23.4; this is now stated.
+  - New: `analysis/higgs_three_loop_check_2026-11-18.py`. With three-loop running (Buttazzo et al. 2013) the Higgs rule moves by −0.1 GeV, to 127.2 ± 1.5 GeV; no verdict changes. The two-loop code reproduces the published three-loop slopes to within 6%.
+  - The direct measurement of the unitarity-triangle angle α (84.1°) sits 1.6σ below the 90° of the γ lead; now stated.
+- The small neutrino splitting's move from 7.40 (v1.2.2) to 7.37 (v1.3.2) is explained: only the large-splitting input changed, from the global fit's 2.519 × 10⁻³ to JUNO's 2.509 × 10⁻³ eV². The fail band is corrected to 7.29–7.45 (it still read 7.32–7.48, the band around 7.40).
+- New paper Appendix A.6 and ledger section 6: every test set after an earlier attempt failed (the grain, the far-side weight rule, equal strengths at the crossing, the compact-star pairing gap, the Higgs rule, TM1 and root signs, the 45° principle, the small-splitting ratio, the Cabibbo form and the up quark's Q). The compact-star masses moved from "passing strict tests" to "met by construction", and fission to "reproduced with fitted numbers".
+- Added the four borrowed-theory tests that failed and were cited but missing: `lqg_grain`, `top_from_bottom`, `strong_cp`, `causal_set_and_e6` (all 2026-11-17).
+- All 24 core scripts and the analysis scripts were rerun; every saved output was reproduced. `master_mass_table_2026-11-15.py` needs the `periodictable` package.
+- The scorecard is unchanged: 7 met, 2 partly met. The input count is unchanged: 32 today, 28 if every pending measurement agrees, plus six stated choices.
+
 ## 1.3.2 (18 November 2026)
 
 The paper was revised after three rounds of outside review (versions 1.3.0, 1.3.1 and 1.3.2 of the paper, all dated 18 November 2026). This release brings the repository to paper version 1.3.2.

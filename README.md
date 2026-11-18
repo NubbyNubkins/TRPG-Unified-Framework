@@ -21,7 +21,7 @@ TRPG does not try to replace anyone. Its aim is to show that the great physicist
 
 [`docs/ledger/TRPG_Ledger.md`](docs/ledger/TRPG_Ledger.md) lists every quantity once, as input, fitted, derived or predicted, with what each one used and whether another published idea gives the same number. It also gives the input count as a range, a "TRPG is false if…" list with the deciding experiments, and the derivation tree ([`figures/derivation_tree.png`](figures/derivation_tree.png)). `analysis/input_ledger_2026-11-18.py` reruns the count and the break tests for the results that move it (tau, down quark, lightest neutrino, Higgs) plus the strong-force strength; the other numbers come from the scripts named in the paper or are standard results.
 
-**The headline prediction is the neutrino one.** Normal ordering, masses 0.36, 8.7 and 50.1 to 50.3 meV, sum 0.0592 to 0.0594 eV. It comes from the 45° rule that gives the tau mass, applied with one negative root, which is the relation Brannen proposed for neutrinos in 2006. JUNO, DESI and Euclid will decide it. Inverted ordering, or a sum measured clearly different from 0.059 eV, would falsify it. It is not 100% until those measurements return.
+**The headline prediction is the neutrino one.** Normal ordering, masses 0.36, 8.6 to 8.7 and 50.1 to 50.3 meV, sum 0.0591 to 0.0594 eV (the range is JUNO 2026 against the NuFIT 6.0 global fit). It comes from the 45° rule that gives the tau mass, applied with one negative root, which is the relation Brannen proposed for neutrinos in 2006. JUNO, DESI and Euclid will decide it. Inverted ordering, or a sum measured clearly different from 0.059 eV, would falsify it. It is not 100% until those measurements return.
 
 ## The predictions
 
@@ -29,16 +29,16 @@ Each of these follows within the framework and is **awaiting measurement**. None
 
 | Prediction | Value | Decided by |
 |---|---|---|
-| Neutrino ordering and masses | normal (given today's limit from cosmology; JUNO 2026 favours normal at 2.1σ); 0.36, 8.7, 50.1 to 50.3 meV; sum **0.0592 to 0.0594 eV** | JUNO; DESI and Euclid |
+| Neutrino ordering and masses | normal (given today's limit from cosmology; JUNO 2026 favours normal at 2.1σ); 0.36, 8.6 to 8.7, 50.1 to 50.3 meV; sum **0.0591 to 0.0594 eV** | JUNO; DESI and Euclid |
 | Strong coupling at the Z | **0.1178**, with the grain of space fixed as the Planck energy ÷ √2 (fitted, not predicted: chosen with today's data in view; the unreduced Planck energy would give 0.1196, which is not the framework's value). It also rests on the strengths being equal where they cross at 4.6 × 10¹³ GeV, a stated boundary condition: above that energy they separate again | lattice results at about 0.3% (today: 0.11873 ± 0.00056) |
-| Small neutrino gap (a lead: the neutrino midpoint) | 7.40 ± 0.06 × 10⁻⁵ eV² (JUNO 2026: 7.388 ± 0.078, within 0.2σ) | JUNO at full precision |
+| Small neutrino gap (a lead: the neutrino midpoint) | 7.37 ± 0.08 × 10⁻⁵ eV² with JUNO's large splitting (7.40 with the older global fit; only that input changed). JUNO 2026: 7.388 ± 0.078, within 0.2σ. The ratio 3 − 2√2 was proposed when the measured mass ratio was already known | JUNO at full precision |
 | Neutrino mixing | sin²θ₁₂ = 0.318 (JUNO 2026: 0.3036 ± 0.0064, so 2.3σ high; 3σ would fail it) | JUNO |
 | Neutrino timing angle | 253–292° | DUNE, Hyper-Kamiokande |
 | Quark triangle angle γ | 64.1–67.6° | LHCb, Belle II |
 | Quark pairing gap in compact (self-bound strange) stars | 4Δ² − m_s² = 1.7–2.8 × 10⁴ MeV²: about 82–97 MeV at m_s = 100 MeV, 88–109 MeV for a running m_s | theory and merger signals |
-| Neutrinoless double beta decay | 1.4–4.1 meV | beyond planned reach |
+| Neutrinoless double beta decay | 1.3–4.1 meV | beyond planned reach |
 | Proton decay | none (proven for the framework's content; the grain alone gives about 10⁴⁴ years) | Hyper-Kamiokande |
-| Higgs mass from the grain of space | 127.2 ± 1.5 GeV (measured 125.20 ± 0.11); needs a top mass of 171.6 GeV against 172.57 ± 0.29 (3.2σ on the top mass alone) | a sharper top-quark mass |
+| Higgs mass from the grain of space | 127.3 ± 1.5 GeV (measured 125.13 ± 0.11, PDG 2026: 1.4σ, or 2.1σ without the 0.5 GeV allowance for the top mass's meaning); needs a top mass of 171.6 GeV against 172.60 ± 0.27 (3.7σ on the top mass alone) | a sharper top-quark mass |
 
 ## Results you can rerun
 
