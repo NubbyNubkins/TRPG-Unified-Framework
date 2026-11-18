@@ -176,7 +176,8 @@ flowchart TD
   R4["Rule: nothing extra"]
   BET["Bet: the far side of the<br/>relationship matrix is real"]
   IN["28 measured inputs<br/>(+4 pending)"]
-  FIT["5 fitted choices<br/>(grain = Planck/√2, ...)"]
+  FIT["2 fitted choices<br/>(grain = Planck/√2, far-side weight rule)"]
+  FIT2["3 fitted choices<br/>(maximum uncertainty, TM1, neutrino root signs)"]
 
   R1 --> OCT["Octonions: 3 colours,<br/>strong force"]
   R1 --> FORCES["Which forces exist:<br/>8 + 3 + 1 (theorem)"]
@@ -188,7 +189,7 @@ flowchart TD
   K45 --> TAU["DERIVED: tau mass (Koide)"]
   K45 --> NU["PREDICTED: neutrino masses,<br/>normal ordering, sum 0.059 eV"]
   R1 --> TM1["TM1 as perspectives"]
-  TM1 --> DCP["PREDICTED: θ12, CP phase 253–292°"]
+  TM1 --> DCP["PREDICTED: sin²θ12 = 0.318, CP phase 253–292°"]
   BET --> MMG["Far-side weak pairs at 2.4×10⁸ GeV"]
   FIT --> MMG
   MMG --> AS["PREDICTED: α_s = 0.1178"]
@@ -200,6 +201,9 @@ flowchart TD
   IN --> MH
   IN --> GAP
   IN --> DCP
+  FIT2 --> K45
+  FIT2 --> TM1
+  FIT2 --> NU
 ```
 
 ---

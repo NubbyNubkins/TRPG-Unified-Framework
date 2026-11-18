@@ -25,11 +25,12 @@ N = {  # name: (x, y, text, kind)
     "IN": (19.6, 6.6, "28 measured inputs\n(+4 while pending)", "input"),
     "GEN": (1.5, 2.2, "Generation charges,\none-handed matter\n(stated readings)", "derived"),
     "GRV": (-1.3, 6.6, "Form of gravity\n(G measured)", "derived"),
-    "FIT": (19.6, 4.4, "5 fitted choices\n(grain = Planck/√2, ...)", "fitted"),
+    "FIT": (19.6, 4.4, "2 fitted choices: grain\n= Planck/√2, far-side\nweight rule", "fitted"),
+    "FIT2": (13.6, 4.4, "3 fitted choices: maximum\nuncertainty, TM1,\nneutrino root signs", "fitted"),
     "GAP": (7.1, 2.2, "Pairing gap\n82–97 MeV", "predicted"),
     "TAU": (9.9, 2.2, "Tau mass 1776.969 MeV\n(Koide)", "derived"),
     "NU": (12.7, 2.2, "Neutrinos: normal,\nsum 0.059 eV\n(Brannen)", "predicted"),
-    "DCP": (4.3, 2.2, "θ12 = 0.318,\nCP phase 253–292°", "predicted"),
+    "DCP": (4.3, 2.2, "sin²θ12 = 0.318,\nCP phase 253–292°", "predicted"),
     "AS": (15.5, 2.2, "α_s = 0.1178", "predicted"),
     "MH": (18.3, 2.2, "Higgs mass\n127.2 GeV", "predicted"),
     "PD": (22.4, 2.2, "No proton decay", "predicted"),
@@ -37,7 +38,7 @@ N = {  # name: (x, y, text, kind)
 E = [("R1", "OCT", 0), ("OCT", "FOR", 0), ("FOR", "GEN", 0), ("R1", "GRV", 0), ("R2", "BAG", 0), ("BAG", "GAP", 0),
      ("R3", "K45", 0), ("K45", "TAU", 0), ("K45", "NU", 0), ("R1", "TM1", 0), ("TM1", "DCP", 0), ("R4", "PD", 0),
      ("BET", "MMG", 0), ("FIT", "MMG", 0), ("FIT", "MH", 0), ("MMG", "AS", 0), ("MMG", "MH", 0),
-     ("IN", "MH", 0.35), ("IN", "AS", 0.1), ("IN", "NU", 0.1), ("IN", "TAU", 0.1), ("IN", "GAP", 0.1), ("IN", "DCP", 0.1)]
+     ("IN", "MH", 0.35), ("IN", "AS", 0.1), ("IN", "NU", 0.1), ("IN", "TAU", 0.1), ("IN", "GAP", 0.1), ("IN", "DCP", 0.1), ("FIT2", "K45", 0), ("FIT2", "TM1", -0.3), ("FIT2", "NU", 0)]
 
 fig, ax = plt.subplots(figsize=(22, 10.5), dpi=150)
 ax.set_xlim(-3.0, 24.0); ax.set_ylim(0.3, 10.3); ax.axis("off")
