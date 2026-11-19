@@ -5,11 +5,13 @@
   "creators": [
     {
       "name": "Gelfman, Matthew",
-      "orcid": "0009-0000-6402-2258"
+      "orcid": "0009-0000-6402-2258",
+      "affiliation": "Independent researcher"
     },
     {
       "name": "Behrends-Gelfman, Melissa",
-      "orcid": "0009-0001-6281-1947"
+      "orcid": "0009-0001-6281-1947",
+      "affiliation": "Independent researcher"
     }
   ],
   "license": "MIT",
@@ -33,5 +35,6 @@
       "resource_type": "publication-preprint"
     }
   ],
-  "version": "1.3.3"
+  "version": "1.3.3",
+  "language": "eng"
 }
