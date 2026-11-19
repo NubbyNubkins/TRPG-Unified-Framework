@@ -1,0 +1,64 @@
+========================================================================
+A. RELATIONSHIP MATRIX: matter on the diagonal, forces on the links
+  held-link-held energy before/after relabelling every spot's colours: 0.012421-0.893585j / 0.012421-0.893585j
+  closed loop of links (force field energy) before/after:              0.922022-0.356129j / 0.922022-0.356129j
+  -> identical: matter on the diagonal + forces on the links is exactly self-consistent (Wilson 1974).
+  Layout of one generation's relationship matrix (diagonal = held states, off-diagonal = links):
+    diagonal: Q(3 colours x 2), u_R(3), d_R(3), L(2), e_R(1), nu_R(1) = 16 held states
+    links between DIFFERENT spots: 8 gluon + 3 weak + 1 hypercharge = 12 link types (the pulls)
+    links between the TWO SIDES of the SAME spot (left <-> right): the Higgs (4 real parts) = the resistance
+    the spacing of the grid itself: gravity / geometry (not a link at all)
+    link strengths across the Higgs link: the 13 masses+mixings (where all TRPG's open numbers live)
+========================================================================
+B. HOW MANY FORCES DO THE NUMBERS NEED?
+  1/strength at 1e+03 GeV:  57.5  30.8  11.1
+  1/strength at 1e+13 GeV:  42.4  42.4  36.8
+  1/strength at 1e+16 GeV:  37.9  45.9  44.5
+  pulls 1 and 2 meet at 1.0e+13 GeV where pull 3 is at 1/36.8 vs 1/42.4: SM alone = 3 separate pulls (miss 13%)
+  TRPG main line (with far-side MMG, fitted choice 2): the three meet near 5e13 GeV -> ONE pull, alpha_s 0.1178 vs 0.1180+/-0.0009
+  Strong-force resistance scale from the pull alone (one loop): Lambda_QCD ~ 88 MeV (higher loops ~210 MeV); the proton's 938 MeV follows from it (lattice QCD)
+  Weak force range = hbar/(m_W c) = 2.45e-18 m: the photon-family pull, cut short by the Higgs resistance (Anderson 1963, superconductor)
+  gravity / electric between two protons = 8.09e-37
+  MICROSCOPE: everything falls the same to 1 part in 10^15; electric pull differs 100% (neutron 0, proton 1)
+  -> gravity is NOT the same pull as the other three (it acts on all energy, only attracts, spin 2).
+  Expansion as a pull from the EDGE: needs a centre. CMB is the same in every direction to 1 part in 100,000;
+     rotation/anisotropic expansion disfavoured 121,000:1 (Saadeh 2016). FAILS.
+  Expansion as a pull EVERYWHERE (tension): dark energy has pressure = -energy density (w = -1.03+/-0.03):
+     negative pressure IS tension, a pull, like a stretched rubber band. In gravity, tension drives FASTER expansion
+     (acceleration ~ -(rho + 3p) = +2 rho_L > 0). HOLDS.
+  Cosmic pull (tension, dark energy 0.685) vs resistance (matter's gravity 0.315): equal at z = 0.30; speed-up begins z = 0.63 (measured ~0.6-0.7)
+========================================================================
+C. RESISTANCES: list and try to merge
+  Planck (space's stiffness, gravity)     1.22e+19 GeV
+  far side MMG (TRPG)                     2.40e+08 GeV
+  Higgs (weak/mass resistance)            2.46e+02 GeV
+  QCD vacuum (strong resistance)          2.10e-01 GeV
+  neutrino weight m3                      5.00e-11 GeV
+  dark energy (rho_L^1/4)                 2.24e-12 GeV
+  Merge tests:
+   QCD resistance from the strong pull: HOLDS (Lambda from alpha_s, above). One fewer independent resistance.
+   Higgs = dark energy?  Higgs field energy ~ (100 GeV)^4 vs (2.24 meV)^4: off by 10^55. FAILS.
+   Zero-point 'vacuum' energy up to Planck vs dark energy: off by 10^123 (cosmological constant problem). FAILS (unsolved for everyone).
+   Dark energy ~ neutrino weights? rho_L^1/4 = 2.24 meV vs m1 0.36, m2 8.6, m3 50.2 meV; m2^2/m3 = 1.47 meV. Same ballpark, no exact rule: HINT only.
+   (TeV)^2/M_Planck = 0.08 meV vs 2.24 meV: off ~27x (needs ~5.2 TeV instead of 1 TeV, nothing there). FAILS as a rule.
+   Dark-matter-like 'resistance' tied to expansion: Milgrom a0 = 1.2e-10 m/s^2 vs c*H0/2pi = 1.04e-10. Coincidence HOLDS (Milgrom 1983);
+     resistance alone FAILS the Bullet Cluster and the CMB third peak, so some extra matter/wave is still needed (TRPG: majoron, wave DM).
+   Higgs shape from space's stiffness: TRPG's grain rule (Shaposhnikov-Wetterich) gives Higgs 127.3 vs 125.13 (1.4 sigma): PENDING, links 2 resistances.
+   Dark energy + dark matter as one fluid (Chaplygin gas): FAILS structure growth (Sandvik et al. 2004) in its simple form.
+========================================================================
+D. UNIVERSE AS SOLAR SYSTEM / RUBBER BAND
+  Newtonian form of the expansion (Milne-McCrea 1934): acceleration = -G M / r^2  +  (Lambda c^2 / 3) r
+     first term = a sun's pull, fading with distance; second = a spring (Hooke) force growing with distance, pointing OUT.
+   Sun          : pull = outward spring at   0.000 Mpc (111 pc)
+   Milky Way    : pull = outward spring at   1.275 Mpc (1,275,172 pc)
+   Local Group  : pull = outward spring at   1.607 Mpc (1,606,616 pc)
+   Virgo cluster: pull = outward spring at  11.838 Mpc (11,837,645 pc)
+   Local Group measured zero-velocity edge ~0.9-1.0 Mpc, zero-gravity ~1.2-1.6 Mpc (Chernin et al.): HOLDS.
+   Sun's balance radius ~100 pc vs solar system edge (Oort cloud) ~1 pc: the solar system is held 100x inside its balance point.
+  Quark rubber band: constant pull sigma = 0.18 GeV^2 = 0.91 GeV/fm (~14 tonnes); energy = sigma x length.
+  Dark energy: constant energy per VOLUME; stretching adds energy in proportion = same constant-tension rule in 3D. HOLDS (structure).
+  Differences: band pulls its ends together; cosmic tension speeds expansion (gravity of tension is repulsive). Band force is constant;
+     cosmic 'spring' grows with distance. Band snaps into new quark pairs; cosmic stretching makes particles only negligibly today (Parker 1968).
+  'Expansion shows decays': supernova Ni-56 light curves at z~1 run slow by exactly (1+z) (Goldhaber 2001; Blondin 2008): local decay rates
+     unchanged by expansion. Oklo reactor: constants fixed to ~1e-8 over 2 billion years. Expansion causing decays FAILS.
+  One central sun for the universe: FAILS (no centre, see B). Every galaxy sees the same expansion around itself.

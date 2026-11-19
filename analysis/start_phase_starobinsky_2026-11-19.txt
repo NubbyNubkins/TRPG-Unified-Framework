@@ -1,0 +1,51 @@
+========================================================================
+1. THE START PHASE: one number in, everything else out
+  N=53: scalaron mass 3.24e+13 GeV | tilt n_s 0.9623 | wave ratio r 0.0043 | running -0.00071
+  N=54: scalaron mass 3.18e+13 GeV | tilt n_s 0.9630 | wave ratio r 0.0041 | running -0.00069
+  N=55: scalaron mass 3.12e+13 GeV | tilt n_s 0.9636 | wave ratio r 0.0040 | running -0.00066
+  N=56: scalaron mass 3.07e+13 GeV | tilt n_s 0.9643 | wave ratio r 0.0038 | running -0.00064
+  central (N~54-55 for this start; Bezrukov-Gorbunov 2012): M = 3.15e+13 GeV, expansion rate during start H = 1.58e+13 GeV
+  Tilt against published constraints (McDonough & Ferreira 2025, Table 1; ACT DR6 2025):
+     Planck                       0.9638 +/- 0.0040: Starobinsky 0.9633 is -0.1 sigma
+     Planck + DESI BAO            0.9690 +/- 0.0035: Starobinsky 0.9633 is -1.6 sigma
+     CMB-SPA (Planck+ACT+SPT)     0.9693 +/- 0.0029: Starobinsky 0.9633 is -2.1 sigma
+     ACT DR6 P-ACT-LB             0.9743 +/- 0.0034: Starobinsky 0.9633 is -3.2 sigma
+     CMB-SPA + DESI BAO           0.9737 +/- 0.0025: Starobinsky 0.9633 is -4.2 sigma
+     -> passes CMB-only data within ~2 sigma; FAILS (>3 sigma) once DESI BAO is combined. The DESI-driven shift comes from
+        a ~2 sigma DESI-CMB disagreement (McDonough & Ferreira 2025). PENDING, UNDER STRAIN.
+  r: limit < 0.036 (BICEP/Keck 2021). Simons Observatory ~0.003, LiteBIRD ~0.001 (early 2030s) decide it.
+  Flatness: |Omega_k| ~ 1e-5 or less (measured |Omega_k| < 0.002). Same temperature everywhere: explained. No isocurvature, f_NL ~ 0.01.
+========================================================================
+2. REHEATING: how hot the universe gets after the start
+  Higgs-curvature coupling xi = 0.00: T_reheat = 5.0e+09 GeV
+  Higgs-curvature coupling xi = 0.06: T_reheat = 3.2e+09 GeV
+  Higgs-curvature coupling xi = 0.10: T_reheat = 2.0e+09 GeV
+  Higgs-curvature coupling xi = 0.12: T_reheat = 1.4e+09 GeV
+  Higgs-curvature coupling xi = 0.15: T_reheat = 5.0e+08 GeV
+========================================================================
+3. KNOCK-ON CHECKS AGAINST TRPG'S OWN PIECES
+  MMG (2.4e8 GeV) vs reheat 5e+09: MADE in the heat. A stable MMG would outweigh dark matter (paper sec. 9) -> must decay.
+     decay link 2.6e-16: lifetime 1.0e+00 s
+     decay link 8.8e-12: lifetime 8.9e-10 s
+     decay link 1.0e-10: lifetime 6.9e-12 s
+     needs link > ~9e-12 (decays before it dominates near 23 GeV; TRPG mmg_audit). Was optional (cold start); now REQUIRED: +1 number.
+  Coloured far side D (4.6e13) vs scalaron 3.2e+13: never made. HOLDS (no D relics).
+  Higgs during the start: H = 1.6e+13 GeV. With the measured top mass the Higgs self-pull turns negative well below H
+     (this is why TRPG's grain rule gives 127.3, not 125.1). Safe only if xi >~ 0.06 (Espinosa et al. 2015; Herranen et al. 2014).
+  Majoron settling value f = 1.0e+11: H/2pi = 2.5e+12 > f -> start angle is averaged (post-start case): no DM isocurvature, angle input disappears
+  Majoron settling value f = 1.5e+12: H/2pi = 2.5e+12 > f -> start angle is averaged (post-start case): no DM isocurvature, angle input disappears
+     the majoron lead's r < 1e-11 is REPLACED by r ~ 0.004 (the two cannot both hold).
+     majoron coldness wanted reheat below ~1.6e9 GeV (paper sec. 9); xi = 0: 5e+09 (too hot); xi ~0.12-0.15: 1e+09-5e+08 (fits).
+  Davidson-Ibarra ceiling on asymmetry per decay, middle partner 4e8: 4.0e-08
+  Davidson-Ibarra ceiling on asymmetry per decay, heaviest partner 1.5e12: 1.5e-04
+  Non-thermal route (scalaron -> heaviest partner, branching 2.9e-02 at xi=0.12), at the ceiling: Y_B = 1.0e-10 vs needed 8.7e-11 -> 1.16 of it
+  Thermal route from the middle partner (ceiling 4e-8, needs about 7e-8 even at full efficiency): FAILS (standard Ibarra bound M > ~1e9 GeV).
+     caveats: the ceiling is a best case (strictly for the lightest partner); the middle partners, in the heat at this temperature,
+     would erase part of it (not included). So the start phase can at best JUST reach the excess. BORDERLINE, not a result.
+  -> matter excess stays a measured start number (it already is in the ledger). Count unchanged; the start phase supplies a candidate source.
+========================================================================
+4. COUNT
+  Seeds of galaxies: 2 inputs (size, tilt) -> 1 input (scalaron mass from the size); tilt becomes a PREDICTION (pending, under strain).
+  New: wave ratio r = 0.0040 (+/-0.0003) PREDICTED; flatness and same-temperature EXPLAINED (were 'consistent, not derived').
+  Added: MMG decay link required (+1 number); xi >~ 0.06 for Higgs safety, ~0.12-0.15 if the majoron lead is kept (fitted choice 7).
+  Removed: majoron start angle becomes an average (no longer a start condition); majoron lead's r < 1e-11 withdrawn.

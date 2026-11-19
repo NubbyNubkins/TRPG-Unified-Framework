@@ -3,13 +3,16 @@
 **A relational, entanglement-based Theory of Everything by Matthew Gelfman and Melissa Behrends-Gelfman.**
 Website: https://trpgphysics.org
 
-TRPG is three ideas, one rule and one bet.
+TRPG is five rules and one bet (version 1.4.0).
 
-- **Idea 1.** Space is one full medium of relationships, seen one perspective at a time, with entanglement first.
-- **Idea 2.** Every structure is a balance of outward push and inward pull (containment).
-- **Idea 3.** Within the lepton families, a particle's tie to itself balances its ties to the others (45°). For leptons it follows from the family symmetry and maximum uncertainty between self and relationship; it does not hold for quarks.
-- **The rule.** Nothing extra: no proton decay, no fourth generation, no new forces, no mirror particles, one Higgs pair.
-- **The bet.** The far side of the relationship matrix is real. It gives the strong coupling and the Higgs-mass rule below. If the bet fails, the ideas and the rule still stand.
+- **Rule 1. One matrix of relationships**, seen one perspective at a time, with entanglement first. Matter is held states on the diagonal, forces are the links between them, the Higgs is the link across one state (its left side to its right side), and space and time are the geometry of the relationships ([`figures/relationship_matrix_diagonal_links.png`](figures/relationship_matrix_diagonal_links.png)).
+- **Rule 2. Balance.** Whatever holds together is a pull balanced by a resistance (containment); mass is that balance.
+- **Rule 3.** Within the lepton families, a particle's tie to itself balances its ties to the others (45°). For leptons it follows from the family symmetry and maximum uncertainty between self and relationship; it does not hold for quarks.
+- **Rule 4. Nothing extra:** no proton decay, no fourth generation, no new forces, no mirror particles, one Higgs pair.
+- **Rule 5. Smooth start.** The universe began smooth, and the stiffness of space drove a short stretching (Starobinsky, 1980). This explains flatness and the uniform temperature of the sky and predicts primordial gravitational waves.
+- **The bet.** The far side of the relationship matrix is real. It gives the strong coupling and the Higgs-mass rule below. If the bet fails, the rules still stand.
+
+Rules 1–4 restate the three ideas and one rule of earlier versions; rule 5 is new in 1.4.0. No particle-physics number changed in 1.4.0.
 
 Combined with established physics, these reproduce known results and make dated predictions that experiments can check within a few years. The whole framework is told as a story anyone can read in [`docs/story/The_Full_Glass.md`](docs/story/The_Full_Glass.md), and set beside nine other theories of everything in [`docs/theories/`](docs/theories/00_Compare_the_Theories.md).
 
@@ -19,7 +22,7 @@ TRPG does not try to replace anyone. Its aim is to show that the great physicist
 
 ## Start here: the ledger
 
-[`docs/ledger/TRPG_Ledger.md`](docs/ledger/TRPG_Ledger.md) lists every quantity once, as input, fitted, derived or predicted, with what each one used and whether another published idea gives the same number. It also gives the input count as a range, a "TRPG is false if…" list with the deciding experiments, and the derivation tree ([`figures/derivation_tree.png`](figures/derivation_tree.png)). `analysis/input_ledger_2026-11-18.py` reruns the count and the break tests for the results that move it (tau, down quark, lightest neutrino, Higgs) plus the strong-force strength; the other numbers come from the scripts named in the paper or are standard results.
+[`docs/ledger/TRPG_Ledger.md`](docs/ledger/TRPG_Ledger.md) lists every quantity once, as input, fitted, derived or predicted, with what each one used and whether another published idea gives the same number. It also gives the input count as a range, a "TRPG is false if…" list with the deciding experiments, and the derivation tree ([`figures/derivation_tree.png`](figures/derivation_tree.png)). `analysis/input_ledger_2026-11-19.py` reruns the count and the break tests for the results that move it (tau, down quark, lightest neutrino, Higgs) plus the strong-force strength; the other numbers come from the scripts named in the paper or are standard results.
 
 **The headline prediction is the neutrino one.** Normal ordering, masses 0.36, 8.6 to 8.7 and 50.1 to 50.3 meV, sum 0.0591 to 0.0594 eV (the range is JUNO 2026 against the NuFIT 6.0 global fit). It comes from the 45° rule that gives the tau mass, applied with one negative root, which is the relation Brannen proposed for neutrinos in 2006. JUNO, DESI and Euclid will decide it. Inverted ordering, or a sum measured clearly different from 0.059 eV, would falsify it. It is not 100% until those measurements return.
 
@@ -37,6 +40,8 @@ Each of these follows within the framework and is **awaiting measurement**. None
 | Quark triangle angle γ | 64.1–67.6° | LHCb, Belle II |
 | Quark pairing gap in compact (self-bound strange) stars | 4Δ² − m_s² = 1.7–2.8 × 10⁴ MeV²: about 82–97 MeV at m_s = 100 MeV, 88–109 MeV for a running m_s | theory and merger signals |
 | Neutrinoless double beta decay | 1.3–4.1 meV | beyond planned reach |
+| Primordial gravitational waves (new in 1.4.0) | r = 0.0040 ± 0.0003 (limit today r < 0.036). Not seeing them at about 0.001 would falsify the start phase | Simons Observatory, LiteBIRD (early 2030s) |
+| Tilt of the first ripples (new in 1.4.0) | n_s = 0.963. Under strain: −0.1σ against Planck, −2.1σ against Planck + ACT + SPT, −3.2 to −4.2σ once DESI is combined (McDonough and Ferreira, 2025) | CMB alone at higher precision; DESI–CMB agreement |
 | Proton decay | none (proven for the framework's content; the grain alone gives about 10⁴⁴ years) | Hyper-Kamiokande |
 | Higgs mass from the grain of space | 127.3 ± 1.5 GeV (measured 125.13 ± 0.11, PDG 2026: 1.4σ, or 2.1σ without the 0.5 GeV allowance for the top mass's meaning); needs a top mass of 171.6 GeV against 172.60 ± 0.27 (3.7σ on the top mass alone) | a sharper top-quark mass |
 
@@ -55,7 +60,7 @@ Each of these follows within the framework and is **awaiting measurement**. None
 | Quark charges, given 3 colours | +2/3, −1/3 | same | `area_law_and_charges` |
 | Black-hole ringdown (GW150914) | 250 Hz, 4.0 ms | matches | `ringdown_check` |
 
-**Status (18 November 2026):** 7 of 9 Theory-of-Everything requirements met and 2 partly met. Counted like for like, the framework takes about 28 measured numbers, against about 34 for the Standard Model with gravity and cosmology. That is the figure if every pending measurement agrees; counting only savings already confirmed it is 32, plus six choices made with today's data in view (see the ledger). Saved and confirmed by measurement: the tau mass and the down quark mass. Saved only if pending measurements agree: the Higgs mass, the lightest neutrino mass and two neutrino mixing numbers. The Higgs mass follows from a rule at the grain of space (Shaposhnikov and Wetterich, 2010) and is awaiting measurement; other extra weak matter at high energy would help in the same way, so it does not single out TRPG.
+**Status (19 November 2026, version 1.4.0):** the count is 33 measured numbers today and still 28 if every pending measurement agrees (the start phase predicts the tilt but requires the far-side decay coupling), plus seven choices made with today's data in view. **Status (18 November 2026):** 7 of 9 Theory-of-Everything requirements met and 2 partly met. Counted like for like, the framework takes about 28 measured numbers, against about 34 for the Standard Model with gravity and cosmology. That is the figure if every pending measurement agrees; counting only savings already confirmed it is 32, plus six choices made with today's data in view (see the ledger). Saved and confirmed by measurement: the tau mass and the down quark mass. Saved only if pending measurements agree: the Higgs mass, the lightest neutrino mass and two neutrino mixing numbers. The Higgs mass follows from a rule at the grain of space (Shaposhnikov and Wetterich, 2010) and is awaiting measurement; other extra weak matter at high energy would help in the same way, so it does not single out TRPG.
 
 - **Force groups: partly met, awaiting measurement.** Which forces exist, their charges and one-handed matter follow from the relationship matrix. Only the force strengths remain. They meet if three colourless far-side states of the matrix (named MMG) sit at 2.4 × 10⁸ GeV, which requires the strong coupling above. Not 100% until that measurement returns.
 - **Quark link strengths: partly met, awaiting a rule.** Three numbers (the press on the down quarks and the two ladder openings) have no rule. No experiment closes this; it needs a new idea.
