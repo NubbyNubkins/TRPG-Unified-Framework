@@ -1,5 +1,29 @@
 # Changelog
 
+## 1.4.0 (19 November 2026)
+
+The framework is restated more simply and given a beginning. No particle-physics number changed.
+
+- **Five rules and one bet** (paper Section 2, README, ledger). Rule 1: one matrix of relationships read in three roles. Held states (matter) sit on the diagonal, the links between them are the twelve carriers, the link across one state is the Higgs, and space and time are the geometry of the relationships. Rule 2: balance of pull and resistance. Rule 3: the 45° rule for leptons. Rule 4: nothing extra. Rule 5: a smooth start. The bet is unchanged. Rules 1–4 restate the earlier three ideas and one rule; the earlier statement is kept in the paper.
+- **Start phase** (paper Sections 5 and 9; `analysis/start_phase_starobinsky_2026-11-19.py`). The stiffness of space (an R² term; Starobinsky, 1980) stretches the universe for 54–55 e-folds.
+  - It explains flatness and the uniform temperature of the sky.
+  - It predicts r = 0.0040 ± 0.0003 and n_s = 0.9630–0.9636.
+  - The tilt agrees with Planck (−0.1σ) and is 2.1σ low against Planck + ACT + SPT. It is 3.2–4.2σ low once DESI BAO is combined (McDonough and Ferreira, 2025), so it is under strain.
+- Knock-on effects of the start phase:
+  - The coloured far-side states are never produced.
+  - The far-side weak pairs are produced, so their decay coupling (above about 9 × 10⁻¹²) is now required.
+  - The majoron's starting angle is averaged.
+  - The majoron lead's r below 10⁻¹¹ moves to the cold-start alternative.
+  - A seventh fitted choice is added: the Higgs coupling to curvature, ξ ≈ 0.06–0.15.
+  - The matter excess gets a borderline non-thermal source and stays an input.
+- **Count:** 33 today (one more than 1.3.3, for the decay coupling) and 28 if every pending measurement agrees, the tilt now included (`analysis/input_ledger_2026-11-19.py`; the 18 November script is kept).
+- New test scripts, each with its saved output:
+  - `fewer_particles_tests_2026-11-19` (counts from data, anomaly cancellation of one generation, force-strength meeting under removals, Koide, top condensation, preons);
+  - `forces_resistances_matrix_2026-11-19` (lattice-style invariance of the matrix layout, pull and resistance, dark energy as tension, balance radii);
+  - `four_left_out_parts_2026-11-19` (3 + 1 from a 2 × 2 complex matrix, quark-mixing relations at a consistent scale, uncertainty from waves, start conditions).
+- New figure: `figures/relationship_matrix_diagonal_links.png`.
+- Not changed: every particle-physics prediction, the scorecard (7 met, 2 partly met) and the derivation-tree image (the ledger's diagram gains rule 5).
+
 ## 1.3.3 (18 November 2026)
 
 An audit of the whole framework against the newest measurements, and of every test for whether it was set after an earlier attempt failed. No rule or reading changed.

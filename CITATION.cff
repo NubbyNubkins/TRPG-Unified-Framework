@@ -9,8 +9,8 @@ authors:
   - family-names: "Behrends-Gelfman"
     given-names: "Melissa"
     orcid: "https://orcid.org/0009-0001-6281-1947"
-version: 1.3.3
-date-released: "2026-11-18"
+version: 1.4.0
+date-released: "2026-11-19"
 license: MIT
 url: "https://trpgphysics.org"
 repository-code: "https://github.com/NubbyNubkins/TRPG-Unified-Framework"
