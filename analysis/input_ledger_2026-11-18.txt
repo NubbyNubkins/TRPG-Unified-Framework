@@ -39,14 +39,16 @@
    tau mass from the 45 deg rule: 1776.969 MeV vs PDG 2024 1776.93 +- 0.09: +0.4 sigma
    -> DERIVED holds (from a principle counted among the fitted choices). Not unique to TRPG: it is Koide's relation (1983). TRPG adds a reason for it.
    Lepton masses: three masses from TWO numbers (scale and twist) plus the rule, not from one.
-   m_s/m_d from the Cabibbo angle: 19.9 vs lattice 20.4 +- 0.3 -> -1.7 sigma; m_d = 4.70 MeV (lattice 4.70 +- 0.07)
-   (the tangent form, tan(theta_C) = sqrt(m_d/m_s), would give 18.9, about -5 sigma; the sine form is the one used)
+   m_s/m_d from the Cabibbo angle: 19.9 vs PDG 2026 masses 19.8 +- 0.3 -> +0.3 sigma; m_d = 4.67 MeV (PDG 4.70 +- 0.07)
+   (v1.3.2 compared with an unsourced 20.4 +- 0.3. The tangent form, tan(theta_C) = sqrt(m_d/m_s), gives 18.9, -2.7 sigma;
+    the sine form was chosen with both in view, so the form is a choice made with data in view)
    -> DERIVED holds as a check. The same relation cannot also be counted as 'Cabibbo angle from the masses';
       it is one relation, used once.
    neutrinos, 45 deg rule with roots (-,+,+): m1 0.36, m2 8.66, m3 50.13 meV, sum 59.2 meV
    -> PREDICTED (not measured). Brannen (2006) proposed the same relation for neutrinos; the numbers are shared.
-   Higgs rule needs top pole mass 171.63 vs 172.57 +- 0.29: 3.2 sigma on the top mass alone
-   -> PREDICTED, under strain. Not unique: any extra weak matter at high energy moves it the same way.
+   Higgs rule needs top pole mass 171.6 vs 172.6 +- 0.27: 3.7 sigma on the top mass alone
+   -> PREDICTED, under strain: m_H 127.3 +- 1.5 vs 125.13 +- 0.11 (1.4 sigma; 2.1 without the 0.5 GeV top-mass allowance).
+      Not unique: any extra weak matter at high energy moves it the same way.
    alpha_s 0.1178 vs most precise lattice 0.11873 +- 0.00056: +1.7 sigma; vs world average 0.118 +- 0.0009: +0.2 sigma
    -> PREDICTED, rests on a FITTED grain choice; a 0.3% lattice result decides it.
    lead: small gap from m2/m3 = 3-2sqrt2: 7.403e-5 eV^2 (7.37 +- 0.08 with JUNO's own large splitting)

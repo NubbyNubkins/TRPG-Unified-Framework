@@ -1,0 +1,43 @@
+RECALIBRATION OF THE HEADLINE NUMBERS TO PDG 2026 AND JUNO 2026
+====================================================================================================
+1. tau mass (45 deg rule): 1776.969 MeV vs PDG 2026 1776.93 +- 0.09: +0.4 sigma   [unchanged from v1.3.2]
+2. m_s/m_d from the Cabibbo angle: 19.87. PDG 2026 masses give 19.77 +- 0.33: +0.3 sigma; m_d = 4.67 MeV vs 4.7 +- 0.07: -0.4 sigma
+   v1.3.2 compared with '20.4 +- 0.3' (-1.7 sigma). That number has no source in PDG 2024 or 2026, and the PDG masses the
+   same script used (93.5 / 4.70 = 19.9) disagree with it. The check passes either way; the comparison value is corrected.
+   The sine form was chosen over the tangent form (18.9, -2.7 sigma here) after both were tried: a fitted choice of form.
+3. up quark: m_u/m_d = 0.437 +- 0.060 (from Q) vs PDG 2026 0.462 +- 0.020: -0.4 sigma; m_u = 2.04 +- 0.28 MeV vs 2.16 +- 0.07: -0.4 sigma (errors combined)
+   with the lattice Q = 23.4 +- 0.5: m_u/m_d = 0.528, m_u = 2.47 +- 0.14 MeV: +2.0 sigma. Q is known to 3%, so the test is loose either way.
+4. neutrino masses (45 deg rule, roots -,+,+):
+   JUNO 2026             : m1 0.359, m2 8.60, m3 50.09 meV, sum 59.05 meV
+   NuFIT 6.0 without SK  : m1 0.364, m2 8.66, m3 50.13 meV, sum 59.16 meV
+   NuFIT 6.0 with SK     : m1 0.362, m2 8.66, m3 50.34 meV, sum 59.36 meV
+5. small splitting from m2/m3 = 3 - 2 sqrt2 (a lead):
+   NuFIT 6.0-era 2.519e-3 (v1.2.2) : 7.403e-5 eV^2 vs JUNO 7.388 +- 0.078: +0.19 sigma
+   JUNO 2026 2.509e-3 (v1.3.2)     : 7.373e-5 eV^2 vs JUNO 7.388 +- 0.078: -0.19 sigma
+   dependence on m1 (which the 45 deg rule took from the measured small splitting): m1 = 0 gives 7.386, m1 = 0.359 meV gives 7.373; so the reuse moves the hint by 0.012e-5, 0.3% (not circular in practice)
+   prediction error from the large splitting (+-0.027e-3): +-0.079e-5. Fail line: more than 3 sigma with both errors combined.
+   JUNO's present error 0.078: combined +-0.111e-5, so the lead fails outside 7.04 to 7.71e-5
+   JUNO's full precision, about 0.02: combined +-0.082e-5, so the lead fails outside 7.13 to 7.62e-5
+   (v1.3.2 printed 7.32 to 7.48: a one-standard-deviation band, too narrow to count as a failure)
+   how the ratio was found: 3 - 2 sqrt2 = 0.1716 (the midpoint of a side of the mass triangle) was proposed when the
+   measured m2/m3 (0.172-0.173) was already known, so it is a hint found after the fact, not a prediction made in advance.
+6. TM1 sin^2 theta12 (NuFIT 6.0 s13^2 0.02195): 0.3184 vs JUNO 2026 0.3036 +- 0.0064: +2.31 sigma
+6. TM1 sin^2 theta12 (PDG 2026 s13^2 0.0217): 0.3185 vs JUNO 2026 0.3036 +- 0.0064: +2.34 sigma
+6. TM1 sin^2 theta12 (v1.3.2 used 0.0220): 0.3183 vs JUNO 2026 0.3036 +- 0.0064: +2.30 sigma
+7. neutrinoless double beta (TM1, JUNO masses, Majorana phases free): 1.34 to 4.02 meV (v1.3.2: 1.4 to 4.1 with m2 = 8.7); Majorana phases zero and delta = 270 deg: 1.82 meV
+8. alpha_s 0.1178 vs PDG 2026 world average 0.118 +- 0.0009: +0.2 sigma; vs lattice 0.11873 +- 0.00056: +1.7 sigma   [world average unchanged]
+   The inputs of the strength calculation (sin^2 0.23122, 1/alpha(MZ) 127.951, MZ) are unchanged in PDG 2026 at the
+   precision used (MZ 91.1876 -> 91.1879 moves alpha_s by far less than 0.0001), so 0.1178 stands.
+9. Higgs rule, SM only     : m_H = 128.84 +- 1.45 GeV vs PDG 2026 125.13 +- 0.11: +2.6 sigma (+3.7 without the 0.5 GeV pole allowance)
+9. Higgs rule, with far side: m_H = 127.27 +- 1.49 GeV vs PDG 2026 125.13 +- 0.11: +1.4 sigma (+2.1 without the 0.5 GeV pole allowance)
+   top pole mass the rule needs for m_H = 125.13: 171.60 GeV vs PDG 2026 172.6 +- 0.27: 3.7 sigma on the top mass alone (v1.3.2: 171.63 vs 172.57 +- 0.29, 3.2 sigma)
+10. first-row unitarity: PDG 2026 0.9984 +- 0.0007 (2.3 sigma shortfall). TRPG: exactly 1. Still open, not failed.
+    gamma: PDG 2026 66.4 +2.7 -2.8 deg; lead 64.1-67.6 deg -> inside
+    alpha (direct, PDG 2026): 84.1 +3.7 -3.0 deg; the lead needs alpha = 90 deg (fits 89-93): 90 is 1.6 sigma above the direct value. Not stated in v1.3.2.
+11. tau lifetime 289.7 fs vs PDG 2026 290.3 +- 0.5: -1.2 sigma
+====================================================================================================
+Summary: the Higgs rule is under more strain (the top mass it needs is now 3.7 sigma below PDG 2026; the Higgs
+mass itself is 1.4 sigma off, 2.1 without the pole allowance). With JUNO's splittings, used throughout from v1.3.2, m2
+is 8.6 meV and the sum 0.0591 eV, so the quoted ranges become 8.6-8.7 meV and 0.0591-0.0594 eV, and 0vbb 1.3-4.1 meV.
+The down-quark comparison value is corrected (the pass improves). The direct alpha angle puts the alpha = 90 deg lead
+1.6 sigma off. Everything else moves in the last digit or not at all.

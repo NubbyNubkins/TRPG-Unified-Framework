@@ -1,0 +1,6 @@
+MAIN: square side, gamma 0.2375        c = 2.274  grain = 5.370e+18 GeV  MMG 4.90e+08  closes at alpha_s = 0.1153  (-2.9 sigma vs PDG)  -> PARTIAL
+check: c = 1 (grain = Planck)          c = 1.000  grain = 1.221e+19 GeV  MMG 1.50e+08  closes at alpha_s = 0.1196  (+1.8 sigma vs PDG)  -> PASS
+check: c = sqrt2 (TRPG main grain)     c = 1.414  grain = 8.633e+18 GeV  MMG 2.47e+08  closes at alpha_s = 0.1178  (-0.3 sigma vs PDG)  -> PASS
+other: square side, gamma 0.274        c = 2.442  grain = 4.999e+18 GeV  MMG 5.43e+08  closes at alpha_s = 0.1150  (-3.3 sigma vs PDG)  -> FAIL
+other: disc radius, gamma 0.2375       c = 1.283  grain = 9.518e+18 GeV  MMG 2.15e+08  closes at alpha_s = 0.1183  (+0.3 sigma vs PDG)  -> PASS
+other: disc radius, gamma 0.274        c = 1.378  grain = 8.861e+18 GeV  MMG 2.38e+08  closes at alpha_s = 0.1179  (-0.1 sigma vs PDG)  -> PASS

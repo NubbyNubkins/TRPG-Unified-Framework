@@ -1,0 +1,7 @@
+Standard Model only : at the grain today yt=0.3823 yb=0.0053 g'=0.4753 -> rule needs yt=0.2745
+   predicted top pole mass 144.58 GeV (1-loop running 139.85); spread 4.96; vs 172.57: -5.6 sigma -> FAIL
+with TRPG far side  : at the grain today yt=0.3739 yb=0.0052 g'=0.5271 -> rule needs yt=0.3044
+   predicted top pole mass 155.34 GeV (1-loop running 150.36); spread 5.23; vs 172.57: -3.3 sigma -> FAIL
+
+break test 5b, second family:
+   yc^2 - ys^2 = g'^2/3 needs yc(grain) >= 0.304, about the top's own size; measured charm gives yc(grain) ~ 0.0015 (scaled from the top, order of magnitude) -> charm would be ~100 GeV: FAIL. The light families must sit at zero (as Eichhorn & Held say).

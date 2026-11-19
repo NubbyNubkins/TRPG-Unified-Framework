@@ -84,9 +84,11 @@ print("   -> DERIVED holds (from a principle counted among the fitted choices). 
 print("   Lepton masses: three masses from TWO numbers (scale and twist) plus the rule, not from one.")
 
 # Down quark from the Cabibbo relation: sin(theta_C) = sqrt(m_d/m_s)  (Gatto, Sartori, Tonin 1968)
-ratio = 1 / 0.2243 ** 2; md = 93.5 / ratio
-print(f"   m_s/m_d from the Cabibbo angle: {ratio:.1f} vs lattice 20.4 +- 0.3 -> {(ratio - 20.4) / 0.3:+.1f} sigma; m_d = {md:.2f} MeV (lattice 4.70 +- 0.07)")
-print("   (the tangent form, tan(theta_C) = sqrt(m_d/m_s), would give 18.9, about -5 sigma; the sine form is the one used)")
+ratio = 1 / 0.22431 ** 2; md = 92.9 / ratio   # PDG 2026: |V_us| 0.22431, m_s 92.9 +- 0.7, m_d 4.70 +- 0.07 MeV
+meas = 92.9 / 4.70; emeas = meas * math.hypot(0.7 / 92.9, 0.07 / 4.70)
+print(f"   m_s/m_d from the Cabibbo angle: {ratio:.1f} vs PDG 2026 masses {meas:.1f} +- {emeas:.1f} -> {(ratio - meas) / emeas:+.1f} sigma; m_d = {md:.2f} MeV (PDG 4.70 +- 0.07)")
+print("   (v1.3.2 compared with an unsourced 20.4 +- 0.3. The tangent form, tan(theta_C) = sqrt(m_d/m_s), gives 18.9, -2.7 sigma;")
+print("    the sine form was chosen with both in view, so the form is a choice made with data in view)")
 print("   -> DERIVED holds as a check. The same relation cannot also be counted as 'Cabibbo angle from the masses';")
 print("      it is one relation, used once.")
 
@@ -106,9 +108,10 @@ print(f"   neutrinos, 45 deg rule with roots (-,+,+): m1 {m1*1e3:.2f}, m2 {m2*1e
 print("   -> PREDICTED (not measured). Brannen (2006) proposed the same relation for neutrinos; the numbers are shared.")
 
 # Higgs mass and the top mass it needs
-need, mt, emt = 171.63, 172.57, 0.29
+need, mt, emt = 171.60, 172.60, 0.27   # PDG 2026 top mass; need from recalibrate_to_2026_values
 print(f"   Higgs rule needs top pole mass {need} vs {mt} +- {emt}: {(mt - need) / emt:.1f} sigma on the top mass alone")
-print("   -> PREDICTED, under strain. Not unique: any extra weak matter at high energy moves it the same way.")
+print("   -> PREDICTED, under strain: m_H 127.3 +- 1.5 vs 125.13 +- 0.11 (1.4 sigma; 2.1 without the 0.5 GeV top-mass allowance).")
+print("      Not unique: any extra weak matter at high energy moves it the same way.")
 
 # alpha_s
 pa, lat, elat, wa, ewa = 0.1178, 0.11873, 0.00056, 0.1180, 0.0009

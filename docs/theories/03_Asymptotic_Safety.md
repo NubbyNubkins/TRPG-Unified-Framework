@@ -53,7 +53,7 @@ Asymptotic safety and TRPG are close in spirit. Both stay in four dimensions and
 - **Asymptotic safety** makes gravity work but takes the particle list as given.
 - **TRPG** explains the particle list from relationships but borrows gravity's strength from measurement.
 
-TRPG has **adopted** the Shaposhnikov–Wetterich Higgs rule. Inside TRPG, with its heavy far-side particles included, the rule gives 127.2 ± 1.5 against the measured 125.2. That is an agreement at 1.3 standard deviations, with the credit for the rule going to its authors.
+TRPG has **adopted** the Shaposhnikov–Wetterich Higgs rule. Inside TRPG, with its heavy far-side particles included, the rule gives 127.3 ± 1.5 against the measured 125.13 (PDG 2026). That is an agreement at 1.4 standard deviations (2.1 without the 0.5 GeV allowance for the top mass's meaning), needing a top mass 3.7 standard deviations below today's, with the credit for the rule going to its authors.
 
 ### The people who built it
 Weinberg; Reuter; Shaposhnikov and Wetterich; Eichhorn, Held, Percacci, Codello, Litim, Niedermaier, Saueressig and many others.

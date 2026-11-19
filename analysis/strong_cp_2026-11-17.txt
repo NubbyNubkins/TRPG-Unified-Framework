@@ -1,0 +1,21 @@
+A. NELSON-BARR
+  A1: Higgs phase = gauge direction (removable); majoron-field phase = the majoron (removable by the lepton-number turn).
+      -> no physical CP-breaking scalar in TRPG: Nelson-Barr needs a NEW complex scalar. FAIL under rule 6.
+  A2: largest |B/mu| = 6.9e-03; largest imaginary part of the correction over 20,000 random choices: 2.4e-04 (needs ~1). FAIL by 4 powers of ten.
+  A3: corner from the grain = 9.0e-07 GeV -> theta_bar ~ 7e-07 (limit 1e-10) -> FAIL unless the Z2 and CP are exact against gravity (a further assumption).
+
+B. MAJORON = AXION (break check)
+  B1: D at 4.5e+10 GeV: strengths close with the MMG at 2.30e+05 GeV (meeting 4.79e+13), but the gravity leak needs sqrt2 F^2/M_Planck = 2.66e+08:
+      off by a factor ~1000. Scan of the strong strength: impose the gravity leak and solve, for each alpha_s:
+        alpha_s 0.105: MMG 1.37e+09, meeting 1.09e+14, weak angle 0.22083 vs measured 0.23122
+        alpha_s 0.110: MMG 3.67e+09, meeting 1.78e+14, weak angle 0.21743 vs measured 0.23122
+        alpha_s 0.115: MMG 9.03e+09, meeting 2.79e+14, weak angle 0.21432 vs measured 0.23122
+        alpha_s 0.118: MMG 1.49e+10, meeting 3.59e+14, weak angle 0.21259 vs measured 0.23122
+        alpha_s 0.120: MMG 2.05e+10, meeting 4.21e+14, weak angle 0.21148 vs measured 0.23122
+        alpha_s 0.125: no solution with the gravity leak
+        alpha_s 0.130: no solution with the gravity leak
+      no strong strength between 0.105 and 0.130 rescues it -> FAIL (it would undo the MMG = gravity-leak lead).
+  B2: keV majoron mass as explicit breaking shifts theta_bar by ~2e+14 (limit 1e-10) -> the keV majoron and the axion cannot both stand.
+  B3: f/N = 2.1e+10 GeV -> axion mass 271 micro-eV; misalignment with the harmonic estimate at start angle pi: Omega h^2 ~ 0.015 = 12% of dark matter.
+      with the anharmonic factor the axion is all of the dark matter only for a start angle within 5.3e-03 of pi (theta = 3.136326): not excluded, but it needs the start angle tuned to about 2e-03 of its range -> PARTIAL (tuned).
+      (N = 3 also leaves domain walls if the symmetry breaks after inflation.)
