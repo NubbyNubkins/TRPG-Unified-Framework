@@ -2,6 +2,11 @@
 
 | Document | Formats | What it is |
 |---|---|---|
-| Paper (17 November 2026) | [PDF](TRPG_Paper.pdf) · [Word](TRPG_Paper.docx) · [Markdown](TRPG_Paper.md) | Principles, action, results, predictions, open questions, credits |
+| Paper (version 1.4.1, 25 November 2026) | [PDF](TRPG_Paper.pdf) · [Word](TRPG_Paper.docx) · [Markdown](TRPG_Paper.md) · [LaTeX](TRPG_Paper.tex) | Principles, action, results, predictions, open questions, credits |
+| The colour-superconducting gap required in self-bound quark stars when the bag constant is fixed by the nucleon and Δ(1232) | [PDF](companion_papers/A_quark_star_pairing_gap.pdf) · [Word](companion_papers/A_quark_star_pairing_gap.docx) · [Markdown](companion_papers/A_quark_star_pairing_gap.md) | Companion paper, 25 November 2026 |
+| Normal-ordered neutrino masses from the Koide relation with one negative root, and a reason for Q = 2/3 | [PDF](companion_papers/B_neutrino_masses_45_degree_rule.pdf) · [Word](companion_papers/B_neutrino_masses_45_degree_rule.docx) · [Markdown](companion_papers/B_neutrino_masses_45_degree_rule.md) | Companion paper, 25 November 2026 |
+| Vector-like states of the 27 at two thresholds: a dated prediction α_s(M_Z) = 0.1178 and the Higgs mass from a vanishing quartic at M_Pl/√2 | [PDF](companion_papers/C_farside_states_alpha_s_higgs.pdf) · [Word](companion_papers/C_farside_states_alpha_s_higgs.docx) · [Markdown](companion_papers/C_farside_states_alpha_s_higgs.md) | Companion paper, 25 November 2026 |
+| An exact right-angled unitarity triangle with λ = 1/√20 and A = √(2/3): a testable parametrisation of quark mixing | [PDF](companion_papers/D_right_angled_quark_triangle.pdf) · [Word](companion_papers/D_right_angled_quark_triangle.docx) · [Markdown](companion_papers/D_right_angled_quark_triangle.md) | Companion paper, 25 November 2026 |
+| No anomaly-free discrete symmetry splits the vector-like triplets and doublets of three 27s by one power of the breaking field | [PDF](companion_papers/E_discrete_charge_no_go.pdf) · [Word](companion_papers/E_discrete_charge_no_go.docx) · [Markdown](companion_papers/E_discrete_charge_no_go.md) | Companion paper, 25 November 2026 |
 
 Results that wait on a measurement are marked "awaiting measurement" and are not counted as established until it returns.
