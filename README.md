@@ -3,7 +3,7 @@
 **A relational, entanglement-based Theory of Everything by Matthew Gelfman and Melissa Behrends-Gelfman.**
 Website: https://trpgphysics.org
 
-TRPG is five rules and one bet (version 1.4.0).
+TRPG is five rules and one bet (version 1.4.1; the content is that of 1.4.0).
 
 - **Rule 1. One matrix of relationships**, seen one perspective at a time, with entanglement first. Matter is held states on the diagonal, forces are the links between them, the Higgs is the link across one state (its left side to its right side), and space and time are the geometry of the relationships ([`figures/relationship_matrix_diagonal_links.png`](figures/relationship_matrix_diagonal_links.png)).
 - **Rule 2. Balance.** Whatever holds together is a pull balanced by a resistance (containment); mass is that balance.
@@ -92,7 +92,7 @@ All 24 core scripts run in a few minutes on a normal computer (tested with Pytho
 
 ## Use of AI tools
 
-AI tools were used to write down the authors' ideas, to do and check the calculations, and to search the literature. The ideas are the authors'. Every result in this repository comes from a script that can be rerun.
+Due to medical necessity, AI language-model assistants were used, under the authors' direction, to draft and edit text from the authors' ideas, to do and check the calculations, and to search the literature. The authors reviewed all content and take full responsibility for it. The ideas are the authors'. Every result in this repository comes from a script that can be rerun.
 
 ## Cite and license
 

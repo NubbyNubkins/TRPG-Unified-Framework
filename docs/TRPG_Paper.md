@@ -3,7 +3,7 @@
 **Matthew Gelfman** (ORCID 0009-0000-6402-2258)\
 **Melissa Behrends-Gelfman** (ORCID 0009-0001-6281-1947)
 
-Version of 25 November 2026 (v1.4.0: the framework restated as five rules and one bet, read as one matrix of relationships with three roles, Section 2; a short start phase driven by the stiffness of space kept as the alternative start, to be decided by the tilt of the first ripples, Sections 5 and 9; the exact right-angled form of quark mixing added as a dated lead and a charge rule for the far-side weight tested, Section 10; a record of the tests run after 18 November that failed, Appendix A.7, and where each open problem now stands, Appendix A.8. v1.3.3 recalibrated v1.3.2 to the Particle Data Group's 2026 values and JUNO's 2026 splittings, with a full audit of tests set after an earlier attempt failed, Appendix A.6). Built on the work of the physicists credited at the end; this framework is a perspective that aims to show they were each right.
+Version of 25 November 2026 (v1.4.1: v1.4.0 with a fuller statement of how AI assistants were used, Acknowledgements; no result changed. v1.4.0: the framework restated as five rules and one bet, read as one matrix of relationships with three roles, Section 2; a short start phase driven by the stiffness of space kept as the alternative start, to be decided by the tilt of the first ripples, Sections 5 and 9; the exact right-angled form of quark mixing added as a dated lead and a charge rule for the far-side weight tested, Section 10; a record of the tests run after 18 November that failed, Appendix A.7, and where each open problem now stands, Appendix A.8. v1.3.3 recalibrated v1.3.2 to the Particle Data Group's 2026 values and JUNO's 2026 splittings, with a full audit of tests set after an earlier attempt failed, Appendix A.6). Built on the work of the physicists credited at the end; this framework is a perspective that aims to show they were each right.
 
 trpgphysics.org · November 2026 · DOI [10.5281/zenodo.24330763](https://doi.org/10.5281/zenodo.24330763) (all versions)
 
@@ -297,7 +297,7 @@ Every number in this paper is produced by a script published with it under the M
 
 ## Acknowledgements
 
-This framework is a perspective built on the work of the physicists cited below. Calculations were carried out in Python with NumPy, SciPy and SymPy. AI assistants were used, under the authors' direction, for transcription, computation and literature search; every result was checked by rerunning the published code. Matthew Gelfman and Melissa Behrends-Gelfman contributed equally to this work.
+This framework is a perspective built on the work of the physicists cited below. Calculations were carried out in Python with NumPy, SciPy and SymPy. Due to medical necessity, AI language-model assistants were used, under the authors' direction, to draft and edit text from the authors' ideas, to carry out and check calculations, and to search the literature; every result was checked by rerunning the published code. The authors reviewed all content and take full responsibility for it. Matthew Gelfman and Melissa Behrends-Gelfman contributed equally to this work.
 
 ## References
 
