@@ -1,0 +1,27 @@
+CFL QUARK STARS, B = 60 MeV/fm^3 unless stated (independent solver)
+ a4    m_s  Delta |  M_max   R_2.08   Lam_1.4  Lam_2.0   E/A(CFL)
+ 0.70   95     0  |  1.858      nan       326      nan     947.6
+ 0.70   95    70  |  2.091    11.48       538       49     879.0
+ 0.70   95    90  |  2.248    12.43       703       84     837.2
+ 0.70   95   105  |  2.392    12.98       856      118     801.4
+ 0.70   95   125  |  2.614    13.65      1124      176     749.6
+ 0.85   95     0  |  1.868      nan       335      nan     899.8
+ 0.85   95    70  |  2.079      nan       524       46     840.5
+ 0.85   95    90  |  2.222    12.31       669       78     804.1
+ 0.85   95   105  |  2.352    12.84       820      109     772.7
+ 0.85   95   125  |  2.555    13.49      1057      160     726.8
+ 1.00   95     0  |  1.875      nan       342      nan     861.9
+ 1.00   95    70  |  2.070      nan       517       44     809.3
+ 1.00   95    90  |  2.201    12.21       652       73     777.0
+ 1.00   95   105  |  2.322    12.73       783      101     748.8
+ 1.00   95   125  |  2.509    13.36      1000      148     707.5
+ 1.00  100    82  |  2.135    11.84       582       59     793.1
+ 1.00  100    97  |  2.245    12.41       699       83     766.5
+
+TWO-FLAVOUR (ud) MATTER E/A at zero pressure (must stay above 930 MeV for ordinary nuclei to be stable)
+  B=57 a4=0.70: unpaired 1018.7 MeV | 2SC-paired, gap 90:  969.0 | gap 125:  925.4
+  B=57 a4=1.00: unpaired  931.8 MeV | 2SC-paired, gap 90:  893.6 | gap 125:  859.7
+  B=60 a4=0.70: unpaired 1031.9 MeV | 2SC-paired, gap 90:  982.8 | gap 125:  939.6
+  B=60 a4=1.00: unpaired  943.9 MeV | 2SC-paired, gap 90:  906.1 | gap 125:  872.6
+  B=64 a4=0.70: unpaired 1048.7 MeV | 2SC-paired, gap 90: 1000.3 | gap 125:  957.7
+  B=64 a4=1.00: unpaired  959.2 MeV | 2SC-paired, gap 90:  922.0 | gap 125:  889.0

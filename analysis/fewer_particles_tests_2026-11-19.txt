@@ -1,0 +1,56 @@
+======================================================================
+1. HARD COUNTS FROM DATA
+  Z invisible width: N_nu = 2.984 +/- 0.009  (LEP lineshape fit 2.9963+/-0.0074)
+  R(e+e- -> hadrons, 5 quarks) with 1 colour(s): 1.27   measured ~3.85
+  R(e+e- -> hadrons, 5 quarks) with 2 colour(s): 2.54   measured ~3.85
+  R(e+e- -> hadrons, 5 quarks) with 3 colour(s): 3.80   measured ~3.85
+  R(e+e- -> hadrons, 5 quarks) with 4 colour(s): 5.07   measured ~3.85
+  pi0 width with 1 colours: 0.86 eV  measured 7.80+/-0.12
+  pi0 width with 3 colours: 7.78 eV  measured 7.80+/-0.12
+  LEP colour factors: C_A = 2.89+/-0.21 (SU(3): 3), C_F = 1.30+/-0.09 (SU(3): 4/3)
+  -> 3 light neutrinos, 3 colours, 8 self-interacting gluons are measured, not assumed.
+======================================================================
+2. ANOMALY CANCELLATION: is one generation reducible?
+  full generation (15 states)            Y^3=0, grav-Y=0, SU2^2 Y=0, SU3^2 Y=0, SU2 doublets=4  -> CONSISTENT
+  quarks only                            Y^3=-3/4, grav-Y=0, SU2^2 Y=1/2, SU3^2 Y=0, SU2 doublets=3  -> BROKEN
+  leptons only                           Y^3=3/4, grav-Y=0, SU2^2 Y=-1/2, SU3^2 Y=0, SU2 doublets=1  -> BROKEN
+  drop right-handed electron             Y^3=-1, grav-Y=-1, SU2^2 Y=0, SU3^2 Y=0, SU2 doublets=4  -> BROKEN
+  drop down-type quark (u only)          Y^3=-1/9, grav-Y=-1, SU2^2 Y=0, SU3^2 Y=-1/3, SU2 doublets=4  -> BROKEN
+  -> A generation is ONE unit: quarks alone or leptons alone are inconsistent. Supports 'one object', blocks dropping parts.
+======================================================================
+3. FORCE STRENGTHS: does REMOVING particles help them meet?
+  1/alpha at MZ: 59.02, 29.58, 8.47.  Meeting needs B = (b2-b3)/(b1-b2) = 0.717
+  Standard Model content                               B = 0.528   (reference)
+  remove the Higgs doublet                             B = 0.500   further than SM
+  gluons as quark links (no gluon self-loop)           B = -0.986   further than SM
+  remove a whole generation                            B = 0.528   same as SM
+  quarks without colour (1 copy each) [b3: no quarks feel colour] B = 0.748   closer than SM
+  ADD a 2nd Higgs doublet                              B = 0.556   closer than SM
+  MSSM (doubles the particles)                         B = 0.714   closer than SM
+  -> Removals that data allow make it worse or leave it unchanged. The one removal that helps (colourless quarks)
+     is excluded by the R ratio and pi0 width above. ADDING states (2HDM, MSSM, TRPG's far-side MMG) is what moves it closer.
+  Strong-force running check (one loop, 5 flavours throughout, so only rough): alpha_s(m_tau)=0.315 measured, alpha_s(MZ)=0.118.
+    with gluon self-loops (b0=11-2*5/3=7.67): 0.315 at 1.777 GeV -> 0.125 at MZ
+    gluons as passive links (b0=-2*5/3):        0.315 at 1.777 GeV -> 0.921 at MZ  (grows; FAILS)
+======================================================================
+4. ONE THING IN THREE STATES: Koide test (three generations as one object)
+  charged leptons Q = 0.666664  (2/3 = 0.666667)  -> holds to 3 ppm
+  up quarks       Q = 0.8488   down quarks Q = 0.7313  -> not 2/3 (quarks don't share the leptons' pattern)
+======================================================================
+5. HIGGS AS A TOP-ANTITOP PAIR (top condensation, Bardeen-Hill-Lindner 1990)
+  compositeness scale 1e+06 GeV -> top mass 310 GeV (measured 172.6); Higgs ~2 m_t in simplest form = 620 (measured 125.1)
+  compositeness scale 1e+10 GeV -> top mass 260 GeV (measured 172.6); Higgs ~2 m_t in simplest form = 520 (measured 125.1)
+  compositeness scale 1e+15 GeV -> top mass 236 GeV (measured 172.6); Higgs ~2 m_t in simplest form = 472 (measured 125.1)
+  compositeness scale 1e+19 GeV -> top mass 226 GeV (measured 172.6); Higgs ~2 m_t in simplest form = 453 (measured 125.1)
+  -> minimal 'Higgs = top pair' FAILS (top too heavy, Higgs far too heavy).
+======================================================================
+6. PREON CHARGE PATTERN (Harari-Shupe rishons: T charge +1/3, V charge 0)
+  positron   = TTT: charge 1
+  up         = TTV: charge 2/3
+  anti-down  = TVV: charge 1/3
+  neutrino   = VVV: charge 0
+  -> one generation's charges from 2 pieces: HOLDS. Compositeness limits (LHC contact terms) push binding above ~20-30 TeV,
+     while the electron weighs 0.5 MeV: binding 10^7-10^8 times its weight. Generations unexplained. Dynamics FAIL.
+======================================================================
+7. LIGHT SPECIES IN THE EARLY UNIVERSE
+  Planck+BAO N_eff = 2.99 +/- 0.17 (SM 3.044); BBN helium agrees. Fewer light species than the SM: excluded at ~6 sigma per missing neutrino.

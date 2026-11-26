@@ -1,6 +1,6 @@
 # TRPG ledger: what goes in, what comes out, and how it could fail
 
-*Version 1.3.3, 18 November 2026 (values recalibrated to PDG 2026 and JUNO 2026 by `analysis/recalibrate_to_2026_values_2026-11-18.py`). `python analysis/input_ledger_2026-11-18.py` reruns the count and the break tests for the results that move it (tau mass, down quark, lightest neutrino mass, Higgs mass), plus the strong-force strength and the JUNO lead. It does not re-check the other derived rows. Those are standard results or come from the scripts named in the paper and the README (for example `analysis/pairing_gap_scan_2026-11-14.py` for the pairing gap and `analysis/neutrino_perspectives_2026-11-14.py` for θ₁₂ and the CP phase).*
+*Version 1.4.0, 25 November 2026: five rules and one bet; a short start phase driven by the stiffness of space kept as the alternative start, decided by the tilt of the first ripples (`analysis/start_phase_starobinsky_2026-11-19.py`); no particle-physics number changed. Values as recalibrated to PDG 2026 and JUNO 2026 in v1.3.3 by `analysis/recalibrate_to_2026_values_2026-11-18.py`. `python analysis/input_ledger_2026-11-18.py` reruns the main-line count and the break tests for the results that move it (tau mass, down quark, lightest neutrino mass, Higgs mass), plus the strong-force strength and the JUNO lead; `analysis/input_ledger_2026-11-19.py` gives the count with the alternative start. It does not re-check the other derived rows. Those are standard results or come from the scripts named in the paper and the README (for example `analysis/pairing_gap_scan_2026-11-14.py` for the pairing gap and `analysis/neutrino_perspectives_2026-11-14.py` for θ₁₂ and the CP phase).*
 
 This page answers the first three questions a careful reader asks of any unified theory. What was taken from measurement? What was chosen with today's data in view? And what does the framework say that has not been measured yet? Every quantity appears once, with one label. Nothing is counted as established until its measurement returns.
 
@@ -51,13 +51,15 @@ TRPG removes six of these, two already confirmed and four waiting for a measurem
 | θ₁₂ given θ₁₃ | TM1 mixing pattern (Xing and Zhou, 2007; Albright and Rodejohann, 2009) | **pending**; 2.3σ from JUNO 2026 (fails at 3σ) |
 | Neutrino CP phase | TM1 read as perspectives | **pending**; today's fits lean to 180–215°, against TRPG's 253–292° |
 
+**Version 1.4.0.** The main line follows today's combined CMB and DESI data and keeps the tilt of the first ripples as a measured input, so the count is unchanged from v1.3.3. The alternative start phase (a short stretching driven by the stiffness of space) would turn the tilt into a prediction (saved only if it lands) and make the decay coupling of the far-side weak pairs a required number, since the heat after that start produces them: 33 today instead of 32, still 28 once the tilt lands, with a seventh choice (below).
+
 **The honest count:**
 
-- **32 free numbers today**, counting only savings that measurement has already confirmed.
-- **28 if every pending measurement agrees.** This is the figure quoted elsewhere as "about 28". It is a ceiling on the saving, not a result.
+- **32 free numbers today** on the main line (33 with the alternative start, which requires the far-side weak pairs' decay coupling), counting only savings that measurement has already confirmed.
+- **28 if every pending measurement agrees** (with the alternative start, the tilt of the first ripples is among them). This is the figure quoted elsewhere as "about 28". It is a ceiling on the saving, not a result.
 - **27** if, in addition, the strong coupling lands at 0.1178. That saving counts only once the Higgs mass also lands, because both rest on the same fitted choice of grain.
 
-**Plus six stated choices, made with today's data in view (fitted):**
+**Plus six stated choices, made with today's data in view (fitted), and a seventh with the alternative start:**
 
 1. The grain of space is the Planck energy ÷ √2. Five equally natural readings give five factors (`analysis/derive_45_and_sqrt2_2026-11-18.py`). This choice feeds both the strong coupling and the Higgs mass.
 2. The weight rule of the far-side weak pairs (meeting energy squared ÷ grain). This is one assumption: the pairs have no direct link to the background value that weighs their coloured partners.
@@ -65,6 +67,7 @@ TRPG removes six of these, two already confirmed and four waiting for a measurem
 4. TM1 rather than another mixing pattern. Exact tribimaximal and TM2 are disfavoured by data.
 5. The sign pattern of the neutrino roots (−, +, +). The all-positive pattern has no solution with the measured splittings.
 6. Maximum uncertainty between self and relationship as the reason for the 45° rule. It is a starting principle, chosen knowing that Koide's relation holds for the charged leptons, and it fails for quarks. The tau mass is therefore "derived" from a principle that was itself chosen with data in view.
+7. *(alternative start only)* The Higgs field's coupling to curvature, ξ ≈ 0.06–0.15: at least 0.06 keeps the Higgs safe during the start phase with the measured top mass (Herranen et al., 2014; Espinosa et al., 2015), and 0.12–0.15 keeps the heat after the start low enough for the majoron lead (`analysis/start_phase_starobinsky_2026-11-19.py`).
 
 **Counted on neither side (effective numbers of the strong force):** the containment pressure B = 60 (57–64) MeV/fm³, set from the proton and Delta masses, and the stiffness of the containment field, set from the lattice glueball mass of 1.71–1.73 GeV.
 
@@ -72,7 +75,7 @@ TRPG removes six of these, two already confirmed and four waiting for a measurem
 
 ## 3. The ledger
 
-### Inputs (taken from measurement): 28 core, plus the 4 pending items above while they are pending
+### Inputs (taken from measurement): 29 core today (28 once the predicted tilt lands), plus the 4 pending items above while they are pending
 
 | Quantity | Count | Note |
 |---|---|---|
@@ -89,7 +92,9 @@ TRPG removes six of these, two already confirmed and four waiting for a measurem
 | Dark energy | 1 | Read as the kept amount of space |
 | Dark matter amount | 1 | Read as partly perspective, partly the majoron (a lead) |
 | Matter excess | 1 | Allowed, not predicted |
-| Seeds of galaxies (size, tilt) | 2 | |
+| Seeds of galaxies: size | 1 | With the alternative start it fixes that start's one number (scalaron mass 3.1–3.2 × 10¹³ GeV) |
+| Seeds of galaxies: tilt | 1 | measured input on the main line; predicted (0.963) only by the alternative start |
+| Decay coupling of the far-side weak pairs (alternative start only; not in the main-line 32) | (1) | required only if the start reheats above 2.4 × 10⁸ GeV; must then exceed about 9 × 10⁻¹² |
 
 ### Derived (agrees with a measurement already made)
 
@@ -126,7 +131,9 @@ TRPG removes six of these, two already confirmed and four waiting for a measurem
 | Quark pairing gap in compact (self-bound strange) stars | 4Δ² − m_s² = 1.7–2.8 × 10⁴ MeV²: about 82–97 MeV at m_s = 100 MeV, 88–109 MeV for a running m_s of 120–140 MeV | not measured (theory spans 50–150) | lattice and effective theory; neutron-star cooling and mergers | TRPG's, given B from the proton |
 | Neutrinoless double beta decay | 1.3–4.1 meV (1.8–2.3 if the Majorana phases are zero) | below the limit (28–122 meV) | beyond planned reach (10–20 meV) | Follows from the neutrino masses above |
 | Proton decay | none | none seen (> 2.4 × 10³⁴ yr) | Hyper-Kamiokande | Shared with any model without coloured Higgs partners |
-| Primordial gravitational waves (majoron lead, not core) | r below about 10⁻¹¹ | none seen | Simons Observatory, LiteBIRD | Follows from the majoron lead's slow, cold start |
+| Primordial gravitational waves (alternative start only) | r = 0.0040 ± 0.0003 (main line: none measurable, r ≲ 10⁻¹¹ in the majoron lead) | none seen (r < 0.036) | Simons Observatory (about 0.003), LiteBIRD (about 0.001), early 2030s | Shared: Starobinsky (1980) R² start. On the main line the majoron lead's r below about 10⁻¹¹ holds |
+| Tilt of the first ripples (alternative start only) | n_s = 0.9630–0.9636 | disfavoured by combined data, which the main line follows: Planck 0.9638 ± 0.0040 (−0.1σ); Planck + DESI 0.9690 ± 0.0035 (−1.6σ); Planck + ACT + SPT 0.9693 ± 0.0029 (−2.1σ); ACT DR6 + Planck + DESI 0.9743 ± 0.0034 (−3.2σ); Planck + ACT + SPT + DESI 0.9737 ± 0.0025 (−4.2σ) (McDonough and Ferreira, 2025) | CMB alone at higher precision (Simons Observatory); DESI–CMB agreement | Shared: Starobinsky; Mukhanov and Chibisov (1981). The DESI-driven shift comes from a ~2σ DESI–CMB disagreement |
+| Flatness, uniform temperature | explained only by the alternative start; measured inputs on the main line | as observed | — | Shared: any start of this kind |
 | Tau mass, sharper | 1776.969 MeV | 1776.93 ± 0.09 | Belle II, BESIII | Shared: Koide |
 | Unmeasured Higgs couplings (self-couplings 191 GeV and 0.776; HHWW 0.213) | as listed | not measured | HL-LHC, future colliders | No: Standard Model values in TRPG's form. They test bookkeeping |
 
@@ -139,6 +146,7 @@ TRPG removes six of these, two already confirmed and four waiting for a measurem
 | Matter excess | allowed, through non-thermal leptogenesis | one start number |
 | Heavy quark masses and mixing (the fold) | all three mixing angles within 19% | a rule for the fold's strength |
 | First-rung quark tilt with α = 90° | largest quark tilt (−0.5σ) and γ | fails one rung up |
+| Exact right-angled triangle (λ = 1/√20, A = √(2/3), β = 22.5°, γ = 67.5°) | all seven directly measured mixing quantities within 1.6σ (χ² = 6.0 for 7); sin 2β = 1/√2; \|V_ud\| = 0.97467 (+3.1σ, the first-row bet) | the four numbers are chosen, not derived |
 
 ---
 
@@ -160,7 +168,9 @@ Each of these would break the named part. None has returned yet. Dates are the e
 | A quark pairing gap firmly outside the band 4Δ² − m_s² = 1.7–2.8 × 10⁴ MeV² (82–97 MeV at m_s = 100 MeV), or a compact star clearly above about 2.15 solar masses | containment with B from the proton | theory, timing and merger data (PSR J0952−0607 at 2.35 ± 0.17 is the case to watch) |
 | Proton decay of any kind | the nothing-extra rule and the far side | Hyper-Kamiokande, from about 2028 |
 | A fourth generation, a new force carrier, mirror families, a second Higgs pair or a coloured spin-0 particle | the nothing-extra rule | any collider |
-| Primordial gravitational waves | the majoron dark-matter lead (not the core) | Simons Observatory, LiteBIRD |
+| No primordial gravitational waves at r ≈ 0.004 once experiments reach about 0.001 | the alternative start phase | Simons Observatory, LiteBIRD, early 2030s |
+| A CMB-only tilt above about 0.972 at 3σ, or DESI and the CMB brought into agreement at the higher value | the alternative start phase | Simons Observatory, ACT, SPT, DESI |
+| Primordial gravitational waves far above 10⁻¹¹ under the cold start | the majoron lead with the main line's cold start | Simons Observatory, LiteBIRD |
 | Dark matter that feels the weak force | the majoron lead | direct-detection experiments |
 | Neutrinos proven to be Dirac particles | the Higgs-free neutrino mass and 0νββ | neutrinoless double beta decay searches |
 | The tau mass measured firmly away from 1776.969 MeV | the 45° rule for leptons | Belle II, BESIII |
@@ -177,8 +187,10 @@ flowchart TD
   R2["Rule: containment<br/>(push balances pull)"]
   R3["Rule: maximum uncertainty<br/>between self and relationship"]
   R4["Rule: nothing extra"]
+  R5["Rule: smooth start<br/>(stretching phase = alternative)"]
+  R5 --> RS["ALTERNATIVE ONLY: r = 0.0040,<br/>tilt n_s = 0.963 (disfavoured with DESI)"]
   BET["Bet: the far side of the<br/>relationship matrix is real"]
-  IN["28 measured inputs<br/>(+4 pending)"]
+  IN["28 measured inputs<br/>(+4 pending; +1 today until the tilt lands)"]
   FIT["3 fitted choices<br/>(grain = Planck/√2, far-side weight rule,<br/>equal strengths at the crossing)"]
   FIT2["3 fitted choices<br/>(maximum uncertainty, TM1, neutrino root signs)"]
 
@@ -228,7 +240,28 @@ An audit on 18 November 2026 asked of every test: was a number, a form or a mode
 | Down quark | the sine form of the Cabibbo relation (the tangent form fails at −2.7σ) | a choice of form |
 | Up quark | the decay value of Q (0.4σ with Q's error included; the lattice value gives 2.0σ) | the check stands or falls with Q |
 
+## 6a. Tests run after 18 November 2026 that failed
+
+Rechecked with independent code (`analysis/farside_charge_rule_2026-11-25.py`, `analysis/quark_triangle_and_press_2026-11-25.py`, `analysis/cfl_gap_and_tides_2026-11-25.py`, `analysis/refinement_checks_2026-11-25.py`). The same recheck confirmed the pairing-gap band of the ledger above: at B = 60.1 MeV/fm³ the heaviest star is 2.00–2.13 solar masses and Λ₁.₄ = 459–575. None is part of the framework. The full list is Appendix A.7 of the paper.
+
+| Test | Result |
+|---|---|
+| Six-step (ℤ₆) charge giving the far-side weight rule | gives 2.45 × 10⁸ GeV, but is anomalous (colour and weak sums 3 and 15); no ℤ_N up to N = 18 works; the weight rule stays fitted choice 2 |
+| Three generations from that charge | no number from one to five passes; six passes but ends asymptotic freedom |
+| Walls removed by gravity at Φ⁵ | the timing works, but a charge broken by gravity protects nothing |
+| Very light majoron dark matter without inflation (f = 2.1 × 10¹⁶ GeV) | one starting angle cannot be chosen without inflation; needs gravity breaking near the 37th power; supermassive black hole spins largely exclude the mass range |
+| Pairing gap 90–125 MeV | Λ₁.₄ = 652–1124, above GW170817's 580; the two-family picture is Drago, Lavagno and Pagliara (2014) |
+| Matter excess with the Dirac link aligned to the neutrinos | decay asymmetry vanishes; rests on a hand-set starting rotation |
+| Dark energy ρ = B^3/2^ / [3 (16π²)² M²] | 2.13–2.23 meV, but the closest of ten forms tried |
+| 3 × 3 down-quark matrix with set weights | χ² = 11.5 (26 at the Z mass) |
+| Simple fractions for the seeds' tilt | no equation behind them |
+| Higgs mass as 246/2 (self-coupling 1/8) | the self-coupling is 1/8 near 182 GeV, not at v (0.1192 there); 1/8 at v needs m_H = 127.9 GeV |
+| Integer loop rungs ln(m_wall/m)/ln(16π²) | random masses cluster as well 81% of the time |
+
 ## 7. What changed in this version
+
+**Version 1.4.0 (25 November 2026).** The framework is restated as five rules and one bet: one matrix of relationships read in three roles (held states on the diagonal, pulls as links between them, the Higgs as the link across each state, and space and time as the geometry of the relationships); balance of pull and resistance; maximum uncertainty for the leptons; nothing extra; and a smooth start. A short stretching driven by the stiffness of space (Starobinsky, 1980) is kept as the alternative start: it predicts r = 0.0040 ± 0.0003 and n_s = 0.963, which agrees with the CMB alone but is 3.2–4.2σ low once DESI is combined, so the main line follows the combined data and keeps the tilt as a measured input. With the alternative the count would be 33 today and seven choices (the far-side decay coupling and ξ); on the main line it stays 32 and six. Also added: the exact right-angled quark triangle as a lead (row above), a tested charge rule for the far-side weight that does not hold, Section 6a, and in the paper Appendix A.8, where each open problem stands. No particle-physics number changed.
+
 
 **Version 1.3.3 (18 November 2026).** Values recalibrated to PDG 2026 and JUNO 2026 (`analysis/recalibrate_to_2026_values_2026-11-18.py`). The Higgs rule now needs a top mass 3.7σ below today's (was 3.2σ), and its pass rests on the top-mass allowance. With JUNO's splittings m₂ is 8.6 meV and the sum 0.0591 eV, so both are now given as ranges. The small splitting's move from 7.40 to 7.37 is explained, and its fail band is now a 3σ test with both errors combined (about 7.13–7.62 at JUNO's full precision; the older bands were one standard deviation wide). The down quark is compared with the measured masses (19.8 ± 0.3) instead of an unsourced 20.4. Section 6 above is new.
 

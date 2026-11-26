@@ -1,0 +1,52 @@
+1. RIGHT UNITARITY TRIANGLE: lambda = 1/sqrt(20), A = sqrt(2/3), beta = 22.5, gamma = 67.5 (alpha = 90)
+     unitarity error 2.2e-16; J = 2.943e-05
+  triangle with PDG 2026/2024 direct measurements
+     Vus      pred   0.22361  meas   0.22431 +- 0.00085  pull -0.83
+     Vcb      pred   0.04082  meas   0.04110 +- 0.00120  pull -0.23
+     Vub      pred   0.00358  meas   0.00382 +- 0.00020  pull -1.19
+     sin2b    pred   0.70711  meas   0.70900 +- 0.01100  pull -0.17
+     alpha    pred  90.00000  meas  84.10000 +- 3.70000  pull +1.59
+     gamma    pred  67.50000  meas  66.40000 +- 2.80000  pull +0.39
+     Vtd/Vts  pred   0.21035  meas   0.20700 +- 0.00320  pull +1.05
+     chi2 = 5.98 for 7 observables (p = 0.542 if nothing had been chosen)
+     |V_ud| = 0.97467 vs 0.97367 +- 0.00032: +3.13 sigma; first row sum 1.000000 vs 0.9984 +- 0.0007 (PDG 2026)
+
+2. 3x3 DOWN-QUARK MATRIX WITH SET WEIGHTS (M11 = 2 r_d, M22 = r_s + 4 r_s^2, |M12| = sqrt(r_d r_s), |M23| = 2 r_s, M13 = sqrt(2/3) sqrt(r_d r_s) e^{-i 67.5})
+     eigenvalues/m_b: 0.000961 (target 0.001000), 0.02099 (target 0.02000)
+  at 162.5 GeV (r_d = 0.001, r_s = 0.020)
+     Vus      pred   0.22620  meas   0.22431 +- 0.00085  pull +2.22
+     Vcb      pred   0.04079  meas   0.04110 +- 0.00120  pull -0.26
+     Vub      pred   0.00372  meas   0.00382 +- 0.00020  pull -0.48
+     sin2b    pred   0.72327  meas   0.70900 +- 0.01100  pull +1.30
+     alpha    pred  90.20194  meas  84.10000 +- 3.70000  pull +1.65
+     gamma    pred  66.63565  meas  66.40000 +- 2.80000  pull +0.08
+     Vtd/Vts  pred   0.21142  meas   0.20700 +- 0.00320  pull +1.38
+     chi2 = 11.54 for 7 observables (p = 0.117 if nothing had been chosen)
+     |V_ud| = 0.97407 vs 0.97367 +- 0.00032: +1.26 sigma; first row sum 1.000000 vs 0.9984 +- 0.0007 (PDG 2026)
+     eigenvalues/m_b: 0.000898 (target 0.000935), 0.01955 (target 0.01862)
+  at M_Z     (r_d, r_s from 2.67, 53.16, 2855 MeV)
+     Vus      pred   0.22687  meas   0.22431 +- 0.00085  pull +3.02
+     Vcb      pred   0.03792  meas   0.04110 +- 0.00120  pull -2.65
+     Vub      pred   0.00347  meas   0.00382 +- 0.00020  pull -1.75
+     sin2b    pred   0.72271  meas   0.70900 +- 0.01100  pull +1.25
+     alpha    pred  90.16679  meas  84.10000 +- 3.70000  pull +1.64
+     gamma    pred  66.69371  meas  66.40000 +- 2.80000  pull +0.10
+     Vtd/Vts  pred   0.21217  meas   0.20700 +- 0.00320  pull +1.61
+     chi2 = 26.03 for 7 observables (p = 0.000 if nothing had been chosen)
+     |V_ud| = 0.97392 vs 0.97367 +- 0.00032: +0.77 sigma; first row sum 1.000000 vs 0.9984 +- 0.0007 (PDG 2026)
+
+3. LEPTON TWIST (Brannen 2006 form sqrt(m_k) = a (1 + sqrt2 cos(delta + 2 pi k / 3)))
+     delta = 2/9 anchored on m_mu: m_e = 0.51099393 MeV (-9.8 ppm), m_tau = 1776.9675 MeV (+0.0021%, +0.4 sigma)
+     Koide Q from measured masses = 0.6666645 (2/3 = 0.6666667); this 45-degree rule is Koide (1982)
+
+4. GEN-3 SHARE OF EACH TRACE (running masses at 162.5 GeV)
+     up    : heaviest/trace = 99.62%
+     down  : heaviest/trace = 97.94%
+     lepton: heaviest/trace = 94.36%
+
+5. DARK ENERGY FORMULA rho = B^(3/2) / [3 (16 pi^2)^2 M_Pl,red^2]
+     B = 57: rho^(1/4) = 2.132 meV  (observed 2.240 meV)
+     B = 60: rho^(1/4) = 2.173 meV  (observed 2.240 meV)
+     B = 64: rho^(1/4) = 2.227 meV  (observed 2.240 meV)
+     This was the closest of 10 coefficient/power forms tried; with 10 tries
+     spread over ~3 decades, landing within 5% by chance is expected about once.

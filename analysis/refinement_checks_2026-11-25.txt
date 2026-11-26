@@ -1,0 +1,22 @@
+1. FAR-SIDE WEIGHT RULE FROM A DISCRETE CHARGE, ANY Z_N
+   solutions found: 0
+   Reason: Yukawa invariance makes the quarks' colour sum vanish, so the colour anomaly is 3 x (D step) = +-3,
+   which vanishes mod N only for N = 3; for N = 3, Phi^2 has the charge of Phi*, so the weak pairs get a mass at
+   dimension 4 and the rule is lost. The gravitational condition was not even needed.
+
+2. HIGGS SELF-COUPLING 1/8 (m_H = v/2)
+   lambda(m_t) = 0.12603, lambda(v/sqrt2 = 174.10) = 0.12585, lambda(v = 246.22) = 0.11922
+   lambda = 1/8 at mu = 181.8 GeV (+-2 GeV from m_H, m_t)
+   m_H needed for lambda(v) = 1/8: 127.86 GeV vs 125.13 +- 0.11
+
+3. LOOP RUNGS ln(174.10 GeV / m) / ln(16 pi^2), MSbar masses at M_Z (MeV)
+   rungs: b 0.81, tau 0.91, c 1.11, mu 1.47, s 1.60, d 2.19, u 2.34, e 2.53
+   mean distance to an integer rung 0.283; random masses over the same span do as well 81% of the time
+
+4. PAIRING-GAP BAND OF SECTION 9, INDEPENDENT SOLVER
+   B=57.1 gap=82 MeV: M_max=2.058 Msun, Lambda_1.4=528, E/A=852.7 MeV
+   B=57.1 gap=97 MeV: M_max=2.185 Msun, Lambda_1.4=662, E/A=820.3 MeV
+   B=60.1 gap=82 MeV: M_max=2.004 Msun, Lambda_1.4=459, E/A=864.1 MeV
+   B=60.1 gap=97 MeV: M_max=2.125 Msun, Lambda_1.4=575, E/A=832.1 MeV
+   B=63.7 gap=82 MeV: M_max=1.945 Msun, Lambda_1.4=389, E/A=877.1 MeV
+   B=63.7 gap=97 MeV: M_max=2.059 Msun, Lambda_1.4=489, E/A=845.6 MeV
