@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.4.1 (25 November 2026)
+
+The paper's Acknowledgements now state fully how AI assistants were used, as arXiv asks: "Due to medical necessity, AI language-model assistants were used, under the authors' direction, to draft and edit text from the authors' ideas, to carry out and check calculations, and to search the literature; every result was checked by rerunning the published code. The authors reviewed all content and take full responsibility for it." The README says the same. No result, rule, prediction or count changed.
+
 ## 1.4.0 (25 November 2026)
 
 New tests, each rechecked with independent code. No particle-physics value of 1.3.3 changed. On the main line the scorecard (7 met, 2 partly met) and the input count (32 today, 28 if every pending measurement agrees, plus six stated choices) are unchanged. The framework is restated, and a start phase is kept as the alternative, as below.
