@@ -2,7 +2,7 @@
 
 ## 1.4.0 (25 November 2026)
 
-New tests, each rechecked with independent code. No value, rule or prediction of 1.3.3 changed; the scorecard (7 met, 2 partly met) and the input count (32 today, 28 if every pending measurement agrees, plus six stated choices) are unchanged.
+New tests, each rechecked with independent code. No particle-physics value of 1.3.3 changed. On the main line the scorecard (7 met, 2 partly met) and the input count (32 today, 28 if every pending measurement agrees, plus six stated choices) are unchanged. The framework is restated, and a start phase is kept as the alternative, as below.
 
 - New lead: the exact right-angled quark triangle, λ = 1/√20, A = √(2/3), β = 22.5°, γ = 67.5°. All seven directly measured mixing quantities lie within 1.6σ (χ² = 6.0 for 7; the four numbers are chosen, so this is not evidence). It shares the first-row prediction: |V_ud| = 0.97467, 3.1σ above today's value. `analysis/quark_triangle_and_press_2026-11-25.py`.
 - Tested and failed: a six-step (ℤ₆) charge that would turn the far-side weight rule into a symmetry. It gives 2.45 × 10⁸ GeV but is anomalous, and a search of every flavour-blind ℤ_N up to N = 18 finds no charge that works, so the rule stays fitted choice 2. `analysis/farside_charge_rule_2026-11-25.py`, `analysis/refinement_checks_2026-11-25.py`.
@@ -10,6 +10,25 @@ New tests, each rechecked with independent code. No value, rule or prediction of
 - Rechecked with an independent solver: the pairing-gap band of Section 9 (82–97 MeV at m_s = 100 MeV) gives a heaviest star of 2.00–2.13 solar masses and Λ₁.₄ = 459–575 at B = 60.1 MeV/fm³, as stated.
 - New paper Appendix A.8: where each open problem stands, with what holds, what failed and what is missing.
 - Paper (`docs/TRPG_Paper.*`) is now version 1.4.0, with the status note dated 25 November 2026 and the input-count range stated after each "about 28", as on the website.
+- **Five rules and one bet** (paper Section 2, README, ledger). Rule 1: one matrix of relationships read in three roles. Held states (matter) sit on the diagonal, the links between them are the twelve carriers, the link across one state is the Higgs, and space and time are the geometry of the relationships. Rule 2: balance of pull and resistance. Rule 3: the 45° rule for leptons. Rule 4: nothing extra. Rule 5: a smooth start. The bet is unchanged. Rules 1–4 restate the earlier three ideas and one rule; the earlier statement is kept in the paper.
+- **Start phase, kept as the alternative start** (paper Sections 5 and 9; the main line follows CMB + DESI, which disfavour its tilt, and keeps the tilt as a measured input; `analysis/start_phase_starobinsky_2026-11-19.py`). The stiffness of space (an R² term; Starobinsky, 1980) stretches the universe for 54–55 e-folds.
+  - It explains flatness and the uniform temperature of the sky.
+  - It predicts r = 0.0040 ± 0.0003 and n_s = 0.9630–0.9636.
+  - The tilt agrees with Planck (−0.1σ) and is 2.1σ low against Planck + ACT + SPT. It is 3.2–4.2σ low once DESI BAO is combined (McDonough and Ferreira, 2025), so it is under strain.
+- Knock-on effects if the alternative start holds:
+  - The coloured far-side states are never produced.
+  - The far-side weak pairs are produced, so their decay coupling (above about 9 × 10⁻¹²) is now required.
+  - The majoron's starting angle is averaged.
+  - The majoron lead's r below 10⁻¹¹ moves to the cold-start alternative.
+  - A seventh fitted choice is added: the Higgs coupling to curvature, ξ ≈ 0.06–0.15.
+  - The matter excess gets a borderline non-thermal source and stays an input.
+- **Count with the alternative start:** 33 today (one more than 1.3.3, for the decay coupling) and 28 if every pending measurement agrees, the tilt now included (`analysis/input_ledger_2026-11-19.py`; the 18 November script is kept).
+- New test scripts, each with its saved output:
+  - `fewer_particles_tests_2026-11-19` (counts from data, anomaly cancellation of one generation, force-strength meeting under removals, Koide, top condensation, preons);
+  - `forces_resistances_matrix_2026-11-19` (lattice-style invariance of the matrix layout, pull and resistance, dark energy as tension, balance radii);
+  - `four_left_out_parts_2026-11-19` (3 + 1 from a 2 × 2 complex matrix, quark-mixing relations at a consistent scale, uncertainty from waves, start conditions).
+- New figure: `figures/relationship_matrix_diagonal_links.png`.
+- Not changed: every particle-physics prediction, the scorecard (7 met, 2 partly met) and the derivation-tree image (the ledger's diagram gains rule 5).
 
 ## 1.3.3 (18 November 2026)
 
