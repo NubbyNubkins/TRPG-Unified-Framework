@@ -11,7 +11,7 @@ date: "25 November 2026"
 The charged-lepton masses satisfy Koide's relation Q = (Σm)/(Σ√m)² = 2/3 to about 10⁻⁵. Brannen proposed applying the same relation to neutrinos with one negative square root. Fixed by the two measured mass splittings, it then has a normal-ordered solution:
 
 - with JUNO's 2026 splittings: m₁ = 0.359, m₂ = 8.60, m₃ = 50.09 meV, summing to 59.05 meV;
-- with the NuFIT 6.0 global fit: m₂ = 8.66 meV and a sum of 59.16–59.36 meV.
+- with the NuFIT 6.0 global fit (Esteban et al. 2024): m₂ = 8.66 meV and a sum of 59.16–59.36 meV.
 
 The inverted-ordering solution sums to about 0.103 eV, which today's cosmological bound excludes. With TM1 mixing and free Majorana phases, the effective neutrinoless double-beta mass is 1.34–4.02 meV.
 
@@ -19,9 +19,9 @@ We give a reason for Q = 2/3 itself. If the family amplitude matrix is invariant
 
 ## 1. The relation and its geometry
 
-Write the square roots of the three masses as the eigenvalues of a Hermitian circulant matrix, √m_k = a + 2|b| cos(δ + 2πk/3). The angle between the root vector and the democratic direction (1,1,1) satisfies tan θ = √2 |b|/a. Koide's Q = 2/3 is θ = 45°, that is |b| = a/√2 (Koide 1983; Foot 1994; Brannen 2006).
+Write the square roots of the three masses as the eigenvalues of a Hermitian circulant matrix, √m~k~ = a + 2|b| cos(δ + 2πk/3). The angle between the root vector and the democratic direction (1,1,1) satisfies tan θ = √2 |b|/a. Koide's Q = 2/3 is θ = 45°, that is |b| = a/√2 (Koide 1983; Foot 1994; Brannen 2006).
 
-For the charged leptons, the masses of e and μ predict m_τ = 1776.969 MeV, against 1776.93 ± 0.09 (+0.4σ). The twist δ comes out as 0.222222, which matches 2/9 to about one part in a million but is not derived here. Exactly 2/9 together with exactly 45° would put m_e 9.8 ppm low.
+For the charged leptons, the masses of e and μ predict m~τ~ = 1776.969 MeV, against 1776.93 ± 0.09 MeV (+0.4σ). The twist δ comes out as 0.222222, which matches 2/9 to about one part in a million but is not derived here. Exactly 2/9 together with exactly 45° would put m~e~ 9.8 ppm low.
 
 ## 2. Why the self share is one half
 
@@ -41,11 +41,11 @@ With one negative root, the conditions Q = 2/3, m₂² − m₁² = Δm²₂₁ 
 
 The sum sits just above the normal-ordering minimum (58.8 meV), so the most distinctive number is the lightest mass. The inverted solution (Σ ≈ 0.103 eV) is excluded by the cosmological bound, not by the relation.
 
-With TM1 mixing (Xing and Zhou 2007; Albright and Rodejohann 2009) and free Majorana phases, the effective double-beta mass is 1.34–4.02 meV, or 1.82 meV with zero phases and δ = 270°. This is below the KamLAND-Zen limit (28–122 meV) and below planned reach. The masses themselves do not depend on TM1.
+With TM1 mixing (Xing and Zhou 2007; Albright and Rodejohann 2009) and free Majorana phases, the effective double-beta mass is 1.34–4.02 meV, or 1.82 meV with zero phases and δ = 270°. This is below the KamLAND-Zen limit of 28–122 meV (KamLAND-Zen Collaboration 2024) and below planned reach. The masses themselves do not depend on TM1.
 
 ## 4. Tests
 
-- **Ordering:** JUNO favours normal ordering at 2.1σ (JUNO Collaboration 2026) and expects 3σ after about six years.
+- **Ordering:** after its first measurement of the solar parameters (JUNO Collaboration 2025), JUNO favours normal ordering at 2.1σ (JUNO Collaboration 2026) and expects 3σ after about six years.
 - **Sum:** DESI, Euclid and next-generation CMB experiments approach the needed sensitivity.
 - **Majorana nature:** proof that neutrinos are Dirac particles would remove the double-beta prediction.
 

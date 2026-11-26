@@ -1,0 +1,287 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+\PassOptionsToPackage{dvipsnames,svgnames,x11names}{xcolor}
+\documentclass[
+  11pt,
+]{article}
+\usepackage{xcolor}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amssymb}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math} % this also loads fontspec
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage{lmodern}
+\ifPDFTeX\else
+  % xetex/luatex font selection
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{longtable,booktabs,array}
+\newcounter{none} % for unnumbered tables
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\usepackage{bookmark}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same}
+\hypersetup{
+  pdftitle={Vector-like states of the 27 at two thresholds: a dated prediction αs(MZ) = 0.1178 and the Higgs mass from a vanishing quartic at MPl/√2},
+  pdfauthor={Matthew Gelfman (ORCID 0009-0000-6402-2258); Melissa Behrends-Gelfman (ORCID 0009-0001-6281-1947)},
+  colorlinks=true,
+  linkcolor={Maroon},
+  filecolor={Maroon},
+  citecolor={Blue},
+  urlcolor={Blue},
+  pdfcreator={LaTeX via pandoc}}
+
+\usepackage{amssymb}
+\usepackage{newunicodechar}
+\newunicodechar{±}{\ensuremath{\pm}}
+\newunicodechar{²}{\ensuremath{^{2}}}
+\newunicodechar{³}{\ensuremath{^{3}}}
+\newunicodechar{¹}{\ensuremath{^{1}}}
+\newunicodechar{×}{\ensuremath{\times}}
+\newunicodechar{Δ}{\ensuremath{\Delta}}
+\newunicodechar{α}{\ensuremath{\alpha}}
+\newunicodechar{θ}{\ensuremath{\theta}}
+\newunicodechar{λ}{\ensuremath{\lambda}}
+\newunicodechar{μ}{\ensuremath{\mu}}
+\newunicodechar{π}{\ensuremath{\pi}}
+\newunicodechar{σ}{\ensuremath{\sigma}}
+\newunicodechar{⁰}{\ensuremath{^{0}}}
+\newunicodechar{⁴}{\ensuremath{^{4}}}
+\newunicodechar{⁶}{\ensuremath{^{6}}}
+\newunicodechar{⁸}{\ensuremath{^{8}}}
+\newunicodechar{⁺}{\ensuremath{^{+}}}
+\newunicodechar{⁻}{\ensuremath{^{-}}}
+\newunicodechar{₁}{\ensuremath{_{1}}}
+\newunicodechar{₂}{\ensuremath{_{2}}}
+\newunicodechar{₃}{\ensuremath{_{3}}}
+\newunicodechar{₆}{\ensuremath{_{6}}}
+\newunicodechar{→}{\ensuremath{\to}}
+\newunicodechar{−}{\ensuremath{-}}
+\newunicodechar{√}{\ensuremath{\surd}}
+\newunicodechar{≈}{\ensuremath{\approx}}
+\title{Vector-like states of the 27 at two thresholds: a dated
+prediction \ensuremath{\alpha}\textsubscript{s}(M\textsubscript{Z}) = 0.1178 and the Higgs
+mass from a vanishing quartic at M\textsubscript{Pl}/\ensuremath{\surd}2}
+\author{Matthew Gelfman (ORCID 0009-0000-6402-2258) \and Melissa
+Behrends-Gelfman (ORCID 0009-0001-6281-1947)}
+\date{25 November 2026}
+
+\begin{document}
+\maketitle
+
+\subsection{Abstract}
+
+Each 27 of E\ensuremath{_{6}} contains, besides one Standard Model generation and a
+neutral singlet, a vector-like colour triplet D(3,1,\ensuremath{-}1/3) and a
+vector-like weak doublet L(1,2,\ensuremath{-}1/2) (Gürsey, Ramond and Sikivie 1976).
+We place three generations of each at two thresholds. The D states sit
+at M\textsubscript{D} = 4.6 \ensuremath{\times} 10\ensuremath{^{1}}\ensuremath{^{3}} GeV, and the doublets at
+M\textsubscript{L} = M\textsubscript{D}\ensuremath{^{2}}/E\textsubscript{g} = 2.4 \ensuremath{\times} 10\ensuremath{^{8}}
+GeV, where E\textsubscript{g} = M\textsubscript{Pl}/\ensuremath{\surd}2. With the
+measured electroweak inputs, the three gauge couplings then cross at
+M\textsubscript{D} to 0.02 in 1/\ensuremath{\alpha} at two loops. Closing the crossing at
+three loops requires \ensuremath{\alpha}\textsubscript{s}(M\textsubscript{Z}) = 0.1178.
+That is 0.2\ensuremath{\sigma} from the world average (0.1180 \ensuremath{\pm} 0.0009) and 1.7\ensuremath{\sigma} below the
+most precise lattice determination (0.11873 \ensuremath{\pm} 0.00056; Dalla Brida et
+al.~2025), so lattice results at about 0.3\% will decide it.
+
+The same states change the running of the Higgs quartic. With the
+boundary condition \ensuremath{\lambda}(E\textsubscript{g}) = 0 of Shaposhnikov and
+Wetterich (2010), the Higgs mass is 127.2 \ensuremath{\pm} 1.5 GeV, against 125.13 \ensuremath{\pm}
+0.11 GeV (+1.4\ensuremath{\sigma}). The Standard Model alone gives 128.8 \ensuremath{\pm} 1.5 GeV
+(+2.6\ensuremath{\sigma}). Read the other way, the rule needs a top pole mass of 171.6
+GeV, 3.7\ensuremath{\sigma} below today's 172.60 \ensuremath{\pm} 0.27 GeV.
+
+Three choices were made with the data in view: E\textsubscript{g} (the
+best of five equally natural readings), the M\textsubscript{L} rule, and
+equality of the couplings at M\textsubscript{D}. We state each one,
+together with what would falsify the construction.
+
+\subsection{1. Field content and thresholds}
+
+Each generation adds one Dirac colour triplet D with hypercharge \ensuremath{-}1/3
+and one Dirac weak doublet L with hypercharge \ensuremath{-}1/2. No coloured scalars
+are added, so baryon number is conserved at the renormalisable level,
+consistent with the proton-lifetime limit above 2.4 \ensuremath{\times} 10\ensuremath{^{3}}\ensuremath{^{4}} years
+(Takenaka et al.~2020). The D states mix only with d\textsubscript{R}.
+Their mixing with left-handed quarks is suppressed by
+(v/M\textsubscript{D})\ensuremath{^{2}} \ensuremath{\approx} 10\ensuremath{^{-}}\ensuremath{^{2}}\ensuremath{^{3}}, so first-row CKM unitarity holds to
+that level.
+
+In GUT normalisation, each Dirac D contributes \ensuremath{\Delta}b = (4/15, 0, 2/3) at
+one loop, and each Dirac L contributes \ensuremath{\Delta}b = (2/5, 2/3, 0). The full
+two-loop matrices are used (Machacek and Vaughn 1984; Luo, Wang and Xiao
+2003).
+
+\subsection{\texorpdfstring{2. The crossing and
+\ensuremath{\alpha}\textsubscript{s}}{2. The crossing and alphas}}
+
+With sin\ensuremath{^{2}}\ensuremath{\theta}\textsubscript{W} = 0.23122, 1/\ensuremath{\alpha}(M\textsubscript{Z}) = 127.951
+and \ensuremath{\alpha}\textsubscript{s}(M\textsubscript{Z}) = 0.1178, the inverse
+couplings (GUT-normalised) run as follows:
+
+{\def\LTcaptype{none} % do not increment counter
+\begin{longtable}[]{@{}llll@{}}
+\toprule\noalign{}
+\ensuremath{\mu} (GeV) & 1/\ensuremath{\alpha}\ensuremath{_{1}} & 1/\ensuremath{\alpha}\ensuremath{_{2}} & 1/\ensuremath{\alpha}\ensuremath{_{3}} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+2.4 \ensuremath{\times} 10\ensuremath{^{8}} & 49.31 & 36.92 & 25.33 \\
+4.6 \ensuremath{\times} 10\ensuremath{^{1}}\ensuremath{^{3}} & 38.97 & 38.99 & 38.99 \\
+8.63 \ensuremath{\times} 10\ensuremath{^{1}}\ensuremath{^{8}} & 27.10 & 41.08 & 48.59 \\
+\end{longtable}
+}
+
+The couplings cross at M\textsubscript{D} and separate again above it.
+No placement of the two thresholds makes them equal at
+E\textsubscript{g}: the smallest spread found is 16.8 in 1/\ensuremath{\alpha}. The
+construction therefore takes equality at M\textsubscript{D}, where each
+27 becomes complete, as a boundary condition, because there is no
+unified group to enforce it.
+
+The prediction moves with the choice of E\textsubscript{g}. With the
+unreduced Planck energy it is \ensuremath{\alpha}\textsubscript{s} = 0.1196, which is not
+the value claimed here. Because E\textsubscript{g} was chosen as the
+best of five readings, the prediction is tested only by measurements
+made after it was fixed (17 November 2026).
+
+\subsection{3. The Higgs mass}
+
+The two-loop running starts from the NNLO matching of Buttazzo et
+al.~(2013), and the Standard Model's three-loop shift is added as an
+estimate. The uncertainty includes the top pole mass (\ensuremath{\pm}0.27 GeV plus 0.5
+GeV for the pole/Monte-Carlo ambiguity), \ensuremath{\alpha}\textsubscript{s} and missing
+higher orders. The condition \ensuremath{\lambda}(E\textsubscript{g}) = 0 then gives:
+
+\begin{itemize}
+\tightlist
+\item
+  Standard Model only: m\textsubscript{H} = 128.8 \ensuremath{\pm} 1.5 GeV.
+\item
+  With the D and L states: m\textsubscript{H} = 127.2 \ensuremath{\pm} 1.5 GeV. Without
+  the 0.5 GeV allowance the tension is 2.1\ensuremath{\sigma}.
+\end{itemize}
+
+The pass line, fixed before running, was 2\ensuremath{\sigma}. The result passes only with
+the allowance.
+
+\subsection{4. What the construction does not do}
+
+The rule M\textsubscript{L} = M\textsubscript{D}\ensuremath{^{2}}/E\textsubscript{g} was
+found after the needed value (2.2 \ensuremath{\times} 10\ensuremath{^{8}} GeV) was known. A companion note
+shows that no flavour-blind discrete charge, of any order, can enforce
+it without a gauge anomaly. The rule is therefore an assumption: the
+doublets couple to the field that gives D its mass only through
+gravitational-strength terms.
+
+If the universe reheated above M\textsubscript{L}, the doublets must
+decay through a small mixing with the lepton doublets, of order 10\ensuremath{^{-}}\ensuremath{^{1}}\ensuremath{^{6}} or
+larger depending on the reheating temperature. That adds one coupling.
+
+\subsection{5. Falsifiers}
+
+The construction fails if any of the following is observed:
+
+\begin{itemize}
+\tightlist
+\item
+  \ensuremath{\alpha}\textsubscript{s}(M\textsubscript{Z}) more than 3\ensuremath{\sigma} from 0.1178 at
+  about 0.3\% precision;
+\item
+  a top mass that puts the Higgs condition more than 3\ensuremath{\sigma} off;
+\item
+  any proton decay (today's limit: Takenaka et al.~2020);
+\item
+  a confirmed shortfall in first-row CKM unitarity (today 0.9984 \ensuremath{\pm}
+  0.0007, a 2.3\ensuremath{\sigma} shortfall);
+\item
+  coloured scalars or extra vector-like matter below M\textsubscript{L}.
+\end{itemize}
+
+\subsection{Data and code}
+
+\texttt{analysis/leak\_establish\_three\_loop\_2026-11-16.py},
+\texttt{analysis/crossing\_vs\_grain\_2026-11-18.py},
+\texttt{analysis/higgs\_at\_the\_grain\_2026-11-17.py} and
+\texttt{analysis/higgs\_three\_loop\_check\_2026-11-18.py} in the TRPG
+code archive, doi:10.5281/zenodo.24329239. This result is one component
+of the framework in doi:10.5281/zenodo.24330763.
+
+\subsection{Acknowledgements}
+
+Due to medical necessity, AI language-model assistants were used, under
+the authors' direction, to draft and edit text from the authors' ideas,
+to carry out and check calculations, and to search the literature; every
+result was checked by rerunning the published code. The authors reviewed
+all content and take full responsibility for it.
+
+\subsection{References}
+
+\begin{itemize}
+\tightlist
+\item
+  Buttazzo, D., Degrassi, G., Giardino, P. P., Giudice, G. F., Sala, F.,
+  Salvio, A. and Strumia, A. (2013). Investigating the near-criticality
+  of the Higgs boson. \emph{JHEP} 12, 089.
+\item
+  Dalla Brida, M., Höllwieser, R., Knechtli, F., Korzec, T., Ramos, A.,
+  Sint, S. and Sommer, R. (ALPHA) (2025). The strength of the
+  interaction between quarks and gluons. arXiv:2501.06633.
+\item
+  Gürsey, F., Ramond, P. and Sikivie, P. (1976). A universal gauge
+  theory model based on E6. \emph{Phys. Lett. B} 60, 177.
+\item
+  Luo, M., Wang, H. and Xiao, Y. (2003). Two-loop renormalization group
+  equations in general gauge field theories. \emph{Phys. Rev.~D} 67,
+  065019.
+\item
+  Machacek, M. E. and Vaughn, M. T. (1984). Two-loop renormalization
+  group equations in a general quantum field theory. II. Yukawa
+  couplings. \emph{Nucl. Phys. B} 236, 221.
+\item
+  Shaposhnikov, M. and Wetterich, C. (2010). Asymptotic safety of
+  gravity and the Higgs boson mass. \emph{Phys. Lett. B} 683, 196.
+\item
+  Takenaka, A. et al.~(Super-Kamiokande Collaboration) (2020). Search
+  for proton decay via p \ensuremath{\to} e\ensuremath{^{+}}\ensuremath{\pi}\ensuremath{^{0}} and p \ensuremath{\to} \ensuremath{\mu}\ensuremath{^{+}}\ensuremath{\pi}\ensuremath{^{0}} with an enlarged fiducial
+  volume in Super-Kamiokande I--IV. \emph{Phys. Rev.~D} 102, 112011.
+\end{itemize}
+
+\end{document}
