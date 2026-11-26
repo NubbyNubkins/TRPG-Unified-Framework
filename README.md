@@ -101,7 +101,7 @@ Please cite with the details in [`CITATION.cff`](CITATION.cff).
 - **Code, data and documents (this repository), all versions:** https://doi.org/10.5281/zenodo.24329239
 - **The paper, all versions:** https://doi.org/10.5281/zenodo.24330763
 
-These DOIs always resolve to the latest version.
+These DOIs always resolve to the latest version. Version 1.4.0 itself: code, data and documents [10.5281/zenodo.24551692](https://doi.org/10.5281/zenodo.24551692); paper [10.5281/zenodo.24552099](https://doi.org/10.5281/zenodo.24552099).
 
 - **Code and data:** MIT License ([`LICENSE`](LICENSE)).
 - **Documents and website text:** © 2026 Matthew Gelfman, all rights reserved, quotation with credit welcome ([`LICENSE-DOCS.md`](LICENSE-DOCS.md)).
