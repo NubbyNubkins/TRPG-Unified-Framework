@@ -22,11 +22,11 @@ identifiers:
     value: "10.5281/zenodo.24330763"
     description: "The paper, archived on Zenodo (all versions)"
   - type: doi
-    value: "10.5281/zenodo.24551692"
-    description: "Code, data and documents, version 1.4.0"
+    value: "10.5281/zenodo.24552619"
+    description: "Code, data and documents, version 1.4.1"
   - type: doi
-    value: "10.5281/zenodo.24552099"
-    description: "The paper, version 1.4.0"
+    value: "10.5281/zenodo.24553325"
+    description: "The paper, version 1.4.1"
 keywords:
   - "theory of everything"
   - "quantum gravity"
