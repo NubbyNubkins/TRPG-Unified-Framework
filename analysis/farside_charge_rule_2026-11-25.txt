@@ -1,0 +1,48 @@
+Z6 ANOMALY RECHECK (three generations)
+  far-side states absent  : A_SU3=  0  A_SU2=  9  A_grav=  0 | strict pass=(True, False, True) | paper's convention pass=(True, True, True)
+  far-side states included: A_SU3=  3  A_SU2= 15  A_grav= 21 | strict pass=(False, False, True) | paper's convention pass=(True, True, False)
+  A count that treats the lepton doublet and e^c as cancelling gets 9 and 30. Field by field, the lepton doublet,
+  e^c and N^c give 2*3 - 3 - 3 = 0 per generation, so the SM part is 0, not 9, and the far part is 21.
+
+GENERATION SCAN (does N_g = 3 come out uniquely?)
+  N_g=1: strict all-pass=False  paper-convention all-pass=False  b3=+9.00 (asymptotically free: True)
+  N_g=2: strict all-pass=False  paper-convention all-pass=False  b3=+7.00 (asymptotically free: True)
+  N_g=3: strict all-pass=False  paper-convention all-pass=False  b3=+5.00 (asymptotically free: True)
+  N_g=4: strict all-pass=False  paper-convention all-pass=False  b3=+3.00 (asymptotically free: True)
+  N_g=5: strict all-pass=False  paper-convention all-pass=False  b3=+1.00 (asymptotically free: True)
+  N_g=6: strict all-pass=True  paper-convention all-pass=True  b3=-1.00 (asymptotically free: False)
+  N_g=7: strict all-pass=False  paper-convention all-pass=False  b3=-3.00 (asymptotically free: False)
+  N_g=8: strict all-pass=False  paper-convention all-pass=False  b3=-5.00 (asymptotically free: False)
+
+CAN ANY far-side charge split give both a dimension-5 L_F mass and an SU(2)-safe count (strict)?
+  dq_L=0: lowest mass operator dim-4 or bare=True, dim-5=False, A_SU2 mod 6 = 3
+  dq_L=1: lowest mass operator dim-4 or bare=True, dim-5=False, A_SU2 mod 6 = 0
+  dq_L=2: lowest mass operator dim-4 or bare=False, dim-5=True, A_SU2 mod 6 = 3
+  dq_L=3: lowest mass operator dim-4 or bare=False, dim-5=False, A_SU2 mod 6 = 0
+  dq_L=4: lowest mass operator dim-4 or bare=False, dim-5=True, A_SU2 mod 6 = 3
+  dq_L=5: lowest mass operator dim-4 or bare=True, dim-5=False, A_SU2 mod 6 = 0
+
+OPERATOR CHARGES
+  QQQl: 3  u^c u^c d^c e^c: 3  N_R N_R: 0  l H N: 0  (charge 3 = lepton parity; any Delta B = 1, Delta L = 1 operator is odd. The 81 flavour copies are one condition.)
+
+Z6 DOMAIN WALLS
+  T_dom = 1.081e+11 GeV
+  Phi^5/E^1: Z6 charge 5 -> breaks Z6; T_ann = 1.321e+13 GeV
+  Phi^6/E^2: Z6 charge 0 -> Z6-INVARIANT, cannot bias the vacua; T_ann = 3.050e+10 GeV
+  Phi^7/E^3: Z6 charge 1 -> breaks Z6; T_ann = 7.042e+07 GeV
+  Note: an anomaly-free (gauged) discrete symmetry cannot be broken by gravity (Krauss and Wilczek 1989);
+  the walls argument needs the opposite. The two claims cannot both hold.
+
+MAJORON
+  m=3e-19 eV: T_osc=  20.0 keV  theta_i (3H=m) = 0.551   theta_i (HOTW 2017 fit) = 1.046
+  m=1e-18 eV: T_osc=  36.6 keV  theta_i (3H=m) = 0.408   theta_i (HOTW 2017 fit) = 0.774
+  m=1e-17 eV: T_osc= 115.6 keV  theta_i (3H=m) = 0.229   theta_i (HOTW 2017 fit) = 0.435
+  m=1e-16 eV: T_osc= 365.7 keV  theta_i (3H=m) = 0.129   theta_i (HOTW 2017 fit) = 0.245
+  to get m_J = 3e-19 eV by gravity, breaking must start near operator dimension 38 (dimension 5 gives m_J ~ 1.0e+15 GeV)
+  to get m_J = 1e-16 eV by gravity, breaking must start near operator dimension 36 (dimension 5 gives m_J ~ 1.0e+15 GeV)
+  Without inflation the angle theta_i differs from one causal patch to the next; the patch-averaged
+  <theta^2> = pi^2/3 = 3.29, so a single tunable theta_i = 0.1-0.6 has no justification.
+  superradiance alpha=0.05..0.45 -> M_BH = 2.23e+07 .. 2.00e+08 Msun for m = 3e-19 eV
+  superradiance alpha=0.05..0.45 -> M_BH = 6.68e+06 .. 6.01e+07 Msun for m = 1e-18 eV
+  superradiance alpha=0.05..0.45 -> M_BH = 6.68e+05 .. 6.01e+06 Msun for m = 1e-17 eV
+  superradiance alpha=0.05..0.45 -> M_BH = 6.68e+04 .. 6.01e+05 Msun for m = 1e-16 eV

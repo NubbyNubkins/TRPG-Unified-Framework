@@ -1,7 +1,7 @@
 {
   "title": "Dynamic Relational Transitioning Geometry (TRPG): code, data and documents",
   "upload_type": "software",
-  "description": "A relational, entanglement-based framework that reproduces known physics and predicts normal-ordered neutrino masses of 0.36, 8.6 to 8.7 and 50.1 to 50.3 meV (sum 0.0591 to 0.0594 eV), and a strong coupling of 0.1178 at the Z, awaiting measurement. This release contains every calculation script (all run with one command), the every-particle-to-every-particle workbook, the paper (version 1.3.3) and the later test scripts. Version 1.3.3 recalibrates every headline number to the Particle Data Group's 2026 values and JUNO 2026, and lists every test that was set after an earlier attempt failed. Version 1.3.2 was revised after three rounds of outside review: full 3x3 seesaw, compact stars as self-bound strange stars with the Bodmer-Witten check, the force strengths stated as a crossing with a boundary condition, and the neutrino mixing prediction checked against JUNO 2026 (2.3 sigma high). Website: https://trpgphysics.org",
+  "description": "A relational, entanglement-based framework that reproduces known physics and predicts normal-ordered neutrino masses of 0.36, 8.6 to 8.7 and 50.1 to 50.3 meV (sum 0.0591 to 0.0594 eV), and a strong coupling of 0.1178 at the Z, awaiting measurement. This release contains every calculation script (all run with one command), the every-particle-to-every-particle workbook, the paper (version 1.4.0) and the later test scripts. Version 1.4.0 adds the exact right-angled quark triangle (lambda = 1/sqrt(20), A = sqrt(2/3), beta = 22.5 deg, gamma = 67.5 deg) as a dated lead, shows that a six-step charge rule for the far-side weight is anomalous, records eleven further tests that failed, each with its script, and gives where each open problem stands after independent rechecks. Version 1.3.3 recalibrates every headline number to the Particle Data Group's 2026 values and JUNO 2026, and lists every test that was set after an earlier attempt failed. Version 1.3.2 was revised after three rounds of outside review: full 3x3 seesaw, compact stars as self-bound strange stars with the Bodmer-Witten check, the force strengths stated as a crossing with a boundary condition, and the neutrino mixing prediction checked against JUNO 2026 (2.3 sigma high). Website: https://trpgphysics.org",
   "creators": [
     {
       "name": "Gelfman, Matthew",
@@ -35,6 +35,6 @@
       "resource_type": "publication-preprint"
     }
   ],
-  "version": "1.3.3",
+  "version": "1.4.0",
   "language": "eng"
 }

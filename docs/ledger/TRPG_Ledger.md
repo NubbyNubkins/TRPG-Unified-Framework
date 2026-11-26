@@ -1,6 +1,6 @@
 # TRPG ledger: what goes in, what comes out, and how it could fail
 
-*Version 1.3.3, 18 November 2026 (values recalibrated to PDG 2026 and JUNO 2026 by `analysis/recalibrate_to_2026_values_2026-11-18.py`). `python analysis/input_ledger_2026-11-18.py` reruns the count and the break tests for the results that move it (tau mass, down quark, lightest neutrino mass, Higgs mass), plus the strong-force strength and the JUNO lead. It does not re-check the other derived rows. Those are standard results or come from the scripts named in the paper and the README (for example `analysis/pairing_gap_scan_2026-11-14.py` for the pairing gap and `analysis/neutrino_perspectives_2026-11-14.py` for θ₁₂ and the CP phase).*
+*Version 1.4.0, 25 November 2026 (no value changed from 1.3.3; values recalibrated to PDG 2026 and JUNO 2026 by `analysis/recalibrate_to_2026_values_2026-11-18.py`). `python analysis/input_ledger_2026-11-18.py` reruns the count and the break tests for the results that move it (tau mass, down quark, lightest neutrino mass, Higgs mass), plus the strong-force strength and the JUNO lead. It does not re-check the other derived rows. Those are standard results or come from the scripts named in the paper and the README (for example `analysis/pairing_gap_scan_2026-11-14.py` for the pairing gap and `analysis/neutrino_perspectives_2026-11-14.py` for θ₁₂ and the CP phase).*
 
 This page answers the first three questions a careful reader asks of any unified theory. What was taken from measurement? What was chosen with today's data in view? And what does the framework say that has not been measured yet? Every quantity appears once, with one label. Nothing is counted as established until its measurement returns.
 
@@ -139,6 +139,7 @@ TRPG removes six of these, two already confirmed and four waiting for a measurem
 | Matter excess | allowed, through non-thermal leptogenesis | one start number |
 | Heavy quark masses and mixing (the fold) | all three mixing angles within 19% | a rule for the fold's strength |
 | First-rung quark tilt with α = 90° | largest quark tilt (−0.5σ) and γ | fails one rung up |
+| Exact right-angled triangle (λ = 1/√20, A = √(2/3), β = 22.5°, γ = 67.5°) | all seven directly measured mixing quantities within 1.6σ (χ² = 6.0 for 7); sin 2β = 1/√2; \|V_ud\| = 0.97467 (+3.1σ, the first-row bet) | the four numbers are chosen, not derived |
 
 ---
 
@@ -228,7 +229,28 @@ An audit on 18 November 2026 asked of every test: was a number, a form or a mode
 | Down quark | the sine form of the Cabibbo relation (the tangent form fails at −2.7σ) | a choice of form |
 | Up quark | the decay value of Q (0.4σ with Q's error included; the lattice value gives 2.0σ) | the check stands or falls with Q |
 
+## 6a. Tests run after 18 November 2026 that failed
+
+Rechecked with independent code (`analysis/farside_charge_rule_2026-11-25.py`, `analysis/quark_triangle_and_press_2026-11-25.py`, `analysis/cfl_gap_and_tides_2026-11-25.py`, `analysis/refinement_checks_2026-11-25.py`). The same recheck confirmed the pairing-gap band of the ledger above: at B = 60.1 MeV/fm³ the heaviest star is 2.00–2.13 solar masses and Λ₁.₄ = 459–575. None is part of the framework. The full list is Appendix A.7 of the paper.
+
+| Test | Result |
+|---|---|
+| Six-step (ℤ₆) charge giving the far-side weight rule | gives 2.45 × 10⁸ GeV, but is anomalous (colour and weak sums 3 and 15); no ℤ_N up to N = 18 works; the weight rule stays fitted choice 2 |
+| Three generations from that charge | no number from one to five passes; six passes but ends asymptotic freedom |
+| Walls removed by gravity at Φ⁵ | the timing works, but a charge broken by gravity protects nothing |
+| Very light majoron dark matter without inflation (f = 2.1 × 10¹⁶ GeV) | one starting angle cannot be chosen without inflation; needs gravity breaking near the 37th power; supermassive black hole spins largely exclude the mass range |
+| Pairing gap 90–125 MeV | Λ₁.₄ = 652–1124, above GW170817's 580; the two-family picture is Drago, Lavagno and Pagliara (2014) |
+| Matter excess with the Dirac link aligned to the neutrinos | decay asymmetry vanishes; rests on a hand-set starting rotation |
+| Dark energy ρ = B^3/2^ / [3 (16π²)² M²] | 2.13–2.23 meV, but the closest of ten forms tried |
+| 3 × 3 down-quark matrix with set weights | χ² = 11.5 (26 at the Z mass) |
+| Simple fractions for the seeds' tilt | no equation behind them |
+| Higgs mass as 246/2 (self-coupling 1/8) | the self-coupling is 1/8 near 182 GeV, not at v (0.1192 there); 1/8 at v needs m_H = 127.9 GeV |
+| Integer loop rungs ln(m_wall/m)/ln(16π²) | random masses cluster as well 81% of the time |
+
 ## 7. What changed in this version
+
+**Version 1.4.0 (25 November 2026).** No value, rule or prediction of 1.3.3 changed. Added: the exact right-angled quark triangle as a lead (row above), a tested charge rule for the far-side weight that does not hold, Section 6a, and in the paper Appendix A.8, where each open problem stands.
+
 
 **Version 1.3.3 (18 November 2026).** Values recalibrated to PDG 2026 and JUNO 2026 (`analysis/recalibrate_to_2026_values_2026-11-18.py`). The Higgs rule now needs a top mass 3.7σ below today's (was 3.2σ), and its pass rests on the top-mass allowance. With JUNO's splittings m₂ is 8.6 meV and the sum 0.0591 eV, so both are now given as ranges. The small splitting's move from 7.40 to 7.37 is explained, and its fail band is now a 3σ test with both errors combined (about 7.13–7.62 at JUNO's full precision; the older bands were one standard deviation wide). The down quark is compared with the measured masses (19.8 ± 0.3) instead of an unsourced 20.4. Section 6 above is new.
 

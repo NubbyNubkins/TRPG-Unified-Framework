@@ -1,5 +1,16 @@
 # Changelog
 
+## 1.4.0 (25 November 2026)
+
+New tests, each rechecked with independent code. No value, rule or prediction of 1.3.3 changed; the scorecard (7 met, 2 partly met) and the input count (32 today, 28 if every pending measurement agrees, plus six stated choices) are unchanged.
+
+- New lead: the exact right-angled quark triangle, λ = 1/√20, A = √(2/3), β = 22.5°, γ = 67.5°. All seven directly measured mixing quantities lie within 1.6σ (χ² = 6.0 for 7; the four numbers are chosen, so this is not evidence). It shares the first-row prediction: |V_ud| = 0.97467, 3.1σ above today's value. `analysis/quark_triangle_and_press_2026-11-25.py`.
+- Tested and failed: a six-step (ℤ₆) charge that would turn the far-side weight rule into a symmetry. It gives 2.45 × 10⁸ GeV but is anomalous, and a search of every flavour-blind ℤ_N up to N = 18 finds no charge that works, so the rule stays fitted choice 2. `analysis/farside_charge_rule_2026-11-25.py`, `analysis/refinement_checks_2026-11-25.py`.
+- Tested and failed (paper Appendix A.7, ledger section 6a): three generations from that charge; removing its walls by gravity; a very light majoron as all the dark matter without inflation; a pairing gap of 90–125 MeV (tidal deformability 652–1124 at 1.4 solar masses, above GW170817; `analysis/cfl_gap_and_tides_2026-11-25.py`); the matter excess with the Dirac link aligned to the neutrinos; a dark-energy formula from the containment pressure; a 3 × 3 down-quark matrix with set weights; simple fractions for the tilt of the seeds of galaxies; the Higgs mass as 246/2 GeV (self-coupling 1/8 is reached near 182 GeV, not at v; `analysis/refinement_checks_2026-11-25.py`); three generations in one octonionic matrix; integer loop rungs for the masses (matched by random masses 81% of the time).
+- Rechecked with an independent solver: the pairing-gap band of Section 9 (82–97 MeV at m_s = 100 MeV) gives a heaviest star of 2.00–2.13 solar masses and Λ₁.₄ = 459–575 at B = 60.1 MeV/fm³, as stated.
+- New paper Appendix A.8: where each open problem stands, with what holds, what failed and what is missing.
+- Paper (`docs/TRPG_Paper.*`) is now version 1.4.0, with the status note dated 25 November 2026 and the input-count range stated after each "about 28", as on the website.
+
 ## 1.3.3 (18 November 2026)
 
 An audit of the whole framework against the newest measurements, and of every test for whether it was set after an earlier attempt failed. No rule or reading changed.
