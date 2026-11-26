@@ -1,0 +1,239 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+\PassOptionsToPackage{dvipsnames,svgnames,x11names}{xcolor}
+\documentclass[
+  11pt,
+]{article}
+\usepackage{xcolor}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amssymb}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math} % this also loads fontspec
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage{lmodern}
+\ifPDFTeX\else
+  % xetex/luatex font selection
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{longtable,booktabs,array}
+\newcounter{none} % for unnumbered tables
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\usepackage{bookmark}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same}
+\hypersetup{
+  pdftitle={An exact right-angled unitarity triangle with λ = 1/√20 and A = √(2/3): a testable parametrisation of quark mixing},
+  pdfauthor={Matthew Gelfman (ORCID 0009-0000-6402-2258); Melissa Behrends-Gelfman (ORCID 0009-0001-6281-1947)},
+  colorlinks=true,
+  linkcolor={Maroon},
+  filecolor={Maroon},
+  citecolor={Blue},
+  urlcolor={Blue},
+  pdfcreator={LaTeX via pandoc}}
+
+\usepackage{amssymb}
+\usepackage{newunicodechar}
+\newunicodechar{°}{\ensuremath{^\circ}}
+\newunicodechar{±}{\ensuremath{\pm}}
+\newunicodechar{²}{\ensuremath{^{2}}}
+\newunicodechar{³}{\ensuremath{^{3}}}
+\newunicodechar{¹}{\ensuremath{^{1}}}
+\newunicodechar{×}{\ensuremath{\times}}
+\newunicodechar{α}{\ensuremath{\alpha}}
+\newunicodechar{β}{\ensuremath{\beta}}
+\newunicodechar{γ}{\ensuremath{\gamma}}
+\newunicodechar{δ}{\ensuremath{\delta}}
+\newunicodechar{λ}{\ensuremath{\lambda}}
+\newunicodechar{μ}{\ensuremath{\mu}}
+\newunicodechar{σ}{\ensuremath{\sigma}}
+\newunicodechar{χ}{\ensuremath{\chi}}
+\newunicodechar{⁵}{\ensuremath{^{5}}}
+\newunicodechar{⁶}{\ensuremath{^{6}}}
+\newunicodechar{⁻}{\ensuremath{^{-}}}
+\newunicodechar{₁}{\ensuremath{_{1}}}
+\newunicodechar{₂}{\ensuremath{_{2}}}
+\newunicodechar{₃}{\ensuremath{_{3}}}
+\newunicodechar{−}{\ensuremath{-}}
+\newunicodechar{√}{\ensuremath{\surd}}
+\title{An exact right-angled unitarity triangle with \ensuremath{\lambda} = 1/\ensuremath{\surd}20 and A =
+\ensuremath{\surd}(2/3): a testable parametrisation of quark mixing}
+\author{Matthew Gelfman (ORCID 0009-0000-6402-2258) \and Melissa
+Behrends-Gelfman (ORCID 0009-0001-6281-1947)}
+\date{25 November 2026}
+
+\begin{document}
+\maketitle
+
+\subsection{Abstract}
+
+We take the right angle of the unitarity triangle at \ensuremath{\alpha} as exact, as
+quark-mixing sum rules allow (Antusch, King, Malinsky and Spinrath
+2010), and choose simple values for the other three quark-mixing
+parameters: \ensuremath{\lambda} = 1/\ensuremath{\surd}20, A = \ensuremath{\surd}(2/3), \ensuremath{\beta} = 22.5\ensuremath{^\circ} and \ensuremath{\gamma} = 67.5\ensuremath{^\circ}. The result
+is an exactly unitary CKM matrix (Kobayashi and Maskawa 1973) with
+Jarlskog invariant J = 2.94 \ensuremath{\times} 10\ensuremath{^{-}}\ensuremath{^{5}} (Jarlskog 1985) and sin 2\ensuremath{\beta} = 1/\ensuremath{\surd}2.
+All seven directly measured quantities lie within 1.6\ensuremath{\sigma}, with pulls from
+\ensuremath{-}1.2\ensuremath{\sigma} (\textbar V\textsubscript{ub}\textbar) to +1.6\ensuremath{\sigma} (\ensuremath{\alpha}), giving \ensuremath{\chi}\ensuremath{^{2}} =
+6.0 for seven quantities. The four values were chosen, not derived, so
+the \ensuremath{\chi}\ensuremath{^{2}} is not evidence. We present the form as a parametrisation with
+sharp, near-term tests. The matrix is exactly unitary and gives
+\textbar V\textsubscript{ud}\textbar{} = 0.97467. That is 3.1\ensuremath{\sigma} above the
+superallowed-decay value 0.97367 \ensuremath{\pm} 0.00032, so the form bets that the
+first-row shortfall (the ``Cabibbo anomaly'') goes away. Belle II and
+LHCb measurements of sin 2\ensuremath{\beta}, \ensuremath{\alpha} and \ensuremath{\gamma} at the 1\ensuremath{^\circ} level will decide it.
+
+\subsection{1. Construction}
+
+In the exact form of the Wolfenstein parametrisation (Wolfenstein 1983;
+Charles et al.~2005), the inputs are \ensuremath{\lambda} = s\ensuremath{_{1}}\ensuremath{_{2}} = 1/\ensuremath{\surd}20 = 0.22361 and s\ensuremath{_{2}}\ensuremath{_{3}} =
+A\ensuremath{\lambda}\ensuremath{^{2}} with A = \ensuremath{\surd}(2/3). They are followed by \ensuremath{\bar{\rho}} + i\ensuremath{\bar{\eta}} = R\textsubscript{u}
+e\textsuperscript{i\ensuremath{\gamma}}, where R\textsubscript{u} = sin \ensuremath{\beta} because the
+angle at \ensuremath{\alpha} is 90\ensuremath{^\circ}. The relation
+
+s\ensuremath{_{1}}\ensuremath{_{3}} e\textsuperscript{i\ensuremath{\delta}} = (\ensuremath{\bar{\rho}} + i\ensuremath{\bar{\eta}}) s\ensuremath{_{1}}\ensuremath{_{2}} s\ensuremath{_{2}}\ensuremath{_{3}} c\ensuremath{_{2}}\ensuremath{_{3}} / {[}c\ensuremath{_{1}}\ensuremath{_{2}} (1 \ensuremath{-} (\ensuremath{\bar{\rho}} + i\ensuremath{\bar{\eta}})
+s\ensuremath{_{2}}\ensuremath{_{3}}\ensuremath{^{2}}){]}
+
+then gives an exactly unitary matrix in the standard form. Numerically,
+the unitarity error is 2 \ensuremath{\times} 10\ensuremath{^{-}}\ensuremath{^{1}}\ensuremath{^{6}}.
+
+\subsection{2. Comparison with measurement}
+
+The measured values are PDG 2026 for
+\textbar V\textsubscript{us}\textbar{} = 0.22431, \ensuremath{\alpha} = 84.1 (+3.7 \ensuremath{-}3.0)\ensuremath{^\circ},
+\ensuremath{\gamma} = 66.4 (+2.7 \ensuremath{-}2.8)\ensuremath{^\circ} and the first row. For the other quantities we use
+PDG 2024 (Navas et al.~2024): \textbar V\textsubscript{cb}\textbar{} =
+0.0411 \ensuremath{\pm} 0.0012, \textbar V\textsubscript{ub}\textbar{} = (3.82 \ensuremath{\pm} 0.20)
+\ensuremath{\times} 10\ensuremath{^{-}}\ensuremath{^{3}}, sin 2\ensuremath{\beta} = 0.709 \ensuremath{\pm} 0.011 and
+\textbar V\textsubscript{td}/V\textsubscript{ts}\textbar{} = 0.207 \ensuremath{\pm}
+0.0032 (0.001 statistical and 0.003 lattice, combined). We use direct
+measurements only, not global-fit values, which already assume
+unitarity.
+
+{\def\LTcaptype{none} % do not increment counter
+\begin{longtable}[]{@{}llll@{}}
+\toprule\noalign{}
+Quantity & Prediction & Measured & Pull \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+\textbar V\textsubscript{us}\textbar{} & 0.22361 & 0.22431 \ensuremath{\pm} 0.00085 &
+\ensuremath{-}0.83 \\
+\textbar V\textsubscript{cb}\textbar{} & 0.04082 & 0.0411 \ensuremath{\pm} 0.0012 &
+\ensuremath{-}0.23 \\
+\textbar V\textsubscript{ub}\textbar{} & 0.00358 & 0.00382 \ensuremath{\pm} 0.00020 &
+\ensuremath{-}1.19 \\
+sin 2\ensuremath{\beta} & 0.70711 & 0.709 \ensuremath{\pm} 0.011 & \ensuremath{-}0.17 \\
+\ensuremath{\alpha} (\ensuremath{^\circ}) & 90.0 & 84.1 (+3.7 \ensuremath{-}3.0) & +1.59 (upper error used) \\
+\ensuremath{\gamma} (\ensuremath{^\circ}) & 67.5 & 66.4 (+2.7 \ensuremath{-}2.8) & +0.39 (2.8 used) \\
+\textbar V\textsubscript{td}/V\textsubscript{ts}\textbar{} & 0.21035 &
+0.207 \ensuremath{\pm} 0.0032 & +1.05 \\
+\end{longtable}
+}
+
+\ensuremath{\chi}\ensuremath{^{2}} = 5.98. If nothing had been chosen this would correspond to p = 0.54,
+but it has no such meaning here.
+
+\subsection{3. What was chosen, and what fails}
+
+The values 1/\ensuremath{\surd}20, \ensuremath{\surd}(2/3), 22.5\ensuremath{^\circ} and 67.5\ensuremath{^\circ} = 90\ensuremath{^\circ} \ensuremath{-} 22.5\ensuremath{^\circ} were selected
+because they are simple. A 3 \ensuremath{\times} 3 down-quark mass matrix with fixed
+weights built to produce this triangle gives \ensuremath{\chi}\ensuremath{^{2}} = 11.5 at \ensuremath{\mu} = 162.5 GeV
+(\textbar V\textsubscript{us}\textbar{} +2.2\ensuremath{\sigma}) and 26 at
+M\textsubscript{Z}, so the triangle is not yet tied to a mass matrix.
+The form is offered as a target for a mass-matrix origin, not as one.
+
+\subsection{4. Tests}
+
+\begin{itemize}
+\tightlist
+\item
+  sin 2\ensuremath{\beta} firmly away from 1/\ensuremath{\surd}2 = 0.7071.
+\item
+  \ensuremath{\alpha} firmly away from 90\ensuremath{^\circ}. Today the direct value is 1.6\ensuremath{\sigma} below.
+\item
+  \ensuremath{\gamma} firmly outside about 64--68\ensuremath{^\circ}.
+\item
+  A confirmed first-row shortfall, which would also rule out any model
+  that keeps the CKM matrix exactly unitary at low energy.
+\end{itemize}
+
+\subsection{Data and code}
+
+\texttt{analysis/quark\_triangle\_and\_press\_2026-11-25.py} in the TRPG
+code archive, doi:10.5281/zenodo.24329239. This result is one component
+of the framework in doi:10.5281/zenodo.24330763.
+
+\subsection{Acknowledgements}
+
+Due to medical necessity, AI language-model assistants were used, under
+the authors' direction, to draft and edit text from the authors' ideas,
+to carry out and check calculations, and to search the literature; every
+result was checked by rerunning the published code. The authors reviewed
+all content and take full responsibility for it.
+
+\subsection{References}
+
+\begin{itemize}
+\tightlist
+\item
+  Antusch, S., King, S. F., Malinsky, M. and Spinrath, M. (2010). Quark
+  mixing sum rules and the right unitarity triangle. \emph{Phys. Rev.~D}
+  81, 033008.
+\item
+  Charles, J. et al.~(CKMfitter Group) (2005). CP violation and the CKM
+  matrix: assessing the impact of the asymmetric B factories. \emph{Eur.
+  Phys. J. C} 41, 1.
+\item
+  Jarlskog, C. (1985). Commutator of the quark mass matrices in the
+  standard electroweak model and a measure of maximal CP
+  nonconservation. \emph{Phys. Rev.~Lett.} 55, 1039.
+\item
+  Kobayashi, M. and Maskawa, T. (1973). CP-violation in the
+  renormalizable theory of weak interaction. \emph{Prog. Theor. Phys.}
+  49, 652.
+\item
+  Navas, S. et al.~(Particle Data Group) (2024). Review of particle
+  physics. \emph{Phys. Rev.~D} 110, 030001; and the 2026 edition
+  (summary tables and CKM review).
+\item
+  Wolfenstein, L. (1983). Parametrization of the Kobayashi--Maskawa
+  matrix. \emph{Phys. Rev.~Lett.} 51, 1945.
+\end{itemize}
+
+\end{document}
