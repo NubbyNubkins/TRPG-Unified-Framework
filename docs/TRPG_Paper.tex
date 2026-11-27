@@ -167,7 +167,7 @@ Version of 27 November 2026 (v1.4.2: Appendix B added, which defines the particl
 trpgphysics.org \ensuremath{\cdot} November 2026 \ensuremath{\cdot} DOI \href{https://doi.org/10.5281/zenodo.24330763}{10.5281/zenodo.24330763} (all versions)
 
 \begin{quote}
-\textbf{Status note, 27 November 2026 (v1.4.2).} Appendix B is new. Craig (2026) has proposed an exact, gauge-invariant lattice definition of the Standard Model's one-handed fermions. Two short lemmas extend it to everything else on the framework's main line: the far-side states (which come in both handednesses), the hidden partners, the Higgs field, the mass links, the Majorana mass and the majoron. The lemmas are checked numerically. The majoron's symmetry, B \ensuremath{-} L, is exact on the lattice, and baryon number can change only in steps of three, so the lattice agrees with the statement that protons do not decay. Only the main line is covered; the two recorded alternatives are not. All of this is conditional on Craig's theorem, which is a preprint. Reflection positivity and the zero-spacing limit stay open, as they are for the Standard Model. No number, rule, prediction, score or count changes. The note of 25 November below is otherwise current.
+\textbf{Status note, 27 November 2026 (v1.4.2).} Appendix B is new. Craig (2026) has proposed an exact, gauge-invariant lattice definition of the Standard Model's one-handed fermions. With two short lemmas it covers everything on the framework's main line: the far-side states (which come in both handednesses), the hidden partners, the Higgs field, the mass links, the Majorana mass and the majoron. The lemmas are checked numerically. The majoron's symmetry, B \ensuremath{-} L, is exact on the lattice, and baryon number can change only in steps of three, so the lattice agrees with the statement that protons do not decay. Only the main line is covered; the two recorded alternatives are not. All of this is conditional on Craig's theorem, which is a preprint. We rechecked every finite, computable step of his proof independently: 18 of 18 checks pass and no error was found, while his analytic estimates and formal proof files were not checked (B.7). The recheck also showed that his theorem already covers the full 27, so Lemma A is a second, explicit route for the far-side pair rather than a required step. Reflection positivity and the zero-spacing limit stay open, as they are for the Standard Model. No number, rule, prediction, score or count changes. The note of 25 November below is otherwise current.
 \end{quote}
 
 \begin{quote}
@@ -560,7 +560,7 @@ Compact stars & the band 82--97 MeV (m\textsubscript{s} = 100 MeV) reproduced by
 
 \textbf{Question.} Can the framework's particles and forces be defined exactly on a grid of points, the way Craig (2026) has proposed for the Standard Model? A grid version makes a theory mathematically well defined at every finite spacing, without approximations. It derives no new numbers.
 
-\textbf{Result in one line.} If Craig's theorem holds, the framework's whole particle side has an exact, gauge-invariant definition on a finite grid. That covers all 27 states per generation, the Higgs, the mass links, the Majorana mass and the majoron. The extension takes two lemmas, proved below and checked numerically. Reflection positivity and the zero-spacing limit stay open, exactly as for the Standard Model.
+\textbf{Result in one line.} If Craig's theorem holds, the framework's whole particle side has an exact, gauge-invariant definition on a finite grid. That covers all 27 states per generation, the Higgs, the mass links, the Majorana mass and the majoron. Craig's theorem already covers all 27 states; two lemmas, proved below and checked numerically, give the far-side pair an explicit phase-free measure and add the global symmetry, the scalars and the mass terms. The computable steps of Craig's own proof were rechecked independently (B.7). Reflection positivity and the zero-spacing limit stay open, exactly as for the Standard Model.
 
 \textbf{B.1 Craig's construction.} Craig (2026) puts one-handed fermions on a lattice using overlap fermions (Narayanan and Neuberger, 1994; Neuberger, 1998). These keep an exact remnant of chiral symmetry (Ginsparg and Wilson, 1982) and avoid the mirror-image doublers that a naive grid produces (Nielsen and Ninomiya, 1981). With H = \ensuremath{\gamma}\ensuremath{_{5}}(D\_W \ensuremath{-} 1), a left-handed field obeys \ensuremath{\hat{P}}\ensuremath{_{-}}\ensuremath{\psi} = \ensuremath{\psi}, where \ensuremath{\hat{P}}\ensuremath{_{-}} = (1 + sign H)/2 depends on the gauge field. The antifield obeys \ensuremath{\bar{\ensuremath{\psi}}}P\ensuremath{_{+}} = \ensuremath{\bar{\ensuremath{\psi}}} with the fixed P\ensuremath{_{+}} = (1 + \ensuremath{\gamma}\ensuremath{_{5}})/2 (Lüscher, 1999).
 
@@ -582,9 +582,9 @@ The result is a smooth, gauge-invariant measure, fixed up to a constant phase on
 
 10 \ensuremath{\oplus} \ensuremath{\bar{5}} \ensuremath{\oplus} 1 (the known states and the hidden partner N) and 5 \ensuremath{\oplus} \ensuremath{\bar{5}} \ensuremath{\oplus} 1 (the far side and the further neutral state).
 
-The forces are SU(3) \ensuremath{\times} SU(2) \ensuremath{\times} U(1) only. The scalars are the Higgs doublet and the complex field whose phase is the majoron. All anomaly sums vanish for the 27, the SU(5) cubic sum is 1 \ensuremath{-} 1 + 1 \ensuremath{-} 1 = 0, and Craig's even-count condition passes: 4 doublets in the known 16 states, 6 in the full 27 (\texttt{analysis/lattice\_fit\_check\_2026-11-27.py}). Craig's theorem covers the 10 \ensuremath{\oplus} \ensuremath{\bar{5}}. What remains is the far-side pair 5 \ensuremath{\oplus} \ensuremath{\bar{5}}, the neutral states, and the scalar and mass terms.
+The forces are SU(3) \ensuremath{\times} SU(2) \ensuremath{\times} U(1) only. The scalars are the Higgs doublet and the complex field whose phase is the majoron. All anomaly sums vanish for the 27, the SU(5) cubic sum is 1 \ensuremath{-} 1 + 1 \ensuremath{-} 1 = 0, and Craig's even-count condition passes: 4 doublets in the known 16 states, 6 in the full 27 (\texttt{analysis/lattice\_fit\_check\_2026-11-27.py}). Craig's covered families (his Proposition 11.1 and Table 3) include any content with zero cubic anomaly and an even count of half-integer isospins, combined with conjugates and gauge singlets, and explicitly any pair Q \ensuremath{\oplus} Q*. His theorem therefore covers the full 27 directly. An earlier draft of this appendix said the far-side pair lay outside it; the recheck in B.7 found that this was wrong. What his theorem does not address is the scalar and mass terms. Lemma A below gives the far-side pair an explicit form.
 
-\textbf{B.3 Lemma A: the far-side pair adds no phase problem.} \textbf{Statement.} In four dimensions, for any gauge field U and any representation r, the left-handed projector in the conjugate representation is the image of the one in r under a fixed antiunitary map:
+\textbf{B.3 Lemma A: an explicit, phase-free measure for the far-side pair.} \textbf{Statement.} In four dimensions, for any gauge field U and any representation r, the left-handed projector in the conjugate representation is the image of the one in r under a fixed antiunitary map:
 
 \ensuremath{\hat{P}}\ensuremath{_{-}}{[}\ensuremath{\bar{r}}{]}(U) = A \ensuremath{\cdot} conj(\ensuremath{\hat{P}}\ensuremath{_{-}}{[}r{]}(U)) \ensuremath{\cdot} A\ensuremath{^{-}}\ensuremath{^{1}}, with A = \ensuremath{\gamma}\ensuremath{_{5}}C\ensuremath{^{-}}\ensuremath{^{1}},
 
@@ -594,7 +594,7 @@ where C is charge conjugation (C\ensuremath{\gamma}\_\ensuremath{\mu}C\ensuremat
 
 \textbf{Consequence.} Take any orthonormal basis v\_j of the left-handed r fields and use v\ensuremath{^{\prime}}\_j = A\ensuremath{\cdot}conj(v\_j) for the \ensuremath{\bar{r}} fields. Changing the basis by a unitary Q multiplies the pair's measure by det Q\ensuremath{^{-}}\ensuremath{^{1}} \ensuremath{\cdot} conj(det Q)\ensuremath{^{-}}\ensuremath{^{1}} = \textbar det Q\textbar\ensuremath{^{-}}\ensuremath{^{2}} = 1. The pair's measure therefore needs no phase choice at all: it is canonical, gauge invariant (the map commutes with gauge transformations) and smooth. Its return phases cancel exactly, \ensuremath{\mathcal{T}}{[}\ensuremath{\bar{r}}{]} = conj(\ensuremath{\mathcal{T}}{[}r{]}). Its current is zero, so Craig's integrability condition W = \ensuremath{\mathcal{T}} holds for the sum because both sides multiply.
 
-The full measure is Craig's measure for 3 \ensuremath{\times} (10 \ensuremath{\oplus} \ensuremath{\bar{5}}), times the canonical measure for 3 \ensuremath{\times} (5 \ensuremath{\oplus} \ensuremath{\bar{5}}), times constant measures for the six neutral states. A neutral state's projector does not depend on U, so its measure is constant. Which of the two identical \ensuremath{\bar{5}} copies is assigned to which factor changes the measure only by a constant phase per topological sector. That is the same freedom Craig's measure already has.
+This gives a second route, which uses Craig's construction only for the Standard Model part: the full measure is Craig's measure for 3 \ensuremath{\times} (10 \ensuremath{\oplus} \ensuremath{\bar{5}}), times the canonical measure for 3 \ensuremath{\times} (5 \ensuremath{\oplus} \ensuremath{\bar{5}}), times constant measures for the six neutral states. A neutral state's projector does not depend on U, so its measure is constant. Which of the two identical \ensuremath{\bar{5}} copies is assigned to which factor changes the measure only by a constant phase per topological sector. That is the same freedom Craig's measure already has. Real representations on the lattice were treated earlier by Suzuki (2000), whom Craig cites.
 
 \textbf{Checks} (\texttt{analysis/vectorlike\_pair\_measure\_check\_2026-11-27.py}):
 
@@ -626,7 +626,7 @@ The full measure is Craig's measure for 3 \ensuremath{\times} (10 \ensuremath{\o
   \textbf{Fermion bilinears:} the Yukawa links of the known states and the lepton circulant, the mass links between D and the down quarks, the far-side masses, the Majorana mass of N and its coupling to the majoron field. In left-handed language these are all field--field or antifield--antifield bilinears.
 \end{itemize}
 
-A Berezin integral of exp(\ensuremath{-}S) against a fixed, gauge-invariant top form is a well-defined number for any polynomial action. So once Lemma A completes the measure, the fermion integral is the Pfaffian of the mass-and-Yukawa matrix written in the measure's basis. It is gauge invariant whenever every term in S is. The Pfaffian's sign is fixed by the measure, so there is no square-root ambiguity. It is not positive in general, which matters for simulation but not for definition.
+A Berezin integral of exp(\ensuremath{-}S) against a fixed, gauge-invariant top form is a well-defined number for any polynomial action. So once the measure is fixed (by Craig's theorem for the whole 27, or by his theorem for 3 \ensuremath{\times} (10 \ensuremath{\oplus} \ensuremath{\bar{5}}) with Lemma A), the fermion integral is the Pfaffian of the mass-and-Yukawa matrix written in the measure's basis. It is gauge invariant whenever every term in S is. The Pfaffian's sign is fixed by the measure, so there is no square-root ambiguity. It is not positive in general, which matters for simulation but not for definition.
 
 The containment field P is a classical description of the strong force (Friedberg and Lee, 1977) and is not part of the fundamental action. \textbf{Conclusion:} if Craig's theorem holds, every correlation function of the framework's particle side is defined and gauge invariant on every finite admissible lattice.
 
@@ -648,13 +648,33 @@ Neither fits Craig's covered families. The one proposed lattice measure for the 
 
 \textbf{Already on the grid.} The framework uses lattice QCD for its containment numbers: the lightest glueball, 1.71 to 1.73 GeV, and the deconfinement temperature, 156.5 \ensuremath{\pm} 1.5 MeV. Those numbers come from the strong-force part of the same lattice theory, so they are the first place where its predictions meet the framework's balance picture. There, the balance gives 105 MeV against 156.5 MeV, a stated fail (Section 8).
 
-\textbf{B.7 What stays open.} - \textbf{Craig's theorem itself.} It is a preprint with a Lean formalization, not yet a refereed result. If it fails, this extension fails with it.
+\textbf{B.7 An independent check of Craig's proof.} Because everything here rests on Craig's theorem, we rechecked the parts of his proof that can be tested by direct computation, starting from the definitions in his paper (\texttt{analysis/craig\_proof\_recheck\_2026-11-27.py}, with its saved output). All 18 checks pass:
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{The colour-trace identity the cancellation rests on.} Ordered traces of up to four generators agree in 10 \ensuremath{\oplus} \ensuremath{\bar{5}} and in its conjugate to 10\ensuremath{^{-}}\ensuremath{^{1}}\ensuremath{^{3}}, and so they do for the full 27. At five generators they differ, so the cancellation stops exactly where the proof needs it to (the trace reductions follow van Ritbergen, Schellekens and Vermaseren, 1999). For an anomalous content (the 10 alone) they differ already at three. Behind this is the character identity \ensuremath{\chi}(R) \ensuremath{-} \ensuremath{\chi}(R*) = det(1 \ensuremath{-} g), with \ensuremath{\chi} the character, which holds to 10\ensuremath{^{-}}\ensuremath{^{1}}\ensuremath{^{4}} on random SU(5) elements.
+\item
+  \textbf{Craig's two tests (his Section 11.3).} Zero cubic sum and an even number of half-integer isospins: 4 for 10 \ensuremath{\oplus} \ensuremath{\bar{5}}, 6 for the 27, and his own failing SU(3) example fails as he states.
+\item
+  \textbf{The free-field facts.} The Wilson gap H\ensuremath{^{2}} \ensuremath{\ge} 1, the weights of the smooth copy, and no zero mode in the comparison of coarse and fine operators (least singular value 0.46 over 848 momenta and 21 interpolation values).
+\item
+  \textbf{The finite comparison identity (his Lemma 5.1).} On a random gapped family of projectors, the transported phase equals the ratio of return phases to 10\ensuremath{^{-}}\ensuremath{^{9}}, and the curvature identity db = \ensuremath{\Omega}\ensuremath{_{1}} \ensuremath{-} \ensuremath{\Omega}\ensuremath{_{0}} holds (0.015521 against 0.015520 by finite differences).
+\item
+  \textbf{The global step.} The spin and colour matrices of his global argument, the Kramers pairing that removes the last sign (determinant 1 to 10\ensuremath{^{-}}\ensuremath{^{1}}\ensuremath{^{5}}), the Standard Model embedding with its Z\ensuremath{_{6}} kernel, and the localisation-window identities.
+\end{itemize}
+
+Read and followed, but not re-derived: the global integrability argument and the reconstruction (his Sections 8 and 9) and the restriction to the Standard Model (his Section 11). Not checked: the analytic estimates in his appendices (locality, uniform constants, the order-h\ensuremath{^{8}} bounds, independence of the volume), the gap bound he cites from Hernández, Jansen and Lüscher (1999), and his Lean formalization and two-dimensional supplement, which we could not access. No error was found. This is an independent, partial check, not a second proof: every finite step we could compute holds, and the analytic estimates are left to specialists.
+
+The check also corrected this appendix: the full 27 is in Craig's covered families (B.2), so Lemma A is a second, explicit route for the far-side pair. Lemma B and the corollary remain additions to his work.
+
+\textbf{B.8 What stays open.} - \textbf{Craig's theorem itself.} It is a preprint with a Lean formalization, not yet a refereed result. Its computable steps pass our recheck (B.7), but its analytic estimates have not been checked by us. If it fails, this extension fails with it.
 - \textbf{Reflection positivity.} It is needed to read the lattice theory as an ordinary quantum theory. It is open for the overlap chiral sector, for the framework exactly as for the Standard Model. The far-side pair and the scalars can be discretized in reflection-positive ways (Osterwalder and Seiler, 1978), but their couplings to the chiral sector have not been shown to keep it.
 - \textbf{The zero-spacing limit.} U(1) and the scalar self-couplings are expected to be ``trivial'' in four dimensions (Aizenman, 1981; Fröhlich, 1982; Aizenman and Duminil-Copin, 2021). This is the same issue as for the Standard Model. The strong and weak forces remain asymptotically free with the far side included: b\ensuremath{_{3}} = 5 and b\ensuremath{_{2}} = 7/6, against 7 and 19/6 without it.
 - \textbf{The numbers.} Nothing here derives a mass, strength or angle. Whether the lattice theory reproduces the framework's numbers is a separate, untested question.
 - \textbf{Out of scope.} Gravity and the full-medium picture of space are not on the grid. The grid is a scaffold whose spacing goes to zero, so it says nothing for or against the physical grain of space. The relationship matrix fixes which states and charges exist; the lattice takes them as given, so it neither tests nor objects to that derivation.
 
-\textbf{Verdict.} The finite-spacing definition is complete for the framework's particle side, conditional on Craig's theorem, with two lemmas proved and checked. Reflection positivity and the zero-spacing limit stay open, with the same status as the Standard Model's. Two of the framework's own features are what make the completion work: its anomaly-free charges, and its far side having both handednesses. The lemmas are standard lattice reasoning applied to this content, and they should be checked by a lattice specialist before being relied on. A general statement, independent of this framework, is given in companion paper F.
+\textbf{Verdict.} The finite-spacing definition is complete for the framework's particle side, conditional on Craig's theorem, with two lemmas proved and checked and every computable step of Craig's proof rechecked independently. Reflection positivity and the zero-spacing limit stay open, with the same status as the Standard Model's. Two of the framework's own features are what make the completion work: its anomaly-free charges, and its far side having both handednesses. The lemmas are standard lattice reasoning applied to this content, and they should be checked by a lattice specialist before being relied on. A general statement, independent of this framework, is given in companion paper F.
 
 \hypertarget{data-and-code-availability}{%
 \subsection{Data and code availability}\label{data-and-code-availability}}
@@ -920,6 +940,8 @@ This framework is a perspective built on the work of the physicists cited below.
 \item
   Henneaux, M. and Teitelboim, C. (1989). The cosmological constant and general covariance. \emph{Phys. Lett. B} 222, 195.
 \item
+  Hernández, P., Jansen, K. and Lüscher, M. (1999). Locality properties of Neuberger's lattice Dirac operator. \emph{Nucl. Phys. B} 552, 363.
+\item
   Herranen, M., Markkanen, T., Nurmi, S. and Rajantie, A. (2014). Spacetime curvature and the Higgs stability during inflation. \emph{Phys. Rev.~Lett.} 113, 211102.
 \item
   Hertzberg, M. P., Tegmark, M. and Wilczek, F. (2008). Axion cosmology and the energy scale of inflation. \emph{Phys. Rev.~D} 78, 083507.
@@ -1120,6 +1142,8 @@ This framework is a perspective built on the work of the physicists cited below.
 \item
   Sutherland, D. G. (1966). Current algebra and the decay \ensuremath{\eta} \ensuremath{\to} 3\ensuremath{\pi}. \emph{Phys. Lett.} 23, 384.
 \item
+  Suzuki, H. (2000). Real representation in chiral gauge theories on the lattice. \emph{JHEP} 10, 039.
+\item
   Takenaka, A. et al.~(Super-Kamiokande Collaboration) (2020). Search for proton decay via p \ensuremath{\to} e\textsuperscript{+}\ensuremath{\pi}\textsuperscript{0} and p \ensuremath{\to} \ensuremath{\mu}\textsuperscript{+}\ensuremath{\pi}\textsuperscript{0} with an enlarged fiducial volume in Super-Kamiokande I--IV. \emph{Phys. Rev.~D} 102, 112011.
 \item
   Théberge, S., Thomas, A. W. and Miller, G. A. (1980). Pionic corrections to the MIT bag model: the (3,3) resonance. \emph{Phys. Rev.~D} 22, 2838.
@@ -1143,6 +1167,8 @@ This framework is a perspective built on the work of the physicists cited below.
   Verhulst, P.-F. (1838). Notice sur la loi que la population suit dans son accroissement. \emph{Corresp. Math. Phys.} 10, 113.
 \item
   Verlinde, E. (2017). Emergent gravity and the dark universe. \emph{SciPost Phys.} 2, 016.
+\item
+  van Ritbergen, T., Schellekens, A. N. and Vermaseren, J. A. M. (1999). Group theory factors for Feynman diagrams. \emph{Int. J. Mod. Phys. A} 14, 41.
 \item
   Vilenkin, A. (1985). Classical and quantum cosmology of the Starobinsky inflationary model. \emph{Phys. Rev.~D} 32, 2511.
 \item

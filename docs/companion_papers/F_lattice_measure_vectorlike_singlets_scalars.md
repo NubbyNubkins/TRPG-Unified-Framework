@@ -16,13 +16,15 @@ Craig (2026) has proposed a smooth, gauge-invariant overlap-fermion measure for 
 
 We show that none of these adds a phase problem.
 
-(i) In four dimensions the left-handed overlap projector in r̄ is the image of the one in r under one fixed antiunitary map, A·conj(·)·A⁻¹ with A = γ₅C⁻¹, for every gauge field. A vector-like pair therefore carries a canonical measure with no phase to fix. Its return phases cancel exactly, so Craig's integrability condition holds for the extended content.
+(i) In four dimensions the left-handed overlap projector in r̄ is the image of the one in r under one fixed antiunitary map, A·conj(·)·A⁻¹ with A = γ₅C⁻¹, for every gauge field. A vector-like pair therefore carries a canonical measure with no phase to fix. Craig's covered families already include such pairs; Lemma 1 gives them an explicit form and a second route that uses his construction only for the chiral part. Its return phases cancel exactly, so Craig's integrability condition holds for the extended content.
 
 (ii) A global U(1) acting on the fermions is an exact symmetry of the lattice measure in every topological sector if and only if its mixed anomalies with the gauge groups vanish. Thus B − L is exact with three singlets, while B and L each change only by 3 in one unit of weak topology.
 
 (iii) Yukawa, Dirac and Majorana bilinears and scalar fields then give well-defined, gauge-invariant correlation functions at every finite lattice spacing, through a Pfaffian whose sign the measure fixes.
 
-We check (i) numerically to 10⁻¹³ on a 3⁴ SU(3) lattice, with a two-dimensional control in which the map cannot exist and the cancellation indeed fails. We check (ii) on a two-dimensional U(1) lattice. The results are conditional on Craig's theorem, which we do not re-derive. They leave reflection positivity and the continuum limit open, as they are for the Standard Model. As an application, the three-generation 27 with the Standard Model gauge group, one Higgs doublet and a majoron field is defined at finite spacing.
+(iv) We recheck independently every finite, computable step of Craig's proof: the colour-trace cancellation and where it stops, his two tests on the content, the free-field facts, his finite comparison identity, and the algebra of his global step. All 18 checks pass. His analytic estimates and formal proof files are not checked.
+
+We check (i) numerically to 10⁻¹³ on a 3⁴ SU(3) lattice, with a two-dimensional control in which the map cannot exist and the cancellation indeed fails. We check (ii) on a two-dimensional U(1) lattice. The results are conditional on Craig's theorem, which we recheck in part (Section 6) but do not re-derive. They leave reflection positivity and the continuum limit open, as they are for the Standard Model. As an application, the three-generation 27 with the Standard Model gauge group, one Higgs doublet and a majoron field is defined at finite spacing.
 
 ## 1. Setting
 
@@ -33,7 +35,7 @@ On a finite periodic lattice we use the Wilson–Dirac operator D_W with r = 1, 
 
 The fermion measure is fixed by a basis v_j(U) of the range of P̂₋. A change of basis by a unitary Q multiplies the measure by det Q⁻¹, a phase.
 
-On fields that obey a plaquette bound (admissibility; Lüscher, 1999), Craig (2026) constructs a smooth, gauge-covariant measure current for R = 10 ⊕ 5̄ of SU(5), per generation, restricted to the Standard Model and its quotients. The current satisfies the integrability condition W[γ] = 𝒯[γ] on every closed curve of admissible fields, where 𝒯 is the return phase of the projector family. This fixes the measure up to one constant phase on each topological sector. Earlier steps toward this were made by Lüscher (1999) for abelian theories and by Kadoh and Kikukawa (2008) for the electroweak theory. Craig's paper was prepared with the aid of OpenAI's GPT-6 Astra. Reflection positivity at finite spacing is not established there.
+On fields that obey a plaquette bound (admissibility; Lüscher, 1999), Craig (2026) constructs a smooth, gauge-covariant measure current for R = 10 ⊕ 5̄ of SU(5), per generation, restricted to the Standard Model and its quotients. His Proposition 11.1 and Table 3 extend this to any SU(N_c) content with zero cubic anomaly and an even count of half-integer isospins, combined with conjugates and gauge singlets, which includes vector-like pairs. The current satisfies the integrability condition W[γ] = 𝒯[γ] on every closed curve of admissible fields, where 𝒯 is the return phase of the projector family. This fixes the measure up to one constant phase on each topological sector. Earlier steps toward this were made by Lüscher (1999) for abelian theories and by Kadoh and Kikukawa (2008) for the electroweak theory. Craig's paper was prepared with the aid of OpenAI's GPT-6 Astra. Reflection positivity at finite spacing is not established there.
 
 ## 2. Vector-like pairs
 
@@ -45,7 +47,7 @@ On fields that obey a plaquette bound (admissibility; Lüscher, 1999), Craig (20
 
 **Corollary 1.** For the left-handed pair r ⊕ r̄, choose bases v_j for r and v′_j = A·conj(v_j) for r̄. A change v → vQ gives v′ → v′·conj(Q), so the pair's measure changes by |det Q|⁻² = 1. The pair's measure is therefore independent of the basis. A gauge transformation Λ acts on r̄ as conj(Λ) and commutes with the map, so the measure is gauge invariant and smooth on admissible fields. Its return phases obey 𝒯[r̄] = conj(𝒯[r]), and its measure current can be taken to be zero.
 
-For R = R_C ⊕ ⊕ₖ(rₖ ⊕ r̄ₖ) ⊕ singlets, the product of Craig's measure for R_C, the canonical pair measures and the constant singlet measures satisfies W = 𝒯, since both sides multiply. A gauge singlet's projector does not depend on U. When a pair contains a copy of a representation already in R_C (the 5̄ in the 27), different assignments of the identical copies differ by a constant phase on each topological sector, which is the freedom Craig's measure already has.
+For R = R_C ⊕ ⊕ₖ(rₖ ⊕ r̄ₖ) ⊕ singlets, the product of Craig's measure for R_C, the canonical pair measures and the constant singlet measures satisfies W = 𝒯, since both sides multiply. A gauge singlet's projector does not depend on U. When a pair contains a copy of a representation already in R_C (the 5̄ in the 27), different assignments of the identical copies differ by a constant phase on each topological sector, which is the freedom Craig's measure already has. Real representations on the lattice were treated earlier by Suzuki (2000).
 
 In two dimensions no handedness-keeping antiunitary map exists. Every map A with A·conj(γ_μ)·A⁻¹ = γ_μ reverses γ₅, because there the conjugate of a left-mover is a left-mover. This is why L(q) ⊕ L(−q) is anomalous in two dimensions. It also gives a control: the cancellation must fail there.
 
@@ -79,20 +81,32 @@ Each generation contains:
 - 5 ⊕ 5̄, the vector-like D(3,1,−1/3) and L(1,2,1/2) with their partners;
 - one further singlet.
 
-The gauge group is SU(3) × SU(2) × U(1) only. The scalars are one Higgs doublet and a majoron field. All gauge and mixed-gravitational anomaly sums of the 27 vanish, and so do all six B − L anomaly sums. Craig's even-multiplicity condition counts SU(2) doublets on two colours of SU(5): 4 per generation in the 16 and 6 in the 27. Craig's theorem covers 3 × (10 ⊕ 5̄), Lemma 1 covers 3 × (5 ⊕ 5̄), and Section 4 covers the rest. Correlation functions of the model are therefore defined and gauge invariant on every finite admissible lattice. With the vector-like states included, SU(3) and SU(2) remain asymptotically free at one loop: b₃ = 5 and b₂ = 7/6, against 7 and 19/6 without them.
+The gauge group is SU(3) × SU(2) × U(1) only. The scalars are one Higgs doublet and a majoron field. All gauge and mixed-gravitational anomaly sums of the 27 vanish, and so do all six B − L anomaly sums. Craig's even-multiplicity condition counts SU(2) doublets on two colours of SU(5): 4 per generation in the 16 and 6 in the 27. Craig's theorem covers all three 27s directly (cubic sum 0, 6 doublets). Alternatively, his theorem for 3 × (10 ⊕ 5̄) with Lemma 1 for 3 × (5 ⊕ 5̄) gives the same content with the pair's measure explicit. Section 4 covers the rest. Correlation functions of the model are therefore defined and gauge invariant on every finite admissible lattice. With the vector-like states included, SU(3) and SU(2) remain asymptotically free at one loop: b₃ = 5 and b₂ = 7/6, against 7 and 19/6 without them.
 
 By contrast, gauging B − L, or using the Pati–Salam group (Pati and Salam, 1974), places the 16 in Spin(10). That falls outside Craig's covered families, and the proposed Spin(10) measure (Kikukawa, as cited by Craig) has open smoothness and locality. This model is one of the main-line readings of the framework of Gelfman and Behrends-Gelfman (2026), and its Appendix B states these results for it.
 
-## 6. What remains open
+## 6. An independent check of Craig's proof
 
-- **Craig's theorem.** Everything here is conditional on it. It is a preprint with a Lean formalization, examined before release by the lattice field theorists M. Golterman, A. Kronfeld and Y. Shamir (as reported by OpenAI, 2026).
+We rechecked the parts of Craig's proof that can be tested by direct computation, starting from the definitions in his paper. All 18 checks pass:
+
+- **The colour-trace identity the cancellation rests on.** Ordered traces of up to four generators agree in 10 ⊕ 5̄ and in its conjugate to 10⁻¹³, and so they do for the full 27. At five generators they differ, so the cancellation stops exactly where the proof needs it to (the trace reductions follow van Ritbergen, Schellekens and Vermaseren, 1999). For an anomalous content (the 10 alone) they differ already at three. Behind this is the character identity χ(R) − χ(R*) = det(1 − g), with χ the character, which holds to 10⁻¹⁴ on random SU(5) elements.
+- **Craig's two tests (his Section 11.3).** Zero cubic sum and an even number of half-integer isospins: 4 for 10 ⊕ 5̄, 6 for the 27, and his own failing SU(3) example fails as he states.
+- **The free-field facts.** The Wilson gap H² ≥ 1, the weights of the smooth copy, and no zero mode in the comparison of coarse and fine operators (least singular value 0.46 over 848 momenta and 21 interpolation values).
+- **The finite comparison identity (his Lemma 5.1).** On a random gapped family of projectors, the transported phase equals the ratio of return phases to 10⁻⁹, and the curvature identity db = Ω₁ − Ω₀ holds (0.015521 against 0.015520 by finite differences).
+- **The global step.** The spin and colour matrices of his global argument, the Kramers pairing that removes the last sign (determinant 1 to 10⁻¹⁵), the Standard Model embedding with its Z₆ kernel, and the localisation-window identities.
+
+Read and followed, but not re-derived: the global integrability argument and the reconstruction (his Sections 8 and 9) and the restriction to the Standard Model (his Section 11). Not checked: the analytic estimates in his appendices (locality, uniform constants, the order-h⁸ bounds, independence of the volume), the gap bound he cites from Hernández, Jansen and Lüscher (1999), and his Lean formalization and two-dimensional supplement, which we could not access. No error was found. This is an independent, partial check, not a second proof: every finite step we could compute holds, and the analytic estimates are left to specialists.
+
+## 7. What remains open
+
+- **Craig's theorem.** Everything here is conditional on it. Its computable steps pass the check of Section 6; its analytic estimates have not been checked by us. It is a preprint with a Lean formalization, examined before release by the lattice field theorists M. Golterman, A. Kronfeld and Y. Shamir (as reported by OpenAI, 2026).
 - **Reflection positivity.** It is open for the overlap chiral sector. Wilson fermions for the vector-like pairs and nearest-neighbour scalars are reflection positive on their own (Osterwalder and Seiler, 1978), but their couplings to the chiral sector have not been shown to keep this.
 - **The continuum limit.** U(1) and the scalar self-couplings are expected to be trivial in four dimensions (Aizenman, 1981; Fröhlich, 1982; Aizenman and Duminil-Copin, 2021), as for the Standard Model.
 - **The derivations.** Lemmas 1 and 2 are elementary, but they have not been examined by a lattice specialist.
 
 ## Data and code
 
-The scripts `analysis/vectorlike_pair_measure_check_2026-11-27.py`, `analysis/bl_exact_on_lattice_2026-11-27.py`, `analysis/lattice_fit_check_2026-11-27.py` and `analysis/extras_theta_baryon_alternatives_2026-11-27.py`, with their saved outputs, are in the TRPG code archive, doi:10.5281/zenodo.24329239. The framework is described in doi:10.5281/zenodo.24330763.
+The scripts `analysis/vectorlike_pair_measure_check_2026-11-27.py`, `analysis/bl_exact_on_lattice_2026-11-27.py`, `analysis/lattice_fit_check_2026-11-27.py` and `analysis/extras_theta_baryon_alternatives_2026-11-27.py` and `analysis/craig_proof_recheck_2026-11-27.py`, with their saved outputs, are in the TRPG code archive, doi:10.5281/zenodo.24329239. The framework is described in doi:10.5281/zenodo.24330763.
 
 ## Acknowledgements
 
@@ -107,6 +121,7 @@ The construction extended here is due to N. Craig. We also acknowledge M. Golter
 - Gelfman, M. and Behrends-Gelfman, M. (2026). Dynamic Relational Transitioning Geometry. doi:10.5281/zenodo.24330763.
 - Ginsparg, P. H. and Wilson, K. G. (1982). A remnant of chiral symmetry on the lattice. *Phys. Rev. D* 25, 2649.
 - Hasenfratz, P., Laliena, V. and Niedermayer, F. (1998). The index theorem in QCD with a finite cut-off. *Phys. Lett. B* 427, 125.
+- Hernández, P., Jansen, K. and Lüscher, M. (1999). Locality properties of Neuberger's lattice Dirac operator. *Nucl. Phys. B* 552, 363.
 - Kadoh, D. and Kikukawa, Y. (2008). A construction of the Glashow–Weinberg–Salam model on the lattice with exact gauge invariance. *JHEP* 05, 095.
 - Lüscher, M. (1998). Exact chiral symmetry on the lattice and the Ginsparg–Wilson relation. *Phys. Lett. B* 428, 342.
 - Lüscher, M. (1999). Abelian chiral gauge theories on the lattice with exact gauge invariance. *Nucl. Phys. B* 549, 295.
@@ -116,4 +131,6 @@ The construction extended here is due to N. Craig. We also acknowledge M. Golter
 - OpenAI (2026). A step toward defining the Standard Model on a lattice. openai.com/index/step-toward-defining-the-standard-model (15 November 2026).
 - Osterwalder, K. and Seiler, E. (1978). Gauge field theories on a lattice. *Ann. Phys.* 110, 440.
 - Pati, J. C. and Salam, A. (1974). Lepton number as the fourth "color". *Phys. Rev. D* 10, 275.
+- Suzuki, H. (2000). Real representation in chiral gauge theories on the lattice. *JHEP* 10, 039.
 - 't Hooft, G. (1976). Symmetry breaking through Bell–Jackiw anomalies. *Phys. Rev. Lett.* 37, 8.
+- van Ritbergen, T., Schellekens, A. N. and Vermaseren, J. A. M. (1999). Group theory factors for Feynman diagrams. *Int. J. Mod. Phys. A* 14, 41.
