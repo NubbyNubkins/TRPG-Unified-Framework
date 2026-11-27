@@ -1,7 +1,7 @@
 cff-version: 1.2.0
 message: "If you use or discuss this work, please cite it as below."
 title: "Dynamic Relational Transitioning Geometry (TRPG): code, data and documents"
-abstract: "A relational, entanglement-based framework that reproduces known physics (light bending, cosmic expansion, compact stars, lepton masses, quark charges) and predicts normal-ordered neutrino masses of 0.36, 8.7 and 50.1 to 50.3 meV (sum 0.0592 to 0.0594 eV). Includes every calculation script, the particle relational workbook, the paper and the later test scripts. Also predicts the strong coupling 0.1178 at the Z, awaiting measurement. Version 1.4.0 adds the exact right-angled quark triangle as a lead and records the tests run after 18 November 2026 that failed."
+abstract: "A relational, entanglement-based framework that reproduces known physics (light bending, cosmic expansion, compact stars, lepton masses, quark charges) and predicts normal-ordered neutrino masses of 0.36, 8.7 and 50.1 to 50.3 meV (sum 0.0592 to 0.0594 eV). Includes every calculation script, the particle relational workbook, the paper and the later test scripts. Also predicts the strong coupling 0.1178 at the Z, awaiting measurement. Version 1.4.2 adds the particle side on a lattice (paper Appendix B, companion paper F), building on Craig (2026), with an independent recheck of the computable steps of his proof. Version 1.4.0 adds the exact right-angled quark triangle as a lead and records the tests run after 18 November 2026 that failed."
 authors:
   - family-names: "Gelfman"
     given-names: "Matthew"
@@ -10,7 +10,7 @@ authors:
     given-names: "Melissa"
     orcid: "https://orcid.org/0009-0001-6281-1947"
 version: 1.4.2
-date-released: "2026-11-25"
+date-released: "2026-11-27"
 license: MIT
 url: "https://trpgphysics.org"
 repository-code: "https://github.com/NubbyNubkins/TRPG-Unified-Framework"
