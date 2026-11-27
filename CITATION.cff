@@ -11,7 +11,7 @@ authors:
     orcid: "https://orcid.org/0009-0001-6281-1947"
 version: 1.4.3
 date-released: "2026-11-27"
-license: CC-BY-4.0
+license: MIT
 url: "https://trpgphysics.org"
 repository-code: "https://github.com/NubbyNubkins/TRPG-Unified-Framework"
 identifiers:

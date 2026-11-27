@@ -112,4 +112,5 @@ Companion papers (in `docs/companion_papers/`), each one component of the framew
 - E. No anomaly-free discrete symmetry splits the vector-like triplets and doublets: [10.5281/zenodo.24553504](https://doi.org/10.5281/zenodo.24553504)
 - F. Extending a gauge-invariant lattice measure for chiral fermions to vector-like matter, gauge singlets and scalars (27 November 2026): [10.5281/zenodo.24577255](https://doi.org/10.5281/zenodo.24577255)
 
-- **Everything in this repository (code, data, documents and website text):** © 2026 Matthew Gelfman and Melissa Behrends-Gelfman, released under the Creative Commons Attribution 4.0 International licence, CC BY 4.0 ([`LICENSE`](LICENSE); summary in [`LICENSE-DOCS.md`](LICENSE-DOCS.md)).
+- **Code and data:** MIT License, © 2026 Matthew Gelfman and Melissa Behrends-Gelfman ([`LICENSE`](LICENSE)).
+- **Papers, documents and website text:** © 2026 Matthew Gelfman and Melissa Behrends-Gelfman, Creative Commons Attribution 4.0 International, CC BY 4.0 ([`LICENSE-DOCS.md`](LICENSE-DOCS.md)).
