@@ -53,7 +53,7 @@ String theory is the boldest example in physics of following the mathematics whe
 
 ### How it differs from TRPG
 - **Dimensions.** String theory needs extra dimensions. TRPG uses none: no extra dimensions and no hidden universes.
-- **Numbers.** String theory has no measured numbers yet. TRPG puts numbers on the line (strong coupling 0.1178, neutrino sum 0.0594 eV), and they could fail.
+- **Numbers.** String theory has no measured numbers yet. TRPG puts numbers on the line (strong coupling 0.1178, neutrino sum 0.0591 to 0.0594 eV), and they could fail.
 - **Testing and scrutiny.** String theory has been checked by thousands of physicists over fifty years. TRPG has not yet been peer-reviewed.
 - **What they share.** One version of string theory (Candelas, Horowitz, Strominger and Witten, 1985) arrives at the same E6 family of 27 that TRPG uses. And string theory's discovery that entanglement builds geometry is in line with TRPG's idea that gravity is a byproduct of entanglement.
 
