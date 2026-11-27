@@ -71,13 +71,13 @@ For the Standard Model with three gauge-singlet neutrinos, and for the full 27 (
 
 In the all-left-handed language, Yukawa couplings, Dirac masses of vector-like pairs and Majorana masses of singlets are field–field and antifield–antifield bilinears. The fermion integral of exp(−S) against the fixed top form defined by the measure is a well-defined number for any polynomial S: it is the Pfaffian of the bilinear form written in the measure's basis. It is gauge invariant whenever every term in S is. The measure fixes the Pfaffian's sign, so there is no square-root ambiguity. The sign is not positive in general, which matters for simulation but not for the definition.
 
-The scalars are added with nearest-neighbour covariant hopping and quartic potentials bounded below, so on a finite lattice their integrals converge. A majoron field σ of B − L charge −2 couples as σ N^c N^c. By Lemma 2 its U(1) is then exact on the lattice, and any explicit breaking is a separate, deliberate term. The θ-term exp(iθ n) is a constant phase per topological sector, which is the kind of freedom Craig's construction leaves, so the lattice neither fixes nor forbids θ. The freedom is a phase per connected component of admissible fields, which is in general wider than the θ-terms; we do not show that locality reduces it to them.
+The scalars are added with nearest-neighbour covariant hopping and quartic potentials bounded below, so on a finite lattice their integrals converge. A majoron field σ of B − L charge −2 couples as σ N^c^ N^c^. By Lemma 2 its U(1) is then exact on the lattice, and any explicit breaking is a separate, deliberate term. The θ-term exp(iθ n) is a constant phase per topological sector, which is the kind of freedom Craig's construction leaves, so the lattice neither fixes nor forbids θ. The freedom is a phase per connected component of admissible fields, which is in general wider than the θ-terms; we do not show that locality reduces it to them.
 
 ## 5. Application: three 27s
 
 Each generation contains:
 
-- 10 ⊕ 5̄ ⊕ 1, the Standard Model fermions and N^c;
+- 10 ⊕ 5̄ ⊕ 1, the Standard Model fermions and N^c^;
 - 5 ⊕ 5̄, the vector-like D(3,1,−1/3) and L(1,2,1/2) with their partners;
 - one further singlet.
 
@@ -95,7 +95,7 @@ We rechecked the parts of Craig's proof that can be tested by direct computation
 - **The finite comparison identity (his Lemma 5.1).** On a random gapped family of projectors, the transported phase equals the ratio of return phases to 10⁻⁹, and the curvature identity db = Ω₁ − Ω₀ holds (0.015521 against 0.015520 by finite differences).
 - **The global step.** The spin and colour matrices of his global argument, the Kramers pairing that removes the last sign (determinant 1 to 10⁻¹⁵), the Standard Model embedding with its Z₆ kernel, and the localisation-window identities.
 
-Read and followed, but not re-derived: the global integrability argument and the reconstruction (his Sections 8 and 9) and the restriction to the Standard Model (his Section 11). Not checked: the analytic estimates in his appendices (locality, uniform constants, the order-h⁸ bounds, independence of the volume), the gap bound he cites from Hernández, Jansen and Lüscher (1999), and his Lean formalization and two-dimensional supplement, which we could not access. No error was found. This is an independent, partial check, not a second proof: every finite step we could compute holds, and the analytic estimates are left to specialists.
+Read and followed, but not re-derived: the global integrability argument and the reconstruction (his Sections 8 and 9) and the restriction to the Standard Model (his Section 11). Not checked: the analytic estimates in his appendices (locality, uniform constants, the order-h⁸ bounds, independence of the volume), the gap bound he cites from Hernández, Jansen and Lüscher (1999), and his Lean formalization and two-dimensional supplement, which we did not inspect. No discrepancies were identified in the checks performed. This is an independent, partial check, not a second proof: every finite step we could compute holds, and the analytic estimates are left to specialists.
 
 ## 7. What remains open
 
@@ -106,7 +106,7 @@ Read and followed, but not re-derived: the global integrability argument and the
 
 ## Data and code
 
-The scripts `analysis/vectorlike_pair_measure_check_2026-11-27.py`, `analysis/bl_exact_on_lattice_2026-11-27.py`, `analysis/lattice_fit_check_2026-11-27.py` and `analysis/extras_theta_baryon_alternatives_2026-11-27.py` and `analysis/craig_proof_recheck_2026-11-27.py`, with their saved outputs, are in the TRPG code archive, doi:10.5281/zenodo.24329239. The framework is described in doi:10.5281/zenodo.24330763.
+The scripts `analysis/vectorlike_pair_measure_check_2026-11-27.py`, `analysis/bl_exact_on_lattice_2026-11-27.py`, `analysis/lattice_fit_check_2026-11-27.py`, `analysis/extras_theta_baryon_alternatives_2026-11-27.py` and `analysis/craig_proof_recheck_2026-11-27.py`, with their saved outputs, are in the TRPG code archive, doi:10.5281/zenodo.24329239. The framework is described in doi:10.5281/zenodo.24330763.
 
 ## Acknowledgements
 
@@ -128,7 +128,7 @@ The construction extended here is due to N. Craig. We also acknowledge M. Golter
 - Narayanan, R. and Neuberger, H. (1994). Chiral determinant as an overlap of two vacua. *Nucl. Phys. B* 412, 574.
 - Neuberger, H. (1998). Exactly massless quarks on the lattice. *Phys. Lett. B* 417, 141.
 - Nielsen, H. B. and Ninomiya, M. (1981). Absence of neutrinos on a lattice. *Nucl. Phys. B* 185, 20.
-- OpenAI (2026). A step toward defining the Standard Model on a lattice. openai.com/index/step-toward-defining-the-standard-model (15 November 2026).
+- OpenAI (2026). A step toward defining the Standard Model on a lattice. https://openai.com/index/step-toward-defining-the-standard-model (15 November 2026).
 - Osterwalder, K. and Seiler, E. (1978). Gauge field theories on a lattice. *Ann. Phys.* 110, 440.
 - Pati, J. C. and Salam, A. (1974). Lepton number as the fourth "color". *Phys. Rev. D* 10, 275.
 - Suzuki, H. (2000). Real representation in chiral gauge theories on the lattice. *JHEP* 10, 039.

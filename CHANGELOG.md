@@ -1,5 +1,14 @@
 # Changelog
 
+## 1.4.3 (27 November 2026)
+
+Wording corrections after two outside reviews of companion papers B and F, made while preparing them for arXiv. No result, rule, prediction, score or count changed.
+
+- The inverted-ordering neutrino solution (sum 0.103 eV) is now called disfavoured, not excluded, by the current cosmological bound (paper Section 7, paper B).
+- Craig's Lean formalization and two-dimensional supplement are public on arXiv; the recheck now says we did not inspect them (paper B.7, paper F Section 6). "No error was found" now reads "No discrepancies were identified in the checks performed."
+- References: Brannen (2006) is cited as an online note; the OpenAI page has its full https address. Paper F: N^c is typeset as a superscript and a doubled "and" is removed.
+- arXiv-ready LaTeX sources (pdfLaTeX) of papers B and F are in `docs/companion_papers/arxiv/`.
+
 ## 1.4.2 (27 November 2026)
 
 New paper Appendix B and companion paper F: the particle side on a lattice. No result, rule, prediction, score or count changed.

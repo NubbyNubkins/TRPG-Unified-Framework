@@ -101,7 +101,7 @@ Please cite with the details in [`CITATION.cff`](CITATION.cff).
 - **Code, data and documents (this repository), all versions:** https://doi.org/10.5281/zenodo.24329239
 - **The paper, all versions:** https://doi.org/10.5281/zenodo.24330763
 
-These DOIs always resolve to the latest version. Version 1.4.1 itself: code, data and documents [10.5281/zenodo.24552619](https://doi.org/10.5281/zenodo.24552619); paper [10.5281/zenodo.24553325](https://doi.org/10.5281/zenodo.24553325). Version 1.4.0: code [10.5281/zenodo.24551692](https://doi.org/10.5281/zenodo.24551692); paper [10.5281/zenodo.24552099](https://doi.org/10.5281/zenodo.24552099).
+These DOIs always resolve to the latest version. Version 1.4.2 itself: code, data and documents [10.5281/zenodo.24577279](https://doi.org/10.5281/zenodo.24577279); paper [10.5281/zenodo.24577226](https://doi.org/10.5281/zenodo.24577226). Version 1.4.1: code, data and documents [10.5281/zenodo.24552619](https://doi.org/10.5281/zenodo.24552619); paper [10.5281/zenodo.24553325](https://doi.org/10.5281/zenodo.24553325). Version 1.4.0: code [10.5281/zenodo.24551692](https://doi.org/10.5281/zenodo.24551692); paper [10.5281/zenodo.24552099](https://doi.org/10.5281/zenodo.24552099).
 
 Companion papers (in `docs/companion_papers/`), each one component of the framework, all-versions DOIs:
 
@@ -110,7 +110,7 @@ Companion papers (in `docs/companion_papers/`), each one component of the framew
 - C. Vector-like states of the 27, α_s(M_Z) = 0.1178 and the Higgs mass: [10.5281/zenodo.24553500](https://doi.org/10.5281/zenodo.24553500)
 - D. An exact right-angled unitarity triangle: [10.5281/zenodo.24553502](https://doi.org/10.5281/zenodo.24553502)
 - E. No anomaly-free discrete symmetry splits the vector-like triplets and doublets: [10.5281/zenodo.24553504](https://doi.org/10.5281/zenodo.24553504)
-- F. Extending a gauge-invariant lattice measure for chiral fermions to vector-like matter, gauge singlets and scalars (27 November 2026): DOI to be added when it is archived
+- F. Extending a gauge-invariant lattice measure for chiral fermions to vector-like matter, gauge singlets and scalars (27 November 2026): [10.5281/zenodo.24577255](https://doi.org/10.5281/zenodo.24577255)
 
 - **Code and data:** MIT License ([`LICENSE`](LICENSE)).
 - **Documents and website text:** © 2026 Matthew Gelfman, all rights reserved, quotation with credit welcome ([`LICENSE-DOCS.md`](LICENSE-DOCS.md)).
