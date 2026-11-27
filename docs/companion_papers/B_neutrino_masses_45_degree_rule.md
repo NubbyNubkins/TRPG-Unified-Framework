@@ -13,7 +13,7 @@ The charged-lepton masses satisfy Koide's relation Q = (Σm)/(Σ√m)² = 2/3 to
 - with JUNO's 2026 splittings: m₁ = 0.359, m₂ = 8.60, m₃ = 50.09 meV, summing to 59.05 meV;
 - with the NuFIT 6.0 global fit (Esteban et al. 2024): m₂ = 8.66 meV and a sum of 59.16–59.36 meV.
 
-The inverted-ordering solution sums to about 0.103 eV, which today's cosmological bound excludes. With TM1 mixing and free Majorana phases, the effective neutrinoless double-beta mass is 1.34–4.02 meV.
+The inverted-ordering solution sums to about 0.103 eV, which today's cosmological bound disfavours. With TM1 mixing and free Majorana phases, the effective neutrinoless double-beta mass is 1.34–4.02 meV.
 
 We give a reason for Q = 2/3 itself. If the family amplitude matrix is invariant under a 120° turn, it is circulant: a·1 + b·P + b*·P². Maximum uncertainty between the self term and the relationship terms then fixes the self share of its weight at ½, which is exactly Q = 2/3. This principle was adopted knowing that Koide's relation holds, so we state it as a choice, not a derivation. Its value is that one statement covers the charged-lepton and neutrino cases together. The predictions can fail through inverted ordering, a sum clearly different from 0.059 eV, or a lightest mass far from 0.36 meV.
 
@@ -39,7 +39,7 @@ With one negative root, the conditions Q = 2/3, m₂² − m₁² = Δm²₂₁ 
 | NuFIT 6.0, without SK atmospheric data | 0.364 | 8.66 | 50.13 | 59.16 |
 | NuFIT 6.0, with SK atmospheric data | 0.362 | 8.66 | 50.34 | 59.36 |
 
-The sum sits just above the normal-ordering minimum (58.8 meV), so the most distinctive number is the lightest mass. The inverted solution (Σ ≈ 0.103 eV) is excluded by the cosmological bound, not by the relation.
+The sum sits just above the normal-ordering minimum (58.8 meV), so the most distinctive number is the lightest mass. The inverted solution (Σ ≈ 0.103 eV) is disfavoured by the cosmological bound, not by the relation.
 
 With TM1 mixing (Xing and Zhou 2007; Albright and Rodejohann 2009) and free Majorana phases, the effective double-beta mass is 1.34–4.02 meV, or 1.82 meV with zero phases and δ = 270°. This is below the KamLAND-Zen limit of 28–122 meV (KamLAND-Zen Collaboration 2024) and below planned reach. The masses themselves do not depend on TM1.
 
@@ -62,7 +62,7 @@ Due to medical necessity, AI language-model assistants were used, under the auth
 ## References
 
 - Albright, C. H. and Rodejohann, W. (2009). Comparing trimaximal mixing and its variants with deviations from tri-bimaximal mixing. *Eur. Phys. J. C* 62, 599.
-- Brannen, C. A. (2006). The lepton masses. Unpublished note, brannenworks.com.
+- Brannen, C. A. (2006). The lepton masses. Online note, brannenworks.com.
 - Esteban, I., Gonzalez-Garcia, M. C., Maltoni, M., Martinez-Soler, I., Pinheiro, J. P. and Schwetz, T. (2024). NuFit-6.0: updated global analysis of three-flavor neutrino oscillations. *JHEP* 12, 216.
 - Foot, R. (1994). A note on Koide's lepton mass relation. arXiv:hep-ph/9402242.
 - JUNO Collaboration (2025). First measurement of reactor neutrino oscillations at JUNO. arXiv:2511.14593.
