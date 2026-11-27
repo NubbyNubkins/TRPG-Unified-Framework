@@ -22,6 +22,30 @@ identifiers:
     value: "10.5281/zenodo.24330763"
     description: "The paper, archived on Zenodo (all versions)"
   - type: doi
+    value: "10.5281/zenodo.24584789"
+    description: "Code, data and documents, version 1.4.4"
+  - type: doi
+    value: "10.5281/zenodo.24584773"
+    description: "The paper, version 1.4.4"
+  - type: doi
+    value: "10.5281/zenodo.24584672"
+    description: "Companion paper A (quark-star pairing gap), version 1.2"
+  - type: doi
+    value: "10.5281/zenodo.24584026"
+    description: "Companion paper B (neutrino masses), version 1.3"
+  - type: doi
+    value: "10.5281/zenodo.24584702"
+    description: "Companion paper C (far-side states, strong coupling and Higgs mass), version 1.2"
+  - type: doi
+    value: "10.5281/zenodo.24584720"
+    description: "Companion paper D (right-angled quark triangle), version 1.2"
+  - type: doi
+    value: "10.5281/zenodo.24584728"
+    description: "Companion paper E (discrete-charge no-go), version 1.2"
+  - type: doi
+    value: "10.5281/zenodo.24584745"
+    description: "Companion paper F (lattice measure), version 1.2"
+  - type: doi
     value: "10.5281/zenodo.24578525"
     description: "Code, data and documents, version 1.4.3"
   - type: doi
