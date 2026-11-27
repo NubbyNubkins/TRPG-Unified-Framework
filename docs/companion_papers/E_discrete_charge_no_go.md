@@ -3,7 +3,7 @@ title: "No anomaly-free discrete symmetry splits the vector-like triplets and do
 author:
   - Matthew Gelfman (ORCID 0009-0000-6402-2258)
   - Melissa Behrends-Gelfman (ORCID 0009-0001-6281-1947)
-date: "25 November 2026"
+date: "Version 1.2, 27 November 2026"
 ---
 
 ## Abstract
@@ -12,7 +12,7 @@ Models with three generations of vector-like colour triplets D(3,1,−1/3) and w
 
 We show that no flavour-blind ℤ~N~ does this without a mixed ℤ~N~–SU(3)² anomaly. Requiring SM Yukawa couplings with one Higgs doublet makes the quarks' contribution to that anomaly vanish, which leaves 3·q~Φ~ from the three D states. Cancelling it forces Φ³ to be neutral. Then Φ² carries the charge of Φ\*, so L gets its mass at dimension four as well, and the hierarchy is lost. The argument holds for every N and every lepton, Higgs or quark charge assignment, and does not use the gravitational condition.
 
-A brute-force scan of every flavour-blind assignment for N ≤ 24 confirms this. With the weaker "half-strength" form of the gauge conditions used in some of the literature, a single solution survives (ℤ₆, with the leptons at charge 3), and only if the gravitational condition is also taken at half strength. We correct a miscounted gravitational anomaly that circulated for this ℤ₆ case. Ways around the result need extra fields, a Green–Schwarz mechanism, or explicit breaking. The last is incompatible with using the symmetry for protection (Krauss and Wilczek 1989).
+A brute-force scan of every flavour-blind assignment for N ≤ 18 confirms this. With the weaker "half-strength" form of the gauge conditions used in some of the literature, a single solution survives (ℤ₆, with the leptons at charge 3), and only if the gravitational condition is also taken at half strength. We correct a miscounted gravitational anomaly that circulated for this ℤ₆ case. Ways around the result need extra fields, a Green–Schwarz mechanism, or explicit breaking. The last is incompatible with using the symmetry for protection (Krauss and Wilczek 1989).
 
 ## 1. Setup
 
@@ -43,7 +43,7 @@ The proof uses neither (c) nor the SU(2)² and gravitational conditions. With N~
 
 ## 4. Scan and the half-strength conventions
 
-An exhaustive scan over all (q~Q~, q~l~, h, Δ~D~, Δ~L~) for N = 2 to 24 under (a) to (c) gives:
+An exhaustive scan over all (q~Q~, q~l~, h, Δ~D~, Δ~L~) for N = 2 to 18 under (a) to (c) gives:
 
 - **Strict gauge conditions (mod N):** no solution, with the gravitational condition at either strength or omitted.
 - **Gauge conditions at half strength (mod N/2):** only ℤ₆ survives, and only if the gravitational condition is also taken mod N/2 or omitted. With the gravitational condition mod N, nothing survives.
@@ -67,6 +67,9 @@ Without one of these, the relation M~L~ ≈ M~D~²/M must be taken as an assumpt
 ## Acknowledgements
 
 Due to medical necessity, AI language-model assistants were used, under the authors' direction, to draft and edit text from the authors' ideas, to carry out and check calculations, and to search the literature; every result was checked by rerunning the published code. The authors reviewed all content and take full responsibility for it.
+
+
+This paper is licensed under CC BY 4.0; its scripts and data are under the MIT License.
 
 ## References
 

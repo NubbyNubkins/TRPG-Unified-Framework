@@ -3,14 +3,14 @@ title: "Vector-like states of the 27 at two thresholds: a dated prediction α~s~
 author:
   - Matthew Gelfman (ORCID 0009-0000-6402-2258)
   - Melissa Behrends-Gelfman (ORCID 0009-0001-6281-1947)
-date: "25 November 2026"
+date: "Version 1.2, 27 November 2026"
 ---
 
 ## Abstract
 
-Each 27 of E₆ contains, besides one Standard Model generation and a neutral singlet, a vector-like colour triplet D(3,1,−1/3) and a vector-like weak doublet L(1,2,−1/2) (Gürsey, Ramond and Sikivie 1976). We place three generations of each at two thresholds. The D states sit at M~D~ = 4.6 × 10¹³ GeV, and the doublets at M~L~ = M~D~²/E~g~ = 2.4 × 10⁸ GeV, where E~g~ = M~Pl~/√2. With the measured electroweak inputs, the three gauge couplings then cross at M~D~ to 0.02 in 1/α at two loops. Closing the crossing at three loops requires α~s~(M~Z~) = 0.1178. That is 0.2σ from the world average (0.1180 ± 0.0009) and 1.7σ below the most precise lattice determination (0.11873 ± 0.00056; Dalla Brida et al. 2025), so lattice results at about 0.3% will decide it.
+Each 27 of E₆ contains, besides one Standard Model generation and a neutral singlet, a vector-like colour triplet D(3,1,−1/3) and a vector-like weak doublet L(1,2,−1/2) (Gürsey, Ramond and Sikivie 1976). We place three generations of each at two thresholds. The D states sit at M~D~ = 4.6 × 10¹³ GeV, and the doublets at M~L~ = M~D~²/E~g~ = 2.4 × 10⁸ GeV, where E~g~ = M~Pl~/√2. With the measured electroweak inputs, the three gauge couplings then cross at M~D~ to 0.02 in 1/α at two loops. Closing the crossing at three loops requires α~s~(M~Z~) = 0.1178. That is 0.2σ from the world average (0.1180 ± 0.0009) and 1.7σ below the most precise lattice determination (0.11873 ± 0.00056; Dalla Brida et al. 2026), so lattice results at about 0.3% will decide it.
 
-The same states change the running of the Higgs quartic. With the boundary condition λ(E~g~) = 0 of Shaposhnikov and Wetterich (2010), the Higgs mass is 127.2 ± 1.5 GeV, against 125.13 ± 0.11 GeV (+1.4σ). The Standard Model alone gives 128.8 ± 1.5 GeV (+2.6σ). Read the other way, the rule needs a top pole mass of 171.6 GeV, 3.7σ below today's 172.60 ± 0.27 GeV.
+The same states change the running of the Higgs quartic. With the boundary condition λ(E~g~) = 0 of Shaposhnikov and Wetterich (2010), the Higgs mass is 127.2 ± 1.5 GeV, against 125.13 ± 0.11 GeV (+1.4σ). The Standard Model alone gives 128.84 ± 1.45 GeV (+2.6σ). Read the other way, the rule needs a top pole mass of 171.6 GeV, 3.7σ below today's 172.60 ± 0.27 GeV.
 
 Three choices were made with the data in view: E~g~ (the best of five equally natural readings), the M~L~ rule, and equality of the couplings at M~D~. We state each one, together with what would falsify the construction.
 
@@ -38,7 +38,7 @@ The prediction moves with the choice of E~g~. With the unreduced Planck energy i
 
 The two-loop running starts from the NNLO matching of Buttazzo et al. (2013), and the Standard Model's three-loop shift is added as an estimate. The uncertainty includes the top pole mass (±0.27 GeV plus 0.5 GeV for the pole/Monte-Carlo ambiguity), α~s~ and missing higher orders. The condition λ(E~g~) = 0 then gives:
 
-- Standard Model only: m~H~ = 128.8 ± 1.5 GeV.
+- Standard Model only: m~H~ = 128.84 ± 1.45 GeV.
 - With the D and L states: m~H~ = 127.2 ± 1.5 GeV. Without the 0.5 GeV allowance the tension is 2.1σ.
 
 The pass line, fixed before running, was 2σ. The result passes only with the allowance.
@@ -67,10 +67,13 @@ The construction fails if any of the following is observed:
 
 Due to medical necessity, AI language-model assistants were used, under the authors' direction, to draft and edit text from the authors' ideas, to carry out and check calculations, and to search the literature; every result was checked by rerunning the published code. The authors reviewed all content and take full responsibility for it.
 
+
+This paper is licensed under CC BY 4.0; its scripts and data are under the MIT License.
+
 ## References
 
 - Buttazzo, D., Degrassi, G., Giardino, P. P., Giudice, G. F., Sala, F., Salvio, A. and Strumia, A. (2013). Investigating the near-criticality of the Higgs boson. *JHEP* 12, 089.
-- Dalla Brida, M., Höllwieser, R., Knechtli, F., Korzec, T., Ramos, A., Sint, S. and Sommer, R. (ALPHA) (2025). The strength of the interaction between quarks and gluons. arXiv:2501.06633.
+- Dalla Brida, M., Höllwieser, R., Knechtli, F., Korzec, T., Ramos, A., Sint, S. and Sommer, R. (ALPHA) (2026). The strength of the interaction between quarks and gluons. *Nature* 652, 328; arXiv:2501.06633.
 - Gürsey, F., Ramond, P. and Sikivie, P. (1976). A universal gauge theory model based on E6. *Phys. Lett. B* 60, 177.
 - Luo, M., Wang, H. and Xiao, Y. (2003). Two-loop renormalization group equations in general gauge field theories. *Phys. Rev. D* 67, 065019.
 - Machacek, M. E. and Vaughn, M. T. (1984). Two-loop renormalization group equations in a general quantum field theory. II. Yukawa couplings. *Nucl. Phys. B* 236, 221.
