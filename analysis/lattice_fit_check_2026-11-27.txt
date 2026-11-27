@@ -1,0 +1,37 @@
+== SM generation + hidden partner (16): 16 Weyl states
+   SU3cubed       0
+   SU3sq_Y        0
+   SU2sq_Y        0
+   Y_cubed        0
+   grav_Y         0
+   SU2_doublets   4
+   BL_cubed       0
+   BL_grav        0
+   SU2sq_BL       0
+   SU3sq_BL       0
+   Y_BLsq         0
+   BL_Ysq         0
+   SU(5) homes      10 + 5bar + 1
+   SU(5) cubic sum  0
+   doublets under SU(2) on two SU(5) colours: 4 -> even, passes
+== TRPG main-line generation (27): 27 Weyl states
+   SU3cubed       0
+   SU3sq_Y        0
+   SU2sq_Y        0
+   Y_cubed        0
+   grav_Y         0
+   SU2_doublets   6
+   BL_cubed       0
+   BL_grav        0
+   SU2sq_BL       0
+   SU3sq_BL       0
+   Y_BLsq         0
+   BL_Ysq         0
+   SU(5) homes      10 + 5bar + 5 + 5bar + 1 + 1
+   SU(5) cubic sum  0
+   doublets under SU(2) on two SU(5) colours: 6 -> even, passes
+
+One-loop coefficients (positive = asymptotically free), three generations:
+   SM + 3 hidden partners   b3 = 7, b2 = 19/6
+   TRPG with far side       b3 = 5, b2 = 7/6
+   (U(1)_Y is not asymptotically free in either; same status as the SM.)

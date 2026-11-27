@@ -1,0 +1,371 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+\PassOptionsToPackage{dvipsnames,svgnames,x11names}{xcolor}
+\documentclass[
+  11pt,
+]{article}
+\usepackage{xcolor}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amssymb}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math} % this also loads fontspec
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage{lmodern}
+\ifPDFTeX\else
+  % xetex/luatex font selection
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{longtable,booktabs,array}
+\newcounter{none} % for unnumbered tables
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\usepackage{bookmark}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same}
+\hypersetup{
+  colorlinks=true,
+  linkcolor={Maroon},
+  filecolor={Maroon},
+  citecolor={Blue},
+  urlcolor={Blue},
+  pdfcreator={LaTeX via pandoc}}
+
+\usepackage{amssymb}
+\usepackage{newunicodechar}
+\newunicodechar{°}{\ensuremath{^\circ}}
+\newunicodechar{±}{\ensuremath{\pm}}
+\newunicodechar{²}{\ensuremath{^{2}}}
+\newunicodechar{·}{\ensuremath{\cdot}}
+\newunicodechar{¼}{\ensuremath{\frac{1}{4}}}
+\newunicodechar{½}{\ensuremath{\frac{1}{2}}}
+\newunicodechar{×}{\ensuremath{\times}}
+\newunicodechar{÷}{\ensuremath{\div}}
+\newunicodechar{ħ}{\ensuremath{\hbar}}
+\newunicodechar{̄}{}
+\newunicodechar{Δ}{\ensuremath{\Delta}}
+\newunicodechar{Λ}{\ensuremath{\Lambda}}
+\newunicodechar{Σ}{\ensuremath{\Sigma}}
+\newunicodechar{Φ}{\ensuremath{\Phi}}
+\newunicodechar{Ω}{\ensuremath{\Omega}}
+\newunicodechar{α}{\ensuremath{\alpha}}
+\newunicodechar{β}{\ensuremath{\beta}}
+\newunicodechar{γ}{\ensuremath{\gamma}}
+\newunicodechar{δ}{\ensuremath{\delta}}
+\newunicodechar{η}{\ensuremath{\eta}}
+\newunicodechar{θ}{\ensuremath{\theta}}
+\newunicodechar{λ}{\ensuremath{\lambda}}
+\newunicodechar{μ}{\ensuremath{\mu}}
+\newunicodechar{ν}{\ensuremath{\nu}}
+\newunicodechar{ξ}{\ensuremath{\xi}}
+\newunicodechar{π}{\ensuremath{\pi}}
+\newunicodechar{ρ}{\ensuremath{\rho}}
+\newunicodechar{σ}{\ensuremath{\sigma}}
+\newunicodechar{τ}{\ensuremath{\tau}}
+\newunicodechar{χ}{\ensuremath{\chi}}
+\newunicodechar{ψ}{\ensuremath{\psi}}
+\newunicodechar{ᵘ}{\ensuremath{^{\mu}}}
+\newunicodechar{ᵤ}{\ensuremath{_{\mu}}}
+\newunicodechar{″}{\ensuremath{^{\prime\prime}}}
+\newunicodechar{ℂ}{\ensuremath{\mathbb{C}}}
+\newunicodechar{ℍ}{\ensuremath{\mathbb{H}}}
+\newunicodechar{ℓ}{\ensuremath{\ell}}
+\newunicodechar{ℝ}{\ensuremath{\mathbb{R}}}
+\newunicodechar{ℤ}{\ensuremath{\mathbb{Z}}}
+\newunicodechar{→}{\ensuremath{\to}}
+\newunicodechar{∂}{\ensuremath{\partial}}
+\newunicodechar{−}{\ensuremath{-}}
+\newunicodechar{∓}{\ensuremath{\mp}}
+\newunicodechar{√}{\ensuremath{\surd}}
+\newunicodechar{∝}{\ensuremath{\propto}}
+\newunicodechar{∫}{\ensuremath{\int}}
+\newunicodechar{≈}{\ensuremath{\approx}}
+\newunicodechar{≥}{\ensuremath{\ge}}
+\newunicodechar{≲}{\ensuremath{\lesssim}}
+\newunicodechar{≳}{\ensuremath{\gtrsim}}
+\newunicodechar{𝕆}{\ensuremath{\mathbb{O}}}
+\newunicodechar{⊕}{\ensuremath{\oplus}}
+\newunicodechar{⁻}{\ensuremath{^{-}}}
+\newunicodechar{¹}{\ensuremath{^{1}}}
+\newunicodechar{⁴}{\ensuremath{^{4}}}
+\newunicodechar{₀}{\ensuremath{_{0}}}
+\newunicodechar{₁}{\ensuremath{_{1}}}
+\newunicodechar{₂}{\ensuremath{_{2}}}
+\newunicodechar{₃}{\ensuremath{_{3}}}
+\newunicodechar{₄}{\ensuremath{_{4}}}
+\newunicodechar{₅}{\ensuremath{_{5}}}
+\newunicodechar{₆}{\ensuremath{_{6}}}
+\newunicodechar{ₖ}{\ensuremath{_{k}}}
+\newunicodechar{̂}{}
+\newunicodechar{φ}{\ensuremath{\phi}}
+\newunicodechar{∮}{\ensuremath{\oint}}
+\newunicodechar{‖}{\ensuremath{\Vert}}
+\newunicodechar{≡}{\ensuremath{\equiv}}
+\newunicodechar{≢}{\ensuremath{\not\equiv}}
+\newunicodechar{∎}{\ensuremath{\blacksquare}}
+\newunicodechar{𝒯}{\ensuremath{\mathcal{T}}}
+\newunicodechar{⁸}{\ensuremath{^{8}}}
+\newunicodechar{³}{\ensuremath{^{3}}}
+\newunicodechar{⁰}{\ensuremath{^{0}}}
+\newunicodechar{≤}{\ensuremath{\le}}
+\newunicodechar{ε}{\ensuremath{\epsilon}}
+\newunicodechar{Γ}{\ensuremath{\Gamma}}
+\newunicodechar{∗}{\ensuremath{*}}
+\newunicodechar{′}{\ensuremath{^{\prime}}}
+\newunicodechar{ᵀ}{\ensuremath{^{T}}}
+\newunicodechar{₊}{\ensuremath{_{+}}}
+\newunicodechar{₋}{\ensuremath{_{-}}}
+\newunicodechar{⁵}{\ensuremath{^{5}}}
+\newunicodechar{⁹}{\ensuremath{^{9}}}
+\newunicodechar{⁶}{\ensuremath{^{6}}}
+\newunicodechar{⁷}{\ensuremath{^{7}}}
+
+
+
+\title{Extending a gauge-invariant lattice measure for chiral fermions to vector-like matter, gauge singlets and scalars}
+\author{Matthew Gelfman (ORCID 0009-0000-6402-2258) \\ Melissa Behrends-Gelfman (ORCID 0009-0001-6281-1947)}
+\date{27 November 2026}
+\title{Extending a gauge-invariant lattice measure for chiral fermions to vector-like matter, gauge singlets and scalars}
+\author{Matthew Gelfman (ORCID 0009-0000-6402-2258) \\ Melissa Behrends-Gelfman (ORCID 0009-0001-6281-1947)}
+\date{27 November 2026}
+\begin{document}
+\maketitle
+\hypertarget{abstract}{%
+\subsection{Abstract}\label{abstract}}
+
+Craig (2026) has proposed a smooth, gauge-invariant overlap-fermion measure for the Standard Model's left-handed fermions, 10 \ensuremath{\oplus} \ensuremath{\bar{5}} per generation embedded in SU(5), on admissible lattice gauge fields. Many extensions of the Standard Model add three kinds of field to that content:
+
+\begin{itemize}
+\tightlist
+\item
+  vector-like pairs r \ensuremath{\oplus} \ensuremath{\bar{r}}, such as the 5 \ensuremath{\oplus} \ensuremath{\bar{5}} of the E\ensuremath{_{6}} 27;
+\item
+  gauge-singlet fermions, such as right-handed neutrinos with Majorana masses;
+\item
+  scalars, such as the Higgs doublet or a majoron field.
+\end{itemize}
+
+We show that none of these adds a phase problem.
+
+\begin{enumerate}
+\def\labelenumi{(\roman{enumi})}
+\item
+  In four dimensions the left-handed overlap projector in \ensuremath{\bar{r}} is the image of the one in r under one fixed antiunitary map, A\ensuremath{\cdot}conj(\ensuremath{\cdot})\ensuremath{\cdot}A\ensuremath{^{-}}\ensuremath{^{1}} with A = \ensuremath{\gamma}\ensuremath{_{5}}C\ensuremath{^{-}}\ensuremath{^{1}}, for every gauge field. A vector-like pair therefore carries a canonical measure with no phase to fix. Craig's covered families already include such pairs; Lemma 1 gives them an explicit form and a second route that uses his construction only for the chiral part. Its return phases cancel exactly, so Craig's integrability condition holds for the extended content.
+\item
+  A global U(1) acting on the fermions is an exact symmetry of the lattice measure in every topological sector if and only if its mixed anomalies with the gauge groups vanish. Thus B \ensuremath{-} L is exact with three singlets, while B and L each change only by 3 in one unit of weak topology.
+\item
+  Yukawa, Dirac and Majorana bilinears and scalar fields then give well-defined, gauge-invariant correlation functions at every finite lattice spacing, through a Pfaffian whose sign the measure fixes.
+\item
+  We recheck independently every finite, computable step of Craig's proof: the colour-trace cancellation and where it stops, his two tests on the content, the free-field facts, his finite comparison identity, and the algebra of his global step. All 18 checks pass. His analytic estimates and formal proof files are not checked.
+\end{enumerate}
+
+We check (i) numerically to 10\ensuremath{^{-}}\ensuremath{^{1}}\ensuremath{^{3}} on a 3\ensuremath{^{4}} SU(3) lattice, with a two-dimensional control in which the map cannot exist and the cancellation indeed fails. We check (ii) on a two-dimensional U(1) lattice. The results are conditional on Craig's theorem, which we recheck in part (Section 6) but do not re-derive. They leave reflection positivity and the continuum limit open, as they are for the Standard Model. As an application, the three-generation 27 with the Standard Model gauge group, one Higgs doublet and a majoron field is defined at finite spacing.
+
+\hypertarget{setting}{%
+\subsection{1. Setting}\label{setting}}
+
+On a finite periodic lattice we use the Wilson--Dirac operator D\_W with r = 1, the Hermitian H = \ensuremath{\gamma}\ensuremath{_{5}}(D\_W \ensuremath{-} 1), and the overlap operator D = 1 + \ensuremath{\gamma}\ensuremath{_{5}} sign H (Narayanan and Neuberger, 1994; Neuberger, 1998). This operator obeys the Ginsparg--Wilson relation (Ginsparg and Wilson, 1982), so it avoids the doublers that the Nielsen--Ninomiya theorem forces on naive discretizations (Nielsen and Ninomiya, 1981). We follow Lüscher (1999):
+
+\begin{itemize}
+\tightlist
+\item
+  a left-handed field in representation R obeys \ensuremath{\hat{P}}\ensuremath{_{-}}\ensuremath{\psi} = \ensuremath{\psi}, where \ensuremath{\hat{P}}\ensuremath{_{-}} = (1 + sign H)/2 depends on the gauge field U;
+\item
+  its antifield obeys \ensuremath{\bar{\ensuremath{\psi}}}P\ensuremath{_{+}} = \ensuremath{\bar{\ensuremath{\psi}}}, where P\ensuremath{_{+}} = (1 + \ensuremath{\gamma}\ensuremath{_{5}})/2 is fixed.
+\end{itemize}
+
+The fermion measure is fixed by a basis v\_j(U) of the range of \ensuremath{\hat{P}}\ensuremath{_{-}}. A change of basis by a unitary Q multiplies the measure by det Q\ensuremath{^{-}}\ensuremath{^{1}}, a phase.
+
+On fields that obey a plaquette bound (admissibility; Lüscher, 1999), Craig (2026) constructs a smooth, gauge-covariant measure current for R = 10 \ensuremath{\oplus} \ensuremath{\bar{5}} of SU(5), per generation, restricted to the Standard Model and its quotients. His Proposition 11.1 and Table 3 extend this to any SU(N\_c) content with zero cubic anomaly and an even count of half-integer isospins, combined with conjugates and gauge singlets, which includes vector-like pairs. The current satisfies the integrability condition W{[}\ensuremath{\gamma}{]} = \ensuremath{\mathcal{T}}{[}\ensuremath{\gamma}{]} on every closed curve of admissible fields, where \ensuremath{\mathcal{T}} is the return phase of the projector family. This fixes the measure up to one constant phase on each topological sector. Earlier steps toward this were made by Lüscher (1999) for abelian theories and by Kadoh and Kikukawa (2008) for the electroweak theory. Craig's paper was prepared with the aid of OpenAI's GPT-6 Astra. Reflection positivity at finite spacing is not established there.
+
+\hypertarget{vector-like-pairs}{%
+\subsection{2. Vector-like pairs}\label{vector-like-pairs}}
+
+\textbf{Lemma 1.} Let C be a charge-conjugation matrix (C\ensuremath{\gamma}\_\ensuremath{\mu}C\ensuremath{^{-}}\ensuremath{^{1}} = \ensuremath{-}\ensuremath{\gamma}\_\ensuremath{\mu}\ensuremath{^{T}} for Hermitian Euclidean \ensuremath{\gamma}\_\ensuremath{\mu}) and A = \ensuremath{\gamma}\ensuremath{_{5}}C\ensuremath{^{-}}\ensuremath{^{1}}. For any compact gauge group, any unitary representation r with conjugate \ensuremath{\bar{r}}, and any gauge field U,
+
+\ensuremath{\hat{P}}\ensuremath{_{-}}{[}\ensuremath{\bar{r}}{]}(U) = A \ensuremath{\cdot} conj(\ensuremath{\hat{P}}\ensuremath{_{-}}{[}r{]}(U)) \ensuremath{\cdot} A\ensuremath{^{-}}\ensuremath{^{1}}.
+
+\emph{Proof.} With Hermitian \ensuremath{\gamma}\_\ensuremath{\mu}, conj(\ensuremath{\gamma}\_\ensuremath{\mu}) = \ensuremath{\gamma}\_\ensuremath{\mu}\ensuremath{^{T}}, and A\ensuremath{\cdot}\ensuremath{\gamma}\_\ensuremath{\mu}\ensuremath{^{T}}\ensuremath{\cdot}A\ensuremath{^{-}}\ensuremath{^{1}} = \ensuremath{\gamma}\ensuremath{_{5}}C\ensuremath{^{-}}\ensuremath{^{1}}\ensuremath{\gamma}\_\ensuremath{\mu}\ensuremath{^{T}}C\ensuremath{\gamma}\ensuremath{_{5}} = \ensuremath{-}\ensuremath{\gamma}\ensuremath{_{5}}\ensuremath{\gamma}\_\ensuremath{\mu}\ensuremath{\gamma}\ensuremath{_{5}} = \ensuremath{\gamma}\_\ensuremath{\mu}. Since C\ensuremath{^{-}}\ensuremath{^{1}}\ensuremath{\gamma}\ensuremath{_{5}}\ensuremath{^{T}}C = \ensuremath{\gamma}\ensuremath{_{5}}, also A\ensuremath{\cdot}conj(\ensuremath{\gamma}\ensuremath{_{5}})\ensuremath{\cdot}A\ensuremath{^{-}}\ensuremath{^{1}} = \ensuremath{\gamma}\ensuremath{_{5}}, so A keeps handedness. Complex conjugation maps the links U\_\ensuremath{\mu}(x) of r to those of \ensuremath{\bar{r}}, so A\ensuremath{\cdot}conj(D\_W{[}r{]})\ensuremath{\cdot}A\ensuremath{^{-}}\ensuremath{^{1}} = D\_W{[}\ensuremath{\bar{r}}{]}. The same then holds for H, for sign H (a real function of a Hermitian matrix) and for \ensuremath{\hat{P}}\ensuremath{_{-}}. \ensuremath{\blacksquare}
+
+\textbf{Corollary 1.} For the left-handed pair r \ensuremath{\oplus} \ensuremath{\bar{r}}, choose bases v\_j for r and v\ensuremath{^{\prime}}\_j = A\ensuremath{\cdot}conj(v\_j) for \ensuremath{\bar{r}}. A change v \ensuremath{\to} vQ gives v\ensuremath{^{\prime}} \ensuremath{\to} v\ensuremath{^{\prime}}\ensuremath{\cdot}conj(Q), so the pair's measure changes by \textbar det Q\textbar\ensuremath{^{-}}\ensuremath{^{2}} = 1. The pair's measure is therefore independent of the basis. A gauge transformation \ensuremath{\Lambda} acts on \ensuremath{\bar{r}} as conj(\ensuremath{\Lambda}) and commutes with the map, so the measure is gauge invariant and smooth on admissible fields. Its return phases obey \ensuremath{\mathcal{T}}{[}\ensuremath{\bar{r}}{]} = conj(\ensuremath{\mathcal{T}}{[}r{]}), and its measure current can be taken to be zero.
+
+For R = R\_C \ensuremath{\oplus} \ensuremath{\oplus}\ensuremath{_{k}}(r\ensuremath{_{k}} \ensuremath{\oplus} \ensuremath{\bar{r}}\ensuremath{_{k}}) \ensuremath{\oplus} singlets, the product of Craig's measure for R\_C, the canonical pair measures and the constant singlet measures satisfies W = \ensuremath{\mathcal{T}}, since both sides multiply. A gauge singlet's projector does not depend on U. When a pair contains a copy of a representation already in R\_C (the \ensuremath{\bar{5}} in the 27), different assignments of the identical copies differ by a constant phase on each topological sector, which is the freedom Craig's measure already has. Real representations on the lattice were treated earlier by Suzuki (2000).
+
+In two dimensions no handedness-keeping antiunitary map exists. Every map A with A\ensuremath{\cdot}conj(\ensuremath{\gamma}\_\ensuremath{\mu})\ensuremath{\cdot}A\ensuremath{^{-}}\ensuremath{^{1}} = \ensuremath{\gamma}\_\ensuremath{\mu} reverses \ensuremath{\gamma}\ensuremath{_{5}}, because there the conjugate of a left-mover is a left-mover. This is why L(q) \ensuremath{\oplus} L(\ensuremath{-}q) is anomalous in two dimensions. It also gives a control: the cancellation must fail there.
+
+\textbf{Numerical check.} We use SU(3) on a 3\ensuremath{^{4}} lattice with random links near the identity (smallest \textbar H\textbar{} eigenvalue 0.40), and compute the sign function from the exact spectrum.
+
+\begin{itemize}
+\tightlist
+\item
+  \ensuremath{\Vert}\ensuremath{\hat{P}}\ensuremath{_{-}}{[}\ensuremath{\bar{r}}{]} \ensuremath{-} A\ensuremath{\cdot}conj(\ensuremath{\hat{P}}\ensuremath{_{-}}{[}r{]})\ensuremath{\cdot}A\ensuremath{^{-}}\ensuremath{^{1}}\ensuremath{\Vert} = 9.6 \ensuremath{\times} 10\ensuremath{^{-}}\ensuremath{^{1}}\ensuremath{^{4}}, against \ensuremath{\Vert}\ensuremath{\hat{P}}\ensuremath{_{-}}\ensuremath{\Vert} = 22, and both projectors have rank 486.
+\item
+  Along a closed loop of gauge fields, using 24 steps of parallel transport by polar decomposition, \ensuremath{\mathcal{T}}{[}r{]} = exp(\ensuremath{-}0.00531 i) and \ensuremath{\mathcal{T}}{[}r{]}\ensuremath{\mathcal{T}}{[}\ensuremath{\bar{r}}{]} = exp(1.0 \ensuremath{\times} 10\ensuremath{^{-}}\ensuremath{^{1}}\ensuremath{^{4}} i).
+\item
+  The same procedure in two dimensions (SU(3) on 6\ensuremath{^{2}}) gives a product phase of 0.26 rad, as expected.
+\end{itemize}
+
+\hypertarget{global-symmetries}{%
+\subsection{3. Global symmetries}\label{global-symmetries}}
+
+\textbf{Lemma 2.} Rotate each left-handed field f by exp(i x\_f \ensuremath{\alpha}), with the antifields rotated oppositely. The measure is then multiplied by exp(\ensuremath{-}i\ensuremath{\alpha} \ensuremath{\Sigma}\_f x\_f n\_f(U)), where n\_f is the index of the overlap operator in the representation of f.~By the lattice index theorem (Hasenfratz, Laliena and Niedermayer, 1998; Lüscher, 1998), on admissible fields in a given topological sector,
+
+\ensuremath{\Sigma}\_f x\_f n\_f = 2n\ensuremath{_{3}}\ensuremath{\cdot}A(SU(3)\ensuremath{^{2}}X) + 2n\ensuremath{_{2}}\ensuremath{\cdot}A(SU(2)\ensuremath{^{2}}X) + n\ensuremath{_{1}}\ensuremath{\cdot}A(Y\ensuremath{^{2}}X),
+
+where n\ensuremath{_{3}}, n\ensuremath{_{2}} and n\ensuremath{_{1}} label the sector and A(\ensuremath{\cdot}) are the mixed anomaly coefficients, with the usual normalisation T = \ensuremath{\frac{1}{2}} for a fundamental. The factor 2 on the non-abelian terms appears because one fundamental field has index 1, which is 2T, in one unit of topology; n\ensuremath{_{1}} is normalised so that a field of unit hypercharge has index n\ensuremath{_{1}}. Cross terms vanish because the non-abelian generators are traceless. X is therefore an exact symmetry of the lattice measure in every sector if and only if the three mixed anomalies vanish. \ensuremath{\blacksquare}
+
+For the Standard Model with three gauge-singlet neutrinos, and for the full 27 (whose added states are vector-like), X = B \ensuremath{-} L has all three coefficients zero, so it is exact at every finite spacing. For X = B or X = L separately, A(SU(2)\ensuremath{^{2}}X) = 3/2 for three generations. One unit of weak topology (n\ensuremath{_{2}} = 1) then changes B and L by 2 \ensuremath{\times} 3/2 = 3 each, the process of 't Hooft (1976), and no \ensuremath{\Delta}B = 1 process arises from the measure. \textbf{Check:} on an 8 \ensuremath{\times} 8 two-dimensional U(1) lattice the index is exactly q\ensuremath{\cdot}m for charges q = 1, 2, 3 in flux sectors m = 0, 1, 2. Global charges with zero mixed sum leave the measure unchanged in every sector, and a charge with mixed sum 6 shifts it by 6 and 12 units.
+
+\hypertarget{yukawa-majorana-and-scalar-terms}{%
+\subsection{4. Yukawa, Majorana and scalar terms}\label{yukawa-majorana-and-scalar-terms}}
+
+In the all-left-handed language, Yukawa couplings, Dirac masses of vector-like pairs and Majorana masses of singlets are field--field and antifield--antifield bilinears. The fermion integral of exp(\ensuremath{-}S) against the fixed top form defined by the measure is a well-defined number for any polynomial S: it is the Pfaffian of the bilinear form written in the measure's basis. It is gauge invariant whenever every term in S is. The measure fixes the Pfaffian's sign, so there is no square-root ambiguity. The sign is not positive in general, which matters for simulation but not for the definition.
+
+The scalars are added with nearest-neighbour covariant hopping and quartic potentials bounded below, so on a finite lattice their integrals converge. A majoron field \ensuremath{\sigma} of B \ensuremath{-} L charge \ensuremath{-}2 couples as \ensuremath{\sigma} N\^{}c N\^{}c.~By Lemma 2 its U(1) is then exact on the lattice, and any explicit breaking is a separate, deliberate term. The \ensuremath{\theta}-term exp(i\ensuremath{\theta} n) is a constant phase per topological sector, which is the kind of freedom Craig's construction leaves, so the lattice neither fixes nor forbids \ensuremath{\theta}. The freedom is a phase per connected component of admissible fields, which is in general wider than the \ensuremath{\theta}-terms; we do not show that locality reduces it to them.
+
+\hypertarget{application-three-27s}{%
+\subsection{5. Application: three 27s}\label{application-three-27s}}
+
+Each generation contains:
+
+\begin{itemize}
+\tightlist
+\item
+  10 \ensuremath{\oplus} \ensuremath{\bar{5}} \ensuremath{\oplus} 1, the Standard Model fermions and N\^{}c;
+\item
+  5 \ensuremath{\oplus} \ensuremath{\bar{5}}, the vector-like D(3,1,\ensuremath{-}1/3) and L(1,2,1/2) with their partners;
+\item
+  one further singlet.
+\end{itemize}
+
+The gauge group is SU(3) \ensuremath{\times} SU(2) \ensuremath{\times} U(1) only. The scalars are one Higgs doublet and a majoron field. All gauge and mixed-gravitational anomaly sums of the 27 vanish, and so do all six B \ensuremath{-} L anomaly sums. Craig's even-multiplicity condition counts SU(2) doublets on two colours of SU(5): 4 per generation in the 16 and 6 in the 27. Craig's theorem covers all three 27s directly (cubic sum 0, 6 doublets). Alternatively, his theorem for 3 \ensuremath{\times} (10 \ensuremath{\oplus} \ensuremath{\bar{5}}) with Lemma 1 for 3 \ensuremath{\times} (5 \ensuremath{\oplus} \ensuremath{\bar{5}}) gives the same content with the pair's measure explicit. Section 4 covers the rest. Correlation functions of the model are therefore defined and gauge invariant on every finite admissible lattice. With the vector-like states included, SU(3) and SU(2) remain asymptotically free at one loop: b\ensuremath{_{3}} = 5 and b\ensuremath{_{2}} = 7/6, against 7 and 19/6 without them.
+
+By contrast, gauging B \ensuremath{-} L, or using the Pati--Salam group (Pati and Salam, 1974), places the 16 in Spin(10). That falls outside Craig's covered families, and the proposed Spin(10) measure (Kikukawa, as cited by Craig) has open smoothness and locality. This model is one of the main-line readings of the framework of Gelfman and Behrends-Gelfman (2026), and its Appendix B states these results for it.
+
+\hypertarget{an-independent-check-of-craigs-proof}{%
+\subsection{6. An independent check of Craig's proof}\label{an-independent-check-of-craigs-proof}}
+
+We rechecked the parts of Craig's proof that can be tested by direct computation, starting from the definitions in his paper. All 18 checks pass:
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{The colour-trace identity the cancellation rests on.} Ordered traces of up to four generators agree in 10 \ensuremath{\oplus} \ensuremath{\bar{5}} and in its conjugate to 10\ensuremath{^{-}}\ensuremath{^{1}}\ensuremath{^{3}}, and so they do for the full 27. At five generators they differ, so the cancellation stops exactly where the proof needs it to (the trace reductions follow van Ritbergen, Schellekens and Vermaseren, 1999). For an anomalous content (the 10 alone) they differ already at three. Behind this is the character identity \ensuremath{\chi}(R) \ensuremath{-} \ensuremath{\chi}(R*) = det(1 \ensuremath{-} g), with \ensuremath{\chi} the character, which holds to 10\ensuremath{^{-}}\ensuremath{^{1}}\ensuremath{^{4}} on random SU(5) elements.
+\item
+  \textbf{Craig's two tests (his Section 11.3).} Zero cubic sum and an even number of half-integer isospins: 4 for 10 \ensuremath{\oplus} \ensuremath{\bar{5}}, 6 for the 27, and his own failing SU(3) example fails as he states.
+\item
+  \textbf{The free-field facts.} The Wilson gap H\ensuremath{^{2}} \ensuremath{\ge} 1, the weights of the smooth copy, and no zero mode in the comparison of coarse and fine operators (least singular value 0.46 over 848 momenta and 21 interpolation values).
+\item
+  \textbf{The finite comparison identity (his Lemma 5.1).} On a random gapped family of projectors, the transported phase equals the ratio of return phases to 10\ensuremath{^{-}}\ensuremath{^{9}}, and the curvature identity db = \ensuremath{\Omega}\ensuremath{_{1}} \ensuremath{-} \ensuremath{\Omega}\ensuremath{_{0}} holds (0.015521 against 0.015520 by finite differences).
+\item
+  \textbf{The global step.} The spin and colour matrices of his global argument, the Kramers pairing that removes the last sign (determinant 1 to 10\ensuremath{^{-}}\ensuremath{^{1}}\ensuremath{^{5}}), the Standard Model embedding with its Z\ensuremath{_{6}} kernel, and the localisation-window identities.
+\end{itemize}
+
+Read and followed, but not re-derived: the global integrability argument and the reconstruction (his Sections 8 and 9) and the restriction to the Standard Model (his Section 11). Not checked: the analytic estimates in his appendices (locality, uniform constants, the order-h\ensuremath{^{8}} bounds, independence of the volume), the gap bound he cites from Hernández, Jansen and Lüscher (1999), and his Lean formalization and two-dimensional supplement, which we could not access. No error was found. This is an independent, partial check, not a second proof: every finite step we could compute holds, and the analytic estimates are left to specialists.
+
+\hypertarget{what-remains-open}{%
+\subsection{7. What remains open}\label{what-remains-open}}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Craig's theorem.} Everything here is conditional on it. Its computable steps pass the check of Section 6; its analytic estimates have not been checked by us. It is a preprint with a Lean formalization, examined before release by the lattice field theorists M. Golterman, A. Kronfeld and Y. Shamir (as reported by OpenAI, 2026).
+\item
+  \textbf{Reflection positivity.} It is open for the overlap chiral sector. Wilson fermions for the vector-like pairs and nearest-neighbour scalars are reflection positive on their own (Osterwalder and Seiler, 1978), but their couplings to the chiral sector have not been shown to keep this.
+\item
+  \textbf{The continuum limit.} U(1) and the scalar self-couplings are expected to be trivial in four dimensions (Aizenman, 1981; Fröhlich, 1982; Aizenman and Duminil-Copin, 2021), as for the Standard Model.
+\item
+  \textbf{The derivations.} Lemmas 1 and 2 are elementary, but they have not been examined by a lattice specialist.
+\end{itemize}
+
+\hypertarget{data-and-code}{%
+\subsection{Data and code}\label{data-and-code}}
+
+The scripts \texttt{analysis/vectorlike\_pair\_measure\_check\_2026-11-27.py}, \texttt{analysis/bl\_exact\_on\_lattice\_2026-11-27.py}, \texttt{analysis/lattice\_fit\_check\_2026-11-27.py} and \texttt{analysis/extras\_theta\_baryon\_alternatives\_2026-11-27.py} and \texttt{analysis/craig\_proof\_recheck\_2026-11-27.py}, with their saved outputs, are in the TRPG code archive, doi:10.5281/zenodo.24329239. The framework is described in doi:10.5281/zenodo.24330763.
+
+\hypertarget{acknowledgements}{%
+\subsection{Acknowledgements}\label{acknowledgements}}
+
+The construction extended here is due to N. Craig. We also acknowledge M. Golterman, A. Kronfeld and Y. Shamir, whose examination of it is reported by OpenAI (2026). Due to medical necessity, AI language-model assistants were used, under the authors' direction, to draft and edit text from the authors' ideas, to carry out and check calculations, and to search the literature; every result was checked by rerunning the published code. The authors reviewed all content and take full responsibility for it.
+
+\hypertarget{references}{%
+\subsection{References}\label{references}}
+
+\begin{itemize}
+\tightlist
+\item
+  Aizenman, M. (1981). Proof of the triviality of \ensuremath{\phi}\ensuremath{^{4}}\_d field theory and some mean-field features of Ising models for d \textgreater{} 4. \emph{Phys. Rev.~Lett.} 47, 1.
+\item
+  Aizenman, M. and Duminil-Copin, H. (2021). Marginal triviality of the scaling limits of critical 4D Ising and \ensuremath{\phi}\ensuremath{^{4}}\ensuremath{_{4}} models. \emph{Ann. Math.} 194, 163.
+\item
+  Craig, N. (2026). A gauge-invariant measure for lattice chiral fermions. arXiv:2610.09093 {[}hep-lat{]}.
+\item
+  Fröhlich, J. (1982). On the triviality of \ensuremath{\lambda}\ensuremath{\phi}\ensuremath{^{4}}\_d theories and the approach to the critical point in d \ensuremath{\ge} 4 dimensions. \emph{Nucl. Phys. B} 200, 281.
+\item
+  Gelfman, M. and Behrends-Gelfman, M. (2026). Dynamic Relational Transitioning Geometry. doi:10.5281/zenodo.24330763.
+\item
+  Ginsparg, P. H. and Wilson, K. G. (1982). A remnant of chiral symmetry on the lattice. \emph{Phys. Rev.~D} 25, 2649.
+\item
+  Hasenfratz, P., Laliena, V. and Niedermayer, F. (1998). The index theorem in QCD with a finite cut-off. \emph{Phys. Lett. B} 427, 125.
+\item
+  Hernández, P., Jansen, K. and Lüscher, M. (1999). Locality properties of Neuberger's lattice Dirac operator. \emph{Nucl. Phys. B} 552, 363.
+\item
+  Kadoh, D. and Kikukawa, Y. (2008). A construction of the Glashow--Weinberg--Salam model on the lattice with exact gauge invariance. \emph{JHEP} 05, 095.
+\item
+  Lüscher, M. (1998). Exact chiral symmetry on the lattice and the Ginsparg--Wilson relation. \emph{Phys. Lett. B} 428, 342.
+\item
+  Lüscher, M. (1999). Abelian chiral gauge theories on the lattice with exact gauge invariance. \emph{Nucl. Phys. B} 549, 295.
+\item
+  Narayanan, R. and Neuberger, H. (1994). Chiral determinant as an overlap of two vacua. \emph{Nucl. Phys. B} 412, 574.
+\item
+  Neuberger, H. (1998). Exactly massless quarks on the lattice. \emph{Phys. Lett. B} 417, 141.
+\item
+  Nielsen, H. B. and Ninomiya, M. (1981). Absence of neutrinos on a lattice. \emph{Nucl. Phys. B} 185, 20.
+\item
+  OpenAI (2026). A step toward defining the Standard Model on a lattice. openai.com/index/step-toward-defining-the-standard-model (15 November 2026).
+\item
+  Osterwalder, K. and Seiler, E. (1978). Gauge field theories on a lattice. \emph{Ann. Phys.} 110, 440.
+\item
+  Pati, J. C. and Salam, A. (1974). Lepton number as the fourth ``color''. \emph{Phys. Rev.~D} 10, 275.
+\item
+  Suzuki, H. (2000). Real representation in chiral gauge theories on the lattice. \emph{JHEP} 10, 039.
+\item
+  't Hooft, G. (1976). Symmetry breaking through Bell--Jackiw anomalies. \emph{Phys. Rev.~Lett.} 37, 8.
+\item
+  van Ritbergen, T., Schellekens, A. N. and Vermaseren, J. A. M. (1999). Group theory factors for Feynman diagrams. \emph{Int. J. Mod. Phys. A} 14, 41.
+\end{itemize}
+
+\end{document}

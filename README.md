@@ -3,7 +3,7 @@
 **A relational, entanglement-based Theory of Everything by Matthew Gelfman and Melissa Behrends-Gelfman.**
 Website: https://trpgphysics.org
 
-TRPG is five rules and one bet (version 1.4.1; the content is that of 1.4.0).
+TRPG is five rules and one bet (version 1.4.2; the content is that of 1.4.0, with a lattice definition of the particle side added as paper Appendix B and companion paper F).
 
 - **Rule 1. One matrix of relationships**, seen one perspective at a time, with entanglement first. Matter is held states on the diagonal, forces are the links between them, the Higgs is the link across one state (its left side to its right side), and space and time are the geometry of the relationships ([`figures/relationship_matrix_diagonal_links.png`](figures/relationship_matrix_diagonal_links.png)).
 - **Rule 2. Balance.** Whatever holds together is a pull balanced by a resistance (containment); mass is that balance.
@@ -110,6 +110,7 @@ Companion papers (in `docs/companion_papers/`), each one component of the framew
 - C. Vector-like states of the 27, α_s(M_Z) = 0.1178 and the Higgs mass: [10.5281/zenodo.24553500](https://doi.org/10.5281/zenodo.24553500)
 - D. An exact right-angled unitarity triangle: [10.5281/zenodo.24553502](https://doi.org/10.5281/zenodo.24553502)
 - E. No anomaly-free discrete symmetry splits the vector-like triplets and doublets: [10.5281/zenodo.24553504](https://doi.org/10.5281/zenodo.24553504)
+- F. Extending a gauge-invariant lattice measure for chiral fermions to vector-like matter, gauge singlets and scalars (27 November 2026): DOI to be added when it is archived
 
 - **Code and data:** MIT License ([`LICENSE`](LICENSE)).
 - **Documents and website text:** © 2026 Matthew Gelfman, all rights reserved, quotation with credit welcome ([`LICENSE-DOCS.md`](LICENSE-DOCS.md)).

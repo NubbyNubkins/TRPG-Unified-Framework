@@ -1,0 +1,20 @@
+[PASS] 1 character identity (81): max |chi_R - chi_R* - det(1-g)| = 2.3e-14 over 200 random SU(5)
+[PASS] 2 ordered traces (80), 10+5bar: max |tr_R - tr_R*| for 1..4 generators = 7e-15, 4e-15, 2e-14, 7e-14; at 5 generators it is 594.03 (nonzero, so the cancellation stops at four, as used)
+[PASS] 2 ordered traces (80), E6 27 = 10+5bar+1+5+5bar+1: max |tr_R - tr_R*| for 1..4 generators = 5e-15, 7e-15, 3e-14, 7e-14; at 5 generators it is 408.35 (nonzero, so the cancellation stops at four, as used)
+[PASS] 2 control: anomalous content (the 10 alone): 3-generator difference = 37.29, nonzero as it must be
+[PASS] 3 Section 11.3 tests, 10+5bar: sum of g3 charges cubed = 0; odd g2 charges {-1: 4, 1: 4} -> 4 doublets (even)
+[PASS] 3 Section 11.3 tests, E6 27: sum of g3 charges cubed = 0; odd g2 charges {-1: 6, 1: 6} -> 6 doublets (even)
+[PASS] 3 Craig's SU(3) example 10 + 27x3bar: cubic sum 0 (passes), odd g2 multiplicities {-3: 1, -1: 29, 1: 29, 3: 1} (charge +-3 occurs once: fails pairing, as stated)
+[PASS] 4 spin matrices (174), (175): B conj(B) = -1 (0e+00), B conj(g_mu) B^-1 = g_mu (0e+00), also g5 (0e+00); reflection S = g5 g(v): S g S^-1 = O g (4e-16), S g5 S^-1 = -g5 (3e-16), B conj(S) B^-1 = S (0e+00)
+[PASS] 5a free Wilson gap (177) and inclusion weights (178), (190): min eigenvalue of H(k)^2 = 1.000265 (>= 1); |sum w^2 - 1| <= 8e-16; (190) to 7e-16
+[PASS] 5b free comparison has no zero mode (180): least singular value of the 324x324 interpolation over 848 momenta x 21 values of s = 0.4586 (at p = [-0.449 -3.142 -0.449  0.449], s = 0.50); the proof needs only g* > 0
+[PASS] 6a Lemma 5.1 phase identity (61): gap >= 0.322; exp(i oint b) = 0.99487986+0.10106466j, T1/T0 = 0.99487986+0.10106467j, difference 2.5e-09 (T0 = 0.999681-0.025248j, T1 = 0.997114+0.075914j: both nontrivial)
+[PASS] 6b complementary projector (Section 8.4): T[P] T[1-P] = 1.0000000000+0.0000000000j and 1.0000000000+0.0000000000j
+[PASS] 6c Lemma 5.1 curvature identity d b = Omega_1 - Omega_0: d b = 0.015521, Omega_1 - Omega_0 = 0.015520
+[PASS] 7 identity (93): max |Tr P[X,[G,P]] - Tr GX| = 9.3e-09 (X a finite-difference tangent)
+[PASS] 8a Kramers pairing (113): det of 100 random J-commuting unitaries = 1 to 6e-15
+[PASS] 8b copy pairing (132): C_j^2 = -1, J_col^2 = +1, and J_col commutes with SU(2) on two doublet copies (5e-16)
+[PASS] 9 Standard Model embedding (121)-(123): phi(c6^k) = 1 for k = 0..5 (3e-15); c6 acts trivially on every SM multiplet (9e-16)
+[PASS] 10 window identities (198), (200), (201): s_L = (2L^2+1)/(3L) and the difference sum 6/(2L^2+1) <= 3/L^2 for L = 1..11
+
+18 of 18 checks passed

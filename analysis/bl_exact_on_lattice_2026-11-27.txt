@@ -1,0 +1,13 @@
+Part 1: 2D U(1), 8x8 lattice, index n(q, m) of the left-handed overlap field
+   charge 1: flux 0,1,2 -> index [0, 1, 2]
+   charge 2: flux 0,1,2 -> index [0, 2, 4]
+   charge 3: flux 0,1,2 -> index [0, 3, 6]
+   index = (+/-) q*m in every case: True
+   global charges x=(2, -1, 0) on fields of charge (1,2,3): mixed anomaly sum x.q = +0; measure phase factor per unit angle in flux 0,1,2 = [0, 0, 0] -> exact symmetry
+   global charges x=(3, 0, -1) on fields of charge (1,2,3): mixed anomaly sum x.q = +0; measure phase factor per unit angle in flux 0,1,2 = [0, 0, 0] -> exact symmetry
+   global charges x=(1, 1, -1) on fields of charge (1,2,3): mixed anomaly sum x.q = +0; measure phase factor per unit angle in flux 0,1,2 = [0, 0, 0] -> exact symmetry
+   global charges x=(1, 1, 1) on fields of charge (1,2,3): mixed anomaly sum x.q = +6; measure phase factor per unit angle in flux 0,1,2 = [0, 6, 12] -> broken by topology
+
+Part 2: TRPG's 27 per generation (left-handed Weyl), mixed sums with the gauge groups
+   X = B - L (majoron's symmetry)   SU3^2 X = 0, SU2^2 X = 0, Y^2 X = 0  -> exact on the lattice in every sector
+   X = L alone (control)            SU3^2 X = 0, SU2^2 X = 1/2, Y^2 X = -1/2  -> broken by gauge topology (sphalerons), as in nature

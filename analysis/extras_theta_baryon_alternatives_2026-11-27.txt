@@ -1,0 +1,11 @@
+B: SU3^2 = 0, SU2^2 = 3/2 -> one unit of weak topology changes B by 3
+L: SU3^2 = 0, SU2^2 = 3/2 -> one unit of weak topology changes L by 3
+=> only Delta B = Delta L = 3 (one unit per generation, B - L kept): no proton decay from the lattice measure,
+   matching the framework's 'no proton decay' statement at the renormalisable level.
+
+Recorded alternatives vs Craig's covered families:
+ main line   : SM gauge group, 3 x (10 + 5bar) + vector-like pairs + singlets -> covered (Craig + Lemma A)
+ gauged B-L  : extra U(1)_{B-L}; the 16 per generation is the Spin(10) spinor -> not in Craig's list;
+               Kikukawa's Spin(10) 16 measure: smoothness and locality open (as cited by Craig)
+ 4x4 (Pati-Salam SU(4)xSU(2)xSU(2)): (4,2,1)+(4bar,1,2) is not of Craig's form -> not covered;
+               it also embeds in Spin(10), same open status

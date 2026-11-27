@@ -1,5 +1,22 @@
 # Changelog
 
+## 1.4.2 (27 November 2026)
+
+New paper Appendix B and companion paper F: the particle side on a lattice. No result, rule, prediction, score or count changed.
+
+- Craig (2026, arXiv:2610.09093) has proposed a smooth, gauge-invariant overlap-fermion measure for the Standard Model's left-handed fermions (10 ⊕ 5̄ of SU(5) per generation). Two lemmas extend it to the rest of the main line.
+  - **Lemma A.** In four dimensions the left-handed projector in r̄ is the image of the one in r under the fixed antiunitary map A·conj(·)·A⁻¹ with A = γ₅C⁻¹. A vector-like pair (the far-side 5 ⊕ 5̄) therefore has a canonical, phase-free, gauge-invariant measure. Checked to 10⁻¹³ on a 3⁴ SU(3) lattice; in a two-dimensional control the cancellation fails, as it must. `analysis/vectorlike_pair_measure_check_2026-11-27.py`.
+  - **Lemma B.** A global charge is exact on the lattice in every topological sector if and only if its mixed anomalies vanish. B − L, the majoron's symmetry, is exact on the 27. B and L change only by 3 in one unit of weak topology, so the lattice gives no proton decay. `analysis/bl_exact_on_lattice_2026-11-27.py`, `analysis/extras_theta_baryon_alternatives_2026-11-27.py`.
+- With these lemmas the Higgs, the mass links, the Majorana mass and the majoron field are defined at every finite spacing. The fermion integral is a Pfaffian whose sign the measure fixes.
+- Anomaly sums, Craig's even-count condition (4 doublets per generation in the 16, 6 in the 27) and the one-loop coefficients (b₃ = 5, b₂ = 7/6) are in `analysis/lattice_fit_check_2026-11-27.py`.
+- The constant phase per connected component that Craig's measure leaves free has room for the strong-interaction angle, which stays a measured input. That it contains nothing else is not proved (it would need a locality argument).
+- Only the main line is covered. The gauged B − L and 4 × 4 alternatives place the 16 in Spin(10), outside Craig's covered families.
+- **Independent recheck of Craig's proof** (paper B.7, F Section 6): every finite, computable step was rechecked from his definitions, 18 of 18 checks pass and no error was found. That covers the colour-trace cancellation and where it stops, his two content tests, the free-field facts, his Lemma 5.1 and the algebra of his global step. His analytic estimates, the cited gap bound, and his Lean and two-dimensional supplements were not checked. `analysis/craig_proof_recheck_2026-11-27.py`.
+- **Correction found by the recheck:** Craig's Proposition 11.1 and Table 3 already cover the full 27 (zero cubic sum, 6 doublets, and pairs Q ⊕ Q* are listed). The earlier text said the far-side pair lay outside his theorem. Lemma A is now stated as a second, explicit route for the pair; Lemma B and the corollary remain additions.
+- **Still open:** Craig's theorem itself (a preprint), reflection positivity and the zero-spacing limit, as for the Standard Model. No number is derived.
+- The PDFs of the paper and of companion paper F are now produced with XeLaTeX (the LibreOffice export dropped the bar in 5̄).
+- Corrections after an outside check (27 November): the index-theorem sum in Lemma B now carries the factor 2 on the non-abelian terms (2n₃·A(SU(3)²X) + 2n₂·A(SU(2)²X) + n₁·A(Y²X), with T = ½ for a fundamental), matching the script; no result changes. The PDFs are rebuilt with XeLaTeX so barred symbols such as 5̄ print correctly, and the brackets in P̂₋[r̄] are restored in the Word files.
+
 ## 1.4.1 (25 November 2026)
 
 The paper's Acknowledgements now state fully how AI assistants were used, as arXiv asks: "Due to medical necessity, AI language-model assistants were used, under the authors' direction, to draft and edit text from the authors' ideas, to carry out and check calculations, and to search the literature; every result was checked by rerunning the published code. The authors reviewed all content and take full responsibility for it." The README says the same. No result, rule, prediction or count changed.
