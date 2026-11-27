@@ -39,7 +39,7 @@ On fields that obey a plaquette bound (admissibility; Lüscher, 1999), Craig (20
 
 **Lemma 1.** Let C be a charge-conjugation matrix (Cγ_μC⁻¹ = −γ_μᵀ for Hermitian Euclidean γ_μ) and A = γ₅C⁻¹. For any compact gauge group, any unitary representation r with conjugate r̄, and any gauge field U,
 
-  P̂₋[r̄](U) = A · conj(P̂₋[r](U)) · A⁻¹.
+  P̂₋\[r̄\](U) = A · conj(P̂₋\[r\](U)) · A⁻¹.
 
 *Proof.* With Hermitian γ_μ, conj(γ_μ) = γ_μᵀ, and A·γ_μᵀ·A⁻¹ = γ₅C⁻¹γ_μᵀCγ₅ = −γ₅γ_μγ₅ = γ_μ. Since C⁻¹γ₅ᵀC = γ₅, also A·conj(γ₅)·A⁻¹ = γ₅, so A keeps handedness. Complex conjugation maps the links U_μ(x) of r to those of r̄, so A·conj(D_W[r])·A⁻¹ = D_W[r̄]. The same then holds for H, for sign H (a real function of a Hermitian matrix) and for P̂₋. ∎
 
@@ -59,11 +59,11 @@ In two dimensions no handedness-keeping antiunitary map exists. Every map A with
 
 **Lemma 2.** Rotate each left-handed field f by exp(i x_f α), with the antifields rotated oppositely. The measure is then multiplied by exp(−iα Σ_f x_f n_f(U)), where n_f is the index of the overlap operator in the representation of f. By the lattice index theorem (Hasenfratz, Laliena and Niedermayer, 1998; Lüscher, 1998), on admissible fields in a given topological sector,
 
-  Σ_f x_f n_f = n₃·A(SU(3)²X) + n₂·A(SU(2)²X) + n₁·A(Y²X),
+  Σ_f x_f n_f = 2n₃·A(SU(3)²X) + 2n₂·A(SU(2)²X) + n₁·A(Y²X),
 
-where n₃, n₂ and n₁ label the sector and A(·) are the mixed anomaly coefficients. Cross terms vanish because the non-abelian generators are traceless. X is therefore an exact symmetry of the lattice measure in every sector if and only if the three mixed anomalies vanish. ∎
+where n₃, n₂ and n₁ label the sector and A(·) are the mixed anomaly coefficients, with the usual normalisation T = ½ for a fundamental. The factor 2 on the non-abelian terms appears because one fundamental field has index 1, which is 2T, in one unit of topology; n₁ is normalised so that a field of unit hypercharge has index n₁. Cross terms vanish because the non-abelian generators are traceless. X is therefore an exact symmetry of the lattice measure in every sector if and only if the three mixed anomalies vanish. ∎
 
-For the Standard Model with three gauge-singlet neutrinos, and for the full 27 (whose added states are vector-like), X = B − L has all three coefficients zero, so it is exact at every finite spacing. For X = B or X = L separately, A(SU(2)²X) = 3/2 for three generations. One unit of weak topology then changes B and L by 3 each, the process of 't Hooft (1976), and no ΔB = 1 process arises from the measure. **Check:** on an 8 × 8 two-dimensional U(1) lattice the index is exactly q·m for charges q = 1, 2, 3 in flux sectors m = 0, 1, 2. Global charges with zero mixed sum leave the measure unchanged in every sector, and a charge with mixed sum 6 shifts it by 6 and 12 units.
+For the Standard Model with three gauge-singlet neutrinos, and for the full 27 (whose added states are vector-like), X = B − L has all three coefficients zero, so it is exact at every finite spacing. For X = B or X = L separately, A(SU(2)²X) = 3/2 for three generations. One unit of weak topology (n₂ = 1) then changes B and L by 2 × 3/2 = 3 each, the process of 't Hooft (1976), and no ΔB = 1 process arises from the measure. **Check:** on an 8 × 8 two-dimensional U(1) lattice the index is exactly q·m for charges q = 1, 2, 3 in flux sectors m = 0, 1, 2. Global charges with zero mixed sum leave the measure unchanged in every sector, and a charge with mixed sum 6 shifts it by 6 and 12 units.
 
 ## 4. Yukawa, Majorana and scalar terms
 

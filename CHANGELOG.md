@@ -12,7 +12,8 @@ New paper Appendix B and companion paper F: the particle side on a lattice. No r
 - The constant phase per topological sector that Craig's measure leaves free is exactly the strong-interaction angle, which stays a measured input.
 - Only the main line is covered. The gauged B − L and 4 × 4 alternatives place the 16 in Spin(10), outside Craig's covered families.
 - **Still open:** Craig's theorem itself (a preprint), reflection positivity and the zero-spacing limit, as for the Standard Model. No number is derived.
-- The paper PDF is now produced with LibreOffice from the Word file, and the LaTeX PDF with XeLaTeX.
+- The PDFs of the paper and of companion paper F are now produced with XeLaTeX (the LibreOffice export dropped the bar in 5̄).
+- Corrections after an outside check (27 November): the index-theorem sum in Lemma B now carries the factor 2 on the non-abelian terms (2n₃·A(SU(3)²X) + 2n₂·A(SU(2)²X) + n₁·A(Y²X), with T = ½ for a fundamental), matching the script; no result changes. The PDFs are rebuilt with XeLaTeX so barred symbols such as 5̄ print correctly, and the brackets in P̂₋[r̄] are restored in the Word files.
 
 ## 1.4.1 (25 November 2026)
 

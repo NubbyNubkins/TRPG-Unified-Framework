@@ -317,7 +317,7 @@ The forces are SU(3) × SU(2) × U(1) only. The scalars are the Higgs doublet an
 
 **B.3 Lemma A: the far-side pair adds no phase problem.** **Statement.** In four dimensions, for any gauge field U and any representation r, the left-handed projector in the conjugate representation is the image of the one in r under a fixed antiunitary map:
 
-  P̂₋[r̄](U) = A · conj(P̂₋[r](U)) · A⁻¹, with A = γ₅C⁻¹,
+  P̂₋\[r̄\](U) = A · conj(P̂₋\[r\](U)) · A⁻¹, with A = γ₅C⁻¹,
 
 where C is charge conjugation (Cγ_μC⁻¹ = −γ_μᵀ).
 
@@ -333,7 +333,7 @@ The full measure is Craig's measure for 3 × (10 ⊕ 5̄), times the canonical m
 - **A closed loop of gauge fields.** The single-representation phase is −0.0053 rad, and the pair's phase is 1 × 10⁻¹⁴.
 - **Control.** In two dimensions no handedness-keeping map exists, because there the conjugate of a left-mover is a left-mover and L(q) + L(−q) is anomalous. The check gives a nonzero phase (0.26 rad), as it must. The lemma is a property of four dimensions, not of the method of checking.
 
-**B.4 Lemma B: the majoron's symmetry is exact on the grid.** **Statement.** Rotating each left-handed field by exp(i x_f α) multiplies the lattice measure by exp(−iα Σ x_f n_f). Here n_f is the index of the overlap operator in representation f. By the lattice index theorem (Hasenfratz, Laliena and Niedermayer, 1998; Lüscher, 1998), Σ x_f n_f = n₃·A(SU(3)²X) + n₂·A(SU(2)²X) + n₁·A(Y²X) in every topological sector. A global charge is therefore exact on the lattice if and only if those three mixed sums vanish.
+**B.4 Lemma B: the majoron's symmetry is exact on the grid.** **Statement.** Rotating each left-handed field by exp(i x_f α) multiplies the lattice measure by exp(−iα Σ x_f n_f). Here n_f is the index of the overlap operator in representation f. By the lattice index theorem (Hasenfratz, Laliena and Niedermayer, 1998; Lüscher, 1998), Σ x_f n_f = 2n₃·A(SU(3)²X) + 2n₂·A(SU(2)²X) + n₁·A(Y²X) in every topological sector, with T = ½ for a fundamental (one fundamental field has index 1 = 2T in one unit of topology, hence the factor 2). A global charge is therefore exact on the lattice if and only if those three mixed sums vanish.
 
 **Result.** For B − L on the 27 all three vanish, so the majoron's symmetry is exact on the grid in every sector. The only breaking is the deliberate grain-of-space term of Section 8. As a control, lepton number alone has SU(2)²L = ½. It is broken by weak-force topology, the sphaleron effect ('t Hooft, 1976), which the lattice reproduces as it should.
 
@@ -351,7 +351,7 @@ The containment field P is a classical description of the strong force (Friedber
 
 **B.6 Three further consequences.** **The strong-interaction angle is exactly the freedom left over.** Craig's measure is fixed up to one constant phase on each topological sector of the gauge field. A phase of the form exp(iθn), with n the sector's winding number, is exactly the θ-term. The construction therefore leaves room for the strong-interaction angle and nothing else, and it neither fixes nor forbids that angle. This is consistent with the framework's choice to take the angle from measurement as one of its inputs (Section 3). It also means the lattice cannot be used to derive it.
 
-**Baryon number changes only in steps of three.** Lemma B applied to baryon number B and lepton number L gives SU(3)²B = SU(3)²L = 0 and SU(2)²B = SU(2)²L = 3/2 for three generations. One unit of weak-force topology therefore changes B and L together by 3, one per generation, and keeps B − L. That is the process of 't Hooft (1976). It cannot make a single proton decay, which needs ΔB = 1, so the lattice reproduces the framework's "no proton decay" statement (Section 9) at the renormalisable level. The far-side states do not change the count, because they come in both handednesses (`analysis/extras_theta_baryon_alternatives_2026-11-27.py`).
+**Baryon number changes only in steps of three.** Lemma B applied to baryon number B and lepton number L gives SU(3)²B = SU(3)²L = 0 and SU(2)²B = SU(2)²L = 3/2 for three generations. One unit of weak-force topology therefore changes B and L together by 2 × 3/2 = 3, one per generation, and keeps B − L. That is the process of 't Hooft (1976). It cannot make a single proton decay, which needs ΔB = 1, so the lattice reproduces the framework's "no proton decay" statement (Section 9) at the renormalisable level. The far-side states do not change the count, because they come in both handednesses (`analysis/extras_theta_baryon_alternatives_2026-11-27.py`).
 
 **Only the main line is covered.** Both recorded alternatives place each generation's 16 in Spin(10):
 

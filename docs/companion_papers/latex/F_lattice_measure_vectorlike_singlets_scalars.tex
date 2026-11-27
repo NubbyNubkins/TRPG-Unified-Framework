@@ -158,6 +158,9 @@
 \title{Extending a gauge-invariant lattice measure for chiral fermions to vector-like matter, gauge singlets and scalars}
 \author{Matthew Gelfman (ORCID 0009-0000-6402-2258) \\ Melissa Behrends-Gelfman (ORCID 0009-0001-6281-1947)}
 \date{27 November 2026}
+\title{Extending a gauge-invariant lattice measure for chiral fermions to vector-like matter, gauge singlets and scalars}
+\author{Matthew Gelfman (ORCID 0009-0000-6402-2258) \\ Melissa Behrends-Gelfman (ORCID 0009-0001-6281-1947)}
+\date{27 November 2026}
 \begin{document}
 \maketitle
 \hypertarget{abstract}{%
@@ -211,7 +214,7 @@ On fields that obey a plaquette bound (admissibility; Lüscher, 1999), Craig (20
 
 \textbf{Lemma 1.} Let C be a charge-conjugation matrix (C\ensuremath{\gamma}\_\ensuremath{\mu}C\ensuremath{^{-}}\ensuremath{^{1}} = \ensuremath{-}\ensuremath{\gamma}\_\ensuremath{\mu}\ensuremath{^{T}} for Hermitian Euclidean \ensuremath{\gamma}\_\ensuremath{\mu}) and A = \ensuremath{\gamma}\ensuremath{_{5}}C\ensuremath{^{-}}\ensuremath{^{1}}. For any compact gauge group, any unitary representation r with conjugate \ensuremath{\bar{r}}, and any gauge field U,
 
-\ensuremath{\hat{P}}\ensuremath{_{-}}\href{U}{\ensuremath{\bar{r}}} = A \ensuremath{\cdot} conj(\ensuremath{\hat{P}}\ensuremath{_{-}}\href{U}{r}) \ensuremath{\cdot} A\ensuremath{^{-}}\ensuremath{^{1}}.
+\ensuremath{\hat{P}}\ensuremath{_{-}}{[}\ensuremath{\bar{r}}{]}(U) = A \ensuremath{\cdot} conj(\ensuremath{\hat{P}}\ensuremath{_{-}}{[}r{]}(U)) \ensuremath{\cdot} A\ensuremath{^{-}}\ensuremath{^{1}}.
 
 \emph{Proof.} With Hermitian \ensuremath{\gamma}\_\ensuremath{\mu}, conj(\ensuremath{\gamma}\_\ensuremath{\mu}) = \ensuremath{\gamma}\_\ensuremath{\mu}\ensuremath{^{T}}, and A\ensuremath{\cdot}\ensuremath{\gamma}\_\ensuremath{\mu}\ensuremath{^{T}}\ensuremath{\cdot}A\ensuremath{^{-}}\ensuremath{^{1}} = \ensuremath{\gamma}\ensuremath{_{5}}C\ensuremath{^{-}}\ensuremath{^{1}}\ensuremath{\gamma}\_\ensuremath{\mu}\ensuremath{^{T}}C\ensuremath{\gamma}\ensuremath{_{5}} = \ensuremath{-}\ensuremath{\gamma}\ensuremath{_{5}}\ensuremath{\gamma}\_\ensuremath{\mu}\ensuremath{\gamma}\ensuremath{_{5}} = \ensuremath{\gamma}\_\ensuremath{\mu}. Since C\ensuremath{^{-}}\ensuremath{^{1}}\ensuremath{\gamma}\ensuremath{_{5}}\ensuremath{^{T}}C = \ensuremath{\gamma}\ensuremath{_{5}}, also A\ensuremath{\cdot}conj(\ensuremath{\gamma}\ensuremath{_{5}})\ensuremath{\cdot}A\ensuremath{^{-}}\ensuremath{^{1}} = \ensuremath{\gamma}\ensuremath{_{5}}, so A keeps handedness. Complex conjugation maps the links U\_\ensuremath{\mu}(x) of r to those of \ensuremath{\bar{r}}, so A\ensuremath{\cdot}conj(D\_W{[}r{]})\ensuremath{\cdot}A\ensuremath{^{-}}\ensuremath{^{1}} = D\_W{[}\ensuremath{\bar{r}}{]}. The same then holds for H, for sign H (a real function of a Hermitian matrix) and for \ensuremath{\hat{P}}\ensuremath{_{-}}. \ensuremath{\blacksquare}
 
@@ -238,11 +241,11 @@ In two dimensions no handedness-keeping antiunitary map exists. Every map A with
 
 \textbf{Lemma 2.} Rotate each left-handed field f by exp(i x\_f \ensuremath{\alpha}), with the antifields rotated oppositely. The measure is then multiplied by exp(\ensuremath{-}i\ensuremath{\alpha} \ensuremath{\Sigma}\_f x\_f n\_f(U)), where n\_f is the index of the overlap operator in the representation of f.~By the lattice index theorem (Hasenfratz, Laliena and Niedermayer, 1998; Lüscher, 1998), on admissible fields in a given topological sector,
 
-\ensuremath{\Sigma}\_f x\_f n\_f = n\ensuremath{_{3}}\ensuremath{\cdot}A(SU(3)\ensuremath{^{2}}X) + n\ensuremath{_{2}}\ensuremath{\cdot}A(SU(2)\ensuremath{^{2}}X) + n\ensuremath{_{1}}\ensuremath{\cdot}A(Y\ensuremath{^{2}}X),
+\ensuremath{\Sigma}\_f x\_f n\_f = 2n\ensuremath{_{3}}\ensuremath{\cdot}A(SU(3)\ensuremath{^{2}}X) + 2n\ensuremath{_{2}}\ensuremath{\cdot}A(SU(2)\ensuremath{^{2}}X) + n\ensuremath{_{1}}\ensuremath{\cdot}A(Y\ensuremath{^{2}}X),
 
-where n\ensuremath{_{3}}, n\ensuremath{_{2}} and n\ensuremath{_{1}} label the sector and A(\ensuremath{\cdot}) are the mixed anomaly coefficients. Cross terms vanish because the non-abelian generators are traceless. X is therefore an exact symmetry of the lattice measure in every sector if and only if the three mixed anomalies vanish. \ensuremath{\blacksquare}
+where n\ensuremath{_{3}}, n\ensuremath{_{2}} and n\ensuremath{_{1}} label the sector and A(\ensuremath{\cdot}) are the mixed anomaly coefficients, with the usual normalisation T = \ensuremath{\frac{1}{2}} for a fundamental. The factor 2 on the non-abelian terms appears because one fundamental field has index 1, which is 2T, in one unit of topology; n\ensuremath{_{1}} is normalised so that a field of unit hypercharge has index n\ensuremath{_{1}}. Cross terms vanish because the non-abelian generators are traceless. X is therefore an exact symmetry of the lattice measure in every sector if and only if the three mixed anomalies vanish. \ensuremath{\blacksquare}
 
-For the Standard Model with three gauge-singlet neutrinos, and for the full 27 (whose added states are vector-like), X = B \ensuremath{-} L has all three coefficients zero, so it is exact at every finite spacing. For X = B or X = L separately, A(SU(2)\ensuremath{^{2}}X) = 3/2 for three generations. One unit of weak topology then changes B and L by 3 each, the process of 't Hooft (1976), and no \ensuremath{\Delta}B = 1 process arises from the measure. \textbf{Check:} on an 8 \ensuremath{\times} 8 two-dimensional U(1) lattice the index is exactly q\ensuremath{\cdot}m for charges q = 1, 2, 3 in flux sectors m = 0, 1, 2. Global charges with zero mixed sum leave the measure unchanged in every sector, and a charge with mixed sum 6 shifts it by 6 and 12 units.
+For the Standard Model with three gauge-singlet neutrinos, and for the full 27 (whose added states are vector-like), X = B \ensuremath{-} L has all three coefficients zero, so it is exact at every finite spacing. For X = B or X = L separately, A(SU(2)\ensuremath{^{2}}X) = 3/2 for three generations. One unit of weak topology (n\ensuremath{_{2}} = 1) then changes B and L by 2 \ensuremath{\times} 3/2 = 3 each, the process of 't Hooft (1976), and no \ensuremath{\Delta}B = 1 process arises from the measure. \textbf{Check:} on an 8 \ensuremath{\times} 8 two-dimensional U(1) lattice the index is exactly q\ensuremath{\cdot}m for charges q = 1, 2, 3 in flux sectors m = 0, 1, 2. Global charges with zero mixed sum leave the measure unchanged in every sector, and a charge with mixed sum 6 shifts it by 6 and 12 units.
 
 \hypertarget{yukawa-majorana-and-scalar-terms}{%
 \subsection{4. Yukawa, Majorana and scalar terms}\label{yukawa-majorana-and-scalar-terms}}
