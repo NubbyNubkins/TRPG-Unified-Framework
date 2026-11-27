@@ -2,7 +2,7 @@
 
 ## 1.4.4 (27 November 2026)
 
-Corrections from an independent audit of every number, script and citation in the main paper and companion papers A to F. Each item was checked against the scripts and the publisher or INSPIRE record before it was applied. No result, rule, prediction, score or count changed.
+Corrections from an independent audit of every number, script and citation in the main paper and companion papers A to F. A first 1.4.4 reissue (pull request #20) corrected the Word and PDF files only; this change brings the Markdown, LaTeX and arXiv sources into line and rebuilds every PDF and Word file from them. It differs from that reissue in two places: the proton's quark kinetic energy stays 32% (with glue 36%), as in the published Yang et al. (2018) that the paper cites (33% and 37% are the preprint's numbers); and the scripts' constants are named as CODATA 2018, with a note that CODATA 2022 changes no printed digit, because the scripts use the 2018 values. Each item was checked against the scripts and the publisher or INSPIRE record before it was applied. No result, rule, prediction, score or count changed.
 
 - Compact stars (paper abstract and Section 6): at B = 60.1 MeV/fm³ the 82–97 MeV gap band gives 2.00–2.13 solar masses and Λ₁.₄ = 459–575 (`analysis/refinement_checks_2026-11-25.txt`), not 2.0–2.15 and 440–580. The observed window of 2.0–2.15 solar masses is unchanged where it is quoted as the observation.
 - The Standard-Model-only Higgs value is printed as 128.84 ± 1.45 GeV, the script's output, so the +2.6σ can be reproduced (paper Sections 4 and 9, paper C).
