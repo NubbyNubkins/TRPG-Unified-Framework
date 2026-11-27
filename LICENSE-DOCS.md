@@ -1,15 +1,11 @@
 # License for the documents
 
-Copyright © 2026 Matthew Gelfman. All rights reserved, except as stated here.
+Copyright (c) 2026 Matthew Gelfman and Melissa Behrends-Gelfman
 
-This covers everything in `docs/` (the paper, in every format) and the text and design of the website at https://trpgphysics.org.
+The documents in `docs/` (the paper in every format and the companion papers) and the text and design of the website at https://trpgphysics.org are released under the Creative Commons Attribution 4.0 International licence (CC BY 4.0), the same licence as the rest of this repository (see `LICENSE`).
 
-**You may** read, download, print for personal or study use, link to, and quote reasonable excerpts for commentary, criticism, teaching, research or news, with credit to:
+You may share and adapt them for any purpose, including commercially, if you give appropriate credit, link to the licence and say if you made changes. Credit as:
 
-> Matthew Gelfman, *Dynamic Relational Transitioning Geometry (TRPG)*, https://trpgphysics.org
+> Matthew Gelfman and Melissa Behrends-Gelfman, *Dynamic Relational Transitioning Geometry (TRPG)*, https://trpgphysics.org
 
-**Please ask first** before republishing whole documents, translating them, or using them commercially.
-
-The code and data are under the MIT License (see `LICENSE`) so anyone can rerun and check every calculation.
-
-The results of other physicists that TRPG builds on belong to them and are cited in the documents, not claimed.
+Licence summary: https://creativecommons.org/licenses/by/4.0/

@@ -77,15 +77,15 @@ python -m pip install -r requirements.txt
 python run_all.py
 ```
 
-All 24 core scripts run in a few minutes on a normal computer (tested with Python 3.12, NumPy 2.5, SciPy 1.18, pandas 3.1). Each script's output is saved in `results/`. See [`code/README.md`](code/README.md) for what each one shows.
+All 24 core scripts run in about 10 to 15 minutes on a normal computer (tested with Python 3.12 to 3.13, NumPy 2.5, SciPy 1.18, pandas 3.1); the three neutron-star scripts take 1 to 8 minutes each. On Windows, set `PYTHONIOENCODING=utf-8` (or run `python -X utf8`) so scripts that print Greek letters do not stop. Each script's output is saved in `results/`. See [`code/README.md`](code/README.md) for what each one shows.
 
 ## What is in this repository
 
 | Folder | Contents |
 |---|---|
-| `docs/` | The paper (18 November 2026) in PDF, Word and Markdown; `docs/story/` holds the framework told as a book; `docs/theories/` holds nine other theories of everything, each as a story, and a comparison |
+| `docs/` | The paper (version 1.4.3, 27 November 2026) in PDF, Word and Markdown; `docs/story/` holds the framework told as a book; `docs/theories/` holds nine other theories of everything, each as a story, and a comparison |
 | `code/` | The 24 core calculation scripts, run by `run_all.py` |
-| `analysis/` | Every later test script (14 to 18 November 2026) with its saved output beside it |
+| `analysis/` | Every later test script (14 to 27 November 2026) with its saved output beside it |
 | `data/` | The particle workbooks: every particle to every particle, quark and gluon, energy, size and three-way carrier matrices |
 | `figures/` | The geometry figures and the scripts that draw them |
 | `results/` | Saved output of the 24 core scripts |
@@ -112,5 +112,4 @@ Companion papers (in `docs/companion_papers/`), each one component of the framew
 - E. No anomaly-free discrete symmetry splits the vector-like triplets and doublets: [10.5281/zenodo.24553504](https://doi.org/10.5281/zenodo.24553504)
 - F. Extending a gauge-invariant lattice measure for chiral fermions to vector-like matter, gauge singlets and scalars (27 November 2026): [10.5281/zenodo.24577255](https://doi.org/10.5281/zenodo.24577255)
 
-- **Code and data:** MIT License ([`LICENSE`](LICENSE)).
-- **Documents and website text:** © 2026 Matthew Gelfman, all rights reserved, quotation with credit welcome ([`LICENSE-DOCS.md`](LICENSE-DOCS.md)).
+- **Everything in this repository (code, data, documents and website text):** © 2026 Matthew Gelfman and Melissa Behrends-Gelfman, released under the Creative Commons Attribution 4.0 International licence, CC BY 4.0 ([`LICENSE`](LICENSE); summary in [`LICENSE-DOCS.md`](LICENSE-DOCS.md)).

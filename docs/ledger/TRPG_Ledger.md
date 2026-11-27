@@ -1,6 +1,6 @@
 # TRPG ledger: what goes in, what comes out, and how it could fail
 
-*Version 1.4.1, 25 November 2026 (only the paper's statement of AI use changed from 1.4.0). Version 1.4.0: five rules and one bet; a short start phase driven by the stiffness of space kept as the alternative start, decided by the tilt of the first ripples (`analysis/start_phase_starobinsky_2026-11-19.py`); no particle-physics number changed. Values as recalibrated to PDG 2026 and JUNO 2026 in v1.3.3 by `analysis/recalibrate_to_2026_values_2026-11-18.py`. `python analysis/input_ledger_2026-11-18.py` reruns the main-line count and the break tests for the results that move it (tau mass, down quark, lightest neutrino mass, Higgs mass), plus the strong-force strength and the JUNO lead; `analysis/input_ledger_2026-11-19.py` gives the count with the alternative start. It does not re-check the other derived rows. Those are standard results or come from the scripts named in the paper and the README (for example `analysis/pairing_gap_scan_2026-11-14.py` for the pairing gap and `analysis/neutrino_perspectives_2026-11-14.py` for θ₁₂ and the CP phase).*
+*Version 1.4.3, 27 November 2026 (wording corrections only, after two outside reviews; no ledger entry changed). Version 1.4.2: the paper gains Appendix B and companion paper F; no ledger entry changed. Version 1.4.1, 25 November 2026 (only the paper's statement of AI use changed from 1.4.0). Version 1.4.0: five rules and one bet; a short start phase driven by the stiffness of space kept as the alternative start, decided by the tilt of the first ripples (`analysis/start_phase_starobinsky_2026-11-19.py`); no particle-physics number changed. Values as recalibrated to PDG 2026 and JUNO 2026 in v1.3.3 by `analysis/recalibrate_to_2026_values_2026-11-18.py`. `python analysis/input_ledger_2026-11-18.py` reruns the main-line count and the break tests for the results that move it (tau mass, down quark, lightest neutrino mass, Higgs mass), plus the strong-force strength and the JUNO lead; `analysis/input_ledger_2026-11-19.py` gives the count with the alternative start. It does not re-check the other derived rows. Those are standard results or come from the scripts named in the paper and the README (for example `analysis/pairing_gap_scan_2026-11-14.py` for the pairing gap and `analysis/neutrino_perspectives_2026-11-14.py` for θ₁₂ and the CP phase).*
 
 This page answers the first three questions a careful reader asks of any unified theory. What was taken from measurement? What was chosen with today's data in view? And what does the framework say that has not been measured yet? Every quantity appears once, with one label. Nothing is counted as established until its measurement returns.
 
@@ -75,7 +75,7 @@ TRPG removes six of these, two already confirmed and four waiting for a measurem
 
 ## 3. The ledger
 
-### Inputs (taken from measurement): 29 core today (28 once the predicted tilt lands), plus the 4 pending items above while they are pending
+### Inputs (taken from measurement): 28 listed here, plus the 4 pending items above while they are pending (32 today; 28 if every pending measurement agrees)
 
 | Quantity | Count | Note |
 |---|---|---|
@@ -190,7 +190,7 @@ flowchart TD
   R5["Rule: smooth start<br/>(stretching phase = alternative)"]
   R5 --> RS["ALTERNATIVE ONLY: r = 0.0040,<br/>tilt n_s = 0.963 (disfavoured with DESI)"]
   BET["Bet: the far side of the<br/>relationship matrix is real"]
-  IN["28 measured inputs<br/>(+4 pending; +1 today until the tilt lands)"]
+  IN["28 measured inputs<br/>(+4 pending: 32 today, 28 if every pending measurement agrees)"]
   FIT["3 fitted choices<br/>(grain = Planck/√2, far-side weight rule,<br/>equal strengths at the crossing)"]
   FIT2["3 fitted choices<br/>(maximum uncertainty, TM1, neutrino root signs)"]
 
@@ -259,6 +259,8 @@ Rechecked with independent code (`analysis/farside_charge_rule_2026-11-25.py`, `
 | Integer loop rungs ln(m_wall/m)/ln(16π²) | random masses cluster as well 81% of the time |
 
 ## 7. What changed in this version
+
+**Version 1.4.3 (27 November 2026).** Wording corrections after two outside reviews, in the main paper and in companion papers B and F. No result, rule, prediction or count changed. Nothing in this ledger changed.
 
 **Version 1.4.2 (27 November 2026).** The paper gains Appendix B: the particle side defined on a lattice, extending Craig (2026), with companion paper F. Nothing in this ledger changed: no input, choice, prediction or score.
 
