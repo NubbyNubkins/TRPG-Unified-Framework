@@ -96,55 +96,58 @@
 Behrends-Gelfman (ORCID 0009-0001-6281-1947)}
 \date{25 November 2026}
 
+\newunicodechar{⊕}{\ensuremath{\oplus}}
+\newunicodechar{⁴}{\ensuremath{^{4}}}
+\newunicodechar{₀}{\ensuremath{_{0}}}
+\newunicodechar{₄}{\ensuremath{_{4}}}
+\newunicodechar{₅}{\ensuremath{_{5}}}
+\newunicodechar{₆}{\ensuremath{_{6}}}
+\newunicodechar{ₖ}{\ensuremath{_{k}}}
+\newunicodechar{̂}{}
+\newunicodechar{φ}{\ensuremath{\phi}}
+\newunicodechar{∮}{\ensuremath{\oint}}
+\newunicodechar{‖}{\ensuremath{\Vert}}
+\newunicodechar{≡}{\ensuremath{\equiv}}
+\newunicodechar{≢}{\ensuremath{\not\equiv}}
+\newunicodechar{∎}{\ensuremath{\blacksquare}}
+\newunicodechar{𝒯}{\ensuremath{\mathcal{T}}}
+\newunicodechar{⁸}{\ensuremath{^{8}}}
+\newunicodechar{⁰}{\ensuremath{^{0}}}
+\newunicodechar{≤}{\ensuremath{\le}}
+\newunicodechar{ε}{\ensuremath{\epsilon}}
+\newunicodechar{Γ}{\ensuremath{\Gamma}}
+\newunicodechar{∗}{\ensuremath{*}}
+\newunicodechar{′}{\ensuremath{^{\prime}}}
+\newunicodechar{ᵀ}{\ensuremath{^{T}}}
+\newunicodechar{₊}{\ensuremath{_{+}}}
+\newunicodechar{₋}{\ensuremath{_{-}}}
+\newunicodechar{⁹}{\ensuremath{^{9}}}
+\newunicodechar{⁷}{\ensuremath{^{7}}}
+\title{An exact right-angled unitarity triangle with \ensuremath{\lambda} = 1/\ensuremath{\sqrt{20}} and A = \ensuremath{\sqrt{2/3}}:
+a testable parametrisation of quark mixing}
+\author{Matthew Gelfman (ORCID 0009-0000-6402-2258) \\ Melissa Behrends-Gelfman (ORCID 0009-0001-6281-1947)}
+\date{Version 1.2, 27 November 2026}
 \begin{document}
 \maketitle
+\hypertarget{abstract}{%
+\subsection{Abstract}\label{abstract}}
 
-\subsection{Abstract}
+We take the right angle of the unitarity triangle at \ensuremath{\alpha} as exact, as quark-mixing sum rules allow (Antusch, King, Malinsky and Spinrath 2010), and choose simple values for the other three quark-mixing parameters: \ensuremath{\lambda} = 1/\ensuremath{\sqrt{20}}, A = \ensuremath{\sqrt{2/3}}, \ensuremath{\beta} = 22.5\ensuremath{^\circ} and \ensuremath{\gamma} = 67.5\ensuremath{^\circ}. The result is an exactly unitary CKM matrix (Kobayashi and Maskawa 1973) with Jarlskog invariant J = 2.94 \ensuremath{\times} 10\ensuremath{^{-}}\ensuremath{^{5}} (Jarlskog 1985) and sin 2\ensuremath{\beta} = 1/\ensuremath{\sqrt{2}}. All seven directly measured quantities lie within 1.6\ensuremath{\sigma}, with pulls from \ensuremath{-}1.2\ensuremath{\sigma} (\textbar V\textsubscript{ub}\textbar) to +1.6\ensuremath{\sigma} (\ensuremath{\alpha}), giving \ensuremath{\chi}\ensuremath{^{2}} = 6.0 for seven quantities. The four values were chosen, not derived, so the \ensuremath{\chi}\ensuremath{^{2}} is not evidence. We present the form as a parametrisation with sharp, near-term tests. The matrix is exactly unitary and gives \textbar V\textsubscript{ud}\textbar{} = 0.97467. That is 3.1\ensuremath{\sigma} above the superallowed-decay value 0.97367 \ensuremath{\pm} 0.00032, so the form bets that the first-row shortfall (the ``Cabibbo anomaly'') goes away. Belle II and LHCb measurements of sin 2\ensuremath{\beta}, \ensuremath{\alpha} and \ensuremath{\gamma} at the 1\ensuremath{^\circ} level will decide it.
 
-We take the right angle of the unitarity triangle at \ensuremath{\alpha} as exact, as
-quark-mixing sum rules allow (Antusch, King, Malinsky and Spinrath
-2010), and choose simple values for the other three quark-mixing
-parameters: \ensuremath{\lambda} = 1/\ensuremath{\surd}20, A = \ensuremath{\surd}(2/3), \ensuremath{\beta} = 22.5\ensuremath{^\circ} and \ensuremath{\gamma} = 67.5\ensuremath{^\circ}. The result
-is an exactly unitary CKM matrix (Kobayashi and Maskawa 1973) with
-Jarlskog invariant J = 2.94 \ensuremath{\times} 10\ensuremath{^{-}}\ensuremath{^{5}} (Jarlskog 1985) and sin 2\ensuremath{\beta} = 1/\ensuremath{\surd}2.
-All seven directly measured quantities lie within 1.6\ensuremath{\sigma}, with pulls from
-\ensuremath{-}1.2\ensuremath{\sigma} (\textbar V\textsubscript{ub}\textbar) to +1.6\ensuremath{\sigma} (\ensuremath{\alpha}), giving \ensuremath{\chi}\ensuremath{^{2}} =
-6.0 for seven quantities. The four values were chosen, not derived, so
-the \ensuremath{\chi}\ensuremath{^{2}} is not evidence. We present the form as a parametrisation with
-sharp, near-term tests. The matrix is exactly unitary and gives
-\textbar V\textsubscript{ud}\textbar{} = 0.97467. That is 3.1\ensuremath{\sigma} above the
-superallowed-decay value 0.97367 \ensuremath{\pm} 0.00032, so the form bets that the
-first-row shortfall (the ``Cabibbo anomaly'') goes away. Belle II and
-LHCb measurements of sin 2\ensuremath{\beta}, \ensuremath{\alpha} and \ensuremath{\gamma} at the 1\ensuremath{^\circ} level will decide it.
+\hypertarget{construction}{%
+\subsection{1. Construction}\label{construction}}
 
-\subsection{1. Construction}
+In the exact form of the Wolfenstein parametrisation (Wolfenstein 1983; Charles et al.~2005), the inputs are \ensuremath{\lambda} = s\ensuremath{_{1}}\ensuremath{_{2}} = 1/\ensuremath{\sqrt{20}} = 0.22361 and s\ensuremath{_{2}}\ensuremath{_{3}} = A\ensuremath{\lambda}\ensuremath{^{2}} with A = \ensuremath{\sqrt{2/3}}. They are followed by \ensuremath{\bar{ρ}} + i\ensuremath{\bar{η}} = R\textsubscript{u} e\textsuperscript{i\ensuremath{\gamma}}, where R\textsubscript{u} = sin \ensuremath{\beta} because the angle at \ensuremath{\alpha} is 90\ensuremath{^\circ}. The relation
 
-In the exact form of the Wolfenstein parametrisation (Wolfenstein 1983;
-Charles et al.~2005), the inputs are \ensuremath{\lambda} = s\ensuremath{_{1}}\ensuremath{_{2}} = 1/\ensuremath{\surd}20 = 0.22361 and s\ensuremath{_{2}}\ensuremath{_{3}} =
-A\ensuremath{\lambda}\ensuremath{^{2}} with A = \ensuremath{\surd}(2/3). They are followed by \ensuremath{\bar{\rho}} + i\ensuremath{\bar{\eta}} = R\textsubscript{u}
-e\textsuperscript{i\ensuremath{\gamma}}, where R\textsubscript{u} = sin \ensuremath{\beta} because the
-angle at \ensuremath{\alpha} is 90\ensuremath{^\circ}. The relation
+s\ensuremath{_{1}}\ensuremath{_{3}} e\textsuperscript{i\ensuremath{\delta}} = (\ensuremath{\bar{ρ}} + i\ensuremath{\bar{η}}) s\ensuremath{_{1}}\ensuremath{_{2}} s\ensuremath{_{2}}\ensuremath{_{3}} c\ensuremath{_{2}}\ensuremath{_{3}} / {[}c\ensuremath{_{1}}\ensuremath{_{2}} (1 \ensuremath{-} (\ensuremath{\bar{ρ}} + i\ensuremath{\bar{η}}) s\ensuremath{_{2}}\ensuremath{_{3}}\ensuremath{^{2}}){]}
 
-s\ensuremath{_{1}}\ensuremath{_{3}} e\textsuperscript{i\ensuremath{\delta}} = (\ensuremath{\bar{\rho}} + i\ensuremath{\bar{\eta}}) s\ensuremath{_{1}}\ensuremath{_{2}} s\ensuremath{_{2}}\ensuremath{_{3}} c\ensuremath{_{2}}\ensuremath{_{3}} / {[}c\ensuremath{_{1}}\ensuremath{_{2}} (1 \ensuremath{-} (\ensuremath{\bar{\rho}} + i\ensuremath{\bar{\eta}})
-s\ensuremath{_{2}}\ensuremath{_{3}}\ensuremath{^{2}}){]}
+then gives an exactly unitary matrix in the standard form. Numerically, the unitarity error is 2 \ensuremath{\times} 10\ensuremath{^{-}}\ensuremath{^{1}}\ensuremath{^{6}}.
 
-then gives an exactly unitary matrix in the standard form. Numerically,
-the unitarity error is 2 \ensuremath{\times} 10\ensuremath{^{-}}\ensuremath{^{1}}\ensuremath{^{6}}.
+\hypertarget{comparison-with-measurement}{%
+\subsection{2. Comparison with measurement}\label{comparison-with-measurement}}
 
-\subsection{2. Comparison with measurement}
+The measured values are PDG 2026 for \textbar V\textsubscript{us}\textbar{} = 0.22431, \ensuremath{\alpha} = 84.1 (+3.7 \ensuremath{-}3.0)\ensuremath{^\circ}, \ensuremath{\gamma} = 66.4 (+2.7 \ensuremath{-}2.8)\ensuremath{^\circ} and the first row. For the other quantities we use PDG 2024 (Navas et al.~2024): \textbar V\textsubscript{cb}\textbar{} = 0.0411 \ensuremath{\pm} 0.0012, \textbar V\textsubscript{ub}\textbar{} = (3.82 \ensuremath{\pm} 0.20) \ensuremath{\times} 10\ensuremath{^{-}}\ensuremath{^{3}}, sin 2\ensuremath{\beta} = 0.709 \ensuremath{\pm} 0.011 and \textbar V\textsubscript{td}/V\textsubscript{ts}\textbar{} = 0.207 \ensuremath{\pm} 0.0032 (0.001 statistical and 0.003 lattice, combined). We use direct measurements only, not global-fit values, which already assume unitarity.
 
-The measured values are PDG 2026 for
-\textbar V\textsubscript{us}\textbar{} = 0.22431, \ensuremath{\alpha} = 84.1 (+3.7 \ensuremath{-}3.0)\ensuremath{^\circ},
-\ensuremath{\gamma} = 66.4 (+2.7 \ensuremath{-}2.8)\ensuremath{^\circ} and the first row. For the other quantities we use
-PDG 2024 (Navas et al.~2024): \textbar V\textsubscript{cb}\textbar{} =
-0.0411 \ensuremath{\pm} 0.0012, \textbar V\textsubscript{ub}\textbar{} = (3.82 \ensuremath{\pm} 0.20)
-\ensuremath{\times} 10\ensuremath{^{-}}\ensuremath{^{3}}, sin 2\ensuremath{\beta} = 0.709 \ensuremath{\pm} 0.011 and
-\textbar V\textsubscript{td}/V\textsubscript{ts}\textbar{} = 0.207 \ensuremath{\pm}
-0.0032 (0.001 statistical and 0.003 lattice, combined). We use direct
-measurements only, not global-fit values, which already assume
-unitarity.
-
-{\def\LTcaptype{none} % do not increment counter
 \begin{longtable}[]{@{}llll@{}}
 \toprule\noalign{}
 Quantity & Prediction & Measured & Pull \\
@@ -152,88 +155,68 @@ Quantity & Prediction & Measured & Pull \\
 \endhead
 \bottomrule\noalign{}
 \endlastfoot
-\textbar V\textsubscript{us}\textbar{} & 0.22361 & 0.22431 \ensuremath{\pm} 0.00085 &
-\ensuremath{-}0.83 \\
-\textbar V\textsubscript{cb}\textbar{} & 0.04082 & 0.0411 \ensuremath{\pm} 0.0012 &
-\ensuremath{-}0.23 \\
-\textbar V\textsubscript{ub}\textbar{} & 0.00358 & 0.00382 \ensuremath{\pm} 0.00020 &
-\ensuremath{-}1.19 \\
+\textbar V\textsubscript{us}\textbar{} & 0.22361 & 0.22431 \ensuremath{\pm} 0.00085 & \ensuremath{-}0.83 \\
+\textbar V\textsubscript{cb}\textbar{} & 0.04082 & 0.0411 \ensuremath{\pm} 0.0012 & \ensuremath{-}0.23 \\
+\textbar V\textsubscript{ub}\textbar{} & 0.00358 & 0.00382 \ensuremath{\pm} 0.00020 & \ensuremath{-}1.19 \\
 sin 2\ensuremath{\beta} & 0.70711 & 0.709 \ensuremath{\pm} 0.011 & \ensuremath{-}0.17 \\
 \ensuremath{\alpha} (\ensuremath{^\circ}) & 90.0 & 84.1 (+3.7 \ensuremath{-}3.0) & +1.59 (upper error used) \\
 \ensuremath{\gamma} (\ensuremath{^\circ}) & 67.5 & 66.4 (+2.7 \ensuremath{-}2.8) & +0.39 (2.8 used) \\
-\textbar V\textsubscript{td}/V\textsubscript{ts}\textbar{} & 0.21035 &
-0.207 \ensuremath{\pm} 0.0032 & +1.05 \\
+\textbar V\textsubscript{td}/V\textsubscript{ts}\textbar{} & 0.21035 & 0.207 \ensuremath{\pm} 0.0032 & +1.05 \\
 \end{longtable}
-}
 
-\ensuremath{\chi}\ensuremath{^{2}} = 5.98. If nothing had been chosen this would correspond to p = 0.54,
-but it has no such meaning here.
+\ensuremath{\chi}\ensuremath{^{2}} = 5.98. If nothing had been chosen this would correspond to p = 0.54, but it has no such meaning here.
 
-\subsection{3. What was chosen, and what fails}
+\hypertarget{what-was-chosen-and-what-fails}{%
+\subsection{3. What was chosen, and what fails}\label{what-was-chosen-and-what-fails}}
 
-The values 1/\ensuremath{\surd}20, \ensuremath{\surd}(2/3), 22.5\ensuremath{^\circ} and 67.5\ensuremath{^\circ} = 90\ensuremath{^\circ} \ensuremath{-} 22.5\ensuremath{^\circ} were selected
-because they are simple. A 3 \ensuremath{\times} 3 down-quark mass matrix with fixed
-weights built to produce this triangle gives \ensuremath{\chi}\ensuremath{^{2}} = 11.5 at \ensuremath{\mu} = 162.5 GeV
-(\textbar V\textsubscript{us}\textbar{} +2.2\ensuremath{\sigma}) and 26 at
-M\textsubscript{Z}, so the triangle is not yet tied to a mass matrix.
-The form is offered as a target for a mass-matrix origin, not as one.
+The values 1/\ensuremath{\sqrt{20}}, \ensuremath{\sqrt{2/3}}, 22.5\ensuremath{^\circ} and 67.5\ensuremath{^\circ} = 90\ensuremath{^\circ} \ensuremath{-} 22.5\ensuremath{^\circ} were selected because they are simple. A 3 \ensuremath{\times} 3 down-quark mass matrix with fixed weights built to produce this triangle gives \ensuremath{\chi}\ensuremath{^{2}} = 11.5 at \ensuremath{\mu} = 162.5 GeV (\textbar V\textsubscript{us}\textbar{} +2.2\ensuremath{\sigma}) and 26 at M\textsubscript{Z}, so the triangle is not yet tied to a mass matrix. The form is offered as a target for a mass-matrix origin, not as one.
 
-\subsection{4. Tests}
+\hypertarget{tests}{%
+\subsection{4. Tests}\label{tests}}
 
 \begin{itemize}
 \tightlist
 \item
-  sin 2\ensuremath{\beta} firmly away from 1/\ensuremath{\surd}2 = 0.7071.
+  sin 2\ensuremath{\beta} firmly away from 1/\ensuremath{\sqrt{2}} = 0.7071.
 \item
   \ensuremath{\alpha} firmly away from 90\ensuremath{^\circ}. Today the direct value is 1.6\ensuremath{\sigma} below.
 \item
   \ensuremath{\gamma} firmly outside about 64--68\ensuremath{^\circ}.
 \item
-  A confirmed first-row shortfall, which would also rule out any model
-  that keeps the CKM matrix exactly unitary at low energy.
+  A confirmed first-row shortfall, which would also rule out any model that keeps the CKM matrix exactly unitary at low energy.
 \end{itemize}
 
-\subsection{Data and code}
+\hypertarget{data-and-code}{%
+\subsection{Data and code}\label{data-and-code}}
 
-\texttt{analysis/quark\_triangle\_and\_press\_2026-11-25.py} in the TRPG
-code archive, doi:10.5281/zenodo.24329239. This result is one component
-of the framework in doi:10.5281/zenodo.24330763.
+\texttt{analysis/quark\_triangle\_and\_press\_2026-11-25.py} in the TRPG code archive, doi:10.5281/zenodo.24329239. This result is one component of the framework in doi:10.5281/zenodo.24330763.
 
-\subsection{Acknowledgements}
+\hypertarget{acknowledgements}{%
+\subsection{Acknowledgements}\label{acknowledgements}}
 
-Due to medical necessity, AI language-model assistants were used, under
-the authors' direction, to draft and edit text from the authors' ideas,
-to carry out and check calculations, and to search the literature; every
-result was checked by rerunning the published code. The authors reviewed
-all content and take full responsibility for it.
+Due to medical necessity, AI language-model assistants were used, under the authors' direction, to draft and edit text from the authors' ideas, to carry out and check calculations, and to search the literature; every result was checked by rerunning the published code. The authors reviewed all content and take full responsibility for it.
 
-\subsection{References}
+This paper is licensed under CC BY 4.0; its scripts and data are under the MIT License.
+
+\hypertarget{references}{%
+\subsection{References}\label{references}}
 
 \begin{itemize}
 \tightlist
 \item
-  Antusch, S., King, S. F., Malinsky, M. and Spinrath, M. (2010). Quark
-  mixing sum rules and the right unitarity triangle. \emph{Phys. Rev.~D}
-  81, 033008.
+  Antusch, S., King, S. F., Malinsky, M. and Spinrath, M. (2010). Quark mixing sum rules and the right unitarity triangle. \emph{Phys. Rev.~D} 81, 033008.
 \item
-  Charles, J. et al.~(CKMfitter Group) (2005). CP violation and the CKM
-  matrix: assessing the impact of the asymmetric B factories. \emph{Eur.
-  Phys. J. C} 41, 1.
+  Charles, J. et al.~(CKMfitter Group) (2005). CP violation and the CKM matrix: assessing the impact of the asymmetric B factories. \emph{Eur. Phys. J. C} 41, 1.
 \item
-  Jarlskog, C. (1985). Commutator of the quark mass matrices in the
-  standard electroweak model and a measure of maximal CP
-  nonconservation. \emph{Phys. Rev.~Lett.} 55, 1039.
+  Jarlskog, C. (1985). Commutator of the quark mass matrices in the standard electroweak model and a measure of maximal CP nonconservation. \emph{Phys. Rev.~Lett.} 55, 1039.
 \item
-  Kobayashi, M. and Maskawa, T. (1973). CP-violation in the
-  renormalizable theory of weak interaction. \emph{Prog. Theor. Phys.}
-  49, 652.
+  Kobayashi, M. and Maskawa, T. (1973). CP-violation in the renormalizable theory of weak interaction. \emph{Prog. Theor. Phys.} 49, 652.
 \item
-  Navas, S. et al.~(Particle Data Group) (2024). Review of particle
-  physics. \emph{Phys. Rev.~D} 110, 030001; and the 2026 edition
-  (summary tables and CKM review).
+  Navas, S. et al.~(Particle Data Group) (2024). Review of particle physics. \emph{Phys. Rev.~D} 110, 030001.
 \item
-  Wolfenstein, L. (1983). Parametrization of the Kobayashi--Maskawa
-  matrix. \emph{Phys. Rev.~Lett.} 51, 1945.
+  Takahashi, F. et al.~(Particle Data Group) (2026). Review of particle physics. \emph{Int. J. Mod. Phys. A} 41, 2630011.
+\item
+  Wolfenstein, L. (1983). Parametrization of the Kobayashi--Maskawa matrix. \emph{Phys. Rev.~Lett.} 51, 1945.
 \end{itemize}
 
 \end{document}

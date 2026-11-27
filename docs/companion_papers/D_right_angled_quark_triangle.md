@@ -3,7 +3,7 @@ title: "An exact right-angled unitarity triangle with λ = 1/√20 and A = √(2
 author:
   - Matthew Gelfman (ORCID 0009-0000-6402-2258)
   - Melissa Behrends-Gelfman (ORCID 0009-0001-6281-1947)
-date: "25 November 2026"
+date: "Version 1.2, 27 November 2026"
 ---
 
 ## Abstract
@@ -53,11 +53,15 @@ The values 1/√20, √(2/3), 22.5° and 67.5° = 90° − 22.5° were selected 
 
 Due to medical necessity, AI language-model assistants were used, under the authors' direction, to draft and edit text from the authors' ideas, to carry out and check calculations, and to search the literature; every result was checked by rerunning the published code. The authors reviewed all content and take full responsibility for it.
 
+
+This paper is licensed under CC BY 4.0; its scripts and data are under the MIT License.
+
 ## References
 
 - Antusch, S., King, S. F., Malinsky, M. and Spinrath, M. (2010). Quark mixing sum rules and the right unitarity triangle. *Phys. Rev. D* 81, 033008.
 - Charles, J. et al. (CKMfitter Group) (2005). CP violation and the CKM matrix: assessing the impact of the asymmetric B factories. *Eur. Phys. J. C* 41, 1.
 - Jarlskog, C. (1985). Commutator of the quark mass matrices in the standard electroweak model and a measure of maximal CP nonconservation. *Phys. Rev. Lett.* 55, 1039.
 - Kobayashi, M. and Maskawa, T. (1973). CP-violation in the renormalizable theory of weak interaction. *Prog. Theor. Phys.* 49, 652.
-- Navas, S. et al. (Particle Data Group) (2024). Review of particle physics. *Phys. Rev. D* 110, 030001; and the 2026 edition (summary tables and CKM review).
+- Navas, S. et al. (Particle Data Group) (2024). Review of particle physics. *Phys. Rev. D* 110, 030001.
+- Takahashi, F. et al. (Particle Data Group) (2026). Review of particle physics. *Int. J. Mod. Phys. A* 41, 2630011.
 - Wolfenstein, L. (1983). Parametrization of the Kobayashi–Maskawa matrix. *Phys. Rev. Lett.* 51, 1945.

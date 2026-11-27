@@ -95,86 +95,80 @@ when the bag constant is fixed by the nucleon and \ensuremath{\Delta}(1232)}
 Behrends-Gelfman (ORCID 0009-0001-6281-1947)}
 \date{25 November 2026}
 
+\newunicodechar{⊕}{\ensuremath{\oplus}}
+\newunicodechar{¹}{\ensuremath{^{1}}}
+\newunicodechar{₂}{\ensuremath{_{2}}}
+\newunicodechar{₃}{\ensuremath{_{3}}}
+\newunicodechar{₅}{\ensuremath{_{5}}}
+\newunicodechar{₆}{\ensuremath{_{6}}}
+\newunicodechar{ₖ}{\ensuremath{_{k}}}
+\newunicodechar{̂}{}
+\newunicodechar{φ}{\ensuremath{\phi}}
+\newunicodechar{∮}{\ensuremath{\oint}}
+\newunicodechar{‖}{\ensuremath{\Vert}}
+\newunicodechar{≡}{\ensuremath{\equiv}}
+\newunicodechar{≢}{\ensuremath{\not\equiv}}
+\newunicodechar{∎}{\ensuremath{\blacksquare}}
+\newunicodechar{𝒯}{\ensuremath{\mathcal{T}}}
+\newunicodechar{⁸}{\ensuremath{^{8}}}
+\newunicodechar{⁰}{\ensuremath{^{0}}}
+\newunicodechar{≤}{\ensuremath{\le}}
+\newunicodechar{Γ}{\ensuremath{\Gamma}}
+\newunicodechar{∗}{\ensuremath{*}}
+\newunicodechar{′}{\ensuremath{^{\prime}}}
+\newunicodechar{ᵀ}{\ensuremath{^{T}}}
+\newunicodechar{₊}{\ensuremath{_{+}}}
+\newunicodechar{₋}{\ensuremath{_{-}}}
+\newunicodechar{⁵}{\ensuremath{^{5}}}
+\newunicodechar{⁹}{\ensuremath{^{9}}}
+\newunicodechar{⁶}{\ensuremath{^{6}}}
+\newunicodechar{⁷}{\ensuremath{^{7}}}
+\title{The colour-superconducting gap required in self-bound quark stars when
+the bag constant is fixed by the nucleon and \ensuremath{\Delta}(1232)}
+\author{Matthew Gelfman (ORCID 0009-0000-6402-2258) \\ Melissa Behrends-Gelfman (ORCID 0009-0001-6281-1947)}
+\date{Version 1.2, 27 November 2026}
 \begin{document}
 \maketitle
+\hypertarget{abstract}{%
+\subsection{Abstract}\label{abstract}}
 
-\subsection{Abstract}
+In most studies of strange quark stars, the bag constant B is adjusted to the observed stars. Here B is instead fixed beforehand by fitting the nucleon and \ensuremath{\Delta}(1232) masses in a cloudy-bag model. That model has a centre-of-mass correction and no free zero-point term, and the fit gives B = 60.1 MeV fm\ensuremath{^{-}}\ensuremath{^{3}} (57.1--63.7 across the measured pion--nucleon coupling). With this B and a strong coupling run from \ensuremath{\alpha}\textsubscript{s}(M\textsubscript{Z}), unpaired strange-quark matter gives a heaviest star of only 1.54--1.80 M\ensuremath{_{\odot}}, and strange matter is not the ground state. Pairing in the colour--flavour-locked (CFL) phase repairs both. For m\textsubscript{s} = 100 MeV, the stars meet the observed heaviest masses (2.0--2.15 M\ensuremath{_{\odot}}) and the GW170817 tidal limit only if the gap is \ensuremath{\Delta} \ensuremath{\approx} 82--97 MeV. Equivalently, the stars fix 4\ensuremath{\Delta}\ensuremath{^{2}} \ensuremath{-} m\textsubscript{s}\ensuremath{^{2}} \ensuremath{\approx} 1.7--2.8 \ensuremath{\times} 10\ensuremath{^{4}} MeV\ensuremath{^{2}}. An independent solver reproduces the band at the central B: the heaviest star is 2.00--2.13 M\ensuremath{_{\odot}} and \ensuremath{\Lambda}\ensuremath{_{1}}.\ensuremath{_{4}} = 459--575. Within the band, strange matter is self-bound (E/A = 832--864 MeV) and paired two-flavour matter stays above 930 MeV, so ordinary nuclei are stable. Larger gaps (90--125 MeV at fixed a\ensuremath{_{4}}) push \ensuremath{\Lambda}\ensuremath{_{1}}.\ensuremath{_{4}} to 652--1124, above the GW170817 limit. The observed stars set the band, so they are not evidence for it. The prediction is the gap itself, to be tested by an independent QCD determination.
 
-In most studies of strange quark stars, the bag constant B is adjusted
-to the observed stars. Here B is instead fixed beforehand by fitting the
-nucleon and \ensuremath{\Delta}(1232) masses in a cloudy-bag model. That model has a
-centre-of-mass correction and no free zero-point term, and the fit gives
-B = 60.1 MeV fm\ensuremath{^{-}}\ensuremath{^{3}} (57.1--63.7 across the measured pion--nucleon
-coupling). With this B and a strong coupling run from
-\ensuremath{\alpha}\textsubscript{s}(M\textsubscript{Z}), unpaired strange-quark matter
-gives a heaviest star of only 1.54--1.80 M\ensuremath{_{\odot}}, and strange matter is not
-the ground state. Pairing in the colour--flavour-locked (CFL) phase
-repairs both. For m\textsubscript{s} = 100 MeV, the stars meet the
-observed heaviest masses (2.0--2.15 M\ensuremath{_{\odot}}) and the GW170817 tidal limit
-only if the gap is \ensuremath{\Delta} \ensuremath{\approx} 82--97 MeV. Equivalently, the stars fix 4\ensuremath{\Delta}\ensuremath{^{2}} \ensuremath{-}
-m\textsubscript{s}\ensuremath{^{2}} \ensuremath{\approx} 1.7--2.8 \ensuremath{\times} 10\ensuremath{^{4}} MeV\ensuremath{^{2}}. An independent solver
-reproduces the band at the central B: the heaviest star is 2.00--2.13 M\ensuremath{_{\odot}}
-and \ensuremath{\Lambda}\ensuremath{_{1}}.\ensuremath{_{4}} = 459--575. Within the band, strange matter is self-bound (E/A
-= 832--864 MeV) and paired two-flavour matter stays above 930 MeV, so
-ordinary nuclei are stable. Larger gaps (90--125 MeV at fixed a\ensuremath{_{4}}) push
-\ensuremath{\Lambda}\ensuremath{_{1}}.\ensuremath{_{4}} to 652--1124, above the GW170817 limit. The observed stars set the
-band, so they are not evidence for it. The prediction is the gap itself,
-to be tested by an independent QCD determination.
+\hypertarget{bag-constant-from-hadron-spectroscopy}{%
+\subsection{1. Bag constant from hadron spectroscopy}\label{bag-constant-from-hadron-spectroscopy}}
 
-\subsection{1. Bag constant from hadron spectroscopy}
-
-The MIT bag energy (Chodos et al.~1974; DeGrand et al.~1975) is E =
-(4\ensuremath{\pi}/3)BR\ensuremath{^{3}} + (3x\ensuremath{_{0}} \ensuremath{-} Z\ensuremath{_{0}})/R plus a colour-magnetic term, with x\ensuremath{_{0}} = 2.0428
-for massless quarks. We keep three established ingredients and set Z\ensuremath{_{0}} =
-0:
+The MIT bag energy (Chodos et al.~1974; DeGrand et al.~1975) is E = (4\ensuremath{\pi}/3)BR\ensuremath{^{3}} + (3x\ensuremath{_{0}} \ensuremath{-} Z\ensuremath{_{0}})/R plus a colour-magnetic term, with x\ensuremath{_{0}} = 2.0428 for massless quarks. We keep three established ingredients and set Z\ensuremath{_{0}} = 0:
 
 \begin{itemize}
 \tightlist
 \item
-  the centre-of-mass correction M = \ensuremath{\surd}(E\ensuremath{^{2}} \ensuremath{-} \ensuremath{\langle}P\ensuremath{^{2}}\ensuremath{\rangle}) (Donoghue and Johnson
-  1980);
+  the centre-of-mass correction M = \ensuremath{\surd}(E\ensuremath{^{2}} \ensuremath{-} \ensuremath{\langle}P\ensuremath{^{2}}\ensuremath{\rangle}) (Donoghue and Johnson 1980);
 \item
-  the pion cloud of the cloudy bag model (Théberge, Thomas and Miller
-  1980), with the measured pion--nucleon coupling f\ensuremath{^{2}}/4\ensuremath{\pi} = 0.0778;
+  the pion cloud of the cloudy bag model (Théberge, Thomas and Miller 1980), with the measured pion--nucleon coupling f\ensuremath{^{2}}/4\ensuremath{\pi} = 0.0778;
 \item
   the colour-magnetic interaction.
 \end{itemize}
 
-The two unknowns, B and \ensuremath{\alpha}\textsubscript{c}, are fitted to
-M\textsubscript{N} = 938.9 MeV and M\textsubscript{\ensuremath{\Delta}} = 1232.0 MeV, and
-each radius is set by its own pressure balance. As a check, the 1975
-setup (Z\ensuremath{_{0}} = 1.84, no correction, no cloud) gives B\textsuperscript{1/4}
-= 146 MeV, close to the original 145 MeV.
+The two unknowns, B and \ensuremath{\alpha}\textsubscript{c}, are fitted to M\textsubscript{N} = 938.9 MeV and M\textsubscript{\ensuremath{\Delta}} = 1232.0 MeV, and each radius is set by its own pressure balance. As a check, the 1975 setup (Z\ensuremath{_{0}} = 1.84, no correction, no cloud) gives B\textsuperscript{1/4} = 146 MeV, close to the original 145 MeV.
 
-The full model gives B = 60.1 MeV fm\ensuremath{^{-}}\ensuremath{^{3}} (B\textsuperscript{1/4} = 147
-MeV), \ensuremath{\alpha}\textsubscript{c} = 1.55 and a proton bag radius of 0.995 fm.
-Moving the pion--nucleon coupling by \ensuremath{\pm}5\% gives B = 57.1--63.7 MeV fm\ensuremath{^{-}}\ensuremath{^{3}}.
-No compact-star input enters.
+The full model gives B = 60.1 MeV fm\ensuremath{^{-}}\ensuremath{^{3}} (B\textsuperscript{1/4} = 147 MeV), \ensuremath{\alpha}\textsubscript{c} = 1.55 and a proton bag radius of 0.995 fm. Moving the pion--nucleon coupling by \ensuremath{\pm}5\% gives B = 57.1--63.7 MeV fm\ensuremath{^{-}}\ensuremath{^{3}}. No compact-star input enters.
 
-\subsection{2. Quark matter and stellar structure}
+\hypertarget{quark-matter-and-stellar-structure}{%
+\subsection{2. Quark matter and stellar structure}\label{quark-matter-and-stellar-structure}}
 
-The pressure of three-flavour quark matter is (Alford, Braby, Paris and
-Reddy 2005)
+The pressure of three-flavour quark matter is (Alford, Braby, Paris and Reddy 2005)
 
 P(\ensuremath{\mu}) = (3/4\ensuremath{\pi}\ensuremath{^{2}}){[}a\ensuremath{_{4}} \ensuremath{\mu}\ensuremath{^{4}} \ensuremath{-} (m\textsubscript{s}\ensuremath{^{2}} \ensuremath{-} 4\ensuremath{\Delta}\ensuremath{^{2}}) \ensuremath{\mu}\ensuremath{^{2}}{]} \ensuremath{-} B,
 
-where a\ensuremath{_{4}} = 1 \ensuremath{-} 2\ensuremath{\alpha}\textsubscript{s}/\ensuremath{\pi}. \ensuremath{\alpha}\textsubscript{s} is run at two
-loops from \ensuremath{\alpha}\textsubscript{s}(M\textsubscript{Z}) = 0.1180 to the scale
-3\ensuremath{\mu}. The quark density is n = dP/d\ensuremath{\mu} and the energy density is \ensuremath{\varepsilon} = \ensuremath{\mu}n \ensuremath{-} P,
-so the equation of state is thermodynamically consistent. We solve the
-TOV equations, and the tidal Love number from Hinderer's equation
-(Hinderer 2008) with the surface-density correction for self-bound stars
-(Postnikov, Prakash and Lattimer 2010).
+where a\ensuremath{_{4}} = 1 \ensuremath{-} 2\ensuremath{\alpha}\textsubscript{s}/\ensuremath{\pi}. \ensuremath{\alpha}\textsubscript{s} is run at two loops from \ensuremath{\alpha}\textsubscript{s}(M\textsubscript{Z}) = 0.1180 to the scale 3\ensuremath{\mu}. The quark density is n = dP/d\ensuremath{\mu} and the energy density is \ensuremath{\varepsilon} = \ensuremath{\mu}n \ensuremath{-} P, so the equation of state is thermodynamically consistent. We solve the TOV equations, and the tidal Love number from Hinderer's equation (Hinderer 2008) with the surface-density correction for self-bound stars (Postnikov, Prakash and Lattimer 2010).
 
-\subsection{3. Results}
+\hypertarget{results}{%
+\subsection{3. Results}\label{results}}
 
-Without pairing, the heaviest star is 1.54--1.80 M\ensuremath{_{\odot}} across the B band,
-which fails PSR J0740+6620 (Cromartie et al.~2020; Fonseca et al.~2021).
-Unpaired strange matter is also unbound (E/A = 940--962 MeV).
+Without pairing, the heaviest star is 1.54--1.80 M\ensuremath{_{\odot}} across the B band, which fails PSR J0740+6620 (Cromartie et al.~2020; Fonseca et al.~2021). Unpaired strange matter is also unbound (E/A = 940--962 MeV).
 
 With CFL pairing at m\textsubscript{s} = 100 MeV and B = 60.1 MeV fm\ensuremath{^{-}}\ensuremath{^{3}}:
 
-{\def\LTcaptype{none} % do not increment counter
 \begin{longtable}[]{@{}llll@{}}
 \toprule\noalign{}
 \ensuremath{\Delta} (MeV) & M\textsubscript{max} (M\ensuremath{_{\odot}}) & \ensuremath{\Lambda}\ensuremath{_{1}}.\ensuremath{_{4}} & E/A, CFL (MeV) \\
@@ -185,100 +179,61 @@ With CFL pairing at m\textsubscript{s} = 100 MeV and B = 60.1 MeV fm\ensuremath{
 82 & 2.004 & 459 & 864.1 \\
 97 & 2.125 & 575 & 832.1 \\
 \end{longtable}
-}
 
-These values come from an independent solver (script
-\texttt{cfl\_gap\_and\_tides\_2026-11-25.py}, run through
-\texttt{refinement\_checks\_2026-11-25.py}). They agree with the
-original scan (\texttt{pairing\_gap\_scan\_2026-11-14.py}) to 0.01 M\ensuremath{_{\odot}}
-and about 3\% in \ensuremath{\Lambda}.
+These values come from an independent solver (script \texttt{cfl\_gap\_and\_tides\_2026-11-25.py}, run through \texttt{refinement\_checks\_2026-11-25.py}). They agree with the original scan (\texttt{pairing\_gap\_scan\_2026-11-14.py}) to 0.01 M\ensuremath{_{\odot}} and about 3\% in \ensuremath{\Lambda}.
 
-Across B = 57.1--63.7 MeV fm\ensuremath{^{-}}\ensuremath{^{3}} the band moves to about 75--108 MeV.
-Because the stars fix the combination 4\ensuremath{\Delta}\ensuremath{^{2}} \ensuremath{-} m\textsubscript{s}\ensuremath{^{2}} \ensuremath{\approx}
-1.7--2.8 \ensuremath{\times} 10\ensuremath{^{4}} MeV\ensuremath{^{2}}, a running strange mass of 120--140 MeV corresponds
-to \ensuremath{\Delta} \ensuremath{\approx} 88--109 MeV.
+Across B = 57.1--63.7 MeV fm\ensuremath{^{-}}\ensuremath{^{3}} the band moves to about 75--108 MeV. Because the stars fix the combination 4\ensuremath{\Delta}\ensuremath{^{2}} \ensuremath{-} m\textsubscript{s}\ensuremath{^{2}} \ensuremath{\approx} 1.7--2.8 \ensuremath{\times} 10\ensuremath{^{4}} MeV\ensuremath{^{2}}, a running strange mass of 120--140 MeV corresponds to \ensuremath{\Delta} \ensuremath{\approx} 88--109 MeV.
 
-\textbf{Ground state.} At B = 60.1, two-flavour matter with 2SC pairing
-at the same gap has E/A = 954--969 MeV, above the 930 MeV of iron, so
-ordinary nuclei are stable (\texttt{ns\_ground\_state\_2026-11-18.py}).
-At the low edge of B the margin over 930 MeV shrinks to 5--7 MeV.
+\textbf{Ground state.} At B = 60.1, two-flavour matter with 2SC pairing at the same gap has E/A = 954--969 MeV, above the 930 MeV of iron, so ordinary nuclei are stable (\texttt{ns\_ground\_state\_2026-11-18.py}). At the low edge of B the margin over 930 MeV shrinks to 5--7 MeV.
 
-\textbf{Larger gaps fail.} At fixed a\ensuremath{_{4}} (0.70--1.00) and
-m\textsubscript{s} = 95 MeV, gaps of 90--125 MeV give heaviest stars of
-2.20--2.61 M\ensuremath{_{\odot}} but \ensuremath{\Lambda}\ensuremath{_{1}}.\ensuremath{_{4}} = 652--1124. That is above the GW170817 limit of
-about 580 (Abbott et al.~2018) unless the 1.4 M\ensuremath{_{\odot}} stars sit on a separate
-hadronic branch (Drago, Lavagno and Pagliara 2014).
+\textbf{Larger gaps fail.} At fixed a\ensuremath{_{4}} (0.70--1.00) and m\textsubscript{s} = 95 MeV, gaps of 90--125 MeV give heaviest stars of 2.20--2.61 M\ensuremath{_{\odot}} but \ensuremath{\Lambda}\ensuremath{_{1}}.\ensuremath{_{4}} = 652--1124. That is above the GW170817 limit of about 580 (Abbott et al.~2018) unless the 1.4 M\ensuremath{_{\odot}} stars sit on a separate hadronic branch (Drago, Lavagno and Pagliara 2014).
 
-\subsection{4. What is and is not tested}
+\hypertarget{what-is-and-is-not-tested}{%
+\subsection{4. What is and is not tested}\label{what-is-and-is-not-tested}}
 
-The gap band was chosen so that the stars pass, so the star masses and
-\ensuremath{\Lambda}\ensuremath{_{1}}.\ensuremath{_{4}} are not evidence for it. The testable statement is the band itself.
-A first-principles determination at \ensuremath{\mu} \ensuremath{\approx} 400--500 MeV that puts 4\ensuremath{\Delta}\ensuremath{^{2}} \ensuremath{-}
-m\textsubscript{s}\ensuremath{^{2}} outside 1.7--2.8 \ensuremath{\times} 10\ensuremath{^{4}} MeV\ensuremath{^{2}} would rule out this
-branch. So would a firmly measured compact star well above 2.15 M\ensuremath{_{\odot}}: PSR
-J0952\ensuremath{-}0607 at 2.35 \ensuremath{\pm} 0.17 M\ensuremath{_{\odot}} (Romani et al.~2022) and the 2.6 M\ensuremath{_{\odot}} object
-in GW190814 are the cases to watch. Functional-renormalisation-group,
-Dyson--Schwinger and effective-theory estimates currently span 50--150
-MeV.
+The gap band was chosen so that the stars pass, so the star masses and \ensuremath{\Lambda}\ensuremath{_{1}}.\ensuremath{_{4}} are not evidence for it. The testable statement is the band itself. A first-principles determination at \ensuremath{\mu} \ensuremath{\approx} 400--500 MeV that puts 4\ensuremath{\Delta}\ensuremath{^{2}} \ensuremath{-} m\textsubscript{s}\ensuremath{^{2}} outside 1.7--2.8 \ensuremath{\times} 10\ensuremath{^{4}} MeV\ensuremath{^{2}} would rule out this branch. So would a firmly measured compact star well above 2.15 M\ensuremath{_{\odot}}: PSR J0952\ensuremath{-}0607 at 2.35 \ensuremath{\pm} 0.17 M\ensuremath{_{\odot}} (Romani et al.~2022) and the 2.6 M\ensuremath{_{\odot}} object in GW190814 are the cases to watch. Functional-renormalisation-group, Dyson--Schwinger and effective-theory estimates currently span 50--150 MeV.
 
-\subsection{Data and code}
+\hypertarget{data-and-code}{%
+\subsection{Data and code}\label{data-and-code}}
 
-All scripts and saved outputs are in the TRPG code archive,
-doi:10.5281/zenodo.24329239 (all versions), in \texttt{code/} and
-\texttt{analysis/}. This result is one component of the framework
-described in Gelfman and Behrends-Gelfman, doi:10.5281/zenodo.24330763.
+All scripts and saved outputs are in the TRPG code archive, doi:10.5281/zenodo.24329239 (all versions), in \texttt{code/} and \texttt{analysis/}. This result is one component of the framework described in Gelfman and Behrends-Gelfman, doi:10.5281/zenodo.24330763.
 
-\subsection{Acknowledgements}
+\hypertarget{acknowledgements}{%
+\subsection{Acknowledgements}\label{acknowledgements}}
 
-Due to medical necessity, AI language-model assistants were used, under
-the authors' direction, to draft and edit text from the authors' ideas,
-to carry out and check calculations, and to search the literature; every
-result was checked by rerunning the published code. The authors reviewed
-all content and take full responsibility for it.
+Due to medical necessity, AI language-model assistants were used, under the authors' direction, to draft and edit text from the authors' ideas, to carry out and check calculations, and to search the literature; every result was checked by rerunning the published code. The authors reviewed all content and take full responsibility for it.
 
-\subsection{References}
+This paper is licensed under CC BY 4.0; its scripts and data are under the MIT License.
+
+\hypertarget{references}{%
+\subsection{References}\label{references}}
 
 \begin{itemize}
 \tightlist
 \item
-  Abbott, B. P. et al.~(2018). GW170817: measurements of neutron star
-  radii and equation of state. \emph{Phys. Rev.~Lett.} 121, 161101.
+  Abbott, B. P. et al.~(2018). GW170817: measurements of neutron star radii and equation of state. \emph{Phys. Rev.~Lett.} 121, 161101.
 \item
-  Alford, M., Braby, M., Paris, M. and Reddy, S. (2005). Hybrid stars
-  that masquerade as neutron stars. \emph{Astrophys. J.} 629, 969.
+  Alford, M., Braby, M., Paris, M. and Reddy, S. (2005). Hybrid stars that masquerade as neutron stars. \emph{Astrophys. J.} 629, 969.
 \item
-  Chodos, A., Jaffe, R. L., Johnson, K., Thorn, C. B. and Weisskopf, V.
-  F. (1974). New extended model of hadrons. \emph{Phys. Rev.~D} 9, 3471.
+  Chodos, A., Jaffe, R. L., Johnson, K., Thorn, C. B. and Weisskopf, V. F. (1974). New extended model of hadrons. \emph{Phys. Rev.~D} 9, 3471.
 \item
-  Cromartie, H. T. et al.~(2020). Relativistic Shapiro delay
-  measurements of an extremely massive millisecond pulsar. \emph{Nature
-  Astron.} 4, 72.
+  Cromartie, H. T. et al.~(2020). Relativistic Shapiro delay measurements of an extremely massive millisecond pulsar. \emph{Nature Astron.} 4, 72.
 \item
-  DeGrand, T., Jaffe, R. L., Johnson, K. and Kiskis, J. (1975). Masses
-  and other parameters of the light hadrons. \emph{Phys. Rev.~D} 12,
-  2060.
+  DeGrand, T., Jaffe, R. L., Johnson, K. and Kiskis, J. (1975). Masses and other parameters of the light hadrons. \emph{Phys. Rev.~D} 12, 2060.
 \item
-  Donoghue, J. F. and Johnson, K. (1980). Pion and nucleon form factors
-  in the bag model. \emph{Phys. Rev.~D} 21, 1975.
+  Donoghue, J. F. and Johnson, K. (1980). The pion and an improved static bag model. \emph{Phys. Rev.~D} 21, 1975.
 \item
-  Drago, A., Lavagno, A. and Pagliara, G. (2014). Can very compact and
-  very massive neutron stars both exist? \emph{Phys. Rev.~D} 89, 043014.
+  Drago, A., Lavagno, A. and Pagliara, G. (2014). Can very compact and very massive neutron stars both exist? \emph{Phys. Rev.~D} 89, 043014.
 \item
-  Fonseca, E. et al.~(2021). Refined mass and geometric measurements of
-  the high-mass PSR J0740+6620. \emph{Astrophys. J. Lett.} 915, L12.
+  Fonseca, E. et al.~(2021). Refined mass and geometric measurements of the high-mass PSR J0740+6620. \emph{Astrophys. J. Lett.} 915, L12.
 \item
-  Hinderer, T. (2008). Tidal Love numbers of neutron stars.
-  \emph{Astrophys. J.} 677, 1216.
+  Hinderer, T. (2008). Tidal Love numbers of neutron stars. \emph{Astrophys. J.} 677, 1216.
 \item
-  Postnikov, S., Prakash, M. and Lattimer, J. M. (2010). Tidal Love
-  numbers of neutron and self-bound quark stars. \emph{Phys. Rev.~D} 82,
-  024016.
+  Postnikov, S., Prakash, M. and Lattimer, J. M. (2010). Tidal Love numbers of neutron and self-bound quark stars. \emph{Phys. Rev.~D} 82, 024016.
 \item
-  Romani, R. W. et al.~(2022). PSR J0952\ensuremath{-}0607: the fastest and heaviest
-  known Galactic neutron star. \emph{Astrophys. J. Lett.} 934, L17.
+  Romani, R. W. et al.~(2022). PSR J0952\ensuremath{-}0607: the fastest and heaviest known Galactic neutron star. \emph{Astrophys. J. Lett.} 934, L17.
 \item
-  Théberge, S., Thomas, A. W. and Miller, G. A. (1980). Pionic
-  corrections to the MIT bag model. \emph{Phys. Rev.~D} 22, 2838.
+  Théberge, S., Thomas, A. W. and Miller, G. A. (1980). The cloudy bag model. I. The (3,3) resonance. \emph{Phys. Rev.~D} 22, 2838.
 \end{itemize}
 
 \end{document}

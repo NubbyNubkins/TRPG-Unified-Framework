@@ -83,7 +83,7 @@ All 24 core scripts run in about 10 to 15 minutes on a normal computer (tested w
 
 | Folder | Contents |
 |---|---|
-| `docs/` | The paper (version 1.4.4, 27 November 2026) in PDF, Word and Markdown (the Markdown and LaTeX sources are those of 1.4.3 and have not yet been brought into line with the 1.4.4 corrections); `docs/story/` holds the framework told as a book; `docs/theories/` holds nine other theories of everything, each as a story, and a comparison |
+| `docs/` | The paper (version 1.4.4, 27 November 2026) in PDF, Word and Markdown; `docs/story/` holds the framework told as a book; `docs/theories/` holds nine other theories of everything, each as a story, and a comparison |
 | `code/` | The 24 core calculation scripts, run by `run_all.py` |
 | `analysis/` | Every later test script (14 to 27 November 2026) with its saved output beside it |
 | `data/` | The particle workbooks: every particle to every particle, quark and gluon, energy, size and three-way carrier matrices |

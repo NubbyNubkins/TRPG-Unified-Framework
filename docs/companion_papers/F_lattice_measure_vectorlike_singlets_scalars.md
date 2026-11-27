@@ -3,7 +3,7 @@ title: "Extending a gauge-invariant lattice measure for chiral fermions to vecto
 author:
   - Matthew Gelfman (ORCID 0009-0000-6402-2258)
   - Melissa Behrends-Gelfman (ORCID 0009-0001-6281-1947)
-date: "27 November 2026"
+date: "Version 1.2, 27 November 2026"
 ---
 
 ## Abstract
@@ -78,7 +78,7 @@ The scalars are added with nearest-neighbour covariant hopping and quartic poten
 Each generation contains:
 
 - 10 ⊕ 5̄ ⊕ 1, the Standard Model fermions and N^c^;
-- 5 ⊕ 5̄, the vector-like D(3,1,−1/3) and L(1,2,1/2) with their partners;
+- 5 ⊕ 5̄, the vector-like D(3,1,−1/3) and L(1,2,−1/2) with their partners;
 - one further singlet.
 
 The gauge group is SU(3) × SU(2) × U(1) only. The scalars are one Higgs doublet and a majoron field. All gauge and mixed-gravitational anomaly sums of the 27 vanish, and so do all six B − L anomaly sums. Craig's even-multiplicity condition counts SU(2) doublets on two colours of SU(5): 4 per generation in the 16 and 6 in the 27. Craig's theorem covers all three 27s directly (cubic sum 0, 6 doublets). Alternatively, his theorem for 3 × (10 ⊕ 5̄) with Lemma 1 for 3 × (5 ⊕ 5̄) gives the same content with the pair's measure explicit. Section 4 covers the rest. Correlation functions of the model are therefore defined and gauge invariant on every finite admissible lattice. With the vector-like states included, SU(3) and SU(2) remain asymptotically free at one loop: b₃ = 5 and b₂ = 7/6, against 7 and 19/6 without them.
@@ -112,13 +112,16 @@ The scripts `analysis/vectorlike_pair_measure_check_2026-11-27.py`, `analysis/bl
 
 The construction extended here is due to N. Craig. We also acknowledge M. Golterman, A. Kronfeld and Y. Shamir, whose examination of it is reported by OpenAI (2026). Due to medical necessity, AI language-model assistants were used, under the authors' direction, to draft and edit text from the authors' ideas, to carry out and check calculations, and to search the literature; every result was checked by rerunning the published code. The authors reviewed all content and take full responsibility for it.
 
+
+This paper is licensed under CC BY 4.0; its scripts and data are under the MIT License.
+
 ## References
 
 - Aizenman, M. (1981). Proof of the triviality of φ⁴_d field theory and some mean-field features of Ising models for d > 4. *Phys. Rev. Lett.* 47, 1.
 - Aizenman, M. and Duminil-Copin, H. (2021). Marginal triviality of the scaling limits of critical 4D Ising and φ⁴₄ models. *Ann. Math.* 194, 163.
 - Craig, N. (2026). A gauge-invariant measure for lattice chiral fermions. arXiv:2610.09093 [hep-lat].
 - Fröhlich, J. (1982). On the triviality of λφ⁴_d theories and the approach to the critical point in d ≥ 4 dimensions. *Nucl. Phys. B* 200, 281.
-- Gelfman, M. and Behrends-Gelfman, M. (2026). Dynamic Relational Transitioning Geometry. doi:10.5281/zenodo.24330763.
+- Gelfman, Matthew and Behrends-Gelfman, Melissa (2026). Dynamic Relational Transitioning Geometry. doi:10.5281/zenodo.24330763.
 - Ginsparg, P. H. and Wilson, K. G. (1982). A remnant of chiral symmetry on the lattice. *Phys. Rev. D* 25, 2649.
 - Hasenfratz, P., Laliena, V. and Niedermayer, F. (1998). The index theorem in QCD with a finite cut-off. *Phys. Lett. B* 427, 125.
 - Hernández, P., Jansen, K. and Lüscher, M. (1999). Locality properties of Neuberger's lattice Dirac operator. *Nucl. Phys. B* 552, 363.
@@ -127,7 +130,7 @@ The construction extended here is due to N. Craig. We also acknowledge M. Golter
 - Lüscher, M. (1999). Abelian chiral gauge theories on the lattice with exact gauge invariance. *Nucl. Phys. B* 549, 295.
 - Narayanan, R. and Neuberger, H. (1994). Chiral determinant as an overlap of two vacua. *Nucl. Phys. B* 412, 574.
 - Neuberger, H. (1998). Exactly massless quarks on the lattice. *Phys. Lett. B* 417, 141.
-- Nielsen, H. B. and Ninomiya, M. (1981). Absence of neutrinos on a lattice. *Nucl. Phys. B* 185, 20.
+- Nielsen, H. B. and Ninomiya, M. (1981). Absence of neutrinos on a lattice. I. Proof by homotopy theory. *Nucl. Phys. B* 185, 20.
 - OpenAI (2026). A step toward defining the Standard Model on a lattice. https://openai.com/index/step-toward-defining-the-standard-model (15 November 2026).
 - Osterwalder, K. and Seiler, E. (1978). Gauge field theories on a lattice. *Ann. Phys.* 110, 440.
 - Pati, J. C. and Salam, A. (1974). Lepton number as the fourth "color". *Phys. Rev. D* 10, 275.
