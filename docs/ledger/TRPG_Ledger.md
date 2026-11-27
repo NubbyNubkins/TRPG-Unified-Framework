@@ -260,6 +260,8 @@ Rechecked with independent code (`analysis/farside_charge_rule_2026-11-25.py`, `
 
 ## 7. What changed in this version
 
+**Version 1.4.2 (27 November 2026).** The paper gains Appendix B: the particle side defined on a lattice, extending Craig (2026), with companion paper F. Nothing in this ledger changed: no input, choice, prediction or score.
+
 **Version 1.4.1 (25 November 2026).** The paper's Acknowledgements now state fully how AI assistants were used. Nothing in this ledger changed.
 
 **Version 1.4.0 (25 November 2026).** The framework is restated as five rules and one bet: one matrix of relationships read in three roles (held states on the diagonal, pulls as links between them, the Higgs as the link across each state, and space and time as the geometry of the relationships); balance of pull and resistance; maximum uncertainty for the leptons; nothing extra; and a smooth start. A short stretching driven by the stiffness of space (Starobinsky, 1980) is kept as the alternative start: it predicts r = 0.0040 ± 0.0003 and n_s = 0.963, which agrees with the CMB alone but is 3.2–4.2σ low once DESI is combined, so the main line follows the combined data and keeps the tilt as a measured input. With the alternative the count would be 33 today and seven choices (the far-side decay coupling and ξ); on the main line it stays 32 and six. Also added: the exact right-angled quark triangle as a lead (row above), a tested charge rule for the far-side weight that does not hold, Section 6a, and in the paper Appendix A.8, where each open problem stands. No particle-physics number changed.

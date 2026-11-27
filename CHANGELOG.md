@@ -1,5 +1,19 @@
 # Changelog
 
+## 1.4.2 (27 November 2026)
+
+New paper Appendix B and companion paper F: the particle side on a lattice. No result, rule, prediction, score or count changed.
+
+- Craig (2026, arXiv:2610.09093) has proposed a smooth, gauge-invariant overlap-fermion measure for the Standard Model's left-handed fermions (10 ⊕ 5̄ of SU(5) per generation). Two lemmas extend it to the rest of the main line.
+  - **Lemma A.** In four dimensions the left-handed projector in r̄ is the image of the one in r under the fixed antiunitary map A·conj(·)·A⁻¹ with A = γ₅C⁻¹. A vector-like pair (the far-side 5 ⊕ 5̄) therefore has a canonical, phase-free, gauge-invariant measure. Checked to 10⁻¹³ on a 3⁴ SU(3) lattice; in a two-dimensional control the cancellation fails, as it must. `analysis/vectorlike_pair_measure_check_2026-11-27.py`.
+  - **Lemma B.** A global charge is exact on the lattice in every topological sector if and only if its mixed anomalies vanish. B − L, the majoron's symmetry, is exact on the 27. B and L change only by 3 in one unit of weak topology, so the lattice gives no proton decay. `analysis/bl_exact_on_lattice_2026-11-27.py`, `analysis/extras_theta_baryon_alternatives_2026-11-27.py`.
+- With these lemmas the Higgs, the mass links, the Majorana mass and the majoron field are defined at every finite spacing. The fermion integral is a Pfaffian whose sign the measure fixes.
+- Anomaly sums, Craig's even-count condition (4 doublets per generation in the 16, 6 in the 27) and the one-loop coefficients (b₃ = 5, b₂ = 7/6) are in `analysis/lattice_fit_check_2026-11-27.py`.
+- The constant phase per topological sector that Craig's measure leaves free is exactly the strong-interaction angle, which stays a measured input.
+- Only the main line is covered. The gauged B − L and 4 × 4 alternatives place the 16 in Spin(10), outside Craig's covered families.
+- **Still open:** Craig's theorem itself (a preprint), reflection positivity and the zero-spacing limit, as for the Standard Model. No number is derived.
+- The paper PDF is now produced with LibreOffice from the Word file, and the LaTeX PDF with XeLaTeX.
+
 ## 1.4.1 (25 November 2026)
 
 The paper's Acknowledgements now state fully how AI assistants were used, as arXiv asks: "Due to medical necessity, AI language-model assistants were used, under the authors' direction, to draft and edit text from the authors' ideas, to carry out and check calculations, and to search the literature; every result was checked by rerunning the published code. The authors reviewed all content and take full responsibility for it." The README says the same. No result, rule, prediction or count changed.

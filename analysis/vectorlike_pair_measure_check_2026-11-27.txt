@@ -1,0 +1,6 @@
+4D: C gamma C^-1 = -gamma^T for all mu: True
+4D: A conj(gamma_mu) A^-1 = gamma_mu: True;  A conj(g5) A^-1 = +g5 (keeps handedness): True
+4D SU(3), 3^4 lattice: || P-[U*] - A conj(P-[U]) A^-1 || = 9.61e-14  (|| P-[U] || = 22.0; H gap 0.430)
+   rank P-[U] = 486, rank P-[U*] = 486
+4D loop (24 steps, min H gap 0.400): T[R] = -0.005310 rad, T[R*] = +0.005310 rad, T[R]T[R*] phase = +1.04e-14
+2D control, SU(3) on 6^2: T[R] = +2.451502, T[R*] = -2.190171, product phase = +0.2613  (nonzero expected: no handedness-keeping map in 2D)
