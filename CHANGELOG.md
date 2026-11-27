@@ -1,5 +1,18 @@
 # Changelog
 
+## 1.4.4 (27 November 2026)
+
+Corrections from an independent audit of every number, script and citation in the main paper and companion papers A to F. Each item was checked against the scripts and the publisher or INSPIRE record before it was applied. No result, rule, prediction, score or count changed.
+
+- Compact stars (paper abstract and Section 6): at B = 60.1 MeV/fm³ the 82–97 MeV gap band gives 2.00–2.13 solar masses and Λ₁.₄ = 459–575 (`analysis/refinement_checks_2026-11-25.txt`), not 2.0–2.15 and 440–580. The observed window of 2.0–2.15 solar masses is unchanged where it is quoted as the observation.
+- The Standard-Model-only Higgs value is printed as 128.84 ± 1.45 GeV, the script's output, so the +2.6σ can be reproduced (paper Sections 4 and 9, paper C).
+- Paper E: the brute-force scan runs to N = 18, as the script does, not 24.
+- Strong coupling: 0.11873 lies 1.7σ above the predicted 0.1178 and within 1σ of the world average (the sentence read as if it were 1.7σ above the world average).
+- Measurements described exactly: MICROSCOPE's η = (−1.5 ± 2.3 ± 1.5) × 10⁻¹⁵; the proton's glue share 36% as in the published Yang et al. (2018); the Planck PR4 label on two tilt values; the isocurvature limit cited to Planck 2018 X; the 0.5% neutrino share of dark matter traced to its script; JUNO's 3σ ordering reach of about six and a half years (paper B).
+- Citations: corrected titles for Donoghue–Johnson, Freedman–McLerran, Friedberg–Lee, Hu–Barkana–Gruzinov, Hoof et al., Sumino, Théberge–Thomas–Miller, Nielsen–Ninomiya and Xing–Zhou (now the 2014 paper that gives the TM1 relation); journal details added for ten preprints now published; new entries for the Particle Data Group 2026, CODATA 2022 and Planck 2018 X.
+- Paper F: the vector-like doublet is L(1,2,−1/2), as in the other papers; both authors' first names in its self-citation.
+- Each paper states its licence (CC BY 4.0; scripts and data MIT). Appendix A.5 moved into order. Companion papers now print their versions: A 1.2, B 1.3, C 1.2, D 1.2, E 1.2, F 1.2.
+
 ## 1.4.3 (27 November 2026)
 
 Wording corrections after two outside reviews of companion papers B and F, made while preparing them for arXiv. No result, rule, prediction, score or count changed.

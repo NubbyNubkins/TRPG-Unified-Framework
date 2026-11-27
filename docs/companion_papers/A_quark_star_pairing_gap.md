@@ -3,7 +3,7 @@ title: "The colour-superconducting gap required in self-bound quark stars when t
 author:
   - Matthew Gelfman (ORCID 0009-0000-6402-2258)
   - Melissa Behrends-Gelfman (ORCID 0009-0001-6281-1947)
-date: "25 November 2026"
+date: "Version 1.2, 27 November 2026"
 ---
 
 ## Abstract
@@ -61,6 +61,9 @@ All scripts and saved outputs are in the TRPG code archive, doi:10.5281/zenodo.2
 
 Due to medical necessity, AI language-model assistants were used, under the authors' direction, to draft and edit text from the authors' ideas, to carry out and check calculations, and to search the literature; every result was checked by rerunning the published code. The authors reviewed all content and take full responsibility for it.
 
+
+This paper is licensed under CC BY 4.0; its scripts and data are under the MIT License.
+
 ## References
 
 - Abbott, B. P. et al. (2018). GW170817: measurements of neutron star radii and equation of state. *Phys. Rev. Lett.* 121, 161101.
@@ -68,10 +71,10 @@ Due to medical necessity, AI language-model assistants were used, under the auth
 - Chodos, A., Jaffe, R. L., Johnson, K., Thorn, C. B. and Weisskopf, V. F. (1974). New extended model of hadrons. *Phys. Rev. D* 9, 3471.
 - Cromartie, H. T. et al. (2020). Relativistic Shapiro delay measurements of an extremely massive millisecond pulsar. *Nature Astron.* 4, 72.
 - DeGrand, T., Jaffe, R. L., Johnson, K. and Kiskis, J. (1975). Masses and other parameters of the light hadrons. *Phys. Rev. D* 12, 2060.
-- Donoghue, J. F. and Johnson, K. (1980). Pion and nucleon form factors in the bag model. *Phys. Rev. D* 21, 1975.
+- Donoghue, J. F. and Johnson, K. (1980). The pion and an improved static bag model. *Phys. Rev. D* 21, 1975.
 - Drago, A., Lavagno, A. and Pagliara, G. (2014). Can very compact and very massive neutron stars both exist? *Phys. Rev. D* 89, 043014.
 - Fonseca, E. et al. (2021). Refined mass and geometric measurements of the high-mass PSR J0740+6620. *Astrophys. J. Lett.* 915, L12.
 - Hinderer, T. (2008). Tidal Love numbers of neutron stars. *Astrophys. J.* 677, 1216.
 - Postnikov, S., Prakash, M. and Lattimer, J. M. (2010). Tidal Love numbers of neutron and self-bound quark stars. *Phys. Rev. D* 82, 024016.
 - Romani, R. W. et al. (2022). PSR J0952−0607: the fastest and heaviest known Galactic neutron star. *Astrophys. J. Lett.* 934, L17.
-- Théberge, S., Thomas, A. W. and Miller, G. A. (1980). Pionic corrections to the MIT bag model. *Phys. Rev. D* 22, 2838.
+- Théberge, S., Thomas, A. W. and Miller, G. A. (1980). The cloudy bag model. I. The (3,3) resonance. *Phys. Rev. D* 22, 2838.
