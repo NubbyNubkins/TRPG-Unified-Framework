@@ -3,7 +3,7 @@
 **A relational, entanglement-based Theory of Everything by Matthew Gelfman and Melissa Behrends-Gelfman.**
 Website: https://trpgphysics.org
 
-TRPG is five rules and one bet (version 1.4.2; the content is that of 1.4.0, with a lattice definition of the particle side added as paper Appendix B and companion paper F).
+TRPG is five rules and one bet (version 1.4.3; the content is that of 1.4.0, with a lattice definition of the particle side added as paper Appendix B and companion paper F).
 
 - **Rule 1. One matrix of relationships**, seen one perspective at a time, with entanglement first. Matter is held states on the diagonal, forces are the links between them, the Higgs is the link across one state (its left side to its right side), and space and time are the geometry of the relationships ([`figures/relationship_matrix_diagonal_links.png`](figures/relationship_matrix_diagonal_links.png)).
 - **Rule 2. Balance.** Whatever holds together is a pull balanced by a resistance (containment); mass is that balance.
@@ -101,7 +101,7 @@ Please cite with the details in [`CITATION.cff`](CITATION.cff).
 - **Code, data and documents (this repository), all versions:** https://doi.org/10.5281/zenodo.24329239
 - **The paper, all versions:** https://doi.org/10.5281/zenodo.24330763
 
-These DOIs always resolve to the latest version. Version 1.4.2 itself: code, data and documents [10.5281/zenodo.24577279](https://doi.org/10.5281/zenodo.24577279); paper [10.5281/zenodo.24577226](https://doi.org/10.5281/zenodo.24577226). Version 1.4.1: code, data and documents [10.5281/zenodo.24552619](https://doi.org/10.5281/zenodo.24552619); paper [10.5281/zenodo.24553325](https://doi.org/10.5281/zenodo.24553325). Version 1.4.0: code [10.5281/zenodo.24551692](https://doi.org/10.5281/zenodo.24551692); paper [10.5281/zenodo.24552099](https://doi.org/10.5281/zenodo.24552099).
+These DOIs always resolve to the latest version. Version 1.4.3 itself: code, data and documents [10.5281/zenodo.24578525](https://doi.org/10.5281/zenodo.24578525); paper [10.5281/zenodo.24578777](https://doi.org/10.5281/zenodo.24578777); companion paper F version 1.1 [10.5281/zenodo.24578833](https://doi.org/10.5281/zenodo.24578833); companion paper B version 1.2 [10.5281/zenodo.24578845](https://doi.org/10.5281/zenodo.24578845). Version 1.4.2: code, data and documents [10.5281/zenodo.24577279](https://doi.org/10.5281/zenodo.24577279); paper [10.5281/zenodo.24577226](https://doi.org/10.5281/zenodo.24577226). Version 1.4.1: code, data and documents [10.5281/zenodo.24552619](https://doi.org/10.5281/zenodo.24552619); paper [10.5281/zenodo.24553325](https://doi.org/10.5281/zenodo.24553325). Version 1.4.0: code [10.5281/zenodo.24551692](https://doi.org/10.5281/zenodo.24551692); paper [10.5281/zenodo.24552099](https://doi.org/10.5281/zenodo.24552099).
 
 Companion papers (in `docs/companion_papers/`), each one component of the framework, all-versions DOIs:
 

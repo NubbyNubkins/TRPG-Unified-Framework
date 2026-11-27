@@ -22,6 +22,12 @@ identifiers:
     value: "10.5281/zenodo.24330763"
     description: "The paper, archived on Zenodo (all versions)"
   - type: doi
+    value: "10.5281/zenodo.24578525"
+    description: "Code, data and documents, version 1.4.3"
+  - type: doi
+    value: "10.5281/zenodo.24578777"
+    description: "The paper, version 1.4.3"
+  - type: doi
     value: "10.5281/zenodo.24577279"
     description: "Code, data and documents, version 1.4.2"
   - type: doi
@@ -30,6 +36,12 @@ identifiers:
   - type: doi
     value: "10.5281/zenodo.24577255"
     description: "Companion paper F (lattice measure), archived on Zenodo"
+  - type: doi
+    value: "10.5281/zenodo.24578833"
+    description: "Companion paper F (lattice measure), version 1.1"
+  - type: doi
+    value: "10.5281/zenodo.24578845"
+    description: "Companion paper B (neutrino masses), version 1.2"
 keywords:
   - "theory of everything"
   - "quantum gravity"
