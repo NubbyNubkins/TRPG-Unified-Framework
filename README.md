@@ -3,7 +3,7 @@
 **A relational, entanglement-based Theory of Everything by Matthew Gelfman and Melissa Behrends-Gelfman.**
 Website: https://trpgphysics.org
 
-TRPG is five rules and one bet (version 1.4.3; the content is that of 1.4.0, with a lattice definition of the particle side added as paper Appendix B and companion paper F).
+TRPG is five rules and one bet (version 1.4.4; the content is that of 1.4.0, with a lattice definition of the particle side added as paper Appendix B and companion paper F).
 
 - **Rule 1. One matrix of relationships**, seen one perspective at a time, with entanglement first. Matter is held states on the diagonal, forces are the links between them, the Higgs is the link across one state (its left side to its right side), and space and time are the geometry of the relationships ([`figures/relationship_matrix_diagonal_links.png`](figures/relationship_matrix_diagonal_links.png)).
 - **Rule 2. Balance.** Whatever holds together is a pull balanced by a resistance (containment); mass is that balance.
@@ -83,7 +83,7 @@ All 24 core scripts run in about 10 to 15 minutes on a normal computer (tested w
 
 | Folder | Contents |
 |---|---|
-| `docs/` | The paper (version 1.4.3, 27 November 2026) in PDF, Word and Markdown; `docs/story/` holds the framework told as a book; `docs/theories/` holds nine other theories of everything, each as a story, and a comparison |
+| `docs/` | The paper (version 1.4.4, 27 November 2026) in PDF, Word and Markdown (the Markdown and LaTeX sources are those of 1.4.3 and have not yet been brought into line with the 1.4.4 corrections); `docs/story/` holds the framework told as a book; `docs/theories/` holds nine other theories of everything, each as a story, and a comparison |
 | `code/` | The 24 core calculation scripts, run by `run_all.py` |
 | `analysis/` | Every later test script (14 to 27 November 2026) with its saved output beside it |
 | `data/` | The particle workbooks: every particle to every particle, quark and gluon, energy, size and three-way carrier matrices |

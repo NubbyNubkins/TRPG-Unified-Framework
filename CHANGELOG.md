@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.4.4 (27 November 2026)
+
+Corrections from a line-by-line audit of the paper and the six companion papers; no result changed. The paper and companion papers A to F are re-issued as Word and PDF files (paper 1.4.4; A 1.2, B 1.3, C 1.2, D 1.2, E 1.2, F 1.2). What changed:
+
+- Paper: compact-star range stated as the solver gives it (maximum mass 2.0 to 2.13 solar masses, tidal deformability 459 to 575); Higgs-mass value 128.84 +/- 1.45 GeV; proton quark kinetic energy 33%; the MICROSCOPE bound stated as a few parts in 10^15 with its measured value; the sources named for the neutrino dark-matter fraction and the isocurvature limit; the strong-coupling offset stated against the predicted 0.1178 and the world average; the Planck (PR4) label on two tilt values; Appendix A.5 moved into order; CODATA 2022 named; licence statement (papers CC BY 4.0, code and data MIT); added references (Particle Data Group 2026, CODATA 2022, Planck 2018 X).
+- Companion papers: version and date lines; the reference titles and journal details listed in the audit; B: "six and a half years"; C: Higgs-mass value as above; E: the scan runs to N = 18, as the script does; F: L(1,2,-1/2); licence statement in each.
+- The Markdown, LaTeX and arXiv sources and the LaTeX-typeset PDFs of the companion papers are those of the earlier versions and have not yet been brought into line.
+
 ## 1.4.3 (27 November 2026)
 
 Wording corrections after two outside reviews of companion papers B and F, made while preparing them for arXiv. No result, rule, prediction, score or count changed.
